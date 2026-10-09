@@ -1,0 +1,2783 @@
+{
+  "metadata": {
+    "chart_id": "chart_23",
+    "number": 23,
+    "title": "Where Seniors Now Outnumber Kids",
+    "section": "Section D: Demographics, Real Estate & Urban Drift",
+    "section_id": "section_d",
+    "visual_form": "Animated County Map",
+    "agencies": [
+      "Census"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2009,
+    "end_year": 2024,
+    "observation_count": 181,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2024-07",
+    "data_notes": "National shares from the yearly ACS. County counts use 5-year ACS averages, so each point covers the 5 years ending that year."
+  },
+  "analytics": {
+    "optimal_lag_months": -17,
+    "peak_correlation_coefficient": -0.995,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.994
+      },
+      {
+        "lag": -17,
+        "r": -0.995
+      },
+      {
+        "lag": -16,
+        "r": -0.995
+      },
+      {
+        "lag": -15,
+        "r": -0.995
+      },
+      {
+        "lag": -14,
+        "r": -0.995
+      },
+      {
+        "lag": -13,
+        "r": -0.995
+      },
+      {
+        "lag": -12,
+        "r": -0.995
+      },
+      {
+        "lag": -11,
+        "r": -0.995
+      },
+      {
+        "lag": -10,
+        "r": -0.995
+      },
+      {
+        "lag": -9,
+        "r": -0.995
+      },
+      {
+        "lag": -8,
+        "r": -0.995
+      },
+      {
+        "lag": -7,
+        "r": -0.995
+      },
+      {
+        "lag": -6,
+        "r": -0.995
+      },
+      {
+        "lag": -5,
+        "r": -0.995
+      },
+      {
+        "lag": -4,
+        "r": -0.995
+      },
+      {
+        "lag": -3,
+        "r": -0.995
+      },
+      {
+        "lag": -2,
+        "r": -0.995
+      },
+      {
+        "lag": -1,
+        "r": -0.995
+      },
+      {
+        "lag": 0,
+        "r": -0.994
+      },
+      {
+        "lag": 1,
+        "r": -0.994
+      },
+      {
+        "lag": 2,
+        "r": -0.994
+      },
+      {
+        "lag": 3,
+        "r": -0.994
+      },
+      {
+        "lag": 4,
+        "r": -0.994
+      },
+      {
+        "lag": 5,
+        "r": -0.994
+      },
+      {
+        "lag": 6,
+        "r": -0.994
+      },
+      {
+        "lag": 7,
+        "r": -0.994
+      },
+      {
+        "lag": 8,
+        "r": -0.994
+      },
+      {
+        "lag": 9,
+        "r": -0.993
+      },
+      {
+        "lag": 10,
+        "r": -0.993
+      },
+      {
+        "lag": 11,
+        "r": -0.993
+      },
+      {
+        "lag": 12,
+        "r": -0.993
+      },
+      {
+        "lag": 13,
+        "r": -0.993
+      },
+      {
+        "lag": 14,
+        "r": -0.992
+      },
+      {
+        "lag": 15,
+        "r": -0.992
+      },
+      {
+        "lag": 16,
+        "r": -0.992
+      },
+      {
+        "lag": 17,
+        "r": -0.992
+      },
+      {
+        "lag": 18,
+        "r": -0.992
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "senior_pop_share",
+      "agency": "Census",
+      "series_id": "ACS1 B01001 (65+)",
+      "label": "Share of Population Aged 65+ (Seniors)",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#8b5cf6"
+    },
+    {
+      "key": "youth_pop_share",
+      "agency": "Census",
+      "series_id": "ACS1 B01001 (<18)",
+      "label": "Share of Population Under 18 (Kids)",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#06b6d4"
+    },
+    {
+      "key": "inverted_counties",
+      "agency": "Census",
+      "series_id": "ACS5 B01001, all counties",
+      "label": "Counties Where Seniors Outnumber Kids",
+      "unit": "Count",
+      "transform": "raw",
+      "color": "#f43f5e"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2009-07-01",
+      "values": {
+        "senior_pop_share": 12.868,
+        "youth_pop_share": 24.266,
+        "inverted_counties": 296
+      },
+      "zscores": {
+        "senior_pop_share": 0.0,
+        "youth_pop_share": 0.0,
+        "inverted_counties": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "senior_pop_share": 12.885,
+        "youth_pop_share": 24.241,
+        "inverted_counties": 296.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.0,
+        "youth_pop_share": -1.0,
+        "inverted_counties": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "senior_pop_share": 12.902,
+        "youth_pop_share": 24.217,
+        "inverted_counties": 296.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.225,
+        "youth_pop_share": -1.225,
+        "inverted_counties": 1.225
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "senior_pop_share": 12.919,
+        "youth_pop_share": 24.193,
+        "inverted_counties": 297.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.342,
+        "youth_pop_share": -1.342,
+        "inverted_counties": 1.342
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "senior_pop_share": 12.936,
+        "youth_pop_share": 24.169,
+        "inverted_counties": 297.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.414,
+        "youth_pop_share": -1.414,
+        "inverted_counties": 1.414
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "senior_pop_share": 12.953,
+        "youth_pop_share": 24.144,
+        "inverted_counties": 297.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.464,
+        "youth_pop_share": -1.464,
+        "inverted_counties": 1.464
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "senior_pop_share": 12.969,
+        "youth_pop_share": 24.12,
+        "inverted_counties": 298.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.5,
+        "youth_pop_share": -1.5,
+        "inverted_counties": 1.5
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "senior_pop_share": 12.986,
+        "youth_pop_share": 24.096,
+        "inverted_counties": 298.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.528,
+        "youth_pop_share": -1.528,
+        "inverted_counties": 1.528
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "senior_pop_share": 13.003,
+        "youth_pop_share": 24.072,
+        "inverted_counties": 298.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.549,
+        "youth_pop_share": -1.549,
+        "inverted_counties": 1.549
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "senior_pop_share": 13.02,
+        "youth_pop_share": 24.047,
+        "inverted_counties": 299.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.567,
+        "youth_pop_share": -1.567,
+        "inverted_counties": 1.567
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "senior_pop_share": 13.037,
+        "youth_pop_share": 24.023,
+        "inverted_counties": 299.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.581,
+        "youth_pop_share": -1.581,
+        "inverted_counties": 1.581
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "senior_pop_share": 13.054,
+        "youth_pop_share": 23.999,
+        "inverted_counties": 299.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.593,
+        "youth_pop_share": -1.593,
+        "inverted_counties": 1.593
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "senior_pop_share": 13.07,
+        "youth_pop_share": 23.975,
+        "inverted_counties": 300
+      },
+      "zscores": {
+        "senior_pop_share": 1.604,
+        "youth_pop_share": -1.604,
+        "inverted_counties": 1.604
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "senior_pop_share": 13.088,
+        "youth_pop_share": 23.953,
+        "inverted_counties": 303.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.621,
+        "youth_pop_share": -1.589,
+        "inverted_counties": 2.783
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "senior_pop_share": 13.106,
+        "youth_pop_share": 23.932,
+        "inverted_counties": 307.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.634,
+        "youth_pop_share": -1.582,
+        "inverted_counties": 2.893
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "senior_pop_share": 13.123,
+        "youth_pop_share": 23.911,
+        "inverted_counties": 311.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.644,
+        "youth_pop_share": -1.579,
+        "inverted_counties": 2.794
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "senior_pop_share": 13.141,
+        "youth_pop_share": 23.89,
+        "inverted_counties": 314.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.652,
+        "youth_pop_share": -1.579,
+        "inverted_counties": 2.673
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "senior_pop_share": 13.159,
+        "youth_pop_share": 23.869,
+        "inverted_counties": 318.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.658,
+        "youth_pop_share": -1.581,
+        "inverted_counties": 2.565
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "senior_pop_share": 13.176,
+        "youth_pop_share": 23.847,
+        "inverted_counties": 322.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.663,
+        "youth_pop_share": -1.584,
+        "inverted_counties": 2.473
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "senior_pop_share": 13.194,
+        "youth_pop_share": 23.826,
+        "inverted_counties": 325.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.668,
+        "youth_pop_share": -1.587,
+        "inverted_counties": 2.396
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "senior_pop_share": 13.211,
+        "youth_pop_share": 23.805,
+        "inverted_counties": 329.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.671,
+        "youth_pop_share": -1.592,
+        "inverted_counties": 2.331
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "senior_pop_share": 13.229,
+        "youth_pop_share": 23.784,
+        "inverted_counties": 333.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.674,
+        "youth_pop_share": -1.596,
+        "inverted_counties": 2.275
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "senior_pop_share": 13.247,
+        "youth_pop_share": 23.763,
+        "inverted_counties": 336.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.677,
+        "youth_pop_share": -1.601,
+        "inverted_counties": 2.227
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "senior_pop_share": 13.264,
+        "youth_pop_share": 23.742,
+        "inverted_counties": 340.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.68,
+        "youth_pop_share": -1.605,
+        "inverted_counties": 2.186
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "senior_pop_share": 13.282,
+        "youth_pop_share": 23.72,
+        "inverted_counties": 344
+      },
+      "zscores": {
+        "senior_pop_share": 1.682,
+        "youth_pop_share": -1.609,
+        "inverted_counties": 2.15
+      },
+      "events": [
+        {
+          "label": "First Baby Boomers turn 65",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "senior_pop_share": 13.32,
+        "youth_pop_share": 23.7,
+        "inverted_counties": 347.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.819,
+        "youth_pop_share": -1.607,
+        "inverted_counties": 2.11
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "senior_pop_share": 13.359,
+        "youth_pop_share": 23.68,
+        "inverted_counties": 351.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.92,
+        "youth_pop_share": -1.606,
+        "inverted_counties": 2.077
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "senior_pop_share": 13.397,
+        "youth_pop_share": 23.661,
+        "inverted_counties": 354.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.993,
+        "youth_pop_share": -1.606,
+        "inverted_counties": 2.048
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "senior_pop_share": 13.435,
+        "youth_pop_share": 23.641,
+        "inverted_counties": 358.0
+      },
+      "zscores": {
+        "senior_pop_share": 2.043,
+        "youth_pop_share": -1.607,
+        "inverted_counties": 2.023
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "senior_pop_share": 13.474,
+        "youth_pop_share": 23.621,
+        "inverted_counties": 361.5
+      },
+      "zscores": {
+        "senior_pop_share": 2.075,
+        "youth_pop_share": -1.608,
+        "inverted_counties": 2.002
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "senior_pop_share": 13.512,
+        "youth_pop_share": 23.601,
+        "inverted_counties": 365.0
+      },
+      "zscores": {
+        "senior_pop_share": 2.095,
+        "youth_pop_share": -1.609,
+        "inverted_counties": 1.982
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "senior_pop_share": 13.551,
+        "youth_pop_share": 23.581,
+        "inverted_counties": 368.5
+      },
+      "zscores": {
+        "senior_pop_share": 2.106,
+        "youth_pop_share": -1.611,
+        "inverted_counties": 1.965
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "senior_pop_share": 13.589,
+        "youth_pop_share": 23.561,
+        "inverted_counties": 372.0
+      },
+      "zscores": {
+        "senior_pop_share": 2.109,
+        "youth_pop_share": -1.613,
+        "inverted_counties": 1.95
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "senior_pop_share": 13.628,
+        "youth_pop_share": 23.541,
+        "inverted_counties": 375.5
+      },
+      "zscores": {
+        "senior_pop_share": 2.108,
+        "youth_pop_share": -1.615,
+        "inverted_counties": 1.936
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "senior_pop_share": 13.666,
+        "youth_pop_share": 23.521,
+        "inverted_counties": 379.0
+      },
+      "zscores": {
+        "senior_pop_share": 2.104,
+        "youth_pop_share": -1.617,
+        "inverted_counties": 1.924
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "senior_pop_share": 13.704,
+        "youth_pop_share": 23.501,
+        "inverted_counties": 382.5
+      },
+      "zscores": {
+        "senior_pop_share": 2.097,
+        "youth_pop_share": -1.619,
+        "inverted_counties": 1.912
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "senior_pop_share": 13.743,
+        "youth_pop_share": 23.481,
+        "inverted_counties": 386
+      },
+      "zscores": {
+        "senior_pop_share": 2.081,
+        "youth_pop_share": -1.623,
+        "inverted_counties": 1.877
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "senior_pop_share": 13.775,
+        "youth_pop_share": 23.464,
+        "inverted_counties": 388.583
+      },
+      "zscores": {
+        "senior_pop_share": 2.04,
+        "youth_pop_share": -1.615,
+        "inverted_counties": 1.819
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "senior_pop_share": 13.807,
+        "youth_pop_share": 23.447,
+        "inverted_counties": 391.167
+      },
+      "zscores": {
+        "senior_pop_share": 2.002,
+        "youth_pop_share": -1.609,
+        "inverted_counties": 1.768
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "senior_pop_share": 13.839,
+        "youth_pop_share": 23.43,
+        "inverted_counties": 393.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.966,
+        "youth_pop_share": -1.604,
+        "inverted_counties": 1.723
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "senior_pop_share": 13.871,
+        "youth_pop_share": 23.413,
+        "inverted_counties": 396.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.932,
+        "youth_pop_share": -1.6,
+        "inverted_counties": 1.684
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "senior_pop_share": 13.903,
+        "youth_pop_share": 23.396,
+        "inverted_counties": 398.917
+      },
+      "zscores": {
+        "senior_pop_share": 1.901,
+        "youth_pop_share": -1.597,
+        "inverted_counties": 1.649
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "senior_pop_share": 13.936,
+        "youth_pop_share": 23.379,
+        "inverted_counties": 401.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.871,
+        "youth_pop_share": -1.595,
+        "inverted_counties": 1.619
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "senior_pop_share": 13.968,
+        "youth_pop_share": 23.362,
+        "inverted_counties": 404.083
+      },
+      "zscores": {
+        "senior_pop_share": 1.843,
+        "youth_pop_share": -1.594,
+        "inverted_counties": 1.594
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "senior_pop_share": 14.0,
+        "youth_pop_share": 23.345,
+        "inverted_counties": 406.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.817,
+        "youth_pop_share": -1.593,
+        "inverted_counties": 1.573
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "senior_pop_share": 14.032,
+        "youth_pop_share": 23.328,
+        "inverted_counties": 409.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.793,
+        "youth_pop_share": -1.593,
+        "inverted_counties": 1.556
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "senior_pop_share": 14.064,
+        "youth_pop_share": 23.311,
+        "inverted_counties": 411.833
+      },
+      "zscores": {
+        "senior_pop_share": 1.77,
+        "youth_pop_share": -1.594,
+        "inverted_counties": 1.544
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "senior_pop_share": 14.096,
+        "youth_pop_share": 23.294,
+        "inverted_counties": 414.417
+      },
+      "zscores": {
+        "senior_pop_share": 1.749,
+        "youth_pop_share": -1.594,
+        "inverted_counties": 1.537
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "senior_pop_share": 14.128,
+        "youth_pop_share": 23.277,
+        "inverted_counties": 417
+      },
+      "zscores": {
+        "senior_pop_share": 1.73,
+        "youth_pop_share": -1.595,
+        "inverted_counties": 1.536
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "senior_pop_share": 14.159,
+        "youth_pop_share": 23.261,
+        "inverted_counties": 422.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.708,
+        "youth_pop_share": -1.596,
+        "inverted_counties": 1.607
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "senior_pop_share": 14.189,
+        "youth_pop_share": 23.244,
+        "inverted_counties": 427.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.688,
+        "youth_pop_share": -1.598,
+        "inverted_counties": 1.674
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "senior_pop_share": 14.22,
+        "youth_pop_share": 23.227,
+        "inverted_counties": 432.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.67,
+        "youth_pop_share": -1.601,
+        "inverted_counties": 1.734
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "senior_pop_share": 14.25,
+        "youth_pop_share": 23.21,
+        "inverted_counties": 438.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.655,
+        "youth_pop_share": -1.604,
+        "inverted_counties": 1.787
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "senior_pop_share": 14.281,
+        "youth_pop_share": 23.193,
+        "inverted_counties": 443.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.641,
+        "youth_pop_share": -1.608,
+        "inverted_counties": 1.834
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "senior_pop_share": 14.311,
+        "youth_pop_share": 23.176,
+        "inverted_counties": 448.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.63,
+        "youth_pop_share": -1.612,
+        "inverted_counties": 1.873
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "senior_pop_share": 14.342,
+        "youth_pop_share": 23.16,
+        "inverted_counties": 453.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.621,
+        "youth_pop_share": -1.616,
+        "inverted_counties": 1.905
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "senior_pop_share": 14.372,
+        "youth_pop_share": 23.143,
+        "inverted_counties": 459.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.614,
+        "youth_pop_share": -1.621,
+        "inverted_counties": 1.93
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "senior_pop_share": 14.403,
+        "youth_pop_share": 23.126,
+        "inverted_counties": 464.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.61,
+        "youth_pop_share": -1.626,
+        "inverted_counties": 1.948
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "senior_pop_share": 14.433,
+        "youth_pop_share": 23.109,
+        "inverted_counties": 469.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.609,
+        "youth_pop_share": -1.631,
+        "inverted_counties": 1.96
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "senior_pop_share": 14.463,
+        "youth_pop_share": 23.092,
+        "inverted_counties": 474.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.61,
+        "youth_pop_share": -1.637,
+        "inverted_counties": 1.967
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "senior_pop_share": 14.494,
+        "youth_pop_share": 23.075,
+        "inverted_counties": 480
+      },
+      "zscores": {
+        "senior_pop_share": 1.615,
+        "youth_pop_share": -1.641,
+        "inverted_counties": 1.968
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "senior_pop_share": 14.524,
+        "youth_pop_share": 23.061,
+        "inverted_counties": 485.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.619,
+        "youth_pop_share": -1.632,
+        "inverted_counties": 1.96
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "senior_pop_share": 14.553,
+        "youth_pop_share": 23.047,
+        "inverted_counties": 490.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.623,
+        "youth_pop_share": -1.625,
+        "inverted_counties": 1.949
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "senior_pop_share": 14.583,
+        "youth_pop_share": 23.033,
+        "inverted_counties": 495.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.627,
+        "youth_pop_share": -1.618,
+        "inverted_counties": 1.937
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "senior_pop_share": 14.613,
+        "youth_pop_share": 23.019,
+        "inverted_counties": 500.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.632,
+        "youth_pop_share": -1.613,
+        "inverted_counties": 1.922
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "senior_pop_share": 14.643,
+        "youth_pop_share": 23.006,
+        "inverted_counties": 505.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.636,
+        "youth_pop_share": -1.608,
+        "inverted_counties": 1.907
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "senior_pop_share": 14.672,
+        "youth_pop_share": 22.992,
+        "inverted_counties": 510.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.641,
+        "youth_pop_share": -1.605,
+        "inverted_counties": 1.89
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "senior_pop_share": 14.702,
+        "youth_pop_share": 22.978,
+        "inverted_counties": 515.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.645,
+        "youth_pop_share": -1.602,
+        "inverted_counties": 1.873
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "senior_pop_share": 14.732,
+        "youth_pop_share": 22.964,
+        "inverted_counties": 520.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.65,
+        "youth_pop_share": -1.6,
+        "inverted_counties": 1.855
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "senior_pop_share": 14.761,
+        "youth_pop_share": 22.95,
+        "inverted_counties": 525.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.653,
+        "youth_pop_share": -1.599,
+        "inverted_counties": 1.836
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "senior_pop_share": 14.791,
+        "youth_pop_share": 22.936,
+        "inverted_counties": 530.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.656,
+        "youth_pop_share": -1.598,
+        "inverted_counties": 1.818
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "senior_pop_share": 14.821,
+        "youth_pop_share": 22.922,
+        "inverted_counties": 535.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.659,
+        "youth_pop_share": -1.597,
+        "inverted_counties": 1.8
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "senior_pop_share": 14.851,
+        "youth_pop_share": 22.908,
+        "inverted_counties": 540
+      },
+      "zscores": {
+        "senior_pop_share": 1.66,
+        "youth_pop_share": -1.596,
+        "inverted_counties": 1.782
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "senior_pop_share": 14.882,
+        "youth_pop_share": 22.898,
+        "inverted_counties": 545.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.668,
+        "youth_pop_share": -1.574,
+        "inverted_counties": 1.778
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "senior_pop_share": 14.914,
+        "youth_pop_share": 22.888,
+        "inverted_counties": 551.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.674,
+        "youth_pop_share": -1.554,
+        "inverted_counties": 1.774
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "senior_pop_share": 14.946,
+        "youth_pop_share": 22.878,
+        "inverted_counties": 557.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.681,
+        "youth_pop_share": -1.538,
+        "inverted_counties": 1.769
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "senior_pop_share": 14.977,
+        "youth_pop_share": 22.868,
+        "inverted_counties": 563.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.686,
+        "youth_pop_share": -1.523,
+        "inverted_counties": 1.764
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "senior_pop_share": 15.009,
+        "youth_pop_share": 22.858,
+        "inverted_counties": 568.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.691,
+        "youth_pop_share": -1.511,
+        "inverted_counties": 1.759
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "senior_pop_share": 15.041,
+        "youth_pop_share": 22.848,
+        "inverted_counties": 574.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.696,
+        "youth_pop_share": -1.501,
+        "inverted_counties": 1.754
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "senior_pop_share": 15.072,
+        "youth_pop_share": 22.839,
+        "inverted_counties": 580.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.7,
+        "youth_pop_share": -1.494,
+        "inverted_counties": 1.749
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "senior_pop_share": 15.104,
+        "youth_pop_share": 22.829,
+        "inverted_counties": 586.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.703,
+        "youth_pop_share": -1.488,
+        "inverted_counties": 1.745
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "senior_pop_share": 15.136,
+        "youth_pop_share": 22.819,
+        "inverted_counties": 591.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.706,
+        "youth_pop_share": -1.484,
+        "inverted_counties": 1.742
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "senior_pop_share": 15.167,
+        "youth_pop_share": 22.809,
+        "inverted_counties": 597.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.708,
+        "youth_pop_share": -1.482,
+        "inverted_counties": 1.74
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "senior_pop_share": 15.199,
+        "youth_pop_share": 22.799,
+        "inverted_counties": 603.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.709,
+        "youth_pop_share": -1.482,
+        "inverted_counties": 1.74
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "senior_pop_share": 15.231,
+        "youth_pop_share": 22.789,
+        "inverted_counties": 609
+      },
+      "zscores": {
+        "senior_pop_share": 1.71,
+        "youth_pop_share": -1.484,
+        "inverted_counties": 1.741
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "senior_pop_share": 15.262,
+        "youth_pop_share": 22.774,
+        "inverted_counties": 616.083
+      },
+      "zscores": {
+        "senior_pop_share": 1.708,
+        "youth_pop_share": -1.52,
+        "inverted_counties": 1.763
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "senior_pop_share": 15.293,
+        "youth_pop_share": 22.759,
+        "inverted_counties": 623.167
+      },
+      "zscores": {
+        "senior_pop_share": 1.706,
+        "youth_pop_share": -1.555,
+        "inverted_counties": 1.782
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "senior_pop_share": 15.323,
+        "youth_pop_share": 22.745,
+        "inverted_counties": 630.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.704,
+        "youth_pop_share": -1.59,
+        "inverted_counties": 1.797
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "senior_pop_share": 15.354,
+        "youth_pop_share": 22.73,
+        "inverted_counties": 637.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.702,
+        "youth_pop_share": -1.623,
+        "inverted_counties": 1.809
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "senior_pop_share": 15.385,
+        "youth_pop_share": 22.715,
+        "inverted_counties": 644.417
+      },
+      "zscores": {
+        "senior_pop_share": 1.7,
+        "youth_pop_share": -1.654,
+        "inverted_counties": 1.818
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "senior_pop_share": 15.416,
+        "youth_pop_share": 22.7,
+        "inverted_counties": 651.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.698,
+        "youth_pop_share": -1.684,
+        "inverted_counties": 1.824
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "senior_pop_share": 15.447,
+        "youth_pop_share": 22.685,
+        "inverted_counties": 658.583
+      },
+      "zscores": {
+        "senior_pop_share": 1.696,
+        "youth_pop_share": -1.711,
+        "inverted_counties": 1.828
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "senior_pop_share": 15.478,
+        "youth_pop_share": 22.67,
+        "inverted_counties": 665.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.694,
+        "youth_pop_share": -1.735,
+        "inverted_counties": 1.829
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "senior_pop_share": 15.509,
+        "youth_pop_share": 22.656,
+        "inverted_counties": 672.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.692,
+        "youth_pop_share": -1.756,
+        "inverted_counties": 1.828
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "senior_pop_share": 15.539,
+        "youth_pop_share": 22.641,
+        "inverted_counties": 679.833
+      },
+      "zscores": {
+        "senior_pop_share": 1.69,
+        "youth_pop_share": -1.774,
+        "inverted_counties": 1.826
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "senior_pop_share": 15.57,
+        "youth_pop_share": 22.626,
+        "inverted_counties": 686.917
+      },
+      "zscores": {
+        "senior_pop_share": 1.688,
+        "youth_pop_share": -1.788,
+        "inverted_counties": 1.822
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "senior_pop_share": 15.601,
+        "youth_pop_share": 22.611,
+        "inverted_counties": 694
+      },
+      "zscores": {
+        "senior_pop_share": 1.686,
+        "youth_pop_share": -1.798,
+        "inverted_counties": 1.817
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "senior_pop_share": 15.636,
+        "youth_pop_share": 22.595,
+        "inverted_counties": 701.083
+      },
+      "zscores": {
+        "senior_pop_share": 1.696,
+        "youth_pop_share": -1.813,
+        "inverted_counties": 1.81
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "senior_pop_share": 15.671,
+        "youth_pop_share": 22.579,
+        "inverted_counties": 708.167
+      },
+      "zscores": {
+        "senior_pop_share": 1.705,
+        "youth_pop_share": -1.825,
+        "inverted_counties": 1.804
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "senior_pop_share": 15.707,
+        "youth_pop_share": 22.563,
+        "inverted_counties": 715.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.713,
+        "youth_pop_share": -1.834,
+        "inverted_counties": 1.796
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "senior_pop_share": 15.742,
+        "youth_pop_share": 22.548,
+        "inverted_counties": 722.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.72,
+        "youth_pop_share": -1.839,
+        "inverted_counties": 1.788
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "senior_pop_share": 15.777,
+        "youth_pop_share": 22.532,
+        "inverted_counties": 729.417
+      },
+      "zscores": {
+        "senior_pop_share": 1.725,
+        "youth_pop_share": -1.842,
+        "inverted_counties": 1.78
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "senior_pop_share": 15.812,
+        "youth_pop_share": 22.516,
+        "inverted_counties": 736.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.73,
+        "youth_pop_share": -1.842,
+        "inverted_counties": 1.772
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "senior_pop_share": 15.847,
+        "youth_pop_share": 22.5,
+        "inverted_counties": 743.583
+      },
+      "zscores": {
+        "senior_pop_share": 1.734,
+        "youth_pop_share": -1.839,
+        "inverted_counties": 1.764
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "senior_pop_share": 15.883,
+        "youth_pop_share": 22.484,
+        "inverted_counties": 750.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.737,
+        "youth_pop_share": -1.834,
+        "inverted_counties": 1.756
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "senior_pop_share": 15.918,
+        "youth_pop_share": 22.468,
+        "inverted_counties": 757.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.739,
+        "youth_pop_share": -1.827,
+        "inverted_counties": 1.748
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "senior_pop_share": 15.953,
+        "youth_pop_share": 22.452,
+        "inverted_counties": 764.833
+      },
+      "zscores": {
+        "senior_pop_share": 1.741,
+        "youth_pop_share": -1.818,
+        "inverted_counties": 1.741
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "senior_pop_share": 15.988,
+        "youth_pop_share": 22.436,
+        "inverted_counties": 771.917
+      },
+      "zscores": {
+        "senior_pop_share": 1.742,
+        "youth_pop_share": -1.808,
+        "inverted_counties": 1.734
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "senior_pop_share": 16.023,
+        "youth_pop_share": 22.42,
+        "inverted_counties": 779
+      },
+      "zscores": {
+        "senior_pop_share": 1.742,
+        "youth_pop_share": -1.796,
+        "inverted_counties": 1.728
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "senior_pop_share": 16.061,
+        "youth_pop_share": 22.405,
+        "inverted_counties": 786.167
+      },
+      "zscores": {
+        "senior_pop_share": 1.749,
+        "youth_pop_share": -1.784,
+        "inverted_counties": 1.723
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "senior_pop_share": 16.098,
+        "youth_pop_share": 22.389,
+        "inverted_counties": 793.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.753,
+        "youth_pop_share": -1.772,
+        "inverted_counties": 1.718
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "senior_pop_share": 16.136,
+        "youth_pop_share": 22.373,
+        "inverted_counties": 800.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.757,
+        "youth_pop_share": -1.761,
+        "inverted_counties": 1.714
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "senior_pop_share": 16.174,
+        "youth_pop_share": 22.357,
+        "inverted_counties": 807.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.759,
+        "youth_pop_share": -1.751,
+        "inverted_counties": 1.709
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "senior_pop_share": 16.211,
+        "youth_pop_share": 22.341,
+        "inverted_counties": 814.833
+      },
+      "zscores": {
+        "senior_pop_share": 1.76,
+        "youth_pop_share": -1.741,
+        "inverted_counties": 1.705
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "senior_pop_share": 16.249,
+        "youth_pop_share": 22.325,
+        "inverted_counties": 822.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.76,
+        "youth_pop_share": -1.732,
+        "inverted_counties": 1.701
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "senior_pop_share": 16.286,
+        "youth_pop_share": 22.309,
+        "inverted_counties": 829.167
+      },
+      "zscores": {
+        "senior_pop_share": 1.759,
+        "youth_pop_share": -1.723,
+        "inverted_counties": 1.698
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "senior_pop_share": 16.324,
+        "youth_pop_share": 22.293,
+        "inverted_counties": 836.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.758,
+        "youth_pop_share": -1.716,
+        "inverted_counties": 1.695
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "senior_pop_share": 16.361,
+        "youth_pop_share": 22.278,
+        "inverted_counties": 843.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.755,
+        "youth_pop_share": -1.71,
+        "inverted_counties": 1.693
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "senior_pop_share": 16.399,
+        "youth_pop_share": 22.262,
+        "inverted_counties": 850.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.752,
+        "youth_pop_share": -1.705,
+        "inverted_counties": 1.691
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "senior_pop_share": 16.436,
+        "youth_pop_share": 22.246,
+        "inverted_counties": 857.833
+      },
+      "zscores": {
+        "senior_pop_share": 1.749,
+        "youth_pop_share": -1.701,
+        "inverted_counties": 1.69
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "senior_pop_share": 16.474,
+        "youth_pop_share": 22.23,
+        "inverted_counties": 865
+      },
+      "zscores": {
+        "senior_pop_share": 1.744,
+        "youth_pop_share": -1.699,
+        "inverted_counties": 1.69
+      },
+      "events": [
+        {
+          "label": "About 860 counties have more seniors than kids",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "senior_pop_share": 16.489,
+        "youth_pop_share": 22.226,
+        "inverted_counties": 874.083
+      },
+      "zscores": {
+        "senior_pop_share": 1.686,
+        "youth_pop_share": -1.631,
+        "inverted_counties": 1.713
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "senior_pop_share": 16.504,
+        "youth_pop_share": 22.222,
+        "inverted_counties": 883.167
+      },
+      "zscores": {
+        "senior_pop_share": 1.633,
+        "youth_pop_share": -1.569,
+        "inverted_counties": 1.733
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "senior_pop_share": 16.52,
+        "youth_pop_share": 22.219,
+        "inverted_counties": 892.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.586,
+        "youth_pop_share": -1.514,
+        "inverted_counties": 1.751
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "senior_pop_share": 16.535,
+        "youth_pop_share": 22.215,
+        "inverted_counties": 901.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.544,
+        "youth_pop_share": -1.463,
+        "inverted_counties": 1.766
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "senior_pop_share": 16.55,
+        "youth_pop_share": 22.211,
+        "inverted_counties": 910.417
+      },
+      "zscores": {
+        "senior_pop_share": 1.506,
+        "youth_pop_share": -1.417,
+        "inverted_counties": 1.778
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "senior_pop_share": 16.566,
+        "youth_pop_share": 22.207,
+        "inverted_counties": 919.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.472,
+        "youth_pop_share": -1.376,
+        "inverted_counties": 1.787
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "senior_pop_share": 16.581,
+        "youth_pop_share": 22.203,
+        "inverted_counties": 928.583
+      },
+      "zscores": {
+        "senior_pop_share": 1.442,
+        "youth_pop_share": -1.338,
+        "inverted_counties": 1.795
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "senior_pop_share": 16.596,
+        "youth_pop_share": 22.199,
+        "inverted_counties": 937.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.415,
+        "youth_pop_share": -1.303,
+        "inverted_counties": 1.8
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "senior_pop_share": 16.611,
+        "youth_pop_share": 22.196,
+        "inverted_counties": 946.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.392,
+        "youth_pop_share": -1.272,
+        "inverted_counties": 1.803
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "senior_pop_share": 16.627,
+        "youth_pop_share": 22.192,
+        "inverted_counties": 955.833
+      },
+      "zscores": {
+        "senior_pop_share": 1.372,
+        "youth_pop_share": -1.245,
+        "inverted_counties": 1.805
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "senior_pop_share": 16.642,
+        "youth_pop_share": 22.188,
+        "inverted_counties": 964.917
+      },
+      "zscores": {
+        "senior_pop_share": 1.355,
+        "youth_pop_share": -1.22,
+        "inverted_counties": 1.805
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "senior_pop_share": 16.657,
+        "youth_pop_share": 22.184,
+        "inverted_counties": 974
+      },
+      "zscores": {
+        "senior_pop_share": 1.341,
+        "youth_pop_share": -1.198,
+        "inverted_counties": 1.804
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "senior_pop_share": 16.672,
+        "youth_pop_share": 22.18,
+        "inverted_counties": 970.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.331,
+        "youth_pop_share": -1.18,
+        "inverted_counties": 1.664
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "senior_pop_share": 16.688,
+        "youth_pop_share": 22.176,
+        "inverted_counties": 967.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.322,
+        "youth_pop_share": -1.164,
+        "inverted_counties": 1.538
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "senior_pop_share": 16.703,
+        "youth_pop_share": 22.173,
+        "inverted_counties": 964.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.317,
+        "youth_pop_share": -1.151,
+        "inverted_counties": 1.423
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "senior_pop_share": 16.718,
+        "youth_pop_share": 22.169,
+        "inverted_counties": 960.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.314,
+        "youth_pop_share": -1.141,
+        "inverted_counties": 1.316
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "senior_pop_share": 16.733,
+        "youth_pop_share": 22.165,
+        "inverted_counties": 957.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.315,
+        "youth_pop_share": -1.134,
+        "inverted_counties": 1.214
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "senior_pop_share": 16.749,
+        "youth_pop_share": 22.161,
+        "inverted_counties": 954.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.318,
+        "youth_pop_share": -1.131,
+        "inverted_counties": 1.118
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "senior_pop_share": 16.764,
+        "youth_pop_share": 22.157,
+        "inverted_counties": 950.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.324,
+        "youth_pop_share": -1.131,
+        "inverted_counties": 1.024
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "senior_pop_share": 16.779,
+        "youth_pop_share": 22.154,
+        "inverted_counties": 947.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.333,
+        "youth_pop_share": -1.135,
+        "inverted_counties": 0.933
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "senior_pop_share": 16.795,
+        "youth_pop_share": 22.15,
+        "inverted_counties": 944.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.346,
+        "youth_pop_share": -1.143,
+        "inverted_counties": 0.842
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "senior_pop_share": 16.81,
+        "youth_pop_share": 22.146,
+        "inverted_counties": 940.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.361,
+        "youth_pop_share": -1.156,
+        "inverted_counties": 0.75
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "senior_pop_share": 16.825,
+        "youth_pop_share": 22.142,
+        "inverted_counties": 937.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.381,
+        "youth_pop_share": -1.174,
+        "inverted_counties": 0.657
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "senior_pop_share": 16.84,
+        "youth_pop_share": 22.138,
+        "inverted_counties": 934
+      },
+      "zscores": {
+        "senior_pop_share": 1.404,
+        "youth_pop_share": -1.198,
+        "inverted_counties": 0.562
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "senior_pop_share": 16.883,
+        "youth_pop_share": 22.102,
+        "inverted_counties": 948.083
+      },
+      "zscores": {
+        "senior_pop_share": 1.547,
+        "youth_pop_share": -1.653,
+        "inverted_counties": 0.758
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "senior_pop_share": 16.925,
+        "youth_pop_share": 22.065,
+        "inverted_counties": 962.167
+      },
+      "zscores": {
+        "senior_pop_share": 1.687,
+        "youth_pop_share": -2.089,
+        "inverted_counties": 0.967
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "senior_pop_share": 16.968,
+        "youth_pop_share": 22.029,
+        "inverted_counties": 976.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.818,
+        "youth_pop_share": -2.457,
+        "inverted_counties": 1.186
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "senior_pop_share": 17.01,
+        "youth_pop_share": 21.992,
+        "inverted_counties": 990.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.937,
+        "youth_pop_share": -2.72,
+        "inverted_counties": 1.409
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "senior_pop_share": 17.052,
+        "youth_pop_share": 21.956,
+        "inverted_counties": 1004.417
+      },
+      "zscores": {
+        "senior_pop_share": 2.038,
+        "youth_pop_share": -2.871,
+        "inverted_counties": 1.629
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "senior_pop_share": 17.095,
+        "youth_pop_share": 21.919,
+        "inverted_counties": 1018.5
+      },
+      "zscores": {
+        "senior_pop_share": 2.118,
+        "youth_pop_share": -2.927,
+        "inverted_counties": 1.838
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "senior_pop_share": 17.137,
+        "youth_pop_share": 21.883,
+        "inverted_counties": 1032.583
+      },
+      "zscores": {
+        "senior_pop_share": 2.175,
+        "youth_pop_share": -2.916,
+        "inverted_counties": 2.027
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "senior_pop_share": 17.179,
+        "youth_pop_share": 21.847,
+        "inverted_counties": 1046.667
+      },
+      "zscores": {
+        "senior_pop_share": 2.211,
+        "youth_pop_share": -2.864,
+        "inverted_counties": 2.187
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "senior_pop_share": 17.222,
+        "youth_pop_share": 21.81,
+        "inverted_counties": 1060.75
+      },
+      "zscores": {
+        "senior_pop_share": 2.226,
+        "youth_pop_share": -2.792,
+        "inverted_counties": 2.312
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "senior_pop_share": 17.264,
+        "youth_pop_share": 21.774,
+        "inverted_counties": 1074.833
+      },
+      "zscores": {
+        "senior_pop_share": 2.224,
+        "youth_pop_share": -2.709,
+        "inverted_counties": 2.401
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "senior_pop_share": 17.307,
+        "youth_pop_share": 21.737,
+        "inverted_counties": 1088.917
+      },
+      "zscores": {
+        "senior_pop_share": 2.209,
+        "youth_pop_share": -2.625,
+        "inverted_counties": 2.457
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "senior_pop_share": 17.349,
+        "youth_pop_share": 21.701,
+        "inverted_counties": 1103
+      },
+      "zscores": {
+        "senior_pop_share": 2.183,
+        "youth_pop_share": -2.541,
+        "inverted_counties": 2.482
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "senior_pop_share": 17.379,
+        "youth_pop_share": 21.7,
+        "inverted_counties": 1107.25
+      },
+      "zscores": {
+        "senior_pop_share": 2.113,
+        "youth_pop_share": -2.287,
+        "inverted_counties": 2.341
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "senior_pop_share": 17.409,
+        "youth_pop_share": 21.699,
+        "inverted_counties": 1111.5
+      },
+      "zscores": {
+        "senior_pop_share": 2.051,
+        "youth_pop_share": -2.086,
+        "inverted_counties": 2.218
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "senior_pop_share": 17.439,
+        "youth_pop_share": 21.698,
+        "inverted_counties": 1115.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.995,
+        "youth_pop_share": -1.921,
+        "inverted_counties": 2.109
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "senior_pop_share": 17.469,
+        "youth_pop_share": 21.698,
+        "inverted_counties": 1120.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.945,
+        "youth_pop_share": -1.783,
+        "inverted_counties": 2.011
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "senior_pop_share": 17.499,
+        "youth_pop_share": 21.697,
+        "inverted_counties": 1124.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.9,
+        "youth_pop_share": -1.664,
+        "inverted_counties": 1.923
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "senior_pop_share": 17.529,
+        "youth_pop_share": 21.696,
+        "inverted_counties": 1128.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.859,
+        "youth_pop_share": -1.559,
+        "inverted_counties": 1.844
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "senior_pop_share": 17.559,
+        "youth_pop_share": 21.695,
+        "inverted_counties": 1132.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.821,
+        "youth_pop_share": -1.467,
+        "inverted_counties": 1.771
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "senior_pop_share": 17.588,
+        "youth_pop_share": 21.695,
+        "inverted_counties": 1137.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.787,
+        "youth_pop_share": -1.384,
+        "inverted_counties": 1.705
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "senior_pop_share": 17.618,
+        "youth_pop_share": 21.694,
+        "inverted_counties": 1141.25
+      },
+      "zscores": {
+        "senior_pop_share": 1.756,
+        "youth_pop_share": -1.309,
+        "inverted_counties": 1.644
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "senior_pop_share": 17.648,
+        "youth_pop_share": 21.693,
+        "inverted_counties": 1145.5
+      },
+      "zscores": {
+        "senior_pop_share": 1.727,
+        "youth_pop_share": -1.24,
+        "inverted_counties": 1.588
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "senior_pop_share": 17.678,
+        "youth_pop_share": 21.692,
+        "inverted_counties": 1149.75
+      },
+      "zscores": {
+        "senior_pop_share": 1.702,
+        "youth_pop_share": -1.176,
+        "inverted_counties": 1.537
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "senior_pop_share": 17.708,
+        "youth_pop_share": 21.692,
+        "inverted_counties": 1154
+      },
+      "zscores": {
+        "senior_pop_share": 1.678,
+        "youth_pop_share": -1.118,
+        "inverted_counties": 1.49
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "senior_pop_share": 17.733,
+        "youth_pop_share": 21.671,
+        "inverted_counties": 1163.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.644,
+        "youth_pop_share": -1.156,
+        "inverted_counties": 1.504
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "senior_pop_share": 17.758,
+        "youth_pop_share": 21.65,
+        "inverted_counties": 1172.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.614,
+        "youth_pop_share": -1.193,
+        "inverted_counties": 1.515
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "senior_pop_share": 17.783,
+        "youth_pop_share": 21.629,
+        "inverted_counties": 1182.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.588,
+        "youth_pop_share": -1.229,
+        "inverted_counties": 1.525
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "senior_pop_share": 17.808,
+        "youth_pop_share": 21.609,
+        "inverted_counties": 1191.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.565,
+        "youth_pop_share": -1.266,
+        "inverted_counties": 1.533
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "senior_pop_share": 17.833,
+        "youth_pop_share": 21.588,
+        "inverted_counties": 1200.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.545,
+        "youth_pop_share": -1.303,
+        "inverted_counties": 1.54
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "senior_pop_share": 17.858,
+        "youth_pop_share": 21.567,
+        "inverted_counties": 1210.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.529,
+        "youth_pop_share": -1.342,
+        "inverted_counties": 1.549
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "senior_pop_share": 17.883,
+        "youth_pop_share": 21.546,
+        "inverted_counties": 1219.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.516,
+        "youth_pop_share": -1.382,
+        "inverted_counties": 1.558
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "senior_pop_share": 17.908,
+        "youth_pop_share": 21.526,
+        "inverted_counties": 1228.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.506,
+        "youth_pop_share": -1.426,
+        "inverted_counties": 1.571
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "senior_pop_share": 17.933,
+        "youth_pop_share": 21.505,
+        "inverted_counties": 1238.0
+      },
+      "zscores": {
+        "senior_pop_share": 1.5,
+        "youth_pop_share": -1.475,
+        "inverted_counties": 1.587
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "senior_pop_share": 17.958,
+        "youth_pop_share": 21.484,
+        "inverted_counties": 1247.333
+      },
+      "zscores": {
+        "senior_pop_share": 1.499,
+        "youth_pop_share": -1.53,
+        "inverted_counties": 1.609
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "senior_pop_share": 17.982,
+        "youth_pop_share": 21.464,
+        "inverted_counties": 1256.667
+      },
+      "zscores": {
+        "senior_pop_share": 1.502,
+        "youth_pop_share": -1.596,
+        "inverted_counties": 1.638
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "senior_pop_share": 18.007,
+        "youth_pop_share": 21.443,
+        "inverted_counties": 1266
+      },
+      "zscores": {
+        "senior_pop_share": 1.51,
+        "youth_pop_share": -1.674,
+        "inverted_counties": 1.679
+      },
+      "events": [
+        {
+          "label": "1,266 counties: seniors outnumber children",
+          "type": "policy_shift"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "summary": "America is getting older. The share of people aged 65 and over is rising while the share of children is falling. In a growing number of counties there are now more seniors than kids.",
+    "methodology": "National shares of people under 18 and 65 and over from the Census Bureau's American Community Survey (table B01001), 1-year estimates. County counts compare the same two age groups in every US county using 5-year ACS estimates, so each point covers the five years ending that year.",
+    "key_findings": [
+      {
+        "date": "2011-07-01",
+        "title": "2011: The First Boomers Turn 65",
+        "description": "Seniors were 13.2% of the population and children 23.8%. About 320 counties had more seniors than children.",
+        "significance": "The start of a long, predictable aging wave.",
+        "normalized_time": 0.1333
+      },
+      {
+        "date": "2019-07-01",
+        "title": "2019: Counties Tip Over",
+        "description": "The number of counties with more seniors than kids had nearly tripled since 2009, to about 860.",
+        "significance": "Rural counties age first, as young people move to cities.",
+        "normalized_time": 0.6667
+      },
+      {
+        "date": "2024-07-01",
+        "title": "2024: 1,266 Counties",
+        "description": "Seniors are now 18.0% of Americans and children 21.4%. In 1,266 counties, about 40% of all US counties, seniors outnumber children.",
+        "significance": "This changes demand for schools, hospitals and workers.",
+        "normalized_time": 1.0
+      }
+    ]
+  }
+}

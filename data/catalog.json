@@ -1,0 +1,735 @@
+[
+  {
+    "id": "chart_1",
+    "number": 1,
+    "title": "How a Gas Price Shock Spreads to Other Prices",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "EIA",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "2003 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.508,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Regular Gasoline Price",
+      "Overall Inflation (CPI-U)",
+      "Core Inflation (Excluding Food & Energy)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_2",
+    "number": 2,
+    "title": "Mortgage Rates, New Homes and Building Jobs",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "Census",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "1995 - 2026",
+    "optimal_lag_months": -18,
+    "peak_correlation_coefficient": 0.621,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "30-Year Mortgage Interest Rate",
+      "New Homes Being Built (Starts)",
+      "Construction Trade Jobs (Plumbers, Roofers, etc.)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_3",
+    "number": 3,
+    "title": "Two Early Warning Signs of a Recession",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "1997 - 2026",
+    "optimal_lag_months": 5,
+    "peak_correlation_coefficient": -0.419,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Corporate Borrowing Penalty (Baa Bond Yield minus 10-Yr Treasury)",
+      "Temporary Agency Help Jobs",
+      "Official US Recession (NBER)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-09"
+  },
+  {
+    "id": "chart_4",
+    "number": 4,
+    "title": "Interest Rates, Company Loans and Jobs Move Together",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "Federal Reserve",
+      "Treasury"
+    ],
+    "engine": "canvas",
+    "time_range": "2001 - 2026",
+    "optimal_lag_months": -2,
+    "peak_correlation_coefficient": 0.812,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Avg Interest Rate on US National Debt",
+      "Short-Term Business Payroll Loans (Commercial Paper)",
+      "Private Sector Jobs"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-09"
+  },
+  {
+    "id": "chart_5",
+    "number": 5,
+    "title": "What America Buys Abroad, and What It Pays",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "Census/BEA"
+    ],
+    "engine": "canvas",
+    "time_range": "2005 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.741,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "Value of Foreign Goods Imported (Monthly)",
+      "Import Price Index (Price of Goods Brought into US)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_6",
+    "number": 6,
+    "title": "Clean Grid Penetration vs. Industrial Power Costs",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Connected Animated Scatterplot with Localized Time Vector Trails",
+    "agencies": [
+      "BLS",
+      "EIA"
+    ],
+    "engine": "canvas",
+    "time_range": "2005 - 2026",
+    "optimal_lag_months": 16,
+    "peak_correlation_coefficient": 0.967,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "Clean Energy Share (Wind & Solar)",
+      "Wholesale Electricity Cost for Factories"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-07"
+  },
+  {
+    "id": "chart_7",
+    "number": 7,
+    "title": "Drought and Grocery Prices",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "NOAA"
+    ],
+    "engine": "canvas",
+    "time_range": "2000 - 2026",
+    "optimal_lag_months": -6,
+    "peak_correlation_coefficient": -0.311,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "Drought Severity Index (Negative = Severe Drought)",
+      "Supermarket Grocery Inflation (YoY)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_8",
+    "number": 8,
+    "title": "Labor Productivity vs. Real Wage Decoupling",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Divergence Wedge with Floating Value Callouts",
+    "agencies": [
+      "BLS",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "1950 - 2026",
+    "optimal_lag_months": -6,
+    "peak_correlation_coefficient": 0.978,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Worker Output Per Hour (Productivity)",
+      "Real Hourly Compensation (Adjusted for Inflation)",
+      "Corporate Profits After Tax"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-05"
+  },
+  {
+    "id": "chart_9",
+    "number": 9,
+    "title": "Driving, Gasoline and Car Insurance",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "EIA",
+      "FHWA"
+    ],
+    "engine": "canvas",
+    "time_range": "2000 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.671,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Total Miles Driven Nationwide",
+      "Gasoline Consumed Daily",
+      "Car Insurance Premiums (CPI)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-07"
+  },
+  {
+    "id": "chart_10",
+    "number": 10,
+    "title": "The Dollar, Exports and Factory Jobs",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "Census/BEA",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "2006 - 2026",
+    "optimal_lag_months": -18,
+    "peak_correlation_coefficient": 0.771,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "US Dollar Strength Index",
+      "American Goods Sold Overseas (Exports)",
+      "Factory Jobs (Machinery, Vehicles, Equipment)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_11",
+    "number": 11,
+    "title": "When Short Loans Pay More: A Recession Warning",
+    "section": "Section B: Macroeconomics, Money & Financial Conditions",
+    "section_id": "section_b",
+    "visual_form": "Bent line: one dot per loan length, green when normal, red when upside down",
+    "agencies": [
+      "FRED"
+    ],
+    "engine": "svg",
+    "time_range": "1982 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.998,
+    "key_findings_count": 3,
+    "series_count": 7,
+    "primary_series": [
+      "3-Month Treasury Rate",
+      "6-Month Treasury Rate",
+      "1-Year Treasury Rate"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-09"
+  },
+  {
+    "id": "chart_12",
+    "number": 12,
+    "title": "The Phillips Curve Phase Loop",
+    "section": "Section B: Macroeconomics, Money & Financial Conditions",
+    "section_id": "section_b",
+    "visual_form": "Animated Connected Scatterplot with time-decay trailing motion paths",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "time_range": "1965 - 2026",
+    "optimal_lag_months": -18,
+    "peak_correlation_coefficient": 0.384,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "Unemployment Rate (People Looking for Work)",
+      "Consumer Price Inflation (YoY)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_13",
+    "number": 13,
+    "title": "The Beveridge Curve (Labor Market Slack vs. Openings)",
+    "section": "Section B: Macroeconomics, Money & Financial Conditions",
+    "section_id": "section_b",
+    "visual_form": "Animated Hyperbolic Scatterplot with dynamic regression fits",
+    "agencies": [
+      "BLS",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "2000 - 2026",
+    "optimal_lag_months": 5,
+    "peak_correlation_coefficient": -0.63,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Job Openings Rate ('Help Wanted' Openings)",
+      "Unemployment Rate",
+      "Federal Reserve Benchmark Interest Rate"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_14",
+    "number": 14,
+    "title": "Real Federal Funds Rate vs. Real GDP Trajectory",
+    "section": "Section B: Macroeconomics, Money & Financial Conditions",
+    "section_id": "section_b",
+    "visual_form": "Dual-Hemisphere Bubble Velocity Chart",
+    "agencies": [
+      "BEA",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "time_range": "1975 - 2026",
+    "optimal_lag_months": -18,
+    "peak_correlation_coefficient": 0.211,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "Real Fed Interest Rate (Rate Minus Inflation)",
+      "US Economic Output Growth (Real GDP)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-05"
+  },
+  {
+    "id": "chart_15",
+    "number": 15,
+    "title": "Taxes vs. Spending: The Budget Tug-of-War",
+    "section": "Section B: Macroeconomics, Money & Financial Conditions",
+    "section_id": "section_b",
+    "visual_form": "Tug-of-war: tax money pulls one way, spending the other",
+    "agencies": [
+      "BEA",
+      "Treasury"
+    ],
+    "engine": "canvas",
+    "time_range": "1981 - 2026",
+    "optimal_lag_months": 15,
+    "peak_correlation_coefficient": 0.976,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Total National Debt",
+      "Tax Revenues Collected (Past 12 Months)",
+      "Total Federal Spending (Past 12 Months)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-05"
+  },
+  {
+    "id": "chart_16",
+    "number": 16,
+    "title": "Quit or Laid Off? Who Ends Jobs",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Tug-of-war: quits vs. layoffs",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "time_range": "2001 - 2026",
+    "optimal_lag_months": -1,
+    "peak_correlation_coefficient": 0.827,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Job Openings ('Help Wanted')",
+      "People Newly Hired This Month",
+      "People Voluntarily Quitting (Confidence)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_17",
+    "number": 17,
+    "title": "Which Prices Are Rising the Fastest?",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "time_range": "2018 - 2026",
+    "optimal_lag_months": -5,
+    "peak_correlation_coefficient": 0.812,
+    "key_findings_count": 3,
+    "series_count": 6,
+    "primary_series": [
+      "Energy & Gas",
+      "Used Cars & Trucks",
+      "Groceries & Food"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_18",
+    "number": 18,
+    "title": "Who Gets the Biggest Raises?",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "time_range": "2001 - 2026",
+    "optimal_lag_months": 1,
+    "peak_correlation_coefficient": 0.743,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Bottom 25% Earners (25th Percentile)",
+      "Middle Earner (Median)",
+      "Upper 25% Earners (75th Percentile)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-05"
+  },
+  {
+    "id": "chart_19",
+    "number": 19,
+    "title": "Where Americans Work: The Jobs Race Since 1960",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "time_range": "1960 - 2026",
+    "optimal_lag_months": 18,
+    "peak_correlation_coefficient": -0.853,
+    "key_findings_count": 3,
+    "series_count": 5,
+    "primary_series": [
+      "Healthcare & Nursing",
+      "Factory & Manufacturing",
+      "Restaurants & Hotels"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-09"
+  },
+  {
+    "id": "chart_20",
+    "number": 20,
+    "title": "Pay vs. Prices: Who Is Winning?",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Tug-of-war: pay pulls one way, prices the other",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "time_range": "2007 - 2026",
+    "optimal_lag_months": -4,
+    "peak_correlation_coefficient": 0.567,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Dollar Wage Raise (% on Paystub)",
+      "Price Increases (Inflation)",
+      "Real Buying Power (Green = Winning, Red = Losing)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-08"
+  },
+  {
+    "id": "chart_21",
+    "number": 21,
+    "title": "How the Center of America Moved West",
+    "section": "Section D: Demographics, Real Estate & Urban Drift",
+    "section_id": "section_d",
+    "visual_form": "Animated Map with Moving Center Point",
+    "agencies": [
+      "Census"
+    ],
+    "engine": "canvas",
+    "time_range": "1790 - 2020",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": -0.752,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Center Latitude (\u00b0North)",
+      "Center Longitude (\u00b0West)",
+      "Total Miles Shifted West Since 1790"
+    ],
+    "data_status": "real",
+    "latest_observation": "2020-07"
+  },
+  {
+    "id": "chart_22",
+    "number": 22,
+    "title": "How Many Years of Pay Buy a Home?",
+    "section": "Section D: Demographics, Real Estate & Urban Drift",
+    "section_id": "section_d",
+    "visual_form": "Scrollytelling Divergent Matrix Chart",
+    "agencies": [
+      "Census"
+    ],
+    "engine": "canvas",
+    "time_range": "2005 - 2024",
+    "optimal_lag_months": -10,
+    "peak_correlation_coefficient": 0.597,
+    "key_findings_count": 3,
+    "series_count": 11,
+    "primary_series": [
+      "United States (all households)",
+      "San Francisco",
+      "Los Angeles"
+    ],
+    "data_status": "real",
+    "latest_observation": "2024-07"
+  },
+  {
+    "id": "chart_23",
+    "number": 23,
+    "title": "Where Seniors Now Outnumber Kids",
+    "section": "Section D: Demographics, Real Estate & Urban Drift",
+    "section_id": "section_d",
+    "visual_form": "Animated County Map",
+    "agencies": [
+      "Census"
+    ],
+    "engine": "canvas",
+    "time_range": "2009 - 2024",
+    "optimal_lag_months": -17,
+    "peak_correlation_coefficient": -0.995,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "Share of Population Aged 65+ (Seniors)",
+      "Share of Population Under 18 (Kids)",
+      "Counties Where Seniors Outnumber Kids"
+    ],
+    "data_status": "real",
+    "latest_observation": "2024-07"
+  },
+  {
+    "id": "chart_24",
+    "number": 24,
+    "title": "Where Americans Move: Four Big Routes",
+    "section": "Section D: Demographics, Real Estate & Urban Drift",
+    "section_id": "section_d",
+    "visual_form": "Animated Map with Moving Flows",
+    "agencies": [
+      "Census"
+    ],
+    "engine": "canvas",
+    "time_range": "2005 - 2024",
+    "optimal_lag_months": 6,
+    "peak_correlation_coefficient": 0.729,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "California \u2192 Texas (Net People Moved per Year)",
+      "New York \u2192 Florida (Net People Moved per Year)",
+      "Illinois \u2192 Florida (Net People Moved per Year)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2024-07"
+  },
+  {
+    "id": "chart_25",
+    "number": 25,
+    "title": "Where America's Electricity Comes From",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "EIA"
+    ],
+    "engine": "canvas",
+    "time_range": "2001 - 2026",
+    "optimal_lag_months": 4,
+    "peak_correlation_coefficient": -0.89,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Coal Power Plants",
+      "Natural Gas Plants",
+      "Nuclear Power"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-07"
+  },
+  {
+    "id": "chart_26",
+    "number": 26,
+    "title": "Real-Time Grid Duck Curve Evolution",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "24-Hour Polar Clock Area Chart with Daily Step Interpolation",
+    "agencies": [
+      "EIA"
+    ],
+    "engine": "canvas",
+    "time_range": "2019 - 2026",
+    "optimal_lag_months": 16,
+    "peak_correlation_coefficient": -0.734,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "California Midday Power Needed from Grid (Duck Belly)",
+      "California Sunset Power Surge (Duck Neck)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-09"
+  },
+  {
+    "id": "chart_27",
+    "number": 27,
+    "title": "Groundwater: The Wells That Keep Dropping",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "Three wells: water level vs. the early 1980s",
+    "agencies": [
+      "USGS"
+    ],
+    "engine": "canvas",
+    "time_range": "1980 - 2025",
+    "optimal_lag_months": 18,
+    "peak_correlation_coefficient": 0.629,
+    "key_findings_count": 3,
+    "series_count": 3,
+    "primary_series": [
+      "High Plains South: Kansas, Oklahoma, Texas (13 wells)",
+      "High Plains North: Nebraska and North (1863 wells)",
+      "Floridan Aquifer: Florida and Georgia (56 wells)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2025-07"
+  },
+  {
+    "id": "chart_28",
+    "number": 28,
+    "title": "Why Flights Are Late",
+    "section": "Section F: Logistics, Infrastructure & Public Health",
+    "section_id": "section_f",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BTS"
+    ],
+    "engine": "canvas",
+    "time_range": "2005 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.847,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Late Arriving Aircraft Domino Delays",
+      "Airline Mechanical & Staff Delays",
+      "Air Traffic Control Congestion"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-06"
+  },
+  {
+    "id": "chart_29",
+    "number": 29,
+    "title": "Domestic Freight Corridor Flow Density",
+    "section": "Section F: Logistics, Infrastructure & Public Health",
+    "section_id": "section_f",
+    "visual_form": "Illuminated Vector Polyline Network",
+    "agencies": [
+      "BTS",
+      "BTS/AAR",
+      "BTS/ATA"
+    ],
+    "engine": "canvas",
+    "time_range": "2007 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.99,
+    "key_findings_count": 3,
+    "series_count": 4,
+    "primary_series": [
+      "Freight Transportation Services Index",
+      "Truck Tonnage Index",
+      "Rail Freight Carloads"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026-07"
+  },
+  {
+    "id": "chart_30",
+    "number": 30,
+    "title": "Healthcare Spending as a Share of GDP",
+    "section": "Section F: Logistics, Infrastructure & Public Health",
+    "section_id": "section_f",
+    "visual_form": "Dynamic Voronoi Treemap with Organic Cell Relocation",
+    "agencies": [
+      "BEA"
+    ],
+    "engine": "canvas",
+    "time_range": "1960 - 2025",
+    "optimal_lag_months": 18,
+    "peak_correlation_coefficient": 0.444,
+    "key_findings_count": 3,
+    "series_count": 2,
+    "primary_series": [
+      "Consumer Health Care Spending as Share of GDP",
+      "Prescription Drugs (Share of Health Spending)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2025-07"
+  }
+]

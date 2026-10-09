@@ -1,0 +1,4086 @@
+{
+  "metadata": {
+    "chart_id": "chart_7",
+    "number": 7,
+    "title": "Drought and Grocery Prices",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "NOAA"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2000,
+    "end_year": 2026,
+    "observation_count": 320,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08",
+    "data_notes": "River-level percentile removed: the USGS statistics service only has approved data to 2024."
+  },
+  "analytics": {
+    "optimal_lag_months": -6,
+    "peak_correlation_coefficient": -0.311,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.15
+      },
+      {
+        "lag": -17,
+        "r": -0.162
+      },
+      {
+        "lag": -16,
+        "r": -0.175
+      },
+      {
+        "lag": -15,
+        "r": -0.189
+      },
+      {
+        "lag": -14,
+        "r": -0.205
+      },
+      {
+        "lag": -13,
+        "r": -0.219
+      },
+      {
+        "lag": -12,
+        "r": -0.235
+      },
+      {
+        "lag": -11,
+        "r": -0.254
+      },
+      {
+        "lag": -10,
+        "r": -0.274
+      },
+      {
+        "lag": -9,
+        "r": -0.289
+      },
+      {
+        "lag": -8,
+        "r": -0.299
+      },
+      {
+        "lag": -7,
+        "r": -0.306
+      },
+      {
+        "lag": -6,
+        "r": -0.311
+      },
+      {
+        "lag": -5,
+        "r": -0.311
+      },
+      {
+        "lag": -4,
+        "r": -0.31
+      },
+      {
+        "lag": -3,
+        "r": -0.302
+      },
+      {
+        "lag": -2,
+        "r": -0.292
+      },
+      {
+        "lag": -1,
+        "r": -0.281
+      },
+      {
+        "lag": 0,
+        "r": -0.267
+      },
+      {
+        "lag": 1,
+        "r": -0.257
+      },
+      {
+        "lag": 2,
+        "r": -0.237
+      },
+      {
+        "lag": 3,
+        "r": -0.213
+      },
+      {
+        "lag": 4,
+        "r": -0.194
+      },
+      {
+        "lag": 5,
+        "r": -0.179
+      },
+      {
+        "lag": 6,
+        "r": -0.169
+      },
+      {
+        "lag": 7,
+        "r": -0.159
+      },
+      {
+        "lag": 8,
+        "r": -0.145
+      },
+      {
+        "lag": 9,
+        "r": -0.136
+      },
+      {
+        "lag": 10,
+        "r": -0.128
+      },
+      {
+        "lag": 11,
+        "r": -0.119
+      },
+      {
+        "lag": 12,
+        "r": -0.111
+      },
+      {
+        "lag": 13,
+        "r": -0.104
+      },
+      {
+        "lag": 14,
+        "r": -0.101
+      },
+      {
+        "lag": 15,
+        "r": -0.102
+      },
+      {
+        "lag": 16,
+        "r": -0.103
+      },
+      {
+        "lag": 17,
+        "r": -0.098
+      },
+      {
+        "lag": 18,
+        "r": -0.091
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "pdsi_drought",
+      "agency": "NOAA",
+      "series_id": "NCEI Climate at a Glance: US PDSI",
+      "label": "Drought Severity Index (Negative = Severe Drought)",
+      "unit": "Index",
+      "transform": "raw",
+      "color": "#d97706"
+    },
+    {
+      "key": "food_at_home_cpi",
+      "agency": "BLS",
+      "series_id": "CUUR0000SAF11",
+      "label": "Supermarket Grocery Inflation (YoY)",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#ef4444"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2000-01-01",
+      "values": {
+        "pdsi_drought": -4.31,
+        "food_at_home_cpi": 1.217
+      },
+      "zscores": {
+        "pdsi_drought": 0.0,
+        "food_at_home_cpi": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-02-01",
+      "values": {
+        "pdsi_drought": -5.14,
+        "food_at_home_cpi": 1.526
+      },
+      "zscores": {
+        "pdsi_drought": -1.0,
+        "food_at_home_cpi": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-03-01",
+      "values": {
+        "pdsi_drought": -5.15,
+        "food_at_home_cpi": 1.836
+      },
+      "zscores": {
+        "pdsi_drought": -0.72,
+        "food_at_home_cpi": 1.225
+      },
+      "events": []
+    },
+    {
+      "date": "2000-04-01",
+      "values": {
+        "pdsi_drought": -4.94,
+        "food_at_home_cpi": 1.835
+      },
+      "zscores": {
+        "pdsi_drought": -0.161,
+        "food_at_home_cpi": 0.902
+      },
+      "events": []
+    },
+    {
+      "date": "2000-05-01",
+      "values": {
+        "pdsi_drought": -5.02,
+        "food_at_home_cpi": 2.196
+      },
+      "zscores": {
+        "pdsi_drought": -0.347,
+        "food_at_home_cpi": 1.438
+      },
+      "events": []
+    },
+    {
+      "date": "2000-06-01",
+      "values": {
+        "pdsi_drought": -4.04,
+        "food_at_home_cpi": 2.199
+      },
+      "zscores": {
+        "pdsi_drought": 1.684,
+        "food_at_home_cpi": 1.137
+      },
+      "events": []
+    },
+    {
+      "date": "2000-07-01",
+      "values": {
+        "pdsi_drought": -4.07,
+        "food_at_home_cpi": 2.81
+      },
+      "zscores": {
+        "pdsi_drought": 1.276,
+        "food_at_home_cpi": 1.805
+      },
+      "events": []
+    },
+    {
+      "date": "2000-08-01",
+      "values": {
+        "pdsi_drought": -4.74,
+        "food_at_home_cpi": 2.925
+      },
+      "zscores": {
+        "pdsi_drought": -0.145,
+        "food_at_home_cpi": 1.55
+      },
+      "events": []
+    },
+    {
+      "date": "2000-09-01",
+      "values": {
+        "pdsi_drought": -4.69,
+        "food_at_home_cpi": 2.736
+      },
+      "zscores": {
+        "pdsi_drought": -0.03,
+        "food_at_home_cpi": 1.056
+      },
+      "events": []
+    },
+    {
+      "date": "2000-10-01",
+      "values": {
+        "pdsi_drought": -4.23,
+        "food_at_home_cpi": 2.423
+      },
+      "zscores": {
+        "pdsi_drought": 0.972,
+        "food_at_home_cpi": 0.468
+      },
+      "events": []
+    },
+    {
+      "date": "2000-11-01",
+      "values": {
+        "pdsi_drought": -3.37,
+        "food_at_home_cpi": 2.241
+      },
+      "zscores": {
+        "pdsi_drought": 2.139,
+        "food_at_home_cpi": 0.125
+      },
+      "events": []
+    },
+    {
+      "date": "2000-12-01",
+      "values": {
+        "pdsi_drought": -3.49,
+        "food_at_home_cpi": 2.902
+      },
+      "zscores": {
+        "pdsi_drought": 1.605,
+        "food_at_home_cpi": 1.249
+      },
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "pdsi_drought": -3.65,
+        "food_at_home_cpi": 3.007
+      },
+      "zscores": {
+        "pdsi_drought": 1.201,
+        "food_at_home_cpi": 1.289
+      },
+      "events": []
+    },
+    {
+      "date": "2001-02-01",
+      "values": {
+        "pdsi_drought": -3.02,
+        "food_at_home_cpi": 3.307
+      },
+      "zscores": {
+        "pdsi_drought": 1.857,
+        "food_at_home_cpi": 1.588
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "pdsi_drought": -2.66,
+        "food_at_home_cpi": 3.365
+      },
+      "zscores": {
+        "pdsi_drought": 1.965,
+        "food_at_home_cpi": 1.494
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "pdsi_drought": -2.98,
+        "food_at_home_cpi": 3.423
+      },
+      "zscores": {
+        "pdsi_drought": 1.398,
+        "food_at_home_cpi": 1.428
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "pdsi_drought": -3.11,
+        "food_at_home_cpi": 3.164
+      },
+      "zscores": {
+        "pdsi_drought": 1.147,
+        "food_at_home_cpi": 0.968
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "pdsi_drought": -2.63,
+        "food_at_home_cpi": 3.586
+      },
+      "zscores": {
+        "pdsi_drought": 1.566,
+        "food_at_home_cpi": 1.47
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "pdsi_drought": -2.53,
+        "food_at_home_cpi": 3.327
+      },
+      "zscores": {
+        "pdsi_drought": 1.529,
+        "food_at_home_cpi": 1.026
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "pdsi_drought": -2.8,
+        "food_at_home_cpi": 3.138
+      },
+      "zscores": {
+        "pdsi_drought": 1.151,
+        "food_at_home_cpi": 0.717
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "pdsi_drought": -2.67,
+        "food_at_home_cpi": 3.136
+      },
+      "zscores": {
+        "pdsi_drought": 1.217,
+        "food_at_home_cpi": 0.689
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "pdsi_drought": -2.5,
+        "food_at_home_cpi": 3.607
+      },
+      "zscores": {
+        "pdsi_drought": 1.315,
+        "food_at_home_cpi": 1.312
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "pdsi_drought": -2.72,
+        "food_at_home_cpi": 3.495
+      },
+      "zscores": {
+        "pdsi_drought": 1.027,
+        "food_at_home_cpi": 1.09
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "pdsi_drought": -2.95,
+        "food_at_home_cpi": 2.644
+      },
+      "zscores": {
+        "pdsi_drought": 0.753,
+        "food_at_home_cpi": -0.163
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "pdsi_drought": -3.31,
+        "food_at_home_cpi": 2.86
+      },
+      "zscores": {
+        "pdsi_drought": 0.353,
+        "food_at_home_cpi": 0.16
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "pdsi_drought": -3.8,
+        "food_at_home_cpi": 2.445
+      },
+      "zscores": {
+        "pdsi_drought": -0.186,
+        "food_at_home_cpi": -0.468
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "pdsi_drought": -3.18,
+        "food_at_home_cpi": 2.5
+      },
+      "zscores": {
+        "pdsi_drought": 0.502,
+        "food_at_home_cpi": -0.373
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "pdsi_drought": -3.34,
+        "food_at_home_cpi": 2.439
+      },
+      "zscores": {
+        "pdsi_drought": 0.313,
+        "food_at_home_cpi": -0.46
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "pdsi_drought": -3.1,
+        "food_at_home_cpi": 1.562
+      },
+      "zscores": {
+        "pdsi_drought": 0.578,
+        "food_at_home_cpi": -1.736
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "pdsi_drought": -3.31,
+        "food_at_home_cpi": 0.981
+      },
+      "zscores": {
+        "pdsi_drought": 0.325,
+        "food_at_home_cpi": -2.335
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "pdsi_drought": -3.54,
+        "food_at_home_cpi": 0.748
+      },
+      "zscores": {
+        "pdsi_drought": 0.049,
+        "food_at_home_cpi": -2.365
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "pdsi_drought": -3.73,
+        "food_at_home_cpi": 0.402
+      },
+      "zscores": {
+        "pdsi_drought": -0.179,
+        "food_at_home_cpi": -2.48
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "pdsi_drought": -0.04,
+        "food_at_home_cpi": 0.516
+      },
+      "zscores": {
+        "pdsi_drought": 3.427,
+        "food_at_home_cpi": -2.138
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "pdsi_drought": 0.96,
+        "food_at_home_cpi": -0.057
+      },
+      "zscores": {
+        "pdsi_drought": 3.472,
+        "food_at_home_cpi": -2.469
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "pdsi_drought": 0.72,
+        "food_at_home_cpi": 0.458
+      },
+      "zscores": {
+        "pdsi_drought": 2.827,
+        "food_at_home_cpi": -1.82
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "pdsi_drought": 1.17,
+        "food_at_home_cpi": 0.801
+      },
+      "zscores": {
+        "pdsi_drought": 2.749,
+        "food_at_home_cpi": -1.42
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "pdsi_drought": 0.77,
+        "food_at_home_cpi": 0.284
+      },
+      "zscores": {
+        "pdsi_drought": 2.241,
+        "food_at_home_cpi": -1.829
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "pdsi_drought": 1.34,
+        "food_at_home_cpi": 0.909
+      },
+      "zscores": {
+        "pdsi_drought": 2.332,
+        "food_at_home_cpi": -1.211
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "pdsi_drought": 0.98,
+        "food_at_home_cpi": 0.794
+      },
+      "zscores": {
+        "pdsi_drought": 1.968,
+        "food_at_home_cpi": -1.263
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "pdsi_drought": 0.94,
+        "food_at_home_cpi": 0.51
+      },
+      "zscores": {
+        "pdsi_drought": 1.81,
+        "food_at_home_cpi": -1.443
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "pdsi_drought": 1.1,
+        "food_at_home_cpi": 1.311
+      },
+      "zscores": {
+        "pdsi_drought": 1.77,
+        "food_at_home_cpi": -0.716
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "pdsi_drought": 1.63,
+        "food_at_home_cpi": 2.229
+      },
+      "zscores": {
+        "pdsi_drought": 1.885,
+        "food_at_home_cpi": 0.08
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "pdsi_drought": 1.61,
+        "food_at_home_cpi": 2.112
+      },
+      "zscores": {
+        "pdsi_drought": 1.74,
+        "food_at_home_cpi": -0.005
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "pdsi_drought": -0.22,
+        "food_at_home_cpi": 2.744
+      },
+      "zscores": {
+        "pdsi_drought": 0.803,
+        "food_at_home_cpi": 0.553
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "pdsi_drought": 0.31,
+        "food_at_home_cpi": 2.797
+      },
+      "zscores": {
+        "pdsi_drought": 1.011,
+        "food_at_home_cpi": 0.596
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "pdsi_drought": -0.49,
+        "food_at_home_cpi": 3.655
+      },
+      "zscores": {
+        "pdsi_drought": 0.568,
+        "food_at_home_cpi": 1.286
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "pdsi_drought": -0.37,
+        "food_at_home_cpi": 3.932
+      },
+      "zscores": {
+        "pdsi_drought": 0.591,
+        "food_at_home_cpi": 1.438
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "pdsi_drought": -0.5,
+        "food_at_home_cpi": 4.543
+      },
+      "zscores": {
+        "pdsi_drought": 0.487,
+        "food_at_home_cpi": 1.822
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "pdsi_drought": -0.74,
+        "food_at_home_cpi": 4.131
+      },
+      "zscores": {
+        "pdsi_drought": 0.325,
+        "food_at_home_cpi": 1.435
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "pdsi_drought": -0.17,
+        "food_at_home_cpi": 3.604
+      },
+      "zscores": {
+        "pdsi_drought": 0.589,
+        "food_at_home_cpi": 1.016
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "pdsi_drought": -1.28,
+        "food_at_home_cpi": 3.714
+      },
+      "zscores": {
+        "pdsi_drought": -0.024,
+        "food_at_home_cpi": 1.085
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "pdsi_drought": -1.31,
+        "food_at_home_cpi": 3.835
+      },
+      "zscores": {
+        "pdsi_drought": -0.066,
+        "food_at_home_cpi": 1.159
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "pdsi_drought": 0.21,
+        "food_at_home_cpi": 4.949
+      },
+      "zscores": {
+        "pdsi_drought": 0.718,
+        "food_at_home_cpi": 1.874
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "pdsi_drought": 0.88,
+        "food_at_home_cpi": 4.416
+      },
+      "zscores": {
+        "pdsi_drought": 1.027,
+        "food_at_home_cpi": 1.444
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "pdsi_drought": 1.51,
+        "food_at_home_cpi": 4.584
+      },
+      "zscores": {
+        "pdsi_drought": 1.292,
+        "food_at_home_cpi": 1.498
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "pdsi_drought": 2.35,
+        "food_at_home_cpi": 3.895
+      },
+      "zscores": {
+        "pdsi_drought": 1.628,
+        "food_at_home_cpi": 0.998
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "pdsi_drought": 2.65,
+        "food_at_home_cpi": 3.331
+      },
+      "zscores": {
+        "pdsi_drought": 1.664,
+        "food_at_home_cpi": 0.609
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "pdsi_drought": 3.17,
+        "food_at_home_cpi": 3.526
+      },
+      "zscores": {
+        "pdsi_drought": 1.788,
+        "food_at_home_cpi": 0.744
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "pdsi_drought": 4.01,
+        "food_at_home_cpi": 3.125
+      },
+      "zscores": {
+        "pdsi_drought": 2.021,
+        "food_at_home_cpi": 0.48
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "pdsi_drought": 4.5,
+        "food_at_home_cpi": 2.39
+      },
+      "zscores": {
+        "pdsi_drought": 2.068,
+        "food_at_home_cpi": -0.018
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "pdsi_drought": 5.0,
+        "food_at_home_cpi": 2.663
+      },
+      "zscores": {
+        "pdsi_drought": 2.114,
+        "food_at_home_cpi": 0.173
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "pdsi_drought": -0.08,
+        "food_at_home_cpi": 2.174
+      },
+      "zscores": {
+        "pdsi_drought": -0.17,
+        "food_at_home_cpi": -0.157
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "pdsi_drought": -0.34,
+        "food_at_home_cpi": 2.062
+      },
+      "zscores": {
+        "pdsi_drought": -0.337,
+        "food_at_home_cpi": -0.225
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "pdsi_drought": -0.34,
+        "food_at_home_cpi": 3.096
+      },
+      "zscores": {
+        "pdsi_drought": -0.394,
+        "food_at_home_cpi": 0.468
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "pdsi_drought": -0.33,
+        "food_at_home_cpi": 1.983
+      },
+      "zscores": {
+        "pdsi_drought": -0.447,
+        "food_at_home_cpi": -0.3
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "pdsi_drought": 0.2,
+        "food_at_home_cpi": 1.392
+      },
+      "zscores": {
+        "pdsi_drought": -0.235,
+        "food_at_home_cpi": -0.716
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "pdsi_drought": 0.11,
+        "food_at_home_cpi": 1.443
+      },
+      "zscores": {
+        "pdsi_drought": -0.369,
+        "food_at_home_cpi": -0.703
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "pdsi_drought": 0.37,
+        "food_at_home_cpi": 1.5
+      },
+      "zscores": {
+        "pdsi_drought": -0.315,
+        "food_at_home_cpi": -0.701
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "pdsi_drought": -0.79,
+        "food_at_home_cpi": 2.096
+      },
+      "zscores": {
+        "pdsi_drought": -1.066,
+        "food_at_home_cpi": -0.316
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "pdsi_drought": -0.62,
+        "food_at_home_cpi": 1.543
+      },
+      "zscores": {
+        "pdsi_drought": -0.913,
+        "food_at_home_cpi": -0.788
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "pdsi_drought": -0.91,
+        "food_at_home_cpi": 1.542
+      },
+      "zscores": {
+        "pdsi_drought": -1.056,
+        "food_at_home_cpi": -0.836
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "pdsi_drought": -1.11,
+        "food_at_home_cpi": 1.698
+      },
+      "zscores": {
+        "pdsi_drought": -1.125,
+        "food_at_home_cpi": -0.749
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "pdsi_drought": -1.18,
+        "food_at_home_cpi": 2.382
+      },
+      "zscores": {
+        "pdsi_drought": -1.114,
+        "food_at_home_cpi": -0.256
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "pdsi_drought": -1.49,
+        "food_at_home_cpi": 2.447
+      },
+      "zscores": {
+        "pdsi_drought": -1.234,
+        "food_at_home_cpi": -0.246
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "pdsi_drought": -1.67,
+        "food_at_home_cpi": 2.233
+      },
+      "zscores": {
+        "pdsi_drought": -1.27,
+        "food_at_home_cpi": -0.488
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "pdsi_drought": -1.94,
+        "food_at_home_cpi": 0.896
+      },
+      "zscores": {
+        "pdsi_drought": -1.348,
+        "food_at_home_cpi": -1.754
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "pdsi_drought": -2.56,
+        "food_at_home_cpi": 0.841
+      },
+      "zscores": {
+        "pdsi_drought": -1.592,
+        "food_at_home_cpi": -1.759
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "pdsi_drought": -2.93,
+        "food_at_home_cpi": 1.478
+      },
+      "zscores": {
+        "pdsi_drought": -1.672,
+        "food_at_home_cpi": -1.139
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "pdsi_drought": -3.64,
+        "food_at_home_cpi": 1.475
+      },
+      "zscores": {
+        "pdsi_drought": -1.891,
+        "food_at_home_cpi": -1.111
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "pdsi_drought": -3.62,
+        "food_at_home_cpi": 1.9
+      },
+      "zscores": {
+        "pdsi_drought": -1.75,
+        "food_at_home_cpi": -0.708
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "pdsi_drought": -2.86,
+        "food_at_home_cpi": 2.158
+      },
+      "zscores": {
+        "pdsi_drought": -1.298,
+        "food_at_home_cpi": -0.463
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "pdsi_drought": -1.77,
+        "food_at_home_cpi": 2.254
+      },
+      "zscores": {
+        "pdsi_drought": -0.748,
+        "food_at_home_cpi": -0.348
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "pdsi_drought": -1.5,
+        "food_at_home_cpi": 1.728
+      },
+      "zscores": {
+        "pdsi_drought": -0.601,
+        "food_at_home_cpi": -0.768
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "pdsi_drought": -1.16,
+        "food_at_home_cpi": 1.356
+      },
+      "zscores": {
+        "pdsi_drought": -0.428,
+        "food_at_home_cpi": -1.053
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "pdsi_drought": -0.8,
+        "food_at_home_cpi": 1.691
+      },
+      "zscores": {
+        "pdsi_drought": -0.256,
+        "food_at_home_cpi": -0.699
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "pdsi_drought": -0.85,
+        "food_at_home_cpi": 2.904
+      },
+      "zscores": {
+        "pdsi_drought": -0.271,
+        "food_at_home_cpi": 0.478
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "pdsi_drought": -1.62,
+        "food_at_home_cpi": 3.362
+      },
+      "zscores": {
+        "pdsi_drought": -0.631,
+        "food_at_home_cpi": 0.939
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "pdsi_drought": -1.36,
+        "food_at_home_cpi": 3.927
+      },
+      "zscores": {
+        "pdsi_drought": -0.507,
+        "food_at_home_cpi": 1.481
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "pdsi_drought": -1.62,
+        "food_at_home_cpi": 4.395
+      },
+      "zscores": {
+        "pdsi_drought": -0.603,
+        "food_at_home_cpi": 2.017
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "pdsi_drought": -1.56,
+        "food_at_home_cpi": 4.553
+      },
+      "zscores": {
+        "pdsi_drought": -0.543,
+        "food_at_home_cpi": 2.155
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "pdsi_drought": -1.54,
+        "food_at_home_cpi": 4.57
+      },
+      "zscores": {
+        "pdsi_drought": -0.498,
+        "food_at_home_cpi": 2.174
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "pdsi_drought": -1.76,
+        "food_at_home_cpi": 4.674
+      },
+      "zscores": {
+        "pdsi_drought": -0.561,
+        "food_at_home_cpi": 2.17
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "pdsi_drought": -2.09,
+        "food_at_home_cpi": 4.685
+      },
+      "zscores": {
+        "pdsi_drought": -0.678,
+        "food_at_home_cpi": 2.036
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "pdsi_drought": -1.63,
+        "food_at_home_cpi": 4.732
+      },
+      "zscores": {
+        "pdsi_drought": -0.402,
+        "food_at_home_cpi": 1.96
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "pdsi_drought": -2.47,
+        "food_at_home_cpi": 5.376
+      },
+      "zscores": {
+        "pdsi_drought": -0.829,
+        "food_at_home_cpi": 2.285
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "pdsi_drought": -2.34,
+        "food_at_home_cpi": 5.614
+      },
+      "zscores": {
+        "pdsi_drought": -0.762,
+        "food_at_home_cpi": 2.229
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "pdsi_drought": -2.39,
+        "food_at_home_cpi": 5.752
+      },
+      "zscores": {
+        "pdsi_drought": -0.951,
+        "food_at_home_cpi": 2.117
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "pdsi_drought": 0.48,
+        "food_at_home_cpi": 5.114
+      },
+      "zscores": {
+        "pdsi_drought": 1.887,
+        "food_at_home_cpi": 1.561
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "pdsi_drought": 0.38,
+        "food_at_home_cpi": 4.748
+      },
+      "zscores": {
+        "pdsi_drought": 1.721,
+        "food_at_home_cpi": 1.24
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "pdsi_drought": 0.5,
+        "food_at_home_cpi": 5.945
+      },
+      "zscores": {
+        "pdsi_drought": 1.759,
+        "food_at_home_cpi": 1.878
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "pdsi_drought": 0.67,
+        "food_at_home_cpi": 5.755
+      },
+      "zscores": {
+        "pdsi_drought": 1.825,
+        "food_at_home_cpi": 1.636
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "pdsi_drought": 0.64,
+        "food_at_home_cpi": 6.082
+      },
+      "zscores": {
+        "pdsi_drought": 1.756,
+        "food_at_home_cpi": 1.706
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "pdsi_drought": 0.73,
+        "food_at_home_cpi": 7.142
+      },
+      "zscores": {
+        "pdsi_drought": 1.779,
+        "food_at_home_cpi": 2.121
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "pdsi_drought": 1.19,
+        "food_at_home_cpi": 7.487
+      },
+      "zscores": {
+        "pdsi_drought": 2.083,
+        "food_at_home_cpi": 2.108
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "pdsi_drought": 1.27,
+        "food_at_home_cpi": 7.597
+      },
+      "zscores": {
+        "pdsi_drought": 1.986,
+        "food_at_home_cpi": 1.981
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "pdsi_drought": 1.23,
+        "food_at_home_cpi": 7.501
+      },
+      "zscores": {
+        "pdsi_drought": 1.827,
+        "food_at_home_cpi": 1.792
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "pdsi_drought": -0.36,
+        "food_at_home_cpi": 7.004
+      },
+      "zscores": {
+        "pdsi_drought": 0.618,
+        "food_at_home_cpi": 1.456
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "pdsi_drought": -0.04,
+        "food_at_home_cpi": 6.567
+      },
+      "zscores": {
+        "pdsi_drought": 0.827,
+        "food_at_home_cpi": 1.177
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "pdsi_drought": -0.33,
+        "food_at_home_cpi": 5.655
+      },
+      "zscores": {
+        "pdsi_drought": 0.592,
+        "food_at_home_cpi": 0.697
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "pdsi_drought": -0.8,
+        "food_at_home_cpi": 4.829
+      },
+      "zscores": {
+        "pdsi_drought": 0.232,
+        "food_at_home_cpi": 0.269
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "pdsi_drought": 0.04,
+        "food_at_home_cpi": 4.278
+      },
+      "zscores": {
+        "pdsi_drought": 0.81,
+        "food_at_home_cpi": -0.028
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "pdsi_drought": 0.4,
+        "food_at_home_cpi": 2.339
+      },
+      "zscores": {
+        "pdsi_drought": 1.016,
+        "food_at_home_cpi": -1.034
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "pdsi_drought": 0.58,
+        "food_at_home_cpi": 1.522
+      },
+      "zscores": {
+        "pdsi_drought": 1.085,
+        "food_at_home_cpi": -1.482
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "pdsi_drought": 0.68,
+        "food_at_home_cpi": 0.775
+      },
+      "zscores": {
+        "pdsi_drought": 1.1,
+        "food_at_home_cpi": -1.826
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "pdsi_drought": 1.19,
+        "food_at_home_cpi": -0.913
+      },
+      "zscores": {
+        "pdsi_drought": 1.427,
+        "food_at_home_cpi": -2.483
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "pdsi_drought": 1.42,
+        "food_at_home_cpi": -1.628
+      },
+      "zscores": {
+        "pdsi_drought": 1.559,
+        "food_at_home_cpi": -2.553
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "pdsi_drought": 1.25,
+        "food_at_home_cpi": -2.471
+      },
+      "zscores": {
+        "pdsi_drought": 1.365,
+        "food_at_home_cpi": -2.603
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "pdsi_drought": 3.42,
+        "food_at_home_cpi": -2.757
+      },
+      "zscores": {
+        "pdsi_drought": 2.724,
+        "food_at_home_cpi": -2.442
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "pdsi_drought": 3.06,
+        "food_at_home_cpi": -2.862
+      },
+      "zscores": {
+        "pdsi_drought": 2.219,
+        "food_at_home_cpi": -2.269
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "pdsi_drought": 4.18,
+        "food_at_home_cpi": -2.435
+      },
+      "zscores": {
+        "pdsi_drought": 2.611,
+        "food_at_home_cpi": -1.987
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "pdsi_drought": 4.67,
+        "food_at_home_cpi": -1.975
+      },
+      "zscores": {
+        "pdsi_drought": 2.554,
+        "food_at_home_cpi": -1.736
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "pdsi_drought": 4.31,
+        "food_at_home_cpi": -1.498
+      },
+      "zscores": {
+        "pdsi_drought": 2.128,
+        "food_at_home_cpi": -1.5
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "pdsi_drought": 3.43,
+        "food_at_home_cpi": -0.685
+      },
+      "zscores": {
+        "pdsi_drought": 1.555,
+        "food_at_home_cpi": -1.196
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "pdsi_drought": 2.74,
+        "food_at_home_cpi": -0.021
+      },
+      "zscores": {
+        "pdsi_drought": 1.131,
+        "food_at_home_cpi": -0.956
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "pdsi_drought": 2.91,
+        "food_at_home_cpi": 0.328
+      },
+      "zscores": {
+        "pdsi_drought": 1.153,
+        "food_at_home_cpi": -0.815
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "pdsi_drought": 3.03,
+        "food_at_home_cpi": 0.25
+      },
+      "zscores": {
+        "pdsi_drought": 1.149,
+        "food_at_home_cpi": -0.797
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "pdsi_drought": 3.49,
+        "food_at_home_cpi": 0.674
+      },
+      "zscores": {
+        "pdsi_drought": 1.308,
+        "food_at_home_cpi": -0.643
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "pdsi_drought": 3.13,
+        "food_at_home_cpi": 0.777
+      },
+      "zscores": {
+        "pdsi_drought": 1.066,
+        "food_at_home_cpi": -0.582
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "pdsi_drought": 2.97,
+        "food_at_home_cpi": 1.376
+      },
+      "zscores": {
+        "pdsi_drought": 0.936,
+        "food_at_home_cpi": -0.385
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "pdsi_drought": 2.36,
+        "food_at_home_cpi": 1.448
+      },
+      "zscores": {
+        "pdsi_drought": 0.568,
+        "food_at_home_cpi": -0.339
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "pdsi_drought": 1.97,
+        "food_at_home_cpi": 1.749
+      },
+      "zscores": {
+        "pdsi_drought": 0.306,
+        "food_at_home_cpi": -0.226
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "pdsi_drought": 1.72,
+        "food_at_home_cpi": 1.685
+      },
+      "zscores": {
+        "pdsi_drought": 0.102,
+        "food_at_home_cpi": -0.215
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "pdsi_drought": 1.07,
+        "food_at_home_cpi": 2.141
+      },
+      "zscores": {
+        "pdsi_drought": -0.405,
+        "food_at_home_cpi": -0.053
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "pdsi_drought": 1.03,
+        "food_at_home_cpi": 2.846
+      },
+      "zscores": {
+        "pdsi_drought": -0.447,
+        "food_at_home_cpi": 0.176
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "pdsi_drought": 1.17,
+        "food_at_home_cpi": 3.621
+      },
+      "zscores": {
+        "pdsi_drought": -0.368,
+        "food_at_home_cpi": 0.42
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "pdsi_drought": 1.85,
+        "food_at_home_cpi": 3.938
+      },
+      "zscores": {
+        "pdsi_drought": 0.086,
+        "food_at_home_cpi": 0.54
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "pdsi_drought": 2.32,
+        "food_at_home_cpi": 4.432
+      },
+      "zscores": {
+        "pdsi_drought": 0.39,
+        "food_at_home_cpi": 0.709
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "pdsi_drought": -0.38,
+        "food_at_home_cpi": 4.749
+      },
+      "zscores": {
+        "pdsi_drought": -1.488,
+        "food_at_home_cpi": 0.828
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "pdsi_drought": -0.82,
+        "food_at_home_cpi": 5.405
+      },
+      "zscores": {
+        "pdsi_drought": -1.703,
+        "food_at_home_cpi": 1.069
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "pdsi_drought": -1.52,
+        "food_at_home_cpi": 6.023
+      },
+      "zscores": {
+        "pdsi_drought": -2.003,
+        "food_at_home_cpi": 1.304
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "pdsi_drought": -1.57,
+        "food_at_home_cpi": 6.281
+      },
+      "zscores": {
+        "pdsi_drought": -1.883,
+        "food_at_home_cpi": 1.428
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "pdsi_drought": -1.53,
+        "food_at_home_cpi": 6.229
+      },
+      "zscores": {
+        "pdsi_drought": -1.734,
+        "food_at_home_cpi": 1.45
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "pdsi_drought": -1.57,
+        "food_at_home_cpi": 5.931
+      },
+      "zscores": {
+        "pdsi_drought": -1.692,
+        "food_at_home_cpi": 1.381
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "pdsi_drought": -1.88,
+        "food_at_home_cpi": 6.004
+      },
+      "zscores": {
+        "pdsi_drought": -1.771,
+        "food_at_home_cpi": 1.423
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "pdsi_drought": -2.3,
+        "food_at_home_cpi": 5.308
+      },
+      "zscores": {
+        "pdsi_drought": -1.889,
+        "food_at_home_cpi": 1.19
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "pdsi_drought": -2.37,
+        "food_at_home_cpi": 4.492
+      },
+      "zscores": {
+        "pdsi_drought": -1.841,
+        "food_at_home_cpi": 0.913
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "pdsi_drought": -2.71,
+        "food_at_home_cpi": 3.56
+      },
+      "zscores": {
+        "pdsi_drought": -1.882,
+        "food_at_home_cpi": 0.598
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "pdsi_drought": -3.1,
+        "food_at_home_cpi": 3.335
+      },
+      "zscores": {
+        "pdsi_drought": -1.917,
+        "food_at_home_cpi": 0.508
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "pdsi_drought": -3.56,
+        "food_at_home_cpi": 2.734
+      },
+      "zscores": {
+        "pdsi_drought": -1.959,
+        "food_at_home_cpi": 0.287
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "pdsi_drought": -4.11,
+        "food_at_home_cpi": 2.627
+      },
+      "zscores": {
+        "pdsi_drought": -2.011,
+        "food_at_home_cpi": 0.232
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "pdsi_drought": -4.78,
+        "food_at_home_cpi": 1.946
+      },
+      "zscores": {
+        "pdsi_drought": -2.075,
+        "food_at_home_cpi": -0.035
+      },
+      "events": [
+        {
+          "label": "Major Midwest drought: index falls to -4.8",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "pdsi_drought": -5.1,
+        "food_at_home_cpi": 1.469
+      },
+      "zscores": {
+        "pdsi_drought": -2.004,
+        "food_at_home_cpi": -0.24
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "pdsi_drought": -4.98,
+        "food_at_home_cpi": 0.817
+      },
+      "zscores": {
+        "pdsi_drought": -1.81,
+        "food_at_home_cpi": -0.529
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "pdsi_drought": -4.42,
+        "food_at_home_cpi": 0.982
+      },
+      "zscores": {
+        "pdsi_drought": -1.518,
+        "food_at_home_cpi": -0.531
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "pdsi_drought": -5.22,
+        "food_at_home_cpi": 1.271
+      },
+      "zscores": {
+        "pdsi_drought": -1.662,
+        "food_at_home_cpi": -0.491
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "pdsi_drought": -5.26,
+        "food_at_home_cpi": 1.269
+      },
+      "zscores": {
+        "pdsi_drought": -1.576,
+        "food_at_home_cpi": -0.568
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "pdsi_drought": -5.3,
+        "food_at_home_cpi": 1.099
+      },
+      "zscores": {
+        "pdsi_drought": -1.508,
+        "food_at_home_cpi": -0.72
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "pdsi_drought": -4.9,
+        "food_at_home_cpi": 1.234
+      },
+      "zscores": {
+        "pdsi_drought": -1.313,
+        "food_at_home_cpi": -0.727
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "pdsi_drought": -5.19,
+        "food_at_home_cpi": 1.035
+      },
+      "zscores": {
+        "pdsi_drought": -1.334,
+        "food_at_home_cpi": -0.876
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "pdsi_drought": 0.59,
+        "food_at_home_cpi": 1.023
+      },
+      "zscores": {
+        "pdsi_drought": 0.597,
+        "food_at_home_cpi": -0.912
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "pdsi_drought": 0.89,
+        "food_at_home_cpi": 0.771
+      },
+      "zscores": {
+        "pdsi_drought": 0.731,
+        "food_at_home_cpi": -1.058
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "pdsi_drought": 1.08,
+        "food_at_home_cpi": 0.857
+      },
+      "zscores": {
+        "pdsi_drought": 0.832,
+        "food_at_home_cpi": -1.032
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "pdsi_drought": 1.73,
+        "food_at_home_cpi": 0.988
+      },
+      "zscores": {
+        "pdsi_drought": 1.103,
+        "food_at_home_cpi": -0.972
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "pdsi_drought": 1.7,
+        "food_at_home_cpi": 0.989
+      },
+      "zscores": {
+        "pdsi_drought": 1.128,
+        "food_at_home_cpi": -0.978
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "pdsi_drought": 1.85,
+        "food_at_home_cpi": 1.049
+      },
+      "zscores": {
+        "pdsi_drought": 1.213,
+        "food_at_home_cpi": -0.937
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "pdsi_drought": 1.86,
+        "food_at_home_cpi": 0.844
+      },
+      "zscores": {
+        "pdsi_drought": 1.231,
+        "food_at_home_cpi": -1.029
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "pdsi_drought": 1.6,
+        "food_at_home_cpi": 0.579
+      },
+      "zscores": {
+        "pdsi_drought": 1.143,
+        "food_at_home_cpi": -1.135
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "pdsi_drought": 1.44,
+        "food_at_home_cpi": 0.387
+      },
+      "zscores": {
+        "pdsi_drought": 1.089,
+        "food_at_home_cpi": -1.196
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "pdsi_drought": 0.73,
+        "food_at_home_cpi": 0.476
+      },
+      "zscores": {
+        "pdsi_drought": 0.828,
+        "food_at_home_cpi": -1.109
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "pdsi_drought": 1.0,
+        "food_at_home_cpi": 0.889
+      },
+      "zscores": {
+        "pdsi_drought": 0.931,
+        "food_at_home_cpi": -0.865
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "pdsi_drought": 0.82,
+        "food_at_home_cpi": 1.367
+      },
+      "zscores": {
+        "pdsi_drought": 0.869,
+        "food_at_home_cpi": -0.595
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "pdsi_drought": 1.05,
+        "food_at_home_cpi": 1.718
+      },
+      "zscores": {
+        "pdsi_drought": 0.974,
+        "food_at_home_cpi": -0.392
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "pdsi_drought": 0.74,
+        "food_at_home_cpi": 2.658
+      },
+      "zscores": {
+        "pdsi_drought": 0.89,
+        "food_at_home_cpi": 0.103
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "pdsi_drought": 1.33,
+        "food_at_home_cpi": 2.419
+      },
+      "zscores": {
+        "pdsi_drought": 1.086,
+        "food_at_home_cpi": 0.015
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "pdsi_drought": 1.27,
+        "food_at_home_cpi": 2.667
+      },
+      "zscores": {
+        "pdsi_drought": 1.026,
+        "food_at_home_cpi": 0.188
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "pdsi_drought": 1.79,
+        "food_at_home_cpi": 2.874
+      },
+      "zscores": {
+        "pdsi_drought": 1.165,
+        "food_at_home_cpi": 0.365
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "pdsi_drought": 1.66,
+        "food_at_home_cpi": 3.219
+      },
+      "zscores": {
+        "pdsi_drought": 1.066,
+        "food_at_home_cpi": 0.656
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "pdsi_drought": 1.53,
+        "food_at_home_cpi": 3.286
+      },
+      "zscores": {
+        "pdsi_drought": 0.974,
+        "food_at_home_cpi": 0.815
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "pdsi_drought": 1.44,
+        "food_at_home_cpi": 3.397
+      },
+      "zscores": {
+        "pdsi_drought": 0.901,
+        "food_at_home_cpi": 1.023
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "pdsi_drought": 1.41,
+        "food_at_home_cpi": 3.702
+      },
+      "zscores": {
+        "pdsi_drought": 0.85,
+        "food_at_home_cpi": 1.44
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "pdsi_drought": -0.15,
+        "food_at_home_cpi": 3.3
+      },
+      "zscores": {
+        "pdsi_drought": 0.278,
+        "food_at_home_cpi": 1.278
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "pdsi_drought": -0.29,
+        "food_at_home_cpi": 2.877
+      },
+      "zscores": {
+        "pdsi_drought": 0.208,
+        "food_at_home_cpi": 1.008
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "pdsi_drought": -1.06,
+        "food_at_home_cpi": 1.947
+      },
+      "zscores": {
+        "pdsi_drought": -0.082,
+        "food_at_home_cpi": 0.167
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "pdsi_drought": 0.1,
+        "food_at_home_cpi": 1.345
+      },
+      "zscores": {
+        "pdsi_drought": 0.303,
+        "food_at_home_cpi": -0.393
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "pdsi_drought": 1.47,
+        "food_at_home_cpi": 0.633
+      },
+      "zscores": {
+        "pdsi_drought": 0.752,
+        "food_at_home_cpi": -1.067
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "pdsi_drought": 1.71,
+        "food_at_home_cpi": 0.981
+      },
+      "zscores": {
+        "pdsi_drought": 0.791,
+        "food_at_home_cpi": -0.665
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "pdsi_drought": 2.24,
+        "food_at_home_cpi": 0.906
+      },
+      "zscores": {
+        "pdsi_drought": 0.938,
+        "food_at_home_cpi": -0.71
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "pdsi_drought": 2.0,
+        "food_at_home_cpi": 0.84
+      },
+      "zscores": {
+        "pdsi_drought": 0.805,
+        "food_at_home_cpi": -0.754
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "pdsi_drought": 1.11,
+        "food_at_home_cpi": 0.767
+      },
+      "zscores": {
+        "pdsi_drought": 0.411,
+        "food_at_home_cpi": -0.826
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "pdsi_drought": 1.4,
+        "food_at_home_cpi": 0.685
+      },
+      "zscores": {
+        "pdsi_drought": 0.488,
+        "food_at_home_cpi": -0.897
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "pdsi_drought": 2.1,
+        "food_at_home_cpi": 0.275
+      },
+      "zscores": {
+        "pdsi_drought": 0.765,
+        "food_at_home_cpi": -1.258
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "pdsi_drought": 3.52,
+        "food_at_home_cpi": -0.446
+      },
+      "zscores": {
+        "pdsi_drought": 1.444,
+        "food_at_home_cpi": -1.836
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "pdsi_drought": 3.61,
+        "food_at_home_cpi": -0.455
+      },
+      "zscores": {
+        "pdsi_drought": 1.547,
+        "food_at_home_cpi": -1.728
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "pdsi_drought": -0.3,
+        "food_at_home_cpi": -0.347
+      },
+      "zscores": {
+        "pdsi_drought": -1.002,
+        "food_at_home_cpi": -1.537
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "pdsi_drought": -0.48,
+        "food_at_home_cpi": -0.521
+      },
+      "zscores": {
+        "pdsi_drought": -1.792,
+        "food_at_home_cpi": -1.593
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "pdsi_drought": 0.26,
+        "food_at_home_cpi": -0.278
+      },
+      "zscores": {
+        "pdsi_drought": -1.001,
+        "food_at_home_cpi": -1.323
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "pdsi_drought": 0.4,
+        "food_at_home_cpi": -0.691
+      },
+      "zscores": {
+        "pdsi_drought": -0.835,
+        "food_at_home_cpi": -1.577
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "pdsi_drought": -0.7,
+        "food_at_home_cpi": -1.269
+      },
+      "zscores": {
+        "pdsi_drought": -1.822,
+        "food_at_home_cpi": -1.89
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "pdsi_drought": -0.83,
+        "food_at_home_cpi": -1.565
+      },
+      "zscores": {
+        "pdsi_drought": -1.799,
+        "food_at_home_cpi": -1.947
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "pdsi_drought": -0.09,
+        "food_at_home_cpi": -1.919
+      },
+      "zscores": {
+        "pdsi_drought": -1.048,
+        "food_at_home_cpi": -2.015
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "pdsi_drought": -0.08,
+        "food_at_home_cpi": -2.182
+      },
+      "zscores": {
+        "pdsi_drought": -0.983,
+        "food_at_home_cpi": -2.006
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "pdsi_drought": -0.17,
+        "food_at_home_cpi": -2.311
+      },
+      "zscores": {
+        "pdsi_drought": -1.008,
+        "food_at_home_cpi": -1.922
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "pdsi_drought": -1.18,
+        "food_at_home_cpi": -2.192
+      },
+      "zscores": {
+        "pdsi_drought": -1.784,
+        "food_at_home_cpi": -1.727
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "pdsi_drought": -1.4,
+        "food_at_home_cpi": -2.035
+      },
+      "zscores": {
+        "pdsi_drought": -1.822,
+        "food_at_home_cpi": -1.544
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "pdsi_drought": -0.91,
+        "food_at_home_cpi": -1.922
+      },
+      "zscores": {
+        "pdsi_drought": -1.338,
+        "food_at_home_cpi": -1.404
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "pdsi_drought": -0.92,
+        "food_at_home_cpi": -1.712
+      },
+      "zscores": {
+        "pdsi_drought": -1.273,
+        "food_at_home_cpi": -1.225
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "pdsi_drought": -1.22,
+        "food_at_home_cpi": -0.863
+      },
+      "zscores": {
+        "pdsi_drought": -1.424,
+        "food_at_home_cpi": -0.74
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "pdsi_drought": 0.67,
+        "food_at_home_cpi": -0.756
+      },
+      "zscores": {
+        "pdsi_drought": 0.046,
+        "food_at_home_cpi": -0.648
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "pdsi_drought": 1.01,
+        "food_at_home_cpi": -0.163
+      },
+      "zscores": {
+        "pdsi_drought": 0.303,
+        "food_at_home_cpi": -0.301
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "pdsi_drought": 0.93,
+        "food_at_home_cpi": -0.055
+      },
+      "zscores": {
+        "pdsi_drought": 0.251,
+        "food_at_home_cpi": -0.21
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "pdsi_drought": 0.88,
+        "food_at_home_cpi": 0.313
+      },
+      "zscores": {
+        "pdsi_drought": 0.221,
+        "food_at_home_cpi": 0.025
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "pdsi_drought": 1.69,
+        "food_at_home_cpi": 0.317
+      },
+      "zscores": {
+        "pdsi_drought": 0.856,
+        "food_at_home_cpi": 0.068
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "pdsi_drought": -0.31,
+        "food_at_home_cpi": 0.423
+      },
+      "zscores": {
+        "pdsi_drought": -0.665,
+        "food_at_home_cpi": 0.181
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "pdsi_drought": 0.3,
+        "food_at_home_cpi": 0.587
+      },
+      "zscores": {
+        "pdsi_drought": -0.161,
+        "food_at_home_cpi": 0.341
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "pdsi_drought": -0.72,
+        "food_at_home_cpi": 0.622
+      },
+      "zscores": {
+        "pdsi_drought": -0.916,
+        "food_at_home_cpi": 0.44
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "pdsi_drought": -1.54,
+        "food_at_home_cpi": 0.894
+      },
+      "zscores": {
+        "pdsi_drought": -1.462,
+        "food_at_home_cpi": 0.74
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "pdsi_drought": -2.3,
+        "food_at_home_cpi": 1.038
+      },
+      "zscores": {
+        "pdsi_drought": -1.899,
+        "food_at_home_cpi": 0.971
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "pdsi_drought": -1.67,
+        "food_at_home_cpi": 0.535
+      },
+      "zscores": {
+        "pdsi_drought": -1.376,
+        "food_at_home_cpi": 0.677
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "pdsi_drought": -1.68,
+        "food_at_home_cpi": 0.379
+      },
+      "zscores": {
+        "pdsi_drought": -1.352,
+        "food_at_home_cpi": 0.608
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "pdsi_drought": -1.27,
+        "food_at_home_cpi": 0.549
+      },
+      "zscores": {
+        "pdsi_drought": -1.022,
+        "food_at_home_cpi": 0.804
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "pdsi_drought": -1.72,
+        "food_at_home_cpi": 0.135
+      },
+      "zscores": {
+        "pdsi_drought": -1.257,
+        "food_at_home_cpi": 0.43
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "pdsi_drought": -1.66,
+        "food_at_home_cpi": 0.36
+      },
+      "zscores": {
+        "pdsi_drought": -1.149,
+        "food_at_home_cpi": 0.671
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "pdsi_drought": -1.82,
+        "food_at_home_cpi": 0.363
+      },
+      "zscores": {
+        "pdsi_drought": -1.196,
+        "food_at_home_cpi": 0.698
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "pdsi_drought": 0.06,
+        "food_at_home_cpi": 0.491
+      },
+      "zscores": {
+        "pdsi_drought": 0.142,
+        "food_at_home_cpi": 0.841
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "pdsi_drought": 0.8,
+        "food_at_home_cpi": 0.417
+      },
+      "zscores": {
+        "pdsi_drought": 0.678,
+        "food_at_home_cpi": 0.785
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "pdsi_drought": 1.92,
+        "food_at_home_cpi": 0.142
+      },
+      "zscores": {
+        "pdsi_drought": 1.448,
+        "food_at_home_cpi": 0.531
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "pdsi_drought": 2.56,
+        "food_at_home_cpi": 0.398
+      },
+      "zscores": {
+        "pdsi_drought": 1.862,
+        "food_at_home_cpi": 0.785
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "pdsi_drought": 3.68,
+        "food_at_home_cpi": 0.591
+      },
+      "zscores": {
+        "pdsi_drought": 2.616,
+        "food_at_home_cpi": 0.938
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "pdsi_drought": 4.17,
+        "food_at_home_cpi": 0.648
+      },
+      "zscores": {
+        "pdsi_drought": 2.86,
+        "food_at_home_cpi": 0.952
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "pdsi_drought": 5.08,
+        "food_at_home_cpi": 1.199
+      },
+      "zscores": {
+        "pdsi_drought": 2.928,
+        "food_at_home_cpi": 1.409
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "pdsi_drought": 4.36,
+        "food_at_home_cpi": 1.42
+      },
+      "zscores": {
+        "pdsi_drought": 2.251,
+        "food_at_home_cpi": 1.518
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "pdsi_drought": 4.42,
+        "food_at_home_cpi": 0.728
+      },
+      "zscores": {
+        "pdsi_drought": 2.079,
+        "food_at_home_cpi": 0.845
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "pdsi_drought": 5.55,
+        "food_at_home_cpi": 1.194
+      },
+      "zscores": {
+        "pdsi_drought": 2.363,
+        "food_at_home_cpi": 1.2
+      },
+      "events": [
+        {
+          "label": "Wettest period on the chart (index +5.5)",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "pdsi_drought": 5.48,
+        "food_at_home_cpi": 0.94
+      },
+      "zscores": {
+        "pdsi_drought": 2.111,
+        "food_at_home_cpi": 0.92
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "pdsi_drought": 5.23,
+        "food_at_home_cpi": 0.642
+      },
+      "zscores": {
+        "pdsi_drought": 1.844,
+        "food_at_home_cpi": 0.609
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "pdsi_drought": 4.88,
+        "food_at_home_cpi": 0.474
+      },
+      "zscores": {
+        "pdsi_drought": 1.585,
+        "food_at_home_cpi": 0.411
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "pdsi_drought": 4.01,
+        "food_at_home_cpi": 0.591
+      },
+      "zscores": {
+        "pdsi_drought": 1.17,
+        "food_at_home_cpi": 0.48
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "pdsi_drought": 4.75,
+        "food_at_home_cpi": 1.025
+      },
+      "zscores": {
+        "pdsi_drought": 1.373,
+        "food_at_home_cpi": 0.904
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "pdsi_drought": 4.36,
+        "food_at_home_cpi": 0.992
+      },
+      "zscores": {
+        "pdsi_drought": 1.156,
+        "food_at_home_cpi": 0.853
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "pdsi_drought": 4.39,
+        "food_at_home_cpi": 0.734
+      },
+      "zscores": {
+        "pdsi_drought": 1.104,
+        "food_at_home_cpi": 0.501
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "pdsi_drought": 4.81,
+        "food_at_home_cpi": 0.716
+      },
+      "zscores": {
+        "pdsi_drought": 1.192,
+        "food_at_home_cpi": 0.445
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "pdsi_drought": 4.7,
+        "food_at_home_cpi": 0.825
+      },
+      "zscores": {
+        "pdsi_drought": 1.088,
+        "food_at_home_cpi": 0.644
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "pdsi_drought": -0.12,
+        "food_at_home_cpi": 1.075
+      },
+      "zscores": {
+        "pdsi_drought": -0.739,
+        "food_at_home_cpi": 1.203
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "pdsi_drought": 0.08,
+        "food_at_home_cpi": 4.068
+      },
+      "zscores": {
+        "pdsi_drought": -0.655,
+        "food_at_home_cpi": 5.047
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "pdsi_drought": 0.18,
+        "food_at_home_cpi": 4.824
+      },
+      "zscores": {
+        "pdsi_drought": -0.606,
+        "food_at_home_cpi": 4.257
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "pdsi_drought": -0.3,
+        "food_at_home_cpi": 5.648
+      },
+      "zscores": {
+        "pdsi_drought": -0.769,
+        "food_at_home_cpi": 3.835
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "pdsi_drought": -0.32,
+        "food_at_home_cpi": 4.642
+      },
+      "zscores": {
+        "pdsi_drought": -0.759,
+        "food_at_home_cpi": 2.617
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "pdsi_drought": -0.84,
+        "food_at_home_cpi": 4.644
+      },
+      "zscores": {
+        "pdsi_drought": -0.914,
+        "food_at_home_cpi": 2.336
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "pdsi_drought": -0.95,
+        "food_at_home_cpi": 4.068
+      },
+      "zscores": {
+        "pdsi_drought": -0.943,
+        "food_at_home_cpi": 1.79
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "pdsi_drought": -0.84,
+        "food_at_home_cpi": 3.96
+      },
+      "zscores": {
+        "pdsi_drought": -0.884,
+        "food_at_home_cpi": 1.602
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "pdsi_drought": -1.52,
+        "food_at_home_cpi": 3.591
+      },
+      "zscores": {
+        "pdsi_drought": -1.114,
+        "food_at_home_cpi": 1.288
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "pdsi_drought": -2.21,
+        "food_at_home_cpi": 3.931
+      },
+      "zscores": {
+        "pdsi_drought": -1.344,
+        "food_at_home_cpi": 1.409
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "pdsi_drought": -2.86,
+        "food_at_home_cpi": 3.701
+      },
+      "zscores": {
+        "pdsi_drought": -1.557,
+        "food_at_home_cpi": 1.201
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "pdsi_drought": -2.88,
+        "food_at_home_cpi": 3.549
+      },
+      "zscores": {
+        "pdsi_drought": -1.528,
+        "food_at_home_cpi": 1.051
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "pdsi_drought": -3.0,
+        "food_at_home_cpi": 3.291
+      },
+      "zscores": {
+        "pdsi_drought": -1.531,
+        "food_at_home_cpi": 0.85
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "pdsi_drought": -3.17,
+        "food_at_home_cpi": 1.209
+      },
+      "zscores": {
+        "pdsi_drought": -1.537,
+        "food_at_home_cpi": -0.391
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "pdsi_drought": -2.76,
+        "food_at_home_cpi": 0.665
+      },
+      "zscores": {
+        "pdsi_drought": -1.374,
+        "food_at_home_cpi": -0.727
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "pdsi_drought": -2.8,
+        "food_at_home_cpi": 0.929
+      },
+      "zscores": {
+        "pdsi_drought": -1.36,
+        "food_at_home_cpi": -0.583
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "pdsi_drought": -2.18,
+        "food_at_home_cpi": 2.557
+      },
+      "zscores": {
+        "pdsi_drought": -1.15,
+        "food_at_home_cpi": 0.364
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "pdsi_drought": -1.55,
+        "food_at_home_cpi": 2.961
+      },
+      "zscores": {
+        "pdsi_drought": -0.921,
+        "food_at_home_cpi": 0.572
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "pdsi_drought": -1.77,
+        "food_at_home_cpi": 4.506
+      },
+      "zscores": {
+        "pdsi_drought": -0.957,
+        "food_at_home_cpi": 1.426
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "pdsi_drought": -0.94,
+        "food_at_home_cpi": 5.375
+      },
+      "zscores": {
+        "pdsi_drought": -0.664,
+        "food_at_home_cpi": 1.811
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "pdsi_drought": -1.79,
+        "food_at_home_cpi": 6.38
+      },
+      "zscores": {
+        "pdsi_drought": -0.887,
+        "food_at_home_cpi": 2.179
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "pdsi_drought": -2.15,
+        "food_at_home_cpi": 6.488
+      },
+      "zscores": {
+        "pdsi_drought": -0.946,
+        "food_at_home_cpi": 2.047
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "pdsi_drought": -2.81,
+        "food_at_home_cpi": 7.379
+      },
+      "zscores": {
+        "pdsi_drought": -1.09,
+        "food_at_home_cpi": 2.27
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "pdsi_drought": -2.99,
+        "food_at_home_cpi": 8.647
+      },
+      "zscores": {
+        "pdsi_drought": -1.087,
+        "food_at_home_cpi": 2.547
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "pdsi_drought": -3.19,
+        "food_at_home_cpi": 10.023
+      },
+      "zscores": {
+        "pdsi_drought": -1.09,
+        "food_at_home_cpi": 2.734
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "pdsi_drought": -2.68,
+        "food_at_home_cpi": 10.756
+      },
+      "zscores": {
+        "pdsi_drought": -0.878,
+        "food_at_home_cpi": 2.648
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "pdsi_drought": -2.33,
+        "food_at_home_cpi": 11.912
+      },
+      "zscores": {
+        "pdsi_drought": -0.723,
+        "food_at_home_cpi": 2.672
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "pdsi_drought": -2.81,
+        "food_at_home_cpi": 12.226
+      },
+      "zscores": {
+        "pdsi_drought": -0.842,
+        "food_at_home_cpi": 2.462
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "pdsi_drought": -2.99,
+        "food_at_home_cpi": 13.107
+      },
+      "zscores": {
+        "pdsi_drought": -0.866,
+        "food_at_home_cpi": 2.432
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "pdsi_drought": -2.69,
+        "food_at_home_cpi": 13.541
+      },
+      "zscores": {
+        "pdsi_drought": -0.717,
+        "food_at_home_cpi": 2.301
+      },
+      "events": [
+        {
+          "label": "Grocery inflation peaks at 13.5%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "pdsi_drought": -3.42,
+        "food_at_home_cpi": 12.972
+      },
+      "zscores": {
+        "pdsi_drought": -0.957,
+        "food_at_home_cpi": 1.977
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "pdsi_drought": -3.61,
+        "food_at_home_cpi": 12.401
+      },
+      "zscores": {
+        "pdsi_drought": -1.008,
+        "food_at_home_cpi": 1.705
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "pdsi_drought": -3.36,
+        "food_at_home_cpi": 11.975
+      },
+      "zscores": {
+        "pdsi_drought": -0.876,
+        "food_at_home_cpi": 1.502
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "pdsi_drought": -3.05,
+        "food_at_home_cpi": 11.786
+      },
+      "zscores": {
+        "pdsi_drought": -0.711,
+        "food_at_home_cpi": 1.373
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "pdsi_drought": -2.38,
+        "food_at_home_cpi": 11.349
+      },
+      "zscores": {
+        "pdsi_drought": -0.311,
+        "food_at_home_cpi": 1.201
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "pdsi_drought": -2.17,
+        "food_at_home_cpi": 10.167
+      },
+      "zscores": {
+        "pdsi_drought": -0.076,
+        "food_at_home_cpi": 0.864
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "pdsi_drought": -1.5,
+        "food_at_home_cpi": 8.365
+      },
+      "zscores": {
+        "pdsi_drought": 0.605,
+        "food_at_home_cpi": 0.378
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "pdsi_drought": -1.41,
+        "food_at_home_cpi": 7.147
+      },
+      "zscores": {
+        "pdsi_drought": 0.778,
+        "food_at_home_cpi": 0.047
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "pdsi_drought": -1.81,
+        "food_at_home_cpi": 5.799
+      },
+      "zscores": {
+        "pdsi_drought": 0.463,
+        "food_at_home_cpi": -0.306
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "pdsi_drought": -1.7,
+        "food_at_home_cpi": 4.656
+      },
+      "zscores": {
+        "pdsi_drought": 0.672,
+        "food_at_home_cpi": -0.59
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "pdsi_drought": -1.9,
+        "food_at_home_cpi": 3.578
+      },
+      "zscores": {
+        "pdsi_drought": 0.525,
+        "food_at_home_cpi": -0.853
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "pdsi_drought": -1.95,
+        "food_at_home_cpi": 2.952
+      },
+      "zscores": {
+        "pdsi_drought": 0.526,
+        "food_at_home_cpi": -0.991
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "pdsi_drought": -2.45,
+        "food_at_home_cpi": 2.411
+      },
+      "zscores": {
+        "pdsi_drought": -0.103,
+        "food_at_home_cpi": -1.104
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "pdsi_drought": -2.37,
+        "food_at_home_cpi": 2.14
+      },
+      "zscores": {
+        "pdsi_drought": 0.079,
+        "food_at_home_cpi": -1.146
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "pdsi_drought": -3.33,
+        "food_at_home_cpi": 1.656
+      },
+      "zscores": {
+        "pdsi_drought": -1.333,
+        "food_at_home_cpi": -1.235
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "pdsi_drought": -3.93,
+        "food_at_home_cpi": 1.309
+      },
+      "zscores": {
+        "pdsi_drought": -2.058,
+        "food_at_home_cpi": -1.28
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "pdsi_drought": -3.62,
+        "food_at_home_cpi": 1.195
+      },
+      "zscores": {
+        "pdsi_drought": -1.527,
+        "food_at_home_cpi": -1.269
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "pdsi_drought": -3.52,
+        "food_at_home_cpi": 0.987
+      },
+      "zscores": {
+        "pdsi_drought": -1.33,
+        "food_at_home_cpi": -1.28
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "pdsi_drought": -3.14,
+        "food_at_home_cpi": 1.162
+      },
+      "zscores": {
+        "pdsi_drought": -0.796,
+        "food_at_home_cpi": -1.21
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "pdsi_drought": -2.77,
+        "food_at_home_cpi": 1.118
+      },
+      "zscores": {
+        "pdsi_drought": -0.305,
+        "food_at_home_cpi": -1.218
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "pdsi_drought": -2.04,
+        "food_at_home_cpi": 1.039
+      },
+      "zscores": {
+        "pdsi_drought": 0.678,
+        "food_at_home_cpi": -1.242
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "pdsi_drought": -2.25,
+        "food_at_home_cpi": 1.13
+      },
+      "zscores": {
+        "pdsi_drought": 0.367,
+        "food_at_home_cpi": -1.225
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "pdsi_drought": -1.91,
+        "food_at_home_cpi": 1.051
+      },
+      "zscores": {
+        "pdsi_drought": 0.821,
+        "food_at_home_cpi": -1.221
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "pdsi_drought": -2.1,
+        "food_at_home_cpi": 0.884
+      },
+      "zscores": {
+        "pdsi_drought": 0.593,
+        "food_at_home_cpi": -1.23
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "pdsi_drought": -2.49,
+        "food_at_home_cpi": 1.264
+      },
+      "zscores": {
+        "pdsi_drought": 0.076,
+        "food_at_home_cpi": -1.107
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "pdsi_drought": -3.77,
+        "food_at_home_cpi": 1.119
+      },
+      "zscores": {
+        "pdsi_drought": -1.697,
+        "food_at_home_cpi": -1.095
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "pdsi_drought": -3.25,
+        "food_at_home_cpi": 1.566
+      },
+      "zscores": {
+        "pdsi_drought": -0.878,
+        "food_at_home_cpi": -0.956
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "pdsi_drought": -3.33,
+        "food_at_home_cpi": 1.774
+      },
+      "zscores": {
+        "pdsi_drought": -0.945,
+        "food_at_home_cpi": -0.874
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "pdsi_drought": -3.97,
+        "food_at_home_cpi": 1.934
+      },
+      "zscores": {
+        "pdsi_drought": -1.765,
+        "food_at_home_cpi": -0.802
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "pdsi_drought": -3.7,
+        "food_at_home_cpi": 1.904
+      },
+      "zscores": {
+        "pdsi_drought": -1.322,
+        "food_at_home_cpi": -0.766
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "pdsi_drought": -3.98,
+        "food_at_home_cpi": 2.419
+      },
+      "zscores": {
+        "pdsi_drought": -1.624,
+        "food_at_home_cpi": -0.619
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "pdsi_drought": -3.48,
+        "food_at_home_cpi": 2.006
+      },
+      "zscores": {
+        "pdsi_drought": -0.913,
+        "food_at_home_cpi": -0.663
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "pdsi_drought": -2.56,
+        "food_at_home_cpi": 2.228
+      },
+      "zscores": {
+        "pdsi_drought": 0.316,
+        "food_at_home_cpi": -0.573
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "pdsi_drought": -2.13,
+        "food_at_home_cpi": 2.38
+      },
+      "zscores": {
+        "pdsi_drought": 0.854,
+        "food_at_home_cpi": -0.497
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "pdsi_drought": -1.55,
+        "food_at_home_cpi": 2.159
+      },
+      "zscores": {
+        "pdsi_drought": 1.515,
+        "food_at_home_cpi": -0.504
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "pdsi_drought": -1.71,
+        "food_at_home_cpi": 2.678
+      },
+      "zscores": {
+        "pdsi_drought": 1.247,
+        "food_at_home_cpi": -0.331
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "pdsi_drought": -2.38,
+        "food_at_home_cpi": 2.689
+      },
+      "zscores": {
+        "pdsi_drought": 0.38,
+        "food_at_home_cpi": -0.277
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "pdsi_drought": -2.25,
+        "food_at_home_cpi": 2.316
+      },
+      "zscores": {
+        "pdsi_drought": 0.504,
+        "food_at_home_cpi": -0.332
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "pdsi_drought": -3.02,
+        "food_at_home_cpi": 1.942
+      },
+      "zscores": {
+        "pdsi_drought": -0.496,
+        "food_at_home_cpi": -0.402
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "pdsi_drought": -3.8,
+        "food_at_home_cpi": 2.362
+      },
+      "zscores": {
+        "pdsi_drought": -1.436,
+        "food_at_home_cpi": -0.195
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "pdsi_drought": -4.88,
+        "food_at_home_cpi": 2.089
+      },
+      "zscores": {
+        "pdsi_drought": -2.463,
+        "food_at_home_cpi": -0.245
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "pdsi_drought": -6.3,
+        "food_at_home_cpi": 2.446
+      },
+      "zscores": {
+        "pdsi_drought": -3.301,
+        "food_at_home_cpi": 0.037
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "pdsi_drought": -7.78,
+        "food_at_home_cpi": 1.899
+      },
+      "zscores": {
+        "pdsi_drought": -3.659,
+        "food_at_home_cpi": -0.235
+      },
+      "events": [
+        {
+          "label": "Drought index -7.8, near the 1934 Dust Bowl record",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "pdsi_drought": -7.42,
+        "food_at_home_cpi": 2.892
+      },
+      "zscores": {
+        "pdsi_drought": -2.9,
+        "food_at_home_cpi": 0.799
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "pdsi_drought": -6.81,
+        "food_at_home_cpi": 2.738
+      },
+      "zscores": {
+        "pdsi_drought": -2.239,
+        "food_at_home_cpi": 0.923
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "pdsi_drought": -5.95,
+        "food_at_home_cpi": 2.748
+      },
+      "zscores": {
+        "pdsi_drought": -1.577,
+        "food_at_home_cpi": 1.187
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "pdsi_drought": -5.81,
+        "food_at_home_cpi": 2.675
+      },
+      "zscores": {
+        "pdsi_drought": -1.4,
+        "food_at_home_cpi": 1.197
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "pdsi_drought": -6.12,
+        "food_at_home_cpi": 2.191
+      },
+      "zscores": {
+        "pdsi_drought": -1.492,
+        "food_at_home_cpi": 0.476
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Does drought make groceries more expensive? The first card shows the national drought index: below zero is dry, and -4 or less is extreme drought. The second shows how much grocery prices rose from a year before. The stripes show every month since 2000: red means drier, or groceries rising faster than the usual 2% a year. The link is weak. The worst grocery inflation, in 2022, came from energy, wages and the war in Ukraine, not drought. The deep drought of 2026 has barely moved grocery prices.",
+    "methodology": "Palmer Drought Severity Index for the contiguous US from NOAA's National Centers for Environmental Information (Climate at a Glance). Below zero means drier than normal; below -4 is extreme drought. Grocery inflation is the year-over-year change in the BLS CPI for food at home (CUUR0000SAF11).",
+    "key_findings": [
+      {
+        "date": "2012-07-01",
+        "title": "July 2012: Corn Belt Drought",
+        "description": "The national drought index fell to -4.8, extreme drought. Grocery inflation stayed low, near 2%, because one bad harvest is a small part of what a grocery bill pays for.",
+        "significance": "Severe drought does not always show up at the supermarket.",
+        "normalized_time": 0.4702
+      },
+      {
+        "date": "2022-08-01",
+        "title": "August 2022: Grocery Inflation Peaks at 13.5%",
+        "description": "Food-at-home prices rose 13.5% in a year, the highest on the chart. Drought was moderate (about -2.8); the main causes were energy, transport and labor costs.",
+        "significance": "The biggest grocery shock in 40 years was not caused by weather.",
+        "normalized_time": 0.8495
+      },
+      {
+        "date": "2026-03-01",
+        "title": "2026: Deepest Drought on the Chart",
+        "description": "As of March 2026 the national index reached -7.8, close to the all-time record of -8.4 set in the Dust Bowl (August 1934). Grocery inflation is about 2%.",
+        "significance": "Watch whether this drought reaches food prices with a delay.",
+        "normalized_time": 0.9843
+      }
+    ]
+  }
+}

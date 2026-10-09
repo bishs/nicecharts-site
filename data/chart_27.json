@@ -1,0 +1,7828 @@
+{
+  "metadata": {
+    "chart_id": "chart_27",
+    "number": 27,
+    "title": "Groundwater: The Wells That Keep Dropping",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "Three wells: water level vs. the early 1980s",
+    "agencies": [
+      "USGS"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 1980,
+    "end_year": 2025,
+    "observation_count": 541,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2025-07",
+    "data_notes": "Each well is compared with its own 1980-1985 level, then averaged across all long-record USGS wells in the zone. Above zero = the water table is lower than in the early 1980s. Wells are measured about once a year. No usable long-record USGS wells exist in California's Central Valley (that data is kept by the state)."
+  },
+  "analytics": {
+    "optimal_lag_months": 18,
+    "peak_correlation_coefficient": 0.629,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.537
+      },
+      {
+        "lag": -17,
+        "r": 0.539
+      },
+      {
+        "lag": -16,
+        "r": 0.54
+      },
+      {
+        "lag": -15,
+        "r": 0.542
+      },
+      {
+        "lag": -14,
+        "r": 0.543
+      },
+      {
+        "lag": -13,
+        "r": 0.545
+      },
+      {
+        "lag": -12,
+        "r": 0.547
+      },
+      {
+        "lag": -11,
+        "r": 0.549
+      },
+      {
+        "lag": -10,
+        "r": 0.55
+      },
+      {
+        "lag": -9,
+        "r": 0.552
+      },
+      {
+        "lag": -8,
+        "r": 0.554
+      },
+      {
+        "lag": -7,
+        "r": 0.556
+      },
+      {
+        "lag": -6,
+        "r": 0.558
+      },
+      {
+        "lag": -5,
+        "r": 0.559
+      },
+      {
+        "lag": -4,
+        "r": 0.561
+      },
+      {
+        "lag": -3,
+        "r": 0.563
+      },
+      {
+        "lag": -2,
+        "r": 0.565
+      },
+      {
+        "lag": -1,
+        "r": 0.567
+      },
+      {
+        "lag": 0,
+        "r": 0.569
+      },
+      {
+        "lag": 1,
+        "r": 0.572
+      },
+      {
+        "lag": 2,
+        "r": 0.575
+      },
+      {
+        "lag": 3,
+        "r": 0.578
+      },
+      {
+        "lag": 4,
+        "r": 0.581
+      },
+      {
+        "lag": 5,
+        "r": 0.584
+      },
+      {
+        "lag": 6,
+        "r": 0.588
+      },
+      {
+        "lag": 7,
+        "r": 0.591
+      },
+      {
+        "lag": 8,
+        "r": 0.594
+      },
+      {
+        "lag": 9,
+        "r": 0.598
+      },
+      {
+        "lag": 10,
+        "r": 0.601
+      },
+      {
+        "lag": 11,
+        "r": 0.605
+      },
+      {
+        "lag": 12,
+        "r": 0.608
+      },
+      {
+        "lag": 13,
+        "r": 0.612
+      },
+      {
+        "lag": 14,
+        "r": 0.616
+      },
+      {
+        "lag": 15,
+        "r": 0.619
+      },
+      {
+        "lag": 16,
+        "r": 0.622
+      },
+      {
+        "lag": 17,
+        "r": 0.626
+      },
+      {
+        "lag": 18,
+        "r": 0.629
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "drop_hp_south",
+      "agency": "USGS",
+      "series_id": "Field measurements 72019, 13 wells",
+      "label": "High Plains South: Kansas, Oklahoma, Texas (13 wells)",
+      "unit": "Feet of Drop Since Early 1980s",
+      "transform": "raw",
+      "color": "#f97316"
+    },
+    {
+      "key": "drop_hp_north",
+      "agency": "USGS",
+      "series_id": "Field measurements 72019, 1863 wells",
+      "label": "High Plains North: Nebraska and North (1863 wells)",
+      "unit": "Feet of Drop Since Early 1980s",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "drop_floridan",
+      "agency": "USGS",
+      "series_id": "Field measurements 72019, 56 wells",
+      "label": "Floridan Aquifer: Florida and Georgia (56 wells)",
+      "unit": "Feet of Drop Since Early 1980s",
+      "transform": "raw",
+      "color": "#0284c7"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1980-07-01",
+      "values": {
+        "drop_hp_south": -0.843,
+        "drop_hp_north": 0.9,
+        "drop_floridan": 0.105
+      },
+      "zscores": {
+        "drop_hp_south": 0.0,
+        "drop_hp_north": 0.0,
+        "drop_floridan": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1980-08-01",
+      "values": {
+        "drop_hp_south": -0.777,
+        "drop_hp_north": 0.949,
+        "drop_floridan": 0.329
+      },
+      "zscores": {
+        "drop_hp_south": 1.0,
+        "drop_hp_north": 1.0,
+        "drop_floridan": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "1980-09-01",
+      "values": {
+        "drop_hp_south": -0.712,
+        "drop_hp_north": 0.997,
+        "drop_floridan": 0.552
+      },
+      "zscores": {
+        "drop_hp_south": 1.225,
+        "drop_hp_north": 1.225,
+        "drop_floridan": 1.225
+      },
+      "events": []
+    },
+    {
+      "date": "1980-10-01",
+      "values": {
+        "drop_hp_south": -0.646,
+        "drop_hp_north": 1.046,
+        "drop_floridan": 0.776
+      },
+      "zscores": {
+        "drop_hp_south": 1.342,
+        "drop_hp_north": 1.342,
+        "drop_floridan": 1.342
+      },
+      "events": []
+    },
+    {
+      "date": "1980-11-01",
+      "values": {
+        "drop_hp_south": -0.581,
+        "drop_hp_north": 1.094,
+        "drop_floridan": 1.0
+      },
+      "zscores": {
+        "drop_hp_south": 1.414,
+        "drop_hp_north": 1.414,
+        "drop_floridan": 1.414
+      },
+      "events": []
+    },
+    {
+      "date": "1980-12-01",
+      "values": {
+        "drop_hp_south": -0.515,
+        "drop_hp_north": 1.143,
+        "drop_floridan": 1.223
+      },
+      "zscores": {
+        "drop_hp_south": 1.464,
+        "drop_hp_north": 1.464,
+        "drop_floridan": 1.464
+      },
+      "events": []
+    },
+    {
+      "date": "1981-01-01",
+      "values": {
+        "drop_hp_south": -0.45,
+        "drop_hp_north": 1.191,
+        "drop_floridan": 1.447
+      },
+      "zscores": {
+        "drop_hp_south": 1.5,
+        "drop_hp_north": 1.5,
+        "drop_floridan": 1.5
+      },
+      "events": []
+    },
+    {
+      "date": "1981-02-01",
+      "values": {
+        "drop_hp_south": -0.384,
+        "drop_hp_north": 1.24,
+        "drop_floridan": 1.67
+      },
+      "zscores": {
+        "drop_hp_south": 1.528,
+        "drop_hp_north": 1.528,
+        "drop_floridan": 1.528
+      },
+      "events": []
+    },
+    {
+      "date": "1981-03-01",
+      "values": {
+        "drop_hp_south": -0.319,
+        "drop_hp_north": 1.289,
+        "drop_floridan": 1.894
+      },
+      "zscores": {
+        "drop_hp_south": 1.549,
+        "drop_hp_north": 1.549,
+        "drop_floridan": 1.549
+      },
+      "events": []
+    },
+    {
+      "date": "1981-04-01",
+      "values": {
+        "drop_hp_south": -0.253,
+        "drop_hp_north": 1.337,
+        "drop_floridan": 2.118
+      },
+      "zscores": {
+        "drop_hp_south": 1.567,
+        "drop_hp_north": 1.567,
+        "drop_floridan": 1.567
+      },
+      "events": []
+    },
+    {
+      "date": "1981-05-01",
+      "values": {
+        "drop_hp_south": -0.187,
+        "drop_hp_north": 1.386,
+        "drop_floridan": 2.341
+      },
+      "zscores": {
+        "drop_hp_south": 1.581,
+        "drop_hp_north": 1.581,
+        "drop_floridan": 1.581
+      },
+      "events": []
+    },
+    {
+      "date": "1981-06-01",
+      "values": {
+        "drop_hp_south": -0.122,
+        "drop_hp_north": 1.434,
+        "drop_floridan": 2.565
+      },
+      "zscores": {
+        "drop_hp_south": 1.593,
+        "drop_hp_north": 1.593,
+        "drop_floridan": 1.593
+      },
+      "events": []
+    },
+    {
+      "date": "1981-07-01",
+      "values": {
+        "drop_hp_south": -0.056,
+        "drop_hp_north": 1.483,
+        "drop_floridan": 2.788
+      },
+      "zscores": {
+        "drop_hp_south": 1.604,
+        "drop_hp_north": 1.604,
+        "drop_floridan": 1.604
+      },
+      "events": []
+    },
+    {
+      "date": "1981-08-01",
+      "values": {
+        "drop_hp_south": -0.073,
+        "drop_hp_north": 1.414,
+        "drop_floridan": 2.496
+      },
+      "zscores": {
+        "drop_hp_south": 1.368,
+        "drop_hp_north": 1.122,
+        "drop_floridan": 1.146
+      },
+      "events": []
+    },
+    {
+      "date": "1981-09-01",
+      "values": {
+        "drop_hp_south": -0.09,
+        "drop_hp_north": 1.345,
+        "drop_floridan": 2.204
+      },
+      "zscores": {
+        "drop_hp_south": 1.192,
+        "drop_hp_north": 0.711,
+        "drop_floridan": 0.759
+      },
+      "events": []
+    },
+    {
+      "date": "1981-10-01",
+      "values": {
+        "drop_hp_south": -0.107,
+        "drop_hp_north": 1.277,
+        "drop_floridan": 1.912
+      },
+      "zscores": {
+        "drop_hp_south": 1.05,
+        "drop_hp_north": 0.321,
+        "drop_floridan": 0.396
+      },
+      "events": []
+    },
+    {
+      "date": "1981-11-01",
+      "values": {
+        "drop_hp_south": -0.124,
+        "drop_hp_north": 1.208,
+        "drop_floridan": 1.62
+      },
+      "zscores": {
+        "drop_hp_south": 0.93,
+        "drop_hp_north": -0.067,
+        "drop_floridan": 0.037
+      },
+      "events": []
+    },
+    {
+      "date": "1981-12-01",
+      "values": {
+        "drop_hp_south": -0.141,
+        "drop_hp_north": 1.14,
+        "drop_floridan": 1.328
+      },
+      "zscores": {
+        "drop_hp_south": 0.824,
+        "drop_hp_north": -0.453,
+        "drop_floridan": -0.321
+      },
+      "events": []
+    },
+    {
+      "date": "1982-01-01",
+      "values": {
+        "drop_hp_south": -0.158,
+        "drop_hp_north": 1.071,
+        "drop_floridan": 1.036
+      },
+      "zscores": {
+        "drop_hp_south": 0.727,
+        "drop_hp_north": -0.824,
+        "drop_floridan": -0.672
+      },
+      "events": []
+    },
+    {
+      "date": "1982-02-01",
+      "values": {
+        "drop_hp_south": -0.175,
+        "drop_hp_north": 1.002,
+        "drop_floridan": 0.744
+      },
+      "zscores": {
+        "drop_hp_south": 0.637,
+        "drop_hp_north": -1.163,
+        "drop_floridan": -1.001
+      },
+      "events": []
+    },
+    {
+      "date": "1982-03-01",
+      "values": {
+        "drop_hp_south": -0.192,
+        "drop_hp_north": 0.934,
+        "drop_floridan": 0.452
+      },
+      "zscores": {
+        "drop_hp_south": 0.552,
+        "drop_hp_north": -1.452,
+        "drop_floridan": -1.293
+      },
+      "events": []
+    },
+    {
+      "date": "1982-04-01",
+      "values": {
+        "drop_hp_south": -0.209,
+        "drop_hp_north": 0.865,
+        "drop_floridan": 0.16
+      },
+      "zscores": {
+        "drop_hp_south": 0.47,
+        "drop_hp_north": -1.68,
+        "drop_floridan": -1.536
+      },
+      "events": []
+    },
+    {
+      "date": "1982-05-01",
+      "values": {
+        "drop_hp_south": -0.226,
+        "drop_hp_north": 0.797,
+        "drop_floridan": -0.132
+      },
+      "zscores": {
+        "drop_hp_south": 0.39,
+        "drop_hp_north": -1.85,
+        "drop_floridan": -1.726
+      },
+      "events": []
+    },
+    {
+      "date": "1982-06-01",
+      "values": {
+        "drop_hp_south": -0.243,
+        "drop_hp_north": 0.728,
+        "drop_floridan": -0.424
+      },
+      "zscores": {
+        "drop_hp_south": 0.312,
+        "drop_hp_north": -1.968,
+        "drop_floridan": -1.867
+      },
+      "events": []
+    },
+    {
+      "date": "1982-07-01",
+      "values": {
+        "drop_hp_south": -0.26,
+        "drop_hp_north": 0.66,
+        "drop_floridan": -0.716
+      },
+      "zscores": {
+        "drop_hp_south": 0.235,
+        "drop_hp_north": -2.047,
+        "drop_floridan": -1.966
+      },
+      "events": []
+    },
+    {
+      "date": "1982-08-01",
+      "values": {
+        "drop_hp_south": -0.226,
+        "drop_hp_north": 0.58,
+        "drop_floridan": -0.8
+      },
+      "zscores": {
+        "drop_hp_south": 0.372,
+        "drop_hp_north": -2.13,
+        "drop_floridan": -1.868
+      },
+      "events": []
+    },
+    {
+      "date": "1982-09-01",
+      "values": {
+        "drop_hp_south": -0.193,
+        "drop_hp_north": 0.501,
+        "drop_floridan": -0.885
+      },
+      "zscores": {
+        "drop_hp_south": 0.507,
+        "drop_hp_north": -2.18,
+        "drop_floridan": -1.793
+      },
+      "events": []
+    },
+    {
+      "date": "1982-10-01",
+      "values": {
+        "drop_hp_south": -0.159,
+        "drop_hp_north": 0.422,
+        "drop_floridan": -0.969
+      },
+      "zscores": {
+        "drop_hp_south": 0.64,
+        "drop_hp_north": -2.206,
+        "drop_floridan": -1.733
+      },
+      "events": []
+    },
+    {
+      "date": "1982-11-01",
+      "values": {
+        "drop_hp_south": -0.126,
+        "drop_hp_north": 0.342,
+        "drop_floridan": -1.053
+      },
+      "zscores": {
+        "drop_hp_south": 0.77,
+        "drop_hp_north": -2.216,
+        "drop_floridan": -1.685
+      },
+      "events": []
+    },
+    {
+      "date": "1982-12-01",
+      "values": {
+        "drop_hp_south": -0.093,
+        "drop_hp_north": 0.263,
+        "drop_floridan": -1.138
+      },
+      "zscores": {
+        "drop_hp_south": 0.894,
+        "drop_hp_north": -2.216,
+        "drop_floridan": -1.646
+      },
+      "events": []
+    },
+    {
+      "date": "1983-01-01",
+      "values": {
+        "drop_hp_south": -0.059,
+        "drop_hp_north": 0.184,
+        "drop_floridan": -1.222
+      },
+      "zscores": {
+        "drop_hp_south": 1.013,
+        "drop_hp_north": -2.209,
+        "drop_floridan": -1.614
+      },
+      "events": []
+    },
+    {
+      "date": "1983-02-01",
+      "values": {
+        "drop_hp_south": -0.026,
+        "drop_hp_north": 0.105,
+        "drop_floridan": -1.307
+      },
+      "zscores": {
+        "drop_hp_south": 1.123,
+        "drop_hp_north": -2.198,
+        "drop_floridan": -1.587
+      },
+      "events": []
+    },
+    {
+      "date": "1983-03-01",
+      "values": {
+        "drop_hp_south": 0.008,
+        "drop_hp_north": 0.025,
+        "drop_floridan": -1.391
+      },
+      "zscores": {
+        "drop_hp_south": 1.226,
+        "drop_hp_north": -2.184,
+        "drop_floridan": -1.566
+      },
+      "events": []
+    },
+    {
+      "date": "1983-04-01",
+      "values": {
+        "drop_hp_south": 0.041,
+        "drop_hp_north": -0.054,
+        "drop_floridan": -1.476
+      },
+      "zscores": {
+        "drop_hp_south": 1.32,
+        "drop_hp_north": -2.169,
+        "drop_floridan": -1.548
+      },
+      "events": []
+    },
+    {
+      "date": "1983-05-01",
+      "values": {
+        "drop_hp_south": 0.075,
+        "drop_hp_north": -0.133,
+        "drop_floridan": -1.56
+      },
+      "zscores": {
+        "drop_hp_south": 1.405,
+        "drop_hp_north": -2.153,
+        "drop_floridan": -1.533
+      },
+      "events": []
+    },
+    {
+      "date": "1983-06-01",
+      "values": {
+        "drop_hp_south": 0.108,
+        "drop_hp_north": -0.212,
+        "drop_floridan": -1.645
+      },
+      "zscores": {
+        "drop_hp_south": 1.482,
+        "drop_hp_north": -2.138,
+        "drop_floridan": -1.52
+      },
+      "events": []
+    },
+    {
+      "date": "1983-07-01",
+      "values": {
+        "drop_hp_south": 0.142,
+        "drop_hp_north": -0.292,
+        "drop_floridan": -1.729
+      },
+      "zscores": {
+        "drop_hp_south": 1.617,
+        "drop_hp_north": -2.089,
+        "drop_floridan": -1.496
+      },
+      "events": []
+    },
+    {
+      "date": "1983-08-01",
+      "values": {
+        "drop_hp_south": 0.224,
+        "drop_hp_north": -0.361,
+        "drop_floridan": -1.681
+      },
+      "zscores": {
+        "drop_hp_south": 1.965,
+        "drop_hp_north": -2.024,
+        "drop_floridan": -1.383
+      },
+      "events": []
+    },
+    {
+      "date": "1983-09-01",
+      "values": {
+        "drop_hp_south": 0.306,
+        "drop_hp_north": -0.429,
+        "drop_floridan": -1.633
+      },
+      "zscores": {
+        "drop_hp_south": 2.283,
+        "drop_hp_north": -1.964,
+        "drop_floridan": -1.278
+      },
+      "events": []
+    },
+    {
+      "date": "1983-10-01",
+      "values": {
+        "drop_hp_south": 0.388,
+        "drop_hp_north": -0.498,
+        "drop_floridan": -1.585
+      },
+      "zscores": {
+        "drop_hp_south": 2.532,
+        "drop_hp_north": -1.909,
+        "drop_floridan": -1.18
+      },
+      "events": []
+    },
+    {
+      "date": "1983-11-01",
+      "values": {
+        "drop_hp_south": 0.47,
+        "drop_hp_north": -0.567,
+        "drop_floridan": -1.536
+      },
+      "zscores": {
+        "drop_hp_south": 2.692,
+        "drop_hp_north": -1.859,
+        "drop_floridan": -1.087
+      },
+      "events": []
+    },
+    {
+      "date": "1983-12-01",
+      "values": {
+        "drop_hp_south": 0.552,
+        "drop_hp_north": -0.636,
+        "drop_floridan": -1.488
+      },
+      "zscores": {
+        "drop_hp_south": 2.765,
+        "drop_hp_north": -1.814,
+        "drop_floridan": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "1984-01-01",
+      "values": {
+        "drop_hp_south": 0.633,
+        "drop_hp_north": -0.705,
+        "drop_floridan": -1.44
+      },
+      "zscores": {
+        "drop_hp_south": 2.769,
+        "drop_hp_north": -1.774,
+        "drop_floridan": -0.916
+      },
+      "events": []
+    },
+    {
+      "date": "1984-02-01",
+      "values": {
+        "drop_hp_south": 0.715,
+        "drop_hp_north": -0.774,
+        "drop_floridan": -1.392
+      },
+      "zscores": {
+        "drop_hp_south": 2.729,
+        "drop_hp_north": -1.74,
+        "drop_floridan": -0.837
+      },
+      "events": []
+    },
+    {
+      "date": "1984-03-01",
+      "values": {
+        "drop_hp_south": 0.797,
+        "drop_hp_north": -0.842,
+        "drop_floridan": -1.344
+      },
+      "zscores": {
+        "drop_hp_south": 2.664,
+        "drop_hp_north": -1.71,
+        "drop_floridan": -0.759
+      },
+      "events": []
+    },
+    {
+      "date": "1984-04-01",
+      "values": {
+        "drop_hp_south": 0.879,
+        "drop_hp_north": -0.911,
+        "drop_floridan": -1.296
+      },
+      "zscores": {
+        "drop_hp_south": 2.587,
+        "drop_hp_north": -1.685,
+        "drop_floridan": -0.684
+      },
+      "events": []
+    },
+    {
+      "date": "1984-05-01",
+      "values": {
+        "drop_hp_south": 0.961,
+        "drop_hp_north": -0.98,
+        "drop_floridan": -1.247
+      },
+      "zscores": {
+        "drop_hp_south": 2.508,
+        "drop_hp_north": -1.667,
+        "drop_floridan": -0.609
+      },
+      "events": []
+    },
+    {
+      "date": "1984-06-01",
+      "values": {
+        "drop_hp_south": 1.043,
+        "drop_hp_north": -1.049,
+        "drop_floridan": -1.199
+      },
+      "zscores": {
+        "drop_hp_south": 2.43,
+        "drop_hp_north": -1.654,
+        "drop_floridan": -0.533
+      },
+      "events": []
+    },
+    {
+      "date": "1984-07-01",
+      "values": {
+        "drop_hp_south": 1.125,
+        "drop_hp_north": -1.118,
+        "drop_floridan": -1.151
+      },
+      "zscores": {
+        "drop_hp_south": 2.355,
+        "drop_hp_north": -1.65,
+        "drop_floridan": -0.455
+      },
+      "events": []
+    },
+    {
+      "date": "1984-08-01",
+      "values": {
+        "drop_hp_south": 1.079,
+        "drop_hp_north": -1.157,
+        "drop_floridan": -1.007
+      },
+      "zscores": {
+        "drop_hp_south": 2.042,
+        "drop_hp_north": -1.611,
+        "drop_floridan": -0.284
+      },
+      "events": []
+    },
+    {
+      "date": "1984-09-01",
+      "values": {
+        "drop_hp_south": 1.033,
+        "drop_hp_north": -1.197,
+        "drop_floridan": -0.862
+      },
+      "zscores": {
+        "drop_hp_south": 1.788,
+        "drop_hp_north": -1.577,
+        "drop_floridan": -0.084
+      },
+      "events": []
+    },
+    {
+      "date": "1984-10-01",
+      "values": {
+        "drop_hp_south": 0.988,
+        "drop_hp_north": -1.236,
+        "drop_floridan": -0.718
+      },
+      "zscores": {
+        "drop_hp_south": 1.574,
+        "drop_hp_north": -1.546,
+        "drop_floridan": 0.154
+      },
+      "events": []
+    },
+    {
+      "date": "1984-11-01",
+      "values": {
+        "drop_hp_south": 0.942,
+        "drop_hp_north": -1.275,
+        "drop_floridan": -0.573
+      },
+      "zscores": {
+        "drop_hp_south": 1.386,
+        "drop_hp_north": -1.519,
+        "drop_floridan": 0.44
+      },
+      "events": []
+    },
+    {
+      "date": "1984-12-01",
+      "values": {
+        "drop_hp_south": 0.896,
+        "drop_hp_north": -1.315,
+        "drop_floridan": -0.429
+      },
+      "zscores": {
+        "drop_hp_south": 1.217,
+        "drop_hp_north": -1.495,
+        "drop_floridan": 0.785
+      },
+      "events": []
+    },
+    {
+      "date": "1985-01-01",
+      "values": {
+        "drop_hp_south": 0.85,
+        "drop_hp_north": -1.354,
+        "drop_floridan": -0.284
+      },
+      "zscores": {
+        "drop_hp_south": 1.061,
+        "drop_hp_north": -1.475,
+        "drop_floridan": 1.187
+      },
+      "events": []
+    },
+    {
+      "date": "1985-02-01",
+      "values": {
+        "drop_hp_south": 0.804,
+        "drop_hp_north": -1.394,
+        "drop_floridan": -0.139
+      },
+      "zscores": {
+        "drop_hp_south": 0.914,
+        "drop_hp_north": -1.457,
+        "drop_floridan": 1.618
+      },
+      "events": []
+    },
+    {
+      "date": "1985-03-01",
+      "values": {
+        "drop_hp_south": 0.758,
+        "drop_hp_north": -1.433,
+        "drop_floridan": 0.005
+      },
+      "zscores": {
+        "drop_hp_south": 0.772,
+        "drop_hp_north": -1.442,
+        "drop_floridan": 2.014
+      },
+      "events": []
+    },
+    {
+      "date": "1985-04-01",
+      "values": {
+        "drop_hp_south": 0.712,
+        "drop_hp_north": -1.472,
+        "drop_floridan": 0.15
+      },
+      "zscores": {
+        "drop_hp_south": 0.633,
+        "drop_hp_north": -1.43,
+        "drop_floridan": 2.298
+      },
+      "events": []
+    },
+    {
+      "date": "1985-05-01",
+      "values": {
+        "drop_hp_south": 0.666,
+        "drop_hp_north": -1.512,
+        "drop_floridan": 0.294
+      },
+      "zscores": {
+        "drop_hp_south": 0.494,
+        "drop_hp_north": -1.421,
+        "drop_floridan": 2.438
+      },
+      "events": []
+    },
+    {
+      "date": "1985-06-01",
+      "values": {
+        "drop_hp_south": 0.62,
+        "drop_hp_north": -1.551,
+        "drop_floridan": 0.439
+      },
+      "zscores": {
+        "drop_hp_south": 0.352,
+        "drop_hp_north": -1.415,
+        "drop_floridan": 2.463
+      },
+      "events": []
+    },
+    {
+      "date": "1985-07-01",
+      "values": {
+        "drop_hp_south": 0.574,
+        "drop_hp_north": -1.59,
+        "drop_floridan": 0.583
+      },
+      "zscores": {
+        "drop_hp_south": 0.205,
+        "drop_hp_north": -1.412,
+        "drop_floridan": 2.424
+      },
+      "events": []
+    },
+    {
+      "date": "1985-08-01",
+      "values": {
+        "drop_hp_south": 0.584,
+        "drop_hp_north": -1.625,
+        "drop_floridan": 0.685
+      },
+      "zscores": {
+        "drop_hp_south": 0.184,
+        "drop_hp_north": -1.405,
+        "drop_floridan": 2.319
+      },
+      "events": []
+    },
+    {
+      "date": "1985-09-01",
+      "values": {
+        "drop_hp_south": 0.595,
+        "drop_hp_north": -1.66,
+        "drop_floridan": 0.786
+      },
+      "zscores": {
+        "drop_hp_south": 0.163,
+        "drop_hp_north": -1.401,
+        "drop_floridan": 2.223
+      },
+      "events": []
+    },
+    {
+      "date": "1985-10-01",
+      "values": {
+        "drop_hp_south": 0.605,
+        "drop_hp_north": -1.695,
+        "drop_floridan": 0.888
+      },
+      "zscores": {
+        "drop_hp_south": 0.142,
+        "drop_hp_north": -1.399,
+        "drop_floridan": 2.136
+      },
+      "events": []
+    },
+    {
+      "date": "1985-11-01",
+      "values": {
+        "drop_hp_south": 0.616,
+        "drop_hp_north": -1.73,
+        "drop_floridan": 0.99
+      },
+      "zscores": {
+        "drop_hp_south": 0.12,
+        "drop_hp_north": -1.399,
+        "drop_floridan": 2.058
+      },
+      "events": []
+    },
+    {
+      "date": "1985-12-01",
+      "values": {
+        "drop_hp_south": 0.626,
+        "drop_hp_north": -1.765,
+        "drop_floridan": 1.091
+      },
+      "zscores": {
+        "drop_hp_south": 0.098,
+        "drop_hp_north": -1.402,
+        "drop_floridan": 1.987
+      },
+      "events": []
+    },
+    {
+      "date": "1986-01-01",
+      "values": {
+        "drop_hp_south": 0.636,
+        "drop_hp_north": -1.8,
+        "drop_floridan": 1.193
+      },
+      "zscores": {
+        "drop_hp_south": 0.076,
+        "drop_hp_north": -1.406,
+        "drop_floridan": 1.924
+      },
+      "events": []
+    },
+    {
+      "date": "1986-02-01",
+      "values": {
+        "drop_hp_south": 0.647,
+        "drop_hp_north": -1.835,
+        "drop_floridan": 1.295
+      },
+      "zscores": {
+        "drop_hp_south": 0.054,
+        "drop_hp_north": -1.413,
+        "drop_floridan": 1.868
+      },
+      "events": []
+    },
+    {
+      "date": "1986-03-01",
+      "values": {
+        "drop_hp_south": 0.657,
+        "drop_hp_north": -1.87,
+        "drop_floridan": 1.396
+      },
+      "zscores": {
+        "drop_hp_south": 0.03,
+        "drop_hp_north": -1.422,
+        "drop_floridan": 1.819
+      },
+      "events": []
+    },
+    {
+      "date": "1986-04-01",
+      "values": {
+        "drop_hp_south": 0.667,
+        "drop_hp_north": -1.905,
+        "drop_floridan": 1.498
+      },
+      "zscores": {
+        "drop_hp_south": 0.006,
+        "drop_hp_north": -1.433,
+        "drop_floridan": 1.776
+      },
+      "events": []
+    },
+    {
+      "date": "1986-05-01",
+      "values": {
+        "drop_hp_south": 0.678,
+        "drop_hp_north": -1.94,
+        "drop_floridan": 1.6
+      },
+      "zscores": {
+        "drop_hp_south": -0.019,
+        "drop_hp_north": -1.445,
+        "drop_floridan": 1.739
+      },
+      "events": []
+    },
+    {
+      "date": "1986-06-01",
+      "values": {
+        "drop_hp_south": 0.688,
+        "drop_hp_north": -1.975,
+        "drop_floridan": 1.701
+      },
+      "zscores": {
+        "drop_hp_south": -0.046,
+        "drop_hp_north": -1.459,
+        "drop_floridan": 1.708
+      },
+      "events": []
+    },
+    {
+      "date": "1986-07-01",
+      "values": {
+        "drop_hp_south": 0.699,
+        "drop_hp_north": -2.01,
+        "drop_floridan": 1.803
+      },
+      "zscores": {
+        "drop_hp_south": -0.076,
+        "drop_hp_north": -1.473,
+        "drop_floridan": 1.683
+      },
+      "events": []
+    },
+    {
+      "date": "1986-08-01",
+      "values": {
+        "drop_hp_south": 0.734,
+        "drop_hp_north": -2.06,
+        "drop_floridan": 1.686
+      },
+      "zscores": {
+        "drop_hp_south": 0.032,
+        "drop_hp_north": -1.517,
+        "drop_floridan": 1.491
+      },
+      "events": []
+    },
+    {
+      "date": "1986-09-01",
+      "values": {
+        "drop_hp_south": 0.77,
+        "drop_hp_north": -2.109,
+        "drop_floridan": 1.568
+      },
+      "zscores": {
+        "drop_hp_south": 0.167,
+        "drop_hp_north": -1.561,
+        "drop_floridan": 1.316
+      },
+      "events": []
+    },
+    {
+      "date": "1986-10-01",
+      "values": {
+        "drop_hp_south": 0.806,
+        "drop_hp_north": -2.158,
+        "drop_floridan": 1.451
+      },
+      "zscores": {
+        "drop_hp_south": 0.326,
+        "drop_hp_north": -1.605,
+        "drop_floridan": 1.152
+      },
+      "events": []
+    },
+    {
+      "date": "1986-11-01",
+      "values": {
+        "drop_hp_south": 0.842,
+        "drop_hp_north": -2.207,
+        "drop_floridan": 1.334
+      },
+      "zscores": {
+        "drop_hp_south": 0.503,
+        "drop_hp_north": -1.646,
+        "drop_floridan": 0.997
+      },
+      "events": []
+    },
+    {
+      "date": "1986-12-01",
+      "values": {
+        "drop_hp_south": 0.878,
+        "drop_hp_north": -2.256,
+        "drop_floridan": 1.216
+      },
+      "zscores": {
+        "drop_hp_south": 0.687,
+        "drop_hp_north": -1.686,
+        "drop_floridan": 0.845
+      },
+      "events": []
+    },
+    {
+      "date": "1987-01-01",
+      "values": {
+        "drop_hp_south": 0.913,
+        "drop_hp_north": -2.306,
+        "drop_floridan": 1.099
+      },
+      "zscores": {
+        "drop_hp_south": 0.871,
+        "drop_hp_north": -1.721,
+        "drop_floridan": 0.694
+      },
+      "events": []
+    },
+    {
+      "date": "1987-02-01",
+      "values": {
+        "drop_hp_south": 0.949,
+        "drop_hp_north": -2.355,
+        "drop_floridan": 0.982
+      },
+      "zscores": {
+        "drop_hp_south": 1.048,
+        "drop_hp_north": -1.753,
+        "drop_floridan": 0.54
+      },
+      "events": []
+    },
+    {
+      "date": "1987-03-01",
+      "values": {
+        "drop_hp_south": 0.985,
+        "drop_hp_north": -2.404,
+        "drop_floridan": 0.865
+      },
+      "zscores": {
+        "drop_hp_south": 1.219,
+        "drop_hp_north": -1.78,
+        "drop_floridan": 0.381
+      },
+      "events": []
+    },
+    {
+      "date": "1987-04-01",
+      "values": {
+        "drop_hp_south": 1.021,
+        "drop_hp_north": -2.453,
+        "drop_floridan": 0.747
+      },
+      "zscores": {
+        "drop_hp_south": 1.386,
+        "drop_hp_north": -1.801,
+        "drop_floridan": 0.214
+      },
+      "events": []
+    },
+    {
+      "date": "1987-05-01",
+      "values": {
+        "drop_hp_south": 1.057,
+        "drop_hp_north": -2.502,
+        "drop_floridan": 0.63
+      },
+      "zscores": {
+        "drop_hp_south": 1.558,
+        "drop_hp_north": -1.815,
+        "drop_floridan": 0.034
+      },
+      "events": []
+    },
+    {
+      "date": "1987-06-01",
+      "values": {
+        "drop_hp_south": 1.092,
+        "drop_hp_north": -2.552,
+        "drop_floridan": 0.513
+      },
+      "zscores": {
+        "drop_hp_south": 1.742,
+        "drop_hp_north": -1.824,
+        "drop_floridan": -0.164
+      },
+      "events": []
+    },
+    {
+      "date": "1987-07-01",
+      "values": {
+        "drop_hp_south": 1.128,
+        "drop_hp_north": -2.601,
+        "drop_floridan": 0.395
+      },
+      "zscores": {
+        "drop_hp_south": 1.953,
+        "drop_hp_north": -1.826,
+        "drop_floridan": -0.384
+      },
+      "events": []
+    },
+    {
+      "date": "1987-08-01",
+      "values": {
+        "drop_hp_south": 1.052,
+        "drop_hp_north": -2.547,
+        "drop_floridan": 0.487
+      },
+      "zscores": {
+        "drop_hp_south": 1.517,
+        "drop_hp_north": -1.606,
+        "drop_floridan": -0.343
+      },
+      "events": []
+    },
+    {
+      "date": "1987-09-01",
+      "values": {
+        "drop_hp_south": 0.976,
+        "drop_hp_north": -2.493,
+        "drop_floridan": 0.579
+      },
+      "zscores": {
+        "drop_hp_south": 1.085,
+        "drop_hp_north": -1.404,
+        "drop_floridan": -0.291
+      },
+      "events": []
+    },
+    {
+      "date": "1987-10-01",
+      "values": {
+        "drop_hp_south": 0.901,
+        "drop_hp_north": -2.438,
+        "drop_floridan": 0.671
+      },
+      "zscores": {
+        "drop_hp_south": 0.648,
+        "drop_hp_north": -1.214,
+        "drop_floridan": -0.228
+      },
+      "events": []
+    },
+    {
+      "date": "1987-11-01",
+      "values": {
+        "drop_hp_south": 0.825,
+        "drop_hp_north": -2.384,
+        "drop_floridan": 0.763
+      },
+      "zscores": {
+        "drop_hp_south": 0.204,
+        "drop_hp_north": -1.03,
+        "drop_floridan": -0.15
+      },
+      "events": []
+    },
+    {
+      "date": "1987-12-01",
+      "values": {
+        "drop_hp_south": 0.749,
+        "drop_hp_north": -2.33,
+        "drop_floridan": 0.854
+      },
+      "zscores": {
+        "drop_hp_south": -0.244,
+        "drop_hp_north": -0.848,
+        "drop_floridan": -0.056
+      },
+      "events": []
+    },
+    {
+      "date": "1988-01-01",
+      "values": {
+        "drop_hp_south": 0.673,
+        "drop_hp_north": -2.276,
+        "drop_floridan": 0.946
+      },
+      "zscores": {
+        "drop_hp_south": -0.684,
+        "drop_hp_north": -0.662,
+        "drop_floridan": 0.058
+      },
+      "events": []
+    },
+    {
+      "date": "1988-02-01",
+      "values": {
+        "drop_hp_south": 0.597,
+        "drop_hp_north": -2.222,
+        "drop_floridan": 1.038
+      },
+      "zscores": {
+        "drop_hp_south": -1.101,
+        "drop_hp_north": -0.471,
+        "drop_floridan": 0.193
+      },
+      "events": []
+    },
+    {
+      "date": "1988-03-01",
+      "values": {
+        "drop_hp_south": 0.521,
+        "drop_hp_north": -2.168,
+        "drop_floridan": 1.13
+      },
+      "zscores": {
+        "drop_hp_south": -1.476,
+        "drop_hp_north": -0.271,
+        "drop_floridan": 0.348
+      },
+      "events": []
+    },
+    {
+      "date": "1988-04-01",
+      "values": {
+        "drop_hp_south": 0.445,
+        "drop_hp_north": -2.113,
+        "drop_floridan": 1.222
+      },
+      "zscores": {
+        "drop_hp_south": -1.796,
+        "drop_hp_north": -0.059,
+        "drop_floridan": 0.521
+      },
+      "events": []
+    },
+    {
+      "date": "1988-05-01",
+      "values": {
+        "drop_hp_south": 0.369,
+        "drop_hp_north": -2.059,
+        "drop_floridan": 1.313
+      },
+      "zscores": {
+        "drop_hp_south": -2.052,
+        "drop_hp_north": 0.166,
+        "drop_floridan": 0.706
+      },
+      "events": []
+    },
+    {
+      "date": "1988-06-01",
+      "values": {
+        "drop_hp_south": 0.293,
+        "drop_hp_north": -2.005,
+        "drop_floridan": 1.405
+      },
+      "zscores": {
+        "drop_hp_south": -2.244,
+        "drop_hp_north": 0.405,
+        "drop_floridan": 0.895
+      },
+      "events": []
+    },
+    {
+      "date": "1988-07-01",
+      "values": {
+        "drop_hp_south": 0.217,
+        "drop_hp_north": -1.951,
+        "drop_floridan": 1.497
+      },
+      "zscores": {
+        "drop_hp_south": -2.379,
+        "drop_hp_north": 0.655,
+        "drop_floridan": 1.078
+      },
+      "events": []
+    },
+    {
+      "date": "1988-08-01",
+      "values": {
+        "drop_hp_south": 0.218,
+        "drop_hp_north": -1.861,
+        "drop_floridan": 1.598
+      },
+      "zscores": {
+        "drop_hp_south": -2.18,
+        "drop_hp_north": 1.039,
+        "drop_floridan": 1.27
+      },
+      "events": []
+    },
+    {
+      "date": "1988-09-01",
+      "values": {
+        "drop_hp_south": 0.219,
+        "drop_hp_north": -1.771,
+        "drop_floridan": 1.698
+      },
+      "zscores": {
+        "drop_hp_south": -2.013,
+        "drop_hp_north": 1.412,
+        "drop_floridan": 1.44
+      },
+      "events": []
+    },
+    {
+      "date": "1988-10-01",
+      "values": {
+        "drop_hp_south": 0.22,
+        "drop_hp_north": -1.681,
+        "drop_floridan": 1.799
+      },
+      "zscores": {
+        "drop_hp_south": -1.871,
+        "drop_hp_north": 1.748,
+        "drop_floridan": 1.586
+      },
+      "events": []
+    },
+    {
+      "date": "1988-11-01",
+      "values": {
+        "drop_hp_south": 0.221,
+        "drop_hp_north": -1.592,
+        "drop_floridan": 1.899
+      },
+      "zscores": {
+        "drop_hp_south": -1.747,
+        "drop_hp_north": 2.022,
+        "drop_floridan": 1.705
+      },
+      "events": []
+    },
+    {
+      "date": "1988-12-01",
+      "values": {
+        "drop_hp_south": 0.222,
+        "drop_hp_north": -1.502,
+        "drop_floridan": 2.0
+      },
+      "zscores": {
+        "drop_hp_south": -1.637,
+        "drop_hp_north": 2.219,
+        "drop_floridan": 1.799
+      },
+      "events": []
+    },
+    {
+      "date": "1989-01-01",
+      "values": {
+        "drop_hp_south": 0.223,
+        "drop_hp_north": -1.412,
+        "drop_floridan": 2.1
+      },
+      "zscores": {
+        "drop_hp_south": -1.539,
+        "drop_hp_north": 2.34,
+        "drop_floridan": 1.871
+      },
+      "events": []
+    },
+    {
+      "date": "1989-02-01",
+      "values": {
+        "drop_hp_south": 0.223,
+        "drop_hp_north": -1.322,
+        "drop_floridan": 2.201
+      },
+      "zscores": {
+        "drop_hp_south": -1.45,
+        "drop_hp_north": 2.398,
+        "drop_floridan": 1.925
+      },
+      "events": []
+    },
+    {
+      "date": "1989-03-01",
+      "values": {
+        "drop_hp_south": 0.224,
+        "drop_hp_north": -1.232,
+        "drop_floridan": 2.301
+      },
+      "zscores": {
+        "drop_hp_south": -1.369,
+        "drop_hp_north": 2.409,
+        "drop_floridan": 1.965
+      },
+      "events": []
+    },
+    {
+      "date": "1989-04-01",
+      "values": {
+        "drop_hp_south": 0.225,
+        "drop_hp_north": -1.142,
+        "drop_floridan": 2.402
+      },
+      "zscores": {
+        "drop_hp_south": -1.294,
+        "drop_hp_north": 2.39,
+        "drop_floridan": 1.993
+      },
+      "events": []
+    },
+    {
+      "date": "1989-05-01",
+      "values": {
+        "drop_hp_south": 0.226,
+        "drop_hp_north": -1.053,
+        "drop_floridan": 2.502
+      },
+      "zscores": {
+        "drop_hp_south": -1.225,
+        "drop_hp_north": 2.351,
+        "drop_floridan": 2.012
+      },
+      "events": []
+    },
+    {
+      "date": "1989-06-01",
+      "values": {
+        "drop_hp_south": 0.227,
+        "drop_hp_north": -0.963,
+        "drop_floridan": 2.603
+      },
+      "zscores": {
+        "drop_hp_south": -1.161,
+        "drop_hp_north": 2.302,
+        "drop_floridan": 2.025
+      },
+      "events": []
+    },
+    {
+      "date": "1989-07-01",
+      "values": {
+        "drop_hp_south": 0.228,
+        "drop_hp_north": -0.873,
+        "drop_floridan": 2.703
+      },
+      "zscores": {
+        "drop_hp_south": -1.1,
+        "drop_hp_north": 2.247,
+        "drop_floridan": 2.033
+      },
+      "events": []
+    },
+    {
+      "date": "1989-08-01",
+      "values": {
+        "drop_hp_south": 0.27,
+        "drop_hp_north": -0.823,
+        "drop_floridan": 2.748
+      },
+      "zscores": {
+        "drop_hp_south": -0.925,
+        "drop_hp_north": 2.128,
+        "drop_floridan": 1.947
+      },
+      "events": []
+    },
+    {
+      "date": "1989-09-01",
+      "values": {
+        "drop_hp_south": 0.313,
+        "drop_hp_north": -0.773,
+        "drop_floridan": 2.792
+      },
+      "zscores": {
+        "drop_hp_south": -0.759,
+        "drop_hp_north": 2.025,
+        "drop_floridan": 1.864
+      },
+      "events": []
+    },
+    {
+      "date": "1989-10-01",
+      "values": {
+        "drop_hp_south": 0.355,
+        "drop_hp_north": -0.722,
+        "drop_floridan": 2.836
+      },
+      "zscores": {
+        "drop_hp_south": -0.598,
+        "drop_hp_north": 1.936,
+        "drop_floridan": 1.784
+      },
+      "events": []
+    },
+    {
+      "date": "1989-11-01",
+      "values": {
+        "drop_hp_south": 0.398,
+        "drop_hp_north": -0.672,
+        "drop_floridan": 2.88
+      },
+      "zscores": {
+        "drop_hp_south": -0.44,
+        "drop_hp_north": 1.859,
+        "drop_floridan": 1.711
+      },
+      "events": []
+    },
+    {
+      "date": "1989-12-01",
+      "values": {
+        "drop_hp_south": 0.44,
+        "drop_hp_north": -0.622,
+        "drop_floridan": 2.924
+      },
+      "zscores": {
+        "drop_hp_south": -0.281,
+        "drop_hp_north": 1.791,
+        "drop_floridan": 1.644
+      },
+      "events": []
+    },
+    {
+      "date": "1990-01-01",
+      "values": {
+        "drop_hp_south": 0.483,
+        "drop_hp_north": -0.572,
+        "drop_floridan": 2.969
+      },
+      "zscores": {
+        "drop_hp_south": -0.119,
+        "drop_hp_north": 1.732,
+        "drop_floridan": 1.583
+      },
+      "events": []
+    },
+    {
+      "date": "1990-02-01",
+      "values": {
+        "drop_hp_south": 0.525,
+        "drop_hp_north": -0.522,
+        "drop_floridan": 3.013
+      },
+      "zscores": {
+        "drop_hp_south": 0.048,
+        "drop_hp_north": 1.68,
+        "drop_floridan": 1.528
+      },
+      "events": []
+    },
+    {
+      "date": "1990-03-01",
+      "values": {
+        "drop_hp_south": 0.568,
+        "drop_hp_north": -0.472,
+        "drop_floridan": 3.057
+      },
+      "zscores": {
+        "drop_hp_south": 0.226,
+        "drop_hp_north": 1.635,
+        "drop_floridan": 1.481
+      },
+      "events": []
+    },
+    {
+      "date": "1990-04-01",
+      "values": {
+        "drop_hp_south": 0.611,
+        "drop_hp_north": -0.421,
+        "drop_floridan": 3.101
+      },
+      "zscores": {
+        "drop_hp_south": 0.417,
+        "drop_hp_north": 1.597,
+        "drop_floridan": 1.44
+      },
+      "events": []
+    },
+    {
+      "date": "1990-05-01",
+      "values": {
+        "drop_hp_south": 0.653,
+        "drop_hp_north": -0.371,
+        "drop_floridan": 3.145
+      },
+      "zscores": {
+        "drop_hp_south": 0.63,
+        "drop_hp_north": 1.566,
+        "drop_floridan": 1.407
+      },
+      "events": []
+    },
+    {
+      "date": "1990-06-01",
+      "values": {
+        "drop_hp_south": 0.696,
+        "drop_hp_north": -0.321,
+        "drop_floridan": 3.19
+      },
+      "zscores": {
+        "drop_hp_south": 0.873,
+        "drop_hp_north": 1.541,
+        "drop_floridan": 1.383
+      },
+      "events": []
+    },
+    {
+      "date": "1990-07-01",
+      "values": {
+        "drop_hp_south": 0.738,
+        "drop_hp_north": -0.271,
+        "drop_floridan": 3.234
+      },
+      "zscores": {
+        "drop_hp_south": 1.164,
+        "drop_hp_north": 1.524,
+        "drop_floridan": 1.371
+      },
+      "events": []
+    },
+    {
+      "date": "1990-08-01",
+      "values": {
+        "drop_hp_south": 0.814,
+        "drop_hp_north": -0.212,
+        "drop_floridan": 2.96
+      },
+      "zscores": {
+        "drop_hp_south": 1.59,
+        "drop_hp_north": 1.52,
+        "drop_floridan": 1.009
+      },
+      "events": []
+    },
+    {
+      "date": "1990-09-01",
+      "values": {
+        "drop_hp_south": 0.89,
+        "drop_hp_north": -0.154,
+        "drop_floridan": 2.686
+      },
+      "zscores": {
+        "drop_hp_south": 1.974,
+        "drop_hp_north": 1.518,
+        "drop_floridan": 0.641
+      },
+      "events": []
+    },
+    {
+      "date": "1990-10-01",
+      "values": {
+        "drop_hp_south": 0.967,
+        "drop_hp_north": -0.095,
+        "drop_floridan": 2.412
+      },
+      "zscores": {
+        "drop_hp_south": 2.264,
+        "drop_hp_north": 1.516,
+        "drop_floridan": 0.252
+      },
+      "events": []
+    },
+    {
+      "date": "1990-11-01",
+      "values": {
+        "drop_hp_south": 1.043,
+        "drop_hp_north": -0.037,
+        "drop_floridan": 2.138
+      },
+      "zscores": {
+        "drop_hp_south": 2.437,
+        "drop_hp_north": 1.517,
+        "drop_floridan": -0.166
+      },
+      "events": []
+    },
+    {
+      "date": "1990-12-01",
+      "values": {
+        "drop_hp_south": 1.119,
+        "drop_hp_north": 0.022,
+        "drop_floridan": 1.865
+      },
+      "zscores": {
+        "drop_hp_south": 2.508,
+        "drop_hp_north": 1.519,
+        "drop_floridan": -0.615
+      },
+      "events": []
+    },
+    {
+      "date": "1991-01-01",
+      "values": {
+        "drop_hp_south": 1.195,
+        "drop_hp_north": 0.081,
+        "drop_floridan": 1.591
+      },
+      "zscores": {
+        "drop_hp_south": 2.508,
+        "drop_hp_north": 1.522,
+        "drop_floridan": -1.085
+      },
+      "events": []
+    },
+    {
+      "date": "1991-02-01",
+      "values": {
+        "drop_hp_south": 1.271,
+        "drop_hp_north": 0.139,
+        "drop_floridan": 1.317
+      },
+      "zscores": {
+        "drop_hp_south": 2.468,
+        "drop_hp_north": 1.528,
+        "drop_floridan": -1.544
+      },
+      "events": []
+    },
+    {
+      "date": "1991-03-01",
+      "values": {
+        "drop_hp_south": 1.347,
+        "drop_hp_north": 0.198,
+        "drop_floridan": 1.043
+      },
+      "zscores": {
+        "drop_hp_south": 2.409,
+        "drop_hp_north": 1.536,
+        "drop_floridan": -1.952
+      },
+      "events": []
+    },
+    {
+      "date": "1991-04-01",
+      "values": {
+        "drop_hp_south": 1.423,
+        "drop_hp_north": 0.256,
+        "drop_floridan": 0.769
+      },
+      "zscores": {
+        "drop_hp_south": 2.344,
+        "drop_hp_north": 1.546,
+        "drop_floridan": -2.267
+      },
+      "events": []
+    },
+    {
+      "date": "1991-05-01",
+      "values": {
+        "drop_hp_south": 1.499,
+        "drop_hp_north": 0.315,
+        "drop_floridan": 0.496
+      },
+      "zscores": {
+        "drop_hp_south": 2.281,
+        "drop_hp_north": 1.559,
+        "drop_floridan": -2.475
+      },
+      "events": []
+    },
+    {
+      "date": "1991-06-01",
+      "values": {
+        "drop_hp_south": 1.576,
+        "drop_hp_north": 0.373,
+        "drop_floridan": 0.222
+      },
+      "zscores": {
+        "drop_hp_south": 2.222,
+        "drop_hp_north": 1.574,
+        "drop_floridan": -2.583
+      },
+      "events": []
+    },
+    {
+      "date": "1991-07-01",
+      "values": {
+        "drop_hp_south": 1.652,
+        "drop_hp_north": 0.432,
+        "drop_floridan": -0.052
+      },
+      "zscores": {
+        "drop_hp_south": 2.171,
+        "drop_hp_north": 1.593,
+        "drop_floridan": -2.615
+      },
+      "events": []
+    },
+    {
+      "date": "1991-08-01",
+      "values": {
+        "drop_hp_south": 1.686,
+        "drop_hp_north": 0.399,
+        "drop_floridan": -0.05
+      },
+      "zscores": {
+        "drop_hp_south": 2.05,
+        "drop_hp_north": 1.481,
+        "drop_floridan": -2.363
+      },
+      "events": []
+    },
+    {
+      "date": "1991-09-01",
+      "values": {
+        "drop_hp_south": 1.721,
+        "drop_hp_north": 0.365,
+        "drop_floridan": -0.048
+      },
+      "zscores": {
+        "drop_hp_south": 1.949,
+        "drop_hp_north": 1.375,
+        "drop_floridan": -2.158
+      },
+      "events": []
+    },
+    {
+      "date": "1991-10-01",
+      "values": {
+        "drop_hp_south": 1.755,
+        "drop_hp_north": 0.332,
+        "drop_floridan": -0.046
+      },
+      "zscores": {
+        "drop_hp_south": 1.863,
+        "drop_hp_north": 1.272,
+        "drop_floridan": -1.985
+      },
+      "events": []
+    },
+    {
+      "date": "1991-11-01",
+      "values": {
+        "drop_hp_south": 1.79,
+        "drop_hp_north": 0.299,
+        "drop_floridan": -0.045
+      },
+      "zscores": {
+        "drop_hp_south": 1.788,
+        "drop_hp_north": 1.172,
+        "drop_floridan": -1.837
+      },
+      "events": []
+    },
+    {
+      "date": "1991-12-01",
+      "values": {
+        "drop_hp_south": 1.824,
+        "drop_hp_north": 0.265,
+        "drop_floridan": -0.043
+      },
+      "zscores": {
+        "drop_hp_south": 1.723,
+        "drop_hp_north": 1.072,
+        "drop_floridan": -1.708
+      },
+      "events": []
+    },
+    {
+      "date": "1992-01-01",
+      "values": {
+        "drop_hp_south": 1.859,
+        "drop_hp_north": 0.232,
+        "drop_floridan": -0.041
+      },
+      "zscores": {
+        "drop_hp_south": 1.667,
+        "drop_hp_north": 0.972,
+        "drop_floridan": -1.595
+      },
+      "events": []
+    },
+    {
+      "date": "1992-02-01",
+      "values": {
+        "drop_hp_south": 1.893,
+        "drop_hp_north": 0.199,
+        "drop_floridan": -0.039
+      },
+      "zscores": {
+        "drop_hp_south": 1.618,
+        "drop_hp_north": 0.87,
+        "drop_floridan": -1.493
+      },
+      "events": []
+    },
+    {
+      "date": "1992-03-01",
+      "values": {
+        "drop_hp_south": 1.928,
+        "drop_hp_north": 0.165,
+        "drop_floridan": -0.037
+      },
+      "zscores": {
+        "drop_hp_south": 1.575,
+        "drop_hp_north": 0.764,
+        "drop_floridan": -1.401
+      },
+      "events": []
+    },
+    {
+      "date": "1992-04-01",
+      "values": {
+        "drop_hp_south": 1.962,
+        "drop_hp_north": 0.132,
+        "drop_floridan": -0.035
+      },
+      "zscores": {
+        "drop_hp_south": 1.538,
+        "drop_hp_north": 0.653,
+        "drop_floridan": -1.318
+      },
+      "events": []
+    },
+    {
+      "date": "1992-05-01",
+      "values": {
+        "drop_hp_south": 1.997,
+        "drop_hp_north": 0.098,
+        "drop_floridan": -0.033
+      },
+      "zscores": {
+        "drop_hp_south": 1.506,
+        "drop_hp_north": 0.536,
+        "drop_floridan": -1.242
+      },
+      "events": []
+    },
+    {
+      "date": "1992-06-01",
+      "values": {
+        "drop_hp_south": 2.031,
+        "drop_hp_north": 0.065,
+        "drop_floridan": -0.031
+      },
+      "zscores": {
+        "drop_hp_south": 1.479,
+        "drop_hp_north": 0.412,
+        "drop_floridan": -1.171
+      },
+      "events": []
+    },
+    {
+      "date": "1992-07-01",
+      "values": {
+        "drop_hp_south": 2.066,
+        "drop_hp_north": 0.032,
+        "drop_floridan": -0.029
+      },
+      "zscores": {
+        "drop_hp_south": 1.458,
+        "drop_hp_north": 0.281,
+        "drop_floridan": -1.105
+      },
+      "events": []
+    },
+    {
+      "date": "1992-08-01",
+      "values": {
+        "drop_hp_south": 2.081,
+        "drop_hp_north": -0.116,
+        "drop_floridan": -0.037
+      },
+      "zscores": {
+        "drop_hp_south": 1.409,
+        "drop_hp_north": -0.175,
+        "drop_floridan": -1.051
+      },
+      "events": []
+    },
+    {
+      "date": "1992-09-01",
+      "values": {
+        "drop_hp_south": 2.096,
+        "drop_hp_north": -0.265,
+        "drop_floridan": -0.045
+      },
+      "zscores": {
+        "drop_hp_south": 1.365,
+        "drop_hp_north": -0.669,
+        "drop_floridan": -0.999
+      },
+      "events": []
+    },
+    {
+      "date": "1992-10-01",
+      "values": {
+        "drop_hp_south": 2.111,
+        "drop_hp_north": -0.413,
+        "drop_floridan": -0.053
+      },
+      "zscores": {
+        "drop_hp_south": 1.325,
+        "drop_hp_north": -1.186,
+        "drop_floridan": -0.951
+      },
+      "events": []
+    },
+    {
+      "date": "1992-11-01",
+      "values": {
+        "drop_hp_south": 2.126,
+        "drop_hp_north": -0.561,
+        "drop_floridan": -0.06
+      },
+      "zscores": {
+        "drop_hp_south": 1.29,
+        "drop_hp_north": -1.686,
+        "drop_floridan": -0.905
+      },
+      "events": []
+    },
+    {
+      "date": "1992-12-01",
+      "values": {
+        "drop_hp_south": 2.141,
+        "drop_hp_north": -0.709,
+        "drop_floridan": -0.068
+      },
+      "zscores": {
+        "drop_hp_south": 1.258,
+        "drop_hp_north": -2.115,
+        "drop_floridan": -0.861
+      },
+      "events": []
+    },
+    {
+      "date": "1993-01-01",
+      "values": {
+        "drop_hp_south": 2.155,
+        "drop_hp_north": -0.857,
+        "drop_floridan": -0.076
+      },
+      "zscores": {
+        "drop_hp_south": 1.23,
+        "drop_hp_north": -2.429,
+        "drop_floridan": -0.82
+      },
+      "events": []
+    },
+    {
+      "date": "1993-02-01",
+      "values": {
+        "drop_hp_south": 2.17,
+        "drop_hp_north": -1.005,
+        "drop_floridan": -0.084
+      },
+      "zscores": {
+        "drop_hp_south": 1.205,
+        "drop_hp_north": -2.615,
+        "drop_floridan": -0.781
+      },
+      "events": []
+    },
+    {
+      "date": "1993-03-01",
+      "values": {
+        "drop_hp_south": 2.185,
+        "drop_hp_north": -1.153,
+        "drop_floridan": -0.091
+      },
+      "zscores": {
+        "drop_hp_south": 1.185,
+        "drop_hp_north": -2.695,
+        "drop_floridan": -0.744
+      },
+      "events": []
+    },
+    {
+      "date": "1993-04-01",
+      "values": {
+        "drop_hp_south": 2.2,
+        "drop_hp_north": -1.302,
+        "drop_floridan": -0.099
+      },
+      "zscores": {
+        "drop_hp_south": 1.168,
+        "drop_hp_north": -2.701,
+        "drop_floridan": -0.709
+      },
+      "events": []
+    },
+    {
+      "date": "1993-05-01",
+      "values": {
+        "drop_hp_south": 2.215,
+        "drop_hp_north": -1.45,
+        "drop_floridan": -0.107
+      },
+      "zscores": {
+        "drop_hp_south": 1.157,
+        "drop_hp_north": -2.663,
+        "drop_floridan": -0.678
+      },
+      "events": []
+    },
+    {
+      "date": "1993-06-01",
+      "values": {
+        "drop_hp_south": 2.23,
+        "drop_hp_north": -1.598,
+        "drop_floridan": -0.114
+      },
+      "zscores": {
+        "drop_hp_south": 1.15,
+        "drop_hp_north": -2.601,
+        "drop_floridan": -0.65
+      },
+      "events": []
+    },
+    {
+      "date": "1993-07-01",
+      "values": {
+        "drop_hp_south": 2.245,
+        "drop_hp_north": -1.746,
+        "drop_floridan": -0.122
+      },
+      "zscores": {
+        "drop_hp_south": 1.151,
+        "drop_hp_north": -2.528,
+        "drop_floridan": -0.631
+      },
+      "events": []
+    },
+    {
+      "date": "1993-08-01",
+      "values": {
+        "drop_hp_south": 2.27,
+        "drop_hp_north": -1.822,
+        "drop_floridan": -0.149
+      },
+      "zscores": {
+        "drop_hp_south": 1.178,
+        "drop_hp_north": -2.365,
+        "drop_floridan": -0.637
+      },
+      "events": []
+    },
+    {
+      "date": "1993-09-01",
+      "values": {
+        "drop_hp_south": 2.295,
+        "drop_hp_north": -1.899,
+        "drop_floridan": -0.176
+      },
+      "zscores": {
+        "drop_hp_south": 1.211,
+        "drop_hp_north": -2.23,
+        "drop_floridan": -0.653
+      },
+      "events": []
+    },
+    {
+      "date": "1993-10-01",
+      "values": {
+        "drop_hp_south": 2.32,
+        "drop_hp_north": -1.975,
+        "drop_floridan": -0.203
+      },
+      "zscores": {
+        "drop_hp_south": 1.25,
+        "drop_hp_north": -2.116,
+        "drop_floridan": -0.683
+      },
+      "events": []
+    },
+    {
+      "date": "1993-11-01",
+      "values": {
+        "drop_hp_south": 2.345,
+        "drop_hp_north": -2.051,
+        "drop_floridan": -0.23
+      },
+      "zscores": {
+        "drop_hp_south": 1.294,
+        "drop_hp_north": -2.019,
+        "drop_floridan": -0.731
+      },
+      "events": []
+    },
+    {
+      "date": "1993-12-01",
+      "values": {
+        "drop_hp_south": 2.37,
+        "drop_hp_north": -2.128,
+        "drop_floridan": -0.257
+      },
+      "zscores": {
+        "drop_hp_south": 1.343,
+        "drop_hp_north": -1.934,
+        "drop_floridan": -0.809
+      },
+      "events": []
+    },
+    {
+      "date": "1994-01-01",
+      "values": {
+        "drop_hp_south": 2.395,
+        "drop_hp_north": -2.204,
+        "drop_floridan": -0.284
+      },
+      "zscores": {
+        "drop_hp_south": 1.396,
+        "drop_hp_north": -1.861,
+        "drop_floridan": -0.932
+      },
+      "events": []
+    },
+    {
+      "date": "1994-02-01",
+      "values": {
+        "drop_hp_south": 2.42,
+        "drop_hp_north": -2.28,
+        "drop_floridan": -0.312
+      },
+      "zscores": {
+        "drop_hp_south": 1.453,
+        "drop_hp_north": -1.797,
+        "drop_floridan": -1.13
+      },
+      "events": []
+    },
+    {
+      "date": "1994-03-01",
+      "values": {
+        "drop_hp_south": 2.445,
+        "drop_hp_north": -2.357,
+        "drop_floridan": -0.339
+      },
+      "zscores": {
+        "drop_hp_south": 1.51,
+        "drop_hp_north": -1.741,
+        "drop_floridan": -1.445
+      },
+      "events": []
+    },
+    {
+      "date": "1994-04-01",
+      "values": {
+        "drop_hp_south": 2.47,
+        "drop_hp_north": -2.433,
+        "drop_floridan": -0.366
+      },
+      "zscores": {
+        "drop_hp_south": 1.566,
+        "drop_hp_north": -1.691,
+        "drop_floridan": -1.905
+      },
+      "events": []
+    },
+    {
+      "date": "1994-05-01",
+      "values": {
+        "drop_hp_south": 2.495,
+        "drop_hp_north": -2.509,
+        "drop_floridan": -0.393
+      },
+      "zscores": {
+        "drop_hp_south": 1.616,
+        "drop_hp_north": -1.649,
+        "drop_floridan": -2.367
+      },
+      "events": []
+    },
+    {
+      "date": "1994-06-01",
+      "values": {
+        "drop_hp_south": 2.521,
+        "drop_hp_north": -2.586,
+        "drop_floridan": -0.42
+      },
+      "zscores": {
+        "drop_hp_south": 1.657,
+        "drop_hp_north": -1.612,
+        "drop_floridan": -2.509
+      },
+      "events": []
+    },
+    {
+      "date": "1994-07-01",
+      "values": {
+        "drop_hp_south": 2.546,
+        "drop_hp_north": -2.662,
+        "drop_floridan": -0.447
+      },
+      "zscores": {
+        "drop_hp_south": 1.686,
+        "drop_hp_north": -1.582,
+        "drop_floridan": -2.429
+      },
+      "events": []
+    },
+    {
+      "date": "1994-08-01",
+      "values": {
+        "drop_hp_south": 2.62,
+        "drop_hp_north": -2.628,
+        "drop_floridan": -0.445
+      },
+      "zscores": {
+        "drop_hp_south": 1.898,
+        "drop_hp_north": -1.461,
+        "drop_floridan": -2.178
+      },
+      "events": []
+    },
+    {
+      "date": "1994-09-01",
+      "values": {
+        "drop_hp_south": 2.694,
+        "drop_hp_north": -2.594,
+        "drop_floridan": -0.442
+      },
+      "zscores": {
+        "drop_hp_south": 2.08,
+        "drop_hp_north": -1.351,
+        "drop_floridan": -1.977
+      },
+      "events": []
+    },
+    {
+      "date": "1994-10-01",
+      "values": {
+        "drop_hp_south": 2.768,
+        "drop_hp_north": -2.56,
+        "drop_floridan": -0.44
+      },
+      "zscores": {
+        "drop_hp_south": 2.223,
+        "drop_hp_north": -1.251,
+        "drop_floridan": -1.811
+      },
+      "events": []
+    },
+    {
+      "date": "1994-11-01",
+      "values": {
+        "drop_hp_south": 2.842,
+        "drop_hp_north": -2.526,
+        "drop_floridan": -0.438
+      },
+      "zscores": {
+        "drop_hp_south": 2.327,
+        "drop_hp_north": -1.158,
+        "drop_floridan": -1.67
+      },
+      "events": []
+    },
+    {
+      "date": "1994-12-01",
+      "values": {
+        "drop_hp_south": 2.916,
+        "drop_hp_north": -2.491,
+        "drop_floridan": -0.436
+      },
+      "zscores": {
+        "drop_hp_south": 2.394,
+        "drop_hp_north": -1.07,
+        "drop_floridan": -1.548
+      },
+      "events": []
+    },
+    {
+      "date": "1995-01-01",
+      "values": {
+        "drop_hp_south": 2.99,
+        "drop_hp_north": -2.457,
+        "drop_floridan": -0.434
+      },
+      "zscores": {
+        "drop_hp_south": 2.428,
+        "drop_hp_north": -0.986,
+        "drop_floridan": -1.44
+      },
+      "events": []
+    },
+    {
+      "date": "1995-02-01",
+      "values": {
+        "drop_hp_south": 3.064,
+        "drop_hp_north": -2.423,
+        "drop_floridan": -0.432
+      },
+      "zscores": {
+        "drop_hp_south": 2.435,
+        "drop_hp_north": -0.906,
+        "drop_floridan": -1.344
+      },
+      "events": []
+    },
+    {
+      "date": "1995-03-01",
+      "values": {
+        "drop_hp_south": 3.138,
+        "drop_hp_north": -2.389,
+        "drop_floridan": -0.429
+      },
+      "zscores": {
+        "drop_hp_south": 2.423,
+        "drop_hp_north": -0.827,
+        "drop_floridan": -1.256
+      },
+      "events": []
+    },
+    {
+      "date": "1995-04-01",
+      "values": {
+        "drop_hp_south": 3.212,
+        "drop_hp_north": -2.355,
+        "drop_floridan": -0.427
+      },
+      "zscores": {
+        "drop_hp_south": 2.396,
+        "drop_hp_north": -0.749,
+        "drop_floridan": -1.175
+      },
+      "events": []
+    },
+    {
+      "date": "1995-05-01",
+      "values": {
+        "drop_hp_south": 3.286,
+        "drop_hp_north": -2.321,
+        "drop_floridan": -0.425
+      },
+      "zscores": {
+        "drop_hp_south": 2.361,
+        "drop_hp_north": -0.671,
+        "drop_floridan": -1.101
+      },
+      "events": []
+    },
+    {
+      "date": "1995-06-01",
+      "values": {
+        "drop_hp_south": 3.36,
+        "drop_hp_north": -2.287,
+        "drop_floridan": -0.423
+      },
+      "zscores": {
+        "drop_hp_south": 2.318,
+        "drop_hp_north": -0.591,
+        "drop_floridan": -1.031
+      },
+      "events": []
+    },
+    {
+      "date": "1995-07-01",
+      "values": {
+        "drop_hp_south": 3.434,
+        "drop_hp_north": -2.252,
+        "drop_floridan": -0.421
+      },
+      "zscores": {
+        "drop_hp_south": 2.273,
+        "drop_hp_north": -0.508,
+        "drop_floridan": -0.966
+      },
+      "events": []
+    },
+    {
+      "date": "1995-08-01",
+      "values": {
+        "drop_hp_south": 3.484,
+        "drop_hp_north": -2.282,
+        "drop_floridan": -0.339
+      },
+      "zscores": {
+        "drop_hp_south": 2.18,
+        "drop_hp_north": -0.507,
+        "drop_floridan": -0.401
+      },
+      "events": []
+    },
+    {
+      "date": "1995-09-01",
+      "values": {
+        "drop_hp_south": 3.535,
+        "drop_hp_north": -2.312,
+        "drop_floridan": -0.258
+      },
+      "zscores": {
+        "drop_hp_south": 2.101,
+        "drop_hp_north": -0.51,
+        "drop_floridan": 0.183
+      },
+      "events": []
+    },
+    {
+      "date": "1995-10-01",
+      "values": {
+        "drop_hp_south": 3.585,
+        "drop_hp_north": -2.341,
+        "drop_floridan": -0.176
+      },
+      "zscores": {
+        "drop_hp_south": 2.031,
+        "drop_hp_north": -0.518,
+        "drop_floridan": 0.787
+      },
+      "events": []
+    },
+    {
+      "date": "1995-11-01",
+      "values": {
+        "drop_hp_south": 3.635,
+        "drop_hp_north": -2.371,
+        "drop_floridan": -0.095
+      },
+      "zscores": {
+        "drop_hp_south": 1.97,
+        "drop_hp_north": -0.533,
+        "drop_floridan": 1.382
+      },
+      "events": []
+    },
+    {
+      "date": "1995-12-01",
+      "values": {
+        "drop_hp_south": 3.686,
+        "drop_hp_north": -2.401,
+        "drop_floridan": -0.013
+      },
+      "zscores": {
+        "drop_hp_south": 1.916,
+        "drop_hp_north": -0.557,
+        "drop_floridan": 1.915
+      },
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "drop_hp_south": 3.736,
+        "drop_hp_north": -2.43,
+        "drop_floridan": 0.069
+      },
+      "zscores": {
+        "drop_hp_south": 1.867,
+        "drop_hp_north": -0.591,
+        "drop_floridan": 2.331
+      },
+      "events": []
+    },
+    {
+      "date": "1996-02-01",
+      "values": {
+        "drop_hp_south": 3.786,
+        "drop_hp_north": -2.46,
+        "drop_floridan": 0.15
+      },
+      "zscores": {
+        "drop_hp_south": 1.824,
+        "drop_hp_north": -0.638,
+        "drop_floridan": 2.605
+      },
+      "events": []
+    },
+    {
+      "date": "1996-03-01",
+      "values": {
+        "drop_hp_south": 3.837,
+        "drop_hp_north": -2.49,
+        "drop_floridan": 0.232
+      },
+      "zscores": {
+        "drop_hp_south": 1.785,
+        "drop_hp_north": -0.703,
+        "drop_floridan": 2.75
+      },
+      "events": []
+    },
+    {
+      "date": "1996-04-01",
+      "values": {
+        "drop_hp_south": 3.887,
+        "drop_hp_north": -2.519,
+        "drop_floridan": 0.313
+      },
+      "zscores": {
+        "drop_hp_south": 1.75,
+        "drop_hp_north": -0.788,
+        "drop_floridan": 2.798
+      },
+      "events": []
+    },
+    {
+      "date": "1996-05-01",
+      "values": {
+        "drop_hp_south": 3.937,
+        "drop_hp_north": -2.549,
+        "drop_floridan": 0.395
+      },
+      "zscores": {
+        "drop_hp_south": 1.719,
+        "drop_hp_north": -0.896,
+        "drop_floridan": 2.783
+      },
+      "events": []
+    },
+    {
+      "date": "1996-06-01",
+      "values": {
+        "drop_hp_south": 3.988,
+        "drop_hp_north": -2.579,
+        "drop_floridan": 0.476
+      },
+      "zscores": {
+        "drop_hp_south": 1.692,
+        "drop_hp_north": -1.023,
+        "drop_floridan": 2.733
+      },
+      "events": []
+    },
+    {
+      "date": "1996-07-01",
+      "values": {
+        "drop_hp_south": 4.038,
+        "drop_hp_north": -2.608,
+        "drop_floridan": 0.558
+      },
+      "zscores": {
+        "drop_hp_south": 1.668,
+        "drop_hp_north": -1.16,
+        "drop_floridan": 2.664
+      },
+      "events": []
+    },
+    {
+      "date": "1996-08-01",
+      "values": {
+        "drop_hp_south": 4.072,
+        "drop_hp_north": -2.656,
+        "drop_floridan": 0.568
+      },
+      "zscores": {
+        "drop_hp_south": 1.622,
+        "drop_hp_north": -1.407,
+        "drop_floridan": 2.405
+      },
+      "events": []
+    },
+    {
+      "date": "1996-09-01",
+      "values": {
+        "drop_hp_south": 4.107,
+        "drop_hp_north": -2.703,
+        "drop_floridan": 0.578
+      },
+      "zscores": {
+        "drop_hp_south": 1.581,
+        "drop_hp_north": -1.672,
+        "drop_floridan": 2.201
+      },
+      "events": []
+    },
+    {
+      "date": "1996-10-01",
+      "values": {
+        "drop_hp_south": 4.142,
+        "drop_hp_north": -2.751,
+        "drop_floridan": 0.589
+      },
+      "zscores": {
+        "drop_hp_south": 1.546,
+        "drop_hp_north": -1.93,
+        "drop_floridan": 2.035
+      },
+      "events": []
+    },
+    {
+      "date": "1996-11-01",
+      "values": {
+        "drop_hp_south": 4.176,
+        "drop_hp_north": -2.799,
+        "drop_floridan": 0.599
+      },
+      "zscores": {
+        "drop_hp_south": 1.514,
+        "drop_hp_north": -2.148,
+        "drop_floridan": 1.895
+      },
+      "events": []
+    },
+    {
+      "date": "1996-12-01",
+      "values": {
+        "drop_hp_south": 4.211,
+        "drop_hp_north": -2.846,
+        "drop_floridan": 0.609
+      },
+      "zscores": {
+        "drop_hp_south": 1.487,
+        "drop_hp_north": -2.3,
+        "drop_floridan": 1.777
+      },
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "drop_hp_south": 4.245,
+        "drop_hp_north": -2.894,
+        "drop_floridan": 0.62
+      },
+      "zscores": {
+        "drop_hp_south": 1.464,
+        "drop_hp_north": -2.38,
+        "drop_floridan": 1.674
+      },
+      "events": []
+    },
+    {
+      "date": "1997-02-01",
+      "values": {
+        "drop_hp_south": 4.28,
+        "drop_hp_north": -2.941,
+        "drop_floridan": 0.63
+      },
+      "zscores": {
+        "drop_hp_south": 1.445,
+        "drop_hp_north": -2.401,
+        "drop_floridan": 1.583
+      },
+      "events": []
+    },
+    {
+      "date": "1997-03-01",
+      "values": {
+        "drop_hp_south": 4.314,
+        "drop_hp_north": -2.989,
+        "drop_floridan": 0.64
+      },
+      "zscores": {
+        "drop_hp_south": 1.43,
+        "drop_hp_north": -2.385,
+        "drop_floridan": 1.503
+      },
+      "events": []
+    },
+    {
+      "date": "1997-04-01",
+      "values": {
+        "drop_hp_south": 4.349,
+        "drop_hp_north": -3.036,
+        "drop_floridan": 0.65
+      },
+      "zscores": {
+        "drop_hp_south": 1.419,
+        "drop_hp_north": -2.349,
+        "drop_floridan": 1.432
+      },
+      "events": []
+    },
+    {
+      "date": "1997-05-01",
+      "values": {
+        "drop_hp_south": 4.384,
+        "drop_hp_north": -3.084,
+        "drop_floridan": 0.661
+      },
+      "zscores": {
+        "drop_hp_south": 1.413,
+        "drop_hp_north": -2.307,
+        "drop_floridan": 1.368
+      },
+      "events": []
+    },
+    {
+      "date": "1997-06-01",
+      "values": {
+        "drop_hp_south": 4.418,
+        "drop_hp_north": -3.131,
+        "drop_floridan": 0.671
+      },
+      "zscores": {
+        "drop_hp_south": 1.413,
+        "drop_hp_north": -2.266,
+        "drop_floridan": 1.31
+      },
+      "events": []
+    },
+    {
+      "date": "1997-07-01",
+      "values": {
+        "drop_hp_south": 4.453,
+        "drop_hp_north": -3.179,
+        "drop_floridan": 0.681
+      },
+      "zscores": {
+        "drop_hp_south": 1.418,
+        "drop_hp_north": -2.229,
+        "drop_floridan": 1.258
+      },
+      "events": []
+    },
+    {
+      "date": "1997-08-01",
+      "values": {
+        "drop_hp_south": 4.508,
+        "drop_hp_north": -3.199,
+        "drop_floridan": 0.536
+      },
+      "zscores": {
+        "drop_hp_south": 1.462,
+        "drop_hp_north": -2.1,
+        "drop_floridan": 0.893
+      },
+      "events": []
+    },
+    {
+      "date": "1997-09-01",
+      "values": {
+        "drop_hp_south": 4.563,
+        "drop_hp_north": -3.219,
+        "drop_floridan": 0.391
+      },
+      "zscores": {
+        "drop_hp_south": 1.505,
+        "drop_hp_north": -1.988,
+        "drop_floridan": 0.535
+      },
+      "events": []
+    },
+    {
+      "date": "1997-10-01",
+      "values": {
+        "drop_hp_south": 4.618,
+        "drop_hp_north": -3.239,
+        "drop_floridan": 0.246
+      },
+      "zscores": {
+        "drop_hp_south": 1.549,
+        "drop_hp_north": -1.89,
+        "drop_floridan": 0.174
+      },
+      "events": []
+    },
+    {
+      "date": "1997-11-01",
+      "values": {
+        "drop_hp_south": 4.672,
+        "drop_hp_north": -3.259,
+        "drop_floridan": 0.101
+      },
+      "zscores": {
+        "drop_hp_south": 1.592,
+        "drop_hp_north": -1.804,
+        "drop_floridan": -0.197
+      },
+      "events": []
+    },
+    {
+      "date": "1997-12-01",
+      "values": {
+        "drop_hp_south": 4.727,
+        "drop_hp_north": -3.28,
+        "drop_floridan": -0.044
+      },
+      "zscores": {
+        "drop_hp_south": 1.634,
+        "drop_hp_north": -1.728,
+        "drop_floridan": -0.578
+      },
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "drop_hp_south": 4.782,
+        "drop_hp_north": -3.3,
+        "drop_floridan": -0.189
+      },
+      "zscores": {
+        "drop_hp_south": 1.673,
+        "drop_hp_north": -1.661,
+        "drop_floridan": -0.963
+      },
+      "events": []
+    },
+    {
+      "date": "1998-02-01",
+      "values": {
+        "drop_hp_south": 4.837,
+        "drop_hp_north": -3.32,
+        "drop_floridan": -0.334
+      },
+      "zscores": {
+        "drop_hp_south": 1.709,
+        "drop_hp_north": -1.603,
+        "drop_floridan": -1.34
+      },
+      "events": []
+    },
+    {
+      "date": "1998-03-01",
+      "values": {
+        "drop_hp_south": 4.892,
+        "drop_hp_north": -3.34,
+        "drop_floridan": -0.479
+      },
+      "zscores": {
+        "drop_hp_south": 1.742,
+        "drop_hp_north": -1.552,
+        "drop_floridan": -1.687
+      },
+      "events": []
+    },
+    {
+      "date": "1998-04-01",
+      "values": {
+        "drop_hp_south": 4.947,
+        "drop_hp_north": -3.361,
+        "drop_floridan": -0.625
+      },
+      "zscores": {
+        "drop_hp_south": 1.769,
+        "drop_hp_north": -1.508,
+        "drop_floridan": -1.984
+      },
+      "events": []
+    },
+    {
+      "date": "1998-05-01",
+      "values": {
+        "drop_hp_south": 5.002,
+        "drop_hp_north": -3.381,
+        "drop_floridan": -0.77
+      },
+      "zscores": {
+        "drop_hp_south": 1.792,
+        "drop_hp_north": -1.472,
+        "drop_floridan": -2.216
+      },
+      "events": []
+    },
+    {
+      "date": "1998-06-01",
+      "values": {
+        "drop_hp_south": 5.057,
+        "drop_hp_north": -3.401,
+        "drop_floridan": -0.915
+      },
+      "zscores": {
+        "drop_hp_south": 1.809,
+        "drop_hp_north": -1.443,
+        "drop_floridan": -2.376
+      },
+      "events": []
+    },
+    {
+      "date": "1998-07-01",
+      "values": {
+        "drop_hp_south": 5.112,
+        "drop_hp_north": -3.421,
+        "drop_floridan": -1.06
+      },
+      "zscores": {
+        "drop_hp_south": 1.819,
+        "drop_hp_north": -1.423,
+        "drop_floridan": -2.471
+      },
+      "events": []
+    },
+    {
+      "date": "1998-08-01",
+      "values": {
+        "drop_hp_south": 5.151,
+        "drop_hp_north": -3.469,
+        "drop_floridan": -0.73
+      },
+      "zscores": {
+        "drop_hp_south": 1.796,
+        "drop_hp_north": -1.473,
+        "drop_floridan": -1.727
+      },
+      "events": []
+    },
+    {
+      "date": "1998-09-01",
+      "values": {
+        "drop_hp_south": 5.189,
+        "drop_hp_north": -3.516,
+        "drop_floridan": -0.399
+      },
+      "zscores": {
+        "drop_hp_south": 1.775,
+        "drop_hp_north": -1.521,
+        "drop_floridan": -1.06
+      },
+      "events": []
+    },
+    {
+      "date": "1998-10-01",
+      "values": {
+        "drop_hp_south": 5.228,
+        "drop_hp_north": -3.564,
+        "drop_floridan": -0.069
+      },
+      "zscores": {
+        "drop_hp_south": 1.755,
+        "drop_hp_north": -1.566,
+        "drop_floridan": -0.421
+      },
+      "events": []
+    },
+    {
+      "date": "1998-11-01",
+      "values": {
+        "drop_hp_south": 5.267,
+        "drop_hp_north": -3.612,
+        "drop_floridan": 0.261
+      },
+      "zscores": {
+        "drop_hp_south": 1.736,
+        "drop_hp_north": -1.609,
+        "drop_floridan": 0.208
+      },
+      "events": []
+    },
+    {
+      "date": "1998-12-01",
+      "values": {
+        "drop_hp_south": 5.306,
+        "drop_hp_north": -3.659,
+        "drop_floridan": 0.591
+      },
+      "zscores": {
+        "drop_hp_south": 1.718,
+        "drop_hp_north": -1.649,
+        "drop_floridan": 0.818
+      },
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "drop_hp_south": 5.344,
+        "drop_hp_north": -3.707,
+        "drop_floridan": 0.922
+      },
+      "zscores": {
+        "drop_hp_south": 1.701,
+        "drop_hp_north": -1.687,
+        "drop_floridan": 1.378
+      },
+      "events": []
+    },
+    {
+      "date": "1999-02-01",
+      "values": {
+        "drop_hp_south": 5.383,
+        "drop_hp_north": -3.754,
+        "drop_floridan": 1.252
+      },
+      "zscores": {
+        "drop_hp_south": 1.685,
+        "drop_hp_north": -1.722,
+        "drop_floridan": 1.85
+      },
+      "events": []
+    },
+    {
+      "date": "1999-03-01",
+      "values": {
+        "drop_hp_south": 5.422,
+        "drop_hp_north": -3.802,
+        "drop_floridan": 1.582
+      },
+      "zscores": {
+        "drop_hp_south": 1.669,
+        "drop_hp_north": -1.755,
+        "drop_floridan": 2.206
+      },
+      "events": []
+    },
+    {
+      "date": "1999-04-01",
+      "values": {
+        "drop_hp_south": 5.46,
+        "drop_hp_north": -3.849,
+        "drop_floridan": 1.912
+      },
+      "zscores": {
+        "drop_hp_south": 1.654,
+        "drop_hp_north": -1.786,
+        "drop_floridan": 2.445
+      },
+      "events": []
+    },
+    {
+      "date": "1999-05-01",
+      "values": {
+        "drop_hp_south": 5.499,
+        "drop_hp_north": -3.897,
+        "drop_floridan": 2.243
+      },
+      "zscores": {
+        "drop_hp_south": 1.64,
+        "drop_hp_north": -1.815,
+        "drop_floridan": 2.583
+      },
+      "events": []
+    },
+    {
+      "date": "1999-06-01",
+      "values": {
+        "drop_hp_south": 5.538,
+        "drop_hp_north": -3.944,
+        "drop_floridan": 2.573
+      },
+      "zscores": {
+        "drop_hp_south": 1.626,
+        "drop_hp_north": -1.842,
+        "drop_floridan": 2.645
+      },
+      "events": []
+    },
+    {
+      "date": "1999-07-01",
+      "values": {
+        "drop_hp_south": 5.576,
+        "drop_hp_north": -3.992,
+        "drop_floridan": 2.903
+      },
+      "zscores": {
+        "drop_hp_south": 1.612,
+        "drop_hp_north": -1.867,
+        "drop_floridan": 2.656
+      },
+      "events": []
+    },
+    {
+      "date": "1999-08-01",
+      "values": {
+        "drop_hp_south": 5.626,
+        "drop_hp_north": -3.974,
+        "drop_floridan": 3.103
+      },
+      "zscores": {
+        "drop_hp_south": 1.62,
+        "drop_hp_north": -1.727,
+        "drop_floridan": 2.53
+      },
+      "events": []
+    },
+    {
+      "date": "1999-09-01",
+      "values": {
+        "drop_hp_south": 5.675,
+        "drop_hp_north": -3.956,
+        "drop_floridan": 3.304
+      },
+      "zscores": {
+        "drop_hp_south": 1.628,
+        "drop_hp_north": -1.599,
+        "drop_floridan": 2.421
+      },
+      "events": []
+    },
+    {
+      "date": "1999-10-01",
+      "values": {
+        "drop_hp_south": 5.724,
+        "drop_hp_north": -3.939,
+        "drop_floridan": 3.504
+      },
+      "zscores": {
+        "drop_hp_south": 1.635,
+        "drop_hp_north": -1.481,
+        "drop_floridan": 2.326
+      },
+      "events": []
+    },
+    {
+      "date": "1999-11-01",
+      "values": {
+        "drop_hp_south": 5.773,
+        "drop_hp_north": -3.921,
+        "drop_floridan": 3.704
+      },
+      "zscores": {
+        "drop_hp_south": 1.642,
+        "drop_hp_north": -1.368,
+        "drop_floridan": 2.24
+      },
+      "events": []
+    },
+    {
+      "date": "1999-12-01",
+      "values": {
+        "drop_hp_south": 5.822,
+        "drop_hp_north": -3.903,
+        "drop_floridan": 3.905
+      },
+      "zscores": {
+        "drop_hp_south": 1.649,
+        "drop_hp_north": -1.261,
+        "drop_floridan": 2.164
+      },
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "drop_hp_south": 5.872,
+        "drop_hp_north": -3.886,
+        "drop_floridan": 4.105
+      },
+      "zscores": {
+        "drop_hp_south": 1.656,
+        "drop_hp_north": -1.157,
+        "drop_floridan": 2.094
+      },
+      "events": []
+    },
+    {
+      "date": "2000-02-01",
+      "values": {
+        "drop_hp_south": 5.921,
+        "drop_hp_north": -3.868,
+        "drop_floridan": 4.305
+      },
+      "zscores": {
+        "drop_hp_south": 1.664,
+        "drop_hp_north": -1.054,
+        "drop_floridan": 2.031
+      },
+      "events": []
+    },
+    {
+      "date": "2000-03-01",
+      "values": {
+        "drop_hp_south": 5.97,
+        "drop_hp_north": -3.85,
+        "drop_floridan": 4.506
+      },
+      "zscores": {
+        "drop_hp_south": 1.671,
+        "drop_hp_north": -0.952,
+        "drop_floridan": 1.972
+      },
+      "events": []
+    },
+    {
+      "date": "2000-04-01",
+      "values": {
+        "drop_hp_south": 6.019,
+        "drop_hp_north": -3.833,
+        "drop_floridan": 4.706
+      },
+      "zscores": {
+        "drop_hp_south": 1.68,
+        "drop_hp_north": -0.849,
+        "drop_floridan": 1.918
+      },
+      "events": []
+    },
+    {
+      "date": "2000-05-01",
+      "values": {
+        "drop_hp_south": 6.068,
+        "drop_hp_north": -3.815,
+        "drop_floridan": 4.906
+      },
+      "zscores": {
+        "drop_hp_south": 1.689,
+        "drop_hp_north": -0.746,
+        "drop_floridan": 1.867
+      },
+      "events": []
+    },
+    {
+      "date": "2000-06-01",
+      "values": {
+        "drop_hp_south": 6.118,
+        "drop_hp_north": -3.797,
+        "drop_floridan": 5.107
+      },
+      "zscores": {
+        "drop_hp_south": 1.699,
+        "drop_hp_north": -0.64,
+        "drop_floridan": 1.82
+      },
+      "events": []
+    },
+    {
+      "date": "2000-07-01",
+      "values": {
+        "drop_hp_south": 6.167,
+        "drop_hp_north": -3.78,
+        "drop_floridan": 5.307
+      },
+      "zscores": {
+        "drop_hp_south": 1.711,
+        "drop_hp_north": -0.533,
+        "drop_floridan": 1.776
+      },
+      "events": [
+        {
+          "label": "Florida drought: Floridan level drops 5 feet",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2000-08-01",
+      "values": {
+        "drop_hp_south": 6.237,
+        "drop_hp_north": -3.713,
+        "drop_floridan": 5.187
+      },
+      "zscores": {
+        "drop_hp_south": 1.761,
+        "drop_hp_north": -0.237,
+        "drop_floridan": 1.6
+      },
+      "events": []
+    },
+    {
+      "date": "2000-09-01",
+      "values": {
+        "drop_hp_south": 6.307,
+        "drop_hp_north": -3.647,
+        "drop_floridan": 5.067
+      },
+      "zscores": {
+        "drop_hp_south": 1.804,
+        "drop_hp_north": 0.074,
+        "drop_floridan": 1.446
+      },
+      "events": []
+    },
+    {
+      "date": "2000-10-01",
+      "values": {
+        "drop_hp_south": 6.378,
+        "drop_hp_north": -3.581,
+        "drop_floridan": 4.947
+      },
+      "zscores": {
+        "drop_hp_south": 1.841,
+        "drop_hp_north": 0.403,
+        "drop_floridan": 1.309
+      },
+      "events": []
+    },
+    {
+      "date": "2000-11-01",
+      "values": {
+        "drop_hp_south": 6.448,
+        "drop_hp_north": -3.515,
+        "drop_floridan": 4.827
+      },
+      "zscores": {
+        "drop_hp_south": 1.872,
+        "drop_hp_north": 0.748,
+        "drop_floridan": 1.184
+      },
+      "events": []
+    },
+    {
+      "date": "2000-12-01",
+      "values": {
+        "drop_hp_south": 6.518,
+        "drop_hp_north": -3.449,
+        "drop_floridan": 4.707
+      },
+      "zscores": {
+        "drop_hp_south": 1.896,
+        "drop_hp_north": 1.099,
+        "drop_floridan": 1.069
+      },
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "drop_hp_south": 6.588,
+        "drop_hp_north": -3.383,
+        "drop_floridan": 4.587
+      },
+      "zscores": {
+        "drop_hp_south": 1.913,
+        "drop_hp_north": 1.441,
+        "drop_floridan": 0.96
+      },
+      "events": []
+    },
+    {
+      "date": "2001-02-01",
+      "values": {
+        "drop_hp_south": 6.658,
+        "drop_hp_north": -3.317,
+        "drop_floridan": 4.467
+      },
+      "zscores": {
+        "drop_hp_south": 1.924,
+        "drop_hp_north": 1.751,
+        "drop_floridan": 0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "drop_hp_south": 6.728,
+        "drop_hp_north": -3.251,
+        "drop_floridan": 4.347
+      },
+      "zscores": {
+        "drop_hp_south": 1.93,
+        "drop_hp_north": 2.007,
+        "drop_floridan": 0.756
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "drop_hp_south": 6.799,
+        "drop_hp_north": -3.185,
+        "drop_floridan": 4.227
+      },
+      "zscores": {
+        "drop_hp_south": 1.931,
+        "drop_hp_north": 2.197,
+        "drop_floridan": 0.656
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "drop_hp_south": 6.869,
+        "drop_hp_north": -3.119,
+        "drop_floridan": 4.107
+      },
+      "zscores": {
+        "drop_hp_south": 1.927,
+        "drop_hp_north": 2.32,
+        "drop_floridan": 0.556
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "drop_hp_south": 6.939,
+        "drop_hp_north": -3.053,
+        "drop_floridan": 3.987
+      },
+      "zscores": {
+        "drop_hp_south": 1.919,
+        "drop_hp_north": 2.384,
+        "drop_floridan": 0.451
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "drop_hp_south": 7.009,
+        "drop_hp_north": -2.987,
+        "drop_floridan": 3.867
+      },
+      "zscores": {
+        "drop_hp_south": 1.909,
+        "drop_hp_north": 2.402,
+        "drop_floridan": 0.34
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "drop_hp_south": 7.059,
+        "drop_hp_north": -2.889,
+        "drop_floridan": 3.875
+      },
+      "zscores": {
+        "drop_hp_south": 1.865,
+        "drop_hp_north": 2.465,
+        "drop_floridan": 0.294
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "drop_hp_south": 7.109,
+        "drop_hp_north": -2.792,
+        "drop_floridan": 3.884
+      },
+      "zscores": {
+        "drop_hp_south": 1.825,
+        "drop_hp_north": 2.476,
+        "drop_floridan": 0.246
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "drop_hp_south": 7.159,
+        "drop_hp_north": -2.695,
+        "drop_floridan": 3.892
+      },
+      "zscores": {
+        "drop_hp_south": 1.79,
+        "drop_hp_north": 2.454,
+        "drop_floridan": 0.194
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "drop_hp_south": 7.209,
+        "drop_hp_north": -2.597,
+        "drop_floridan": 3.901
+      },
+      "zscores": {
+        "drop_hp_south": 1.758,
+        "drop_hp_north": 2.413,
+        "drop_floridan": 0.138
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "drop_hp_south": 7.259,
+        "drop_hp_north": -2.5,
+        "drop_floridan": 3.909
+      },
+      "zscores": {
+        "drop_hp_south": 1.729,
+        "drop_hp_north": 2.363,
+        "drop_floridan": 0.078
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "drop_hp_south": 7.309,
+        "drop_hp_north": -2.402,
+        "drop_floridan": 3.918
+      },
+      "zscores": {
+        "drop_hp_south": 1.703,
+        "drop_hp_north": 2.31,
+        "drop_floridan": 0.012
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "drop_hp_south": 7.359,
+        "drop_hp_north": -2.305,
+        "drop_floridan": 3.927
+      },
+      "zscores": {
+        "drop_hp_south": 1.68,
+        "drop_hp_north": 2.257,
+        "drop_floridan": -0.061
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "drop_hp_south": 7.409,
+        "drop_hp_north": -2.208,
+        "drop_floridan": 3.935
+      },
+      "zscores": {
+        "drop_hp_south": 1.659,
+        "drop_hp_north": 2.205,
+        "drop_floridan": -0.141
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "drop_hp_south": 7.459,
+        "drop_hp_north": -2.11,
+        "drop_floridan": 3.944
+      },
+      "zscores": {
+        "drop_hp_south": 1.64,
+        "drop_hp_north": 2.157,
+        "drop_floridan": -0.226
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "drop_hp_south": 7.509,
+        "drop_hp_north": -2.013,
+        "drop_floridan": 3.952
+      },
+      "zscores": {
+        "drop_hp_south": 1.625,
+        "drop_hp_north": 2.113,
+        "drop_floridan": -0.315
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "drop_hp_south": 7.559,
+        "drop_hp_north": -1.916,
+        "drop_floridan": 3.961
+      },
+      "zscores": {
+        "drop_hp_south": 1.611,
+        "drop_hp_north": 2.073,
+        "drop_floridan": -0.4
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "drop_hp_south": 7.609,
+        "drop_hp_north": -1.818,
+        "drop_floridan": 3.97
+      },
+      "zscores": {
+        "drop_hp_south": 1.6,
+        "drop_hp_north": 2.039,
+        "drop_floridan": -0.471
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "drop_hp_south": 7.661,
+        "drop_hp_north": -1.705,
+        "drop_floridan": 3.591
+      },
+      "zscores": {
+        "drop_hp_south": 1.593,
+        "drop_hp_north": 2.025,
+        "drop_floridan": -1.271
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "drop_hp_south": 7.713,
+        "drop_hp_north": -1.592,
+        "drop_floridan": 3.212
+      },
+      "zscores": {
+        "drop_hp_south": 1.588,
+        "drop_hp_north": 2.008,
+        "drop_floridan": -1.998
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "drop_hp_south": 7.765,
+        "drop_hp_north": -1.478,
+        "drop_floridan": 2.834
+      },
+      "zscores": {
+        "drop_hp_south": 1.584,
+        "drop_hp_north": 1.989,
+        "drop_floridan": -2.521
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "drop_hp_south": 7.817,
+        "drop_hp_north": -1.365,
+        "drop_floridan": 2.455
+      },
+      "zscores": {
+        "drop_hp_south": 1.581,
+        "drop_hp_north": 1.97,
+        "drop_floridan": -2.808
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "drop_hp_south": 7.869,
+        "drop_hp_north": -1.252,
+        "drop_floridan": 2.076
+      },
+      "zscores": {
+        "drop_hp_south": 1.58,
+        "drop_hp_north": 1.95,
+        "drop_floridan": -2.917
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "drop_hp_south": 7.921,
+        "drop_hp_north": -1.139,
+        "drop_floridan": 1.698
+      },
+      "zscores": {
+        "drop_hp_south": 1.58,
+        "drop_hp_north": 1.93,
+        "drop_floridan": -2.922
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "drop_hp_south": 7.973,
+        "drop_hp_north": -1.025,
+        "drop_floridan": 1.319
+      },
+      "zscores": {
+        "drop_hp_south": 1.581,
+        "drop_hp_north": 1.911,
+        "drop_floridan": -2.877
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "drop_hp_south": 8.024,
+        "drop_hp_north": -0.912,
+        "drop_floridan": 0.94
+      },
+      "zscores": {
+        "drop_hp_south": 1.584,
+        "drop_hp_north": 1.892,
+        "drop_floridan": -2.811
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "drop_hp_south": 8.076,
+        "drop_hp_north": -0.799,
+        "drop_floridan": 0.562
+      },
+      "zscores": {
+        "drop_hp_south": 1.589,
+        "drop_hp_north": 1.875,
+        "drop_floridan": -2.74
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "drop_hp_south": 8.128,
+        "drop_hp_north": -0.685,
+        "drop_floridan": 0.183
+      },
+      "zscores": {
+        "drop_hp_south": 1.595,
+        "drop_hp_north": 1.859,
+        "drop_floridan": -2.671
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "drop_hp_south": 8.18,
+        "drop_hp_north": -0.572,
+        "drop_floridan": -0.196
+      },
+      "zscores": {
+        "drop_hp_south": 1.604,
+        "drop_hp_north": 1.845,
+        "drop_floridan": -2.608
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "drop_hp_south": 8.232,
+        "drop_hp_north": -0.459,
+        "drop_floridan": -0.574
+      },
+      "zscores": {
+        "drop_hp_south": 1.615,
+        "drop_hp_north": 1.833,
+        "drop_floridan": -2.552
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "drop_hp_south": 8.291,
+        "drop_hp_north": -0.344,
+        "drop_floridan": -0.447
+      },
+      "zscores": {
+        "drop_hp_south": 1.636,
+        "drop_hp_north": 1.822,
+        "drop_floridan": -2.239
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "drop_hp_south": 8.349,
+        "drop_hp_north": -0.23,
+        "drop_floridan": -0.32
+      },
+      "zscores": {
+        "drop_hp_south": 1.656,
+        "drop_hp_north": 1.81,
+        "drop_floridan": -1.987
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "drop_hp_south": 8.408,
+        "drop_hp_north": -0.115,
+        "drop_floridan": -0.192
+      },
+      "zscores": {
+        "drop_hp_south": 1.674,
+        "drop_hp_north": 1.799,
+        "drop_floridan": -1.776
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "drop_hp_south": 8.466,
+        "drop_hp_north": -0.001,
+        "drop_floridan": -0.065
+      },
+      "zscores": {
+        "drop_hp_south": 1.691,
+        "drop_hp_north": 1.788,
+        "drop_floridan": -1.593
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "drop_hp_south": 8.525,
+        "drop_hp_north": 0.114,
+        "drop_floridan": 0.062
+      },
+      "zscores": {
+        "drop_hp_south": 1.707,
+        "drop_hp_north": 1.777,
+        "drop_floridan": -1.43
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "drop_hp_south": 8.583,
+        "drop_hp_north": 0.228,
+        "drop_floridan": 0.189
+      },
+      "zscores": {
+        "drop_hp_south": 1.72,
+        "drop_hp_north": 1.767,
+        "drop_floridan": -1.282
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "drop_hp_south": 8.642,
+        "drop_hp_north": 0.343,
+        "drop_floridan": 0.317
+      },
+      "zscores": {
+        "drop_hp_south": 1.732,
+        "drop_hp_north": 1.757,
+        "drop_floridan": -1.145
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "drop_hp_south": 8.7,
+        "drop_hp_north": 0.457,
+        "drop_floridan": 0.444
+      },
+      "zscores": {
+        "drop_hp_south": 1.741,
+        "drop_hp_north": 1.748,
+        "drop_floridan": -1.016
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "drop_hp_south": 8.759,
+        "drop_hp_north": 0.572,
+        "drop_floridan": 0.571
+      },
+      "zscores": {
+        "drop_hp_south": 1.747,
+        "drop_hp_north": 1.74,
+        "drop_floridan": -0.894
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "drop_hp_south": 8.817,
+        "drop_hp_north": 0.687,
+        "drop_floridan": 0.698
+      },
+      "zscores": {
+        "drop_hp_south": 1.751,
+        "drop_hp_north": 1.733,
+        "drop_floridan": -0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "drop_hp_south": 8.875,
+        "drop_hp_north": 0.801,
+        "drop_floridan": 0.826
+      },
+      "zscores": {
+        "drop_hp_south": 1.752,
+        "drop_hp_north": 1.727,
+        "drop_floridan": -0.661
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "drop_hp_south": 8.934,
+        "drop_hp_north": 0.916,
+        "drop_floridan": 0.953
+      },
+      "zscores": {
+        "drop_hp_south": 1.751,
+        "drop_hp_north": 1.722,
+        "drop_floridan": -0.548
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "drop_hp_south": 8.978,
+        "drop_hp_north": 0.954,
+        "drop_floridan": 0.797
+      },
+      "zscores": {
+        "drop_hp_south": 1.726,
+        "drop_hp_north": 1.659,
+        "drop_floridan": -0.597
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "drop_hp_south": 9.022,
+        "drop_hp_north": 0.993,
+        "drop_floridan": 0.641
+      },
+      "zscores": {
+        "drop_hp_south": 1.703,
+        "drop_hp_north": 1.602,
+        "drop_floridan": -0.646
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "drop_hp_south": 9.066,
+        "drop_hp_north": 1.032,
+        "drop_floridan": 0.485
+      },
+      "zscores": {
+        "drop_hp_south": 1.683,
+        "drop_hp_north": 1.551,
+        "drop_floridan": -0.696
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "drop_hp_south": 9.11,
+        "drop_hp_north": 1.071,
+        "drop_floridan": 0.329
+      },
+      "zscores": {
+        "drop_hp_south": 1.665,
+        "drop_hp_north": 1.505,
+        "drop_floridan": -0.745
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "drop_hp_south": 9.154,
+        "drop_hp_north": 1.11,
+        "drop_floridan": 0.173
+      },
+      "zscores": {
+        "drop_hp_south": 1.648,
+        "drop_hp_north": 1.464,
+        "drop_floridan": -0.796
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "drop_hp_south": 9.198,
+        "drop_hp_north": 1.148,
+        "drop_floridan": 0.018
+      },
+      "zscores": {
+        "drop_hp_south": 1.634,
+        "drop_hp_north": 1.427,
+        "drop_floridan": -0.849
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "drop_hp_south": 9.243,
+        "drop_hp_north": 1.187,
+        "drop_floridan": -0.138
+      },
+      "zscores": {
+        "drop_hp_south": 1.621,
+        "drop_hp_north": 1.393,
+        "drop_floridan": -0.906
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "drop_hp_south": 9.287,
+        "drop_hp_north": 1.226,
+        "drop_floridan": -0.294
+      },
+      "zscores": {
+        "drop_hp_south": 1.61,
+        "drop_hp_north": 1.364,
+        "drop_floridan": -0.968
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "drop_hp_south": 9.331,
+        "drop_hp_north": 1.265,
+        "drop_floridan": -0.45
+      },
+      "zscores": {
+        "drop_hp_south": 1.6,
+        "drop_hp_north": 1.338,
+        "drop_floridan": -1.038
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "drop_hp_south": 9.375,
+        "drop_hp_north": 1.304,
+        "drop_floridan": -0.606
+      },
+      "zscores": {
+        "drop_hp_south": 1.592,
+        "drop_hp_north": 1.315,
+        "drop_floridan": -1.121
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "drop_hp_south": 9.419,
+        "drop_hp_north": 1.342,
+        "drop_floridan": -0.762
+      },
+      "zscores": {
+        "drop_hp_south": 1.586,
+        "drop_hp_north": 1.295,
+        "drop_floridan": -1.224
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "drop_hp_south": 9.463,
+        "drop_hp_north": 1.381,
+        "drop_floridan": -0.918
+      },
+      "zscores": {
+        "drop_hp_south": 1.581,
+        "drop_hp_north": 1.28,
+        "drop_floridan": -1.361
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "drop_hp_south": 9.494,
+        "drop_hp_north": 1.46,
+        "drop_floridan": -0.603
+      },
+      "zscores": {
+        "drop_hp_south": 1.556,
+        "drop_hp_north": 1.305,
+        "drop_floridan": -1.075
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "drop_hp_south": 9.526,
+        "drop_hp_north": 1.539,
+        "drop_floridan": -0.289
+      },
+      "zscores": {
+        "drop_hp_south": 1.535,
+        "drop_hp_north": 1.333,
+        "drop_floridan": -0.74
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "drop_hp_south": 9.557,
+        "drop_hp_north": 1.618,
+        "drop_floridan": 0.025
+      },
+      "zscores": {
+        "drop_hp_south": 1.516,
+        "drop_hp_north": 1.363,
+        "drop_floridan": -0.328
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "drop_hp_south": 9.589,
+        "drop_hp_north": 1.697,
+        "drop_floridan": 0.339
+      },
+      "zscores": {
+        "drop_hp_south": 1.5,
+        "drop_hp_north": 1.395,
+        "drop_floridan": 0.184
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "drop_hp_south": 9.62,
+        "drop_hp_north": 1.776,
+        "drop_floridan": 0.653
+      },
+      "zscores": {
+        "drop_hp_south": 1.486,
+        "drop_hp_north": 1.428,
+        "drop_floridan": 0.803
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "drop_hp_south": 9.652,
+        "drop_hp_north": 1.855,
+        "drop_floridan": 0.968
+      },
+      "zscores": {
+        "drop_hp_south": 1.475,
+        "drop_hp_north": 1.463,
+        "drop_floridan": 1.468
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "drop_hp_south": 9.683,
+        "drop_hp_north": 1.934,
+        "drop_floridan": 1.282
+      },
+      "zscores": {
+        "drop_hp_south": 1.467,
+        "drop_hp_north": 1.5,
+        "drop_floridan": 2.047
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "drop_hp_south": 9.714,
+        "drop_hp_north": 2.014,
+        "drop_floridan": 1.596
+      },
+      "zscores": {
+        "drop_hp_south": 1.461,
+        "drop_hp_north": 1.537,
+        "drop_floridan": 2.428
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "drop_hp_south": 9.746,
+        "drop_hp_north": 2.093,
+        "drop_floridan": 1.91
+      },
+      "zscores": {
+        "drop_hp_south": 1.458,
+        "drop_hp_north": 1.576,
+        "drop_floridan": 2.618
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "drop_hp_south": 9.777,
+        "drop_hp_north": 2.172,
+        "drop_floridan": 2.224
+      },
+      "zscores": {
+        "drop_hp_south": 1.457,
+        "drop_hp_north": 1.614,
+        "drop_floridan": 2.686
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "drop_hp_south": 9.809,
+        "drop_hp_north": 2.251,
+        "drop_floridan": 2.539
+      },
+      "zscores": {
+        "drop_hp_south": 1.458,
+        "drop_hp_north": 1.652,
+        "drop_floridan": 2.697
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "drop_hp_south": 9.84,
+        "drop_hp_north": 2.33,
+        "drop_floridan": 2.853
+      },
+      "zscores": {
+        "drop_hp_south": 1.462,
+        "drop_hp_north": 1.689,
+        "drop_floridan": 2.691
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "drop_hp_south": 9.978,
+        "drop_hp_north": 2.326,
+        "drop_floridan": 2.983
+      },
+      "zscores": {
+        "drop_hp_south": 1.68,
+        "drop_hp_north": 1.62,
+        "drop_floridan": 2.508
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "drop_hp_south": 10.115,
+        "drop_hp_north": 2.323,
+        "drop_floridan": 3.113
+      },
+      "zscores": {
+        "drop_hp_south": 1.876,
+        "drop_hp_north": 1.555,
+        "drop_floridan": 2.359
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "drop_hp_south": 10.252,
+        "drop_hp_north": 2.32,
+        "drop_floridan": 3.243
+      },
+      "zscores": {
+        "drop_hp_south": 2.045,
+        "drop_hp_north": 1.493,
+        "drop_floridan": 2.234
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "drop_hp_south": 10.39,
+        "drop_hp_north": 2.317,
+        "drop_floridan": 3.374
+      },
+      "zscores": {
+        "drop_hp_south": 2.18,
+        "drop_hp_north": 1.435,
+        "drop_floridan": 2.128
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "drop_hp_south": 10.527,
+        "drop_hp_north": 2.313,
+        "drop_floridan": 3.504
+      },
+      "zscores": {
+        "drop_hp_south": 2.28,
+        "drop_hp_north": 1.378,
+        "drop_floridan": 2.037
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "drop_hp_south": 10.664,
+        "drop_hp_north": 2.31,
+        "drop_floridan": 3.634
+      },
+      "zscores": {
+        "drop_hp_south": 2.347,
+        "drop_hp_north": 1.323,
+        "drop_floridan": 1.957
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "drop_hp_south": 10.802,
+        "drop_hp_north": 2.307,
+        "drop_floridan": 3.764
+      },
+      "zscores": {
+        "drop_hp_south": 2.384,
+        "drop_hp_north": 1.269,
+        "drop_floridan": 1.886
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "drop_hp_south": 10.939,
+        "drop_hp_north": 2.304,
+        "drop_floridan": 3.894
+      },
+      "zscores": {
+        "drop_hp_south": 2.398,
+        "drop_hp_north": 1.215,
+        "drop_floridan": 1.824
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "drop_hp_south": 11.076,
+        "drop_hp_north": 2.3,
+        "drop_floridan": 4.025
+      },
+      "zscores": {
+        "drop_hp_south": 2.393,
+        "drop_hp_north": 1.16,
+        "drop_floridan": 1.767
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "drop_hp_south": 11.214,
+        "drop_hp_north": 2.297,
+        "drop_floridan": 4.155
+      },
+      "zscores": {
+        "drop_hp_south": 2.373,
+        "drop_hp_north": 1.106,
+        "drop_floridan": 1.716
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "drop_hp_south": 11.351,
+        "drop_hp_north": 2.294,
+        "drop_floridan": 4.285
+      },
+      "zscores": {
+        "drop_hp_south": 2.344,
+        "drop_hp_north": 1.05,
+        "drop_floridan": 1.67
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "drop_hp_south": 11.488,
+        "drop_hp_north": 2.291,
+        "drop_floridan": 4.415
+      },
+      "zscores": {
+        "drop_hp_south": 2.309,
+        "drop_hp_north": 0.994,
+        "drop_floridan": 1.627
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "drop_hp_south": 11.819,
+        "drop_hp_north": 2.227,
+        "drop_floridan": 4.344
+      },
+      "zscores": {
+        "drop_hp_south": 2.482,
+        "drop_hp_north": 0.823,
+        "drop_floridan": 1.485
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "drop_hp_south": 12.15,
+        "drop_hp_north": 2.164,
+        "drop_floridan": 4.272
+      },
+      "zscores": {
+        "drop_hp_south": 2.582,
+        "drop_hp_north": 0.65,
+        "drop_floridan": 1.358
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "drop_hp_south": 12.481,
+        "drop_hp_north": 2.1,
+        "drop_floridan": 4.201
+      },
+      "zscores": {
+        "drop_hp_south": 2.626,
+        "drop_hp_north": 0.471,
+        "drop_floridan": 1.244
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "drop_hp_south": 12.812,
+        "drop_hp_north": 2.036,
+        "drop_floridan": 4.13
+      },
+      "zscores": {
+        "drop_hp_south": 2.631,
+        "drop_hp_north": 0.284,
+        "drop_floridan": 1.138
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "drop_hp_south": 13.143,
+        "drop_hp_north": 1.973,
+        "drop_floridan": 4.058
+      },
+      "zscores": {
+        "drop_hp_south": 2.609,
+        "drop_hp_north": 0.084,
+        "drop_floridan": 1.041
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "drop_hp_south": 13.474,
+        "drop_hp_north": 1.909,
+        "drop_floridan": 3.987
+      },
+      "zscores": {
+        "drop_hp_south": 2.571,
+        "drop_hp_north": -0.132,
+        "drop_floridan": 0.949
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "drop_hp_south": 13.805,
+        "drop_hp_north": 1.846,
+        "drop_floridan": 3.916
+      },
+      "zscores": {
+        "drop_hp_south": 2.523,
+        "drop_hp_north": -0.366,
+        "drop_floridan": 0.861
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "drop_hp_south": 14.136,
+        "drop_hp_north": 1.782,
+        "drop_floridan": 3.844
+      },
+      "zscores": {
+        "drop_hp_south": 2.47,
+        "drop_hp_north": -0.621,
+        "drop_floridan": 0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "drop_hp_south": 14.466,
+        "drop_hp_north": 1.719,
+        "drop_floridan": 3.773
+      },
+      "zscores": {
+        "drop_hp_south": 2.415,
+        "drop_hp_north": -0.895,
+        "drop_floridan": 0.693
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "drop_hp_south": 14.797,
+        "drop_hp_north": 1.655,
+        "drop_floridan": 3.701
+      },
+      "zscores": {
+        "drop_hp_south": 2.36,
+        "drop_hp_north": -1.185,
+        "drop_floridan": 0.61
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "drop_hp_south": 15.128,
+        "drop_hp_north": 1.591,
+        "drop_floridan": 3.63
+      },
+      "zscores": {
+        "drop_hp_south": 2.306,
+        "drop_hp_north": -1.478,
+        "drop_floridan": 0.525
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "drop_hp_south": 15.459,
+        "drop_hp_north": 1.528,
+        "drop_floridan": 3.559
+      },
+      "zscores": {
+        "drop_hp_south": 2.253,
+        "drop_hp_north": -1.758,
+        "drop_floridan": 0.436
+      },
+      "events": [
+        {
+          "label": "Southern High Plains falls 4 feet in one year",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "drop_hp_south": 15.285,
+        "drop_hp_north": 1.457,
+        "drop_floridan": 3.398
+      },
+      "zscores": {
+        "drop_hp_south": 1.98,
+        "drop_hp_north": -2.006,
+        "drop_floridan": 0.273
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "drop_hp_south": 15.11,
+        "drop_hp_north": 1.386,
+        "drop_floridan": 3.237
+      },
+      "zscores": {
+        "drop_hp_south": 1.753,
+        "drop_hp_north": -2.177,
+        "drop_floridan": 0.086
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "drop_hp_south": 14.935,
+        "drop_hp_north": 1.315,
+        "drop_floridan": 3.076
+      },
+      "zscores": {
+        "drop_hp_south": 1.558,
+        "drop_hp_north": -2.27,
+        "drop_floridan": -0.132
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "drop_hp_south": 14.761,
+        "drop_hp_north": 1.245,
+        "drop_floridan": 2.915
+      },
+      "zscores": {
+        "drop_hp_south": 1.385,
+        "drop_hp_north": -2.301,
+        "drop_floridan": -0.388
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "drop_hp_south": 14.586,
+        "drop_hp_north": 1.174,
+        "drop_floridan": 2.755
+      },
+      "zscores": {
+        "drop_hp_south": 1.227,
+        "drop_hp_north": -2.288,
+        "drop_floridan": -0.688
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "drop_hp_south": 14.412,
+        "drop_hp_north": 1.103,
+        "drop_floridan": 2.594
+      },
+      "zscores": {
+        "drop_hp_south": 1.081,
+        "drop_hp_north": -2.251,
+        "drop_floridan": -1.031
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "drop_hp_south": 14.237,
+        "drop_hp_north": 1.032,
+        "drop_floridan": 2.433
+      },
+      "zscores": {
+        "drop_hp_south": 0.941,
+        "drop_hp_north": -2.2,
+        "drop_floridan": -1.4
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "drop_hp_south": 14.062,
+        "drop_hp_north": 0.962,
+        "drop_floridan": 2.272
+      },
+      "zscores": {
+        "drop_hp_south": 0.807,
+        "drop_hp_north": -2.146,
+        "drop_floridan": -1.754
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "drop_hp_south": 13.888,
+        "drop_hp_north": 0.891,
+        "drop_floridan": 2.111
+      },
+      "zscores": {
+        "drop_hp_south": 0.674,
+        "drop_hp_north": -2.091,
+        "drop_floridan": -2.04
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "drop_hp_south": 13.713,
+        "drop_hp_north": 0.82,
+        "drop_floridan": 1.951
+      },
+      "zscores": {
+        "drop_hp_south": 0.541,
+        "drop_hp_north": -2.041,
+        "drop_floridan": -2.221
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "drop_hp_south": 13.539,
+        "drop_hp_north": 0.749,
+        "drop_floridan": 1.79
+      },
+      "zscores": {
+        "drop_hp_south": 0.406,
+        "drop_hp_north": -1.995,
+        "drop_floridan": -2.299
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "drop_hp_south": 13.364,
+        "drop_hp_north": 0.678,
+        "drop_floridan": 1.629
+      },
+      "zscores": {
+        "drop_hp_south": 0.266,
+        "drop_hp_north": -1.957,
+        "drop_floridan": -2.303
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "drop_hp_south": 13.465,
+        "drop_hp_north": 0.631,
+        "drop_floridan": 1.579
+      },
+      "zscores": {
+        "drop_hp_south": 0.279,
+        "drop_hp_north": -1.885,
+        "drop_floridan": -2.165
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "drop_hp_south": 13.566,
+        "drop_hp_north": 0.584,
+        "drop_floridan": 1.53
+      },
+      "zscores": {
+        "drop_hp_south": 0.295,
+        "drop_hp_north": -1.823,
+        "drop_floridan": -2.041
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "drop_hp_south": 13.666,
+        "drop_hp_north": 0.536,
+        "drop_floridan": 1.48
+      },
+      "zscores": {
+        "drop_hp_south": 0.312,
+        "drop_hp_north": -1.768,
+        "drop_floridan": -1.93
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "drop_hp_south": 13.767,
+        "drop_hp_north": 0.489,
+        "drop_floridan": 1.431
+      },
+      "zscores": {
+        "drop_hp_south": 0.332,
+        "drop_hp_north": -1.721,
+        "drop_floridan": -1.831
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "drop_hp_south": 13.868,
+        "drop_hp_north": 0.442,
+        "drop_floridan": 1.381
+      },
+      "zscores": {
+        "drop_hp_south": 0.356,
+        "drop_hp_north": -1.679,
+        "drop_floridan": -1.743
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "drop_hp_south": 13.969,
+        "drop_hp_north": 0.394,
+        "drop_floridan": 1.332
+      },
+      "zscores": {
+        "drop_hp_south": 0.383,
+        "drop_hp_north": -1.643,
+        "drop_floridan": -1.664
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "drop_hp_south": 14.069,
+        "drop_hp_north": 0.347,
+        "drop_floridan": 1.282
+      },
+      "zscores": {
+        "drop_hp_south": 0.414,
+        "drop_hp_north": -1.611,
+        "drop_floridan": -1.595
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "drop_hp_south": 14.17,
+        "drop_hp_north": 0.3,
+        "drop_floridan": 1.233
+      },
+      "zscores": {
+        "drop_hp_south": 0.451,
+        "drop_hp_north": -1.585,
+        "drop_floridan": -1.533
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "drop_hp_south": 14.271,
+        "drop_hp_north": 0.252,
+        "drop_floridan": 1.183
+      },
+      "zscores": {
+        "drop_hp_south": 0.496,
+        "drop_hp_north": -1.563,
+        "drop_floridan": -1.479
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "drop_hp_south": 14.372,
+        "drop_hp_north": 0.205,
+        "drop_floridan": 1.133
+      },
+      "zscores": {
+        "drop_hp_south": 0.55,
+        "drop_hp_north": -1.546,
+        "drop_floridan": -1.433
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "drop_hp_south": 14.472,
+        "drop_hp_north": 0.158,
+        "drop_floridan": 1.084
+      },
+      "zscores": {
+        "drop_hp_south": 0.618,
+        "drop_hp_north": -1.534,
+        "drop_floridan": -1.394
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "drop_hp_south": 14.573,
+        "drop_hp_north": 0.11,
+        "drop_floridan": 1.034
+      },
+      "zscores": {
+        "drop_hp_south": 0.705,
+        "drop_hp_north": -1.528,
+        "drop_floridan": -1.364
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "drop_hp_south": 14.556,
+        "drop_hp_north": 0.066,
+        "drop_floridan": 1.284
+      },
+      "zscores": {
+        "drop_hp_south": 0.657,
+        "drop_hp_north": -1.52,
+        "drop_floridan": -1.09
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "drop_hp_south": 14.539,
+        "drop_hp_north": 0.021,
+        "drop_floridan": 1.533
+      },
+      "zscores": {
+        "drop_hp_south": 0.602,
+        "drop_hp_north": -1.514,
+        "drop_floridan": -0.822
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "drop_hp_south": 14.521,
+        "drop_hp_north": -0.024,
+        "drop_floridan": 1.782
+      },
+      "zscores": {
+        "drop_hp_south": 0.539,
+        "drop_hp_north": -1.51,
+        "drop_floridan": -0.551
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "drop_hp_south": 14.504,
+        "drop_hp_north": -0.069,
+        "drop_floridan": 2.031
+      },
+      "zscores": {
+        "drop_hp_south": 0.468,
+        "drop_hp_north": -1.507,
+        "drop_floridan": -0.269
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "drop_hp_south": 14.487,
+        "drop_hp_north": -0.113,
+        "drop_floridan": 2.281
+      },
+      "zscores": {
+        "drop_hp_south": 0.392,
+        "drop_hp_north": -1.507,
+        "drop_floridan": 0.027
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "drop_hp_south": 14.47,
+        "drop_hp_north": -0.158,
+        "drop_floridan": 2.53
+      },
+      "zscores": {
+        "drop_hp_south": 0.318,
+        "drop_hp_north": -1.508,
+        "drop_floridan": 0.342
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "drop_hp_south": 14.452,
+        "drop_hp_north": -0.203,
+        "drop_floridan": 2.779
+      },
+      "zscores": {
+        "drop_hp_south": 0.253,
+        "drop_hp_north": -1.511,
+        "drop_floridan": 0.676
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "drop_hp_south": 14.435,
+        "drop_hp_north": -0.248,
+        "drop_floridan": 3.029
+      },
+      "zscores": {
+        "drop_hp_south": 0.203,
+        "drop_hp_north": -1.515,
+        "drop_floridan": 1.023
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "drop_hp_south": 14.418,
+        "drop_hp_north": -0.293,
+        "drop_floridan": 3.278
+      },
+      "zscores": {
+        "drop_hp_south": 0.172,
+        "drop_hp_north": -1.522,
+        "drop_floridan": 1.368
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "drop_hp_south": 14.401,
+        "drop_hp_north": -0.337,
+        "drop_floridan": 3.527
+      },
+      "zscores": {
+        "drop_hp_south": 0.162,
+        "drop_hp_north": -1.53,
+        "drop_floridan": 1.693
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "drop_hp_south": 14.383,
+        "drop_hp_north": -0.382,
+        "drop_floridan": 3.776
+      },
+      "zscores": {
+        "drop_hp_south": 0.175,
+        "drop_hp_north": -1.54,
+        "drop_floridan": 1.974
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "drop_hp_south": 14.366,
+        "drop_hp_north": -0.427,
+        "drop_floridan": 4.026
+      },
+      "zscores": {
+        "drop_hp_south": 0.221,
+        "drop_hp_north": -1.551,
+        "drop_floridan": 2.193
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "drop_hp_south": 14.474,
+        "drop_hp_north": -0.359,
+        "drop_floridan": 4.058
+      },
+      "zscores": {
+        "drop_hp_south": 0.555,
+        "drop_hp_north": -1.371,
+        "drop_floridan": 2.127
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "drop_hp_south": 14.581,
+        "drop_hp_north": -0.291,
+        "drop_floridan": 4.091
+      },
+      "zscores": {
+        "drop_hp_south": 0.901,
+        "drop_hp_north": -1.196,
+        "drop_floridan": 2.048
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "drop_hp_south": 14.688,
+        "drop_hp_north": -0.223,
+        "drop_floridan": 4.123
+      },
+      "zscores": {
+        "drop_hp_south": 1.229,
+        "drop_hp_north": -1.022,
+        "drop_floridan": 1.961
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "drop_hp_south": 14.796,
+        "drop_hp_north": -0.156,
+        "drop_floridan": 4.156
+      },
+      "zscores": {
+        "drop_hp_south": 1.505,
+        "drop_hp_north": -0.845,
+        "drop_floridan": 1.872
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "drop_hp_south": 14.903,
+        "drop_hp_north": -0.088,
+        "drop_floridan": 4.188
+      },
+      "zscores": {
+        "drop_hp_south": 1.711,
+        "drop_hp_north": -0.66,
+        "drop_floridan": 1.784
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "drop_hp_south": 15.01,
+        "drop_hp_north": -0.02,
+        "drop_floridan": 4.221
+      },
+      "zscores": {
+        "drop_hp_south": 1.851,
+        "drop_hp_north": -0.464,
+        "drop_floridan": 1.699
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "drop_hp_south": 15.118,
+        "drop_hp_north": 0.048,
+        "drop_floridan": 4.254
+      },
+      "zscores": {
+        "drop_hp_south": 1.94,
+        "drop_hp_north": -0.252,
+        "drop_floridan": 1.619
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "drop_hp_south": 15.225,
+        "drop_hp_north": 0.116,
+        "drop_floridan": 4.286
+      },
+      "zscores": {
+        "drop_hp_south": 1.995,
+        "drop_hp_north": -0.021,
+        "drop_floridan": 1.543
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "drop_hp_south": 15.333,
+        "drop_hp_north": 0.184,
+        "drop_floridan": 4.319
+      },
+      "zscores": {
+        "drop_hp_south": 2.035,
+        "drop_hp_north": 0.23,
+        "drop_floridan": 1.473
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "drop_hp_south": 15.44,
+        "drop_hp_north": 0.251,
+        "drop_floridan": 4.351
+      },
+      "zscores": {
+        "drop_hp_south": 2.073,
+        "drop_hp_north": 0.502,
+        "drop_floridan": 1.408
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "drop_hp_south": 15.547,
+        "drop_hp_north": 0.319,
+        "drop_floridan": 4.384
+      },
+      "zscores": {
+        "drop_hp_south": 2.12,
+        "drop_hp_north": 0.789,
+        "drop_floridan": 1.348
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "drop_hp_south": 15.655,
+        "drop_hp_north": 0.387,
+        "drop_floridan": 4.416
+      },
+      "zscores": {
+        "drop_hp_south": 2.191,
+        "drop_hp_north": 1.08,
+        "drop_floridan": 1.293
+      },
+      "events": [
+        {
+          "label": "Plains drought: heavy pumping for irrigation",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "drop_hp_south": 15.586,
+        "drop_hp_north": 0.557,
+        "drop_floridan": 4.159
+      },
+      "zscores": {
+        "drop_hp_south": 1.953,
+        "drop_hp_north": 1.683,
+        "drop_floridan": 1.036
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "drop_hp_south": 15.517,
+        "drop_hp_north": 0.727,
+        "drop_floridan": 3.901
+      },
+      "zscores": {
+        "drop_hp_south": 1.736,
+        "drop_hp_north": 2.193,
+        "drop_floridan": 0.792
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "drop_hp_south": 15.448,
+        "drop_hp_north": 0.897,
+        "drop_floridan": 3.644
+      },
+      "zscores": {
+        "drop_hp_south": 1.533,
+        "drop_hp_north": 2.55,
+        "drop_floridan": 0.555
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "drop_hp_south": 15.379,
+        "drop_hp_north": 1.067,
+        "drop_floridan": 3.386
+      },
+      "zscores": {
+        "drop_hp_south": 1.337,
+        "drop_hp_north": 2.748,
+        "drop_floridan": 0.318
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "drop_hp_south": 15.31,
+        "drop_hp_north": 1.237,
+        "drop_floridan": 3.129
+      },
+      "zscores": {
+        "drop_hp_south": 1.144,
+        "drop_hp_north": 2.822,
+        "drop_floridan": 0.077
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "drop_hp_south": 15.241,
+        "drop_hp_north": 1.407,
+        "drop_floridan": 2.871
+      },
+      "zscores": {
+        "drop_hp_south": 0.952,
+        "drop_hp_north": 2.816,
+        "drop_floridan": -0.171
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "drop_hp_south": 15.172,
+        "drop_hp_north": 1.577,
+        "drop_floridan": 2.614
+      },
+      "zscores": {
+        "drop_hp_south": 0.759,
+        "drop_hp_north": 2.766,
+        "drop_floridan": -0.429
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "drop_hp_south": 15.103,
+        "drop_hp_north": 1.747,
+        "drop_floridan": 2.356
+      },
+      "zscores": {
+        "drop_hp_south": 0.564,
+        "drop_hp_north": 2.694,
+        "drop_floridan": -0.699
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "drop_hp_south": 15.034,
+        "drop_hp_north": 1.917,
+        "drop_floridan": 2.099
+      },
+      "zscores": {
+        "drop_hp_south": 0.368,
+        "drop_hp_north": 2.613,
+        "drop_floridan": -0.981
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "drop_hp_south": 14.965,
+        "drop_hp_north": 2.087,
+        "drop_floridan": 1.841
+      },
+      "zscores": {
+        "drop_hp_south": 0.173,
+        "drop_hp_north": 2.53,
+        "drop_floridan": -1.27
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "drop_hp_south": 14.896,
+        "drop_hp_north": 2.257,
+        "drop_floridan": 1.584
+      },
+      "zscores": {
+        "drop_hp_south": -0.019,
+        "drop_hp_north": 2.451,
+        "drop_floridan": -1.562
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "drop_hp_south": 14.827,
+        "drop_hp_north": 2.427,
+        "drop_floridan": 1.326
+      },
+      "zscores": {
+        "drop_hp_south": -0.203,
+        "drop_hp_north": 2.375,
+        "drop_floridan": -1.847
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "drop_hp_south": 14.832,
+        "drop_hp_north": 2.456,
+        "drop_floridan": 1.237
+      },
+      "zscores": {
+        "drop_hp_south": -0.212,
+        "drop_hp_north": 2.174,
+        "drop_floridan": -1.929
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "drop_hp_south": 14.837,
+        "drop_hp_north": 2.485,
+        "drop_floridan": 1.147
+      },
+      "zscores": {
+        "drop_hp_south": -0.222,
+        "drop_hp_north": 2.012,
+        "drop_floridan": -1.969
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "drop_hp_south": 14.842,
+        "drop_hp_north": 2.515,
+        "drop_floridan": 1.058
+      },
+      "zscores": {
+        "drop_hp_south": -0.235,
+        "drop_hp_north": 1.877,
+        "drop_floridan": -1.972
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "drop_hp_south": 14.847,
+        "drop_hp_north": 2.544,
+        "drop_floridan": 0.968
+      },
+      "zscores": {
+        "drop_hp_south": -0.25,
+        "drop_hp_north": 1.764,
+        "drop_floridan": -1.946
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "drop_hp_south": 14.852,
+        "drop_hp_north": 2.574,
+        "drop_floridan": 0.879
+      },
+      "zscores": {
+        "drop_hp_south": -0.268,
+        "drop_hp_north": 1.666,
+        "drop_floridan": -1.902
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "drop_hp_south": 14.857,
+        "drop_hp_north": 2.603,
+        "drop_floridan": 0.789
+      },
+      "zscores": {
+        "drop_hp_south": -0.289,
+        "drop_hp_north": 1.581,
+        "drop_floridan": -1.847
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "drop_hp_south": 14.862,
+        "drop_hp_north": 2.632,
+        "drop_floridan": 0.699
+      },
+      "zscores": {
+        "drop_hp_south": -0.314,
+        "drop_hp_north": 1.506,
+        "drop_floridan": -1.787
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "drop_hp_south": 14.867,
+        "drop_hp_north": 2.662,
+        "drop_floridan": 0.61
+      },
+      "zscores": {
+        "drop_hp_south": -0.343,
+        "drop_hp_north": 1.44,
+        "drop_floridan": -1.725
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "drop_hp_south": 14.872,
+        "drop_hp_north": 2.691,
+        "drop_floridan": 0.52
+      },
+      "zscores": {
+        "drop_hp_south": -0.377,
+        "drop_hp_north": 1.381,
+        "drop_floridan": -1.666
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "drop_hp_south": 14.877,
+        "drop_hp_north": 2.721,
+        "drop_floridan": 0.431
+      },
+      "zscores": {
+        "drop_hp_south": -0.419,
+        "drop_hp_north": 1.33,
+        "drop_floridan": -1.611
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "drop_hp_south": 14.883,
+        "drop_hp_north": 2.75,
+        "drop_floridan": 0.341
+      },
+      "zscores": {
+        "drop_hp_south": -0.47,
+        "drop_hp_north": 1.284,
+        "drop_floridan": -1.561
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "drop_hp_south": 14.888,
+        "drop_hp_north": 2.779,
+        "drop_floridan": 0.252
+      },
+      "zscores": {
+        "drop_hp_south": -0.534,
+        "drop_hp_north": 1.245,
+        "drop_floridan": -1.516
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "drop_hp_south": 14.936,
+        "drop_hp_north": 2.751,
+        "drop_floridan": 0.232
+      },
+      "zscores": {
+        "drop_hp_south": -0.434,
+        "drop_hp_north": 1.161,
+        "drop_floridan": -1.436
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "drop_hp_south": 14.985,
+        "drop_hp_north": 2.722,
+        "drop_floridan": 0.212
+      },
+      "zscores": {
+        "drop_hp_south": -0.311,
+        "drop_hp_north": 1.081,
+        "drop_floridan": -1.363
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "drop_hp_south": 15.034,
+        "drop_hp_north": 2.693,
+        "drop_floridan": 0.192
+      },
+      "zscores": {
+        "drop_hp_south": -0.168,
+        "drop_hp_north": 1.004,
+        "drop_floridan": -1.298
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "drop_hp_south": 15.083,
+        "drop_hp_north": 2.664,
+        "drop_floridan": 0.172
+      },
+      "zscores": {
+        "drop_hp_south": -0.009,
+        "drop_hp_north": 0.93,
+        "drop_floridan": -1.239
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "drop_hp_south": 15.131,
+        "drop_hp_north": 2.636,
+        "drop_floridan": 0.152
+      },
+      "zscores": {
+        "drop_hp_south": 0.16,
+        "drop_hp_north": 0.858,
+        "drop_floridan": -1.186
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "drop_hp_south": 15.18,
+        "drop_hp_north": 2.607,
+        "drop_floridan": 0.132
+      },
+      "zscores": {
+        "drop_hp_south": 0.336,
+        "drop_hp_north": 0.787,
+        "drop_floridan": -1.137
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "drop_hp_south": 15.229,
+        "drop_hp_north": 2.578,
+        "drop_floridan": 0.112
+      },
+      "zscores": {
+        "drop_hp_south": 0.516,
+        "drop_hp_north": 0.716,
+        "drop_floridan": -1.093
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "drop_hp_south": 15.278,
+        "drop_hp_north": 2.549,
+        "drop_floridan": 0.093
+      },
+      "zscores": {
+        "drop_hp_south": 0.702,
+        "drop_hp_north": 0.644,
+        "drop_floridan": -1.054
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "drop_hp_south": 15.326,
+        "drop_hp_north": 2.52,
+        "drop_floridan": 0.073
+      },
+      "zscores": {
+        "drop_hp_south": 0.896,
+        "drop_hp_north": 0.57,
+        "drop_floridan": -1.02
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "drop_hp_south": 15.375,
+        "drop_hp_north": 2.492,
+        "drop_floridan": 0.053
+      },
+      "zscores": {
+        "drop_hp_south": 1.106,
+        "drop_hp_north": 0.492,
+        "drop_floridan": -0.991
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "drop_hp_south": 15.424,
+        "drop_hp_north": 2.463,
+        "drop_floridan": 0.033
+      },
+      "zscores": {
+        "drop_hp_south": 1.344,
+        "drop_hp_north": 0.409,
+        "drop_floridan": -0.969
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "drop_hp_south": 15.473,
+        "drop_hp_north": 2.434,
+        "drop_floridan": 0.013
+      },
+      "zscores": {
+        "drop_hp_south": 1.631,
+        "drop_hp_north": 0.318,
+        "drop_floridan": -0.957
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "drop_hp_south": 15.584,
+        "drop_hp_north": 2.418,
+        "drop_floridan": 0.016
+      },
+      "zscores": {
+        "drop_hp_south": 2.107,
+        "drop_hp_north": 0.235,
+        "drop_floridan": -0.93
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "drop_hp_south": 15.695,
+        "drop_hp_north": 2.402,
+        "drop_floridan": 0.019
+      },
+      "zscores": {
+        "drop_hp_south": 2.45,
+        "drop_hp_north": 0.139,
+        "drop_floridan": -0.904
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "drop_hp_south": 15.807,
+        "drop_hp_north": 2.385,
+        "drop_floridan": 0.023
+      },
+      "zscores": {
+        "drop_hp_south": 2.642,
+        "drop_hp_north": 0.027,
+        "drop_floridan": -0.88
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "drop_hp_south": 15.918,
+        "drop_hp_north": 2.369,
+        "drop_floridan": 0.026
+      },
+      "zscores": {
+        "drop_hp_south": 2.712,
+        "drop_hp_north": -0.109,
+        "drop_floridan": -0.858
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "drop_hp_south": 16.03,
+        "drop_hp_north": 2.353,
+        "drop_floridan": 0.029
+      },
+      "zscores": {
+        "drop_hp_south": 2.704,
+        "drop_hp_north": -0.277,
+        "drop_floridan": -0.838
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "drop_hp_south": 16.141,
+        "drop_hp_north": 2.336,
+        "drop_floridan": 0.032
+      },
+      "zscores": {
+        "drop_hp_south": 2.655,
+        "drop_hp_north": -0.488,
+        "drop_floridan": -0.82
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "drop_hp_south": 16.253,
+        "drop_hp_north": 2.32,
+        "drop_floridan": 0.035
+      },
+      "zscores": {
+        "drop_hp_south": 2.587,
+        "drop_hp_north": -0.753,
+        "drop_floridan": -0.803
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "drop_hp_south": 16.364,
+        "drop_hp_north": 2.304,
+        "drop_floridan": 0.039
+      },
+      "zscores": {
+        "drop_hp_south": 2.513,
+        "drop_hp_north": -1.067,
+        "drop_floridan": -0.786
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "drop_hp_south": 16.476,
+        "drop_hp_north": 2.287,
+        "drop_floridan": 0.042
+      },
+      "zscores": {
+        "drop_hp_south": 2.44,
+        "drop_hp_north": -1.388,
+        "drop_floridan": -0.768
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "drop_hp_south": 16.587,
+        "drop_hp_north": 2.271,
+        "drop_floridan": 0.045
+      },
+      "zscores": {
+        "drop_hp_south": 2.371,
+        "drop_hp_north": -1.629,
+        "drop_floridan": -0.747
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "drop_hp_south": 16.698,
+        "drop_hp_north": 2.255,
+        "drop_floridan": 0.048
+      },
+      "zscores": {
+        "drop_hp_south": 2.309,
+        "drop_hp_north": -1.735,
+        "drop_floridan": -0.719
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "drop_hp_south": 16.81,
+        "drop_hp_north": 2.238,
+        "drop_floridan": 0.052
+      },
+      "zscores": {
+        "drop_hp_south": 2.253,
+        "drop_hp_north": -1.738,
+        "drop_floridan": -0.681
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "drop_hp_south": 16.793,
+        "drop_hp_north": 2.222,
+        "drop_floridan": 0.243
+      },
+      "zscores": {
+        "drop_hp_south": 2.034,
+        "drop_hp_north": -1.726,
+        "drop_floridan": -0.09
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "drop_hp_south": 16.776,
+        "drop_hp_north": 2.205,
+        "drop_floridan": 0.434
+      },
+      "zscores": {
+        "drop_hp_south": 1.854,
+        "drop_hp_north": -1.704,
+        "drop_floridan": 0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "drop_hp_south": 16.759,
+        "drop_hp_north": 2.189,
+        "drop_floridan": 0.626
+      },
+      "zscores": {
+        "drop_hp_south": 1.701,
+        "drop_hp_north": -1.676,
+        "drop_floridan": 1.423
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "drop_hp_south": 16.742,
+        "drop_hp_north": 2.172,
+        "drop_floridan": 0.817
+      },
+      "zscores": {
+        "drop_hp_south": 1.569,
+        "drop_hp_north": -1.645,
+        "drop_floridan": 2.232
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "drop_hp_south": 16.725,
+        "drop_hp_north": 2.156,
+        "drop_floridan": 1.008
+      },
+      "zscores": {
+        "drop_hp_south": 1.452,
+        "drop_hp_north": -1.614,
+        "drop_floridan": 2.848
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "drop_hp_south": 16.708,
+        "drop_hp_north": 2.139,
+        "drop_floridan": 1.2
+      },
+      "zscores": {
+        "drop_hp_south": 1.347,
+        "drop_hp_north": -1.584,
+        "drop_floridan": 3.164
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "drop_hp_south": 16.691,
+        "drop_hp_north": 2.123,
+        "drop_floridan": 1.391
+      },
+      "zscores": {
+        "drop_hp_south": 1.251,
+        "drop_hp_north": -1.557,
+        "drop_floridan": 3.235
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "drop_hp_south": 16.674,
+        "drop_hp_north": 2.106,
+        "drop_floridan": 1.583
+      },
+      "zscores": {
+        "drop_hp_south": 1.163,
+        "drop_hp_north": -1.535,
+        "drop_floridan": 3.174
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "drop_hp_south": 16.658,
+        "drop_hp_north": 2.09,
+        "drop_floridan": 1.774
+      },
+      "zscores": {
+        "drop_hp_south": 1.081,
+        "drop_hp_north": -1.519,
+        "drop_floridan": 3.061
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "drop_hp_south": 16.641,
+        "drop_hp_north": 2.073,
+        "drop_floridan": 1.965
+      },
+      "zscores": {
+        "drop_hp_south": 1.003,
+        "drop_hp_north": -1.51,
+        "drop_floridan": 2.934
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "drop_hp_south": 16.624,
+        "drop_hp_north": 2.057,
+        "drop_floridan": 2.157
+      },
+      "zscores": {
+        "drop_hp_south": 0.929,
+        "drop_hp_north": -1.512,
+        "drop_floridan": 2.811
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "drop_hp_south": 16.607,
+        "drop_hp_north": 2.04,
+        "drop_floridan": 2.348
+      },
+      "zscores": {
+        "drop_hp_south": 0.858,
+        "drop_hp_north": -1.529,
+        "drop_floridan": 2.697
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "drop_hp_south": 16.65,
+        "drop_hp_north": 1.996,
+        "drop_floridan": 2.201
+      },
+      "zscores": {
+        "drop_hp_south": 0.876,
+        "drop_hp_north": -1.672,
+        "drop_floridan": 2.232
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "drop_hp_south": 16.693,
+        "drop_hp_north": 1.952,
+        "drop_floridan": 2.054
+      },
+      "zscores": {
+        "drop_hp_south": 0.897,
+        "drop_hp_north": -1.805,
+        "drop_floridan": 1.87
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "drop_hp_south": 16.736,
+        "drop_hp_north": 1.907,
+        "drop_floridan": 1.907
+      },
+      "zscores": {
+        "drop_hp_south": 0.92,
+        "drop_hp_north": -1.922,
+        "drop_floridan": 1.569
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "drop_hp_south": 16.779,
+        "drop_hp_north": 1.863,
+        "drop_floridan": 1.759
+      },
+      "zscores": {
+        "drop_hp_south": 0.946,
+        "drop_hp_north": -2.021,
+        "drop_floridan": 1.306
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "drop_hp_south": 16.822,
+        "drop_hp_north": 1.819,
+        "drop_floridan": 1.612
+      },
+      "zscores": {
+        "drop_hp_south": 0.976,
+        "drop_hp_north": -2.099,
+        "drop_floridan": 1.067
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "drop_hp_south": 16.865,
+        "drop_hp_north": 1.775,
+        "drop_floridan": 1.465
+      },
+      "zscores": {
+        "drop_hp_south": 1.01,
+        "drop_hp_north": -2.157,
+        "drop_floridan": 0.844
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "drop_hp_south": 16.908,
+        "drop_hp_north": 1.73,
+        "drop_floridan": 1.318
+      },
+      "zscores": {
+        "drop_hp_south": 1.05,
+        "drop_hp_north": -2.195,
+        "drop_floridan": 0.63
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "drop_hp_south": 16.951,
+        "drop_hp_north": 1.686,
+        "drop_floridan": 1.171
+      },
+      "zscores": {
+        "drop_hp_south": 1.096,
+        "drop_hp_north": -2.215,
+        "drop_floridan": 0.421
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "drop_hp_south": 16.994,
+        "drop_hp_north": 1.642,
+        "drop_floridan": 1.024
+      },
+      "zscores": {
+        "drop_hp_south": 1.15,
+        "drop_hp_north": -2.22,
+        "drop_floridan": 0.214
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "drop_hp_south": 17.037,
+        "drop_hp_north": 1.597,
+        "drop_floridan": 0.877
+      },
+      "zscores": {
+        "drop_hp_south": 1.216,
+        "drop_hp_north": -2.212,
+        "drop_floridan": 0.006
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "drop_hp_south": 17.08,
+        "drop_hp_north": 1.553,
+        "drop_floridan": 0.73
+      },
+      "zscores": {
+        "drop_hp_south": 1.297,
+        "drop_hp_north": -2.195,
+        "drop_floridan": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "drop_hp_south": 17.122,
+        "drop_hp_north": 1.509,
+        "drop_floridan": 0.582
+      },
+      "zscores": {
+        "drop_hp_south": 1.399,
+        "drop_hp_north": -2.17,
+        "drop_floridan": -0.414
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "drop_hp_south": 17.174,
+        "drop_hp_north": 1.398,
+        "drop_floridan": 0.593
+      },
+      "zscores": {
+        "drop_hp_south": 1.537,
+        "drop_hp_north": -2.347,
+        "drop_floridan": -0.428
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "drop_hp_south": 17.226,
+        "drop_hp_north": 1.287,
+        "drop_floridan": 0.604
+      },
+      "zscores": {
+        "drop_hp_south": 1.685,
+        "drop_hp_north": -2.46,
+        "drop_floridan": -0.442
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "drop_hp_south": 17.278,
+        "drop_hp_north": 1.176,
+        "drop_floridan": 0.615
+      },
+      "zscores": {
+        "drop_hp_south": 1.837,
+        "drop_hp_north": -2.522,
+        "drop_floridan": -0.458
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "drop_hp_south": 17.33,
+        "drop_hp_north": 1.065,
+        "drop_floridan": 0.625
+      },
+      "zscores": {
+        "drop_hp_south": 1.98,
+        "drop_hp_north": -2.545,
+        "drop_floridan": -0.475
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "drop_hp_south": 17.382,
+        "drop_hp_north": 0.954,
+        "drop_floridan": 0.636
+      },
+      "zscores": {
+        "drop_hp_south": 2.102,
+        "drop_hp_north": -2.54,
+        "drop_floridan": -0.494
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "drop_hp_south": 17.433,
+        "drop_hp_north": 0.842,
+        "drop_floridan": 0.647
+      },
+      "zscores": {
+        "drop_hp_south": 2.19,
+        "drop_hp_north": -2.516,
+        "drop_floridan": -0.514
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "drop_hp_south": 17.485,
+        "drop_hp_north": 0.731,
+        "drop_floridan": 0.658
+      },
+      "zscores": {
+        "drop_hp_south": 2.237,
+        "drop_hp_north": -2.48,
+        "drop_floridan": -0.537
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "drop_hp_south": 17.537,
+        "drop_hp_north": 0.62,
+        "drop_floridan": 0.668
+      },
+      "zscores": {
+        "drop_hp_south": 2.244,
+        "drop_hp_north": -2.437,
+        "drop_floridan": -0.561
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "drop_hp_south": 17.589,
+        "drop_hp_north": 0.509,
+        "drop_floridan": 0.679
+      },
+      "zscores": {
+        "drop_hp_south": 2.221,
+        "drop_hp_north": -2.39,
+        "drop_floridan": -0.588
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "drop_hp_south": 17.641,
+        "drop_hp_north": 0.398,
+        "drop_floridan": 0.69
+      },
+      "zscores": {
+        "drop_hp_south": 2.179,
+        "drop_hp_north": -2.342,
+        "drop_floridan": -0.618
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "drop_hp_south": 17.692,
+        "drop_hp_north": 0.287,
+        "drop_floridan": 0.701
+      },
+      "zscores": {
+        "drop_hp_south": 2.127,
+        "drop_hp_north": -2.293,
+        "drop_floridan": -0.652
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "drop_hp_south": 17.744,
+        "drop_hp_north": 0.176,
+        "drop_floridan": 0.711
+      },
+      "zscores": {
+        "drop_hp_south": 2.074,
+        "drop_hp_north": -2.245,
+        "drop_floridan": -0.689
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "drop_hp_south": 17.787,
+        "drop_hp_north": 0.082,
+        "drop_floridan": 0.701
+      },
+      "zscores": {
+        "drop_hp_south": 2.002,
+        "drop_hp_north": -2.177,
+        "drop_floridan": -0.747
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "drop_hp_south": 17.829,
+        "drop_hp_north": -0.013,
+        "drop_floridan": 0.692
+      },
+      "zscores": {
+        "drop_hp_south": 1.939,
+        "drop_hp_north": -2.117,
+        "drop_floridan": -0.786
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "drop_hp_south": 17.871,
+        "drop_hp_north": -0.107,
+        "drop_floridan": 0.682
+      },
+      "zscores": {
+        "drop_hp_south": 1.883,
+        "drop_hp_north": -2.062,
+        "drop_floridan": -0.809
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "drop_hp_south": 17.913,
+        "drop_hp_north": -0.202,
+        "drop_floridan": 0.672
+      },
+      "zscores": {
+        "drop_hp_south": 1.834,
+        "drop_hp_north": -2.013,
+        "drop_floridan": -0.815
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "drop_hp_south": 17.955,
+        "drop_hp_north": -0.296,
+        "drop_floridan": 0.662
+      },
+      "zscores": {
+        "drop_hp_south": 1.79,
+        "drop_hp_north": -1.968,
+        "drop_floridan": -0.808
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "drop_hp_south": 17.998,
+        "drop_hp_north": -0.391,
+        "drop_floridan": 0.652
+      },
+      "zscores": {
+        "drop_hp_south": 1.751,
+        "drop_hp_north": -1.927,
+        "drop_floridan": -0.792
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "drop_hp_south": 18.04,
+        "drop_hp_north": -0.485,
+        "drop_floridan": 0.642
+      },
+      "zscores": {
+        "drop_hp_south": 1.718,
+        "drop_hp_north": -1.89,
+        "drop_floridan": -0.769
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "drop_hp_south": 18.082,
+        "drop_hp_north": -0.58,
+        "drop_floridan": 0.633
+      },
+      "zscores": {
+        "drop_hp_south": 1.689,
+        "drop_hp_north": -1.856,
+        "drop_floridan": -0.742
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "drop_hp_south": 18.124,
+        "drop_hp_north": -0.674,
+        "drop_floridan": 0.623
+      },
+      "zscores": {
+        "drop_hp_south": 1.666,
+        "drop_hp_north": -1.826,
+        "drop_floridan": -0.715
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "drop_hp_south": 18.166,
+        "drop_hp_north": -0.769,
+        "drop_floridan": 0.613
+      },
+      "zscores": {
+        "drop_hp_south": 1.648,
+        "drop_hp_north": -1.798,
+        "drop_floridan": -0.689
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "drop_hp_south": 18.209,
+        "drop_hp_north": -0.863,
+        "drop_floridan": 0.603
+      },
+      "zscores": {
+        "drop_hp_south": 1.635,
+        "drop_hp_north": -1.774,
+        "drop_floridan": -0.669
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "drop_hp_south": 18.251,
+        "drop_hp_north": -0.958,
+        "drop_floridan": 0.593
+      },
+      "zscores": {
+        "drop_hp_south": 1.629,
+        "drop_hp_north": -1.752,
+        "drop_floridan": -0.664
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "drop_hp_south": 18.309,
+        "drop_hp_north": -0.91,
+        "drop_floridan": 0.507
+      },
+      "zscores": {
+        "drop_hp_south": 1.654,
+        "drop_hp_north": -1.6,
+        "drop_floridan": -0.846
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "drop_hp_south": 18.368,
+        "drop_hp_north": -0.862,
+        "drop_floridan": 0.422
+      },
+      "zscores": {
+        "drop_hp_south": 1.676,
+        "drop_hp_north": -1.463,
+        "drop_floridan": -1.076
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "drop_hp_south": 18.426,
+        "drop_hp_north": -0.815,
+        "drop_floridan": 0.336
+      },
+      "zscores": {
+        "drop_hp_south": 1.696,
+        "drop_hp_north": -1.34,
+        "drop_floridan": -1.364
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "drop_hp_south": 18.485,
+        "drop_hp_north": -0.767,
+        "drop_floridan": 0.25
+      },
+      "zscores": {
+        "drop_hp_south": 1.714,
+        "drop_hp_north": -1.225,
+        "drop_floridan": -1.713
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "drop_hp_south": 18.543,
+        "drop_hp_north": -0.719,
+        "drop_floridan": 0.164
+      },
+      "zscores": {
+        "drop_hp_south": 1.73,
+        "drop_hp_north": -1.117,
+        "drop_floridan": -2.105
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "drop_hp_south": 18.601,
+        "drop_hp_north": -0.671,
+        "drop_floridan": 0.078
+      },
+      "zscores": {
+        "drop_hp_south": 1.744,
+        "drop_hp_north": -1.014,
+        "drop_floridan": -2.485
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "drop_hp_south": 18.66,
+        "drop_hp_north": -0.624,
+        "drop_floridan": -0.007
+      },
+      "zscores": {
+        "drop_hp_south": 1.756,
+        "drop_hp_north": -0.914,
+        "drop_floridan": -2.769
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "drop_hp_south": 18.718,
+        "drop_hp_north": -0.576,
+        "drop_floridan": -0.093
+      },
+      "zscores": {
+        "drop_hp_south": 1.767,
+        "drop_hp_north": -0.816,
+        "drop_floridan": -2.902
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "drop_hp_south": 18.777,
+        "drop_hp_north": -0.528,
+        "drop_floridan": -0.179
+      },
+      "zscores": {
+        "drop_hp_south": 1.776,
+        "drop_hp_north": -0.718,
+        "drop_floridan": -2.9
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "drop_hp_south": 18.835,
+        "drop_hp_north": -0.48,
+        "drop_floridan": -0.265
+      },
+      "zscores": {
+        "drop_hp_south": 1.783,
+        "drop_hp_north": -0.618,
+        "drop_floridan": -2.821
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "drop_hp_south": 18.894,
+        "drop_hp_north": -0.432,
+        "drop_floridan": -0.351
+      },
+      "zscores": {
+        "drop_hp_south": 1.79,
+        "drop_hp_north": -0.515,
+        "drop_floridan": -2.715
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "drop_hp_south": 18.952,
+        "drop_hp_north": -0.385,
+        "drop_floridan": -0.437
+      },
+      "zscores": {
+        "drop_hp_south": 1.796,
+        "drop_hp_north": -0.406,
+        "drop_floridan": -2.611
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "drop_hp_south": 19.004,
+        "drop_hp_north": -0.318,
+        "drop_floridan": -0.371
+      },
+      "zscores": {
+        "drop_hp_south": 1.789,
+        "drop_hp_north": -0.26,
+        "drop_floridan": -2.178
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "drop_hp_south": 19.057,
+        "drop_hp_north": -0.251,
+        "drop_floridan": -0.305
+      },
+      "zscores": {
+        "drop_hp_south": 1.781,
+        "drop_hp_north": -0.1,
+        "drop_floridan": -1.838
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "drop_hp_south": 19.109,
+        "drop_hp_north": -0.184,
+        "drop_floridan": -0.239
+      },
+      "zscores": {
+        "drop_hp_south": 1.774,
+        "drop_hp_north": 0.077,
+        "drop_floridan": -1.553
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "drop_hp_south": 19.161,
+        "drop_hp_north": -0.117,
+        "drop_floridan": -0.173
+      },
+      "zscores": {
+        "drop_hp_south": 1.766,
+        "drop_hp_north": 0.275,
+        "drop_floridan": -1.303
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "drop_hp_south": 19.213,
+        "drop_hp_north": -0.05,
+        "drop_floridan": -0.107
+      },
+      "zscores": {
+        "drop_hp_south": 1.758,
+        "drop_hp_north": 0.496,
+        "drop_floridan": -1.076
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "drop_hp_south": 19.265,
+        "drop_hp_north": 0.017,
+        "drop_floridan": -0.041
+      },
+      "zscores": {
+        "drop_hp_south": 1.75,
+        "drop_hp_north": 0.738,
+        "drop_floridan": -0.863
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "drop_hp_south": 19.318,
+        "drop_hp_north": 0.084,
+        "drop_floridan": 0.025
+      },
+      "zscores": {
+        "drop_hp_south": 1.741,
+        "drop_hp_north": 0.997,
+        "drop_floridan": -0.659
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "drop_hp_south": 19.37,
+        "drop_hp_north": 0.15,
+        "drop_floridan": 0.091
+      },
+      "zscores": {
+        "drop_hp_south": 1.733,
+        "drop_hp_north": 1.262,
+        "drop_floridan": -0.459
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "drop_hp_south": 19.422,
+        "drop_hp_north": 0.217,
+        "drop_floridan": 0.157
+      },
+      "zscores": {
+        "drop_hp_south": 1.724,
+        "drop_hp_north": 1.512,
+        "drop_floridan": -0.26
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "drop_hp_south": 19.474,
+        "drop_hp_north": 0.284,
+        "drop_floridan": 0.223
+      },
+      "zscores": {
+        "drop_hp_south": 1.715,
+        "drop_hp_north": 1.725,
+        "drop_floridan": -0.06
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "drop_hp_south": 19.526,
+        "drop_hp_north": 0.351,
+        "drop_floridan": 0.289
+      },
+      "zscores": {
+        "drop_hp_south": 1.706,
+        "drop_hp_north": 1.885,
+        "drop_floridan": 0.144
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "drop_hp_south": 19.578,
+        "drop_hp_north": 0.418,
+        "drop_floridan": 0.355
+      },
+      "zscores": {
+        "drop_hp_south": 1.696,
+        "drop_hp_north": 1.985,
+        "drop_floridan": 0.352
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "drop_hp_south": 19.635,
+        "drop_hp_north": 0.522,
+        "drop_floridan": 0.437
+      },
+      "zscores": {
+        "drop_hp_south": 1.694,
+        "drop_hp_north": 2.114,
+        "drop_floridan": 0.605
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "drop_hp_south": 19.691,
+        "drop_hp_north": 0.625,
+        "drop_floridan": 0.519
+      },
+      "zscores": {
+        "drop_hp_south": 1.692,
+        "drop_hp_north": 2.182,
+        "drop_floridan": 0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "drop_hp_south": 19.747,
+        "drop_hp_north": 0.729,
+        "drop_floridan": 0.6
+      },
+      "zscores": {
+        "drop_hp_south": 1.69,
+        "drop_hp_north": 2.205,
+        "drop_floridan": 1.1
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "drop_hp_south": 19.803,
+        "drop_hp_north": 0.833,
+        "drop_floridan": 0.682
+      },
+      "zscores": {
+        "drop_hp_south": 1.688,
+        "drop_hp_north": 2.199,
+        "drop_floridan": 1.328
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "drop_hp_south": 19.86,
+        "drop_hp_north": 0.936,
+        "drop_floridan": 0.764
+      },
+      "zscores": {
+        "drop_hp_south": 1.687,
+        "drop_hp_north": 2.175,
+        "drop_floridan": 1.533
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "drop_hp_south": 19.916,
+        "drop_hp_north": 1.04,
+        "drop_floridan": 0.845
+      },
+      "zscores": {
+        "drop_hp_south": 1.686,
+        "drop_hp_north": 2.141,
+        "drop_floridan": 1.709
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "drop_hp_south": 19.972,
+        "drop_hp_north": 1.144,
+        "drop_floridan": 0.927
+      },
+      "zscores": {
+        "drop_hp_south": 1.685,
+        "drop_hp_north": 2.104,
+        "drop_floridan": 1.85
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "drop_hp_south": 20.028,
+        "drop_hp_north": 1.247,
+        "drop_floridan": 1.009
+      },
+      "zscores": {
+        "drop_hp_south": 1.685,
+        "drop_hp_north": 2.068,
+        "drop_floridan": 1.956
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "drop_hp_south": 20.085,
+        "drop_hp_north": 1.351,
+        "drop_floridan": 1.091
+      },
+      "zscores": {
+        "drop_hp_south": 1.686,
+        "drop_hp_north": 2.034,
+        "drop_floridan": 2.029
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "drop_hp_south": 20.141,
+        "drop_hp_north": 1.455,
+        "drop_floridan": 1.172
+      },
+      "zscores": {
+        "drop_hp_south": 1.687,
+        "drop_hp_north": 2.005,
+        "drop_floridan": 2.073
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "drop_hp_south": 20.197,
+        "drop_hp_north": 1.558,
+        "drop_floridan": 1.254
+      },
+      "zscores": {
+        "drop_hp_south": 1.69,
+        "drop_hp_north": 1.981,
+        "drop_floridan": 2.093
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "drop_hp_south": 20.253,
+        "drop_hp_north": 1.662,
+        "drop_floridan": 1.336
+      },
+      "zscores": {
+        "drop_hp_south": 1.694,
+        "drop_hp_north": 1.965,
+        "drop_floridan": 2.094
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "drop_hp_south": 20.285,
+        "drop_hp_north": 1.738,
+        "drop_floridan": 1.255
+      },
+      "zscores": {
+        "drop_hp_south": 1.658,
+        "drop_hp_north": 1.918,
+        "drop_floridan": 1.803
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "drop_hp_south": 20.316,
+        "drop_hp_north": 1.814,
+        "drop_floridan": 1.175
+      },
+      "zscores": {
+        "drop_hp_south": 1.625,
+        "drop_hp_north": 1.875,
+        "drop_floridan": 1.55
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "drop_hp_south": 20.347,
+        "drop_hp_north": 1.89,
+        "drop_floridan": 1.094
+      },
+      "zscores": {
+        "drop_hp_south": 1.596,
+        "drop_hp_north": 1.836,
+        "drop_floridan": 1.326
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "drop_hp_south": 20.378,
+        "drop_hp_north": 1.966,
+        "drop_floridan": 1.014
+      },
+      "zscores": {
+        "drop_hp_south": 1.57,
+        "drop_hp_north": 1.801,
+        "drop_floridan": 1.12
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "drop_hp_south": 20.41,
+        "drop_hp_north": 2.042,
+        "drop_floridan": 0.933
+      },
+      "zscores": {
+        "drop_hp_south": 1.547,
+        "drop_hp_north": 1.769,
+        "drop_floridan": 0.928
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "drop_hp_south": 20.441,
+        "drop_hp_north": 2.118,
+        "drop_floridan": 0.852
+      },
+      "zscores": {
+        "drop_hp_south": 1.527,
+        "drop_hp_north": 1.741,
+        "drop_floridan": 0.745
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "drop_hp_south": 20.472,
+        "drop_hp_north": 2.194,
+        "drop_floridan": 0.772
+      },
+      "zscores": {
+        "drop_hp_south": 1.509,
+        "drop_hp_north": 1.715,
+        "drop_floridan": 0.566
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "drop_hp_south": 20.504,
+        "drop_hp_north": 2.27,
+        "drop_floridan": 0.691
+      },
+      "zscores": {
+        "drop_hp_south": 1.493,
+        "drop_hp_north": 1.692,
+        "drop_floridan": 0.389
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "drop_hp_south": 20.535,
+        "drop_hp_north": 2.346,
+        "drop_floridan": 0.611
+      },
+      "zscores": {
+        "drop_hp_south": 1.479,
+        "drop_hp_north": 1.672,
+        "drop_floridan": 0.208
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "drop_hp_south": 20.566,
+        "drop_hp_north": 2.422,
+        "drop_floridan": 0.53
+      },
+      "zscores": {
+        "drop_hp_south": 1.467,
+        "drop_hp_north": 1.654,
+        "drop_floridan": 0.021
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "drop_hp_south": 20.597,
+        "drop_hp_north": 2.499,
+        "drop_floridan": 0.45
+      },
+      "zscores": {
+        "drop_hp_south": 1.458,
+        "drop_hp_north": 1.639,
+        "drop_floridan": -0.18
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "drop_hp_south": 20.629,
+        "drop_hp_north": 2.575,
+        "drop_floridan": 0.369
+      },
+      "zscores": {
+        "drop_hp_south": 1.449,
+        "drop_hp_north": 1.626,
+        "drop_floridan": -0.403
+      },
+      "events": [
+        {
+          "label": "Southern High Plains 21 feet below 1980s level",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "drop_hp_south": 20.369,
+        "drop_hp_north": 2.616,
+        "drop_floridan": 0.484
+      },
+      "zscores": {
+        "drop_hp_south": 0.891,
+        "drop_hp_north": 1.581,
+        "drop_floridan": -0.226
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "drop_hp_south": 20.11,
+        "drop_hp_north": 2.658,
+        "drop_floridan": 0.599
+      },
+      "zscores": {
+        "drop_hp_south": 0.313,
+        "drop_hp_north": 1.541,
+        "drop_floridan": -0.03
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "drop_hp_south": 19.851,
+        "drop_hp_north": 2.7,
+        "drop_floridan": 0.715
+      },
+      "zscores": {
+        "drop_hp_south": -0.304,
+        "drop_hp_north": 1.505,
+        "drop_floridan": 0.186
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "drop_hp_south": 19.591,
+        "drop_hp_north": 2.742,
+        "drop_floridan": 0.83
+      },
+      "zscores": {
+        "drop_hp_south": -0.955,
+        "drop_hp_north": 1.473,
+        "drop_floridan": 0.424
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "drop_hp_south": 19.332,
+        "drop_hp_north": 2.784,
+        "drop_floridan": 0.945
+      },
+      "zscores": {
+        "drop_hp_south": -1.594,
+        "drop_hp_north": 1.446,
+        "drop_floridan": 0.684
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "drop_hp_south": 19.072,
+        "drop_hp_north": 2.826,
+        "drop_floridan": 1.06
+      },
+      "zscores": {
+        "drop_hp_south": -2.146,
+        "drop_hp_north": 1.421,
+        "drop_floridan": 0.962
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "drop_hp_south": 18.813,
+        "drop_hp_north": 2.867,
+        "drop_floridan": 1.175
+      },
+      "zscores": {
+        "drop_hp_south": -2.545,
+        "drop_hp_north": 1.401,
+        "drop_floridan": 1.251
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "drop_hp_south": 18.554,
+        "drop_hp_north": 2.909,
+        "drop_floridan": 1.29
+      },
+      "zscores": {
+        "drop_hp_south": -2.774,
+        "drop_hp_north": 1.384,
+        "drop_floridan": 1.536
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "drop_hp_south": 18.294,
+        "drop_hp_north": 2.951,
+        "drop_floridan": 1.406
+      },
+      "zscores": {
+        "drop_hp_south": -2.867,
+        "drop_hp_north": 1.371,
+        "drop_floridan": 1.8
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "drop_hp_south": 18.035,
+        "drop_hp_north": 2.993,
+        "drop_floridan": 1.521
+      },
+      "zscores": {
+        "drop_hp_south": -2.87,
+        "drop_hp_north": 1.362,
+        "drop_floridan": 2.027
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "drop_hp_south": 17.775,
+        "drop_hp_north": 3.035,
+        "drop_floridan": 1.636
+      },
+      "zscores": {
+        "drop_hp_south": -2.822,
+        "drop_hp_north": 1.357,
+        "drop_floridan": 2.204
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "drop_hp_south": 17.516,
+        "drop_hp_north": 3.077,
+        "drop_floridan": 1.751
+      },
+      "zscores": {
+        "drop_hp_south": -2.749,
+        "drop_hp_north": 1.357,
+        "drop_floridan": 2.327
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Farms and cities pump water from underground layers of rock and sand called aquifers. This chart shows how far the water level in wells has dropped since the early 1980s. In the southern High Plains (Kansas, Oklahoma, Texas), it keeps falling year after year. In Nebraska and in Florida, it goes up and down with the weather and has changed far less.",
+    "methodology": "Depth-to-water field measurements (USGS parameter 72019) from the USGS Water Data API, for wells measured from before 1981 to recent years. Each well is compared with its own 1980-1985 average, then wells are averaged. The High Plains (Ogallala) aquifer is split at the Kansas-Nebraska border (40\u00b0N). Most southern High Plains wells are measured by state agencies, so only 13 long-record USGS wells qualify there. California's Central Valley has no usable long-record USGS wells, so it is not shown.",
+    "key_findings": [
+      {
+        "date": "2000-07-01",
+        "title": "2000: The Slow Decline",
+        "description": "By 2000 the water in the southern High Plains wells was 6.2 feet lower than in the early 1980s, falling about a third of a foot every year.",
+        "significance": "Irrigation pumps take out more water than rain puts back.",
+        "normalized_time": 0.4444
+      },
+      {
+        "date": "2008-07-01",
+        "title": "2008: A Big Drop",
+        "description": "The southern level fell 4 feet in a single year, from 11.5 to 15.5 feet below its early-1980s level, during a dry period with heavy pumping.",
+        "significance": "Droughts speed up the decline because farmers pump more.",
+        "normalized_time": 0.6222
+      },
+      {
+        "date": "2024-07-01",
+        "title": "2024: 21 Feet Lower",
+        "description": "The southern High Plains wells are 20.6 feet lower than in the early 1980s. In Nebraska (1,863 wells) it is 2.6 feet lower, and in the Floridan aquifer it is about the same as in the early 1980s.",
+        "significance": "The aquifer under the southern Plains is being used up much faster than the northern part.",
+        "normalized_time": 0.9778
+      }
+    ]
+  }
+}

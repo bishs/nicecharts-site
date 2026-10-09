@@ -1,0 +1,2360 @@
+{
+  "metadata": {
+    "chart_id": "chart_17",
+    "number": 17,
+    "title": "Which Prices Are Rising the Fastest?",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2018,
+    "end_year": 2026,
+    "observation_count": 104,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08"
+  },
+  "analytics": {
+    "optimal_lag_months": -5,
+    "peak_correlation_coefficient": 0.812,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.05
+      },
+      {
+        "lag": -17,
+        "r": -0.02
+      },
+      {
+        "lag": -16,
+        "r": 0.032
+      },
+      {
+        "lag": -15,
+        "r": 0.114
+      },
+      {
+        "lag": -14,
+        "r": 0.224
+      },
+      {
+        "lag": -13,
+        "r": 0.341
+      },
+      {
+        "lag": -12,
+        "r": 0.448
+      },
+      {
+        "lag": -11,
+        "r": 0.527
+      },
+      {
+        "lag": -10,
+        "r": 0.577
+      },
+      {
+        "lag": -9,
+        "r": 0.628
+      },
+      {
+        "lag": -8,
+        "r": 0.682
+      },
+      {
+        "lag": -7,
+        "r": 0.734
+      },
+      {
+        "lag": -6,
+        "r": 0.779
+      },
+      {
+        "lag": -5,
+        "r": 0.812
+      },
+      {
+        "lag": -4,
+        "r": 0.81
+      },
+      {
+        "lag": -3,
+        "r": 0.773
+      },
+      {
+        "lag": -2,
+        "r": 0.717
+      },
+      {
+        "lag": -1,
+        "r": 0.669
+      },
+      {
+        "lag": 0,
+        "r": 0.629
+      },
+      {
+        "lag": 1,
+        "r": 0.595
+      },
+      {
+        "lag": 2,
+        "r": 0.547
+      },
+      {
+        "lag": 3,
+        "r": 0.466
+      },
+      {
+        "lag": 4,
+        "r": 0.363
+      },
+      {
+        "lag": 5,
+        "r": 0.255
+      },
+      {
+        "lag": 6,
+        "r": 0.167
+      },
+      {
+        "lag": 7,
+        "r": 0.087
+      },
+      {
+        "lag": 8,
+        "r": 0.019
+      },
+      {
+        "lag": 9,
+        "r": -0.043
+      },
+      {
+        "lag": 10,
+        "r": -0.113
+      },
+      {
+        "lag": 11,
+        "r": -0.209
+      },
+      {
+        "lag": 12,
+        "r": -0.31
+      },
+      {
+        "lag": 13,
+        "r": -0.395
+      },
+      {
+        "lag": 14,
+        "r": -0.454
+      },
+      {
+        "lag": 15,
+        "r": -0.474
+      },
+      {
+        "lag": 16,
+        "r": -0.467
+      },
+      {
+        "lag": 17,
+        "r": -0.467
+      },
+      {
+        "lag": 18,
+        "r": -0.498
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "cpi_energy",
+      "agency": "BLS",
+      "series_id": "CUUR0000SA0E",
+      "label": "Energy & Gas",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#f97316"
+    },
+    {
+      "key": "cpi_used_cars",
+      "agency": "BLS",
+      "series_id": "CUUR0000SETA02",
+      "label": "Used Cars & Trucks",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#eab308"
+    },
+    {
+      "key": "cpi_food",
+      "agency": "BLS",
+      "series_id": "CUUR0000SAF1",
+      "label": "Groceries & Food",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#10b981"
+    },
+    {
+      "key": "cpi_shelter",
+      "agency": "BLS",
+      "series_id": "CUUR0000SAH1",
+      "label": "Rent & Housing Cost",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#ec4899"
+    },
+    {
+      "key": "cpi_transportation",
+      "agency": "BLS",
+      "series_id": "CUUR0000SAT",
+      "label": "Transportation (Cars, Fuel, Fares)",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#38bdf8"
+    },
+    {
+      "key": "cpi_medical",
+      "agency": "BLS",
+      "series_id": "CUUR0000SAM",
+      "label": "Healthcare & Doctor Visits",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#8b5cf6"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-01-01",
+      "values": {
+        "cpi_energy": 5.538,
+        "cpi_used_cars": -0.613,
+        "cpi_food": 1.659,
+        "cpi_shelter": 3.191,
+        "cpi_transportation": 3.034,
+        "cpi_medical": 1.984
+      },
+      "zscores": {
+        "cpi_energy": 0.0,
+        "cpi_used_cars": 0.0,
+        "cpi_food": 0.0,
+        "cpi_shelter": 0.0,
+        "cpi_transportation": 0.0,
+        "cpi_medical": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "cpi_energy": 7.732,
+        "cpi_used_cars": -0.095,
+        "cpi_food": 1.397,
+        "cpi_shelter": 3.128,
+        "cpi_transportation": 4.124,
+        "cpi_medical": 1.76
+      },
+      "zscores": {
+        "cpi_energy": 1.0,
+        "cpi_used_cars": 1.0,
+        "cpi_food": -1.0,
+        "cpi_shelter": -1.0,
+        "cpi_transportation": 1.0,
+        "cpi_medical": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "cpi_energy": 7.028,
+        "cpi_used_cars": 0.373,
+        "cpi_food": 1.286,
+        "cpi_shelter": 3.323,
+        "cpi_transportation": 3.875,
+        "cpi_medical": 1.986
+      },
+      "zscores": {
+        "cpi_energy": 0.286,
+        "cpi_used_cars": 1.204,
+        "cpi_food": -1.03,
+        "cpi_shelter": 1.34,
+        "cpi_transportation": 0.424,
+        "cpi_medical": 0.713
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "cpi_energy": 7.868,
+        "cpi_used_cars": -0.914,
+        "cpi_food": 1.389,
+        "cpi_shelter": 3.385,
+        "cpi_transportation": 4.123,
+        "cpi_medical": 2.207
+      },
+      "zscores": {
+        "cpi_energy": 0.894,
+        "cpi_used_cars": -1.223,
+        "cpi_food": -0.316,
+        "cpi_shelter": 1.257,
+        "cpi_transportation": 0.747,
+        "cpi_medical": 1.409
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "cpi_energy": 11.656,
+        "cpi_used_cars": -1.682,
+        "cpi_food": 1.233,
+        "cpi_shelter": 3.511,
+        "cpi_transportation": 5.891,
+        "cpi_medical": 2.395
+      },
+      "zscores": {
+        "cpi_energy": 1.825,
+        "cpi_used_cars": -1.559,
+        "cpi_food": -1.09,
+        "cpi_shelter": 1.488,
+        "cpi_transportation": 1.806,
+        "cpi_medical": 1.516
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "cpi_energy": 11.967,
+        "cpi_used_cars": -0.661,
+        "cpi_food": 1.433,
+        "cpi_shelter": 3.387,
+        "cpi_transportation": 6.666,
+        "cpi_medical": 2.458
+      },
+      "zscores": {
+        "cpi_energy": 1.405,
+        "cpi_used_cars": -0.097,
+        "cpi_food": 0.249,
+        "cpi_shelter": 0.517,
+        "cpi_transportation": 1.638,
+        "cpi_medical": 1.327
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "cpi_energy": 12.122,
+        "cpi_used_cars": 0.837,
+        "cpi_food": 1.412,
+        "cpi_shelter": 3.516,
+        "cpi_transportation": 7.306,
+        "cpi_medical": 1.904
+      },
+      "zscores": {
+        "cpi_energy": 1.19,
+        "cpi_used_cars": 1.581,
+        "cpi_food": 0.082,
+        "cpi_shelter": 1.22,
+        "cpi_transportation": 1.545,
+        "cpi_medical": -0.808
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "cpi_energy": 10.221,
+        "cpi_used_cars": 1.252,
+        "cpi_food": 1.431,
+        "cpi_shelter": 3.389,
+        "cpi_transportation": 6.394,
+        "cpi_medical": 1.531
+      },
+      "zscores": {
+        "cpi_energy": 0.401,
+        "cpi_used_cars": 1.584,
+        "cpi_food": 0.22,
+        "cpi_shelter": 0.276,
+        "cpi_transportation": 0.829,
+        "cpi_medical": -1.693
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "cpi_energy": 4.846,
+        "cpi_used_cars": -1.466,
+        "cpi_food": 1.355,
+        "cpi_shelter": 3.288,
+        "cpi_transportation": 3.73,
+        "cpi_medical": 1.726
+      },
+      "zscores": {
+        "cpi_energy": -1.489,
+        "cpi_used_cars": -1.201,
+        "cpi_food": -0.401,
+        "cpi_shelter": -0.476,
+        "cpi_transportation": -0.882,
+        "cpi_medical": -0.919
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "cpi_energy": 8.909,
+        "cpi_used_cars": 0.429,
+        "cpi_food": 1.191,
+        "cpi_shelter": 3.17,
+        "cpi_transportation": 5.446,
+        "cpi_medical": 1.708
+      },
+      "zscores": {
+        "cpi_energy": 0.048,
+        "cpi_used_cars": 0.737,
+        "cpi_food": -1.523,
+        "cpi_shelter": -1.238,
+        "cpi_transportation": 0.279,
+        "cpi_medical": -0.888
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "cpi_energy": 3.117,
+        "cpi_used_cars": 2.305,
+        "cpi_food": 1.398,
+        "cpi_shelter": 3.242,
+        "cpi_transportation": 2.897,
+        "cpi_medical": 2.03
+      },
+      "zscores": {
+        "cpi_energy": -1.784,
+        "cpi_used_cars": 2.024,
+        "cpi_food": 0.153,
+        "cpi_shelter": -0.63,
+        "cpi_transportation": -1.344,
+        "cpi_medical": 0.21
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "cpi_energy": -0.335,
+        "cpi_used_cars": 1.433,
+        "cpi_food": 1.581,
+        "cpi_shelter": 3.201,
+        "cpi_transportation": 0.748,
+        "cpi_medical": 2.011
+      },
+      "zscores": {
+        "cpi_energy": -2.162,
+        "cpi_used_cars": 1.138,
+        "cpi_food": 1.466,
+        "cpi_shelter": -0.884,
+        "cpi_transportation": -2.091,
+        "cpi_medical": 0.134
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "cpi_energy": -4.794,
+        "cpi_used_cars": 1.644,
+        "cpi_food": 1.607,
+        "cpi_shelter": 3.225,
+        "cpi_transportation": -1.348,
+        "cpi_medical": 1.901
+      },
+      "zscores": {
+        "cpi_energy": -2.371,
+        "cpi_used_cars": 1.189,
+        "cpi_food": 1.46,
+        "cpi_shelter": -0.656,
+        "cpi_transportation": -2.32,
+        "cpi_medical": -0.267
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "cpi_energy": -5.048,
+        "cpi_used_cars": 1.113,
+        "cpi_food": 1.965,
+        "cpi_shelter": 3.368,
+        "cpi_transportation": -1.506,
+        "cpi_medical": 1.725
+      },
+      "zscores": {
+        "cpi_energy": -1.96,
+        "cpi_used_cars": 0.705,
+        "cpi_food": 2.678,
+        "cpi_shelter": 0.501,
+        "cpi_transportation": -1.94,
+        "cpi_medical": -0.89
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "cpi_energy": -0.39,
+        "cpi_used_cars": 0.444,
+        "cpi_food": 2.121,
+        "cpi_shelter": 3.375,
+        "cpi_transportation": 0.477,
+        "cpi_medical": 1.719
+      },
+      "zscores": {
+        "cpi_energy": -1.036,
+        "cpi_used_cars": 0.132,
+        "cpi_food": 2.508,
+        "cpi_shelter": 0.535,
+        "cpi_transportation": -1.105,
+        "cpi_medical": -0.857
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "cpi_energy": 1.677,
+        "cpi_used_cars": 0.782,
+        "cpi_food": 1.777,
+        "cpi_shelter": 3.45,
+        "cpi_transportation": 1.617,
+        "cpi_medical": 1.921
+      },
+      "zscores": {
+        "cpi_energy": -0.634,
+        "cpi_used_cars": 0.413,
+        "cpi_food": 1.047,
+        "cpi_shelter": 1.101,
+        "cpi_transportation": -0.651,
+        "cpi_medical": -0.06
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "cpi_energy": -0.457,
+        "cpi_used_cars": 0.276,
+        "cpi_food": 1.98,
+        "cpi_shelter": 3.348,
+        "cpi_transportation": 0.591,
+        "cpi_medical": 2.078
+      },
+      "zscores": {
+        "cpi_energy": -0.966,
+        "cpi_used_cars": -0.042,
+        "cpi_food": 1.645,
+        "cpi_shelter": 0.217,
+        "cpi_transportation": -0.977,
+        "cpi_medical": 0.559
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "cpi_energy": -3.388,
+        "cpi_used_cars": 1.246,
+        "cpi_food": 1.909,
+        "cpi_shelter": 3.505,
+        "cpi_transportation": -0.748,
+        "cpi_medical": 1.964
+      },
+      "zscores": {
+        "cpi_energy": -1.378,
+        "cpi_used_cars": 0.819,
+        "cpi_food": 1.272,
+        "cpi_shelter": 1.461,
+        "cpi_transportation": -1.359,
+        "cpi_medical": 0.081
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "cpi_energy": -2.032,
+        "cpi_used_cars": 1.471,
+        "cpi_food": 1.784,
+        "cpi_shelter": 3.484,
+        "cpi_transportation": -0.296,
+        "cpi_medical": 2.575
+      },
+      "zscores": {
+        "cpi_energy": -1.07,
+        "cpi_used_cars": 0.975,
+        "cpi_food": 0.78,
+        "cpi_shelter": 1.193,
+        "cpi_transportation": -1.121,
+        "cpi_medical": 2.234
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "cpi_energy": -4.389,
+        "cpi_used_cars": 2.077,
+        "cpi_food": 1.705,
+        "cpi_shelter": 3.357,
+        "cpi_transportation": -1.123,
+        "cpi_medical": 3.458
+      },
+      "zscores": {
+        "cpi_energy": -1.376,
+        "cpi_used_cars": 1.423,
+        "cpi_food": 0.472,
+        "cpi_shelter": 0.128,
+        "cpi_transportation": -1.32,
+        "cpi_medical": 3.392
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "cpi_energy": -4.752,
+        "cpi_used_cars": 2.607,
+        "cpi_food": 1.789,
+        "cpi_shelter": 3.509,
+        "cpi_transportation": -1.442,
+        "cpi_medical": 3.458
+      },
+      "zscores": {
+        "cpi_energy": -1.339,
+        "cpi_used_cars": 1.716,
+        "cpi_food": 0.757,
+        "cpi_shelter": 1.336,
+        "cpi_transportation": -1.335,
+        "cpi_medical": 2.66
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "cpi_energy": -4.166,
+        "cpi_used_cars": 1.434,
+        "cpi_food": 2.073,
+        "cpi_shelter": 3.344,
+        "cpi_transportation": -1.403,
+        "cpi_medical": 4.293
+      },
+      "zscores": {
+        "cpi_energy": -1.172,
+        "cpi_used_cars": 0.683,
+        "cpi_food": 1.678,
+        "cpi_shelter": -0.047,
+        "cpi_transportation": -1.243,
+        "cpi_medical": 3.104
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "cpi_energy": -0.59,
+        "cpi_used_cars": -0.437,
+        "cpi_food": 2.0,
+        "cpi_shelter": 3.318,
+        "cpi_transportation": -0.077,
+        "cpi_medical": 4.242
+      },
+      "zscores": {
+        "cpi_energy": -0.559,
+        "cpi_used_cars": -0.908,
+        "cpi_food": 1.324,
+        "cpi_shelter": -0.268,
+        "cpi_transportation": -0.761,
+        "cpi_medical": 2.504
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "cpi_energy": 3.437,
+        "cpi_used_cars": -0.684,
+        "cpi_food": 1.808,
+        "cpi_shelter": 3.245,
+        "cpi_transportation": 1.927,
+        "cpi_medical": 4.571
+      },
+      "zscores": {
+        "cpi_energy": 0.12,
+        "cpi_used_cars": -1.072,
+        "cpi_food": 0.618,
+        "cpi_shelter": -0.872,
+        "cpi_transportation": -0.068,
+        "cpi_medical": 2.461
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "cpi_energy": 6.222,
+        "cpi_used_cars": -1.971,
+        "cpi_food": 1.81,
+        "cpi_shelter": 3.312,
+        "cpi_transportation": 2.821,
+        "cpi_medical": 4.477
+      },
+      "zscores": {
+        "cpi_energy": 0.585,
+        "cpi_used_cars": -1.967,
+        "cpi_food": 0.607,
+        "cpi_shelter": -0.275,
+        "cpi_transportation": 0.241,
+        "cpi_medical": 2.087
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "cpi_energy": 2.769,
+        "cpi_used_cars": -1.327,
+        "cpi_food": 1.809,
+        "cpi_shelter": 3.305,
+        "cpi_transportation": 1.731,
+        "cpi_medical": 4.62
+      },
+      "zscores": {
+        "cpi_energy": -0.019,
+        "cpi_used_cars": -1.362,
+        "cpi_food": 0.591,
+        "cpi_shelter": -0.332,
+        "cpi_transportation": -0.147,
+        "cpi_medical": 2.009
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "cpi_energy": -5.739,
+        "cpi_used_cars": 0.125,
+        "cpi_food": 1.934,
+        "cpi_shelter": 3.008,
+        "cpi_transportation": -2.386,
+        "cpi_medical": 4.733
+      },
+      "zscores": {
+        "cpi_energy": -1.448,
+        "cpi_used_cars": -0.199,
+        "cpi_food": 1.012,
+        "cpi_shelter": -2.58,
+        "cpi_transportation": -1.548,
+        "cpi_medical": 1.925
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "cpi_energy": -17.716,
+        "cpi_used_cars": -0.745,
+        "cpi_food": 3.511,
+        "cpi_shelter": 2.611,
+        "cpi_transportation": -9.531,
+        "cpi_medical": 4.809
+      },
+      "zscores": {
+        "cpi_energy": -2.888,
+        "cpi_used_cars": -0.877,
+        "cpi_food": 4.114,
+        "cpi_shelter": -3.83,
+        "cpi_transportation": -3.177,
+        "cpi_medical": 1.833
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "cpi_energy": -18.911,
+        "cpi_used_cars": -0.364,
+        "cpi_food": 4.002,
+        "cpi_shelter": 2.546,
+        "cpi_transportation": -11.13,
+        "cpi_medical": 4.903
+      },
+      "zscores": {
+        "cpi_energy": -2.617,
+        "cpi_used_cars": -0.553,
+        "cpi_food": 3.692,
+        "cpi_shelter": -3.249,
+        "cpi_transportation": -2.961,
+        "cpi_medical": 1.774
+      },
+      "events": [
+        {
+          "label": "Lockdowns: energy prices fall 19%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "cpi_energy": -12.646,
+        "cpi_used_cars": -2.775,
+        "cpi_food": 4.536,
+        "cpi_shelter": 2.361,
+        "cpi_transportation": -8.196,
+        "cpi_medical": 5.079
+      },
+      "zscores": {
+        "cpi_energy": -1.68,
+        "cpi_used_cars": -2.268,
+        "cpi_food": 3.459,
+        "cpi_shelter": -3.215,
+        "cpi_transportation": -2.047,
+        "cpi_medical": 1.784
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "cpi_energy": -11.159,
+        "cpi_used_cars": -0.885,
+        "cpi_food": 4.1,
+        "cpi_shelter": 2.333,
+        "cpi_transportation": -5.923,
+        "cpi_medical": 5.023
+      },
+      "zscores": {
+        "cpi_energy": -1.418,
+        "cpi_used_cars": -0.806,
+        "cpi_food": 2.521,
+        "cpi_shelter": -2.803,
+        "cpi_transportation": -1.452,
+        "cpi_medical": 1.632
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "cpi_energy": -9.041,
+        "cpi_used_cars": 3.985,
+        "cpi_food": 4.129,
+        "cpi_shelter": 2.289,
+        "cpi_transportation": -4.121,
+        "cpi_medical": 4.468
+      },
+      "zscores": {
+        "cpi_energy": -1.114,
+        "cpi_used_cars": 2.554,
+        "cpi_food": 2.292,
+        "cpi_shelter": -2.568,
+        "cpi_transportation": -1.016,
+        "cpi_medical": 1.152
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "cpi_energy": -7.687,
+        "cpi_used_cars": 10.266,
+        "cpi_food": 3.947,
+        "cpi_shelter": 2.042,
+        "cpi_transportation": -3.169,
+        "cpi_medical": 4.2
+      },
+      "zscores": {
+        "cpi_energy": -0.92,
+        "cpi_used_cars": 4.346,
+        "cpi_food": 1.937,
+        "cpi_shelter": -2.8,
+        "cpi_transportation": -0.784,
+        "cpi_medical": 0.916
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "cpi_energy": -9.195,
+        "cpi_used_cars": 11.541,
+        "cpi_food": 3.927,
+        "cpi_shelter": 2.03,
+        "cpi_transportation": -3.516,
+        "cpi_medical": 2.89
+      },
+      "zscores": {
+        "cpi_energy": -1.071,
+        "cpi_used_cars": 3.704,
+        "cpi_food": 1.793,
+        "cpi_shelter": -2.51,
+        "cpi_transportation": -0.84,
+        "cpi_medical": -0.106
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "cpi_energy": -9.434,
+        "cpi_used_cars": 10.856,
+        "cpi_food": 3.701,
+        "cpi_shelter": 1.92,
+        "cpi_transportation": -3.306,
+        "cpi_medical": 2.425
+      },
+      "zscores": {
+        "cpi_energy": -1.066,
+        "cpi_used_cars": 2.947,
+        "cpi_food": 1.491,
+        "cpi_shelter": -2.467,
+        "cpi_transportation": -0.775,
+        "cpi_medical": -0.467
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "cpi_energy": -6.962,
+        "cpi_used_cars": 10.039,
+        "cpi_food": 3.926,
+        "cpi_shelter": 1.845,
+        "cpi_transportation": -2.361,
+        "cpi_medical": 1.781
+      },
+      "zscores": {
+        "cpi_energy": -0.746,
+        "cpi_used_cars": 2.426,
+        "cpi_food": 1.625,
+        "cpi_shelter": -2.372,
+        "cpi_transportation": -0.551,
+        "cpi_medical": -0.957
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "cpi_energy": -3.647,
+        "cpi_used_cars": 9.992,
+        "cpi_food": 3.785,
+        "cpi_shelter": 1.619,
+        "cpi_transportation": -1.274,
+        "cpi_medical": 1.949
+      },
+      "zscores": {
+        "cpi_energy": -0.306,
+        "cpi_used_cars": 2.177,
+        "cpi_food": 1.398,
+        "cpi_shelter": -2.482,
+        "cpi_transportation": -0.277,
+        "cpi_medical": -0.82
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "cpi_energy": 2.363,
+        "cpi_used_cars": 9.29,
+        "cpi_food": 3.623,
+        "cpi_shelter": 1.465,
+        "cpi_transportation": 0.617,
+        "cpi_medical": 2.001
+      },
+      "zscores": {
+        "cpi_energy": 0.469,
+        "cpi_used_cars": 1.834,
+        "cpi_food": 1.176,
+        "cpi_shelter": -2.437,
+        "cpi_transportation": 0.182,
+        "cpi_medical": -0.788
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "cpi_energy": 13.172,
+        "cpi_used_cars": 9.371,
+        "cpi_food": 3.465,
+        "cpi_shelter": 1.696,
+        "cpi_transportation": 5.841,
+        "cpi_medical": 1.771
+      },
+      "zscores": {
+        "cpi_energy": 1.762,
+        "cpi_used_cars": 1.719,
+        "cpi_food": 0.974,
+        "cpi_shelter": -1.892,
+        "cpi_transportation": 1.365,
+        "cpi_medical": -0.965
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "cpi_energy": 25.145,
+        "cpi_used_cars": 20.971,
+        "cpi_food": 2.374,
+        "cpi_shelter": 2.105,
+        "cpi_transportation": 14.874,
+        "cpi_medical": 1.457
+      },
+      "zscores": {
+        "cpi_energy": 2.836,
+        "cpi_used_cars": 3.534,
+        "cpi_food": -0.07,
+        "cpi_shelter": -1.188,
+        "cpi_transportation": 2.956,
+        "cpi_medical": -1.182
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "cpi_energy": 28.547,
+        "cpi_used_cars": 29.736,
+        "cpi_food": 2.151,
+        "cpi_shelter": 2.21,
+        "cpi_transportation": 19.993,
+        "cpi_medical": 0.91
+      },
+      "zscores": {
+        "cpi_energy": 2.845,
+        "cpi_used_cars": 3.877,
+        "cpi_food": -0.31,
+        "cpi_shelter": -0.971,
+        "cpi_transportation": 3.304,
+        "cpi_medical": -1.533
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "cpi_energy": 24.481,
+        "cpi_used_cars": 45.24,
+        "cpi_food": 2.386,
+        "cpi_shelter": 2.581,
+        "cpi_transportation": 21.518,
+        "cpi_medical": 0.433
+      },
+      "zscores": {
+        "cpi_energy": 2.271,
+        "cpi_used_cars": 4.225,
+        "cpi_food": -0.111,
+        "cpi_shelter": -0.373,
+        "cpi_transportation": 3.043,
+        "cpi_medical": -1.773
+      },
+      "events": [
+        {
+          "label": "Chip shortage: used car prices up 45%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "cpi_energy": 23.846,
+        "cpi_used_cars": 41.65,
+        "cpi_food": 3.446,
+        "cpi_shelter": 2.827,
+        "cpi_transportation": 19.404,
+        "cpi_medical": 0.293
+      },
+      "zscores": {
+        "cpi_energy": 2.08,
+        "cpi_used_cars": 3.161,
+        "cpi_food": 0.872,
+        "cpi_shelter": 0.037,
+        "cpi_transportation": 2.467,
+        "cpi_medical": -1.77
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "cpi_energy": 24.968,
+        "cpi_used_cars": 31.897,
+        "cpi_food": 3.737,
+        "cpi_shelter": 2.84,
+        "cpi_transportation": 17.762,
+        "cpi_medical": 0.373
+      },
+      "zscores": {
+        "cpi_energy": 2.035,
+        "cpi_used_cars": 2.081,
+        "cpi_food": 1.095,
+        "cpi_shelter": 0.082,
+        "cpi_transportation": 2.074,
+        "cpi_medical": -1.644
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "cpi_energy": 24.827,
+        "cpi_used_cars": 24.41,
+        "cpi_food": 4.586,
+        "cpi_shelter": 3.159,
+        "cpi_transportation": 16.604,
+        "cpi_medical": 0.438
+      },
+      "zscores": {
+        "cpi_energy": 1.877,
+        "cpi_used_cars": 1.367,
+        "cpi_food": 1.793,
+        "cpi_shelter": 0.597,
+        "cpi_transportation": 1.793,
+        "cpi_medical": -1.532
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "cpi_energy": 29.971,
+        "cpi_used_cars": 26.449,
+        "cpi_food": 5.328,
+        "cpi_shelter": 3.483,
+        "cpi_transportation": 18.69,
+        "cpi_medical": 1.313
+      },
+      "zscores": {
+        "cpi_energy": 2.106,
+        "cpi_used_cars": 1.438,
+        "cpi_food": 2.278,
+        "cpi_shelter": 1.086,
+        "cpi_transportation": 1.902,
+        "cpi_medical": -0.937
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "cpi_energy": 33.29,
+        "cpi_used_cars": 31.436,
+        "cpi_food": 6.109,
+        "cpi_shelter": 3.836,
+        "cpi_transportation": 21.054,
+        "cpi_medical": 1.737
+      },
+      "zscores": {
+        "cpi_energy": 2.138,
+        "cpi_used_cars": 1.702,
+        "cpi_food": 2.634,
+        "cpi_shelter": 1.57,
+        "cpi_transportation": 1.995,
+        "cpi_medical": -0.65
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "cpi_energy": 29.296,
+        "cpi_used_cars": 37.294,
+        "cpi_food": 6.275,
+        "cpi_shelter": 4.131,
+        "cpi_transportation": 21.094,
+        "cpi_medical": 2.171
+      },
+      "zscores": {
+        "cpi_energy": 1.723,
+        "cpi_used_cars": 1.967,
+        "cpi_food": 2.467,
+        "cpi_shelter": 1.888,
+        "cpi_transportation": 1.842,
+        "cpi_medical": -0.367
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "cpi_energy": 26.979,
+        "cpi_used_cars": 40.515,
+        "cpi_food": 6.951,
+        "cpi_shelter": 4.363,
+        "cpi_transportation": 20.811,
+        "cpi_medical": 2.474
+      },
+      "zscores": {
+        "cpi_energy": 1.468,
+        "cpi_used_cars": 2.008,
+        "cpi_food": 2.627,
+        "cpi_shelter": 2.053,
+        "cpi_transportation": 1.682,
+        "cpi_medical": -0.178
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "cpi_energy": 25.551,
+        "cpi_used_cars": 41.152,
+        "cpi_food": 7.898,
+        "cpi_shelter": 4.742,
+        "cpi_transportation": 21.093,
+        "cpi_medical": 2.427
+      },
+      "zscores": {
+        "cpi_energy": 1.294,
+        "cpi_used_cars": 1.886,
+        "cpi_food": 2.826,
+        "cpi_shelter": 2.333,
+        "cpi_transportation": 1.594,
+        "cpi_medical": -0.223
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "cpi_energy": 32.048,
+        "cpi_used_cars": 35.317,
+        "cpi_food": 8.799,
+        "cpi_shelter": 4.997,
+        "cpi_transportation": 22.601,
+        "cpi_medical": 2.86
+      },
+      "zscores": {
+        "cpi_energy": 1.595,
+        "cpi_used_cars": 1.41,
+        "cpi_food": 2.886,
+        "cpi_shelter": 2.39,
+        "cpi_transportation": 1.62,
+        "cpi_medical": 0.044
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "cpi_energy": 30.27,
+        "cpi_used_cars": 22.73,
+        "cpi_food": 9.382,
+        "cpi_shelter": 5.141,
+        "cpi_transportation": 19.926,
+        "cpi_medical": 3.227
+      },
+      "zscores": {
+        "cpi_energy": 1.397,
+        "cpi_used_cars": 0.564,
+        "cpi_food": 2.772,
+        "cpi_shelter": 2.315,
+        "cpi_transportation": 1.292,
+        "cpi_medical": 0.268
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "cpi_energy": 34.598,
+        "cpi_used_cars": 16.065,
+        "cpi_food": 10.148,
+        "cpi_shelter": 5.452,
+        "cpi_transportation": 19.415,
+        "cpi_medical": 3.735
+      },
+      "zscores": {
+        "cpi_energy": 1.548,
+        "cpi_used_cars": 0.106,
+        "cpi_food": 2.728,
+        "cpi_shelter": 2.375,
+        "cpi_transportation": 1.178,
+        "cpi_medical": 0.579
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "cpi_energy": 41.624,
+        "cpi_used_cars": 7.103,
+        "cpi_food": 10.44,
+        "cpi_shelter": 5.609,
+        "cpi_transportation": 19.749,
+        "cpi_medical": 4.537
+      },
+      "zscores": {
+        "cpi_energy": 1.806,
+        "cpi_used_cars": -0.494,
+        "cpi_food": 2.522,
+        "cpi_shelter": 2.287,
+        "cpi_transportation": 1.141,
+        "cpi_medical": 1.059
+      },
+      "events": [
+        {
+          "label": "Energy prices up 42%; overall inflation 9.1%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "cpi_energy": 32.928,
+        "cpi_used_cars": 6.615,
+        "cpi_food": 10.932,
+        "cpi_shelter": 5.695,
+        "cpi_transportation": 16.367,
+        "cpi_medical": 4.834
+      },
+      "zscores": {
+        "cpi_energy": 1.245,
+        "cpi_used_cars": -0.539,
+        "cpi_food": 2.425,
+        "cpi_shelter": 2.154,
+        "cpi_transportation": 0.797,
+        "cpi_medical": 1.191
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "cpi_energy": 23.813,
+        "cpi_used_cars": 7.776,
+        "cpi_food": 11.371,
+        "cpi_shelter": 6.239,
+        "cpi_transportation": 13.427,
+        "cpi_medical": 5.365
+      },
+      "zscores": {
+        "cpi_energy": 0.702,
+        "cpi_used_cars": -0.476,
+        "cpi_food": 2.327,
+        "cpi_shelter": 2.343,
+        "cpi_transportation": 0.504,
+        "cpi_medical": 1.459
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "cpi_energy": 19.786,
+        "cpi_used_cars": 7.182,
+        "cpi_food": 11.238,
+        "cpi_shelter": 6.594,
+        "cpi_transportation": 12.58,
+        "cpi_medical": 6.003
+      },
+      "zscores": {
+        "cpi_energy": 0.446,
+        "cpi_used_cars": -0.527,
+        "cpi_food": 2.081,
+        "cpi_shelter": 2.347,
+        "cpi_transportation": 0.397,
+        "cpi_medical": 1.739
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "cpi_energy": 17.632,
+        "cpi_used_cars": 2.03,
+        "cpi_food": 10.949,
+        "cpi_shelter": 6.916,
+        "cpi_transportation": 11.175,
+        "cpi_medical": 5.019
+      },
+      "zscores": {
+        "cpi_energy": 0.296,
+        "cpi_used_cars": -0.875,
+        "cpi_food": 1.834,
+        "cpi_shelter": 2.309,
+        "cpi_transportation": 0.242,
+        "cpi_medical": 1.118
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "cpi_energy": 13.066,
+        "cpi_used_cars": -3.336,
+        "cpi_food": 10.63,
+        "cpi_shelter": 7.117,
+        "cpi_transportation": 7.794,
+        "cpi_medical": 4.154
+      },
+      "zscores": {
+        "cpi_energy": 0.019,
+        "cpi_used_cars": -1.223,
+        "cpi_food": 1.616,
+        "cpi_shelter": 2.202,
+        "cpi_transportation": -0.085,
+        "cpi_medical": 0.601
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "cpi_energy": 7.31,
+        "cpi_used_cars": -8.834,
+        "cpi_food": 10.41,
+        "cpi_shelter": 7.51,
+        "cpi_transportation": 3.852,
+        "cpi_medical": 3.958
+      },
+      "zscores": {
+        "cpi_energy": -0.314,
+        "cpi_used_cars": -1.545,
+        "cpi_food": 1.455,
+        "cpi_shelter": 2.202,
+        "cpi_transportation": -0.45,
+        "cpi_medical": 0.497
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "cpi_energy": 8.7,
+        "cpi_used_cars": -11.62,
+        "cpi_food": 10.133,
+        "cpi_shelter": 7.875,
+        "cpi_transportation": 3.804,
+        "cpi_medical": 3.06
+      },
+      "zscores": {
+        "cpi_energy": -0.239,
+        "cpi_used_cars": -1.669,
+        "cpi_food": 1.293,
+        "cpi_shelter": 2.176,
+        "cpi_transportation": -0.458,
+        "cpi_medical": -0.021
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "cpi_energy": 5.192,
+        "cpi_used_cars": -13.582,
+        "cpi_food": 9.486,
+        "cpi_shelter": 8.097,
+        "cpi_transportation": 2.592,
+        "cpi_medical": 2.338
+      },
+      "zscores": {
+        "cpi_energy": -0.443,
+        "cpi_used_cars": -1.721,
+        "cpi_food": 1.034,
+        "cpi_shelter": 2.083,
+        "cpi_transportation": -0.572,
+        "cpi_medical": -0.427
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "cpi_energy": -6.425,
+        "cpi_used_cars": -11.151,
+        "cpi_food": 8.499,
+        "cpi_shelter": 8.18,
+        "cpi_transportation": -0.966,
+        "cpi_medical": 1.494
+      },
+      "zscores": {
+        "cpi_energy": -1.101,
+        "cpi_used_cars": -1.516,
+        "cpi_food": 0.678,
+        "cpi_shelter": 1.944,
+        "cpi_transportation": -0.905,
+        "cpi_medical": -0.895
+      },
+      "events": [
+        {
+          "label": "Shelter inflation peaks at 8.2%",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "cpi_energy": -5.065,
+        "cpi_used_cars": -6.564,
+        "cpi_food": 7.651,
+        "cpi_shelter": 8.108,
+        "cpi_transportation": 0.191,
+        "cpi_medical": 1.053
+      },
+      "zscores": {
+        "cpi_energy": -1.074,
+        "cpi_used_cars": -1.215,
+        "cpi_food": 0.371,
+        "cpi_shelter": 1.766,
+        "cpi_transportation": -0.85,
+        "cpi_medical": -1.106
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "cpi_energy": -11.663,
+        "cpi_used_cars": -4.222,
+        "cpi_food": 6.692,
+        "cpi_shelter": 8.043,
+        "cpi_transportation": -1.976,
+        "cpi_medical": 0.723
+      },
+      "zscores": {
+        "cpi_energy": -1.501,
+        "cpi_used_cars": -1.061,
+        "cpi_food": 0.034,
+        "cpi_shelter": 1.617,
+        "cpi_transportation": -1.122,
+        "cpi_medical": -1.24
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "cpi_energy": -16.738,
+        "cpi_used_cars": -5.152,
+        "cpi_food": 5.742,
+        "cpi_shelter": 7.827,
+        "cpi_transportation": -5.093,
+        "cpi_medical": 0.131
+      },
+      "zscores": {
+        "cpi_energy": -1.777,
+        "cpi_used_cars": -1.108,
+        "cpi_food": -0.291,
+        "cpi_shelter": 1.428,
+        "cpi_transportation": -1.458,
+        "cpi_medical": -1.519
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "cpi_energy": -12.47,
+        "cpi_used_cars": -5.643,
+        "cpi_food": 4.859,
+        "cpi_shelter": 7.689,
+        "cpi_transportation": -2.995,
+        "cpi_medical": -0.521
+      },
+      "zscores": {
+        "cpi_energy": -1.519,
+        "cpi_used_cars": -1.121,
+        "cpi_food": -0.593,
+        "cpi_shelter": 1.29,
+        "cpi_transportation": -1.271,
+        "cpi_medical": -1.8
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "cpi_energy": -3.617,
+        "cpi_used_cars": -6.636,
+        "cpi_food": 4.254,
+        "cpi_shelter": 7.265,
+        "cpi_transportation": 1.437,
+        "cpi_medical": -0.966
+      },
+      "zscores": {
+        "cpi_energy": -1.017,
+        "cpi_used_cars": -1.145,
+        "cpi_food": -0.796,
+        "cpi_shelter": 1.048,
+        "cpi_transportation": -0.852,
+        "cpi_medical": -1.915
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "cpi_energy": -0.45,
+        "cpi_used_cars": -7.986,
+        "cpi_food": 3.692,
+        "cpi_shelter": 7.153,
+        "cpi_transportation": 2.408,
+        "cpi_medical": -1.419
+      },
+      "zscores": {
+        "cpi_energy": -0.852,
+        "cpi_used_cars": -1.171,
+        "cpi_food": -0.978,
+        "cpi_shelter": 0.947,
+        "cpi_transportation": -0.782,
+        "cpi_medical": -2.004
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "cpi_energy": -4.53,
+        "cpi_used_cars": -7.137,
+        "cpi_food": 3.301,
+        "cpi_shelter": 6.723,
+        "cpi_transportation": 0.764,
+        "cpi_medical": -0.773
+      },
+      "zscores": {
+        "cpi_energy": -1.116,
+        "cpi_used_cars": -1.075,
+        "cpi_food": -1.096,
+        "cpi_shelter": 0.716,
+        "cpi_transportation": -0.981,
+        "cpi_medical": -1.531
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "cpi_energy": -5.436,
+        "cpi_used_cars": -3.751,
+        "cpi_food": 2.949,
+        "cpi_shelter": 6.507,
+        "cpi_transportation": 0.894,
+        "cpi_medical": 0.168
+      },
+      "zscores": {
+        "cpi_energy": -1.188,
+        "cpi_used_cars": -0.853,
+        "cpi_food": -1.196,
+        "cpi_shelter": 0.58,
+        "cpi_transportation": -0.994,
+        "cpi_medical": -0.969
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "cpi_energy": -2.023,
+        "cpi_used_cars": -1.314,
+        "cpi_food": 2.705,
+        "cpi_shelter": 6.151,
+        "cpi_transportation": 2.884,
+        "cpi_medical": 0.451
+      },
+      "zscores": {
+        "cpi_energy": -0.997,
+        "cpi_used_cars": -0.696,
+        "cpi_food": -1.25,
+        "cpi_shelter": 0.378,
+        "cpi_transportation": -0.809,
+        "cpi_medical": -0.789
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "cpi_energy": -4.557,
+        "cpi_used_cars": -3.469,
+        "cpi_food": 2.567,
+        "cpi_shelter": 6.037,
+        "cpi_transportation": 1.643,
+        "cpi_medical": 1.051
+      },
+      "zscores": {
+        "cpi_energy": -1.15,
+        "cpi_used_cars": -0.787,
+        "cpi_food": -1.269,
+        "cpi_shelter": 0.281,
+        "cpi_transportation": -0.964,
+        "cpi_medical": -0.452
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "cpi_energy": -1.897,
+        "cpi_used_cars": -1.765,
+        "cpi_food": 2.234,
+        "cpi_shelter": 5.744,
+        "cpi_transportation": 2.667,
+        "cpi_medical": 1.41
+      },
+      "zscores": {
+        "cpi_energy": -0.973,
+        "cpi_used_cars": -0.673,
+        "cpi_food": -1.344,
+        "cpi_shelter": 0.087,
+        "cpi_transportation": -0.862,
+        "cpi_medical": -0.251
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "cpi_energy": 2.121,
+        "cpi_used_cars": -2.219,
+        "cpi_food": 2.238,
+        "cpi_shelter": 5.655,
+        "cpi_transportation": 4.014,
+        "cpi_medical": 2.214
+      },
+      "zscores": {
+        "cpi_energy": -0.702,
+        "cpi_used_cars": -0.676,
+        "cpi_food": -1.316,
+        "cpi_shelter": -0.016,
+        "cpi_transportation": -0.703,
+        "cpi_medical": 0.172
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "cpi_energy": 2.614,
+        "cpi_used_cars": -6.858,
+        "cpi_food": 2.212,
+        "cpi_shelter": 5.55,
+        "cpi_transportation": 3.472,
+        "cpi_medical": 2.63
+      },
+      "zscores": {
+        "cpi_energy": -0.635,
+        "cpi_used_cars": -0.878,
+        "cpi_food": -1.321,
+        "cpi_shelter": -0.131,
+        "cpi_transportation": -0.725,
+        "cpi_medical": 0.376
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "cpi_energy": 3.689,
+        "cpi_used_cars": -9.322,
+        "cpi_food": 2.132,
+        "cpi_shelter": 5.412,
+        "cpi_transportation": 2.887,
+        "cpi_medical": 3.074
+      },
+      "zscores": {
+        "cpi_energy": -0.532,
+        "cpi_used_cars": -0.956,
+        "cpi_food": -1.345,
+        "cpi_shelter": -0.278,
+        "cpi_transportation": -0.745,
+        "cpi_medical": 0.58
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "cpi_energy": 0.994,
+        "cpi_used_cars": -10.101,
+        "cpi_food": 2.218,
+        "cpi_shelter": 5.16,
+        "cpi_transportation": 1.271,
+        "cpi_medical": 3.264
+      },
+      "zscores": {
+        "cpi_energy": -0.659,
+        "cpi_used_cars": -0.958,
+        "cpi_food": -1.314,
+        "cpi_shelter": -0.503,
+        "cpi_transportation": -0.876,
+        "cpi_medical": 0.642
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "cpi_energy": 1.067,
+        "cpi_used_cars": -10.934,
+        "cpi_food": 2.175,
+        "cpi_shelter": 5.054,
+        "cpi_transportation": 1.007,
+        "cpi_medical": 3.172
+      },
+      "zscores": {
+        "cpi_energy": -0.617,
+        "cpi_used_cars": -0.965,
+        "cpi_food": -1.301,
+        "cpi_shelter": -0.646,
+        "cpi_transportation": -0.856,
+        "cpi_medical": 0.555
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "cpi_energy": -3.98,
+        "cpi_used_cars": -10.352,
+        "cpi_food": 2.052,
+        "cpi_shelter": 5.228,
+        "cpi_transportation": -1.032,
+        "cpi_medical": 2.979
+      },
+      "zscores": {
+        "cpi_energy": -0.879,
+        "cpi_used_cars": -0.883,
+        "cpi_food": -1.304,
+        "cpi_shelter": -0.611,
+        "cpi_transportation": -1.032,
+        "cpi_medical": 0.416
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "cpi_energy": -6.846,
+        "cpi_used_cars": -5.072,
+        "cpi_food": 2.273,
+        "cpi_shelter": 4.852,
+        "cpi_transportation": -1.069,
+        "cpi_medical": 3.252
+      },
+      "zscores": {
+        "cpi_energy": -0.999,
+        "cpi_used_cars": -0.524,
+        "cpi_food": -1.198,
+        "cpi_shelter": -0.972,
+        "cpi_transportation": -0.98,
+        "cpi_medical": 0.527
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "cpi_energy": -4.864,
+        "cpi_used_cars": -3.361,
+        "cpi_food": 2.133,
+        "cpi_shelter": 4.878,
+        "cpi_transportation": -0.112,
+        "cpi_medical": 3.294
+      },
+      "zscores": {
+        "cpi_energy": -0.829,
+        "cpi_used_cars": -0.378,
+        "cpi_food": -1.19,
+        "cpi_shelter": -1.028,
+        "cpi_transportation": -0.822,
+        "cpi_medical": 0.52
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "cpi_energy": -3.182,
+        "cpi_used_cars": -3.389,
+        "cpi_food": 2.378,
+        "cpi_shelter": 4.733,
+        "cpi_transportation": 0.53,
+        "cpi_medical": 3.082
+      },
+      "zscores": {
+        "cpi_energy": -0.68,
+        "cpi_used_cars": -0.335,
+        "cpi_food": -1.07,
+        "cpi_shelter": -1.203,
+        "cpi_transportation": -0.703,
+        "cpi_medical": 0.383
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "cpi_energy": -0.524,
+        "cpi_used_cars": -3.255,
+        "cpi_food": 2.507,
+        "cpi_shelter": 4.573,
+        "cpi_transportation": 1.606,
+        "cpi_medical": 2.837
+      },
+      "zscores": {
+        "cpi_energy": -0.467,
+        "cpi_used_cars": -0.274,
+        "cpi_food": -0.989,
+        "cpi_shelter": -1.368,
+        "cpi_transportation": -0.531,
+        "cpi_medical": 0.238
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "cpi_energy": 0.971,
+        "cpi_used_cars": 1.034,
+        "cpi_food": 2.502,
+        "cpi_shelter": 4.403,
+        "cpi_transportation": 3.157,
+        "cpi_medical": 2.635
+      },
+      "zscores": {
+        "cpi_energy": -0.329,
+        "cpi_used_cars": 0.131,
+        "cpi_food": -0.944,
+        "cpi_shelter": -1.514,
+        "cpi_transportation": -0.289,
+        "cpi_medical": 0.124
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "cpi_energy": -0.168,
+        "cpi_used_cars": 0.753,
+        "cpi_food": 2.607,
+        "cpi_shelter": 4.247,
+        "cpi_transportation": 1.651,
+        "cpi_medical": 2.886
+      },
+      "zscores": {
+        "cpi_energy": -0.366,
+        "cpi_used_cars": 0.247,
+        "cpi_food": -0.868,
+        "cpi_shelter": -1.608,
+        "cpi_transportation": -0.444,
+        "cpi_medical": 0.255
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "cpi_energy": -3.252,
+        "cpi_used_cars": 0.575,
+        "cpi_food": 2.959,
+        "cpi_shelter": 3.992,
+        "cpi_transportation": -0.89,
+        "cpi_medical": 2.644
+      },
+      "zscores": {
+        "cpi_energy": -0.538,
+        "cpi_used_cars": 0.421,
+        "cpi_food": -0.728,
+        "cpi_shelter": -1.742,
+        "cpi_transportation": -0.779,
+        "cpi_medical": 0.125
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "cpi_energy": -3.739,
+        "cpi_used_cars": 1.515,
+        "cpi_food": 2.759,
+        "cpi_shelter": 3.987,
+        "cpi_transportation": -1.512,
+        "cpi_medical": 2.738
+      },
+      "zscores": {
+        "cpi_energy": -0.531,
+        "cpi_used_cars": 0.744,
+        "cpi_food": -0.738,
+        "cpi_shelter": -1.666,
+        "cpi_transportation": -0.851,
+        "cpi_medical": 0.185
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "cpi_energy": -3.461,
+        "cpi_used_cars": 1.798,
+        "cpi_food": 2.88,
+        "cpi_shelter": 3.861,
+        "cpi_transportation": -1.329,
+        "cpi_medical": 2.481
+      },
+      "zscores": {
+        "cpi_energy": -0.468,
+        "cpi_used_cars": 0.976,
+        "cpi_food": -0.661,
+        "cpi_shelter": -1.667,
+        "cpi_transportation": -0.803,
+        "cpi_medical": 0.063
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "cpi_energy": -0.826,
+        "cpi_used_cars": 2.791,
+        "cpi_food": 2.969,
+        "cpi_shelter": 3.803,
+        "cpi_transportation": -0.069,
+        "cpi_medical": 2.773
+      },
+      "zscores": {
+        "cpi_energy": -0.179,
+        "cpi_used_cars": 1.218,
+        "cpi_food": -0.592,
+        "cpi_shelter": -1.612,
+        "cpi_transportation": -0.546,
+        "cpi_medical": 0.257
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "cpi_energy": -1.554,
+        "cpi_used_cars": 4.791,
+        "cpi_food": 2.866,
+        "cpi_shelter": 3.667,
+        "cpi_transportation": 0.046,
+        "cpi_medical": 3.513
+      },
+      "zscores": {
+        "cpi_energy": -0.186,
+        "cpi_used_cars": 1.627,
+        "cpi_food": -0.58,
+        "cpi_shelter": -1.608,
+        "cpi_transportation": -0.491,
+        "cpi_medical": 0.714
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "cpi_energy": 0.224,
+        "cpi_used_cars": 6.043,
+        "cpi_food": 3.188,
+        "cpi_shelter": 3.632,
+        "cpi_transportation": 0.928,
+        "cpi_medical": 3.449
+      },
+      "zscores": {
+        "cpi_energy": 0.122,
+        "cpi_used_cars": 1.909,
+        "cpi_food": -0.437,
+        "cpi_shelter": -1.529,
+        "cpi_transportation": -0.203,
+        "cpi_medical": 0.737
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "cpi_energy": 2.847,
+        "cpi_used_cars": 5.082,
+        "cpi_food": 3.108,
+        "cpi_shelter": 3.579,
+        "cpi_transportation": 1.742,
+        "cpi_medical": 3.283
+      },
+      "zscores": {
+        "cpi_energy": 0.618,
+        "cpi_used_cars": 1.774,
+        "cpi_food": -0.418,
+        "cpi_shelter": -1.466,
+        "cpi_transportation": 0.15,
+        "cpi_medical": 0.733
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "cpi_energy": 3.544,
+        "cpi_used_cars": 4.598,
+        "cpi_food": 2.878,
+        "cpi_shelter": 3.309,
+        "cpi_transportation": 1.647,
+        "cpi_medical": 3.087
+      },
+      "zscores": {
+        "cpi_energy": 0.894,
+        "cpi_used_cars": 1.632,
+        "cpi_food": -0.455,
+        "cpi_shelter": -1.535,
+        "cpi_transportation": 0.258,
+        "cpi_medical": 0.67
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "cpi_energy": 4.241,
+        "cpi_used_cars": 3.561,
+        "cpi_food": 2.649,
+        "cpi_shelter": 3.038,
+        "cpi_transportation": 1.551,
+        "cpi_medical": 2.89
+      },
+      "zscores": {
+        "cpi_energy": 1.154,
+        "cpi_used_cars": 1.357,
+        "cpi_food": -0.503,
+        "cpi_shelter": -1.594,
+        "cpi_transportation": 0.334,
+        "cpi_medical": 0.574
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "cpi_energy": 2.302,
+        "cpi_used_cars": 1.635,
+        "cpi_food": 3.067,
+        "cpi_shelter": 3.166,
+        "cpi_transportation": 0.383,
+        "cpi_medical": 3.154
+      },
+      "zscores": {
+        "cpi_energy": 0.838,
+        "cpi_used_cars": 0.941,
+        "cpi_food": -0.275,
+        "cpi_shelter": -1.426,
+        "cpi_transportation": -0.204,
+        "cpi_medical": 0.786
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "cpi_energy": -0.138,
+        "cpi_used_cars": -1.959,
+        "cpi_food": 2.876,
+        "cpi_shelter": 3.024,
+        "cpi_transportation": -1.059,
+        "cpi_medical": 3.195
+      },
+      "zscores": {
+        "cpi_energy": 0.428,
+        "cpi_used_cars": 0.22,
+        "cpi_food": -0.314,
+        "cpi_shelter": -1.433,
+        "cpi_transportation": -0.894,
+        "cpi_medical": 0.811
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "cpi_energy": 0.476,
+        "cpi_used_cars": -3.199,
+        "cpi_food": 3.06,
+        "cpi_shelter": 2.957,
+        "cpi_transportation": -0.529,
+        "cpi_medical": 3.362
+      },
+      "zscores": {
+        "cpi_energy": 0.605,
+        "cpi_used_cars": -0.084,
+        "cpi_food": -0.14,
+        "cpi_shelter": -1.406,
+        "cpi_transportation": -0.577,
+        "cpi_medical": 0.898
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "cpi_energy": 12.529,
+        "cpi_used_cars": -3.176,
+        "cpi_food": 2.678,
+        "cpi_shelter": 3.024,
+        "cpi_transportation": 4.951,
+        "cpi_medical": 3.053
+      },
+      "zscores": {
+        "cpi_energy": 2.791,
+        "cpi_used_cars": -0.131,
+        "cpi_food": -0.348,
+        "cpi_shelter": -1.31,
+        "cpi_transportation": 2.112,
+        "cpi_medical": 0.65
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "cpi_energy": 17.871,
+        "cpi_used_cars": -2.693,
+        "cpi_food": 3.183,
+        "cpi_shelter": 3.304,
+        "cpi_transportation": 7.064,
+        "cpi_medical": 2.543
+      },
+      "zscores": {
+        "cpi_energy": 3.157,
+        "cpi_used_cars": -0.05,
+        "cpi_food": 0.2,
+        "cpi_shelter": -1.087,
+        "cpi_transportation": 2.729,
+        "cpi_medical": 0.269
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "cpi_energy": 23.544,
+        "cpi_used_cars": -1.992,
+        "cpi_food": 3.082,
+        "cpi_shelter": 3.373,
+        "cpi_transportation": 9.329,
+        "cpi_medical": 2.592
+      },
+      "zscores": {
+        "cpi_energy": 3.382,
+        "cpi_used_cars": 0.091,
+        "cpi_food": 0.258,
+        "cpi_shelter": -1.005,
+        "cpi_transportation": 3.126,
+        "cpi_medical": 0.27
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "cpi_energy": 15.702,
+        "cpi_used_cars": -1.774,
+        "cpi_food": 3.014,
+        "cpi_shelter": 3.275,
+        "cpi_transportation": 6.524,
+        "cpi_medical": 2.026
+      },
+      "zscores": {
+        "cpi_energy": 2.167,
+        "cpi_used_cars": 0.119,
+        "cpi_food": 0.35,
+        "cpi_shelter": -1.041,
+        "cpi_transportation": 1.984,
+        "cpi_medical": -0.174
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "cpi_energy": 14.734,
+        "cpi_used_cars": -1.872,
+        "cpi_food": 2.979,
+        "cpi_shelter": 3.176,
+        "cpi_transportation": 5.839,
+        "cpi_medical": 1.7
+      },
+      "zscores": {
+        "cpi_energy": 1.917,
+        "cpi_used_cars": 0.075,
+        "cpi_food": 0.471,
+        "cpi_shelter": -1.086,
+        "cpi_transportation": 1.63,
+        "cpi_medical": -0.487
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "cpi_energy": 16.277,
+        "cpi_used_cars": -2.318,
+        "cpi_food": 2.673,
+        "cpi_shelter": 3.041,
+        "cpi_transportation": 6.158,
+        "cpi_medical": 1.563
+      },
+      "zscores": {
+        "cpi_energy": 1.96,
+        "cpi_used_cars": -0.053,
+        "cpi_food": -0.107,
+        "cpi_shelter": -1.159,
+        "cpi_transportation": 1.639,
+        "cpi_medical": -0.714
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Inflation is an average of many prices. This chart takes it apart into six pieces of a household budget, so you can see which part drove prices up and when. The pandemic inflation hit in waves: used cars first, then gas, then groceries, and rent last.",
+    "methodology": "Year-over-year change in six BLS Consumer Price Index categories (not seasonally adjusted): energy (CUUR0000SA0E), used cars and trucks (CUUR0000SETA02), food (CUUR0000SAF1), shelter (CUUR0000SAH1), transportation (CUUR0000SAT) and medical care (CUUR0000SAM).",
+    "key_findings": [
+      {
+        "date": "2021-06-01",
+        "title": "June 2021: Used Cars +45%",
+        "description": "A shortage of computer chips stopped new-car factories. Used car prices rose 45% in one year, the first wave of pandemic inflation.",
+        "significance": "One supply problem in one industry showed up in the national inflation number.",
+        "normalized_time": 0.3981
+      },
+      {
+        "date": "2022-06-01",
+        "title": "June 2022: Energy +42%",
+        "description": "Energy prices were 41.6% higher than a year before. Food inflation followed, peaking at 11.4% in August 2022.",
+        "significance": "Energy feeds into almost every other price.",
+        "normalized_time": 0.5146
+      },
+      {
+        "date": "2023-03-01",
+        "title": "March 2023: Rent Peaks Last",
+        "description": "Shelter inflation peaked at 8.2%, about nine months after energy. By then used car prices were falling (-11%).",
+        "significance": "Rents react slowly because leases last a year or more. As of August 2026, energy is up 16% again.",
+        "normalized_time": 0.6019
+      }
+    ]
+  }
+}

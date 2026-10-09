@@ -1,0 +1,3959 @@
+{
+  "metadata": {
+    "chart_id": "chart_21",
+    "number": 21,
+    "title": "How the Center of America Moved West",
+    "section": "Section D: Demographics, Real Estate & Urban Drift",
+    "section_id": "section_d",
+    "visual_form": "Animated Map with Moving Center Point",
+    "agencies": [
+      "Census"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 1790,
+    "end_year": 2020,
+    "observation_count": 231,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2020-07",
+    "data_notes": "Census measures the center once every 10 years (1790-2020). Years in between are a straight-line fill."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": -0.752,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.738
+      },
+      {
+        "lag": -17,
+        "r": -0.738
+      },
+      {
+        "lag": -16,
+        "r": -0.739
+      },
+      {
+        "lag": -15,
+        "r": -0.74
+      },
+      {
+        "lag": -14,
+        "r": -0.741
+      },
+      {
+        "lag": -13,
+        "r": -0.742
+      },
+      {
+        "lag": -12,
+        "r": -0.743
+      },
+      {
+        "lag": -11,
+        "r": -0.744
+      },
+      {
+        "lag": -10,
+        "r": -0.745
+      },
+      {
+        "lag": -9,
+        "r": -0.745
+      },
+      {
+        "lag": -8,
+        "r": -0.746
+      },
+      {
+        "lag": -7,
+        "r": -0.747
+      },
+      {
+        "lag": -6,
+        "r": -0.748
+      },
+      {
+        "lag": -5,
+        "r": -0.749
+      },
+      {
+        "lag": -4,
+        "r": -0.749
+      },
+      {
+        "lag": -3,
+        "r": -0.75
+      },
+      {
+        "lag": -2,
+        "r": -0.751
+      },
+      {
+        "lag": -1,
+        "r": -0.751
+      },
+      {
+        "lag": 0,
+        "r": -0.752
+      },
+      {
+        "lag": 1,
+        "r": -0.75
+      },
+      {
+        "lag": 2,
+        "r": -0.748
+      },
+      {
+        "lag": 3,
+        "r": -0.745
+      },
+      {
+        "lag": 4,
+        "r": -0.743
+      },
+      {
+        "lag": 5,
+        "r": -0.741
+      },
+      {
+        "lag": 6,
+        "r": -0.739
+      },
+      {
+        "lag": 7,
+        "r": -0.737
+      },
+      {
+        "lag": 8,
+        "r": -0.735
+      },
+      {
+        "lag": 9,
+        "r": -0.733
+      },
+      {
+        "lag": 10,
+        "r": -0.731
+      },
+      {
+        "lag": 11,
+        "r": -0.729
+      },
+      {
+        "lag": 12,
+        "r": -0.727
+      },
+      {
+        "lag": 13,
+        "r": -0.725
+      },
+      {
+        "lag": 14,
+        "r": -0.723
+      },
+      {
+        "lag": 15,
+        "r": -0.721
+      },
+      {
+        "lag": 16,
+        "r": -0.719
+      },
+      {
+        "lag": 17,
+        "r": -0.717
+      },
+      {
+        "lag": 18,
+        "r": -0.715
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "center_latitude",
+      "agency": "Census",
+      "series_id": "COP2020 Table 1",
+      "label": "Center Latitude (\u00b0North)",
+      "unit": "\u00b0N",
+      "transform": "raw",
+      "color": "#38bdf8"
+    },
+    {
+      "key": "center_longitude",
+      "agency": "Census",
+      "series_id": "COP2020 Table 1",
+      "label": "Center Longitude (\u00b0West)",
+      "unit": "\u00b0W",
+      "transform": "raw",
+      "color": "#f59e0b"
+    },
+    {
+      "key": "miles_west",
+      "agency": "Census",
+      "series_id": "Computed from COP2020 Table 1",
+      "label": "Total Miles Shifted West Since 1790",
+      "unit": "Miles",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "miles_south",
+      "agency": "Census",
+      "series_id": "Computed from COP2020 Table 1",
+      "label": "Total Miles Shifted South Since 1790",
+      "unit": "Miles",
+      "transform": "raw",
+      "color": "#ec4899"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1790-07-01",
+      "values": {
+        "center_latitude": 39.275,
+        "center_longitude": 76.187,
+        "miles_west": 0.0,
+        "miles_south": 0.0
+      },
+      "zscores": {
+        "center_latitude": 0.0,
+        "center_longitude": 0.0,
+        "miles_west": 0.0,
+        "miles_south": 0.0
+      },
+      "events": [
+        {
+          "label": "First census: center in Kent County, Maryland",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "1791-07-01",
+      "values": {
+        "center_latitude": 39.274,
+        "center_longitude": 76.262,
+        "miles_west": 4.043,
+        "miles_south": 0.046
+      },
+      "zscores": {
+        "center_latitude": -1.0,
+        "center_longitude": 1.0,
+        "miles_west": 1.0,
+        "miles_south": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "1792-07-01",
+      "values": {
+        "center_latitude": 39.274,
+        "center_longitude": 76.338,
+        "miles_west": 8.086,
+        "miles_south": 0.092
+      },
+      "zscores": {
+        "center_latitude": -1.225,
+        "center_longitude": 1.225,
+        "miles_west": 1.225,
+        "miles_south": 1.225
+      },
+      "events": []
+    },
+    {
+      "date": "1793-07-01",
+      "values": {
+        "center_latitude": 39.273,
+        "center_longitude": 76.413,
+        "miles_west": 12.129,
+        "miles_south": 0.138
+      },
+      "zscores": {
+        "center_latitude": -1.342,
+        "center_longitude": 1.342,
+        "miles_west": 1.342,
+        "miles_south": 1.342
+      },
+      "events": []
+    },
+    {
+      "date": "1794-07-01",
+      "values": {
+        "center_latitude": 39.272,
+        "center_longitude": 76.489,
+        "miles_west": 16.172,
+        "miles_south": 0.184
+      },
+      "zscores": {
+        "center_latitude": -1.414,
+        "center_longitude": 1.414,
+        "miles_west": 1.414,
+        "miles_south": 1.414
+      },
+      "events": []
+    },
+    {
+      "date": "1795-07-01",
+      "values": {
+        "center_latitude": 39.272,
+        "center_longitude": 76.564,
+        "miles_west": 20.214,
+        "miles_south": 0.23
+      },
+      "zscores": {
+        "center_latitude": -1.464,
+        "center_longitude": 1.464,
+        "miles_west": 1.464,
+        "miles_south": 1.464
+      },
+      "events": []
+    },
+    {
+      "date": "1796-07-01",
+      "values": {
+        "center_latitude": 39.271,
+        "center_longitude": 76.64,
+        "miles_west": 24.257,
+        "miles_south": 0.276
+      },
+      "zscores": {
+        "center_latitude": -1.5,
+        "center_longitude": 1.5,
+        "miles_west": 1.5,
+        "miles_south": 1.5
+      },
+      "events": []
+    },
+    {
+      "date": "1797-07-01",
+      "values": {
+        "center_latitude": 39.27,
+        "center_longitude": 76.715,
+        "miles_west": 28.3,
+        "miles_south": 0.322
+      },
+      "zscores": {
+        "center_latitude": -1.528,
+        "center_longitude": 1.528,
+        "miles_west": 1.528,
+        "miles_south": 1.528
+      },
+      "events": []
+    },
+    {
+      "date": "1798-07-01",
+      "values": {
+        "center_latitude": 39.27,
+        "center_longitude": 76.791,
+        "miles_west": 32.343,
+        "miles_south": 0.368
+      },
+      "zscores": {
+        "center_latitude": -1.549,
+        "center_longitude": 1.549,
+        "miles_west": 1.549,
+        "miles_south": 1.549
+      },
+      "events": []
+    },
+    {
+      "date": "1799-07-01",
+      "values": {
+        "center_latitude": 39.269,
+        "center_longitude": 76.866,
+        "miles_west": 36.386,
+        "miles_south": 0.415
+      },
+      "zscores": {
+        "center_latitude": -1.567,
+        "center_longitude": 1.567,
+        "miles_west": 1.567,
+        "miles_south": 1.567
+      },
+      "events": []
+    },
+    {
+      "date": "1800-07-01",
+      "values": {
+        "center_latitude": 39.268,
+        "center_longitude": 76.942,
+        "miles_west": 40.429,
+        "miles_south": 0.461
+      },
+      "zscores": {
+        "center_latitude": -1.581,
+        "center_longitude": 1.581,
+        "miles_west": 1.581,
+        "miles_south": 1.581
+      },
+      "events": []
+    },
+    {
+      "date": "1801-07-01",
+      "values": {
+        "center_latitude": 39.261,
+        "center_longitude": 77.01,
+        "miles_west": 44.065,
+        "miles_south": 0.99
+      },
+      "zscores": {
+        "center_latitude": -2.763,
+        "center_longitude": 1.572,
+        "miles_west": 1.573,
+        "miles_south": 2.763
+      },
+      "events": []
+    },
+    {
+      "date": "1802-07-01",
+      "values": {
+        "center_latitude": 39.253,
+        "center_longitude": 77.077,
+        "miles_west": 47.702,
+        "miles_south": 1.519
+      },
+      "zscores": {
+        "center_latitude": -2.783,
+        "center_longitude": 1.57,
+        "miles_west": 1.571,
+        "miles_south": 2.783
+      },
+      "events": []
+    },
+    {
+      "date": "1803-07-01",
+      "values": {
+        "center_latitude": 39.245,
+        "center_longitude": 77.145,
+        "miles_west": 51.338,
+        "miles_south": 2.049
+      },
+      "zscores": {
+        "center_latitude": -2.659,
+        "center_longitude": 1.572,
+        "miles_west": 1.572,
+        "miles_south": 2.659
+      },
+      "events": []
+    },
+    {
+      "date": "1804-07-01",
+      "values": {
+        "center_latitude": 39.238,
+        "center_longitude": 77.213,
+        "miles_west": 54.975,
+        "miles_south": 2.578
+      },
+      "zscores": {
+        "center_latitude": -2.536,
+        "center_longitude": 1.576,
+        "miles_west": 1.576,
+        "miles_south": 2.536
+      },
+      "events": []
+    },
+    {
+      "date": "1805-07-01",
+      "values": {
+        "center_latitude": 39.23,
+        "center_longitude": 77.281,
+        "miles_west": 58.612,
+        "miles_south": 3.107
+      },
+      "zscores": {
+        "center_latitude": -2.434,
+        "center_longitude": 1.581,
+        "miles_west": 1.581,
+        "miles_south": 2.434
+      },
+      "events": []
+    },
+    {
+      "date": "1806-07-01",
+      "values": {
+        "center_latitude": 39.222,
+        "center_longitude": 77.349,
+        "miles_west": 62.248,
+        "miles_south": 3.637
+      },
+      "zscores": {
+        "center_latitude": -2.349,
+        "center_longitude": 1.586,
+        "miles_west": 1.587,
+        "miles_south": 2.349
+      },
+      "events": []
+    },
+    {
+      "date": "1807-07-01",
+      "values": {
+        "center_latitude": 39.215,
+        "center_longitude": 77.417,
+        "miles_west": 65.885,
+        "miles_south": 4.166
+      },
+      "zscores": {
+        "center_latitude": -2.279,
+        "center_longitude": 1.592,
+        "miles_west": 1.593,
+        "miles_south": 2.279
+      },
+      "events": []
+    },
+    {
+      "date": "1808-07-01",
+      "values": {
+        "center_latitude": 39.207,
+        "center_longitude": 77.484,
+        "miles_west": 69.521,
+        "miles_south": 4.695
+      },
+      "zscores": {
+        "center_latitude": -2.221,
+        "center_longitude": 1.598,
+        "miles_west": 1.598,
+        "miles_south": 2.221
+      },
+      "events": []
+    },
+    {
+      "date": "1809-07-01",
+      "values": {
+        "center_latitude": 39.199,
+        "center_longitude": 77.552,
+        "miles_west": 73.158,
+        "miles_south": 5.225
+      },
+      "zscores": {
+        "center_latitude": -2.172,
+        "center_longitude": 1.603,
+        "miles_west": 1.604,
+        "miles_south": 2.172
+      },
+      "events": []
+    },
+    {
+      "date": "1810-07-01",
+      "values": {
+        "center_latitude": 39.192,
+        "center_longitude": 77.62,
+        "miles_west": 76.794,
+        "miles_south": 5.754
+      },
+      "zscores": {
+        "center_latitude": -2.131,
+        "center_longitude": 1.609,
+        "miles_west": 1.609,
+        "miles_south": 2.131
+      },
+      "events": []
+    },
+    {
+      "date": "1811-07-01",
+      "values": {
+        "center_latitude": 39.182,
+        "center_longitude": 77.713,
+        "miles_west": 81.786,
+        "miles_south": 6.421
+      },
+      "zscores": {
+        "center_latitude": -2.144,
+        "center_longitude": 1.66,
+        "miles_west": 1.661,
+        "miles_south": 2.144
+      },
+      "events": []
+    },
+    {
+      "date": "1812-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 77.806,
+        "miles_west": 86.777,
+        "miles_south": 7.089
+      },
+      "zscores": {
+        "center_latitude": -2.143,
+        "center_longitude": 1.7,
+        "miles_west": 1.7,
+        "miles_south": 2.143
+      },
+      "events": []
+    },
+    {
+      "date": "1813-07-01",
+      "values": {
+        "center_latitude": 39.163,
+        "center_longitude": 77.899,
+        "miles_west": 91.768,
+        "miles_south": 7.756
+      },
+      "zscores": {
+        "center_latitude": -2.134,
+        "center_longitude": 1.73,
+        "miles_west": 1.731,
+        "miles_south": 2.134
+      },
+      "events": []
+    },
+    {
+      "date": "1814-07-01",
+      "values": {
+        "center_latitude": 39.153,
+        "center_longitude": 77.992,
+        "miles_west": 96.76,
+        "miles_south": 8.424
+      },
+      "zscores": {
+        "center_latitude": -2.12,
+        "center_longitude": 1.752,
+        "miles_west": 1.753,
+        "miles_south": 2.12
+      },
+      "events": []
+    },
+    {
+      "date": "1815-07-01",
+      "values": {
+        "center_latitude": 39.143,
+        "center_longitude": 78.085,
+        "miles_west": 101.751,
+        "miles_south": 9.091
+      },
+      "zscores": {
+        "center_latitude": -2.103,
+        "center_longitude": 1.769,
+        "miles_west": 1.77,
+        "miles_south": 2.103
+      },
+      "events": []
+    },
+    {
+      "date": "1816-07-01",
+      "values": {
+        "center_latitude": 39.134,
+        "center_longitude": 78.178,
+        "miles_west": 106.743,
+        "miles_south": 9.759
+      },
+      "zscores": {
+        "center_latitude": -2.086,
+        "center_longitude": 1.782,
+        "miles_west": 1.783,
+        "miles_south": 2.086
+      },
+      "events": []
+    },
+    {
+      "date": "1817-07-01",
+      "values": {
+        "center_latitude": 39.124,
+        "center_longitude": 78.271,
+        "miles_west": 111.734,
+        "miles_south": 10.426
+      },
+      "zscores": {
+        "center_latitude": -2.068,
+        "center_longitude": 1.791,
+        "miles_west": 1.792,
+        "miles_south": 2.068
+      },
+      "events": []
+    },
+    {
+      "date": "1818-07-01",
+      "values": {
+        "center_latitude": 39.114,
+        "center_longitude": 78.364,
+        "miles_west": 116.726,
+        "miles_south": 11.094
+      },
+      "zscores": {
+        "center_latitude": -2.052,
+        "center_longitude": 1.798,
+        "miles_west": 1.798,
+        "miles_south": 2.052
+      },
+      "events": []
+    },
+    {
+      "date": "1819-07-01",
+      "values": {
+        "center_latitude": 39.105,
+        "center_longitude": 78.457,
+        "miles_west": 121.717,
+        "miles_south": 11.761
+      },
+      "zscores": {
+        "center_latitude": -2.035,
+        "center_longitude": 1.802,
+        "miles_west": 1.803,
+        "miles_south": 2.035
+      },
+      "events": []
+    },
+    {
+      "date": "1820-07-01",
+      "values": {
+        "center_latitude": 39.095,
+        "center_longitude": 78.55,
+        "miles_west": 126.708,
+        "miles_south": 12.429
+      },
+      "zscores": {
+        "center_latitude": -2.02,
+        "center_longitude": 1.805,
+        "miles_west": 1.806,
+        "miles_south": 2.02
+      },
+      "events": []
+    },
+    {
+      "date": "1821-07-01",
+      "values": {
+        "center_latitude": 39.082,
+        "center_longitude": 78.623,
+        "miles_west": 130.647,
+        "miles_south": 13.327
+      },
+      "zscores": {
+        "center_latitude": -2.05,
+        "center_longitude": 1.782,
+        "miles_west": 1.784,
+        "miles_south": 2.05
+      },
+      "events": []
+    },
+    {
+      "date": "1822-07-01",
+      "values": {
+        "center_latitude": 39.069,
+        "center_longitude": 78.696,
+        "miles_west": 134.585,
+        "miles_south": 14.224
+      },
+      "zscores": {
+        "center_latitude": -2.07,
+        "center_longitude": 1.764,
+        "miles_west": 1.765,
+        "miles_south": 2.07
+      },
+      "events": []
+    },
+    {
+      "date": "1823-07-01",
+      "values": {
+        "center_latitude": 39.056,
+        "center_longitude": 78.77,
+        "miles_west": 138.523,
+        "miles_south": 15.122
+      },
+      "zscores": {
+        "center_latitude": -2.081,
+        "center_longitude": 1.748,
+        "miles_west": 1.75,
+        "miles_south": 2.081
+      },
+      "events": []
+    },
+    {
+      "date": "1824-07-01",
+      "values": {
+        "center_latitude": 39.043,
+        "center_longitude": 78.843,
+        "miles_west": 142.461,
+        "miles_south": 16.02
+      },
+      "zscores": {
+        "center_latitude": -2.087,
+        "center_longitude": 1.735,
+        "miles_west": 1.737,
+        "miles_south": 2.087
+      },
+      "events": []
+    },
+    {
+      "date": "1825-07-01",
+      "values": {
+        "center_latitude": 39.03,
+        "center_longitude": 78.916,
+        "miles_west": 146.399,
+        "miles_south": 16.917
+      },
+      "zscores": {
+        "center_latitude": -2.088,
+        "center_longitude": 1.724,
+        "miles_west": 1.726,
+        "miles_south": 2.088
+      },
+      "events": []
+    },
+    {
+      "date": "1826-07-01",
+      "values": {
+        "center_latitude": 39.017,
+        "center_longitude": 78.989,
+        "miles_west": 150.337,
+        "miles_south": 17.815
+      },
+      "zscores": {
+        "center_latitude": -2.062,
+        "center_longitude": 1.711,
+        "miles_west": 1.713,
+        "miles_south": 2.062
+      },
+      "events": []
+    },
+    {
+      "date": "1827-07-01",
+      "values": {
+        "center_latitude": 39.004,
+        "center_longitude": 79.062,
+        "miles_west": 154.275,
+        "miles_south": 18.713
+      },
+      "zscores": {
+        "center_latitude": -2.035,
+        "center_longitude": 1.7,
+        "miles_west": 1.701,
+        "miles_south": 2.035
+      },
+      "events": []
+    },
+    {
+      "date": "1828-07-01",
+      "values": {
+        "center_latitude": 38.991,
+        "center_longitude": 79.135,
+        "miles_west": 158.213,
+        "miles_south": 19.61
+      },
+      "zscores": {
+        "center_latitude": -2.008,
+        "center_longitude": 1.689,
+        "miles_west": 1.69,
+        "miles_south": 2.008
+      },
+      "events": []
+    },
+    {
+      "date": "1829-07-01",
+      "values": {
+        "center_latitude": 38.978,
+        "center_longitude": 79.209,
+        "miles_west": 162.152,
+        "miles_south": 20.508
+      },
+      "zscores": {
+        "center_latitude": -1.981,
+        "center_longitude": 1.678,
+        "miles_west": 1.68,
+        "miles_south": 1.981
+      },
+      "events": []
+    },
+    {
+      "date": "1830-07-01",
+      "values": {
+        "center_latitude": 38.965,
+        "center_longitude": 79.282,
+        "miles_west": 166.09,
+        "miles_south": 21.405
+      },
+      "zscores": {
+        "center_latitude": -1.956,
+        "center_longitude": 1.669,
+        "miles_west": 1.671,
+        "miles_south": 1.956
+      },
+      "events": []
+    },
+    {
+      "date": "1831-07-01",
+      "values": {
+        "center_latitude": 38.972,
+        "center_longitude": 79.384,
+        "miles_west": 171.544,
+        "miles_south": 20.934
+      },
+      "zscores": {
+        "center_latitude": -1.756,
+        "center_longitude": 1.691,
+        "miles_west": 1.693,
+        "miles_south": 1.756
+      },
+      "events": []
+    },
+    {
+      "date": "1832-07-01",
+      "values": {
+        "center_latitude": 38.979,
+        "center_longitude": 79.485,
+        "miles_west": 176.998,
+        "miles_south": 20.462
+      },
+      "zscores": {
+        "center_latitude": -1.583,
+        "center_longitude": 1.711,
+        "miles_west": 1.711,
+        "miles_south": 1.583
+      },
+      "events": []
+    },
+    {
+      "date": "1833-07-01",
+      "values": {
+        "center_latitude": 38.985,
+        "center_longitude": 79.587,
+        "miles_west": 182.452,
+        "miles_south": 19.99
+      },
+      "zscores": {
+        "center_latitude": -1.43,
+        "center_longitude": 1.727,
+        "miles_west": 1.727,
+        "miles_south": 1.43
+      },
+      "events": []
+    },
+    {
+      "date": "1834-07-01",
+      "values": {
+        "center_latitude": 38.992,
+        "center_longitude": 79.689,
+        "miles_west": 187.906,
+        "miles_south": 19.518
+      },
+      "zscores": {
+        "center_latitude": -1.291,
+        "center_longitude": 1.741,
+        "miles_west": 1.741,
+        "miles_south": 1.291
+      },
+      "events": []
+    },
+    {
+      "date": "1835-07-01",
+      "values": {
+        "center_latitude": 38.999,
+        "center_longitude": 79.791,
+        "miles_west": 193.36,
+        "miles_south": 19.046
+      },
+      "zscores": {
+        "center_latitude": -1.162,
+        "center_longitude": 1.752,
+        "miles_west": 1.751,
+        "miles_south": 1.162
+      },
+      "events": []
+    },
+    {
+      "date": "1836-07-01",
+      "values": {
+        "center_latitude": 39.006,
+        "center_longitude": 79.893,
+        "miles_west": 198.814,
+        "miles_south": 18.575
+      },
+      "zscores": {
+        "center_latitude": -1.04,
+        "center_longitude": 1.76,
+        "miles_west": 1.76,
+        "miles_south": 1.04
+      },
+      "events": []
+    },
+    {
+      "date": "1837-07-01",
+      "values": {
+        "center_latitude": 39.013,
+        "center_longitude": 79.995,
+        "miles_west": 204.268,
+        "miles_south": 18.103
+      },
+      "zscores": {
+        "center_latitude": -0.921,
+        "center_longitude": 1.767,
+        "miles_west": 1.766,
+        "miles_south": 0.921
+      },
+      "events": []
+    },
+    {
+      "date": "1838-07-01",
+      "values": {
+        "center_latitude": 39.02,
+        "center_longitude": 80.096,
+        "miles_west": 209.722,
+        "miles_south": 17.631
+      },
+      "zscores": {
+        "center_latitude": -0.803,
+        "center_longitude": 1.772,
+        "miles_west": 1.771,
+        "miles_south": 0.803
+      },
+      "events": []
+    },
+    {
+      "date": "1839-07-01",
+      "values": {
+        "center_latitude": 39.026,
+        "center_longitude": 80.198,
+        "miles_west": 215.176,
+        "miles_south": 17.159
+      },
+      "zscores": {
+        "center_latitude": -0.685,
+        "center_longitude": 1.776,
+        "miles_west": 1.775,
+        "miles_south": 0.685
+      },
+      "events": []
+    },
+    {
+      "date": "1840-07-01",
+      "values": {
+        "center_latitude": 39.033,
+        "center_longitude": 80.3,
+        "miles_west": 220.63,
+        "miles_south": 16.687
+      },
+      "zscores": {
+        "center_latitude": -0.564,
+        "center_longitude": 1.779,
+        "miles_west": 1.778,
+        "miles_south": 0.564
+      },
+      "events": []
+    },
+    {
+      "date": "1841-07-01",
+      "values": {
+        "center_latitude": 39.028,
+        "center_longitude": 80.402,
+        "miles_west": 226.093,
+        "miles_south": 17.033
+      },
+      "zscores": {
+        "center_latitude": -0.581,
+        "center_longitude": 1.781,
+        "miles_west": 1.78,
+        "miles_south": 0.581
+      },
+      "events": []
+    },
+    {
+      "date": "1842-07-01",
+      "values": {
+        "center_latitude": 39.023,
+        "center_longitude": 80.503,
+        "miles_west": 231.556,
+        "miles_south": 17.378
+      },
+      "zscores": {
+        "center_latitude": -0.601,
+        "center_longitude": 1.782,
+        "miles_west": 1.781,
+        "miles_south": 0.601
+      },
+      "events": []
+    },
+    {
+      "date": "1843-07-01",
+      "values": {
+        "center_latitude": 39.018,
+        "center_longitude": 80.605,
+        "miles_west": 237.019,
+        "miles_south": 17.723
+      },
+      "zscores": {
+        "center_latitude": -0.624,
+        "center_longitude": 1.783,
+        "miles_west": 1.782,
+        "miles_south": 0.624
+      },
+      "events": []
+    },
+    {
+      "date": "1844-07-01",
+      "values": {
+        "center_latitude": 39.013,
+        "center_longitude": 80.707,
+        "miles_west": 242.482,
+        "miles_south": 18.068
+      },
+      "zscores": {
+        "center_latitude": -0.651,
+        "center_longitude": 1.784,
+        "miles_west": 1.783,
+        "miles_south": 0.651
+      },
+      "events": []
+    },
+    {
+      "date": "1845-07-01",
+      "values": {
+        "center_latitude": 39.008,
+        "center_longitude": 80.808,
+        "miles_west": 247.945,
+        "miles_south": 18.414
+      },
+      "zscores": {
+        "center_latitude": -0.683,
+        "center_longitude": 1.784,
+        "miles_west": 1.784,
+        "miles_south": 0.683
+      },
+      "events": []
+    },
+    {
+      "date": "1846-07-01",
+      "values": {
+        "center_latitude": 39.003,
+        "center_longitude": 80.91,
+        "miles_west": 253.408,
+        "miles_south": 18.759
+      },
+      "zscores": {
+        "center_latitude": -0.72,
+        "center_longitude": 1.785,
+        "miles_west": 1.784,
+        "miles_south": 0.72
+      },
+      "events": []
+    },
+    {
+      "date": "1847-07-01",
+      "values": {
+        "center_latitude": 38.998,
+        "center_longitude": 81.012,
+        "miles_west": 258.871,
+        "miles_south": 19.104
+      },
+      "zscores": {
+        "center_latitude": -0.764,
+        "center_longitude": 1.784,
+        "miles_west": 1.784,
+        "miles_south": 0.764
+      },
+      "events": []
+    },
+    {
+      "date": "1848-07-01",
+      "values": {
+        "center_latitude": 38.993,
+        "center_longitude": 81.113,
+        "miles_west": 264.334,
+        "miles_south": 19.449
+      },
+      "zscores": {
+        "center_latitude": -0.816,
+        "center_longitude": 1.782,
+        "miles_west": 1.782,
+        "miles_south": 0.816
+      },
+      "events": []
+    },
+    {
+      "date": "1849-07-01",
+      "values": {
+        "center_latitude": 38.988,
+        "center_longitude": 81.215,
+        "miles_west": 269.797,
+        "miles_south": 19.795
+      },
+      "zscores": {
+        "center_latitude": -0.876,
+        "center_longitude": 1.779,
+        "miles_west": 1.779,
+        "miles_south": 0.876
+      },
+      "events": []
+    },
+    {
+      "date": "1850-07-01",
+      "values": {
+        "center_latitude": 38.983,
+        "center_longitude": 81.317,
+        "miles_west": 275.26,
+        "miles_south": 20.14
+      },
+      "zscores": {
+        "center_latitude": -0.946,
+        "center_longitude": 1.775,
+        "miles_west": 1.775,
+        "miles_south": 0.946
+      },
+      "events": []
+    },
+    {
+      "date": "1851-07-01",
+      "values": {
+        "center_latitude": 38.986,
+        "center_longitude": 81.466,
+        "miles_west": 283.285,
+        "miles_south": 19.979
+      },
+      "zscores": {
+        "center_latitude": -0.871,
+        "center_longitude": 1.813,
+        "miles_west": 1.813,
+        "miles_south": 0.871
+      },
+      "events": []
+    },
+    {
+      "date": "1852-07-01",
+      "values": {
+        "center_latitude": 38.988,
+        "center_longitude": 81.616,
+        "miles_west": 291.309,
+        "miles_south": 19.817
+      },
+      "zscores": {
+        "center_latitude": -0.793,
+        "center_longitude": 1.845,
+        "miles_west": 1.845,
+        "miles_south": 0.793
+      },
+      "events": []
+    },
+    {
+      "date": "1853-07-01",
+      "values": {
+        "center_latitude": 38.99,
+        "center_longitude": 81.766,
+        "miles_west": 299.334,
+        "miles_south": 19.656
+      },
+      "zscores": {
+        "center_latitude": -0.709,
+        "center_longitude": 1.869,
+        "miles_west": 1.869,
+        "miles_south": 0.709
+      },
+      "events": []
+    },
+    {
+      "date": "1854-07-01",
+      "values": {
+        "center_latitude": 38.993,
+        "center_longitude": 81.915,
+        "miles_west": 307.359,
+        "miles_south": 19.495
+      },
+      "zscores": {
+        "center_latitude": -0.616,
+        "center_longitude": 1.886,
+        "miles_west": 1.886,
+        "miles_south": 0.616
+      },
+      "events": []
+    },
+    {
+      "date": "1855-07-01",
+      "values": {
+        "center_latitude": 38.995,
+        "center_longitude": 82.065,
+        "miles_west": 315.384,
+        "miles_south": 19.334
+      },
+      "zscores": {
+        "center_latitude": -0.512,
+        "center_longitude": 1.898,
+        "miles_west": 1.898,
+        "miles_south": 0.512
+      },
+      "events": []
+    },
+    {
+      "date": "1856-07-01",
+      "values": {
+        "center_latitude": 38.997,
+        "center_longitude": 82.215,
+        "miles_west": 323.408,
+        "miles_south": 19.173
+      },
+      "zscores": {
+        "center_latitude": -0.389,
+        "center_longitude": 1.904,
+        "miles_west": 1.904,
+        "miles_south": 0.389
+      },
+      "events": []
+    },
+    {
+      "date": "1857-07-01",
+      "values": {
+        "center_latitude": 39.0,
+        "center_longitude": 82.364,
+        "miles_west": 331.433,
+        "miles_south": 19.012
+      },
+      "zscores": {
+        "center_latitude": -0.241,
+        "center_longitude": 1.907,
+        "miles_west": 1.907,
+        "miles_south": 0.241
+      },
+      "events": []
+    },
+    {
+      "date": "1858-07-01",
+      "values": {
+        "center_latitude": 39.002,
+        "center_longitude": 82.514,
+        "miles_west": 339.458,
+        "miles_south": 18.851
+      },
+      "zscores": {
+        "center_latitude": -0.065,
+        "center_longitude": 1.906,
+        "miles_west": 1.906,
+        "miles_south": 0.065
+      },
+      "events": []
+    },
+    {
+      "date": "1859-07-01",
+      "values": {
+        "center_latitude": 39.004,
+        "center_longitude": 82.664,
+        "miles_west": 347.483,
+        "miles_south": 18.689
+      },
+      "zscores": {
+        "center_latitude": 0.138,
+        "center_longitude": 1.903,
+        "miles_west": 1.903,
+        "miles_south": -0.138
+      },
+      "events": []
+    },
+    {
+      "date": "1860-07-01",
+      "values": {
+        "center_latitude": 39.007,
+        "center_longitude": 82.813,
+        "miles_west": 355.507,
+        "miles_south": 18.528
+      },
+      "zscores": {
+        "center_latitude": 0.351,
+        "center_longitude": 1.898,
+        "miles_west": 1.898,
+        "miles_south": -0.351
+      },
+      "events": [
+        {
+          "label": "Biggest westward jump: about 80 miles in a decade",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "1861-07-01",
+      "values": {
+        "center_latitude": 39.026,
+        "center_longitude": 82.891,
+        "miles_west": 359.646,
+        "miles_south": 17.193
+      },
+      "zscores": {
+        "center_latitude": 1.541,
+        "center_longitude": 1.838,
+        "miles_west": 1.837,
+        "miles_south": -1.541
+      },
+      "events": []
+    },
+    {
+      "date": "1862-07-01",
+      "values": {
+        "center_latitude": 39.045,
+        "center_longitude": 82.97,
+        "miles_west": 363.785,
+        "miles_south": 15.858
+      },
+      "zscores": {
+        "center_latitude": 2.465,
+        "center_longitude": 1.785,
+        "miles_west": 1.783,
+        "miles_south": -2.465
+      },
+      "events": []
+    },
+    {
+      "date": "1863-07-01",
+      "values": {
+        "center_latitude": 39.065,
+        "center_longitude": 83.048,
+        "miles_west": 367.924,
+        "miles_south": 14.523
+      },
+      "zscores": {
+        "center_latitude": 2.986,
+        "center_longitude": 1.738,
+        "miles_west": 1.736,
+        "miles_south": -2.986
+      },
+      "events": []
+    },
+    {
+      "date": "1864-07-01",
+      "values": {
+        "center_latitude": 39.084,
+        "center_longitude": 83.126,
+        "miles_west": 372.063,
+        "miles_south": 13.188
+      },
+      "zscores": {
+        "center_latitude": 3.209,
+        "center_longitude": 1.697,
+        "miles_west": 1.694,
+        "miles_south": -3.209
+      },
+      "events": []
+    },
+    {
+      "date": "1865-07-01",
+      "values": {
+        "center_latitude": 39.103,
+        "center_longitude": 83.204,
+        "miles_west": 376.202,
+        "miles_south": 11.853
+      },
+      "zscores": {
+        "center_latitude": 3.275,
+        "center_longitude": 1.661,
+        "miles_west": 1.658,
+        "miles_south": -3.275
+      },
+      "events": []
+    },
+    {
+      "date": "1866-07-01",
+      "values": {
+        "center_latitude": 39.123,
+        "center_longitude": 83.282,
+        "miles_west": 380.34,
+        "miles_south": 10.519
+      },
+      "zscores": {
+        "center_latitude": 3.275,
+        "center_longitude": 1.63,
+        "miles_west": 1.626,
+        "miles_south": -3.275
+      },
+      "events": []
+    },
+    {
+      "date": "1867-07-01",
+      "values": {
+        "center_latitude": 39.142,
+        "center_longitude": 83.36,
+        "miles_west": 384.479,
+        "miles_south": 9.184
+      },
+      "zscores": {
+        "center_latitude": 3.197,
+        "center_longitude": 1.601,
+        "miles_west": 1.598,
+        "miles_south": -3.197
+      },
+      "events": []
+    },
+    {
+      "date": "1868-07-01",
+      "values": {
+        "center_latitude": 39.161,
+        "center_longitude": 83.439,
+        "miles_west": 388.618,
+        "miles_south": 7.849
+      },
+      "zscores": {
+        "center_latitude": 3.088,
+        "center_longitude": 1.576,
+        "miles_west": 1.572,
+        "miles_south": -3.088
+      },
+      "events": []
+    },
+    {
+      "date": "1869-07-01",
+      "values": {
+        "center_latitude": 39.181,
+        "center_longitude": 83.517,
+        "miles_west": 392.757,
+        "miles_south": 6.514
+      },
+      "zscores": {
+        "center_latitude": 2.971,
+        "center_longitude": 1.554,
+        "miles_west": 1.549,
+        "miles_south": -2.971
+      },
+      "events": []
+    },
+    {
+      "date": "1870-07-01",
+      "values": {
+        "center_latitude": 39.2,
+        "center_longitude": 83.595,
+        "miles_west": 396.896,
+        "miles_south": 5.179
+      },
+      "zscores": {
+        "center_latitude": 2.856,
+        "center_longitude": 1.534,
+        "miles_west": 1.529,
+        "miles_south": -2.856
+      },
+      "events": []
+    },
+    {
+      "date": "1871-07-01",
+      "values": {
+        "center_latitude": 39.187,
+        "center_longitude": 83.702,
+        "miles_west": 402.65,
+        "miles_south": 6.084
+      },
+      "zscores": {
+        "center_latitude": 2.344,
+        "center_longitude": 1.538,
+        "miles_west": 1.534,
+        "miles_south": -2.344
+      },
+      "events": []
+    },
+    {
+      "date": "1872-07-01",
+      "values": {
+        "center_latitude": 39.174,
+        "center_longitude": 83.808,
+        "miles_west": 408.404,
+        "miles_south": 6.989
+      },
+      "zscores": {
+        "center_latitude": 1.953,
+        "center_longitude": 1.542,
+        "miles_west": 1.54,
+        "miles_south": -1.953
+      },
+      "events": []
+    },
+    {
+      "date": "1873-07-01",
+      "values": {
+        "center_latitude": 39.161,
+        "center_longitude": 83.915,
+        "miles_west": 414.158,
+        "miles_south": 7.895
+      },
+      "zscores": {
+        "center_latitude": 1.633,
+        "center_longitude": 1.547,
+        "miles_west": 1.546,
+        "miles_south": -1.633
+      },
+      "events": []
+    },
+    {
+      "date": "1874-07-01",
+      "values": {
+        "center_latitude": 39.148,
+        "center_longitude": 84.021,
+        "miles_west": 419.912,
+        "miles_south": 8.8
+      },
+      "zscores": {
+        "center_latitude": 1.356,
+        "center_longitude": 1.553,
+        "miles_west": 1.552,
+        "miles_south": -1.356
+      },
+      "events": []
+    },
+    {
+      "date": "1875-07-01",
+      "values": {
+        "center_latitude": 39.134,
+        "center_longitude": 84.128,
+        "miles_west": 425.666,
+        "miles_south": 9.705
+      },
+      "zscores": {
+        "center_latitude": 1.109,
+        "center_longitude": 1.559,
+        "miles_west": 1.559,
+        "miles_south": -1.109
+      },
+      "events": []
+    },
+    {
+      "date": "1876-07-01",
+      "values": {
+        "center_latitude": 39.121,
+        "center_longitude": 84.235,
+        "miles_west": 431.42,
+        "miles_south": 10.611
+      },
+      "zscores": {
+        "center_latitude": 0.883,
+        "center_longitude": 1.566,
+        "miles_west": 1.567,
+        "miles_south": -0.883
+      },
+      "events": []
+    },
+    {
+      "date": "1877-07-01",
+      "values": {
+        "center_latitude": 39.108,
+        "center_longitude": 84.341,
+        "miles_west": 437.174,
+        "miles_south": 11.516
+      },
+      "zscores": {
+        "center_latitude": 0.668,
+        "center_longitude": 1.573,
+        "miles_west": 1.575,
+        "miles_south": -0.668
+      },
+      "events": []
+    },
+    {
+      "date": "1878-07-01",
+      "values": {
+        "center_latitude": 39.095,
+        "center_longitude": 84.448,
+        "miles_west": 442.928,
+        "miles_south": 12.421
+      },
+      "zscores": {
+        "center_latitude": 0.459,
+        "center_longitude": 1.581,
+        "miles_west": 1.584,
+        "miles_south": -0.459
+      },
+      "events": []
+    },
+    {
+      "date": "1879-07-01",
+      "values": {
+        "center_latitude": 39.082,
+        "center_longitude": 84.554,
+        "miles_west": 448.682,
+        "miles_south": 13.327
+      },
+      "zscores": {
+        "center_latitude": 0.255,
+        "center_longitude": 1.59,
+        "miles_west": 1.593,
+        "miles_south": -0.255
+      },
+      "events": []
+    },
+    {
+      "date": "1880-07-01",
+      "values": {
+        "center_latitude": 39.069,
+        "center_longitude": 84.661,
+        "miles_west": 454.436,
+        "miles_south": 14.232
+      },
+      "zscores": {
+        "center_latitude": 0.052,
+        "center_longitude": 1.6,
+        "miles_west": 1.604,
+        "miles_south": -0.052
+      },
+      "events": []
+    },
+    {
+      "date": "1881-07-01",
+      "values": {
+        "center_latitude": 39.082,
+        "center_longitude": 84.75,
+        "miles_west": 459.146,
+        "miles_south": 13.334
+      },
+      "zscores": {
+        "center_latitude": 0.207,
+        "center_longitude": 1.597,
+        "miles_west": 1.6,
+        "miles_south": -0.207
+      },
+      "events": []
+    },
+    {
+      "date": "1882-07-01",
+      "values": {
+        "center_latitude": 39.095,
+        "center_longitude": 84.838,
+        "miles_west": 463.856,
+        "miles_south": 12.437
+      },
+      "zscores": {
+        "center_latitude": 0.358,
+        "center_longitude": 1.595,
+        "miles_west": 1.598,
+        "miles_south": -0.358
+      },
+      "events": []
+    },
+    {
+      "date": "1883-07-01",
+      "values": {
+        "center_latitude": 39.108,
+        "center_longitude": 84.927,
+        "miles_west": 468.565,
+        "miles_south": 11.539
+      },
+      "zscores": {
+        "center_latitude": 0.505,
+        "center_longitude": 1.597,
+        "miles_west": 1.598,
+        "miles_south": -0.505
+      },
+      "events": []
+    },
+    {
+      "date": "1884-07-01",
+      "values": {
+        "center_latitude": 39.121,
+        "center_longitude": 85.016,
+        "miles_west": 473.275,
+        "miles_south": 10.641
+      },
+      "zscores": {
+        "center_latitude": 0.649,
+        "center_longitude": 1.6,
+        "miles_west": 1.601,
+        "miles_south": -0.649
+      },
+      "events": []
+    },
+    {
+      "date": "1885-07-01",
+      "values": {
+        "center_latitude": 39.134,
+        "center_longitude": 85.105,
+        "miles_west": 477.985,
+        "miles_south": 9.744
+      },
+      "zscores": {
+        "center_latitude": 0.792,
+        "center_longitude": 1.607,
+        "miles_west": 1.607,
+        "miles_south": -0.792
+      },
+      "events": []
+    },
+    {
+      "date": "1886-07-01",
+      "values": {
+        "center_latitude": 39.147,
+        "center_longitude": 85.193,
+        "miles_west": 482.695,
+        "miles_south": 8.846
+      },
+      "zscores": {
+        "center_latitude": 0.933,
+        "center_longitude": 1.616,
+        "miles_west": 1.616,
+        "miles_south": -0.933
+      },
+      "events": []
+    },
+    {
+      "date": "1887-07-01",
+      "values": {
+        "center_latitude": 39.16,
+        "center_longitude": 85.282,
+        "miles_west": 487.404,
+        "miles_south": 7.948
+      },
+      "zscores": {
+        "center_latitude": 1.073,
+        "center_longitude": 1.625,
+        "miles_west": 1.624,
+        "miles_south": -1.073
+      },
+      "events": []
+    },
+    {
+      "date": "1888-07-01",
+      "values": {
+        "center_latitude": 39.173,
+        "center_longitude": 85.371,
+        "miles_west": 492.114,
+        "miles_south": 7.051
+      },
+      "zscores": {
+        "center_latitude": 1.211,
+        "center_longitude": 1.634,
+        "miles_west": 1.632,
+        "miles_south": -1.211
+      },
+      "events": []
+    },
+    {
+      "date": "1889-07-01",
+      "values": {
+        "center_latitude": 39.186,
+        "center_longitude": 85.459,
+        "miles_west": 496.824,
+        "miles_south": 6.153
+      },
+      "zscores": {
+        "center_latitude": 1.346,
+        "center_longitude": 1.642,
+        "miles_west": 1.64,
+        "miles_south": -1.346
+      },
+      "events": []
+    },
+    {
+      "date": "1890-07-01",
+      "values": {
+        "center_latitude": 39.199,
+        "center_longitude": 85.548,
+        "miles_west": 501.534,
+        "miles_south": 5.255
+      },
+      "zscores": {
+        "center_latitude": 1.476,
+        "center_longitude": 1.649,
+        "miles_west": 1.647,
+        "miles_south": -1.476
+      },
+      "events": []
+    },
+    {
+      "date": "1891-07-01",
+      "values": {
+        "center_latitude": 39.195,
+        "center_longitude": 85.575,
+        "miles_west": 502.978,
+        "miles_south": 5.524
+      },
+      "zscores": {
+        "center_latitude": 1.352,
+        "center_longitude": 1.598,
+        "miles_west": 1.596,
+        "miles_south": -1.352
+      },
+      "events": []
+    },
+    {
+      "date": "1892-07-01",
+      "values": {
+        "center_latitude": 39.191,
+        "center_longitude": 85.601,
+        "miles_west": 504.423,
+        "miles_south": 5.792
+      },
+      "zscores": {
+        "center_latitude": 1.237,
+        "center_longitude": 1.551,
+        "miles_west": 1.549,
+        "miles_south": -1.237
+      },
+      "events": []
+    },
+    {
+      "date": "1893-07-01",
+      "values": {
+        "center_latitude": 39.187,
+        "center_longitude": 85.628,
+        "miles_west": 505.867,
+        "miles_south": 6.061
+      },
+      "zscores": {
+        "center_latitude": 1.129,
+        "center_longitude": 1.505,
+        "miles_west": 1.504,
+        "miles_south": -1.129
+      },
+      "events": []
+    },
+    {
+      "date": "1894-07-01",
+      "values": {
+        "center_latitude": 39.183,
+        "center_longitude": 85.655,
+        "miles_west": 507.311,
+        "miles_south": 6.33
+      },
+      "zscores": {
+        "center_latitude": 1.025,
+        "center_longitude": 1.462,
+        "miles_west": 1.461,
+        "miles_south": -1.025
+      },
+      "events": []
+    },
+    {
+      "date": "1895-07-01",
+      "values": {
+        "center_latitude": 39.179,
+        "center_longitude": 85.682,
+        "miles_west": 508.756,
+        "miles_south": 6.598
+      },
+      "zscores": {
+        "center_latitude": 0.924,
+        "center_longitude": 1.42,
+        "miles_west": 1.419,
+        "miles_south": -0.924
+      },
+      "events": []
+    },
+    {
+      "date": "1896-07-01",
+      "values": {
+        "center_latitude": 39.176,
+        "center_longitude": 85.708,
+        "miles_west": 510.2,
+        "miles_south": 6.867
+      },
+      "zscores": {
+        "center_latitude": 0.823,
+        "center_longitude": 1.379,
+        "miles_west": 1.379,
+        "miles_south": -0.823
+      },
+      "events": []
+    },
+    {
+      "date": "1897-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 85.735,
+        "miles_west": 511.645,
+        "miles_south": 7.135
+      },
+      "zscores": {
+        "center_latitude": 0.708,
+        "center_longitude": 1.343,
+        "miles_west": 1.342,
+        "miles_south": -0.708
+      },
+      "events": []
+    },
+    {
+      "date": "1898-07-01",
+      "values": {
+        "center_latitude": 39.168,
+        "center_longitude": 85.762,
+        "miles_west": 513.089,
+        "miles_south": 7.404
+      },
+      "zscores": {
+        "center_latitude": 0.579,
+        "center_longitude": 1.31,
+        "miles_west": 1.309,
+        "miles_south": -0.579
+      },
+      "events": []
+    },
+    {
+      "date": "1899-07-01",
+      "values": {
+        "center_latitude": 39.164,
+        "center_longitude": 85.788,
+        "miles_west": 514.534,
+        "miles_south": 7.672
+      },
+      "zscores": {
+        "center_latitude": 0.439,
+        "center_longitude": 1.28,
+        "miles_west": 1.28,
+        "miles_south": -0.439
+      },
+      "events": []
+    },
+    {
+      "date": "1900-07-01",
+      "values": {
+        "center_latitude": 39.16,
+        "center_longitude": 85.815,
+        "miles_west": 515.978,
+        "miles_south": 7.941
+      },
+      "zscores": {
+        "center_latitude": 0.294,
+        "center_longitude": 1.254,
+        "miles_west": 1.254,
+        "miles_south": -0.294
+      },
+      "events": []
+    },
+    {
+      "date": "1901-07-01",
+      "values": {
+        "center_latitude": 39.161,
+        "center_longitude": 85.887,
+        "miles_west": 519.853,
+        "miles_south": 7.872
+      },
+      "zscores": {
+        "center_latitude": 0.284,
+        "center_longitude": 1.282,
+        "miles_west": 1.282,
+        "miles_south": -0.284
+      },
+      "events": []
+    },
+    {
+      "date": "1902-07-01",
+      "values": {
+        "center_latitude": 39.162,
+        "center_longitude": 85.96,
+        "miles_west": 523.729,
+        "miles_south": 7.803
+      },
+      "zscores": {
+        "center_latitude": 0.284,
+        "center_longitude": 1.312,
+        "miles_west": 1.312,
+        "miles_south": -0.284
+      },
+      "events": []
+    },
+    {
+      "date": "1903-07-01",
+      "values": {
+        "center_latitude": 39.163,
+        "center_longitude": 86.032,
+        "miles_west": 527.604,
+        "miles_south": 7.734
+      },
+      "zscores": {
+        "center_latitude": 0.295,
+        "center_longitude": 1.345,
+        "miles_west": 1.345,
+        "miles_south": -0.295
+      },
+      "events": []
+    },
+    {
+      "date": "1904-07-01",
+      "values": {
+        "center_latitude": 39.164,
+        "center_longitude": 86.105,
+        "miles_west": 531.479,
+        "miles_south": 7.665
+      },
+      "zscores": {
+        "center_latitude": 0.321,
+        "center_longitude": 1.38,
+        "miles_west": 1.381,
+        "miles_south": -0.321
+      },
+      "events": []
+    },
+    {
+      "date": "1905-07-01",
+      "values": {
+        "center_latitude": 39.165,
+        "center_longitude": 86.177,
+        "miles_west": 535.355,
+        "miles_south": 7.595
+      },
+      "zscores": {
+        "center_latitude": 0.363,
+        "center_longitude": 1.419,
+        "miles_west": 1.419,
+        "miles_south": -0.363
+      },
+      "events": []
+    },
+    {
+      "date": "1906-07-01",
+      "values": {
+        "center_latitude": 39.166,
+        "center_longitude": 86.249,
+        "miles_west": 539.23,
+        "miles_south": 7.526
+      },
+      "zscores": {
+        "center_latitude": 0.428,
+        "center_longitude": 1.461,
+        "miles_west": 1.462,
+        "miles_south": -0.428
+      },
+      "events": []
+    },
+    {
+      "date": "1907-07-01",
+      "values": {
+        "center_latitude": 39.167,
+        "center_longitude": 86.322,
+        "miles_west": 543.105,
+        "miles_south": 7.457
+      },
+      "zscores": {
+        "center_latitude": 0.478,
+        "center_longitude": 1.504,
+        "miles_west": 1.505,
+        "miles_south": -0.478
+      },
+      "events": []
+    },
+    {
+      "date": "1908-07-01",
+      "values": {
+        "center_latitude": 39.168,
+        "center_longitude": 86.394,
+        "miles_west": 546.981,
+        "miles_south": 7.388
+      },
+      "zscores": {
+        "center_latitude": 0.513,
+        "center_longitude": 1.549,
+        "miles_west": 1.55,
+        "miles_south": -0.513
+      },
+      "events": []
+    },
+    {
+      "date": "1909-07-01",
+      "values": {
+        "center_latitude": 39.169,
+        "center_longitude": 86.467,
+        "miles_west": 550.856,
+        "miles_south": 7.319
+      },
+      "zscores": {
+        "center_latitude": 0.534,
+        "center_longitude": 1.593,
+        "miles_west": 1.595,
+        "miles_south": -0.534
+      },
+      "events": []
+    },
+    {
+      "date": "1910-07-01",
+      "values": {
+        "center_latitude": 39.17,
+        "center_longitude": 86.539,
+        "miles_west": 554.731,
+        "miles_south": 7.25
+      },
+      "zscores": {
+        "center_latitude": 0.543,
+        "center_longitude": 1.637,
+        "miles_west": 1.639,
+        "miles_south": -0.543
+      },
+      "events": []
+    },
+    {
+      "date": "1911-07-01",
+      "values": {
+        "center_latitude": 39.17,
+        "center_longitude": 86.557,
+        "miles_west": 555.705,
+        "miles_south": 7.233
+      },
+      "zscores": {
+        "center_latitude": 0.521,
+        "center_longitude": 1.603,
+        "miles_west": 1.605,
+        "miles_south": -0.521
+      },
+      "events": []
+    },
+    {
+      "date": "1912-07-01",
+      "values": {
+        "center_latitude": 39.171,
+        "center_longitude": 86.575,
+        "miles_west": 556.679,
+        "miles_south": 7.216
+      },
+      "zscores": {
+        "center_latitude": 0.492,
+        "center_longitude": 1.572,
+        "miles_west": 1.574,
+        "miles_south": -0.492
+      },
+      "events": []
+    },
+    {
+      "date": "1913-07-01",
+      "values": {
+        "center_latitude": 39.171,
+        "center_longitude": 86.593,
+        "miles_west": 557.653,
+        "miles_south": 7.198
+      },
+      "zscores": {
+        "center_latitude": 0.459,
+        "center_longitude": 1.543,
+        "miles_west": 1.545,
+        "miles_south": -0.459
+      },
+      "events": []
+    },
+    {
+      "date": "1914-07-01",
+      "values": {
+        "center_latitude": 39.171,
+        "center_longitude": 86.612,
+        "miles_west": 558.627,
+        "miles_south": 7.181
+      },
+      "zscores": {
+        "center_latitude": 0.423,
+        "center_longitude": 1.515,
+        "miles_west": 1.517,
+        "miles_south": -0.423
+      },
+      "events": []
+    },
+    {
+      "date": "1915-07-01",
+      "values": {
+        "center_latitude": 39.171,
+        "center_longitude": 86.63,
+        "miles_west": 559.601,
+        "miles_south": 7.164
+      },
+      "zscores": {
+        "center_latitude": 0.384,
+        "center_longitude": 1.489,
+        "miles_west": 1.491,
+        "miles_south": -0.384
+      },
+      "events": []
+    },
+    {
+      "date": "1916-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 86.648,
+        "miles_west": 560.575,
+        "miles_south": 7.147
+      },
+      "zscores": {
+        "center_latitude": 0.347,
+        "center_longitude": 1.464,
+        "miles_west": 1.465,
+        "miles_south": -0.347
+      },
+      "events": []
+    },
+    {
+      "date": "1917-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 86.666,
+        "miles_west": 561.549,
+        "miles_south": 7.129
+      },
+      "zscores": {
+        "center_latitude": 0.306,
+        "center_longitude": 1.44,
+        "miles_west": 1.441,
+        "miles_south": -0.306
+      },
+      "events": []
+    },
+    {
+      "date": "1918-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 86.684,
+        "miles_west": 562.523,
+        "miles_south": 7.112
+      },
+      "zscores": {
+        "center_latitude": 0.262,
+        "center_longitude": 1.418,
+        "miles_west": 1.419,
+        "miles_south": -0.262
+      },
+      "events": []
+    },
+    {
+      "date": "1919-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 86.703,
+        "miles_west": 563.497,
+        "miles_south": 7.095
+      },
+      "zscores": {
+        "center_latitude": 0.212,
+        "center_longitude": 1.398,
+        "miles_west": 1.398,
+        "miles_south": -0.212
+      },
+      "events": []
+    },
+    {
+      "date": "1920-07-01",
+      "values": {
+        "center_latitude": 39.172,
+        "center_longitude": 86.721,
+        "miles_west": 564.471,
+        "miles_south": 7.078
+      },
+      "zscores": {
+        "center_latitude": 0.158,
+        "center_longitude": 1.378,
+        "miles_west": 1.378,
+        "miles_south": -0.158
+      },
+      "events": []
+    },
+    {
+      "date": "1921-07-01",
+      "values": {
+        "center_latitude": 39.161,
+        "center_longitude": 86.762,
+        "miles_west": 566.736,
+        "miles_south": 7.837
+      },
+      "zscores": {
+        "center_latitude": -0.955,
+        "center_longitude": 1.404,
+        "miles_west": 1.405,
+        "miles_south": 0.955
+      },
+      "events": []
+    },
+    {
+      "date": "1922-07-01",
+      "values": {
+        "center_latitude": 39.151,
+        "center_longitude": 86.804,
+        "miles_west": 569.001,
+        "miles_south": 8.597
+      },
+      "zscores": {
+        "center_latitude": -2.072,
+        "center_longitude": 1.427,
+        "miles_west": 1.43,
+        "miles_south": 2.072
+      },
+      "events": []
+    },
+    {
+      "date": "1923-07-01",
+      "values": {
+        "center_latitude": 39.139,
+        "center_longitude": 86.845,
+        "miles_west": 571.266,
+        "miles_south": 9.356
+      },
+      "zscores": {
+        "center_latitude": -2.789,
+        "center_longitude": 1.448,
+        "miles_west": 1.452,
+        "miles_south": 2.789
+      },
+      "events": []
+    },
+    {
+      "date": "1924-07-01",
+      "values": {
+        "center_latitude": 39.129,
+        "center_longitude": 86.886,
+        "miles_west": 573.532,
+        "miles_south": 10.116
+      },
+      "zscores": {
+        "center_latitude": -3.111,
+        "center_longitude": 1.466,
+        "miles_west": 1.471,
+        "miles_south": 3.111
+      },
+      "events": []
+    },
+    {
+      "date": "1925-07-01",
+      "values": {
+        "center_latitude": 39.117,
+        "center_longitude": 86.928,
+        "miles_west": 575.797,
+        "miles_south": 10.875
+      },
+      "zscores": {
+        "center_latitude": -3.246,
+        "center_longitude": 1.48,
+        "miles_west": 1.486,
+        "miles_south": 3.246
+      },
+      "events": []
+    },
+    {
+      "date": "1926-07-01",
+      "values": {
+        "center_latitude": 39.106,
+        "center_longitude": 86.969,
+        "miles_west": 578.062,
+        "miles_south": 11.635
+      },
+      "zscores": {
+        "center_latitude": -3.331,
+        "center_longitude": 1.489,
+        "miles_west": 1.497,
+        "miles_south": 3.331
+      },
+      "events": []
+    },
+    {
+      "date": "1927-07-01",
+      "values": {
+        "center_latitude": 39.096,
+        "center_longitude": 87.011,
+        "miles_west": 580.328,
+        "miles_south": 12.394
+      },
+      "zscores": {
+        "center_latitude": -3.292,
+        "center_longitude": 1.499,
+        "miles_west": 1.508,
+        "miles_south": 3.292
+      },
+      "events": []
+    },
+    {
+      "date": "1928-07-01",
+      "values": {
+        "center_latitude": 39.084,
+        "center_longitude": 87.052,
+        "miles_west": 582.593,
+        "miles_south": 13.154
+      },
+      "zscores": {
+        "center_latitude": -3.195,
+        "center_longitude": 1.511,
+        "miles_west": 1.52,
+        "miles_south": 3.195
+      },
+      "events": []
+    },
+    {
+      "date": "1929-07-01",
+      "values": {
+        "center_latitude": 39.074,
+        "center_longitude": 87.094,
+        "miles_west": 584.858,
+        "miles_south": 13.914
+      },
+      "zscores": {
+        "center_latitude": -3.077,
+        "center_longitude": 1.524,
+        "miles_west": 1.534,
+        "miles_south": 3.077
+      },
+      "events": []
+    },
+    {
+      "date": "1930-07-01",
+      "values": {
+        "center_latitude": 39.062,
+        "center_longitude": 87.135,
+        "miles_west": 587.123,
+        "miles_south": 14.673
+      },
+      "zscores": {
+        "center_latitude": -2.954,
+        "center_longitude": 1.538,
+        "miles_west": 1.549,
+        "miles_south": 2.954
+      },
+      "events": []
+    },
+    {
+      "date": "1931-07-01",
+      "values": {
+        "center_latitude": 39.051,
+        "center_longitude": 87.159,
+        "miles_west": 588.466,
+        "miles_south": 15.461
+      },
+      "zscores": {
+        "center_latitude": -2.846,
+        "center_longitude": 1.519,
+        "miles_west": 1.53,
+        "miles_south": 2.846
+      },
+      "events": []
+    },
+    {
+      "date": "1932-07-01",
+      "values": {
+        "center_latitude": 39.04,
+        "center_longitude": 87.183,
+        "miles_west": 589.81,
+        "miles_south": 16.25
+      },
+      "zscores": {
+        "center_latitude": -2.74,
+        "center_longitude": 1.504,
+        "miles_west": 1.516,
+        "miles_south": 2.74
+      },
+      "events": []
+    },
+    {
+      "date": "1933-07-01",
+      "values": {
+        "center_latitude": 39.028,
+        "center_longitude": 87.207,
+        "miles_west": 591.153,
+        "miles_south": 17.038
+      },
+      "zscores": {
+        "center_latitude": -2.641,
+        "center_longitude": 1.495,
+        "miles_west": 1.508,
+        "miles_south": 2.641
+      },
+      "events": []
+    },
+    {
+      "date": "1934-07-01",
+      "values": {
+        "center_latitude": 39.017,
+        "center_longitude": 87.232,
+        "miles_west": 592.496,
+        "miles_south": 17.827
+      },
+      "zscores": {
+        "center_latitude": -2.549,
+        "center_longitude": 1.492,
+        "miles_west": 1.506,
+        "miles_south": 2.549
+      },
+      "events": []
+    },
+    {
+      "date": "1935-07-01",
+      "values": {
+        "center_latitude": 39.005,
+        "center_longitude": 87.256,
+        "miles_west": 593.839,
+        "miles_south": 18.615
+      },
+      "zscores": {
+        "center_latitude": -2.463,
+        "center_longitude": 1.496,
+        "miles_west": 1.51,
+        "miles_south": 2.463
+      },
+      "events": []
+    },
+    {
+      "date": "1936-07-01",
+      "values": {
+        "center_latitude": 38.994,
+        "center_longitude": 87.28,
+        "miles_west": 595.182,
+        "miles_south": 19.403
+      },
+      "zscores": {
+        "center_latitude": -2.384,
+        "center_longitude": 1.508,
+        "miles_west": 1.522,
+        "miles_south": 2.384
+      },
+      "events": []
+    },
+    {
+      "date": "1937-07-01",
+      "values": {
+        "center_latitude": 38.983,
+        "center_longitude": 87.304,
+        "miles_west": 596.526,
+        "miles_south": 20.192
+      },
+      "zscores": {
+        "center_latitude": -2.311,
+        "center_longitude": 1.522,
+        "miles_west": 1.536,
+        "miles_south": 2.311
+      },
+      "events": []
+    },
+    {
+      "date": "1938-07-01",
+      "values": {
+        "center_latitude": 38.971,
+        "center_longitude": 87.328,
+        "miles_west": 597.869,
+        "miles_south": 20.98
+      },
+      "zscores": {
+        "center_latitude": -2.244,
+        "center_longitude": 1.536,
+        "miles_west": 1.549,
+        "miles_south": 2.244
+      },
+      "events": []
+    },
+    {
+      "date": "1939-07-01",
+      "values": {
+        "center_latitude": 38.96,
+        "center_longitude": 87.352,
+        "miles_west": 599.212,
+        "miles_south": 21.768
+      },
+      "zscores": {
+        "center_latitude": -2.182,
+        "center_longitude": 1.549,
+        "miles_west": 1.562,
+        "miles_south": 2.182
+      },
+      "events": []
+    },
+    {
+      "date": "1940-07-01",
+      "values": {
+        "center_latitude": 38.948,
+        "center_longitude": 87.376,
+        "miles_west": 600.555,
+        "miles_south": 22.557
+      },
+      "zscores": {
+        "center_latitude": -2.125,
+        "center_longitude": 1.561,
+        "miles_west": 1.574,
+        "miles_south": 2.125
+      },
+      "events": []
+    },
+    {
+      "date": "1941-07-01",
+      "values": {
+        "center_latitude": 38.934,
+        "center_longitude": 87.476,
+        "miles_west": 605.949,
+        "miles_south": 23.552
+      },
+      "zscores": {
+        "center_latitude": -2.105,
+        "center_longitude": 1.775,
+        "miles_west": 1.784,
+        "miles_south": 2.105
+      },
+      "events": []
+    },
+    {
+      "date": "1942-07-01",
+      "values": {
+        "center_latitude": 38.919,
+        "center_longitude": 87.575,
+        "miles_west": 611.342,
+        "miles_south": 24.547
+      },
+      "zscores": {
+        "center_latitude": -2.081,
+        "center_longitude": 1.961,
+        "miles_west": 1.966,
+        "miles_south": 2.081
+      },
+      "events": []
+    },
+    {
+      "date": "1943-07-01",
+      "values": {
+        "center_latitude": 38.905,
+        "center_longitude": 87.674,
+        "miles_west": 616.736,
+        "miles_south": 25.543
+      },
+      "zscores": {
+        "center_latitude": -2.055,
+        "center_longitude": 2.109,
+        "miles_west": 2.111,
+        "miles_south": 2.055
+      },
+      "events": []
+    },
+    {
+      "date": "1944-07-01",
+      "values": {
+        "center_latitude": 38.891,
+        "center_longitude": 87.773,
+        "miles_west": 622.129,
+        "miles_south": 26.538
+      },
+      "zscores": {
+        "center_latitude": -2.027,
+        "center_longitude": 2.215,
+        "miles_west": 2.214,
+        "miles_south": 2.027
+      },
+      "events": []
+    },
+    {
+      "date": "1945-07-01",
+      "values": {
+        "center_latitude": 38.876,
+        "center_longitude": 87.873,
+        "miles_west": 627.523,
+        "miles_south": 27.534
+      },
+      "zscores": {
+        "center_latitude": -1.999,
+        "center_longitude": 2.281,
+        "miles_west": 2.278,
+        "miles_south": 1.999
+      },
+      "events": []
+    },
+    {
+      "date": "1946-07-01",
+      "values": {
+        "center_latitude": 38.862,
+        "center_longitude": 87.972,
+        "miles_west": 632.917,
+        "miles_south": 28.529
+      },
+      "zscores": {
+        "center_latitude": -1.972,
+        "center_longitude": 2.313,
+        "miles_west": 2.309,
+        "miles_south": 1.972
+      },
+      "events": []
+    },
+    {
+      "date": "1947-07-01",
+      "values": {
+        "center_latitude": 38.847,
+        "center_longitude": 88.071,
+        "miles_west": 638.31,
+        "miles_south": 29.525
+      },
+      "zscores": {
+        "center_latitude": -1.945,
+        "center_longitude": 2.326,
+        "miles_west": 2.321,
+        "miles_south": 1.945
+      },
+      "events": []
+    },
+    {
+      "date": "1948-07-01",
+      "values": {
+        "center_latitude": 38.833,
+        "center_longitude": 88.17,
+        "miles_west": 643.704,
+        "miles_south": 30.52
+      },
+      "zscores": {
+        "center_latitude": -1.92,
+        "center_longitude": 2.323,
+        "miles_west": 2.318,
+        "miles_south": 1.92
+      },
+      "events": []
+    },
+    {
+      "date": "1949-07-01",
+      "values": {
+        "center_latitude": 38.819,
+        "center_longitude": 88.27,
+        "miles_west": 649.097,
+        "miles_south": 31.515
+      },
+      "zscores": {
+        "center_latitude": -1.896,
+        "center_longitude": 2.31,
+        "miles_west": 2.304,
+        "miles_south": 1.896
+      },
+      "events": []
+    },
+    {
+      "date": "1950-07-01",
+      "values": {
+        "center_latitude": 38.804,
+        "center_longitude": 88.369,
+        "miles_west": 654.491,
+        "miles_south": 32.511
+      },
+      "zscores": {
+        "center_latitude": -1.873,
+        "center_longitude": 2.289,
+        "miles_west": 2.283,
+        "miles_south": 1.873
+      },
+      "events": []
+    },
+    {
+      "date": "1951-07-01",
+      "values": {
+        "center_latitude": 38.784,
+        "center_longitude": 88.453,
+        "miles_west": 659.11,
+        "miles_south": 33.924
+      },
+      "zscores": {
+        "center_latitude": -1.897,
+        "center_longitude": 2.238,
+        "miles_west": 2.234,
+        "miles_south": 1.897
+      },
+      "events": []
+    },
+    {
+      "date": "1952-07-01",
+      "values": {
+        "center_latitude": 38.763,
+        "center_longitude": 88.537,
+        "miles_west": 663.728,
+        "miles_south": 35.338
+      },
+      "zscores": {
+        "center_latitude": -1.915,
+        "center_longitude": 2.191,
+        "miles_west": 2.188,
+        "miles_south": 1.915
+      },
+      "events": []
+    },
+    {
+      "date": "1953-07-01",
+      "values": {
+        "center_latitude": 38.743,
+        "center_longitude": 88.621,
+        "miles_west": 668.347,
+        "miles_south": 36.752
+      },
+      "zscores": {
+        "center_latitude": -1.928,
+        "center_longitude": 2.146,
+        "miles_west": 2.145,
+        "miles_south": 1.928
+      },
+      "events": []
+    },
+    {
+      "date": "1954-07-01",
+      "values": {
+        "center_latitude": 38.722,
+        "center_longitude": 88.705,
+        "miles_west": 672.965,
+        "miles_south": 38.165
+      },
+      "zscores": {
+        "center_latitude": -1.938,
+        "center_longitude": 2.105,
+        "miles_west": 2.105,
+        "miles_south": 1.938
+      },
+      "events": []
+    },
+    {
+      "date": "1955-07-01",
+      "values": {
+        "center_latitude": 38.702,
+        "center_longitude": 88.789,
+        "miles_west": 677.584,
+        "miles_south": 39.579
+      },
+      "zscores": {
+        "center_latitude": -1.946,
+        "center_longitude": 2.067,
+        "miles_west": 2.067,
+        "miles_south": 1.946
+      },
+      "events": []
+    },
+    {
+      "date": "1956-07-01",
+      "values": {
+        "center_latitude": 38.681,
+        "center_longitude": 88.873,
+        "miles_west": 682.203,
+        "miles_south": 40.993
+      },
+      "zscores": {
+        "center_latitude": -1.953,
+        "center_longitude": 2.031,
+        "miles_west": 2.032,
+        "miles_south": 1.953
+      },
+      "events": []
+    },
+    {
+      "date": "1957-07-01",
+      "values": {
+        "center_latitude": 38.661,
+        "center_longitude": 88.957,
+        "miles_west": 686.821,
+        "miles_south": 42.406
+      },
+      "zscores": {
+        "center_latitude": -1.955,
+        "center_longitude": 1.997,
+        "miles_west": 1.998,
+        "miles_south": 1.955
+      },
+      "events": []
+    },
+    {
+      "date": "1958-07-01",
+      "values": {
+        "center_latitude": 38.64,
+        "center_longitude": 89.042,
+        "miles_west": 691.44,
+        "miles_south": 43.82
+      },
+      "zscores": {
+        "center_latitude": -1.954,
+        "center_longitude": 1.964,
+        "miles_west": 1.966,
+        "miles_south": 1.954
+      },
+      "events": []
+    },
+    {
+      "date": "1959-07-01",
+      "values": {
+        "center_latitude": 38.62,
+        "center_longitude": 89.126,
+        "miles_west": 696.059,
+        "miles_south": 45.234
+      },
+      "zscores": {
+        "center_latitude": -1.949,
+        "center_longitude": 1.932,
+        "miles_west": 1.934,
+        "miles_south": 1.949
+      },
+      "events": []
+    },
+    {
+      "date": "1960-07-01",
+      "values": {
+        "center_latitude": 38.599,
+        "center_longitude": 89.21,
+        "miles_west": 700.677,
+        "miles_south": 46.647
+      },
+      "zscores": {
+        "center_latitude": -1.941,
+        "center_longitude": 1.901,
+        "miles_west": 1.904,
+        "miles_south": 1.941
+      },
+      "events": []
+    },
+    {
+      "date": "1961-07-01",
+      "values": {
+        "center_latitude": 38.586,
+        "center_longitude": 89.259,
+        "miles_west": 703.418,
+        "miles_south": 47.589
+      },
+      "zscores": {
+        "center_latitude": -1.892,
+        "center_longitude": 1.831,
+        "miles_west": 1.834,
+        "miles_south": 1.892
+      },
+      "events": []
+    },
+    {
+      "date": "1962-07-01",
+      "values": {
+        "center_latitude": 38.572,
+        "center_longitude": 89.309,
+        "miles_west": 706.158,
+        "miles_south": 48.531
+      },
+      "zscores": {
+        "center_latitude": -1.849,
+        "center_longitude": 1.769,
+        "miles_west": 1.772,
+        "miles_south": 1.849
+      },
+      "events": []
+    },
+    {
+      "date": "1963-07-01",
+      "values": {
+        "center_latitude": 38.559,
+        "center_longitude": 89.359,
+        "miles_west": 708.899,
+        "miles_south": 49.473
+      },
+      "zscores": {
+        "center_latitude": -1.81,
+        "center_longitude": 1.714,
+        "miles_west": 1.717,
+        "miles_south": 1.81
+      },
+      "events": []
+    },
+    {
+      "date": "1964-07-01",
+      "values": {
+        "center_latitude": 38.545,
+        "center_longitude": 89.408,
+        "miles_west": 711.64,
+        "miles_south": 50.414
+      },
+      "zscores": {
+        "center_latitude": -1.774,
+        "center_longitude": 1.664,
+        "miles_west": 1.668,
+        "miles_south": 1.774
+      },
+      "events": []
+    },
+    {
+      "date": "1965-07-01",
+      "values": {
+        "center_latitude": 38.531,
+        "center_longitude": 89.458,
+        "miles_west": 714.38,
+        "miles_south": 51.356
+      },
+      "zscores": {
+        "center_latitude": -1.743,
+        "center_longitude": 1.62,
+        "miles_west": 1.624,
+        "miles_south": 1.743
+      },
+      "events": []
+    },
+    {
+      "date": "1966-07-01",
+      "values": {
+        "center_latitude": 38.518,
+        "center_longitude": 89.508,
+        "miles_west": 717.121,
+        "miles_south": 52.298
+      },
+      "zscores": {
+        "center_latitude": -1.714,
+        "center_longitude": 1.58,
+        "miles_west": 1.584,
+        "miles_south": 1.714
+      },
+      "events": []
+    },
+    {
+      "date": "1967-07-01",
+      "values": {
+        "center_latitude": 38.504,
+        "center_longitude": 89.557,
+        "miles_west": 719.862,
+        "miles_south": 53.239
+      },
+      "zscores": {
+        "center_latitude": -1.688,
+        "center_longitude": 1.545,
+        "miles_west": 1.549,
+        "miles_south": 1.688
+      },
+      "events": []
+    },
+    {
+      "date": "1968-07-01",
+      "values": {
+        "center_latitude": 38.49,
+        "center_longitude": 89.607,
+        "miles_west": 722.602,
+        "miles_south": 54.181
+      },
+      "zscores": {
+        "center_latitude": -1.665,
+        "center_longitude": 1.514,
+        "miles_west": 1.519,
+        "miles_south": 1.665
+      },
+      "events": []
+    },
+    {
+      "date": "1969-07-01",
+      "values": {
+        "center_latitude": 38.477,
+        "center_longitude": 89.656,
+        "miles_west": 725.343,
+        "miles_south": 55.123
+      },
+      "zscores": {
+        "center_latitude": -1.644,
+        "center_longitude": 1.488,
+        "miles_west": 1.492,
+        "miles_south": 1.644
+      },
+      "events": []
+    },
+    {
+      "date": "1970-07-01",
+      "values": {
+        "center_latitude": 38.463,
+        "center_longitude": 89.706,
+        "miles_west": 728.083,
+        "miles_south": 56.064
+      },
+      "zscores": {
+        "center_latitude": -1.625,
+        "center_longitude": 1.465,
+        "miles_west": 1.47,
+        "miles_south": 1.625
+      },
+      "events": []
+    },
+    {
+      "date": "1971-07-01",
+      "values": {
+        "center_latitude": 38.43,
+        "center_longitude": 89.793,
+        "miles_west": 732.934,
+        "miles_south": 58.316
+      },
+      "zscores": {
+        "center_latitude": -1.707,
+        "center_longitude": 1.488,
+        "miles_west": 1.494,
+        "miles_south": 1.707
+      },
+      "events": []
+    },
+    {
+      "date": "1972-07-01",
+      "values": {
+        "center_latitude": 38.398,
+        "center_longitude": 89.88,
+        "miles_west": 737.785,
+        "miles_south": 60.568
+      },
+      "zscores": {
+        "center_latitude": -1.779,
+        "center_longitude": 1.511,
+        "miles_west": 1.519,
+        "miles_south": 1.779
+      },
+      "events": []
+    },
+    {
+      "date": "1973-07-01",
+      "values": {
+        "center_latitude": 38.365,
+        "center_longitude": 89.966,
+        "miles_west": 742.636,
+        "miles_south": 62.82
+      },
+      "zscores": {
+        "center_latitude": -1.839,
+        "center_longitude": 1.536,
+        "miles_west": 1.545,
+        "miles_south": 1.839
+      },
+      "events": []
+    },
+    {
+      "date": "1974-07-01",
+      "values": {
+        "center_latitude": 38.333,
+        "center_longitude": 90.053,
+        "miles_west": 747.487,
+        "miles_south": 65.072
+      },
+      "zscores": {
+        "center_latitude": -1.89,
+        "center_longitude": 1.562,
+        "miles_west": 1.572,
+        "miles_south": 1.89
+      },
+      "events": []
+    },
+    {
+      "date": "1975-07-01",
+      "values": {
+        "center_latitude": 38.3,
+        "center_longitude": 90.14,
+        "miles_west": 752.337,
+        "miles_south": 67.324
+      },
+      "zscores": {
+        "center_latitude": -1.931,
+        "center_longitude": 1.592,
+        "miles_west": 1.602,
+        "miles_south": 1.931
+      },
+      "events": []
+    },
+    {
+      "date": "1976-07-01",
+      "values": {
+        "center_latitude": 38.267,
+        "center_longitude": 90.227,
+        "miles_west": 757.188,
+        "miles_south": 69.576
+      },
+      "zscores": {
+        "center_latitude": -1.963,
+        "center_longitude": 1.625,
+        "miles_west": 1.636,
+        "miles_south": 1.963
+      },
+      "events": []
+    },
+    {
+      "date": "1977-07-01",
+      "values": {
+        "center_latitude": 38.235,
+        "center_longitude": 90.314,
+        "miles_west": 762.039,
+        "miles_south": 71.827
+      },
+      "zscores": {
+        "center_latitude": -1.987,
+        "center_longitude": 1.657,
+        "miles_west": 1.668,
+        "miles_south": 1.987
+      },
+      "events": []
+    },
+    {
+      "date": "1978-07-01",
+      "values": {
+        "center_latitude": 38.202,
+        "center_longitude": 90.4,
+        "miles_west": 766.89,
+        "miles_south": 74.079
+      },
+      "zscores": {
+        "center_latitude": -2.002,
+        "center_longitude": 1.687,
+        "miles_west": 1.698,
+        "miles_south": 2.002
+      },
+      "events": []
+    },
+    {
+      "date": "1979-07-01",
+      "values": {
+        "center_latitude": 38.17,
+        "center_longitude": 90.487,
+        "miles_west": 771.741,
+        "miles_south": 76.331
+      },
+      "zscores": {
+        "center_latitude": -2.012,
+        "center_longitude": 1.715,
+        "miles_west": 1.726,
+        "miles_south": 2.012
+      },
+      "events": []
+    },
+    {
+      "date": "1980-07-01",
+      "values": {
+        "center_latitude": 38.137,
+        "center_longitude": 90.574,
+        "miles_west": 776.591,
+        "miles_south": 78.583
+      },
+      "zscores": {
+        "center_latitude": -2.015,
+        "center_longitude": 1.74,
+        "miles_west": 1.751,
+        "miles_south": 2.015
+      },
+      "events": [
+        {
+          "label": "Center crosses the Mississippi River",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "1981-07-01",
+      "values": {
+        "center_latitude": 38.11,
+        "center_longitude": 90.638,
+        "miles_west": 780.203,
+        "miles_south": 80.411
+      },
+      "zscores": {
+        "center_latitude": -1.99,
+        "center_longitude": 1.736,
+        "miles_west": 1.746,
+        "miles_south": 1.99
+      },
+      "events": []
+    },
+    {
+      "date": "1982-07-01",
+      "values": {
+        "center_latitude": 38.084,
+        "center_longitude": 90.702,
+        "miles_west": 783.815,
+        "miles_south": 82.239
+      },
+      "zscores": {
+        "center_latitude": -1.965,
+        "center_longitude": 1.731,
+        "miles_west": 1.741,
+        "miles_south": 1.965
+      },
+      "events": []
+    },
+    {
+      "date": "1983-07-01",
+      "values": {
+        "center_latitude": 38.058,
+        "center_longitude": 90.766,
+        "miles_west": 787.428,
+        "miles_south": 84.067
+      },
+      "zscores": {
+        "center_latitude": -1.941,
+        "center_longitude": 1.727,
+        "miles_west": 1.736,
+        "miles_south": 1.941
+      },
+      "events": []
+    },
+    {
+      "date": "1984-07-01",
+      "values": {
+        "center_latitude": 38.031,
+        "center_longitude": 90.83,
+        "miles_west": 791.04,
+        "miles_south": 85.895
+      },
+      "zscores": {
+        "center_latitude": -1.919,
+        "center_longitude": 1.721,
+        "miles_west": 1.73,
+        "miles_south": 1.919
+      },
+      "events": []
+    },
+    {
+      "date": "1985-07-01",
+      "values": {
+        "center_latitude": 38.005,
+        "center_longitude": 90.895,
+        "miles_west": 794.652,
+        "miles_south": 87.723
+      },
+      "zscores": {
+        "center_latitude": -1.898,
+        "center_longitude": 1.715,
+        "miles_west": 1.724,
+        "miles_south": 1.898
+      },
+      "events": []
+    },
+    {
+      "date": "1986-07-01",
+      "values": {
+        "center_latitude": 37.978,
+        "center_longitude": 90.959,
+        "miles_west": 798.264,
+        "miles_south": 89.55
+      },
+      "zscores": {
+        "center_latitude": -1.878,
+        "center_longitude": 1.708,
+        "miles_west": 1.717,
+        "miles_south": 1.878
+      },
+      "events": []
+    },
+    {
+      "date": "1987-07-01",
+      "values": {
+        "center_latitude": 37.952,
+        "center_longitude": 91.023,
+        "miles_west": 801.876,
+        "miles_south": 91.378
+      },
+      "zscores": {
+        "center_latitude": -1.859,
+        "center_longitude": 1.701,
+        "miles_west": 1.709,
+        "miles_south": 1.859
+      },
+      "events": []
+    },
+    {
+      "date": "1988-07-01",
+      "values": {
+        "center_latitude": 37.925,
+        "center_longitude": 91.087,
+        "miles_west": 805.488,
+        "miles_south": 93.206
+      },
+      "zscores": {
+        "center_latitude": -1.839,
+        "center_longitude": 1.694,
+        "miles_west": 1.702,
+        "miles_south": 1.839
+      },
+      "events": []
+    },
+    {
+      "date": "1989-07-01",
+      "values": {
+        "center_latitude": 37.899,
+        "center_longitude": 91.151,
+        "miles_west": 809.1,
+        "miles_south": 95.034
+      },
+      "zscores": {
+        "center_latitude": -1.82,
+        "center_longitude": 1.688,
+        "miles_west": 1.695,
+        "miles_south": 1.82
+      },
+      "events": []
+    },
+    {
+      "date": "1990-07-01",
+      "values": {
+        "center_latitude": 37.872,
+        "center_longitude": 91.215,
+        "miles_west": 812.712,
+        "miles_south": 96.862
+      },
+      "zscores": {
+        "center_latitude": -1.801,
+        "center_longitude": 1.68,
+        "miles_west": 1.687,
+        "miles_south": 1.801
+      },
+      "events": []
+    },
+    {
+      "date": "1991-07-01",
+      "values": {
+        "center_latitude": 37.855,
+        "center_longitude": 91.275,
+        "miles_west": 816.029,
+        "miles_south": 98.072
+      },
+      "zscores": {
+        "center_latitude": -1.752,
+        "center_longitude": 1.667,
+        "miles_west": 1.673,
+        "miles_south": 1.752
+      },
+      "events": []
+    },
+    {
+      "date": "1992-07-01",
+      "values": {
+        "center_latitude": 37.837,
+        "center_longitude": 91.334,
+        "miles_west": 819.345,
+        "miles_south": 99.282
+      },
+      "zscores": {
+        "center_latitude": -1.707,
+        "center_longitude": 1.654,
+        "miles_west": 1.659,
+        "miles_south": 1.707
+      },
+      "events": []
+    },
+    {
+      "date": "1993-07-01",
+      "values": {
+        "center_latitude": 37.82,
+        "center_longitude": 91.394,
+        "miles_west": 822.662,
+        "miles_south": 100.492
+      },
+      "zscores": {
+        "center_latitude": -1.667,
+        "center_longitude": 1.642,
+        "miles_west": 1.645,
+        "miles_south": 1.667
+      },
+      "events": []
+    },
+    {
+      "date": "1994-07-01",
+      "values": {
+        "center_latitude": 37.802,
+        "center_longitude": 91.453,
+        "miles_west": 825.979,
+        "miles_south": 101.702
+      },
+      "zscores": {
+        "center_latitude": -1.63,
+        "center_longitude": 1.629,
+        "miles_west": 1.632,
+        "miles_south": 1.63
+      },
+      "events": []
+    },
+    {
+      "date": "1995-07-01",
+      "values": {
+        "center_latitude": 37.785,
+        "center_longitude": 91.512,
+        "miles_west": 829.295,
+        "miles_south": 102.912
+      },
+      "zscores": {
+        "center_latitude": -1.597,
+        "center_longitude": 1.616,
+        "miles_west": 1.618,
+        "miles_south": 1.597
+      },
+      "events": []
+    },
+    {
+      "date": "1996-07-01",
+      "values": {
+        "center_latitude": 37.767,
+        "center_longitude": 91.572,
+        "miles_west": 832.612,
+        "miles_south": 104.122
+      },
+      "zscores": {
+        "center_latitude": -1.567,
+        "center_longitude": 1.604,
+        "miles_west": 1.605,
+        "miles_south": 1.567
+      },
+      "events": []
+    },
+    {
+      "date": "1997-07-01",
+      "values": {
+        "center_latitude": 37.75,
+        "center_longitude": 91.631,
+        "miles_west": 835.929,
+        "miles_south": 105.332
+      },
+      "zscores": {
+        "center_latitude": -1.54,
+        "center_longitude": 1.593,
+        "miles_west": 1.593,
+        "miles_south": 1.54
+      },
+      "events": []
+    },
+    {
+      "date": "1998-07-01",
+      "values": {
+        "center_latitude": 37.732,
+        "center_longitude": 91.691,
+        "miles_west": 839.246,
+        "miles_south": 106.542
+      },
+      "zscores": {
+        "center_latitude": -1.517,
+        "center_longitude": 1.584,
+        "miles_west": 1.584,
+        "miles_south": 1.517
+      },
+      "events": []
+    },
+    {
+      "date": "1999-07-01",
+      "values": {
+        "center_latitude": 37.715,
+        "center_longitude": 91.75,
+        "miles_west": 842.562,
+        "miles_south": 107.752
+      },
+      "zscores": {
+        "center_latitude": -1.497,
+        "center_longitude": 1.577,
+        "miles_west": 1.576,
+        "miles_south": 1.497
+      },
+      "events": []
+    },
+    {
+      "date": "2000-07-01",
+      "values": {
+        "center_latitude": 37.697,
+        "center_longitude": 91.81,
+        "miles_west": 845.879,
+        "miles_south": 108.962
+      },
+      "zscores": {
+        "center_latitude": -1.481,
+        "center_longitude": 1.571,
+        "miles_west": 1.571,
+        "miles_south": 1.481
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "center_latitude": 37.679,
+        "center_longitude": 91.846,
+        "miles_west": 847.955,
+        "miles_south": 110.201
+      },
+      "zscores": {
+        "center_latitude": -1.469,
+        "center_longitude": 1.54,
+        "miles_west": 1.54,
+        "miles_south": 1.469
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "center_latitude": 37.661,
+        "center_longitude": 91.882,
+        "miles_west": 850.031,
+        "miles_south": 111.44
+      },
+      "zscores": {
+        "center_latitude": -1.461,
+        "center_longitude": 1.512,
+        "miles_west": 1.513,
+        "miles_south": 1.461
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "center_latitude": 37.643,
+        "center_longitude": 91.919,
+        "miles_west": 852.107,
+        "miles_south": 112.679
+      },
+      "zscores": {
+        "center_latitude": -1.456,
+        "center_longitude": 1.49,
+        "miles_west": 1.491,
+        "miles_south": 1.456
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "center_latitude": 37.625,
+        "center_longitude": 91.955,
+        "miles_west": 854.183,
+        "miles_south": 113.918
+      },
+      "zscores": {
+        "center_latitude": -1.456,
+        "center_longitude": 1.471,
+        "miles_west": 1.473,
+        "miles_south": 1.456
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "center_latitude": 37.607,
+        "center_longitude": 91.991,
+        "miles_west": 856.259,
+        "miles_south": 115.157
+      },
+      "zscores": {
+        "center_latitude": -1.46,
+        "center_longitude": 1.458,
+        "miles_west": 1.46,
+        "miles_south": 1.46
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "center_latitude": 37.589,
+        "center_longitude": 92.028,
+        "miles_west": 858.334,
+        "miles_south": 116.396
+      },
+      "zscores": {
+        "center_latitude": -1.469,
+        "center_longitude": 1.449,
+        "miles_west": 1.452,
+        "miles_south": 1.469
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "center_latitude": 37.571,
+        "center_longitude": 92.064,
+        "miles_west": 860.41,
+        "miles_south": 117.636
+      },
+      "zscores": {
+        "center_latitude": -1.48,
+        "center_longitude": 1.442,
+        "miles_west": 1.446,
+        "miles_south": 1.48
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "center_latitude": 37.553,
+        "center_longitude": 92.1,
+        "miles_west": 862.486,
+        "miles_south": 118.875
+      },
+      "zscores": {
+        "center_latitude": -1.492,
+        "center_longitude": 1.438,
+        "miles_west": 1.443,
+        "miles_south": 1.492
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "center_latitude": 37.535,
+        "center_longitude": 92.137,
+        "miles_west": 864.562,
+        "miles_south": 120.114
+      },
+      "zscores": {
+        "center_latitude": -1.506,
+        "center_longitude": 1.436,
+        "miles_west": 1.441,
+        "miles_south": 1.506
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "center_latitude": 37.518,
+        "center_longitude": 92.173,
+        "miles_west": 866.638,
+        "miles_south": 121.353
+      },
+      "zscores": {
+        "center_latitude": -1.521,
+        "center_longitude": 1.435,
+        "miles_west": 1.441,
+        "miles_south": 1.521
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "center_latitude": 37.507,
+        "center_longitude": 92.19,
+        "miles_west": 867.64,
+        "miles_south": 122.056
+      },
+      "zscores": {
+        "center_latitude": -1.504,
+        "center_longitude": 1.406,
+        "miles_west": 1.412,
+        "miles_south": 1.504
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "center_latitude": 37.497,
+        "center_longitude": 92.208,
+        "miles_west": 868.642,
+        "miles_south": 122.759
+      },
+      "zscores": {
+        "center_latitude": -1.49,
+        "center_longitude": 1.38,
+        "miles_west": 1.387,
+        "miles_south": 1.49
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "center_latitude": 37.487,
+        "center_longitude": 92.225,
+        "miles_west": 869.644,
+        "miles_south": 123.462
+      },
+      "zscores": {
+        "center_latitude": -1.477,
+        "center_longitude": 1.356,
+        "miles_west": 1.363,
+        "miles_south": 1.477
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "center_latitude": 37.477,
+        "center_longitude": 92.242,
+        "miles_west": 870.645,
+        "miles_south": 124.165
+      },
+      "zscores": {
+        "center_latitude": -1.466,
+        "center_longitude": 1.334,
+        "miles_west": 1.341,
+        "miles_south": 1.466
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "center_latitude": 37.467,
+        "center_longitude": 92.26,
+        "miles_west": 871.647,
+        "miles_south": 124.868
+      },
+      "zscores": {
+        "center_latitude": -1.456,
+        "center_longitude": 1.313,
+        "miles_west": 1.321,
+        "miles_south": 1.456
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "center_latitude": 37.456,
+        "center_longitude": 92.277,
+        "miles_west": 872.649,
+        "miles_south": 125.571
+      },
+      "zscores": {
+        "center_latitude": -1.447,
+        "center_longitude": 1.294,
+        "miles_west": 1.302,
+        "miles_south": 1.447
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "center_latitude": 37.446,
+        "center_longitude": 92.294,
+        "miles_west": 873.651,
+        "miles_south": 126.274
+      },
+      "zscores": {
+        "center_latitude": -1.441,
+        "center_longitude": 1.277,
+        "miles_west": 1.286,
+        "miles_south": 1.441
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "center_latitude": 37.436,
+        "center_longitude": 92.312,
+        "miles_west": 874.653,
+        "miles_south": 126.977
+      },
+      "zscores": {
+        "center_latitude": -1.436,
+        "center_longitude": 1.264,
+        "miles_west": 1.273,
+        "miles_south": 1.436
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "center_latitude": 37.426,
+        "center_longitude": 92.329,
+        "miles_west": 875.655,
+        "miles_south": 127.68
+      },
+      "zscores": {
+        "center_latitude": -1.433,
+        "center_longitude": 1.253,
+        "miles_west": 1.262,
+        "miles_south": 1.433
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "center_latitude": 37.416,
+        "center_longitude": 92.347,
+        "miles_west": 876.656,
+        "miles_south": 128.383
+      },
+      "zscores": {
+        "center_latitude": -1.432,
+        "center_longitude": 1.245,
+        "miles_west": 1.255,
+        "miles_south": 1.432
+      },
+      "events": [
+        {
+          "label": "Center near Hartville, Missouri (877 miles west)",
+          "type": "policy_shift"
+        }
+      ]
+    }
+  ],
+  "explanation": {
+    "summary": "Imagine the United States as a flat board with every person the same weight. The point where the board would balance is the \"center of population.\" In 1790 it was near Baltimore. Over 230 years it moved 877 miles west and 128 miles south, to the Missouri Ozarks.",
+    "methodology": "Mean center of population for each census, 1790-2020, from Table 1 of the Census Bureau's 2020 Centers of Population documentation. Miles west and south are measured from the 1790 point. The Census measures the center only once every 10 years; years in between are a straight line.",
+    "key_findings": [
+      {
+        "date": "1860-07-01",
+        "title": "1850s: The Biggest Leap West",
+        "description": "Between 1850 and 1860 the center moved about 80 miles west, the largest jump of any decade, as settlers poured into the Midwest and California.",
+        "significance": "The fastest westward shift in the nation's history.",
+        "normalized_time": 0.3043
+      },
+      {
+        "date": "1980-07-01",
+        "title": "1980: Across the Mississippi",
+        "description": "For the first time, the center crossed the Mississippi River into Missouri (Jefferson County).",
+        "significance": "From 1950 on, the center also moved steadily south as the Sun Belt grew.",
+        "normalized_time": 0.8261
+      },
+      {
+        "date": "2020-07-01",
+        "title": "2020: Wright County, Missouri",
+        "description": "The 2020 center is near Hartville, Missouri, 877 miles west and 128 miles south of the 1790 point. Since 1950 the center has moved about 96 miles south, three times as far as in the 160 years before.",
+        "significance": "America's growth has shifted from the West to the South and Southwest.",
+        "normalized_time": 1.0
+      }
+    ]
+  }
+}

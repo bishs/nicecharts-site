@@ -1,0 +1,5179 @@
+{
+  "metadata": {
+    "chart_id": "chart_25",
+    "number": 25,
+    "title": "Where America's Electricity Comes From",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "EIA"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2001,
+    "end_year": 2026,
+    "observation_count": 307,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-07"
+  },
+  "analytics": {
+    "optimal_lag_months": 4,
+    "peak_correlation_coefficient": -0.89,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.782
+      },
+      {
+        "lag": -17,
+        "r": -0.772
+      },
+      {
+        "lag": -16,
+        "r": -0.807
+      },
+      {
+        "lag": -15,
+        "r": -0.825
+      },
+      {
+        "lag": -14,
+        "r": -0.791
+      },
+      {
+        "lag": -13,
+        "r": -0.72
+      },
+      {
+        "lag": -12,
+        "r": -0.675
+      },
+      {
+        "lag": -11,
+        "r": -0.721
+      },
+      {
+        "lag": -10,
+        "r": -0.809
+      },
+      {
+        "lag": -9,
+        "r": -0.883
+      },
+      {
+        "lag": -8,
+        "r": -0.889
+      },
+      {
+        "lag": -7,
+        "r": -0.84
+      },
+      {
+        "lag": -6,
+        "r": -0.794
+      },
+      {
+        "lag": -5,
+        "r": -0.785
+      },
+      {
+        "lag": -4,
+        "r": -0.819
+      },
+      {
+        "lag": -3,
+        "r": -0.836
+      },
+      {
+        "lag": -2,
+        "r": -0.801
+      },
+      {
+        "lag": -1,
+        "r": -0.731
+      },
+      {
+        "lag": 0,
+        "r": -0.685
+      },
+      {
+        "lag": 1,
+        "r": -0.733
+      },
+      {
+        "lag": 2,
+        "r": -0.818
+      },
+      {
+        "lag": 3,
+        "r": -0.888
+      },
+      {
+        "lag": 4,
+        "r": -0.89
+      },
+      {
+        "lag": 5,
+        "r": -0.837
+      },
+      {
+        "lag": 6,
+        "r": -0.784
+      },
+      {
+        "lag": 7,
+        "r": -0.772
+      },
+      {
+        "lag": 8,
+        "r": -0.806
+      },
+      {
+        "lag": 9,
+        "r": -0.82
+      },
+      {
+        "lag": 10,
+        "r": -0.778
+      },
+      {
+        "lag": 11,
+        "r": -0.699
+      },
+      {
+        "lag": 12,
+        "r": -0.647
+      },
+      {
+        "lag": 13,
+        "r": -0.692
+      },
+      {
+        "lag": 14,
+        "r": -0.783
+      },
+      {
+        "lag": 15,
+        "r": -0.858
+      },
+      {
+        "lag": 16,
+        "r": -0.861
+      },
+      {
+        "lag": 17,
+        "r": -0.803
+      },
+      {
+        "lag": 18,
+        "r": -0.749
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "generation_coal",
+      "agency": "EIA",
+      "series_id": "EIA_923_COAL",
+      "label": "Coal Power Plants",
+      "unit": "Billion kWh/Mo",
+      "transform": "raw",
+      "color": "#475569"
+    },
+    {
+      "key": "generation_gas",
+      "agency": "EIA",
+      "series_id": "EIA_923_GAS",
+      "label": "Natural Gas Plants",
+      "unit": "Billion kWh/Mo",
+      "transform": "raw",
+      "color": "#f97316"
+    },
+    {
+      "key": "generation_nuclear",
+      "agency": "EIA",
+      "series_id": "EIA_923_NUC",
+      "label": "Nuclear Power",
+      "unit": "Billion kWh/Mo",
+      "transform": "raw",
+      "color": "#8b5cf6"
+    },
+    {
+      "key": "generation_renewables",
+      "agency": "EIA",
+      "series_id": "EIA_923_REN",
+      "label": "Wind & Solar Clean Energy",
+      "unit": "Billion kWh/Mo",
+      "transform": "raw",
+      "color": "#10b981"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2001-01-01",
+      "values": {
+        "generation_coal": 177.287,
+        "generation_gas": 42.389,
+        "generation_nuclear": 68.707,
+        "generation_renewables": 0.396
+      },
+      "zscores": {
+        "generation_coal": 0.0,
+        "generation_gas": 0.0,
+        "generation_nuclear": 0.0,
+        "generation_renewables": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-02-01",
+      "values": {
+        "generation_coal": 149.735,
+        "generation_gas": 37.967,
+        "generation_nuclear": 61.272,
+        "generation_renewables": 0.444
+      },
+      "zscores": {
+        "generation_coal": -1.0,
+        "generation_gas": -1.0,
+        "generation_nuclear": -1.0,
+        "generation_renewables": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "generation_coal": 155.269,
+        "generation_gas": 44.364,
+        "generation_nuclear": 62.141,
+        "generation_renewables": 0.564
+      },
+      "zscores": {
+        "generation_coal": -0.462,
+        "generation_gas": 1.044,
+        "generation_nuclear": -0.572,
+        "generation_renewables": 1.358
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "generation_coal": 140.671,
+        "generation_gas": 45.843,
+        "generation_nuclear": 56.003,
+        "generation_renewables": 0.723
+      },
+      "zscores": {
+        "generation_coal": -1.117,
+        "generation_gas": 1.08,
+        "generation_nuclear": -1.335,
+        "generation_renewables": 1.516
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "generation_coal": 151.593,
+        "generation_gas": 50.934,
+        "generation_nuclear": 61.512,
+        "generation_renewables": 0.716
+      },
+      "zscores": {
+        "generation_coal": -0.272,
+        "generation_gas": 1.562,
+        "generation_nuclear": -0.103,
+        "generation_renewables": 1.092
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "generation_coal": 162.616,
+        "generation_gas": 57.603,
+        "generation_nuclear": 68.023,
+        "generation_renewables": 0.761
+      },
+      "zscores": {
+        "generation_coal": 0.559,
+        "generation_gas": 1.762,
+        "generation_nuclear": 1.172,
+        "generation_renewables": 1.123
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "generation_coal": 179.06,
+        "generation_gas": 73.03,
+        "generation_nuclear": 69.166,
+        "generation_renewables": 0.727
+      },
+      "zscores": {
+        "generation_coal": 1.473,
+        "generation_gas": 2.074,
+        "generation_nuclear": 1.168,
+        "generation_renewables": 0.778
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "generation_coal": 183.116,
+        "generation_gas": 78.41,
+        "generation_nuclear": 68.389,
+        "generation_renewables": 0.663
+      },
+      "zscores": {
+        "generation_coal": 1.408,
+        "generation_gas": 1.777,
+        "generation_nuclear": 0.881,
+        "generation_renewables": 0.293
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "generation_coal": 154.158,
+        "generation_gas": 60.181,
+        "generation_nuclear": 63.378,
+        "generation_renewables": 0.555
+      },
+      "zscores": {
+        "generation_coal": -0.521,
+        "generation_gas": 0.429,
+        "generation_nuclear": -0.212,
+        "generation_renewables": -0.49
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "generation_coal": 148.931,
+        "generation_gas": 56.376,
+        "generation_nuclear": 60.461,
+        "generation_renewables": 0.628
+      },
+      "zscores": {
+        "generation_coal": -0.814,
+        "generation_gas": 0.133,
+        "generation_nuclear": -0.816,
+        "generation_renewables": 0.085
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "generation_coal": 144.117,
+        "generation_gas": 44.491,
+        "generation_nuclear": 62.342,
+        "generation_renewables": 0.485
+      },
+      "zscores": {
+        "generation_coal": -1.044,
+        "generation_gas": -0.755,
+        "generation_nuclear": -0.351,
+        "generation_renewables": -1.008
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "generation_coal": 157.402,
+        "generation_gas": 47.541,
+        "generation_nuclear": 67.431,
+        "generation_renewables": 0.62
+      },
+      "zscores": {
+        "generation_coal": -0.094,
+        "generation_gas": -0.48,
+        "generation_nuclear": 0.839,
+        "generation_renewables": 0.113
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "generation_coal": 164.358,
+        "generation_gas": 48.413,
+        "generation_nuclear": 70.926,
+        "generation_renewables": 0.823
+      },
+      "zscores": {
+        "generation_coal": 0.404,
+        "generation_gas": -0.389,
+        "generation_nuclear": 1.485,
+        "generation_renewables": 1.604
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "generation_coal": 143.049,
+        "generation_gas": 44.308,
+        "generation_nuclear": 61.658,
+        "generation_renewables": 0.737
+      },
+      "zscores": {
+        "generation_coal": -1.129,
+        "generation_gas": -0.704,
+        "generation_nuclear": -0.653,
+        "generation_renewables": 0.859
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "generation_coal": 151.486,
+        "generation_gas": 51.214,
+        "generation_nuclear": 63.041,
+        "generation_renewables": 0.896
+      },
+      "zscores": {
+        "generation_coal": -0.47,
+        "generation_gas": -0.091,
+        "generation_nuclear": -0.31,
+        "generation_renewables": 1.815
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "generation_coal": 142.305,
+        "generation_gas": 49.146,
+        "generation_nuclear": 58.437,
+        "generation_renewables": 1.07
+      },
+      "zscores": {
+        "generation_coal": -1.099,
+        "generation_gas": -0.27,
+        "generation_nuclear": -1.318,
+        "generation_renewables": 2.367
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "generation_coal": 151.406,
+        "generation_gas": 50.275,
+        "generation_nuclear": 63.032,
+        "generation_renewables": 1.135
+      },
+      "zscores": {
+        "generation_coal": -0.384,
+        "generation_gas": -0.159,
+        "generation_nuclear": -0.209,
+        "generation_renewables": 2.224
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "generation_coal": 164.668,
+        "generation_gas": 65.631,
+        "generation_nuclear": 66.372,
+        "generation_renewables": 1.222
+      },
+      "zscores": {
+        "generation_coal": 0.638,
+        "generation_gas": 1.235,
+        "generation_nuclear": 0.592,
+        "generation_renewables": 2.195
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "generation_coal": 183.195,
+        "generation_gas": 83.917,
+        "generation_nuclear": 70.421,
+        "generation_renewables": 0.976
+      },
+      "zscores": {
+        "generation_coal": 1.86,
+        "generation_gas": 2.393,
+        "generation_nuclear": 1.47,
+        "generation_renewables": 1.034
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "generation_coal": 179.955,
+        "generation_gas": 84.477,
+        "generation_nuclear": 70.778,
+        "generation_renewables": 1.052
+      },
+      "zscores": {
+        "generation_coal": 1.484,
+        "generation_gas": 2.087,
+        "generation_nuclear": 1.433,
+        "generation_renewables": 1.277
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "generation_coal": 165.366,
+        "generation_gas": 68.161,
+        "generation_nuclear": 64.481,
+        "generation_renewables": 0.788
+      },
+      "zscores": {
+        "generation_coal": 0.428,
+        "generation_gas": 0.86,
+        "generation_nuclear": -0.044,
+        "generation_renewables": 0.123
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "generation_coal": 159.099,
+        "generation_gas": 54.201,
+        "generation_nuclear": 60.493,
+        "generation_renewables": 0.765
+      },
+      "zscores": {
+        "generation_coal": -0.029,
+        "generation_gas": -0.158,
+        "generation_nuclear": -0.959,
+        "generation_renewables": 0.019
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "generation_coal": 156.054,
+        "generation_gas": 45.161,
+        "generation_nuclear": 61.52,
+        "generation_renewables": 0.684
+      },
+      "zscores": {
+        "generation_coal": -0.251,
+        "generation_gas": -0.805,
+        "generation_nuclear": -0.689,
+        "generation_renewables": -0.345
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "generation_coal": 172.19,
+        "generation_gas": 46.1,
+        "generation_nuclear": 68.905,
+        "generation_renewables": 0.76
+      },
+      "zscores": {
+        "generation_coal": 0.941,
+        "generation_gas": -0.711,
+        "generation_nuclear": 1.06,
+        "generation_renewables": 0.008
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "generation_coal": 181.313,
+        "generation_gas": 50.176,
+        "generation_nuclear": 69.211,
+        "generation_renewables": 0.646
+      },
+      "zscores": {
+        "generation_coal": 1.525,
+        "generation_gas": -0.391,
+        "generation_nuclear": 1.084,
+        "generation_renewables": -0.523
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "generation_coal": 156.982,
+        "generation_gas": 43.547,
+        "generation_nuclear": 60.942,
+        "generation_renewables": 0.763
+      },
+      "zscores": {
+        "generation_coal": -0.272,
+        "generation_gas": -0.874,
+        "generation_nuclear": -0.882,
+        "generation_renewables": 0.047
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "generation_coal": 155.002,
+        "generation_gas": 46.699,
+        "generation_nuclear": 59.933,
+        "generation_renewables": 1.086
+      },
+      "zscores": {
+        "generation_coal": -0.413,
+        "generation_gas": -0.612,
+        "generation_nuclear": -1.08,
+        "generation_renewables": 1.537
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "generation_coal": 141.96,
+        "generation_gas": 45.195,
+        "generation_nuclear": 56.776,
+        "generation_renewables": 1.153
+      },
+      "zscores": {
+        "generation_coal": -1.34,
+        "generation_gas": -0.71,
+        "generation_nuclear": -1.709,
+        "generation_renewables": 1.722
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "generation_coal": 150.263,
+        "generation_gas": 49.373,
+        "generation_nuclear": 62.202,
+        "generation_renewables": 1.074
+      },
+      "zscores": {
+        "generation_coal": -0.695,
+        "generation_gas": -0.371,
+        "generation_nuclear": -0.439,
+        "generation_renewables": 1.295
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "generation_coal": 162.285,
+        "generation_gas": 54.453,
+        "generation_nuclear": 64.181,
+        "generation_renewables": 1.138
+      },
+      "zscores": {
+        "generation_coal": 0.216,
+        "generation_gas": 0.038,
+        "generation_nuclear": 0.026,
+        "generation_renewables": 1.496
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "generation_coal": 181.852,
+        "generation_gas": 76.938,
+        "generation_nuclear": 69.653,
+        "generation_renewables": 1.016
+      },
+      "zscores": {
+        "generation_coal": 1.624,
+        "generation_gas": 1.755,
+        "generation_nuclear": 1.279,
+        "generation_renewables": 0.924
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "generation_coal": 185.332,
+        "generation_gas": 83.25,
+        "generation_nuclear": 69.024,
+        "generation_renewables": 0.877
+      },
+      "zscores": {
+        "generation_coal": 1.761,
+        "generation_gas": 2.061,
+        "generation_nuclear": 1.091,
+        "generation_renewables": 0.302
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "generation_coal": 164.91,
+        "generation_gas": 59.09,
+        "generation_nuclear": 63.584,
+        "generation_renewables": 0.951
+      },
+      "zscores": {
+        "generation_coal": 0.278,
+        "generation_gas": 0.255,
+        "generation_nuclear": -0.19,
+        "generation_renewables": 0.621
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "generation_coal": 159.323,
+        "generation_gas": 51.824,
+        "generation_nuclear": 60.016,
+        "generation_renewables": 0.933
+      },
+      "zscores": {
+        "generation_coal": -0.13,
+        "generation_gas": -0.29,
+        "generation_nuclear": -1.012,
+        "generation_renewables": 0.527
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "generation_coal": 158.223,
+        "generation_gas": 45.328,
+        "generation_nuclear": 59.6,
+        "generation_renewables": 0.975
+      },
+      "zscores": {
+        "generation_coal": -0.209,
+        "generation_gas": -0.77,
+        "generation_nuclear": -1.077,
+        "generation_renewables": 0.709
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "generation_coal": 176.291,
+        "generation_gas": 44.035,
+        "generation_nuclear": 68.612,
+        "generation_renewables": 1.109
+      },
+      "zscores": {
+        "generation_coal": 1.119,
+        "generation_gas": -0.849,
+        "generation_nuclear": 1.041,
+        "generation_renewables": 1.28
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "generation_coal": 180.657,
+        "generation_gas": 48.253,
+        "generation_nuclear": 70.806,
+        "generation_renewables": 1.012
+      },
+      "zscores": {
+        "generation_coal": 1.427,
+        "generation_gas": -0.54,
+        "generation_nuclear": 1.522,
+        "generation_renewables": 0.795
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "generation_coal": 161.503,
+        "generation_gas": 50.32,
+        "generation_nuclear": 64.102,
+        "generation_renewables": 1.032
+      },
+      "zscores": {
+        "generation_coal": -0.025,
+        "generation_gas": -0.415,
+        "generation_nuclear": -0.065,
+        "generation_renewables": 0.854
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "generation_coal": 154.288,
+        "generation_gas": 49.801,
+        "generation_nuclear": 63.285,
+        "generation_renewables": 1.344
+      },
+      "zscores": {
+        "generation_coal": -0.566,
+        "generation_gas": -0.473,
+        "generation_nuclear": -0.265,
+        "generation_renewables": 2.232
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "generation_coal": 141.471,
+        "generation_gas": 51.822,
+        "generation_nuclear": 58.62,
+        "generation_renewables": 1.352
+      },
+      "zscores": {
+        "generation_coal": -1.536,
+        "generation_gas": -0.326,
+        "generation_nuclear": -1.427,
+        "generation_renewables": 2.065
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "generation_coal": 157.016,
+        "generation_gas": 62.022,
+        "generation_nuclear": 64.917,
+        "generation_renewables": 1.783
+      },
+      "zscores": {
+        "generation_coal": -0.377,
+        "generation_gas": 0.479,
+        "generation_nuclear": 0.084,
+        "generation_renewables": 3.29
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "generation_coal": 167.642,
+        "generation_gas": 64.686,
+        "generation_nuclear": 67.734,
+        "generation_renewables": 1.485
+      },
+      "zscores": {
+        "generation_coal": 0.419,
+        "generation_gas": 0.675,
+        "generation_nuclear": 0.778,
+        "generation_renewables": 1.955
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "generation_coal": 181.492,
+        "generation_gas": 79.29,
+        "generation_nuclear": 71.975,
+        "generation_renewables": 1.246
+      },
+      "zscores": {
+        "generation_coal": 1.453,
+        "generation_gas": 1.8,
+        "generation_nuclear": 1.752,
+        "generation_renewables": 1.02
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "generation_coal": 178.181,
+        "generation_gas": 77.821,
+        "generation_nuclear": 71.068,
+        "generation_renewables": 1.124
+      },
+      "zscores": {
+        "generation_coal": 1.232,
+        "generation_gas": 1.689,
+        "generation_nuclear": 1.486,
+        "generation_renewables": 0.531
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "generation_coal": 164.253,
+        "generation_gas": 67.854,
+        "generation_nuclear": 65.932,
+        "generation_renewables": 1.15
+      },
+      "zscores": {
+        "generation_coal": 0.148,
+        "generation_gas": 0.875,
+        "generation_nuclear": 0.267,
+        "generation_renewables": 0.587
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "generation_coal": 157.605,
+        "generation_gas": 57.229,
+        "generation_nuclear": 62.53,
+        "generation_renewables": 1.062
+      },
+      "zscores": {
+        "generation_coal": -0.386,
+        "generation_gas": 0.04,
+        "generation_nuclear": -0.549,
+        "generation_renewables": 0.21
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "generation_coal": 157.436,
+        "generation_gas": 49.693,
+        "generation_nuclear": 58.941,
+        "generation_renewables": 0.948
+      },
+      "zscores": {
+        "generation_coal": -0.44,
+        "generation_gas": -0.567,
+        "generation_nuclear": -1.346,
+        "generation_renewables": -0.312
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "generation_coal": 176.755,
+        "generation_gas": 51.31,
+        "generation_nuclear": 68.617,
+        "generation_renewables": 1.18
+      },
+      "zscores": {
+        "generation_coal": 1.048,
+        "generation_gas": -0.45,
+        "generation_nuclear": 0.882,
+        "generation_renewables": 0.62
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "generation_coal": 177.014,
+        "generation_gas": 51.338,
+        "generation_nuclear": 69.828,
+        "generation_renewables": 1.14
+      },
+      "zscores": {
+        "generation_coal": 1.025,
+        "generation_gas": -0.456,
+        "generation_nuclear": 1.179,
+        "generation_renewables": 0.414
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "generation_coal": 155.818,
+        "generation_gas": 44.913,
+        "generation_nuclear": 60.947,
+        "generation_renewables": 0.98
+      },
+      "zscores": {
+        "generation_coal": -0.671,
+        "generation_gas": -0.971,
+        "generation_nuclear": -0.878,
+        "generation_renewables": -0.332
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "generation_coal": 163.613,
+        "generation_gas": 51.897,
+        "generation_nuclear": 61.539,
+        "generation_renewables": 1.599
+      },
+      "zscores": {
+        "generation_coal": -0.074,
+        "generation_gas": -0.415,
+        "generation_nuclear": -0.727,
+        "generation_renewables": 2.219
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "generation_coal": 143.083,
+        "generation_gas": 52.016,
+        "generation_nuclear": 55.484,
+        "generation_renewables": 1.756
+      },
+      "zscores": {
+        "generation_coal": -1.753,
+        "generation_gas": -0.413,
+        "generation_nuclear": -2.035,
+        "generation_renewables": 2.532
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "generation_coal": 153.958,
+        "generation_gas": 54.826,
+        "generation_nuclear": 62.97,
+        "generation_renewables": 1.828
+      },
+      "zscores": {
+        "generation_coal": -0.876,
+        "generation_gas": -0.199,
+        "generation_nuclear": -0.366,
+        "generation_renewables": 2.481
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "generation_coal": 174.867,
+        "generation_gas": 75.635,
+        "generation_nuclear": 66.144,
+        "generation_renewables": 1.885
+      },
+      "zscores": {
+        "generation_coal": 0.812,
+        "generation_gas": 1.421,
+        "generation_nuclear": 0.343,
+        "generation_renewables": 2.398
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "generation_coal": 186.091,
+        "generation_gas": 96.819,
+        "generation_nuclear": 71.07,
+        "generation_renewables": 1.493
+      },
+      "zscores": {
+        "generation_coal": 1.701,
+        "generation_gas": 2.859,
+        "generation_nuclear": 1.43,
+        "generation_renewables": 1.093
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "generation_coal": 187.574,
+        "generation_gas": 100.787,
+        "generation_nuclear": 71.382,
+        "generation_renewables": 1.214
+      },
+      "zscores": {
+        "generation_coal": 1.759,
+        "generation_gas": 2.884,
+        "generation_nuclear": 1.488,
+        "generation_renewables": 0.206
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "generation_coal": 171.656,
+        "generation_gas": 73.355,
+        "generation_nuclear": 66.739,
+        "generation_renewables": 1.529
+      },
+      "zscores": {
+        "generation_coal": 0.493,
+        "generation_gas": 1.0,
+        "generation_nuclear": 0.448,
+        "generation_renewables": 1.129
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "generation_coal": 162.437,
+        "generation_gas": 55.941,
+        "generation_nuclear": 61.236,
+        "generation_renewables": 1.484
+      },
+      "zscores": {
+        "generation_coal": -0.237,
+        "generation_gas": -0.178,
+        "generation_nuclear": -0.77,
+        "generation_renewables": 0.933
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "generation_coal": 158.798,
+        "generation_gas": 49.44,
+        "generation_nuclear": 62.913,
+        "generation_renewables": 1.622
+      },
+      "zscores": {
+        "generation_coal": -0.531,
+        "generation_gas": -0.629,
+        "generation_nuclear": -0.41,
+        "generation_renewables": 1.306
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "generation_coal": 177.965,
+        "generation_gas": 53.993,
+        "generation_nuclear": 71.735,
+        "generation_renewables": 1.831
+      },
+      "zscores": {
+        "generation_coal": 0.958,
+        "generation_gas": -0.337,
+        "generation_nuclear": 1.499,
+        "generation_renewables": 1.841
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "generation_coal": 169.236,
+        "generation_gas": 43.807,
+        "generation_nuclear": 71.912,
+        "generation_renewables": 2.396
+      },
+      "zscores": {
+        "generation_coal": 0.309,
+        "generation_gas": -1.013,
+        "generation_nuclear": 1.491,
+        "generation_renewables": 3.108
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "generation_coal": 158.616,
+        "generation_gas": 47.409,
+        "generation_nuclear": 62.616,
+        "generation_renewables": 1.941
+      },
+      "zscores": {
+        "generation_coal": -0.542,
+        "generation_gas": -0.781,
+        "generation_nuclear": -0.503,
+        "generation_renewables": 1.716
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "generation_coal": 161.325,
+        "generation_gas": 54.922,
+        "generation_nuclear": 63.721,
+        "generation_renewables": 2.392
+      },
+      "zscores": {
+        "generation_coal": -0.342,
+        "generation_gas": -0.286,
+        "generation_nuclear": -0.293,
+        "generation_renewables": 2.597
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "generation_coal": 141.426,
+        "generation_gas": 56.091,
+        "generation_nuclear": 57.567,
+        "generation_renewables": 2.524
+      },
+      "zscores": {
+        "generation_coal": -1.939,
+        "generation_gas": -0.229,
+        "generation_nuclear": -1.653,
+        "generation_renewables": 2.563
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "generation_coal": 157.01,
+        "generation_gas": 65.586,
+        "generation_nuclear": 62.776,
+        "generation_renewables": 2.529
+      },
+      "zscores": {
+        "generation_coal": -0.713,
+        "generation_gas": 0.404,
+        "generation_nuclear": -0.513,
+        "generation_renewables": 2.306
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "generation_coal": 169.693,
+        "generation_gas": 81.06,
+        "generation_nuclear": 68.391,
+        "generation_renewables": 2.121
+      },
+      "zscores": {
+        "generation_coal": 0.305,
+        "generation_gas": 1.399,
+        "generation_nuclear": 0.694,
+        "generation_renewables": 1.355
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "generation_coal": 187.821,
+        "generation_gas": 108.094,
+        "generation_nuclear": 72.186,
+        "generation_renewables": 2.017
+      },
+      "zscores": {
+        "generation_coal": 1.733,
+        "generation_gas": 2.844,
+        "generation_nuclear": 1.481,
+        "generation_renewables": 1.076
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "generation_coal": 189.455,
+        "generation_gas": 106.592,
+        "generation_nuclear": 72.016,
+        "generation_renewables": 1.738
+      },
+      "zscores": {
+        "generation_coal": 1.826,
+        "generation_gas": 2.519,
+        "generation_nuclear": 1.399,
+        "generation_renewables": 0.461
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "generation_coal": 161.59,
+        "generation_gas": 72.673,
+        "generation_nuclear": 66.642,
+        "generation_renewables": 1.933
+      },
+      "zscores": {
+        "generation_coal": -0.358,
+        "generation_gas": 0.576,
+        "generation_nuclear": 0.249,
+        "generation_renewables": 0.824
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "generation_coal": 161.39,
+        "generation_gas": 70.64,
+        "generation_nuclear": 57.509,
+        "generation_renewables": 2.474
+      },
+      "zscores": {
+        "generation_coal": -0.379,
+        "generation_gas": 0.433,
+        "generation_nuclear": -1.628,
+        "generation_renewables": 1.839
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "generation_coal": 159.44,
+        "generation_gas": 53.44,
+        "generation_nuclear": 61.392,
+        "generation_renewables": 2.556
+      },
+      "zscores": {
+        "generation_coal": -0.536,
+        "generation_gas": -0.557,
+        "generation_nuclear": -0.845,
+        "generation_renewables": 1.864
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "generation_coal": 173.509,
+        "generation_gas": 56.128,
+        "generation_nuclear": 70.49,
+        "generation_renewables": 2.474
+      },
+      "zscores": {
+        "generation_coal": 0.582,
+        "generation_gas": -0.429,
+        "generation_nuclear": 1.034,
+        "generation_renewables": 1.588
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "generation_coal": 175.739,
+        "generation_gas": 61.475,
+        "generation_nuclear": 74.006,
+        "generation_renewables": 2.465
+      },
+      "zscores": {
+        "generation_coal": 0.777,
+        "generation_gas": -0.143,
+        "generation_nuclear": 1.699,
+        "generation_renewables": 1.479
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "generation_coal": 163.603,
+        "generation_gas": 57.622,
+        "generation_nuclear": 65.225,
+        "generation_renewables": 2.539
+      },
+      "zscores": {
+        "generation_coal": -0.198,
+        "generation_gas": -0.383,
+        "generation_nuclear": -0.078,
+        "generation_renewables": 1.529
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "generation_coal": 159.811,
+        "generation_gas": 56.204,
+        "generation_nuclear": 64.305,
+        "generation_renewables": 3.096
+      },
+      "zscores": {
+        "generation_coal": -0.519,
+        "generation_gas": -0.48,
+        "generation_nuclear": -0.27,
+        "generation_renewables": 2.335
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "generation_coal": 146.25,
+        "generation_gas": 60.153,
+        "generation_nuclear": 57.301,
+        "generation_renewables": 3.226
+      },
+      "zscores": {
+        "generation_coal": -1.658,
+        "generation_gas": -0.261,
+        "generation_nuclear": -1.661,
+        "generation_renewables": 2.303
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "generation_coal": 157.513,
+        "generation_gas": 66.47,
+        "generation_nuclear": 65.025,
+        "generation_renewables": 3.037
+      },
+      "zscores": {
+        "generation_coal": -0.731,
+        "generation_gas": 0.109,
+        "generation_nuclear": -0.117,
+        "generation_renewables": 1.832
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "generation_coal": 173.513,
+        "generation_gas": 81.511,
+        "generation_nuclear": 68.923,
+        "generation_renewables": 2.705
+      },
+      "zscores": {
+        "generation_coal": 0.572,
+        "generation_gas": 0.967,
+        "generation_nuclear": 0.655,
+        "generation_renewables": 1.228
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "generation_coal": 185.054,
+        "generation_gas": 97.483,
+        "generation_nuclear": 72.739,
+        "generation_renewables": 2.244
+      },
+      "zscores": {
+        "generation_coal": 1.496,
+        "generation_gas": 1.808,
+        "generation_nuclear": 1.403,
+        "generation_renewables": 0.467
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "generation_coal": 190.135,
+        "generation_gas": 121.338,
+        "generation_nuclear": 72.751,
+        "generation_renewables": 2.775
+      },
+      "zscores": {
+        "generation_coal": 1.814,
+        "generation_gas": 2.756,
+        "generation_nuclear": 1.381,
+        "generation_renewables": 1.242
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "generation_coal": 169.391,
+        "generation_gas": 88.532,
+        "generation_nuclear": 67.579,
+        "generation_renewables": 2.935
+      },
+      "zscores": {
+        "generation_coal": 0.178,
+        "generation_gas": 1.051,
+        "generation_nuclear": 0.357,
+        "generation_renewables": 1.415
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "generation_coal": 162.234,
+        "generation_gas": 78.358,
+        "generation_nuclear": 61.69,
+        "generation_renewables": 3.426
+      },
+      "zscores": {
+        "generation_coal": -0.395,
+        "generation_gas": 0.516,
+        "generation_nuclear": -0.788,
+        "generation_renewables": 2.037
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "generation_coal": 159.382,
+        "generation_gas": 60.637,
+        "generation_nuclear": 64.899,
+        "generation_renewables": 3.119
+      },
+      "zscores": {
+        "generation_coal": -0.625,
+        "generation_gas": -0.385,
+        "generation_nuclear": -0.199,
+        "generation_renewables": 1.492
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "generation_coal": 173.83,
+        "generation_gas": 66.808,
+        "generation_nuclear": 71.983,
+        "generation_renewables": 3.496
+      },
+      "zscores": {
+        "generation_coal": 0.525,
+        "generation_gas": -0.097,
+        "generation_nuclear": 1.18,
+        "generation_renewables": 1.943
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "generation_coal": 182.876,
+        "generation_gas": 72.6,
+        "generation_nuclear": 70.735,
+        "generation_renewables": 4.289
+      },
+      "zscores": {
+        "generation_coal": 1.214,
+        "generation_gas": 0.169,
+        "generation_nuclear": 0.925,
+        "generation_renewables": 2.791
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "generation_coal": 166.666,
+        "generation_gas": 60.042,
+        "generation_nuclear": 65.13,
+        "generation_renewables": 3.888
+      },
+      "zscores": {
+        "generation_coal": -0.08,
+        "generation_gas": -0.507,
+        "generation_nuclear": -0.199,
+        "generation_renewables": 2.082
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "generation_coal": 160.743,
+        "generation_gas": 62.171,
+        "generation_nuclear": 64.716,
+        "generation_renewables": 4.857
+      },
+      "zscores": {
+        "generation_coal": -0.542,
+        "generation_gas": -0.415,
+        "generation_nuclear": -0.302,
+        "generation_renewables": 2.934
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "generation_coal": 146.983,
+        "generation_gas": 63.046,
+        "generation_nuclear": 57.333,
+        "generation_renewables": 5.319
+      },
+      "zscores": {
+        "generation_coal": -1.664,
+        "generation_gas": -0.389,
+        "generation_nuclear": -1.833,
+        "generation_renewables": 2.966
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "generation_coal": 154.916,
+        "generation_gas": 62.27,
+        "generation_nuclear": 64.826,
+        "generation_renewables": 5.439
+      },
+      "zscores": {
+        "generation_coal": -1.032,
+        "generation_gas": -0.444,
+        "generation_nuclear": -0.309,
+        "generation_renewables": 2.688
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "generation_coal": 171.043,
+        "generation_gas": 84.62,
+        "generation_nuclear": 70.319,
+        "generation_renewables": 5.269
+      },
+      "zscores": {
+        "generation_coal": 0.276,
+        "generation_gas": 0.74,
+        "generation_nuclear": 0.793,
+        "generation_renewables": 2.264
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "generation_coal": 186.733,
+        "generation_gas": 100.321,
+        "generation_nuclear": 74.318,
+        "generation_renewables": 4.119
+      },
+      "zscores": {
+        "generation_coal": 1.538,
+        "generation_gas": 1.561,
+        "generation_nuclear": 1.556,
+        "generation_renewables": 1.15
+      },
+      "events": [
+        {
+          "label": "Coal supplies about half of US electricity",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "generation_coal": 180.576,
+        "generation_gas": 99.673,
+        "generation_nuclear": 72.617,
+        "generation_renewables": 3.37
+      },
+      "zscores": {
+        "generation_coal": 1.08,
+        "generation_gas": 1.533,
+        "generation_nuclear": 1.2,
+        "generation_renewables": 0.423
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "generation_coal": 161.356,
+        "generation_gas": 79.136,
+        "generation_nuclear": 67.054,
+        "generation_renewables": 3.204
+      },
+      "zscores": {
+        "generation_coal": -0.478,
+        "generation_gas": 0.431,
+        "generation_nuclear": 0.096,
+        "generation_renewables": 0.228
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "generation_coal": 151.841,
+        "generation_gas": 73.283,
+        "generation_nuclear": 62.82,
+        "generation_renewables": 4.817
+      },
+      "zscores": {
+        "generation_coal": -1.212,
+        "generation_gas": 0.096,
+        "generation_nuclear": -0.758,
+        "generation_renewables": 1.677
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "generation_coal": 154.281,
+        "generation_gas": 61.454,
+        "generation_nuclear": 63.408,
+        "generation_renewables": 5.022
+      },
+      "zscores": {
+        "generation_coal": -0.997,
+        "generation_gas": -0.564,
+        "generation_nuclear": -0.645,
+        "generation_renewables": 1.751
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "generation_coal": 167.786,
+        "generation_gas": 64.364,
+        "generation_nuclear": 72.931,
+        "generation_renewables": 6.635
+      },
+      "zscores": {
+        "generation_coal": 0.107,
+        "generation_gas": -0.426,
+        "generation_nuclear": 1.245,
+        "generation_renewables": 2.821
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "generation_coal": 171.925,
+        "generation_gas": 66.39,
+        "generation_nuclear": 74.102,
+        "generation_renewables": 5.958
+      },
+      "zscores": {
+        "generation_coal": 0.435,
+        "generation_gas": -0.361,
+        "generation_nuclear": 1.444,
+        "generation_renewables": 2.05
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "generation_coal": 140.916,
+        "generation_gas": 62.139,
+        "generation_nuclear": 64.227,
+        "generation_renewables": 5.883
+      },
+      "zscores": {
+        "generation_coal": -1.929,
+        "generation_gas": -0.642,
+        "generation_nuclear": -0.5,
+        "generation_renewables": 1.843
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "generation_coal": 135.53,
+        "generation_gas": 68.203,
+        "generation_nuclear": 67.241,
+        "generation_renewables": 7.177
+      },
+      "zscores": {
+        "generation_coal": -2.137,
+        "generation_gas": -0.314,
+        "generation_nuclear": 0.074,
+        "generation_renewables": 2.508
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "generation_coal": 125.935,
+        "generation_gas": 61.159,
+        "generation_nuclear": 59.408,
+        "generation_renewables": 7.557
+      },
+      "zscores": {
+        "generation_coal": -2.618,
+        "generation_gas": -0.745,
+        "generation_nuclear": -1.511,
+        "generation_renewables": 2.457
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "generation_coal": 131.673,
+        "generation_gas": 68.146,
+        "generation_nuclear": 65.395,
+        "generation_renewables": 6.372
+      },
+      "zscores": {
+        "generation_coal": -2.057,
+        "generation_gas": -0.333,
+        "generation_nuclear": -0.324,
+        "generation_renewables": 1.576
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "generation_coal": 148.087,
+        "generation_gas": 84.205,
+        "generation_nuclear": 69.735,
+        "generation_renewables": 5.703
+      },
+      "zscores": {
+        "generation_coal": -0.969,
+        "generation_gas": 0.619,
+        "generation_nuclear": 0.548,
+        "generation_renewables": 1.091
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "generation_coal": 158.234,
+        "generation_gas": 101.894,
+        "generation_nuclear": 72.949,
+        "generation_renewables": 5.076
+      },
+      "zscores": {
+        "generation_coal": -0.293,
+        "generation_gas": 1.716,
+        "generation_nuclear": 1.188,
+        "generation_renewables": 0.652
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "generation_coal": 163.26,
+        "generation_gas": 109.24,
+        "generation_nuclear": 72.245,
+        "generation_renewables": 5.581
+      },
+      "zscores": {
+        "generation_coal": 0.082,
+        "generation_gas": 2.137,
+        "generation_nuclear": 1.044,
+        "generation_renewables": 0.926
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "generation_coal": 137.145,
+        "generation_gas": 92.127,
+        "generation_nuclear": 65.752,
+        "generation_renewables": 4.746
+      },
+      "zscores": {
+        "generation_coal": -1.576,
+        "generation_gas": 1.058,
+        "generation_nuclear": -0.257,
+        "generation_renewables": 0.338
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "generation_coal": 139.956,
+        "generation_gas": 72.603,
+        "generation_nuclear": 58.021,
+        "generation_renewables": 6.882
+      },
+      "zscores": {
+        "generation_coal": -1.32,
+        "generation_gas": -0.101,
+        "generation_nuclear": -1.823,
+        "generation_renewables": 1.663
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "generation_coal": 136.81,
+        "generation_gas": 63.285,
+        "generation_nuclear": 59.069,
+        "generation_renewables": 6.916
+      },
+      "zscores": {
+        "generation_coal": -1.436,
+        "generation_gas": -0.68,
+        "generation_nuclear": -1.57,
+        "generation_renewables": 1.58
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "generation_coal": 166.434,
+        "generation_gas": 71.59,
+        "generation_nuclear": 70.71,
+        "generation_renewables": 6.927
+      },
+      "zscores": {
+        "generation_coal": 0.402,
+        "generation_gas": -0.21,
+        "generation_nuclear": 0.739,
+        "generation_renewables": 1.495
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "generation_coal": 173.32,
+        "generation_gas": 74.173,
+        "generation_nuclear": 72.569,
+        "generation_renewables": 6.864
+      },
+      "zscores": {
+        "generation_coal": 0.836,
+        "generation_gas": -0.074,
+        "generation_nuclear": 1.127,
+        "generation_renewables": 1.376
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "generation_coal": 153.044,
+        "generation_gas": 66.198,
+        "generation_nuclear": 65.245,
+        "generation_renewables": 5.465
+      },
+      "zscores": {
+        "generation_coal": -0.406,
+        "generation_gas": -0.589,
+        "generation_nuclear": -0.341,
+        "generation_renewables": 0.43
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "generation_coal": 144.406,
+        "generation_gas": 63.431,
+        "generation_nuclear": 64.635,
+        "generation_renewables": 8.665
+      },
+      "zscores": {
+        "generation_coal": -0.906,
+        "generation_gas": -0.785,
+        "generation_nuclear": -0.465,
+        "generation_renewables": 2.303
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "generation_coal": 126.952,
+        "generation_gas": 64.644,
+        "generation_nuclear": 57.611,
+        "generation_renewables": 9.877
+      },
+      "zscores": {
+        "generation_coal": -1.862,
+        "generation_gas": -0.721,
+        "generation_nuclear": -1.882,
+        "generation_renewables": 2.671
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "generation_coal": 143.272,
+        "generation_gas": 73.665,
+        "generation_nuclear": 66.658,
+        "generation_renewables": 8.851
+      },
+      "zscores": {
+        "generation_coal": -0.87,
+        "generation_gas": -0.158,
+        "generation_nuclear": -0.071,
+        "generation_renewables": 1.93
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "generation_coal": 165.491,
+        "generation_gas": 92.268,
+        "generation_nuclear": 68.301,
+        "generation_renewables": 8.225
+      },
+      "zscores": {
+        "generation_coal": 0.439,
+        "generation_gas": 1.003,
+        "generation_nuclear": 0.264,
+        "generation_renewables": 1.5
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "generation_coal": 179.6,
+        "generation_gas": 114.624,
+        "generation_nuclear": 71.913,
+        "generation_renewables": 6.885
+      },
+      "zscores": {
+        "generation_coal": 1.292,
+        "generation_gas": 2.265,
+        "generation_nuclear": 1.003,
+        "generation_renewables": 0.728
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "generation_coal": 177.745,
+        "generation_gas": 121.151,
+        "generation_nuclear": 71.574,
+        "generation_renewables": 6.842
+      },
+      "zscores": {
+        "generation_coal": 1.243,
+        "generation_gas": 2.659,
+        "generation_nuclear": 0.947,
+        "generation_renewables": 0.66
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "generation_coal": 148.746,
+        "generation_gas": 93.004,
+        "generation_nuclear": 69.371,
+        "generation_renewables": 7.243
+      },
+      "zscores": {
+        "generation_coal": -0.505,
+        "generation_gas": 0.954,
+        "generation_nuclear": 0.486,
+        "generation_renewables": 0.848
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "generation_coal": 132.27,
+        "generation_gas": 77.738,
+        "generation_nuclear": 62.751,
+        "generation_renewables": 8.019
+      },
+      "zscores": {
+        "generation_coal": -1.428,
+        "generation_gas": 0.044,
+        "generation_nuclear": -0.874,
+        "generation_renewables": 1.248
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "generation_coal": 135.185,
+        "generation_gas": 69.227,
+        "generation_nuclear": 62.655,
+        "generation_renewables": 9.824
+      },
+      "zscores": {
+        "generation_coal": -1.189,
+        "generation_gas": -0.484,
+        "generation_nuclear": -0.873,
+        "generation_renewables": 2.168
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "generation_coal": 167.258,
+        "generation_gas": 77.573,
+        "generation_nuclear": 73.683,
+        "generation_renewables": 9.104
+      },
+      "zscores": {
+        "generation_coal": 0.712,
+        "generation_gas": 0.002,
+        "generation_nuclear": 1.342,
+        "generation_renewables": 1.644
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "generation_coal": 170.803,
+        "generation_gas": 74.254,
+        "generation_nuclear": 72.743,
+        "generation_renewables": 8.59
+      },
+      "zscores": {
+        "generation_coal": 0.967,
+        "generation_gas": -0.203,
+        "generation_nuclear": 1.13,
+        "generation_renewables": 1.269
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "generation_coal": 138.311,
+        "generation_gas": 65.924,
+        "generation_nuclear": 64.789,
+        "generation_renewables": 10.537
+      },
+      "zscores": {
+        "generation_coal": -0.957,
+        "generation_gas": -0.725,
+        "generation_nuclear": -0.449,
+        "generation_renewables": 2.204
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "generation_coal": 134.845,
+        "generation_gas": 65.947,
+        "generation_nuclear": 65.662,
+        "generation_renewables": 10.667
+      },
+      "zscores": {
+        "generation_coal": -1.106,
+        "generation_gas": -0.734,
+        "generation_nuclear": -0.281,
+        "generation_renewables": 2.076
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "generation_coal": 124.488,
+        "generation_gas": 70.029,
+        "generation_nuclear": 54.547,
+        "generation_renewables": 12.586
+      },
+      "zscores": {
+        "generation_coal": -1.625,
+        "generation_gas": -0.499,
+        "generation_nuclear": -2.397,
+        "generation_renewables": 2.687
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "generation_coal": 137.102,
+        "generation_gas": 75.243,
+        "generation_nuclear": 57.013,
+        "generation_renewables": 11.963
+      },
+      "zscores": {
+        "generation_coal": -0.863,
+        "generation_gas": -0.2,
+        "generation_nuclear": -1.796,
+        "generation_renewables": 2.16
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "generation_coal": 158.055,
+        "generation_gas": 90.691,
+        "generation_nuclear": 65.27,
+        "generation_renewables": 11.208
+      },
+      "zscores": {
+        "generation_coal": 0.353,
+        "generation_gas": 0.758,
+        "generation_nuclear": -0.253,
+        "generation_renewables": 1.692
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "generation_coal": 176.586,
+        "generation_gas": 119.624,
+        "generation_nuclear": 72.345,
+        "generation_renewables": 7.68
+      },
+      "zscores": {
+        "generation_coal": 1.48,
+        "generation_gas": 2.385,
+        "generation_nuclear": 1.079,
+        "generation_renewables": 0.119
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "generation_coal": 171.281,
+        "generation_gas": 119.856,
+        "generation_nuclear": 71.339,
+        "generation_renewables": 7.703
+      },
+      "zscores": {
+        "generation_coal": 1.208,
+        "generation_gas": 2.237,
+        "generation_nuclear": 0.903,
+        "generation_renewables": 0.079
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "generation_coal": 140.941,
+        "generation_gas": 91.739,
+        "generation_nuclear": 66.849,
+        "generation_renewables": 7.055
+      },
+      "zscores": {
+        "generation_coal": -0.6,
+        "generation_gas": 0.648,
+        "generation_nuclear": 0.058,
+        "generation_renewables": -0.293
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "generation_coal": 126.627,
+        "generation_gas": 78.819,
+        "generation_nuclear": 63.337,
+        "generation_renewables": 10.684
+      },
+      "zscores": {
+        "generation_coal": -1.387,
+        "generation_gas": -0.076,
+        "generation_nuclear": -0.608,
+        "generation_renewables": 1.436
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "generation_coal": 121.463,
+        "generation_gas": 75.441,
+        "generation_nuclear": 64.474,
+        "generation_renewables": 12.546
+      },
+      "zscores": {
+        "generation_coal": -1.58,
+        "generation_gas": -0.289,
+        "generation_nuclear": -0.4,
+        "generation_renewables": 2.164
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "generation_coal": 132.929,
+        "generation_gas": 86.122,
+        "generation_nuclear": 71.837,
+        "generation_renewables": 10.776
+      },
+      "zscores": {
+        "generation_coal": -0.876,
+        "generation_gas": 0.281,
+        "generation_nuclear": 1.007,
+        "generation_renewables": 1.244
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "generation_coal": 129.091,
+        "generation_gas": 90.761,
+        "generation_nuclear": 72.381,
+        "generation_renewables": 13.726
+      },
+      "zscores": {
+        "generation_coal": -1.04,
+        "generation_gas": 0.51,
+        "generation_nuclear": 1.133,
+        "generation_renewables": 2.354
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "generation_coal": 113.872,
+        "generation_gas": 90.61,
+        "generation_nuclear": 63.847,
+        "generation_renewables": 11.187
+      },
+      "zscores": {
+        "generation_coal": -1.792,
+        "generation_gas": 0.463,
+        "generation_nuclear": -0.511,
+        "generation_renewables": 1.175
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "generation_coal": 105.526,
+        "generation_gas": 92.251,
+        "generation_nuclear": 61.729,
+        "generation_renewables": 14.259
+      },
+      "zscores": {
+        "generation_coal": -2.077,
+        "generation_gas": 0.523,
+        "generation_nuclear": -0.88,
+        "generation_renewables": 2.256
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "generation_coal": 96.285,
+        "generation_gas": 94.829,
+        "generation_nuclear": 55.871,
+        "generation_renewables": 13.028
+      },
+      "zscores": {
+        "generation_coal": -2.344,
+        "generation_gas": 0.631,
+        "generation_nuclear": -1.919,
+        "generation_renewables": 1.635
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "generation_coal": 115.983,
+        "generation_gas": 107.352,
+        "generation_nuclear": 62.081,
+        "generation_renewables": 13.003
+      },
+      "zscores": {
+        "generation_coal": -1.34,
+        "generation_gas": 1.298,
+        "generation_nuclear": -0.748,
+        "generation_renewables": 1.521
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "generation_coal": 131.261,
+        "generation_gas": 115.598,
+        "generation_nuclear": 65.14,
+        "generation_renewables": 12.499
+      },
+      "zscores": {
+        "generation_coal": -0.59,
+        "generation_gas": 1.663,
+        "generation_nuclear": -0.164,
+        "generation_renewables": 1.257
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "generation_coal": 160.45,
+        "generation_gas": 138.863,
+        "generation_nuclear": 69.129,
+        "generation_renewables": 9.333
+      },
+      "zscores": {
+        "generation_coal": 0.785,
+        "generation_gas": 2.643,
+        "generation_nuclear": 0.604,
+        "generation_renewables": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "generation_coal": 152.181,
+        "generation_gas": 131.736,
+        "generation_nuclear": 69.602,
+        "generation_renewables": 8.931
+      },
+      "zscores": {
+        "generation_coal": 0.414,
+        "generation_gas": 2.134,
+        "generation_nuclear": 0.716,
+        "generation_renewables": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "generation_coal": 125.589,
+        "generation_gas": 108.012,
+        "generation_nuclear": 64.511,
+        "generation_renewables": 9.248
+      },
+      "zscores": {
+        "generation_coal": -0.83,
+        "generation_gas": 0.947,
+        "generation_nuclear": -0.248,
+        "generation_renewables": -0.131
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "generation_coal": 120.999,
+        "generation_gas": 91.725,
+        "generation_nuclear": 59.743,
+        "generation_renewables": 13.067
+      },
+      "zscores": {
+        "generation_coal": -1.007,
+        "generation_gas": 0.14,
+        "generation_nuclear": -1.18,
+        "generation_renewables": 1.434
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "generation_coal": 128.727,
+        "generation_gas": 80.169,
+        "generation_nuclear": 56.713,
+        "generation_renewables": 11.996
+      },
+      "zscores": {
+        "generation_coal": -0.634,
+        "generation_gas": -0.451,
+        "generation_nuclear": -1.718,
+        "generation_renewables": 0.922
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "generation_coal": 134.079,
+        "generation_gas": 83.989,
+        "generation_nuclear": 68.584,
+        "generation_renewables": 14.872
+      },
+      "zscores": {
+        "generation_coal": -0.35,
+        "generation_gas": -0.282,
+        "generation_nuclear": 0.543,
+        "generation_renewables": 1.996
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "generation_coal": 138.105,
+        "generation_gas": 88.559,
+        "generation_nuclear": 71.406,
+        "generation_renewables": 15.048
+      },
+      "zscores": {
+        "generation_coal": -0.119,
+        "generation_gas": -0.075,
+        "generation_nuclear": 1.096,
+        "generation_renewables": 1.918
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "generation_coal": 123.547,
+        "generation_gas": 80.283,
+        "generation_nuclear": 61.483,
+        "generation_renewables": 14.508
+      },
+      "zscores": {
+        "generation_coal": -0.784,
+        "generation_gas": -0.519,
+        "generation_nuclear": -0.784,
+        "generation_renewables": 1.628
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "generation_coal": 130.634,
+        "generation_gas": 84.725,
+        "generation_nuclear": 62.947,
+        "generation_renewables": 16.375
+      },
+      "zscores": {
+        "generation_coal": -0.421,
+        "generation_gas": -0.331,
+        "generation_nuclear": -0.495,
+        "generation_renewables": 2.168
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "generation_coal": 111.835,
+        "generation_gas": 78.036,
+        "generation_nuclear": 56.767,
+        "generation_renewables": 18.143
+      },
+      "zscores": {
+        "generation_coal": -1.286,
+        "generation_gas": -0.717,
+        "generation_nuclear": -1.653,
+        "generation_renewables": 2.508
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "generation_coal": 119.513,
+        "generation_gas": 83.816,
+        "generation_nuclear": 62.848,
+        "generation_renewables": 16.991
+      },
+      "zscores": {
+        "generation_coal": -0.881,
+        "generation_gas": -0.426,
+        "generation_nuclear": -0.484,
+        "generation_renewables": 1.929
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "generation_coal": 138.283,
+        "generation_gas": 99.615,
+        "generation_nuclear": 66.43,
+        "generation_renewables": 14.619
+      },
+      "zscores": {
+        "generation_coal": 0.037,
+        "generation_gas": 0.418,
+        "generation_nuclear": 0.2,
+        "generation_renewables": 1.073
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "generation_coal": 152.867,
+        "generation_gas": 120.771,
+        "generation_nuclear": 70.539,
+        "generation_renewables": 11.922
+      },
+      "zscores": {
+        "generation_coal": 0.817,
+        "generation_gas": 1.533,
+        "generation_nuclear": 0.991,
+        "generation_renewables": 0.129
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "generation_coal": 149.426,
+        "generation_gas": 121.156,
+        "generation_nuclear": 71.344,
+        "generation_renewables": 10.578
+      },
+      "zscores": {
+        "generation_coal": 0.723,
+        "generation_gas": 1.553,
+        "generation_nuclear": 1.147,
+        "generation_renewables": -0.386
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "generation_coal": 133.11,
+        "generation_gas": 102.063,
+        "generation_nuclear": 65.799,
+        "generation_renewables": 12.623
+      },
+      "zscores": {
+        "generation_coal": -0.132,
+        "generation_gas": 0.519,
+        "generation_nuclear": 0.11,
+        "generation_renewables": 0.305
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "generation_coal": 120.996,
+        "generation_gas": 88.587,
+        "generation_nuclear": 63.184,
+        "generation_renewables": 14.623
+      },
+      "zscores": {
+        "generation_coal": -0.764,
+        "generation_gas": -0.216,
+        "generation_nuclear": -0.396,
+        "generation_renewables": 0.995
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "generation_coal": 120.94,
+        "generation_gas": 84.287,
+        "generation_nuclear": 64.975,
+        "generation_renewables": 16.628
+      },
+      "zscores": {
+        "generation_coal": -0.74,
+        "generation_gas": -0.478,
+        "generation_nuclear": -0.063,
+        "generation_renewables": 1.631
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "generation_coal": 141.86,
+        "generation_gas": 92.936,
+        "generation_nuclear": 71.294,
+        "generation_renewables": 14.817
+      },
+      "zscores": {
+        "generation_coal": 0.43,
+        "generation_gas": -0.029,
+        "generation_nuclear": 1.191,
+        "generation_renewables": 0.915
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "generation_coal": 157.097,
+        "generation_gas": 91.062,
+        "generation_nuclear": 73.163,
+        "generation_renewables": 18.662
+      },
+      "zscores": {
+        "generation_coal": 1.346,
+        "generation_gas": -0.161,
+        "generation_nuclear": 1.55,
+        "generation_renewables": 2.138
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "generation_coal": 143.294,
+        "generation_gas": 75.945,
+        "generation_nuclear": 62.639,
+        "generation_renewables": 14.844
+      },
+      "zscores": {
+        "generation_coal": 0.541,
+        "generation_gas": -1.046,
+        "generation_nuclear": -0.498,
+        "generation_renewables": 0.746
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "generation_coal": 136.443,
+        "generation_gas": 78.154,
+        "generation_nuclear": 62.397,
+        "generation_renewables": 19.053
+      },
+      "zscores": {
+        "generation_coal": 0.144,
+        "generation_gas": -0.963,
+        "generation_nuclear": -0.525,
+        "generation_renewables": 2.035
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "generation_coal": 109.281,
+        "generation_gas": 76.785,
+        "generation_nuclear": 56.385,
+        "generation_renewables": 20.123
+      },
+      "zscores": {
+        "generation_coal": -1.36,
+        "generation_gas": -1.07,
+        "generation_nuclear": -1.738,
+        "generation_renewables": 2.162
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "generation_coal": 118.786,
+        "generation_gas": 89.121,
+        "generation_nuclear": 62.947,
+        "generation_renewables": 17.351
+      },
+      "zscores": {
+        "generation_coal": -0.791,
+        "generation_gas": -0.364,
+        "generation_nuclear": -0.486,
+        "generation_renewables": 1.228
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "generation_coal": 137.577,
+        "generation_gas": 98.47,
+        "generation_nuclear": 68.138,
+        "generation_renewables": 17.722
+      },
+      "zscores": {
+        "generation_coal": 0.294,
+        "generation_gas": 0.191,
+        "generation_nuclear": 0.561,
+        "generation_renewables": 1.264
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "generation_coal": 149.627,
+        "generation_gas": 115.083,
+        "generation_nuclear": 71.94,
+        "generation_renewables": 13.975
+      },
+      "zscores": {
+        "generation_coal": 1.115,
+        "generation_gas": 1.22,
+        "generation_nuclear": 1.345,
+        "generation_renewables": 0.092
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "generation_coal": 148.452,
+        "generation_gas": 122.35,
+        "generation_nuclear": 71.129,
+        "generation_renewables": 12.05
+      },
+      "zscores": {
+        "generation_coal": 1.166,
+        "generation_gas": 1.65,
+        "generation_nuclear": 1.181,
+        "generation_renewables": -0.577
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "generation_coal": 126.11,
+        "generation_gas": 106.584,
+        "generation_nuclear": 67.535,
+        "generation_renewables": 13.352
+      },
+      "zscores": {
+        "generation_coal": -0.305,
+        "generation_gas": 0.66,
+        "generation_nuclear": 0.438,
+        "generation_renewables": -0.222
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "generation_coal": 111.296,
+        "generation_gas": 97.685,
+        "generation_nuclear": 62.391,
+        "generation_renewables": 16.225
+      },
+      "zscores": {
+        "generation_coal": -1.246,
+        "generation_gas": 0.091,
+        "generation_nuclear": -0.609,
+        "generation_renewables": 0.752
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "generation_coal": 119.127,
+        "generation_gas": 84.356,
+        "generation_nuclear": 65.14,
+        "generation_renewables": 20.247
+      },
+      "zscores": {
+        "generation_coal": -0.724,
+        "generation_gas": -0.756,
+        "generation_nuclear": -0.051,
+        "generation_renewables": 2.004
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "generation_coal": 124.62,
+        "generation_gas": 91.04,
+        "generation_nuclear": 73.363,
+        "generation_renewables": 15.743
+      },
+      "zscores": {
+        "generation_coal": -0.347,
+        "generation_gas": -0.348,
+        "generation_nuclear": 1.602,
+        "generation_renewables": 0.436
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "generation_coal": 132.451,
+        "generation_gas": 101.691,
+        "generation_nuclear": 74.27,
+        "generation_renewables": 16.317
+      },
+      "zscores": {
+        "generation_coal": 0.16,
+        "generation_gas": 0.301,
+        "generation_nuclear": 1.746,
+        "generation_renewables": 0.607
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "generation_coal": 126.977,
+        "generation_gas": 91.44,
+        "generation_nuclear": 63.461,
+        "generation_renewables": 16.405
+      },
+      "zscores": {
+        "generation_coal": -0.226,
+        "generation_gas": -0.344,
+        "generation_nuclear": -0.399,
+        "generation_renewables": 0.596
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "generation_coal": 108.488,
+        "generation_gas": 99.55,
+        "generation_nuclear": 64.547,
+        "generation_renewables": 17.38
+      },
+      "zscores": {
+        "generation_coal": -1.476,
+        "generation_gas": 0.153,
+        "generation_nuclear": -0.201,
+        "generation_renewables": 0.897
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "generation_coal": 88.989,
+        "generation_gas": 92.856,
+        "generation_nuclear": 59.784,
+        "generation_renewables": 20.246
+      },
+      "zscores": {
+        "generation_coal": -2.681,
+        "generation_gas": -0.265,
+        "generation_nuclear": -1.217,
+        "generation_renewables": 1.746
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "generation_coal": 104.585,
+        "generation_gas": 101.625,
+        "generation_nuclear": 65.827,
+        "generation_renewables": 19.655
+      },
+      "zscores": {
+        "generation_coal": -1.605,
+        "generation_gas": 0.298,
+        "generation_nuclear": 0.013,
+        "generation_renewables": 1.452
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "generation_coal": 125.673,
+        "generation_gas": 121.568,
+        "generation_nuclear": 68.516,
+        "generation_renewables": 15.979
+      },
+      "zscores": {
+        "generation_coal": -0.26,
+        "generation_gas": 1.525,
+        "generation_nuclear": 0.553,
+        "generation_renewables": 0.232
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "generation_coal": 139.1,
+        "generation_gas": 141.241,
+        "generation_nuclear": 71.412,
+        "generation_renewables": 16.303
+      },
+      "zscores": {
+        "generation_coal": 0.66,
+        "generation_gas": 2.715,
+        "generation_nuclear": 1.128,
+        "generation_renewables": 0.291
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "generation_coal": 134.67,
+        "generation_gas": 139.216,
+        "generation_nuclear": 72.415,
+        "generation_renewables": 15.768
+      },
+      "zscores": {
+        "generation_coal": 0.41,
+        "generation_gas": 2.504,
+        "generation_nuclear": 1.297,
+        "generation_renewables": 0.043
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "generation_coal": 117.986,
+        "generation_gas": 123.111,
+        "generation_nuclear": 66.476,
+        "generation_renewables": 16.189
+      },
+      "zscores": {
+        "generation_coal": -0.717,
+        "generation_gas": 1.476,
+        "generation_nuclear": 0.086,
+        "generation_renewables": 0.141
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "generation_coal": 96.759,
+        "generation_gas": 110.11,
+        "generation_nuclear": 60.571,
+        "generation_renewables": 18.29
+      },
+      "zscores": {
+        "generation_coal": -2.003,
+        "generation_gas": 0.686,
+        "generation_nuclear": -1.121,
+        "generation_renewables": 0.947
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "generation_coal": 87.227,
+        "generation_gas": 102.369,
+        "generation_nuclear": 60.264,
+        "generation_renewables": 21.411
+      },
+      "zscores": {
+        "generation_coal": -2.336,
+        "generation_gas": 0.204,
+        "generation_nuclear": -1.242,
+        "generation_renewables": 2.071
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "generation_coal": 89.495,
+        "generation_gas": 109.892,
+        "generation_nuclear": 69.634,
+        "generation_renewables": 21.668
+      },
+      "zscores": {
+        "generation_coal": -2.008,
+        "generation_gas": 0.608,
+        "generation_nuclear": 0.718,
+        "generation_renewables": 1.985
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "generation_coal": 113.459,
+        "generation_gas": 110.044,
+        "generation_nuclear": 72.525,
+        "generation_renewables": 19.952
+      },
+      "zscores": {
+        "generation_coal": -0.631,
+        "generation_gas": 0.583,
+        "generation_nuclear": 1.307,
+        "generation_renewables": 1.258
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "generation_coal": 92.705,
+        "generation_gas": 98.688,
+        "generation_nuclear": 65.638,
+        "generation_renewables": 22.38
+      },
+      "zscores": {
+        "generation_coal": -1.674,
+        "generation_gas": -0.123,
+        "generation_nuclear": -0.15,
+        "generation_renewables": 1.978
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "generation_coal": 72.173,
+        "generation_gas": 103.933,
+        "generation_nuclear": 66.149,
+        "generation_renewables": 24.557
+      },
+      "zscores": {
+        "generation_coal": -2.452,
+        "generation_gas": 0.164,
+        "generation_nuclear": -0.062,
+        "generation_renewables": 2.433
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "generation_coal": 72.113,
+        "generation_gas": 98.974,
+        "generation_nuclear": 62.732,
+        "generation_renewables": 23.679
+      },
+      "zscores": {
+        "generation_coal": -2.232,
+        "generation_gas": -0.181,
+        "generation_nuclear": -0.867,
+        "generation_renewables": 1.982
+      },
+      "events": [
+        {
+          "label": "Natural gas overtakes coal",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "generation_coal": 81.695,
+        "generation_gas": 110.519,
+        "generation_nuclear": 66.576,
+        "generation_renewables": 22.273
+      },
+      "zscores": {
+        "generation_coal": -1.676,
+        "generation_gas": 0.509,
+        "generation_nuclear": -0.03,
+        "generation_renewables": 1.462
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "generation_coal": 116.034,
+        "generation_gas": 131.523,
+        "generation_nuclear": 67.175,
+        "generation_renewables": 19.777
+      },
+      "zscores": {
+        "generation_coal": -0.152,
+        "generation_gas": 1.721,
+        "generation_nuclear": 0.101,
+        "generation_renewables": 0.684
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "generation_coal": 136.316,
+        "generation_gas": 151.716,
+        "generation_nuclear": 70.349,
+        "generation_renewables": 21.563
+      },
+      "zscores": {
+        "generation_coal": 0.779,
+        "generation_gas": 2.643,
+        "generation_nuclear": 0.82,
+        "generation_renewables": 1.157
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "generation_coal": 135.635,
+        "generation_gas": 154.926,
+        "generation_nuclear": 71.526,
+        "generation_renewables": 17.559
+      },
+      "zscores": {
+        "generation_coal": 0.78,
+        "generation_gas": 2.535,
+        "generation_nuclear": 1.084,
+        "generation_renewables": -0.12
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "generation_coal": 114.138,
+        "generation_gas": 125.683,
+        "generation_nuclear": 65.448,
+        "generation_renewables": 20.039
+      },
+      "zscores": {
+        "generation_coal": -0.184,
+        "generation_gas": 0.995,
+        "generation_nuclear": -0.287,
+        "generation_renewables": 0.643
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "generation_coal": 99.194,
+        "generation_gas": 102.898,
+        "generation_nuclear": 60.733,
+        "generation_renewables": 23.527
+      },
+      "zscores": {
+        "generation_coal": -0.838,
+        "generation_gas": -0.174,
+        "generation_nuclear": -1.316,
+        "generation_renewables": 1.697
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "generation_coal": 86.94,
+        "generation_gas": 93.951,
+        "generation_nuclear": 65.179,
+        "generation_renewables": 22.173
+      },
+      "zscores": {
+        "generation_coal": -1.321,
+        "generation_gas": -0.651,
+        "generation_nuclear": -0.329,
+        "generation_renewables": 1.181
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "generation_coal": 118.747,
+        "generation_gas": 96.416,
+        "generation_nuclear": 71.662,
+        "generation_renewables": 25.569
+      },
+      "zscores": {
+        "generation_coal": 0.128,
+        "generation_gas": -0.53,
+        "generation_nuclear": 1.108,
+        "generation_renewables": 2.09
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "generation_coal": 115.333,
+        "generation_gas": 95.661,
+        "generation_nuclear": 73.121,
+        "generation_renewables": 23.123
+      },
+      "zscores": {
+        "generation_coal": 0.027,
+        "generation_gas": -0.578,
+        "generation_nuclear": 1.432,
+        "generation_renewables": 1.263
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "generation_coal": 86.822,
+        "generation_gas": 82.837,
+        "generation_nuclear": 63.56,
+        "generation_renewables": 24.842
+      },
+      "zscores": {
+        "generation_coal": -1.267,
+        "generation_gas": -1.272,
+        "generation_nuclear": -0.698,
+        "generation_renewables": 1.668
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "generation_coal": 89.365,
+        "generation_gas": 95.214,
+        "generation_nuclear": 65.093,
+        "generation_renewables": 30.245
+      },
+      "zscores": {
+        "generation_coal": -1.083,
+        "generation_gas": -0.664,
+        "generation_nuclear": -0.377,
+        "generation_renewables": 2.803
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "generation_coal": 81.335,
+        "generation_gas": 88.562,
+        "generation_nuclear": 56.743,
+        "generation_renewables": 30.285
+      },
+      "zscores": {
+        "generation_coal": -1.392,
+        "generation_gas": -1.067,
+        "generation_nuclear": -2.274,
+        "generation_renewables": 2.487
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "generation_coal": 92.777,
+        "generation_gas": 98.074,
+        "generation_nuclear": 61.313,
+        "generation_renewables": 28.853
+      },
+      "zscores": {
+        "generation_coal": -0.817,
+        "generation_gas": -0.56,
+        "generation_nuclear": -1.215,
+        "generation_renewables": 1.963
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "generation_coal": 107.508,
+        "generation_gas": 117.351,
+        "generation_nuclear": 67.011,
+        "generation_renewables": 26.257
+      },
+      "zscores": {
+        "generation_coal": -0.097,
+        "generation_gas": 0.492,
+        "generation_nuclear": 0.07,
+        "generation_renewables": 1.297
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "generation_coal": 127.698,
+        "generation_gas": 147.042,
+        "generation_nuclear": 71.314,
+        "generation_renewables": 21.689
+      },
+      "zscores": {
+        "generation_coal": 0.929,
+        "generation_gas": 1.99,
+        "generation_nuclear": 1.044,
+        "generation_renewables": 0.248
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "generation_coal": 119.488,
+        "generation_gas": 141.308,
+        "generation_nuclear": 72.384,
+        "generation_renewables": 19.247
+      },
+      "zscores": {
+        "generation_coal": 0.593,
+        "generation_gas": 1.607,
+        "generation_nuclear": 1.267,
+        "generation_renewables": -0.373
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "generation_coal": 98.202,
+        "generation_gas": 118.132,
+        "generation_nuclear": 68.098,
+        "generation_renewables": 22.971
+      },
+      "zscores": {
+        "generation_coal": -0.483,
+        "generation_gas": 0.4,
+        "generation_nuclear": 0.305,
+        "generation_renewables": 0.479
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "generation_coal": 89.776,
+        "generation_gas": 106.895,
+        "generation_nuclear": 65.995,
+        "generation_renewables": 29.018
+      },
+      "zscores": {
+        "generation_coal": -0.886,
+        "generation_gas": -0.189,
+        "generation_nuclear": -0.19,
+        "generation_renewables": 1.852
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "generation_coal": 90.986,
+        "generation_gas": 95.072,
+        "generation_nuclear": 66.618,
+        "generation_renewables": 25.824
+      },
+      "zscores": {
+        "generation_coal": -0.78,
+        "generation_gas": -0.827,
+        "generation_nuclear": -0.058,
+        "generation_renewables": 1.021
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "generation_coal": 106.545,
+        "generation_gas": 111.553,
+        "generation_nuclear": 73.7,
+        "generation_renewables": 25.236
+      },
+      "zscores": {
+        "generation_coal": 0.056,
+        "generation_gas": 0.006,
+        "generation_nuclear": 1.541,
+        "generation_renewables": 0.832
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "generation_coal": 119.284,
+        "generation_gas": 110.442,
+        "generation_nuclear": 74.649,
+        "generation_renewables": 28.918
+      },
+      "zscores": {
+        "generation_coal": 0.763,
+        "generation_gas": -0.066,
+        "generation_nuclear": 1.746,
+        "generation_renewables": 1.628
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "generation_coal": 82.05,
+        "generation_gas": 98.675,
+        "generation_nuclear": 64.79,
+        "generation_renewables": 27.086
+      },
+      "zscores": {
+        "generation_coal": -1.175,
+        "generation_gas": -0.712,
+        "generation_nuclear": -0.485,
+        "generation_renewables": 1.124
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "generation_coal": 80.626,
+        "generation_gas": 106.742,
+        "generation_nuclear": 67.033,
+        "generation_renewables": 31.52
+      },
+      "zscores": {
+        "generation_coal": -1.186,
+        "generation_gas": -0.289,
+        "generation_nuclear": 0.007,
+        "generation_renewables": 2.03
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "generation_coal": 73.346,
+        "generation_gas": 98.672,
+        "generation_nuclear": 59.133,
+        "generation_renewables": 32.488
+      },
+      "zscores": {
+        "generation_coal": -1.509,
+        "generation_gas": -0.741,
+        "generation_nuclear": -1.771,
+        "generation_renewables": 2.053
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "generation_coal": 85.227,
+        "generation_gas": 115.565,
+        "generation_nuclear": 67.32,
+        "generation_renewables": 30.802
+      },
+      "zscores": {
+        "generation_coal": -0.86,
+        "generation_gas": 0.161,
+        "generation_nuclear": 0.067,
+        "generation_renewables": 1.568
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "generation_coal": 101.503,
+        "generation_gas": 131.086,
+        "generation_nuclear": 69.688,
+        "generation_renewables": 32.118
+      },
+      "zscores": {
+        "generation_coal": 0.003,
+        "generation_gas": 0.988,
+        "generation_nuclear": 0.592,
+        "generation_renewables": 1.744
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "generation_coal": 115.376,
+        "generation_gas": 165.075,
+        "generation_nuclear": 72.456,
+        "generation_renewables": 23.201
+      },
+      "zscores": {
+        "generation_coal": 0.796,
+        "generation_gas": 2.601,
+        "generation_nuclear": 1.2,
+        "generation_renewables": -0.216
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "generation_coal": 115.129,
+        "generation_gas": 162.001,
+        "generation_nuclear": 72.282,
+        "generation_renewables": 26.542
+      },
+      "zscores": {
+        "generation_coal": 0.847,
+        "generation_gas": 2.283,
+        "generation_nuclear": 1.164,
+        "generation_renewables": 0.486
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "generation_coal": 96.544,
+        "generation_gas": 142.085,
+        "generation_nuclear": 64.725,
+        "generation_renewables": 24.481
+      },
+      "zscores": {
+        "generation_coal": -0.18,
+        "generation_gas": 1.279,
+        "generation_nuclear": -0.515,
+        "generation_renewables": -0.054
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "generation_coal": 87.264,
+        "generation_gas": 123.28,
+        "generation_nuclear": 59.397,
+        "generation_renewables": 26.164
+      },
+      "zscores": {
+        "generation_coal": -0.695,
+        "generation_gas": 0.383,
+        "generation_nuclear": -1.676,
+        "generation_renewables": 0.32
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "generation_coal": 92.819,
+        "generation_gas": 108.265,
+        "generation_nuclear": 63.954,
+        "generation_renewables": 25.758
+      },
+      "zscores": {
+        "generation_coal": -0.388,
+        "generation_gas": -0.327,
+        "generation_nuclear": -0.712,
+        "generation_renewables": 0.187
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "generation_coal": 100.319,
+        "generation_gas": 109.955,
+        "generation_nuclear": 71.657,
+        "generation_renewables": 27.416
+      },
+      "zscores": {
+        "generation_coal": 0.027,
+        "generation_gas": -0.248,
+        "generation_nuclear": 1.007,
+        "generation_renewables": 0.58
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "generation_coal": 100.905,
+        "generation_gas": 121.808,
+        "generation_nuclear": 73.701,
+        "generation_renewables": 27.882
+      },
+      "zscores": {
+        "generation_coal": 0.082,
+        "generation_gas": 0.292,
+        "generation_nuclear": 1.443,
+        "generation_renewables": 0.658
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "generation_coal": 79.929,
+        "generation_gas": 112.397,
+        "generation_nuclear": 64.715,
+        "generation_renewables": 26.459
+      },
+      "zscores": {
+        "generation_coal": -1.105,
+        "generation_gas": -0.168,
+        "generation_nuclear": -0.542,
+        "generation_renewables": 0.25
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "generation_coal": 78.352,
+        "generation_gas": 116.059,
+        "generation_nuclear": 65.08,
+        "generation_renewables": 31.671
+      },
+      "zscores": {
+        "generation_coal": -1.222,
+        "generation_gas": -0.011,
+        "generation_nuclear": -0.454,
+        "generation_renewables": 1.547
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "generation_coal": 59.922,
+        "generation_gas": 104.349,
+        "generation_nuclear": 60.581,
+        "generation_renewables": 35.668
+      },
+      "zscores": {
+        "generation_coal": -2.195,
+        "generation_gas": -0.576,
+        "generation_nuclear": -1.411,
+        "generation_renewables": 2.311
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "generation_coal": 71.885,
+        "generation_gas": 117.297,
+        "generation_nuclear": 67.124,
+        "generation_renewables": 32.941
+      },
+      "zscores": {
+        "generation_coal": -1.48,
+        "generation_gas": 0.032,
+        "generation_nuclear": 0.007,
+        "generation_renewables": 1.547
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "generation_coal": 78.54,
+        "generation_gas": 138.087,
+        "generation_nuclear": 68.805,
+        "generation_renewables": 30.417
+      },
+      "zscores": {
+        "generation_coal": -1.052,
+        "generation_gas": 1.008,
+        "generation_nuclear": 0.362,
+        "generation_renewables": 0.906
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "generation_coal": 100.771,
+        "generation_gas": 172.282,
+        "generation_nuclear": 72.199,
+        "generation_renewables": 30.233
+      },
+      "zscores": {
+        "generation_coal": 0.241,
+        "generation_gas": 2.463,
+        "generation_nuclear": 1.076,
+        "generation_renewables": 0.813
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "generation_coal": 94.04,
+        "generation_gas": 175.27,
+        "generation_nuclear": 71.911,
+        "generation_renewables": 27.855
+      },
+      "zscores": {
+        "generation_coal": -0.095,
+        "generation_gas": 2.443,
+        "generation_nuclear": 1.009,
+        "generation_renewables": 0.178
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "generation_coal": 85.707,
+        "generation_gas": 149.938,
+        "generation_nuclear": 66.064,
+        "generation_renewables": 31.331
+      },
+      "zscores": {
+        "generation_coal": -0.586,
+        "generation_gas": 1.304,
+        "generation_nuclear": -0.247,
+        "generation_renewables": 1.051
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "generation_coal": 66.777,
+        "generation_gas": 131.113,
+        "generation_nuclear": 62.033,
+        "generation_renewables": 33.718
+      },
+      "zscores": {
+        "generation_coal": -1.685,
+        "generation_gas": 0.489,
+        "generation_nuclear": -1.131,
+        "generation_renewables": 1.594
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "generation_coal": 75.549,
+        "generation_gas": 117.959,
+        "generation_nuclear": 64.125,
+        "generation_renewables": 29.548
+      },
+      "zscores": {
+        "generation_coal": -1.102,
+        "generation_gas": -0.09,
+        "generation_nuclear": -0.669,
+        "generation_renewables": 0.433
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "generation_coal": 72.581,
+        "generation_gas": 131.973,
+        "generation_nuclear": 73.074,
+        "generation_renewables": 30.097
+      },
+      "zscores": {
+        "generation_coal": -1.223,
+        "generation_gas": 0.469,
+        "generation_nuclear": 1.243,
+        "generation_renewables": 0.551
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "generation_coal": 65.14,
+        "generation_gas": 136.084,
+        "generation_nuclear": 74.17,
+        "generation_renewables": 32.58
+      },
+      "zscores": {
+        "generation_coal": -1.588,
+        "generation_gas": 0.604,
+        "generation_nuclear": 1.459,
+        "generation_renewables": 1.176
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "generation_coal": 56.201,
+        "generation_gas": 128.018,
+        "generation_nuclear": 65.911,
+        "generation_renewables": 34.672
+      },
+      "zscores": {
+        "generation_coal": -1.97,
+        "generation_gas": 0.208,
+        "generation_nuclear": -0.309,
+        "generation_renewables": 1.641
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "generation_coal": 50.731,
+        "generation_gas": 126.187,
+        "generation_nuclear": 63.997,
+        "generation_renewables": 35.669
+      },
+      "zscores": {
+        "generation_coal": -2.084,
+        "generation_gas": 0.088,
+        "generation_nuclear": -0.709,
+        "generation_renewables": 1.789
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "generation_coal": 40.675,
+        "generation_gas": 110.564,
+        "generation_nuclear": 59.17,
+        "generation_renewables": 37.673
+      },
+      "zscores": {
+        "generation_coal": -2.363,
+        "generation_gas": -0.689,
+        "generation_nuclear": -1.803,
+        "generation_renewables": 2.113
+      },
+      "events": [
+        {
+          "label": "COVID: coal falls to 41 billion kWh in a month",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "generation_coal": 46.527,
+        "generation_gas": 117.186,
+        "generation_nuclear": 64.338,
+        "generation_renewables": 38.031
+      },
+      "zscores": {
+        "generation_coal": -1.9,
+        "generation_gas": -0.405,
+        "generation_nuclear": -0.702,
+        "generation_renewables": 2.011
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "generation_coal": 65.283,
+        "generation_gas": 143.055,
+        "generation_nuclear": 67.205,
+        "generation_renewables": 39.866
+      },
+      "zscores": {
+        "generation_coal": -0.954,
+        "generation_gas": 0.824,
+        "generation_nuclear": -0.062,
+        "generation_renewables": 2.193
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "generation_coal": 89.709,
+        "generation_gas": 181.568,
+        "generation_nuclear": 69.385,
+        "generation_renewables": 33.476
+      },
+      "zscores": {
+        "generation_coal": 0.275,
+        "generation_gas": 2.453,
+        "generation_nuclear": 0.441,
+        "generation_renewables": 0.78
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "generation_coal": 91.145,
+        "generation_gas": 173.644,
+        "generation_nuclear": 68.982,
+        "generation_renewables": 32.345
+      },
+      "zscores": {
+        "generation_coal": 0.406,
+        "generation_gas": 1.952,
+        "generation_nuclear": 0.377,
+        "generation_renewables": 0.488
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "generation_coal": 68.407,
+        "generation_gas": 141.397,
+        "generation_nuclear": 65.727,
+        "generation_renewables": 30.918
+      },
+      "zscores": {
+        "generation_coal": -0.754,
+        "generation_gas": 0.544,
+        "generation_nuclear": -0.352,
+        "generation_renewables": 0.094
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "generation_coal": 59.805,
+        "generation_gas": 131.413,
+        "generation_nuclear": 59.362,
+        "generation_renewables": 35.908
+      },
+      "zscores": {
+        "generation_coal": -1.146,
+        "generation_gas": 0.09,
+        "generation_nuclear": -1.693,
+        "generation_renewables": 1.28
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "generation_coal": 61.182,
+        "generation_gas": 109.811,
+        "generation_nuclear": 61.76,
+        "generation_renewables": 38.896
+      },
+      "zscores": {
+        "generation_coal": -1.019,
+        "generation_gas": -0.88,
+        "generation_nuclear": -1.118,
+        "generation_renewables": 1.87
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "generation_coal": 78.588,
+        "generation_gas": 127.863,
+        "generation_nuclear": 69.871,
+        "generation_renewables": 37.102
+      },
+      "zscores": {
+        "generation_coal": -0.086,
+        "generation_gas": -0.104,
+        "generation_nuclear": 0.668,
+        "generation_renewables": 1.363
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "generation_coal": 81.24,
+        "generation_gas": 126.53,
+        "generation_nuclear": 71.732,
+        "generation_renewables": 35.62
+      },
+      "zscores": {
+        "generation_coal": 0.117,
+        "generation_gas": -0.185,
+        "generation_nuclear": 1.126,
+        "generation_renewables": 0.955
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "generation_coal": 87.47,
+        "generation_gas": 111.183,
+        "generation_nuclear": 62.954,
+        "generation_renewables": 33.046
+      },
+      "zscores": {
+        "generation_coal": 0.458,
+        "generation_gas": -0.909,
+        "generation_nuclear": -0.845,
+        "generation_renewables": 0.306
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "generation_coal": 61.904,
+        "generation_gas": 107.019,
+        "generation_nuclear": 63.708,
+        "generation_renewables": 48.501
+      },
+      "zscores": {
+        "generation_coal": -0.936,
+        "generation_gas": -1.101,
+        "generation_nuclear": -0.651,
+        "generation_renewables": 3.277
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "generation_coal": 53.956,
+        "generation_gas": 107.416,
+        "generation_nuclear": 57.092,
+        "generation_renewables": 47.05
+      },
+      "zscores": {
+        "generation_coal": -1.315,
+        "generation_gas": -1.11,
+        "generation_nuclear": -2.068,
+        "generation_renewables": 2.606
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "generation_coal": 63.873,
+        "generation_gas": 114.676,
+        "generation_nuclear": 63.394,
+        "generation_renewables": 46.244
+      },
+      "zscores": {
+        "generation_coal": -0.742,
+        "generation_gas": -0.77,
+        "generation_nuclear": -0.664,
+        "generation_renewables": 2.213
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "generation_coal": 87.265,
+        "generation_gas": 149.376,
+        "generation_nuclear": 66.07,
+        "generation_renewables": 38.868
+      },
+      "zscores": {
+        "generation_coal": 0.549,
+        "generation_gas": 0.813,
+        "generation_nuclear": -0.062,
+        "generation_renewables": 0.93
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "generation_coal": 101.537,
+        "generation_gas": 170.189,
+        "generation_nuclear": 68.832,
+        "generation_renewables": 33.907
+      },
+      "zscores": {
+        "generation_coal": 1.405,
+        "generation_gas": 1.748,
+        "generation_nuclear": 0.576,
+        "generation_renewables": 0.058
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "generation_coal": 101.855,
+        "generation_gas": 172.716,
+        "generation_nuclear": 69.471,
+        "generation_renewables": 39.038
+      },
+      "zscores": {
+        "generation_coal": 1.502,
+        "generation_gas": 1.81,
+        "generation_nuclear": 0.75,
+        "generation_renewables": 0.896
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "generation_coal": 78.877,
+        "generation_gas": 138.214,
+        "generation_nuclear": 64.52,
+        "generation_renewables": 40.212
+      },
+      "zscores": {
+        "generation_coal": 0.173,
+        "generation_gas": 0.275,
+        "generation_nuclear": -0.375,
+        "generation_renewables": 1.05
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "generation_coal": 62.572,
+        "generation_gas": 131.852,
+        "generation_nuclear": 58.401,
+        "generation_renewables": 41.483
+      },
+      "zscores": {
+        "generation_coal": -0.77,
+        "generation_gas": -0.02,
+        "generation_nuclear": -1.742,
+        "generation_renewables": 1.214
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "generation_coal": 57.426,
+        "generation_gas": 122.433,
+        "generation_nuclear": 62.749,
+        "generation_renewables": 43.546
+      },
+      "zscores": {
+        "generation_coal": -1.023,
+        "generation_gas": -0.466,
+        "generation_nuclear": -0.752,
+        "generation_renewables": 1.508
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "generation_coal": 60.025,
+        "generation_gas": 127.586,
+        "generation_nuclear": 70.72,
+        "generation_renewables": 45.94
+      },
+      "zscores": {
+        "generation_coal": -0.82,
+        "generation_gas": -0.258,
+        "generation_nuclear": 1.046,
+        "generation_renewables": 1.815
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "generation_coal": 87.588,
+        "generation_gas": 134.948,
+        "generation_nuclear": 70.577,
+        "generation_renewables": 45.238
+      },
+      "zscores": {
+        "generation_coal": 0.943,
+        "generation_gas": 0.065,
+        "generation_nuclear": 1.062,
+        "generation_renewables": 1.59
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "generation_coal": 70.966,
+        "generation_gas": 114.945,
+        "generation_nuclear": 61.852,
+        "generation_renewables": 46.671
+      },
+      "zscores": {
+        "generation_coal": -0.106,
+        "generation_gas": -0.867,
+        "generation_nuclear": -0.931,
+        "generation_renewables": 1.745
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "generation_coal": 61.019,
+        "generation_gas": 112.477,
+        "generation_nuclear": 63.154,
+        "generation_renewables": 54.725
+      },
+      "zscores": {
+        "generation_coal": -0.71,
+        "generation_gas": -0.973,
+        "generation_nuclear": -0.618,
+        "generation_renewables": 2.743
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "generation_coal": 55.329,
+        "generation_gas": 105.506,
+        "generation_nuclear": 55.29,
+        "generation_renewables": 59.569
+      },
+      "zscores": {
+        "generation_coal": -1.057,
+        "generation_gas": -1.299,
+        "generation_nuclear": -2.246,
+        "generation_renewables": 2.956
+      },
+      "events": [
+        {
+          "label": "Wind and solar beat coal for the first time",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "generation_coal": 62.532,
+        "generation_gas": 127.091,
+        "generation_nuclear": 63.382,
+        "generation_renewables": 57.244
+      },
+      "zscores": {
+        "generation_coal": -0.581,
+        "generation_gas": -0.314,
+        "generation_nuclear": -0.479,
+        "generation_renewables": 2.35
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "generation_coal": 73.463,
+        "generation_gas": 155.517,
+        "generation_nuclear": 65.715,
+        "generation_renewables": 49.82
+      },
+      "zscores": {
+        "generation_coal": 0.118,
+        "generation_gas": 0.976,
+        "generation_nuclear": 0.041,
+        "generation_renewables": 1.323
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "generation_coal": 86.415,
+        "generation_gas": 189.042,
+        "generation_nuclear": 68.857,
+        "generation_renewables": 45.24
+      },
+      "zscores": {
+        "generation_coal": 0.998,
+        "generation_gas": 2.391,
+        "generation_nuclear": 0.758,
+        "generation_renewables": 0.7
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "generation_coal": 85.215,
+        "generation_gas": 188.86,
+        "generation_nuclear": 68.897,
+        "generation_renewables": 39.221
+      },
+      "zscores": {
+        "generation_coal": 0.954,
+        "generation_gas": 2.289,
+        "generation_nuclear": 0.802,
+        "generation_renewables": -0.114
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "generation_coal": 64.998,
+        "generation_gas": 156.948,
+        "generation_nuclear": 63.733,
+        "generation_renewables": 40.617
+      },
+      "zscores": {
+        "generation_coal": -0.365,
+        "generation_gas": 0.915,
+        "generation_nuclear": -0.35,
+        "generation_renewables": 0.037
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "generation_coal": 54.228,
+        "generation_gas": 133.492,
+        "generation_nuclear": 58.945,
+        "generation_renewables": 44.686
+      },
+      "zscores": {
+        "generation_coal": -1.055,
+        "generation_gas": -0.081,
+        "generation_nuclear": -1.384,
+        "generation_renewables": 0.549
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "generation_coal": 56.377,
+        "generation_gas": 127.523,
+        "generation_nuclear": 62.041,
+        "generation_renewables": 49.601
+      },
+      "zscores": {
+        "generation_coal": -0.868,
+        "generation_gas": -0.347,
+        "generation_nuclear": -0.682,
+        "generation_renewables": 1.158
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "generation_coal": 73.381,
+        "generation_gas": 140.716,
+        "generation_nuclear": 69.094,
+        "generation_renewables": 45.457
+      },
+      "zscores": {
+        "generation_coal": 0.255,
+        "generation_gas": 0.204,
+        "generation_nuclear": 0.924,
+        "generation_renewables": 0.544
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "generation_coal": 61.357,
+        "generation_gas": 138.503,
+        "generation_nuclear": 70.87,
+        "generation_renewables": 46.164
+      },
+      "zscores": {
+        "generation_coal": -0.531,
+        "generation_gas": 0.107,
+        "generation_nuclear": 1.4,
+        "generation_renewables": 0.602
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "generation_coal": 46.374,
+        "generation_gas": 125.036,
+        "generation_nuclear": 60.807,
+        "generation_renewables": 50.859
+      },
+      "zscores": {
+        "generation_coal": -1.47,
+        "generation_gas": -0.462,
+        "generation_nuclear": -0.93,
+        "generation_renewables": 1.211
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "generation_coal": 50.096,
+        "generation_gas": 133.699,
+        "generation_nuclear": 62.82,
+        "generation_renewables": 55.797
+      },
+      "zscores": {
+        "generation_coal": -1.227,
+        "generation_gas": -0.103,
+        "generation_nuclear": -0.452,
+        "generation_renewables": 1.781
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "generation_coal": 40.233,
+        "generation_gas": 120.012,
+        "generation_nuclear": 56.662,
+        "generation_renewables": 57.807
+      },
+      "zscores": {
+        "generation_coal": -1.859,
+        "generation_gas": -0.705,
+        "generation_nuclear": -1.822,
+        "generation_renewables": 1.894
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "generation_coal": 43.804,
+        "generation_gas": 137.394,
+        "generation_nuclear": 61.155,
+        "generation_renewables": 49.508
+      },
+      "zscores": {
+        "generation_coal": -1.612,
+        "generation_gas": 0.02,
+        "generation_nuclear": -0.776,
+        "generation_renewables": 0.747
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "generation_coal": 57.772,
+        "generation_gas": 161.981,
+        "generation_nuclear": 64.819,
+        "generation_renewables": 45.381
+      },
+      "zscores": {
+        "generation_coal": -0.702,
+        "generation_gas": 1.051,
+        "generation_nuclear": 0.063,
+        "generation_renewables": 0.178
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "generation_coal": 78.903,
+        "generation_gas": 199.522,
+        "generation_nuclear": 69.888,
+        "generation_renewables": 46.899
+      },
+      "zscores": {
+        "generation_coal": 0.671,
+        "generation_gas": 2.519,
+        "generation_nuclear": 1.202,
+        "generation_renewables": 0.34
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "generation_coal": 78.112,
+        "generation_gas": 199.221,
+        "generation_nuclear": 69.744,
+        "generation_renewables": 46.138
+      },
+      "zscores": {
+        "generation_coal": 0.66,
+        "generation_gas": 2.347,
+        "generation_nuclear": 1.159,
+        "generation_renewables": 0.191
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "generation_coal": 59.959,
+        "generation_gas": 166.311,
+        "generation_nuclear": 65.56,
+        "generation_renewables": 43.936
+      },
+      "zscores": {
+        "generation_coal": -0.527,
+        "generation_gas": 1.029,
+        "generation_nuclear": 0.222,
+        "generation_renewables": -0.186
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "generation_coal": 50.933,
+        "generation_gas": 140.825,
+        "generation_nuclear": 61.436,
+        "generation_renewables": 50.141
+      },
+      "zscores": {
+        "generation_coal": -1.093,
+        "generation_gas": 0.046,
+        "generation_nuclear": -0.724,
+        "generation_renewables": 0.71
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "generation_coal": 51.209,
+        "generation_gas": 135.531,
+        "generation_nuclear": 62.258,
+        "generation_renewables": 46.891
+      },
+      "zscores": {
+        "generation_coal": -1.043,
+        "generation_gas": -0.187,
+        "generation_nuclear": -0.542,
+        "generation_renewables": 0.175
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "generation_coal": 56.365,
+        "generation_gas": 148.029,
+        "generation_nuclear": 68.854,
+        "generation_renewables": 47.151
+      },
+      "zscores": {
+        "generation_coal": -0.672,
+        "generation_gas": 0.278,
+        "generation_nuclear": 0.971,
+        "generation_renewables": 0.176
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "generation_coal": 75.618,
+        "generation_gas": 161.667,
+        "generation_nuclear": 69.08,
+        "generation_renewables": 44.374
+      },
+      "zscores": {
+        "generation_coal": 0.583,
+        "generation_gas": 0.769,
+        "generation_nuclear": 1.064,
+        "generation_renewables": -0.325
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "generation_coal": 44.137,
+        "generation_gas": 131.845,
+        "generation_nuclear": 64.584,
+        "generation_renewables": 53.522
+      },
+      "zscores": {
+        "generation_coal": -1.382,
+        "generation_gas": -0.42,
+        "generation_nuclear": -0.0,
+        "generation_renewables": 1.185
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "generation_coal": 38.505,
+        "generation_gas": 131.137,
+        "generation_nuclear": 63.346,
+        "generation_renewables": 61.121
+      },
+      "zscores": {
+        "generation_coal": -1.639,
+        "generation_gas": -0.486,
+        "generation_nuclear": -0.288,
+        "generation_renewables": 2.287
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "generation_coal": 37.246,
+        "generation_gas": 121.532,
+        "generation_nuclear": 57.542,
+        "generation_renewables": 66.33
+      },
+      "zscores": {
+        "generation_coal": -1.634,
+        "generation_gas": -0.909,
+        "generation_nuclear": -1.661,
+        "generation_renewables": 2.715
+      },
+      "events": [
+        {
+          "label": "Coal output hits a record low",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "generation_coal": 45.812,
+        "generation_gas": 143.993,
+        "generation_nuclear": 64.973,
+        "generation_renewables": 61.627
+      },
+      "zscores": {
+        "generation_coal": -1.069,
+        "generation_gas": -0.014,
+        "generation_nuclear": 0.081,
+        "generation_renewables": 1.866
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "generation_coal": 61.339,
+        "generation_gas": 169.156,
+        "generation_nuclear": 68.192,
+        "generation_renewables": 63.12
+      },
+      "zscores": {
+        "generation_coal": -0.107,
+        "generation_gas": 1.011,
+        "generation_nuclear": 0.82,
+        "generation_renewables": 1.919
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "generation_coal": 71.565,
+        "generation_gas": 205.959,
+        "generation_nuclear": 69.851,
+        "generation_renewables": 52.788
+      },
+      "zscores": {
+        "generation_coal": 0.615,
+        "generation_gas": 2.337,
+        "generation_nuclear": 1.193,
+        "generation_renewables": 0.485
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "generation_coal": 68.76,
+        "generation_gas": 202.915,
+        "generation_nuclear": 69.76,
+        "generation_renewables": 53.618
+      },
+      "zscores": {
+        "generation_coal": 0.545,
+        "generation_gas": 2.079,
+        "generation_nuclear": 1.168,
+        "generation_renewables": 0.561
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "generation_coal": 54.559,
+        "generation_gas": 169.671,
+        "generation_nuclear": 62.66,
+        "generation_renewables": 49.717
+      },
+      "zscores": {
+        "generation_coal": -0.459,
+        "generation_gas": 0.811,
+        "generation_nuclear": -0.466,
+        "generation_renewables": -0.051
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "generation_coal": 46.89,
+        "generation_gas": 146.711,
+        "generation_nuclear": 58.773,
+        "generation_renewables": 59.419
+      },
+      "zscores": {
+        "generation_coal": -0.988,
+        "generation_gas": -0.047,
+        "generation_nuclear": -1.372,
+        "generation_renewables": 1.336
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "generation_coal": 44.924,
+        "generation_gas": 137.687,
+        "generation_nuclear": 61.904,
+        "generation_renewables": 53.974
+      },
+      "zscores": {
+        "generation_coal": -1.089,
+        "generation_gas": -0.4,
+        "generation_nuclear": -0.638,
+        "generation_renewables": 0.478
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "generation_coal": 62.8,
+        "generation_gas": 147.63,
+        "generation_nuclear": 71.2,
+        "generation_renewables": 52.128
+      },
+      "zscores": {
+        "generation_coal": 0.206,
+        "generation_gas": -0.05,
+        "generation_nuclear": 1.503,
+        "generation_renewables": 0.171
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "generation_coal": 83.153,
+        "generation_gas": 157.001,
+        "generation_nuclear": 71.739,
+        "generation_renewables": 59.054
+      },
+      "zscores": {
+        "generation_coal": 1.725,
+        "generation_gas": 0.279,
+        "generation_nuclear": 1.602,
+        "generation_renewables": 1.168
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "generation_coal": 62.306,
+        "generation_gas": 131.374,
+        "generation_nuclear": 61.829,
+        "generation_renewables": 55.794
+      },
+      "zscores": {
+        "generation_coal": 0.202,
+        "generation_gas": -0.716,
+        "generation_nuclear": -0.655,
+        "generation_renewables": 0.633
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "generation_coal": 49.215,
+        "generation_gas": 118.118,
+        "generation_nuclear": 62.457,
+        "generation_renewables": 73.83
+      },
+      "zscores": {
+        "generation_coal": -0.745,
+        "generation_gas": -1.241,
+        "generation_nuclear": -0.507,
+        "generation_renewables": 2.894
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "generation_coal": 45.526,
+        "generation_gas": 114.642,
+        "generation_nuclear": 57.893,
+        "generation_renewables": 72.656
+      },
+      "zscores": {
+        "generation_coal": -0.986,
+        "generation_gas": -1.406,
+        "generation_nuclear": -1.611,
+        "generation_renewables": 2.476
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "generation_coal": 48.778,
+        "generation_gas": 135.072,
+        "generation_nuclear": 62.145,
+        "generation_renewables": 66.619
+      },
+      "zscores": {
+        "generation_coal": -0.715,
+        "generation_gas": -0.617,
+        "generation_nuclear": -0.603,
+        "generation_renewables": 1.642
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "generation_coal": 64.502,
+        "generation_gas": 164.793,
+        "generation_nuclear": 66.222,
+        "generation_renewables": 67.811
+      },
+      "zscores": {
+        "generation_coal": 0.452,
+        "generation_gas": 0.546,
+        "generation_nuclear": 0.346,
+        "generation_renewables": 1.658
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "generation_coal": 80.26,
+        "generation_gas": 201.991,
+        "generation_nuclear": 70.781,
+        "generation_renewables": 65.234
+      },
+      "zscores": {
+        "generation_coal": 1.665,
+        "generation_gas": 1.949,
+        "generation_nuclear": 1.378,
+        "generation_renewables": 1.285
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "generation_coal": 69.728,
+        "generation_gas": 192.894,
+        "generation_nuclear": 70.705,
+        "generation_renewables": 59.116
+      },
+      "zscores": {
+        "generation_coal": 0.949,
+        "generation_gas": 1.585,
+        "generation_nuclear": 1.332,
+        "generation_renewables": 0.551
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "generation_coal": 58.302,
+        "generation_gas": 167.876,
+        "generation_nuclear": 65.458,
+        "generation_renewables": 53.822
+      },
+      "zscores": {
+        "generation_coal": 0.057,
+        "generation_gas": 0.615,
+        "generation_nuclear": 0.129,
+        "generation_renewables": -0.117
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "generation_coal": 54.019,
+        "generation_gas": 143.985,
+        "generation_nuclear": 59.222,
+        "generation_renewables": 64.139
+      },
+      "zscores": {
+        "generation_coal": -0.284,
+        "generation_gas": -0.306,
+        "generation_nuclear": -1.293,
+        "generation_renewables": 1.079
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "generation_coal": 54.49,
+        "generation_gas": 131.565,
+        "generation_nuclear": 63.809,
+        "generation_renewables": 59.549
+      },
+      "zscores": {
+        "generation_coal": -0.242,
+        "generation_gas": -0.788,
+        "generation_nuclear": -0.261,
+        "generation_renewables": 0.485
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "generation_coal": 66.871,
+        "generation_gas": 148.027,
+        "generation_nuclear": 72.521,
+        "generation_renewables": 62.44
+      },
+      "zscores": {
+        "generation_coal": 0.77,
+        "generation_gas": -0.165,
+        "generation_nuclear": 1.665,
+        "generation_renewables": 0.793
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "generation_coal": 72.503,
+        "generation_gas": 151.63,
+        "generation_nuclear": 73.251,
+        "generation_renewables": 62.419
+      },
+      "zscores": {
+        "generation_coal": 1.178,
+        "generation_gas": -0.041,
+        "generation_nuclear": 1.773,
+        "generation_renewables": 0.745
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "generation_coal": 55.859,
+        "generation_gas": 132.089,
+        "generation_nuclear": 62.384,
+        "generation_renewables": 61.012
+      },
+      "zscores": {
+        "generation_coal": -0.165,
+        "generation_gas": -0.808,
+        "generation_nuclear": -0.607,
+        "generation_renewables": 0.533
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "generation_coal": 44.132,
+        "generation_gas": 127.375,
+        "generation_nuclear": 62.096,
+        "generation_renewables": 81.22
+      },
+      "zscores": {
+        "generation_coal": -1.081,
+        "generation_gas": -0.979,
+        "generation_nuclear": -0.664,
+        "generation_renewables": 2.679
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "generation_coal": 39.777,
+        "generation_gas": 124.449,
+        "generation_nuclear": 57.373,
+        "generation_renewables": 80.24
+      },
+      "zscores": {
+        "generation_coal": -1.423,
+        "generation_gas": -1.103,
+        "generation_nuclear": -1.715,
+        "generation_renewables": 2.301
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "generation_coal": 45.119,
+        "generation_gas": 137.271,
+        "generation_nuclear": 65.001,
+        "generation_renewables": 77.576
+      },
+      "zscores": {
+        "generation_coal": -1.006,
+        "generation_gas": -0.605,
+        "generation_nuclear": -0.057,
+        "generation_renewables": 1.865
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "generation_coal": 56.29,
+        "generation_gas": 163.237,
+        "generation_nuclear": 68.786,
+        "generation_renewables": 80.811
+      },
+      "zscores": {
+        "generation_coal": -0.115,
+        "generation_gas": 0.403,
+        "generation_nuclear": 0.756,
+        "generation_renewables": 2.018
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "generation_coal": 75.785,
+        "generation_gas": 205.294,
+        "generation_nuclear": 71.172,
+        "generation_renewables": 73.596
+      },
+      "zscores": {
+        "generation_coal": 1.457,
+        "generation_gas": 2.008,
+        "generation_nuclear": 1.264,
+        "generation_renewables": 1.251
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Where US electricity comes from, month by month. Coal was the backbone of the grid in 2008. Cheap natural gas took first place in 2016, and wind and solar have since passed coal too. Nuclear stayed steady the whole time.",
+    "methodology": "Net generation by fuel for all sectors from EIA electric power operational data (EIA API), in billion kWh per month: coal, natural gas, nuclear, and wind plus solar.",
+    "key_findings": [
+      {
+        "date": "2008-07-01",
+        "title": "2008: Coal Rules",
+        "description": "Coal produced 48% of US electricity in 2008; natural gas produced 21%.",
+        "significance": "Almost half the grid ran on coal.",
+        "normalized_time": 0.2941
+      },
+      {
+        "date": "2016-04-01",
+        "title": "2016: Gas Takes First Place",
+        "description": "Cheap shale gas made gas plants cheaper to run. In 2016 gas produced 34% of US power and coal 30%, the first full year gas led.",
+        "significance": "Market prices, more than rules, pushed coal down.",
+        "normalized_time": 0.598
+      },
+      {
+        "date": "2022-04-01",
+        "title": "April 2022: Wind and Solar Pass Coal",
+        "description": "For the first time, wind and solar produced more power than coal in a single month. In 2024 they passed coal for the whole year. In 2025 coal supplied 16.6% and gas 40.8%.",
+        "significance": "Coal's share fell by about two thirds in 17 years.",
+        "normalized_time": 0.8333
+      }
+    ]
+  }
+}

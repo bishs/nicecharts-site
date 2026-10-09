@@ -1,0 +1,5127 @@
+{
+  "metadata": {
+    "chart_id": "chart_18",
+    "number": 18,
+    "title": "Who Gets the Biggest Raises?",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2001,
+    "end_year": 2026,
+    "observation_count": 304,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-05",
+    "data_notes": "Uses BLS weekly earnings by percentile (quarterly, full-time workers) instead of the Atlanta Fed tracker, which has no API."
+  },
+  "analytics": {
+    "optimal_lag_months": 1,
+    "peak_correlation_coefficient": 0.743,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.28
+      },
+      {
+        "lag": -17,
+        "r": 0.244
+      },
+      {
+        "lag": -16,
+        "r": 0.209
+      },
+      {
+        "lag": -15,
+        "r": 0.176
+      },
+      {
+        "lag": -14,
+        "r": 0.148
+      },
+      {
+        "lag": -13,
+        "r": 0.13
+      },
+      {
+        "lag": -12,
+        "r": 0.123
+      },
+      {
+        "lag": -11,
+        "r": 0.132
+      },
+      {
+        "lag": -10,
+        "r": 0.155
+      },
+      {
+        "lag": -9,
+        "r": 0.19
+      },
+      {
+        "lag": -8,
+        "r": 0.234
+      },
+      {
+        "lag": -7,
+        "r": 0.285
+      },
+      {
+        "lag": -6,
+        "r": 0.342
+      },
+      {
+        "lag": -5,
+        "r": 0.402
+      },
+      {
+        "lag": -4,
+        "r": 0.466
+      },
+      {
+        "lag": -3,
+        "r": 0.535
+      },
+      {
+        "lag": -2,
+        "r": 0.612
+      },
+      {
+        "lag": -1,
+        "r": 0.681
+      },
+      {
+        "lag": 0,
+        "r": 0.729
+      },
+      {
+        "lag": 1,
+        "r": 0.743
+      },
+      {
+        "lag": 2,
+        "r": 0.736
+      },
+      {
+        "lag": 3,
+        "r": 0.717
+      },
+      {
+        "lag": 4,
+        "r": 0.699
+      },
+      {
+        "lag": 5,
+        "r": 0.679
+      },
+      {
+        "lag": 6,
+        "r": 0.659
+      },
+      {
+        "lag": 7,
+        "r": 0.641
+      },
+      {
+        "lag": 8,
+        "r": 0.622
+      },
+      {
+        "lag": 9,
+        "r": 0.596
+      },
+      {
+        "lag": 10,
+        "r": 0.561
+      },
+      {
+        "lag": 11,
+        "r": 0.523
+      },
+      {
+        "lag": 12,
+        "r": 0.486
+      },
+      {
+        "lag": 13,
+        "r": 0.458
+      },
+      {
+        "lag": 14,
+        "r": 0.437
+      },
+      {
+        "lag": 15,
+        "r": 0.42
+      },
+      {
+        "lag": 16,
+        "r": 0.407
+      },
+      {
+        "lag": 17,
+        "r": 0.395
+      },
+      {
+        "lag": 18,
+        "r": 0.384
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "wage_q1_lowest",
+      "agency": "BLS",
+      "series_id": "LEU0252911200",
+      "label": "Bottom 25% Earners (25th Percentile)",
+      "unit": "% YoY",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "wage_q2_midlow",
+      "agency": "BLS",
+      "series_id": "LEU0252881500",
+      "label": "Middle Earner (Median)",
+      "unit": "% YoY",
+      "transform": "raw",
+      "color": "#06b6d4"
+    },
+    {
+      "key": "wage_q3_midhigh",
+      "agency": "BLS",
+      "series_id": "LEU0252911300",
+      "label": "Upper 25% Earners (75th Percentile)",
+      "unit": "% YoY",
+      "transform": "raw",
+      "color": "#3b82f6"
+    },
+    {
+      "key": "wage_q4_highest",
+      "agency": "BLS",
+      "series_id": "LEU0252911400",
+      "label": "Top 10% Earners (90th Percentile)",
+      "unit": "% YoY",
+      "transform": "raw",
+      "color": "#8b5cf6"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2001-02-01",
+      "values": {
+        "wage_q1_lowest": 2.135,
+        "wage_q2_midlow": 2.792,
+        "wage_q3_midhigh": 3.15,
+        "wage_q4_highest": 4.225
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.0,
+        "wage_q2_midlow": 0.0,
+        "wage_q3_midhigh": 0.0,
+        "wage_q4_highest": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "wage_q1_lowest": 2.499,
+        "wage_q2_midlow": 3.209,
+        "wage_q3_midhigh": 3.873,
+        "wage_q4_highest": 4.346
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.0,
+        "wage_q2_midlow": 1.0,
+        "wage_q3_midhigh": 1.0,
+        "wage_q4_highest": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "wage_q1_lowest": 2.862,
+        "wage_q2_midlow": 3.626,
+        "wage_q3_midhigh": 4.596,
+        "wage_q4_highest": 4.467
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.225,
+        "wage_q2_midlow": 1.225,
+        "wage_q3_midhigh": 1.225,
+        "wage_q4_highest": 1.225
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "wage_q1_lowest": 3.226,
+        "wage_q2_midlow": 4.042,
+        "wage_q3_midhigh": 5.319,
+        "wage_q4_highest": 4.588
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.342,
+        "wage_q2_midlow": 1.342,
+        "wage_q3_midhigh": 1.342,
+        "wage_q4_highest": 1.342
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "wage_q1_lowest": 3.469,
+        "wage_q2_midlow": 3.972,
+        "wage_q3_midhigh": 5.142,
+        "wage_q4_highest": 4.859
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.311,
+        "wage_q2_midlow": 0.941,
+        "wage_q3_midhigh": 0.897,
+        "wage_q4_highest": 1.662
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "wage_q1_lowest": 3.713,
+        "wage_q2_midlow": 3.903,
+        "wage_q3_midhigh": 4.965,
+        "wage_q4_highest": 5.129
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.332,
+        "wage_q2_midlow": 0.689,
+        "wage_q3_midhigh": 0.597,
+        "wage_q4_highest": 1.709
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "wage_q1_lowest": 3.957,
+        "wage_q2_midlow": 3.833,
+        "wage_q3_midhigh": 4.787,
+        "wage_q4_highest": 5.399
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.366,
+        "wage_q2_midlow": 0.485,
+        "wage_q3_midhigh": 0.335,
+        "wage_q4_highest": 1.713
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "wage_q1_lowest": 3.807,
+        "wage_q2_midlow": 3.752,
+        "wage_q3_midhigh": 4.577,
+        "wage_q4_highest": 4.782
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.975,
+        "wage_q2_midlow": 0.275,
+        "wage_q3_midhigh": 0.038,
+        "wage_q4_highest": 0.153
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "wage_q1_lowest": 3.658,
+        "wage_q2_midlow": 3.671,
+        "wage_q3_midhigh": 4.366,
+        "wage_q4_highest": 4.164
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.67,
+        "wage_q2_midlow": 0.07,
+        "wage_q3_midhigh": -0.259,
+        "wage_q4_highest": -1.264
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "wage_q1_lowest": 3.509,
+        "wage_q2_midlow": 3.59,
+        "wage_q3_midhigh": 4.156,
+        "wage_q4_highest": 3.547
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.395,
+        "wage_q2_midlow": -0.136,
+        "wage_q3_midhigh": -0.551,
+        "wage_q4_highest": -2.002
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "wage_q1_lowest": 3.268,
+        "wage_q2_midlow": 3.638,
+        "wage_q3_midhigh": 3.873,
+        "wage_q4_highest": 3.678
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.026,
+        "wage_q2_midlow": -0.002,
+        "wage_q3_midhigh": -0.923,
+        "wage_q4_highest": -1.469
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "wage_q1_lowest": 3.028,
+        "wage_q2_midlow": 3.687,
+        "wage_q3_midhigh": 3.591,
+        "wage_q4_highest": 3.81
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.444,
+        "wage_q2_midlow": 0.133,
+        "wage_q3_midhigh": -1.232,
+        "wage_q4_highest": -1.106
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "wage_q1_lowest": 2.787,
+        "wage_q2_midlow": 3.735,
+        "wage_q3_midhigh": 3.308,
+        "wage_q4_highest": 3.941
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.84,
+        "wage_q2_midlow": 0.269,
+        "wage_q3_midhigh": -1.464,
+        "wage_q4_highest": -0.809
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "wage_q1_lowest": 2.784,
+        "wage_q2_midlow": 3.222,
+        "wage_q3_midhigh": 2.794,
+        "wage_q4_highest": 3.79
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.795,
+        "wage_q2_midlow": -1.222,
+        "wage_q3_midhigh": -1.848,
+        "wage_q4_highest": -1.007
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "wage_q1_lowest": 2.781,
+        "wage_q2_midlow": 2.709,
+        "wage_q3_midhigh": 2.281,
+        "wage_q4_highest": 3.639
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.758,
+        "wage_q2_midlow": -2.193,
+        "wage_q3_midhigh": -2.048,
+        "wage_q4_highest": -1.179
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "wage_q1_lowest": 2.778,
+        "wage_q2_midlow": 2.196,
+        "wage_q3_midhigh": 1.768,
+        "wage_q4_highest": 3.487
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.727,
+        "wage_q2_midlow": -2.557,
+        "wage_q3_midhigh": -2.135,
+        "wage_q4_highest": -1.322
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "wage_q1_lowest": 2.313,
+        "wage_q2_midlow": 1.855,
+        "wage_q3_midhigh": 1.601,
+        "wage_q4_highest": 3.104
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.491,
+        "wage_q2_midlow": -2.471,
+        "wage_q3_midhigh": -1.949,
+        "wage_q4_highest": -1.741
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "wage_q1_lowest": 1.849,
+        "wage_q2_midlow": 1.515,
+        "wage_q3_midhigh": 1.435,
+        "wage_q4_highest": 2.721
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.017,
+        "wage_q2_midlow": -2.393,
+        "wage_q3_midhigh": -1.828,
+        "wage_q4_highest": -2.007
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "wage_q1_lowest": 1.384,
+        "wage_q2_midlow": 1.174,
+        "wage_q3_midhigh": 1.269,
+        "wage_q4_highest": 2.339
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.302,
+        "wage_q2_midlow": -2.325,
+        "wage_q3_midhigh": -1.744,
+        "wage_q4_highest": -2.153
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "wage_q1_lowest": 1.262,
+        "wage_q2_midlow": 1.168,
+        "wage_q3_midhigh": 1.594,
+        "wage_q4_highest": 2.406
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.116,
+        "wage_q2_midlow": -2.016,
+        "wage_q3_midhigh": -1.379,
+        "wage_q4_highest": -1.828
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "wage_q1_lowest": 1.139,
+        "wage_q2_midlow": 1.162,
+        "wage_q3_midhigh": 1.919,
+        "wage_q4_highest": 2.474
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.991,
+        "wage_q2_midlow": -1.806,
+        "wage_q3_midhigh": -1.074,
+        "wage_q4_highest": -1.592
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "wage_q1_lowest": 1.017,
+        "wage_q2_midlow": 1.155,
+        "wage_q3_midhigh": 2.244,
+        "wage_q4_highest": 2.541
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.902,
+        "wage_q2_midlow": -1.652,
+        "wage_q3_midhigh": -0.799,
+        "wage_q4_highest": -1.408
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "wage_q1_lowest": 1.243,
+        "wage_q2_midlow": 1.261,
+        "wage_q3_midhigh": 2.153,
+        "wage_q4_highest": 2.489
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.522,
+        "wage_q2_midlow": -1.443,
+        "wage_q3_midhigh": -0.835,
+        "wage_q4_highest": -1.372
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "wage_q1_lowest": 1.469,
+        "wage_q2_midlow": 1.367,
+        "wage_q3_midhigh": 2.062,
+        "wage_q4_highest": 2.436
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.207,
+        "wage_q2_midlow": -1.27,
+        "wage_q3_midhigh": -0.871,
+        "wage_q4_highest": -1.344
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "wage_q1_lowest": 1.695,
+        "wage_q2_midlow": 1.473,
+        "wage_q3_midhigh": 1.97,
+        "wage_q4_highest": 2.384
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.925,
+        "wage_q2_midlow": -1.119,
+        "wage_q3_midhigh": -0.906,
+        "wage_q4_highest": -1.321
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "wage_q1_lowest": 1.693,
+        "wage_q2_midlow": 1.588,
+        "wage_q3_midhigh": 1.975,
+        "wage_q4_highest": 2.314
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.895,
+        "wage_q2_midlow": -0.976,
+        "wage_q3_midhigh": -0.871,
+        "wage_q4_highest": -1.32
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "wage_q1_lowest": 1.691,
+        "wage_q2_midlow": 1.703,
+        "wage_q3_midhigh": 1.98,
+        "wage_q4_highest": 2.244
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.867,
+        "wage_q2_midlow": -0.844,
+        "wage_q3_midhigh": -0.839,
+        "wage_q4_highest": -1.32
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "wage_q1_lowest": 1.689,
+        "wage_q2_midlow": 1.818,
+        "wage_q3_midhigh": 1.985,
+        "wage_q4_highest": 2.174
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.842,
+        "wage_q2_midlow": -0.719,
+        "wage_q3_midhigh": -0.811,
+        "wage_q4_highest": -1.322
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "wage_q1_lowest": 1.922,
+        "wage_q2_midlow": 2.041,
+        "wage_q3_midhigh": 2.326,
+        "wage_q4_highest": 2.574
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.572,
+        "wage_q2_midlow": -0.502,
+        "wage_q3_midhigh": -0.533,
+        "wage_q4_highest": -0.889
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "wage_q1_lowest": 2.156,
+        "wage_q2_midlow": 2.264,
+        "wage_q3_midhigh": 2.667,
+        "wage_q4_highest": 2.973
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.306,
+        "wage_q2_midlow": -0.289,
+        "wage_q3_midhigh": -0.26,
+        "wage_q4_highest": -0.473
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "wage_q1_lowest": 2.389,
+        "wage_q2_midlow": 2.488,
+        "wage_q3_midhigh": 3.008,
+        "wage_q4_highest": 3.373
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.041,
+        "wage_q2_midlow": -0.077,
+        "wage_q3_midhigh": 0.013,
+        "wage_q4_highest": -0.062
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "wage_q1_lowest": 2.152,
+        "wage_q2_midlow": 2.311,
+        "wage_q3_midhigh": 2.493,
+        "wage_q4_highest": 3.255
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.309,
+        "wage_q2_midlow": -0.243,
+        "wage_q3_midhigh": -0.398,
+        "wage_q4_highest": -0.182
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "wage_q1_lowest": 1.915,
+        "wage_q2_midlow": 2.134,
+        "wage_q3_midhigh": 1.978,
+        "wage_q4_highest": 3.136
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.573,
+        "wage_q2_midlow": -0.408,
+        "wage_q3_midhigh": -0.802,
+        "wage_q4_highest": -0.303
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "wage_q1_lowest": 1.678,
+        "wage_q2_midlow": 1.958,
+        "wage_q3_midhigh": 1.463,
+        "wage_q4_highest": 3.017
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.832,
+        "wage_q2_midlow": -0.571,
+        "wage_q3_midhigh": -1.185,
+        "wage_q4_highest": -0.423
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "wage_q1_lowest": 1.896,
+        "wage_q2_midlow": 2.058,
+        "wage_q3_midhigh": 1.539,
+        "wage_q4_highest": 2.999
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.562,
+        "wage_q2_midlow": -0.463,
+        "wage_q3_midhigh": -1.087,
+        "wage_q4_highest": -0.435
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "wage_q1_lowest": 2.115,
+        "wage_q2_midlow": 2.158,
+        "wage_q3_midhigh": 1.615,
+        "wage_q4_highest": 2.981
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.296,
+        "wage_q2_midlow": -0.356,
+        "wage_q3_midhigh": -0.996,
+        "wage_q4_highest": -0.448
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "wage_q1_lowest": 2.333,
+        "wage_q2_midlow": 2.258,
+        "wage_q3_midhigh": 1.691,
+        "wage_q4_highest": 2.963
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.038,
+        "wage_q2_midlow": -0.238,
+        "wage_q3_midhigh": -0.891,
+        "wage_q4_highest": -0.433
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "wage_q1_lowest": 1.888,
+        "wage_q2_midlow": 2.75,
+        "wage_q3_midhigh": 1.776,
+        "wage_q4_highest": 3.004
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.556,
+        "wage_q2_midlow": 0.279,
+        "wage_q3_midhigh": -0.777,
+        "wage_q4_highest": -0.351
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "wage_q1_lowest": 1.442,
+        "wage_q2_midlow": 3.242,
+        "wage_q3_midhigh": 1.861,
+        "wage_q4_highest": 3.044
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.036,
+        "wage_q2_midlow": 0.805,
+        "wage_q3_midhigh": -0.663,
+        "wage_q4_highest": -0.266
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "wage_q1_lowest": 0.997,
+        "wage_q2_midlow": 3.734,
+        "wage_q3_midhigh": 1.946,
+        "wage_q4_highest": 3.085
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.473,
+        "wage_q2_midlow": 1.343,
+        "wage_q3_midhigh": -0.552,
+        "wage_q4_highest": -0.175
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "wage_q1_lowest": 0.998,
+        "wage_q2_midlow": 3.244,
+        "wage_q3_midhigh": 1.946,
+        "wage_q4_highest": 2.758
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.394,
+        "wage_q2_midlow": 0.871,
+        "wage_q3_midhigh": -0.512,
+        "wage_q4_highest": -0.529
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "wage_q1_lowest": 0.999,
+        "wage_q2_midlow": 2.755,
+        "wage_q3_midhigh": 1.946,
+        "wage_q4_highest": 2.432
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.334,
+        "wage_q2_midlow": 0.389,
+        "wage_q3_midhigh": -0.47,
+        "wage_q4_highest": -0.93
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "wage_q1_lowest": 1.0,
+        "wage_q2_midlow": 2.265,
+        "wage_q3_midhigh": 1.946,
+        "wage_q4_highest": 2.105
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.3,
+        "wage_q2_midlow": -0.115,
+        "wage_q3_midhigh": -0.427,
+        "wage_q4_highest": -1.455
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "wage_q1_lowest": 1.217,
+        "wage_q2_midlow": 2.684,
+        "wage_q3_midhigh": 1.939,
+        "wage_q4_highest": 2.171
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.996,
+        "wage_q2_midlow": 0.422,
+        "wage_q3_midhigh": -0.391,
+        "wage_q4_highest": -1.371
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "wage_q1_lowest": 1.433,
+        "wage_q2_midlow": 3.102,
+        "wage_q3_midhigh": 1.931,
+        "wage_q4_highest": 2.236
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.666,
+        "wage_q2_midlow": 0.969,
+        "wage_q3_midhigh": -0.354,
+        "wage_q4_highest": -1.222
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "wage_q1_lowest": 1.65,
+        "wage_q2_midlow": 3.52,
+        "wage_q3_midhigh": 1.923,
+        "wage_q4_highest": 2.301
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.296,
+        "wage_q2_midlow": 1.495,
+        "wage_q3_midhigh": -0.316,
+        "wage_q4_highest": -1.04
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "wage_q1_lowest": 1.643,
+        "wage_q2_midlow": 3.346,
+        "wage_q3_midhigh": 2.232,
+        "wage_q4_highest": 2.425
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.255,
+        "wage_q2_midlow": 1.308,
+        "wage_q3_midhigh": 0.347,
+        "wage_q4_highest": -0.758
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "wage_q1_lowest": 1.636,
+        "wage_q2_midlow": 3.171,
+        "wage_q3_midhigh": 2.541,
+        "wage_q4_highest": 2.549
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.215,
+        "wage_q2_midlow": 1.135,
+        "wage_q3_midhigh": 1.182,
+        "wage_q4_highest": -0.471
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "wage_q1_lowest": 1.629,
+        "wage_q2_midlow": 2.997,
+        "wage_q3_midhigh": 2.85,
+        "wage_q4_highest": 2.672
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.178,
+        "wage_q2_midlow": 0.973,
+        "wage_q3_midhigh": 2.084,
+        "wage_q4_highest": -0.153
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "wage_q1_lowest": 1.415,
+        "wage_q2_midlow": 2.207,
+        "wage_q3_midhigh": 2.298,
+        "wage_q4_highest": 2.194
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.56,
+        "wage_q2_midlow": -0.053,
+        "wage_q3_midhigh": 0.772,
+        "wage_q4_highest": -1.227
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "wage_q1_lowest": 1.201,
+        "wage_q2_midlow": 1.416,
+        "wage_q3_midhigh": 1.746,
+        "wage_q4_highest": 1.716
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.984,
+        "wage_q2_midlow": -1.081,
+        "wage_q3_midhigh": -0.642,
+        "wage_q4_highest": -2.275
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "wage_q1_lowest": 0.987,
+        "wage_q2_midlow": 0.626,
+        "wage_q3_midhigh": 1.193,
+        "wage_q4_highest": 1.238
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.458,
+        "wage_q2_midlow": -1.977,
+        "wage_q3_midhigh": -1.949,
+        "wage_q4_highest": -3.027
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "wage_q1_lowest": 0.988,
+        "wage_q2_midlow": 1.314,
+        "wage_q3_midhigh": 1.034,
+        "wage_q4_highest": 1.65
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.391,
+        "wage_q2_midlow": -1.06,
+        "wage_q3_midhigh": -2.173,
+        "wage_q4_highest": -1.934
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "wage_q1_lowest": 0.989,
+        "wage_q2_midlow": 2.002,
+        "wage_q3_midhigh": 0.875,
+        "wage_q4_highest": 2.062
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.307,
+        "wage_q2_midlow": -0.207,
+        "wage_q3_midhigh": -2.354,
+        "wage_q4_highest": -0.985
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "wage_q1_lowest": 0.99,
+        "wage_q2_midlow": 2.69,
+        "wage_q3_midhigh": 0.716,
+        "wage_q4_highest": 2.474
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.251,
+        "wage_q2_midlow": 0.629,
+        "wage_q3_midhigh": -2.501,
+        "wage_q4_highest": -0.107
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "wage_q1_lowest": 1.526,
+        "wage_q2_midlow": 2.411,
+        "wage_q3_midhigh": 1.499,
+        "wage_q4_highest": 2.808
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.007,
+        "wage_q2_midlow": 0.228,
+        "wage_q3_midhigh": -0.874,
+        "wage_q4_highest": 0.588
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "wage_q1_lowest": 2.062,
+        "wage_q2_midlow": 2.133,
+        "wage_q3_midhigh": 2.283,
+        "wage_q4_highest": 3.142
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.217,
+        "wage_q2_midlow": -0.185,
+        "wage_q3_midhigh": 0.711,
+        "wage_q4_highest": 1.238
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "wage_q1_lowest": 2.597,
+        "wage_q2_midlow": 1.855,
+        "wage_q3_midhigh": 3.066,
+        "wage_q4_highest": 3.476
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.255,
+        "wage_q2_midlow": -0.613,
+        "wage_q3_midhigh": 2.125,
+        "wage_q4_highest": 1.797
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "wage_q1_lowest": 2.373,
+        "wage_q2_midlow": 2.002,
+        "wage_q3_midhigh": 2.968,
+        "wage_q4_highest": 3.352
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.63,
+        "wage_q2_midlow": -0.445,
+        "wage_q3_midhigh": 1.807,
+        "wage_q4_highest": 1.454
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "wage_q1_lowest": 2.148,
+        "wage_q2_midlow": 2.15,
+        "wage_q3_midhigh": 2.87,
+        "wage_q4_highest": 3.228
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.083,
+        "wage_q2_midlow": -0.269,
+        "wage_q3_midhigh": 1.533,
+        "wage_q4_highest": 1.149
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "wage_q1_lowest": 1.923,
+        "wage_q2_midlow": 2.297,
+        "wage_q3_midhigh": 2.771,
+        "wage_q4_highest": 3.103
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.585,
+        "wage_q2_midlow": -0.085,
+        "wage_q3_midhigh": 1.288,
+        "wage_q4_highest": 0.867
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "wage_q1_lowest": 2.259,
+        "wage_q2_midlow": 2.361,
+        "wage_q3_midhigh": 3.184,
+        "wage_q4_highest": 3.292
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.24,
+        "wage_q2_midlow": -0.021,
+        "wage_q3_midhigh": 1.845,
+        "wage_q4_highest": 1.157
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "wage_q1_lowest": 2.595,
+        "wage_q2_midlow": 2.425,
+        "wage_q3_midhigh": 3.597,
+        "wage_q4_highest": 3.481
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.799,
+        "wage_q2_midlow": 0.049,
+        "wage_q3_midhigh": 2.262,
+        "wage_q4_highest": 1.416
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "wage_q1_lowest": 2.932,
+        "wage_q2_midlow": 2.488,
+        "wage_q3_midhigh": 4.009,
+        "wage_q4_highest": 3.67
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.223,
+        "wage_q2_midlow": 0.122,
+        "wage_q3_midhigh": 2.533,
+        "wage_q4_highest": 1.642
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "wage_q1_lowest": 3.153,
+        "wage_q2_midlow": 2.994,
+        "wage_q3_midhigh": 4.174,
+        "wage_q4_highest": 3.419
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.359,
+        "wage_q2_midlow": 0.886,
+        "wage_q3_midhigh": 2.449,
+        "wage_q4_highest": 1.134
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "wage_q1_lowest": 3.374,
+        "wage_q2_midlow": 3.5,
+        "wage_q3_midhigh": 4.338,
+        "wage_q4_highest": 3.168
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.451,
+        "wage_q2_midlow": 1.582,
+        "wage_q3_midhigh": 2.386,
+        "wage_q4_highest": 0.682
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "wage_q1_lowest": 3.595,
+        "wage_q2_midlow": 4.006,
+        "wage_q3_midhigh": 4.502,
+        "wage_q4_highest": 2.918
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.513,
+        "wage_q2_midlow": 2.141,
+        "wage_q3_midhigh": 2.345,
+        "wage_q4_highest": 0.27
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "wage_q1_lowest": 3.135,
+        "wage_q2_midlow": 3.834,
+        "wage_q3_midhigh": 4.146,
+        "wage_q4_highest": 2.9
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.745,
+        "wage_q2_midlow": 1.753,
+        "wage_q3_midhigh": 1.825,
+        "wage_q4_highest": 0.26
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "wage_q1_lowest": 2.675,
+        "wage_q2_midlow": 3.662,
+        "wage_q3_midhigh": 3.789,
+        "wage_q4_highest": 2.883
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.072,
+        "wage_q2_midlow": 1.422,
+        "wage_q3_midhigh": 1.376,
+        "wage_q4_highest": 0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "wage_q1_lowest": 2.215,
+        "wage_q2_midlow": 3.49,
+        "wage_q3_midhigh": 3.432,
+        "wage_q4_highest": 2.866
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.436,
+        "wage_q2_midlow": 1.126,
+        "wage_q3_midhigh": 0.969,
+        "wage_q4_highest": 0.22
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "wage_q1_lowest": 2.42,
+        "wage_q2_midlow": 3.574,
+        "wage_q3_midhigh": 3.562,
+        "wage_q4_highest": 2.719
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.686,
+        "wage_q2_midlow": 1.169,
+        "wage_q3_midhigh": 1.037,
+        "wage_q4_highest": -0.029
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "wage_q1_lowest": 2.625,
+        "wage_q2_midlow": 3.658,
+        "wage_q3_midhigh": 3.691,
+        "wage_q4_highest": 2.573
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.929,
+        "wage_q2_midlow": 1.207,
+        "wage_q3_midhigh": 1.1,
+        "wage_q4_highest": -0.274
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "wage_q1_lowest": 2.83,
+        "wage_q2_midlow": 3.743,
+        "wage_q3_midhigh": 3.82,
+        "wage_q4_highest": 2.427
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.162,
+        "wage_q2_midlow": 1.241,
+        "wage_q3_midhigh": 1.158,
+        "wage_q4_highest": -0.511
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "wage_q1_lowest": 3.153,
+        "wage_q2_midlow": 4.063,
+        "wage_q3_midhigh": 4.21,
+        "wage_q4_highest": 3.257
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.484,
+        "wage_q2_midlow": 1.547,
+        "wage_q3_midhigh": 1.439,
+        "wage_q4_highest": 0.968
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "wage_q1_lowest": 3.475,
+        "wage_q2_midlow": 4.384,
+        "wage_q3_midhigh": 4.599,
+        "wage_q4_highest": 4.087
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.747,
+        "wage_q2_midlow": 1.818,
+        "wage_q3_midhigh": 1.679,
+        "wage_q4_highest": 2.235
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "wage_q1_lowest": 3.797,
+        "wage_q2_midlow": 4.704,
+        "wage_q3_midhigh": 4.989,
+        "wage_q4_highest": 4.916
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.968,
+        "wage_q2_midlow": 2.06,
+        "wage_q3_midhigh": 1.872,
+        "wage_q4_highest": 3.044
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "wage_q1_lowest": 3.793,
+        "wage_q2_midlow": 4.124,
+        "wage_q3_midhigh": 4.913,
+        "wage_q4_highest": 5.2
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.825,
+        "wage_q2_midlow": 1.35,
+        "wage_q3_midhigh": 1.678,
+        "wage_q4_highest": 2.918
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "wage_q1_lowest": 3.789,
+        "wage_q2_midlow": 3.543,
+        "wage_q3_midhigh": 4.837,
+        "wage_q4_highest": 5.484
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.703,
+        "wage_q2_midlow": 0.688,
+        "wage_q3_midhigh": 1.51,
+        "wage_q4_highest": 2.8
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "wage_q1_lowest": 3.785,
+        "wage_q2_midlow": 2.963,
+        "wage_q3_midhigh": 4.762,
+        "wage_q4_highest": 5.767
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.598,
+        "wage_q2_midlow": 0.037,
+        "wage_q3_midhigh": 1.361,
+        "wage_q4_highest": 2.703
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "wage_q1_lowest": 3.865,
+        "wage_q2_midlow": 2.855,
+        "wage_q3_midhigh": 4.502,
+        "wage_q4_highest": 4.966
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.581,
+        "wage_q2_midlow": -0.086,
+        "wage_q3_midhigh": 1.086,
+        "wage_q4_highest": 1.765
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "wage_q1_lowest": 3.945,
+        "wage_q2_midlow": 2.747,
+        "wage_q3_midhigh": 4.242,
+        "wage_q4_highest": 4.164
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.561,
+        "wage_q2_midlow": -0.193,
+        "wage_q3_midhigh": 0.827,
+        "wage_q4_highest": 0.941
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "wage_q1_lowest": 4.025,
+        "wage_q2_midlow": 2.639,
+        "wage_q3_midhigh": 3.982,
+        "wage_q4_highest": 3.362
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.538,
+        "wage_q2_midlow": -0.286,
+        "wage_q3_midhigh": 0.576,
+        "wage_q4_highest": 0.146
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "wage_q1_lowest": 4.416,
+        "wage_q2_midlow": 3.01,
+        "wage_q3_midhigh": 4.026,
+        "wage_q4_highest": 4.042
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.799,
+        "wage_q2_midlow": 0.133,
+        "wage_q3_midhigh": 0.574,
+        "wage_q4_highest": 0.761
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "wage_q1_lowest": 4.807,
+        "wage_q2_midlow": 3.381,
+        "wage_q3_midhigh": 4.069,
+        "wage_q4_highest": 4.723
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.006,
+        "wage_q2_midlow": 0.534,
+        "wage_q3_midhigh": 0.575,
+        "wage_q4_highest": 1.335
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "wage_q1_lowest": 5.199,
+        "wage_q2_midlow": 3.752,
+        "wage_q3_midhigh": 4.113,
+        "wage_q4_highest": 5.403
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.16,
+        "wage_q2_midlow": 0.908,
+        "wage_q3_midhigh": 0.581,
+        "wage_q4_highest": 1.825
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "wage_q1_lowest": 5.295,
+        "wage_q2_midlow": 3.902,
+        "wage_q3_midhigh": 4.254,
+        "wage_q4_highest": 5.32
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.062,
+        "wage_q2_midlow": 1.014,
+        "wage_q3_midhigh": 0.657,
+        "wage_q4_highest": 1.634
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "wage_q1_lowest": 5.391,
+        "wage_q2_midlow": 4.053,
+        "wage_q3_midhigh": 4.395,
+        "wage_q4_highest": 5.237
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.989,
+        "wage_q2_midlow": 1.123,
+        "wage_q3_midhigh": 0.73,
+        "wage_q4_highest": 1.48
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "wage_q1_lowest": 5.488,
+        "wage_q2_midlow": 4.203,
+        "wage_q3_midhigh": 4.536,
+        "wage_q4_highest": 5.155
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.941,
+        "wage_q2_midlow": 1.289,
+        "wage_q3_midhigh": 0.811,
+        "wage_q4_highest": 1.361
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "wage_q1_lowest": 5.28,
+        "wage_q2_midlow": 4.001,
+        "wage_q3_midhigh": 4.611,
+        "wage_q4_highest": 4.946
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.68,
+        "wage_q2_midlow": 1.013,
+        "wage_q3_midhigh": 0.85,
+        "wage_q4_highest": 1.122
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "wage_q1_lowest": 5.071,
+        "wage_q2_midlow": 3.799,
+        "wage_q3_midhigh": 4.686,
+        "wage_q4_highest": 4.737
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.445,
+        "wage_q2_midlow": 0.71,
+        "wage_q3_midhigh": 0.917,
+        "wage_q4_highest": 0.875
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "wage_q1_lowest": 4.863,
+        "wage_q2_midlow": 3.597,
+        "wage_q3_midhigh": 4.762,
+        "wage_q4_highest": 4.529
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.225,
+        "wage_q2_midlow": 0.413,
+        "wage_q3_midhigh": 1.05,
+        "wage_q4_highest": 0.626
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "wage_q1_lowest": 4.532,
+        "wage_q2_midlow": 3.731,
+        "wage_q3_midhigh": 4.593,
+        "wage_q4_highest": 4.661
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.884,
+        "wage_q2_midlow": 0.551,
+        "wage_q3_midhigh": 0.845,
+        "wage_q4_highest": 0.715
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "wage_q1_lowest": 4.2,
+        "wage_q2_midlow": 3.866,
+        "wage_q3_midhigh": 4.424,
+        "wage_q4_highest": 4.793
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.534,
+        "wage_q2_midlow": 0.688,
+        "wage_q3_midhigh": 0.556,
+        "wage_q4_highest": 0.804
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "wage_q1_lowest": 3.869,
+        "wage_q2_midlow": 4.0,
+        "wage_q3_midhigh": 4.255,
+        "wage_q4_highest": 4.926
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.188,
+        "wage_q2_midlow": 0.839,
+        "wage_q3_midhigh": 0.225,
+        "wage_q4_highest": 0.892
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "wage_q1_lowest": 3.064,
+        "wage_q2_midlow": 3.548,
+        "wage_q3_midhigh": 3.391,
+        "wage_q4_highest": 4.453
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.619,
+        "wage_q2_midlow": 0.117,
+        "wage_q3_midhigh": -1.371,
+        "wage_q4_highest": 0.383
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "wage_q1_lowest": 2.259,
+        "wage_q2_midlow": 3.095,
+        "wage_q3_midhigh": 2.527,
+        "wage_q4_highest": 3.98
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.42,
+        "wage_q2_midlow": -0.678,
+        "wage_q3_midhigh": -2.809,
+        "wage_q4_highest": -0.122
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "wage_q1_lowest": 1.453,
+        "wage_q2_midlow": 2.643,
+        "wage_q3_midhigh": 1.663,
+        "wage_q4_highest": 3.507
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.148,
+        "wage_q2_midlow": -1.493,
+        "wage_q3_midhigh": -3.663,
+        "wage_q4_highest": -0.626
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "wage_q1_lowest": 1.451,
+        "wage_q2_midlow": 2.457,
+        "wage_q3_midhigh": 1.591,
+        "wage_q4_highest": 2.873
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.053,
+        "wage_q2_midlow": -1.833,
+        "wage_q3_midhigh": -3.203,
+        "wage_q4_highest": -1.258
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "wage_q1_lowest": 1.448,
+        "wage_q2_midlow": 2.272,
+        "wage_q3_midhigh": 1.519,
+        "wage_q4_highest": 2.239
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.941,
+        "wage_q2_midlow": -2.117,
+        "wage_q3_midhigh": -2.841,
+        "wage_q4_highest": -1.796
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "wage_q1_lowest": 1.445,
+        "wage_q2_midlow": 2.086,
+        "wage_q3_midhigh": 1.446,
+        "wage_q4_highest": 1.604
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.824,
+        "wage_q2_midlow": -2.325,
+        "wage_q3_midhigh": -2.562,
+        "wage_q4_highest": -2.199
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "wage_q1_lowest": 1.06,
+        "wage_q2_midlow": 2.224,
+        "wage_q3_midhigh": 1.24,
+        "wage_q4_highest": 1.541
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.984,
+        "wage_q2_midlow": -1.964,
+        "wage_q3_midhigh": -2.451,
+        "wage_q4_highest": -2.077
+      },
+      "events": [
+        {
+          "label": "Recession: pay growth falls to about 1-2%",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "wage_q1_lowest": 0.675,
+        "wage_q2_midlow": 2.362,
+        "wage_q3_midhigh": 1.033,
+        "wage_q4_highest": 1.478
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.09,
+        "wage_q2_midlow": -1.632,
+        "wage_q3_midhigh": -2.355,
+        "wage_q4_highest": -1.983
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "wage_q1_lowest": 0.29,
+        "wage_q2_midlow": 2.5,
+        "wage_q3_midhigh": 0.826,
+        "wage_q4_highest": 1.415
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.152,
+        "wage_q2_midlow": -1.34,
+        "wage_q3_midhigh": -2.272,
+        "wage_q4_highest": -1.911
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "wage_q1_lowest": 0.766,
+        "wage_q2_midlow": 2.582,
+        "wage_q3_midhigh": 1.163,
+        "wage_q4_highest": 1.445
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.699,
+        "wage_q2_midlow": -1.15,
+        "wage_q3_midhigh": -1.842,
+        "wage_q4_highest": -1.784
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "wage_q1_lowest": 1.243,
+        "wage_q2_midlow": 2.665,
+        "wage_q3_midhigh": 1.5,
+        "wage_q4_highest": 1.475
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.321,
+        "wage_q2_midlow": -0.978,
+        "wage_q3_midhigh": -1.487,
+        "wage_q4_highest": -1.673
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "wage_q1_lowest": 1.719,
+        "wage_q2_midlow": 2.747,
+        "wage_q3_midhigh": 1.837,
+        "wage_q4_highest": 1.506
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.992,
+        "wage_q2_midlow": -0.821,
+        "wage_q3_midhigh": -1.18,
+        "wage_q4_highest": -1.575
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "wage_q1_lowest": 1.815,
+        "wage_q2_midlow": 2.554,
+        "wage_q3_midhigh": 1.906,
+        "wage_q4_highest": 1.293
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.912,
+        "wage_q2_midlow": -1.043,
+        "wage_q3_midhigh": -1.078,
+        "wage_q4_highest": -1.642
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "wage_q1_lowest": 1.91,
+        "wage_q2_midlow": 2.361,
+        "wage_q3_midhigh": 1.976,
+        "wage_q4_highest": 1.081
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.831,
+        "wage_q2_midlow": -1.242,
+        "wage_q3_midhigh": -0.981,
+        "wage_q4_highest": -1.699
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "wage_q1_lowest": 2.006,
+        "wage_q2_midlow": 2.168,
+        "wage_q3_midhigh": 2.045,
+        "wage_q4_highest": 0.869
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.75,
+        "wage_q2_midlow": -1.417,
+        "wage_q3_midhigh": -0.888,
+        "wage_q4_highest": -1.746
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "wage_q1_lowest": 1.527,
+        "wage_q2_midlow": 1.718,
+        "wage_q3_midhigh": 1.431,
+        "wage_q4_highest": 0.872
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.01,
+        "wage_q2_midlow": -1.876,
+        "wage_q3_midhigh": -1.242,
+        "wage_q4_highest": -1.637
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "wage_q1_lowest": 1.048,
+        "wage_q2_midlow": 1.268,
+        "wage_q3_midhigh": 0.817,
+        "wage_q4_highest": 0.874
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.241,
+        "wage_q2_midlow": -2.263,
+        "wage_q3_midhigh": -1.555,
+        "wage_q4_highest": -1.53
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "wage_q1_lowest": 0.57,
+        "wage_q2_midlow": 0.817,
+        "wage_q3_midhigh": 0.204,
+        "wage_q4_highest": 0.877
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.439,
+        "wage_q2_midlow": -2.588,
+        "wage_q3_midhigh": -1.826,
+        "wage_q4_highest": -1.433
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "wage_q1_lowest": 0.862,
+        "wage_q2_midlow": 0.635,
+        "wage_q3_midhigh": 0.136,
+        "wage_q4_highest": 0.817
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.195,
+        "wage_q2_midlow": -2.511,
+        "wage_q3_midhigh": -1.744,
+        "wage_q4_highest": -1.381
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "wage_q1_lowest": 1.153,
+        "wage_q2_midlow": 0.453,
+        "wage_q3_midhigh": 0.068,
+        "wage_q4_highest": 0.757
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.972,
+        "wage_q2_midlow": -2.413,
+        "wage_q3_midhigh": -1.671,
+        "wage_q4_highest": -1.338
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "wage_q1_lowest": 1.445,
+        "wage_q2_midlow": 0.271,
+        "wage_q3_midhigh": 0.0,
+        "wage_q4_highest": 0.697
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.762,
+        "wage_q2_midlow": -2.323,
+        "wage_q3_midhigh": -1.607,
+        "wage_q4_highest": -1.304
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "wage_q1_lowest": 0.869,
+        "wage_q2_midlow": 0.359,
+        "wage_q3_midhigh": -0.267,
+        "wage_q4_highest": 0.901
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.036,
+        "wage_q2_midlow": -2.04,
+        "wage_q3_midhigh": -1.655,
+        "wage_q4_highest": -1.123
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "wage_q1_lowest": 0.294,
+        "wage_q2_midlow": 0.447,
+        "wage_q3_midhigh": -0.534,
+        "wage_q4_highest": 1.105
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.286,
+        "wage_q2_midlow": -1.812,
+        "wage_q3_midhigh": -1.692,
+        "wage_q4_highest": -0.952
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "wage_q1_lowest": -0.282,
+        "wage_q2_midlow": 0.535,
+        "wage_q3_midhigh": -0.802,
+        "wage_q4_highest": 1.309
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.506,
+        "wage_q2_midlow": -1.622,
+        "wage_q3_midhigh": -1.718,
+        "wage_q4_highest": -0.796
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "wage_q1_lowest": -0.001,
+        "wage_q2_midlow": 0.401,
+        "wage_q3_midhigh": -0.468,
+        "wage_q4_highest": 1.16
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.275,
+        "wage_q2_midlow": -1.614,
+        "wage_q3_midhigh": -1.435,
+        "wage_q4_highest": -0.834
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "wage_q1_lowest": 0.281,
+        "wage_q2_midlow": 0.267,
+        "wage_q3_midhigh": -0.134,
+        "wage_q4_highest": 1.011
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.064,
+        "wage_q2_midlow": -1.603,
+        "wage_q3_midhigh": -1.179,
+        "wage_q4_highest": -0.869
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "wage_q1_lowest": 0.562,
+        "wage_q2_midlow": 0.133,
+        "wage_q3_midhigh": 0.2,
+        "wage_q4_highest": 0.861
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.863,
+        "wage_q2_midlow": -1.595,
+        "wage_q3_midhigh": -0.938,
+        "wage_q4_highest": -0.907
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "wage_q1_lowest": 1.13,
+        "wage_q2_midlow": 0.674,
+        "wage_q3_midhigh": 0.54,
+        "wage_q4_highest": 0.864
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.497,
+        "wage_q2_midlow": -1.123,
+        "wage_q3_midhigh": -0.701,
+        "wage_q4_highest": -0.861
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "wage_q1_lowest": 1.698,
+        "wage_q2_midlow": 1.215,
+        "wage_q3_midhigh": 0.88,
+        "wage_q4_highest": 0.867
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.104,
+        "wage_q2_midlow": -0.668,
+        "wage_q3_midhigh": -0.463,
+        "wage_q4_highest": -0.817
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "wage_q1_lowest": 2.266,
+        "wage_q2_midlow": 1.757,
+        "wage_q3_midhigh": 1.22,
+        "wage_q4_highest": 0.87
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.339,
+        "wage_q2_midlow": -0.202,
+        "wage_q3_midhigh": -0.214,
+        "wage_q4_highest": -0.775
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "wage_q1_lowest": 2.081,
+        "wage_q2_midlow": 1.757,
+        "wage_q3_midhigh": 1.428,
+        "wage_q4_highest": 1.157
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.297,
+        "wage_q2_midlow": -0.157,
+        "wage_q3_midhigh": -0.031,
+        "wage_q4_highest": -0.541
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "wage_q1_lowest": 1.895,
+        "wage_q2_midlow": 1.757,
+        "wage_q3_midhigh": 1.636,
+        "wage_q4_highest": 1.444
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.248,
+        "wage_q2_midlow": -0.113,
+        "wage_q3_midhigh": 0.173,
+        "wage_q4_highest": -0.292
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "wage_q1_lowest": 1.709,
+        "wage_q2_midlow": 1.757,
+        "wage_q3_midhigh": 1.844,
+        "wage_q4_highest": 1.732
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.188,
+        "wage_q2_midlow": -0.071,
+        "wage_q3_midhigh": 0.41,
+        "wage_q4_highest": -0.021
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "wage_q1_lowest": 1.422,
+        "wage_q2_midlow": 1.703,
+        "wage_q3_midhigh": 1.701,
+        "wage_q4_highest": 2.102
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.0,
+        "wage_q2_midlow": -0.072,
+        "wage_q3_midhigh": 0.398,
+        "wage_q4_highest": 0.354
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "wage_q1_lowest": 1.135,
+        "wage_q2_midlow": 1.649,
+        "wage_q3_midhigh": 1.558,
+        "wage_q4_highest": 2.472
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.248,
+        "wage_q2_midlow": -0.068,
+        "wage_q3_midhigh": 0.386,
+        "wage_q4_highest": 0.805
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "wage_q1_lowest": 0.847,
+        "wage_q2_midlow": 1.596,
+        "wage_q3_midhigh": 1.414,
+        "wage_q4_highest": 2.842
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.583,
+        "wage_q2_midlow": -0.06,
+        "wage_q3_midhigh": 0.374,
+        "wage_q4_highest": 1.389
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "wage_q1_lowest": 0.751,
+        "wage_q2_midlow": 1.682,
+        "wage_q3_midhigh": 1.409,
+        "wage_q4_highest": 2.948
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.695,
+        "wage_q2_midlow": 0.096,
+        "wage_q3_midhigh": 0.473,
+        "wage_q4_highest": 1.746
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "wage_q1_lowest": 0.655,
+        "wage_q2_midlow": 1.768,
+        "wage_q3_midhigh": 1.405,
+        "wage_q4_highest": 3.054
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.804,
+        "wage_q2_midlow": 0.248,
+        "wage_q3_midhigh": 0.528,
+        "wage_q4_highest": 2.075
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "wage_q1_lowest": 0.559,
+        "wage_q2_midlow": 1.854,
+        "wage_q3_midhigh": 1.4,
+        "wage_q4_highest": 3.16
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.913,
+        "wage_q2_midlow": 0.387,
+        "wage_q3_midhigh": 0.535,
+        "wage_q4_highest": 2.303
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "wage_q1_lowest": 0.28,
+        "wage_q2_midlow": 2.033,
+        "wage_q3_midhigh": 1.402,
+        "wage_q4_highest": 3.342
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.287,
+        "wage_q2_midlow": 0.631,
+        "wage_q3_midhigh": 0.546,
+        "wage_q4_highest": 2.441
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "wage_q1_lowest": 0.002,
+        "wage_q2_midlow": 2.212,
+        "wage_q3_midhigh": 1.404,
+        "wage_q4_highest": 3.524
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.612,
+        "wage_q2_midlow": 0.858,
+        "wage_q3_midhigh": 0.554,
+        "wage_q4_highest": 2.435
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "wage_q1_lowest": -0.277,
+        "wage_q2_midlow": 2.39,
+        "wage_q3_midhigh": 1.406,
+        "wage_q4_highest": 3.707
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.877,
+        "wage_q2_midlow": 1.061,
+        "wage_q3_midhigh": 0.558,
+        "wage_q4_highest": 2.37
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "wage_q1_lowest": -0.371,
+        "wage_q2_midlow": 1.815,
+        "wage_q3_midhigh": 1.071,
+        "wage_q4_highest": 3.124
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.858,
+        "wage_q2_midlow": 0.364,
+        "wage_q3_midhigh": 0.139,
+        "wage_q4_highest": 1.604
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "wage_q1_lowest": -0.466,
+        "wage_q2_midlow": 1.239,
+        "wage_q3_midhigh": 0.737,
+        "wage_q4_highest": 2.541
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.852,
+        "wage_q2_midlow": -0.322,
+        "wage_q3_midhigh": -0.277,
+        "wage_q4_highest": 0.931
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "wage_q1_lowest": -0.56,
+        "wage_q2_midlow": 0.664,
+        "wage_q3_midhigh": 0.402,
+        "wage_q4_highest": 1.957
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.866,
+        "wage_q2_midlow": -0.997,
+        "wage_q3_midhigh": -0.684,
+        "wage_q4_highest": 0.292
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "wage_q1_lowest": 0.093,
+        "wage_q2_midlow": 0.923,
+        "wage_q3_midhigh": 0.467,
+        "wage_q4_highest": 2.226
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.995,
+        "wage_q2_midlow": -0.622,
+        "wage_q3_midhigh": -0.575,
+        "wage_q4_highest": 0.554
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "wage_q1_lowest": 0.747,
+        "wage_q2_midlow": 1.181,
+        "wage_q3_midhigh": 0.533,
+        "wage_q4_highest": 2.495
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.157,
+        "wage_q2_midlow": -0.237,
+        "wage_q3_midhigh": -0.461,
+        "wage_q4_highest": 0.803
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "wage_q1_lowest": 1.401,
+        "wage_q2_midlow": 1.44,
+        "wage_q3_midhigh": 0.598,
+        "wage_q4_highest": 2.764
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.684,
+        "wage_q2_midlow": 0.176,
+        "wage_q3_midhigh": -0.342,
+        "wage_q4_highest": 1.034
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "wage_q1_lowest": 1.674,
+        "wage_q2_midlow": 1.133,
+        "wage_q3_midhigh": 0.596,
+        "wage_q4_highest": 2.864
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.044,
+        "wage_q2_midlow": -0.221,
+        "wage_q3_midhigh": -0.305,
+        "wage_q4_highest": 1.078
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "wage_q1_lowest": 1.948,
+        "wage_q2_midlow": 0.827,
+        "wage_q3_midhigh": 0.594,
+        "wage_q4_highest": 2.963
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.39,
+        "wage_q2_midlow": -0.643,
+        "wage_q3_midhigh": -0.265,
+        "wage_q4_highest": 1.115
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "wage_q1_lowest": 2.222,
+        "wage_q2_midlow": 0.52,
+        "wage_q3_midhigh": 0.592,
+        "wage_q4_highest": 3.063
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.712,
+        "wage_q2_midlow": -1.068,
+        "wage_q3_midhigh": -0.222,
+        "wage_q4_highest": 1.15
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "wage_q1_lowest": 2.778,
+        "wage_q2_midlow": 0.563,
+        "wage_q3_midhigh": 0.725,
+        "wage_q4_highest": 2.929
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.218,
+        "wage_q2_midlow": -0.946,
+        "wage_q3_midhigh": -0.004,
+        "wage_q4_highest": 0.959
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "wage_q1_lowest": 3.333,
+        "wage_q2_midlow": 0.606,
+        "wage_q3_midhigh": 0.857,
+        "wage_q4_highest": 2.794
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.532,
+        "wage_q2_midlow": -0.84,
+        "wage_q3_midhigh": 0.187,
+        "wage_q4_highest": 0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "wage_q1_lowest": 3.889,
+        "wage_q2_midlow": 0.649,
+        "wage_q3_midhigh": 0.99,
+        "wage_q4_highest": 2.66
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.7,
+        "wage_q2_midlow": -0.762,
+        "wage_q3_midhigh": 0.351,
+        "wage_q4_highest": 0.597
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "wage_q1_lowest": 4.001,
+        "wage_q2_midlow": 1.004,
+        "wage_q3_midhigh": 1.328,
+        "wage_q4_highest": 2.413
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.475,
+        "wage_q2_midlow": -0.223,
+        "wage_q3_midhigh": 0.798,
+        "wage_q4_highest": 0.302
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "wage_q1_lowest": 4.113,
+        "wage_q2_midlow": 1.36,
+        "wage_q3_midhigh": 1.666,
+        "wage_q4_highest": 2.167
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.304,
+        "wage_q2_midlow": 0.303,
+        "wage_q3_midhigh": 1.221,
+        "wage_q4_highest": -0.003
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "wage_q1_lowest": 4.225,
+        "wage_q2_midlow": 1.715,
+        "wage_q3_midhigh": 2.004,
+        "wage_q4_highest": 1.92
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.17,
+        "wage_q2_midlow": 0.826,
+        "wage_q3_midhigh": 1.604,
+        "wage_q4_highest": -0.323
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "wage_q1_lowest": 4.106,
+        "wage_q2_midlow": 1.616,
+        "wage_q3_midhigh": 1.93,
+        "wage_q4_highest": 1.905
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.91,
+        "wage_q2_midlow": 0.622,
+        "wage_q3_midhigh": 1.426,
+        "wage_q4_highest": -0.384
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "wage_q1_lowest": 3.987,
+        "wage_q2_midlow": 1.518,
+        "wage_q3_midhigh": 1.856,
+        "wage_q4_highest": 1.89
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.695,
+        "wage_q2_midlow": 0.417,
+        "wage_q3_midhigh": 1.28,
+        "wage_q4_highest": -0.437
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "wage_q1_lowest": 3.867,
+        "wage_q2_midlow": 1.419,
+        "wage_q3_midhigh": 1.782,
+        "wage_q4_highest": 1.874
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.516,
+        "wage_q2_midlow": 0.21,
+        "wage_q3_midhigh": 1.172,
+        "wage_q4_highest": -0.482
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "wage_q1_lowest": 3.484,
+        "wage_q2_midlow": 1.938,
+        "wage_q3_midhigh": 1.711,
+        "wage_q4_highest": 1.491
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.189,
+        "wage_q2_midlow": 1.068,
+        "wage_q3_midhigh": 1.043,
+        "wage_q4_highest": -0.975
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "wage_q1_lowest": 3.101,
+        "wage_q2_midlow": 2.457,
+        "wage_q3_midhigh": 1.64,
+        "wage_q4_highest": 1.107
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.882,
+        "wage_q2_midlow": 1.893,
+        "wage_q3_midhigh": 0.885,
+        "wage_q4_highest": -1.461
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "wage_q1_lowest": 2.717,
+        "wage_q2_midlow": 2.975,
+        "wage_q3_midhigh": 1.569,
+        "wage_q4_highest": 0.723
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.587,
+        "wage_q2_midlow": 2.611,
+        "wage_q3_midhigh": 0.704,
+        "wage_q4_highest": -1.918
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "wage_q1_lowest": 2.079,
+        "wage_q2_midlow": 2.155,
+        "wage_q3_midhigh": 1.373,
+        "wage_q4_highest": 0.725
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.14,
+        "wage_q2_midlow": 1.117,
+        "wage_q3_midhigh": 0.255,
+        "wage_q4_highest": -1.894
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "wage_q1_lowest": 1.441,
+        "wage_q2_midlow": 1.335,
+        "wage_q3_midhigh": 1.176,
+        "wage_q4_highest": 0.727
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.286,
+        "wage_q2_midlow": -0.339,
+        "wage_q3_midhigh": -0.184,
+        "wage_q4_highest": -1.871
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "wage_q1_lowest": 0.802,
+        "wage_q2_midlow": 0.515,
+        "wage_q3_midhigh": 0.98,
+        "wage_q4_highest": 0.729
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.686,
+        "wage_q2_midlow": -1.666,
+        "wage_q3_midhigh": -0.591,
+        "wage_q4_highest": -1.848
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "wage_q1_lowest": 1.526,
+        "wage_q2_midlow": 1.165,
+        "wage_q3_midhigh": 1.439,
+        "wage_q4_highest": 1.032
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.19,
+        "wage_q2_midlow": -0.53,
+        "wage_q3_midhigh": 0.396,
+        "wage_q4_highest": -1.471
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "wage_q1_lowest": 2.249,
+        "wage_q2_midlow": 1.815,
+        "wage_q3_midhigh": 1.899,
+        "wage_q4_highest": 1.335
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.289,
+        "wage_q2_midlow": 0.573,
+        "wage_q3_midhigh": 1.345,
+        "wage_q4_highest": -1.1
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "wage_q1_lowest": 2.973,
+        "wage_q2_midlow": 2.464,
+        "wage_q3_midhigh": 2.358,
+        "wage_q4_highest": 1.638
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.745,
+        "wage_q2_midlow": 1.59,
+        "wage_q3_midhigh": 2.173,
+        "wage_q4_highest": -0.735
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "wage_q1_lowest": 2.159,
+        "wage_q2_midlow": 2.194,
+        "wage_q3_midhigh": 1.896,
+        "wage_q4_highest": 1.359
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.19,
+        "wage_q2_midlow": 1.105,
+        "wage_q3_midhigh": 1.22,
+        "wage_q4_highest": -1.027
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "wage_q1_lowest": 1.346,
+        "wage_q2_midlow": 1.924,
+        "wage_q3_midhigh": 1.434,
+        "wage_q4_highest": 1.079
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.356,
+        "wage_q2_midlow": 0.652,
+        "wage_q3_midhigh": 0.31,
+        "wage_q4_highest": -1.279
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "wage_q1_lowest": 0.532,
+        "wage_q2_midlow": 1.654,
+        "wage_q3_midhigh": 0.973,
+        "wage_q4_highest": 0.8
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.889,
+        "wage_q2_midlow": 0.215,
+        "wage_q3_midhigh": -0.584,
+        "wage_q4_highest": -1.496
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "wage_q1_lowest": 0.619,
+        "wage_q2_midlow": 1.605,
+        "wage_q3_midhigh": 0.906,
+        "wage_q4_highest": 1.171
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.827,
+        "wage_q2_midlow": 0.14,
+        "wage_q3_midhigh": -0.685,
+        "wage_q4_highest": -1.023
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "wage_q1_lowest": 0.706,
+        "wage_q2_midlow": 1.556,
+        "wage_q3_midhigh": 0.839,
+        "wage_q4_highest": 1.543
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.771,
+        "wage_q2_midlow": 0.071,
+        "wage_q3_midhigh": -0.78,
+        "wage_q4_highest": -0.57
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "wage_q1_lowest": 0.794,
+        "wage_q2_midlow": 1.508,
+        "wage_q3_midhigh": 0.772,
+        "wage_q4_highest": 1.914
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.72,
+        "wage_q2_midlow": 0.008,
+        "wage_q3_midhigh": -0.869,
+        "wage_q4_highest": -0.115
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "wage_q1_lowest": 1.148,
+        "wage_q2_midlow": 1.902,
+        "wage_q3_midhigh": 1.097,
+        "wage_q4_highest": 1.973
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.506,
+        "wage_q2_midlow": 0.657,
+        "wage_q3_midhigh": -0.221,
+        "wage_q4_highest": -0.004
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "wage_q1_lowest": 1.502,
+        "wage_q2_midlow": 2.297,
+        "wage_q3_midhigh": 1.422,
+        "wage_q4_highest": 2.031
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.302,
+        "wage_q2_midlow": 1.289,
+        "wage_q3_midhigh": 0.41,
+        "wage_q4_highest": 0.122
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "wage_q1_lowest": 1.857,
+        "wage_q2_midlow": 2.692,
+        "wage_q3_midhigh": 1.748,
+        "wage_q4_highest": 2.09
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.103,
+        "wage_q2_midlow": 1.873,
+        "wage_q3_midhigh": 1.01,
+        "wage_q4_highest": 0.272
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "wage_q1_lowest": 1.5,
+        "wage_q2_midlow": 2.343,
+        "wage_q3_midhigh": 1.293,
+        "wage_q4_highest": 2.414
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.41,
+        "wage_q2_midlow": 1.271,
+        "wage_q3_midhigh": 0.126,
+        "wage_q4_highest": 0.762
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "wage_q1_lowest": 1.144,
+        "wage_q2_midlow": 1.994,
+        "wage_q3_midhigh": 0.838,
+        "wage_q4_highest": 2.738
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.74,
+        "wage_q2_midlow": 0.694,
+        "wage_q3_midhigh": -0.756,
+        "wage_q4_highest": 1.198
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "wage_q1_lowest": 0.787,
+        "wage_q2_midlow": 1.646,
+        "wage_q3_midhigh": 0.384,
+        "wage_q4_highest": 3.062
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.097,
+        "wage_q2_midlow": 0.116,
+        "wage_q3_midhigh": -1.629,
+        "wage_q4_highest": 1.549
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "wage_q1_lowest": 1.76,
+        "wage_q2_midlow": 2.182,
+        "wage_q3_midhigh": 1.54,
+        "wage_q4_highest": 3.893
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.357,
+        "wage_q2_midlow": 0.915,
+        "wage_q3_midhigh": 0.557,
+        "wage_q4_highest": 2.386
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "wage_q1_lowest": 2.732,
+        "wage_q2_midlow": 2.718,
+        "wage_q3_midhigh": 2.697,
+        "wage_q4_highest": 4.724
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.427,
+        "wage_q2_midlow": 1.645,
+        "wage_q3_midhigh": 2.54,
+        "wage_q4_highest": 2.917
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "wage_q1_lowest": 3.704,
+        "wage_q2_midlow": 3.254,
+        "wage_q3_midhigh": 3.854,
+        "wage_q4_highest": 5.556
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.195,
+        "wage_q2_midlow": 2.221,
+        "wage_q3_midhigh": 3.643,
+        "wage_q4_highest": 3.176
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "wage_q1_lowest": 3.519,
+        "wage_q2_midlow": 3.077,
+        "wage_q3_midhigh": 3.974,
+        "wage_q4_highest": 5.008
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.984,
+        "wage_q2_midlow": 1.817,
+        "wage_q3_midhigh": 3.175,
+        "wage_q4_highest": 2.409
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "wage_q1_lowest": 3.334,
+        "wage_q2_midlow": 2.9,
+        "wage_q3_midhigh": 4.094,
+        "wage_q4_highest": 4.46
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.79,
+        "wage_q2_midlow": 1.481,
+        "wage_q3_midhigh": 2.861,
+        "wage_q4_highest": 1.831
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "wage_q1_lowest": 3.15,
+        "wage_q2_midlow": 2.723,
+        "wage_q3_midhigh": 4.215,
+        "wage_q4_highest": 3.912
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.611,
+        "wage_q2_midlow": 1.187,
+        "wage_q3_midhigh": 2.634,
+        "wage_q4_highest": 1.343
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "wage_q1_lowest": 3.055,
+        "wage_q2_midlow": 2.772,
+        "wage_q3_midhigh": 4.146,
+        "wage_q4_highest": 3.737
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.524,
+        "wage_q2_midlow": 1.205,
+        "wage_q3_midhigh": 2.302,
+        "wage_q4_highest": 1.168
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "wage_q1_lowest": 2.96,
+        "wage_q2_midlow": 2.822,
+        "wage_q3_midhigh": 4.077,
+        "wage_q4_highest": 3.561
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.456,
+        "wage_q2_midlow": 1.228,
+        "wage_q3_midhigh": 2.04,
+        "wage_q4_highest": 1.003
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "wage_q1_lowest": 2.865,
+        "wage_q2_midlow": 2.871,
+        "wage_q3_midhigh": 4.008,
+        "wage_q4_highest": 3.386
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.409,
+        "wage_q2_midlow": 1.257,
+        "wage_q3_midhigh": 1.824,
+        "wage_q4_highest": 0.844
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "wage_q1_lowest": 2.865,
+        "wage_q2_midlow": 2.911,
+        "wage_q3_midhigh": 4.138,
+        "wage_q4_highest": 3.795
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.447,
+        "wage_q2_midlow": 1.256,
+        "wage_q3_midhigh": 1.791,
+        "wage_q4_highest": 1.108
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "wage_q1_lowest": 2.865,
+        "wage_q2_midlow": 2.95,
+        "wage_q3_midhigh": 4.268,
+        "wage_q4_highest": 4.204
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.492,
+        "wage_q2_midlow": 1.245,
+        "wage_q3_midhigh": 1.76,
+        "wage_q4_highest": 1.337
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "wage_q1_lowest": 2.865,
+        "wage_q2_midlow": 2.989,
+        "wage_q3_midhigh": 4.398,
+        "wage_q4_highest": 4.613
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.548,
+        "wage_q2_midlow": 1.232,
+        "wage_q3_midhigh": 1.733,
+        "wage_q4_highest": 1.53
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "wage_q1_lowest": 2.93,
+        "wage_q2_midlow": 2.962,
+        "wage_q3_midhigh": 4.107,
+        "wage_q4_highest": 3.602
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.664,
+        "wage_q2_midlow": 1.125,
+        "wage_q3_midhigh": 1.416,
+        "wage_q4_highest": 0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "wage_q1_lowest": 2.996,
+        "wage_q2_midlow": 2.936,
+        "wage_q3_midhigh": 3.816,
+        "wage_q4_highest": 2.59
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.78,
+        "wage_q2_midlow": 1.026,
+        "wage_q3_midhigh": 1.133,
+        "wage_q4_highest": 0.052
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "wage_q1_lowest": 3.061,
+        "wage_q2_midlow": 2.909,
+        "wage_q3_midhigh": 3.525,
+        "wage_q4_highest": 1.579
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.895,
+        "wage_q2_midlow": 0.933,
+        "wage_q3_midhigh": 0.871,
+        "wage_q4_highest": -0.653
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "wage_q1_lowest": 3.228,
+        "wage_q2_midlow": 3.345,
+        "wage_q3_midhigh": 4.25,
+        "wage_q4_highest": 2.032
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.085,
+        "wage_q2_midlow": 1.506,
+        "wage_q3_midhigh": 1.326,
+        "wage_q4_highest": -0.347
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "wage_q1_lowest": 3.395,
+        "wage_q2_midlow": 3.781,
+        "wage_q3_midhigh": 4.974,
+        "wage_q4_highest": 2.484
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.24,
+        "wage_q2_midlow": 1.987,
+        "wage_q3_midhigh": 1.716,
+        "wage_q4_highest": -0.055
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "wage_q1_lowest": 3.562,
+        "wage_q2_midlow": 4.217,
+        "wage_q3_midhigh": 5.699,
+        "wage_q4_highest": 2.937
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.357,
+        "wage_q2_midlow": 2.368,
+        "wage_q3_midhigh": 2.024,
+        "wage_q4_highest": 0.23
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "wage_q1_lowest": 3.641,
+        "wage_q2_midlow": 4.227,
+        "wage_q3_midhigh": 5.573,
+        "wage_q4_highest": 3.151
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.356,
+        "wage_q2_midlow": 2.152,
+        "wage_q3_midhigh": 1.794,
+        "wage_q4_highest": 0.347
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "wage_q1_lowest": 3.719,
+        "wage_q2_midlow": 4.237,
+        "wage_q3_midhigh": 5.447,
+        "wage_q4_highest": 3.365
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.347,
+        "wage_q2_midlow": 2.0,
+        "wage_q3_midhigh": 1.601,
+        "wage_q4_highest": 0.467
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "wage_q1_lowest": 3.797,
+        "wage_q2_midlow": 4.248,
+        "wage_q3_midhigh": 5.321,
+        "wage_q4_highest": 3.58
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.35,
+        "wage_q2_midlow": 1.956,
+        "wage_q3_midhigh": 1.433,
+        "wage_q4_highest": 0.591
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "wage_q1_lowest": 4.051,
+        "wage_q2_midlow": 4.122,
+        "wage_q3_midhigh": 5.318,
+        "wage_q4_highest": 2.86
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.495,
+        "wage_q2_midlow": 1.712,
+        "wage_q3_midhigh": 1.347,
+        "wage_q4_highest": -0.028
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "wage_q1_lowest": 4.304,
+        "wage_q2_midlow": 3.995,
+        "wage_q3_midhigh": 5.315,
+        "wage_q4_highest": 2.14
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.619,
+        "wage_q2_midlow": 1.462,
+        "wage_q3_midhigh": 1.267,
+        "wage_q4_highest": -0.654
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "wage_q1_lowest": 4.557,
+        "wage_q2_midlow": 3.869,
+        "wage_q3_midhigh": 5.311,
+        "wage_q4_highest": 1.42
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.735,
+        "wage_q2_midlow": 1.235,
+        "wage_q3_midhigh": 1.195,
+        "wage_q4_highest": -1.248
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "wage_q1_lowest": 4.111,
+        "wage_q2_midlow": 2.894,
+        "wage_q3_midhigh": 4.855,
+        "wage_q4_highest": 1.465
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.267,
+        "wage_q2_midlow": 0.038,
+        "wage_q3_midhigh": 0.878,
+        "wage_q4_highest": -1.217
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "wage_q1_lowest": 3.664,
+        "wage_q2_midlow": 1.918,
+        "wage_q3_midhigh": 4.399,
+        "wage_q4_highest": 1.51
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.834,
+        "wage_q2_midlow": -1.145,
+        "wage_q3_midhigh": 0.572,
+        "wage_q4_highest": -1.206
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "wage_q1_lowest": 3.218,
+        "wage_q2_midlow": 0.942,
+        "wage_q3_midhigh": 3.943,
+        "wage_q4_highest": 1.554
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.403,
+        "wage_q2_midlow": -2.207,
+        "wage_q3_midhigh": 0.261,
+        "wage_q4_highest": -1.219
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "wage_q1_lowest": 3.456,
+        "wage_q2_midlow": 1.245,
+        "wage_q3_midhigh": 3.44,
+        "wage_q4_highest": 1.817
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.578,
+        "wage_q2_midlow": -1.81,
+        "wage_q3_midhigh": -0.092,
+        "wage_q4_highest": -1.026
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "wage_q1_lowest": 3.693,
+        "wage_q2_midlow": 1.547,
+        "wage_q3_midhigh": 2.937,
+        "wage_q4_highest": 2.079
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.77,
+        "wage_q2_midlow": -1.464,
+        "wage_q3_midhigh": -0.467,
+        "wage_q4_highest": -0.816
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "wage_q1_lowest": 3.931,
+        "wage_q2_midlow": 1.85,
+        "wage_q3_midhigh": 2.435,
+        "wage_q4_highest": 2.341
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.98,
+        "wage_q2_midlow": -1.146,
+        "wage_q3_midhigh": -0.866,
+        "wage_q4_highest": -0.594
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "wage_q1_lowest": 3.922,
+        "wage_q2_midlow": 1.893,
+        "wage_q3_midhigh": 2.262,
+        "wage_q4_highest": 2.149
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.932,
+        "wage_q2_midlow": -1.096,
+        "wage_q3_midhigh": -1.041,
+        "wage_q4_highest": -0.777
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "wage_q1_lowest": 3.912,
+        "wage_q2_midlow": 1.936,
+        "wage_q3_midhigh": 2.089,
+        "wage_q4_highest": 1.957
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.878,
+        "wage_q2_midlow": -1.025,
+        "wage_q3_midhigh": -1.2,
+        "wage_q4_highest": -0.95
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "wage_q1_lowest": 3.902,
+        "wage_q2_midlow": 1.979,
+        "wage_q3_midhigh": 1.916,
+        "wage_q4_highest": 1.765
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.821,
+        "wage_q2_midlow": -0.941,
+        "wage_q3_midhigh": -1.335,
+        "wage_q4_highest": -1.108
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "wage_q1_lowest": 4.054,
+        "wage_q2_midlow": 2.406,
+        "wage_q3_midhigh": 2.263,
+        "wage_q4_highest": 2.429
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.969,
+        "wage_q2_midlow": -0.461,
+        "wage_q3_midhigh": -1.134,
+        "wage_q4_highest": -0.505
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "wage_q1_lowest": 4.206,
+        "wage_q2_midlow": 2.833,
+        "wage_q3_midhigh": 2.61,
+        "wage_q4_highest": 3.094
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.169,
+        "wage_q2_midlow": -0.004,
+        "wage_q3_midhigh": -0.968,
+        "wage_q4_highest": 0.09
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "wage_q1_lowest": 4.358,
+        "wage_q2_midlow": 3.26,
+        "wage_q3_midhigh": 2.957,
+        "wage_q4_highest": 3.758
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.535,
+        "wage_q2_midlow": 0.445,
+        "wage_q3_midhigh": -0.836,
+        "wage_q4_highest": 0.673
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "wage_q1_lowest": 5.064,
+        "wage_q2_midlow": 3.846,
+        "wage_q3_midhigh": 3.178,
+        "wage_q4_highest": 4.085
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.699,
+        "wage_q2_midlow": 1.071,
+        "wage_q3_midhigh": -0.721,
+        "wage_q4_highest": 0.959
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "wage_q1_lowest": 5.769,
+        "wage_q2_midlow": 4.432,
+        "wage_q3_midhigh": 3.399,
+        "wage_q4_highest": 4.411
+      },
+      "zscores": {
+        "wage_q1_lowest": 3.289,
+        "wage_q2_midlow": 1.634,
+        "wage_q3_midhigh": -0.538,
+        "wage_q4_highest": 1.274
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "wage_q1_lowest": 6.475,
+        "wage_q2_midlow": 5.018,
+        "wage_q3_midhigh": 3.621,
+        "wage_q4_highest": 4.738
+      },
+      "zscores": {
+        "wage_q1_lowest": 3.462,
+        "wage_q2_midlow": 2.094,
+        "wage_q3_midhigh": -0.319,
+        "wage_q4_highest": 1.66
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "wage_q1_lowest": 5.814,
+        "wage_q2_midlow": 4.253,
+        "wage_q3_midhigh": 3.319,
+        "wage_q4_highest": 4.397
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.341,
+        "wage_q2_midlow": 1.23,
+        "wage_q3_midhigh": -0.588,
+        "wage_q4_highest": 1.391
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "wage_q1_lowest": 5.153,
+        "wage_q2_midlow": 3.489,
+        "wage_q3_midhigh": 3.018,
+        "wage_q4_highest": 4.057
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.473,
+        "wage_q2_midlow": 0.426,
+        "wage_q3_midhigh": -0.84,
+        "wage_q4_highest": 1.085
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "wage_q1_lowest": 4.492,
+        "wage_q2_midlow": 2.724,
+        "wage_q3_midhigh": 2.716,
+        "wage_q4_highest": 3.717
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.685,
+        "wage_q2_midlow": -0.358,
+        "wage_q3_midhigh": -1.069,
+        "wage_q4_highest": 0.757
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "wage_q1_lowest": 5.185,
+        "wage_q2_midlow": 3.034,
+        "wage_q3_midhigh": 3.292,
+        "wage_q4_highest": 3.634
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.382,
+        "wage_q2_midlow": -0.048,
+        "wage_q3_midhigh": -0.508,
+        "wage_q4_highest": 0.679
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "wage_q1_lowest": 5.879,
+        "wage_q2_midlow": 3.343,
+        "wage_q3_midhigh": 3.868,
+        "wage_q4_highest": 3.551
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.981,
+        "wage_q2_midlow": 0.255,
+        "wage_q3_midhigh": 0.033,
+        "wage_q4_highest": 0.597
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "wage_q1_lowest": 6.573,
+        "wage_q2_midlow": 3.653,
+        "wage_q3_midhigh": 4.444,
+        "wage_q4_highest": 3.468
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.435,
+        "wage_q2_midlow": 0.549,
+        "wage_q3_midhigh": 0.556,
+        "wage_q4_highest": 0.512
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "wage_q1_lowest": 6.702,
+        "wage_q2_midlow": 3.638,
+        "wage_q3_midhigh": 4.033,
+        "wage_q4_highest": 3.591
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.315,
+        "wage_q2_midlow": 0.511,
+        "wage_q3_midhigh": 0.177,
+        "wage_q4_highest": 0.642
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "wage_q1_lowest": 6.831,
+        "wage_q2_midlow": 3.623,
+        "wage_q3_midhigh": 3.621,
+        "wage_q4_highest": 3.713
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.216,
+        "wage_q2_midlow": 0.476,
+        "wage_q3_midhigh": -0.189,
+        "wage_q4_highest": 0.789
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "wage_q1_lowest": 6.961,
+        "wage_q2_midlow": 3.608,
+        "wage_q3_midhigh": 3.209,
+        "wage_q4_highest": 3.835
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.134,
+        "wage_q2_midlow": 0.442,
+        "wage_q3_midhigh": -0.541,
+        "wage_q4_highest": 0.963
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "wage_q1_lowest": 6.367,
+        "wage_q2_midlow": 3.738,
+        "wage_q3_midhigh": 3.36,
+        "wage_q4_highest": 3.74
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.531,
+        "wage_q2_midlow": 0.55,
+        "wage_q3_midhigh": -0.381,
+        "wage_q4_highest": 0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "wage_q1_lowest": 5.774,
+        "wage_q2_midlow": 3.869,
+        "wage_q3_midhigh": 3.51,
+        "wage_q4_highest": 3.644
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.976,
+        "wage_q2_midlow": 0.653,
+        "wage_q3_midhigh": -0.234,
+        "wage_q4_highest": 0.722
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "wage_q1_lowest": 5.18,
+        "wage_q2_midlow": 4.0,
+        "wage_q3_midhigh": 3.661,
+        "wage_q4_highest": 3.549
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.428,
+        "wage_q2_midlow": 0.749,
+        "wage_q3_midhigh": -0.098,
+        "wage_q4_highest": 0.581
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "wage_q1_lowest": 5.414,
+        "wage_q2_midlow": 4.582,
+        "wage_q3_midhigh": 3.818,
+        "wage_q4_highest": 3.79
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.591,
+        "wage_q2_midlow": 1.266,
+        "wage_q3_midhigh": 0.06,
+        "wage_q4_highest": 0.79
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "wage_q1_lowest": 5.648,
+        "wage_q2_midlow": 5.164,
+        "wage_q3_midhigh": 3.975,
+        "wage_q4_highest": 4.032
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.754,
+        "wage_q2_midlow": 1.725,
+        "wage_q3_midhigh": 0.236,
+        "wage_q4_highest": 0.992
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "wage_q1_lowest": 5.882,
+        "wage_q2_midlow": 5.746,
+        "wage_q3_midhigh": 4.132,
+        "wage_q4_highest": 4.273
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.913,
+        "wage_q2_midlow": 2.105,
+        "wage_q3_midhigh": 0.448,
+        "wage_q4_highest": 1.184
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "wage_q1_lowest": 7.005,
+        "wage_q2_midlow": 7.281,
+        "wage_q3_midhigh": 5.974,
+        "wage_q4_highest": 5.619
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.796,
+        "wage_q2_midlow": 2.959,
+        "wage_q3_midhigh": 2.221,
+        "wage_q4_highest": 2.308
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "wage_q1_lowest": 8.128,
+        "wage_q2_midlow": 8.817,
+        "wage_q3_midhigh": 7.815,
+        "wage_q4_highest": 6.964
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.478,
+        "wage_q2_midlow": 3.352,
+        "wage_q3_midhigh": 3.385,
+        "wage_q4_highest": 3.011
+      },
+      "events": [
+        {
+          "label": "Low-paid job losses distort the averages",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "wage_q1_lowest": 9.251,
+        "wage_q2_midlow": 10.352,
+        "wage_q3_midhigh": 9.656,
+        "wage_q4_highest": 8.31
+      },
+      "zscores": {
+        "wage_q1_lowest": 2.899,
+        "wage_q2_midlow": 3.445,
+        "wage_q3_midhigh": 3.793,
+        "wage_q4_highest": 3.32
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "wage_q1_lowest": 8.264,
+        "wage_q2_midlow": 9.622,
+        "wage_q3_midhigh": 9.493,
+        "wage_q4_highest": 8.116
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.998,
+        "wage_q2_midlow": 2.665,
+        "wage_q3_midhigh": 3.11,
+        "wage_q4_highest": 2.743
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "wage_q1_lowest": 7.277,
+        "wage_q2_midlow": 8.892,
+        "wage_q3_midhigh": 9.329,
+        "wage_q4_highest": 7.923
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.243,
+        "wage_q2_midlow": 2.113,
+        "wage_q3_midhigh": 2.66,
+        "wage_q4_highest": 2.347
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "wage_q1_lowest": 6.291,
+        "wage_q2_midlow": 8.161,
+        "wage_q3_midhigh": 9.165,
+        "wage_q4_highest": 7.729
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.541,
+        "wage_q2_midlow": 1.672,
+        "wage_q3_midhigh": 2.331,
+        "wage_q4_highest": 2.057
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "wage_q1_lowest": 5.693,
+        "wage_q2_midlow": 7.15,
+        "wage_q3_midhigh": 7.769,
+        "wage_q4_highest": 6.295
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.106,
+        "wage_q2_midlow": 1.181,
+        "wage_q3_midhigh": 1.578,
+        "wage_q4_highest": 1.217
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "wage_q1_lowest": 5.095,
+        "wage_q2_midlow": 6.139,
+        "wage_q3_midhigh": 6.372,
+        "wage_q4_highest": 4.861
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.34,
+        "wage_q2_midlow": 0.722,
+        "wage_q3_midhigh": 0.908,
+        "wage_q4_highest": 0.401
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "wage_q1_lowest": 4.497,
+        "wage_q2_midlow": 5.128,
+        "wage_q3_midhigh": 4.976,
+        "wage_q4_highest": 3.427
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.811,
+        "wage_q2_midlow": 0.264,
+        "wage_q3_midhigh": 0.268,
+        "wage_q4_highest": -0.435
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "wage_q1_lowest": 4.28,
+        "wage_q2_midlow": 4.533,
+        "wage_q3_midhigh": 4.746,
+        "wage_q4_highest": 3.387
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.007,
+        "wage_q2_midlow": -0.028,
+        "wage_q3_midhigh": 0.149,
+        "wage_q4_highest": -0.495
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "wage_q1_lowest": 4.063,
+        "wage_q2_midlow": 3.939,
+        "wage_q3_midhigh": 4.516,
+        "wage_q4_highest": 3.346
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.188,
+        "wage_q2_midlow": -0.326,
+        "wage_q3_midhigh": 0.026,
+        "wage_q4_highest": -0.549
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "wage_q1_lowest": 3.846,
+        "wage_q2_midlow": 3.344,
+        "wage_q3_midhigh": 4.286,
+        "wage_q4_highest": 3.305
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.345,
+        "wage_q2_midlow": -0.622,
+        "wage_q3_midhigh": -0.103,
+        "wage_q4_highest": -0.598
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "wage_q1_lowest": 2.967,
+        "wage_q2_midlow": 1.83,
+        "wage_q3_midhigh": 2.608,
+        "wage_q4_highest": 2.332
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.922,
+        "wage_q2_midlow": -1.31,
+        "wage_q3_midhigh": -0.879,
+        "wage_q4_highest": -1.192
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "wage_q1_lowest": 2.089,
+        "wage_q2_midlow": 0.316,
+        "wage_q3_midhigh": 0.931,
+        "wage_q4_highest": 1.359
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.364,
+        "wage_q2_midlow": -1.917,
+        "wage_q3_midhigh": -1.604,
+        "wage_q4_highest": -1.743
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "wage_q1_lowest": 1.21,
+        "wage_q2_midlow": -1.198,
+        "wage_q3_midhigh": -0.746,
+        "wage_q4_highest": 0.387
+      },
+      "zscores": {
+        "wage_q1_lowest": -2.651,
+        "wage_q2_midlow": -2.379,
+        "wage_q3_midhigh": -2.202,
+        "wage_q4_highest": -2.206
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "wage_q1_lowest": 2.167,
+        "wage_q2_midlow": -0.564,
+        "wage_q3_midhigh": 0.302,
+        "wage_q4_highest": 0.3
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.936,
+        "wage_q2_midlow": -1.986,
+        "wage_q3_midhigh": -1.68,
+        "wage_q4_highest": -2.109
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "wage_q1_lowest": 3.124,
+        "wage_q2_midlow": 0.07,
+        "wage_q3_midhigh": 1.35,
+        "wage_q4_highest": 0.214
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.328,
+        "wage_q2_midlow": -1.649,
+        "wage_q3_midhigh": -1.215,
+        "wage_q4_highest": -1.998
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "wage_q1_lowest": 4.082,
+        "wage_q2_midlow": 0.704,
+        "wage_q3_midhigh": 2.399,
+        "wage_q4_highest": 0.127
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.765,
+        "wage_q2_midlow": -1.348,
+        "wage_q3_midhigh": -0.777,
+        "wage_q4_highest": -1.888
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "wage_q1_lowest": 4.907,
+        "wage_q2_midlow": 1.35,
+        "wage_q3_midhigh": 3.791,
+        "wage_q4_highest": 0.929
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.284,
+        "wage_q2_midlow": -1.066,
+        "wage_q3_midhigh": -0.218,
+        "wage_q4_highest": -1.412
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "wage_q1_lowest": 5.732,
+        "wage_q2_midlow": 1.996,
+        "wage_q3_midhigh": 5.183,
+        "wage_q4_highest": 1.732
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.194,
+        "wage_q2_midlow": -0.798,
+        "wage_q3_midhigh": 0.329,
+        "wage_q4_highest": -0.985
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "wage_q1_lowest": 6.557,
+        "wage_q2_midlow": 2.642,
+        "wage_q3_midhigh": 6.575,
+        "wage_q4_highest": 2.534
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.67,
+        "wage_q2_midlow": -0.539,
+        "wage_q3_midhigh": 0.856,
+        "wage_q4_highest": -0.581
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "wage_q1_lowest": 7.458,
+        "wage_q2_midlow": 3.379,
+        "wage_q3_midhigh": 6.616,
+        "wage_q4_highest": 3.225
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.143,
+        "wage_q2_midlow": -0.265,
+        "wage_q3_midhigh": 0.829,
+        "wage_q4_highest": -0.245
+      },
+      "events": [
+        {
+          "label": "Bottom 25% get 7.5% raises; top 10% get 3.2%",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "wage_q1_lowest": 8.359,
+        "wage_q2_midlow": 4.116,
+        "wage_q3_midhigh": 6.656,
+        "wage_q4_highest": 3.916
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.549,
+        "wage_q2_midlow": -0.005,
+        "wage_q3_midhigh": 0.802,
+        "wage_q4_highest": 0.079
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "wage_q1_lowest": 9.259,
+        "wage_q2_midlow": 4.853,
+        "wage_q3_midhigh": 6.697,
+        "wage_q4_highest": 4.607
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.877,
+        "wage_q2_midlow": 0.24,
+        "wage_q3_midhigh": 0.774,
+        "wage_q4_highest": 0.388
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "wage_q1_lowest": 9.161,
+        "wage_q2_midlow": 4.953,
+        "wage_q3_midhigh": 6.72,
+        "wage_q4_highest": 5.169
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.695,
+        "wage_q2_midlow": 0.257,
+        "wage_q3_midhigh": 0.743,
+        "wage_q4_highest": 0.626
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "wage_q1_lowest": 9.063,
+        "wage_q2_midlow": 5.052,
+        "wage_q3_midhigh": 6.744,
+        "wage_q4_highest": 5.732
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.546,
+        "wage_q2_midlow": 0.276,
+        "wage_q3_midhigh": 0.717,
+        "wage_q4_highest": 0.849
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "wage_q1_lowest": 8.964,
+        "wage_q2_midlow": 5.152,
+        "wage_q3_midhigh": 6.767,
+        "wage_q4_highest": 6.294
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.426,
+        "wage_q2_midlow": 0.296,
+        "wage_q3_midhigh": 0.696,
+        "wage_q4_highest": 1.054
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "wage_q1_lowest": 9.244,
+        "wage_q2_midlow": 5.732,
+        "wage_q3_midhigh": 6.512,
+        "wage_q4_highest": 6.711
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.478,
+        "wage_q2_midlow": 0.484,
+        "wage_q3_midhigh": 0.567,
+        "wage_q4_highest": 1.179
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "wage_q1_lowest": 9.524,
+        "wage_q2_midlow": 6.313,
+        "wage_q3_midhigh": 6.258,
+        "wage_q4_highest": 7.129
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.522,
+        "wage_q2_midlow": 0.663,
+        "wage_q3_midhigh": 0.439,
+        "wage_q4_highest": 1.29
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "wage_q1_lowest": 9.804,
+        "wage_q2_midlow": 6.893,
+        "wage_q3_midhigh": 6.003,
+        "wage_q4_highest": 7.546
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.557,
+        "wage_q2_midlow": 0.832,
+        "wage_q3_midhigh": 0.31,
+        "wage_q4_highest": 1.386
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "wage_q1_lowest": 9.805,
+        "wage_q2_midlow": 7.071,
+        "wage_q3_midhigh": 5.867,
+        "wage_q4_highest": 7.798
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.47,
+        "wage_q2_midlow": 0.854,
+        "wage_q3_midhigh": 0.231,
+        "wage_q4_highest": 1.404
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "wage_q1_lowest": 9.806,
+        "wage_q2_midlow": 7.248,
+        "wage_q3_midhigh": 5.731,
+        "wage_q4_highest": 8.05
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.385,
+        "wage_q2_midlow": 0.875,
+        "wage_q3_midhigh": 0.153,
+        "wage_q4_highest": 1.416
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "wage_q1_lowest": 9.808,
+        "wage_q2_midlow": 7.426,
+        "wage_q3_midhigh": 5.595,
+        "wage_q4_highest": 8.302
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.305,
+        "wage_q2_midlow": 0.894,
+        "wage_q3_midhigh": 0.077,
+        "wage_q4_highest": 1.423
+      },
+      "events": [
+        {
+          "label": "Bottom 25% pay growth peaks at 9.8%",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "wage_q1_lowest": 9.238,
+        "wage_q2_midlow": 6.976,
+        "wage_q3_midhigh": 5.537,
+        "wage_q4_highest": 7.899
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.026,
+        "wage_q2_midlow": 0.711,
+        "wage_q3_midhigh": 0.034,
+        "wage_q4_highest": 1.2
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "wage_q1_lowest": 8.668,
+        "wage_q2_midlow": 6.525,
+        "wage_q3_midhigh": 5.479,
+        "wage_q4_highest": 7.497
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.767,
+        "wage_q2_midlow": 0.541,
+        "wage_q3_midhigh": -0.006,
+        "wage_q4_highest": 0.999
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "wage_q1_lowest": 8.098,
+        "wage_q2_midlow": 6.075,
+        "wage_q3_midhigh": 5.421,
+        "wage_q4_highest": 7.095
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.522,
+        "wage_q2_midlow": 0.384,
+        "wage_q3_midhigh": -0.045,
+        "wage_q4_highest": 0.812
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "wage_q1_lowest": 7.471,
+        "wage_q2_midlow": 5.939,
+        "wage_q3_midhigh": 5.069,
+        "wage_q4_highest": 6.341
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.275,
+        "wage_q2_midlow": 0.352,
+        "wage_q3_midhigh": -0.179,
+        "wage_q4_highest": 0.525
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "wage_q1_lowest": 6.843,
+        "wage_q2_midlow": 5.803,
+        "wage_q3_midhigh": 4.718,
+        "wage_q4_highest": 5.587
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.047,
+        "wage_q2_midlow": 0.343,
+        "wage_q3_midhigh": -0.292,
+        "wage_q4_highest": 0.264
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "wage_q1_lowest": 6.216,
+        "wage_q2_midlow": 5.668,
+        "wage_q3_midhigh": 4.366,
+        "wage_q4_highest": 4.834
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.165,
+        "wage_q2_midlow": 0.36,
+        "wage_q3_midhigh": -0.394,
+        "wage_q4_highest": 0.021
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "wage_q1_lowest": 5.751,
+        "wage_q2_midlow": 5.274,
+        "wage_q3_midhigh": 4.292,
+        "wage_q4_highest": 4.618
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.321,
+        "wage_q2_midlow": 0.272,
+        "wage_q3_midhigh": -0.381,
+        "wage_q4_highest": -0.025
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "wage_q1_lowest": 5.286,
+        "wage_q2_midlow": 4.88,
+        "wage_q3_midhigh": 4.218,
+        "wage_q4_highest": 4.402
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.481,
+        "wage_q2_midlow": 0.168,
+        "wage_q3_midhigh": -0.37,
+        "wage_q4_highest": -0.072
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "wage_q1_lowest": 4.821,
+        "wage_q2_midlow": 4.486,
+        "wage_q3_midhigh": 4.144,
+        "wage_q4_highest": 4.186
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.644,
+        "wage_q2_midlow": 0.05,
+        "wage_q3_midhigh": -0.359,
+        "wage_q4_highest": -0.122
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "wage_q1_lowest": 4.323,
+        "wage_q2_midlow": 4.834,
+        "wage_q3_midhigh": 4.574,
+        "wage_q4_highest": 3.864
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.816,
+        "wage_q2_midlow": 0.229,
+        "wage_q3_midhigh": -0.097,
+        "wage_q4_highest": -0.227
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "wage_q1_lowest": 3.825,
+        "wage_q2_midlow": 5.182,
+        "wage_q3_midhigh": 5.004,
+        "wage_q4_highest": 3.541
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.985,
+        "wage_q2_midlow": 0.393,
+        "wage_q3_midhigh": 0.152,
+        "wage_q4_highest": -0.344
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "wage_q1_lowest": 3.327,
+        "wage_q2_midlow": 5.53,
+        "wage_q3_midhigh": 5.435,
+        "wage_q4_highest": 3.218
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.15,
+        "wage_q2_midlow": 0.538,
+        "wage_q3_midhigh": 0.374,
+        "wage_q4_highest": -0.473
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "wage_q1_lowest": 3.38,
+        "wage_q2_midlow": 4.868,
+        "wage_q3_midhigh": 5.112,
+        "wage_q4_highest": 3.307
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.111,
+        "wage_q2_midlow": 0.247,
+        "wage_q3_midhigh": 0.197,
+        "wage_q4_highest": -0.436
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "wage_q1_lowest": 3.432,
+        "wage_q2_midlow": 4.207,
+        "wage_q3_midhigh": 4.789,
+        "wage_q4_highest": 3.395
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.078,
+        "wage_q2_midlow": -0.042,
+        "wage_q3_midhigh": 0.021,
+        "wage_q4_highest": -0.4
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "wage_q1_lowest": 3.484,
+        "wage_q2_midlow": 3.545,
+        "wage_q3_midhigh": 4.465,
+        "wage_q4_highest": 3.484
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.051,
+        "wage_q2_midlow": -0.331,
+        "wage_q3_midhigh": -0.154,
+        "wage_q4_highest": -0.366
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "wage_q1_lowest": 3.183,
+        "wage_q2_midlow": 3.667,
+        "wage_q3_midhigh": 4.551,
+        "wage_q4_highest": 4.263
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.168,
+        "wage_q2_midlow": -0.305,
+        "wage_q3_midhigh": -0.14,
+        "wage_q4_highest": -0.07
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "wage_q1_lowest": 2.883,
+        "wage_q2_midlow": 3.788,
+        "wage_q3_midhigh": 4.637,
+        "wage_q4_highest": 5.042
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.304,
+        "wage_q2_midlow": -0.308,
+        "wage_q3_midhigh": -0.159,
+        "wage_q4_highest": 0.214
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "wage_q1_lowest": 2.582,
+        "wage_q2_midlow": 3.909,
+        "wage_q3_midhigh": 4.723,
+        "wage_q4_highest": 5.821
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.467,
+        "wage_q2_midlow": -0.353,
+        "wage_q3_midhigh": -0.238,
+        "wage_q4_highest": 0.5
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "wage_q1_lowest": 2.857,
+        "wage_q2_midlow": 4.007,
+        "wage_q3_midhigh": 4.74,
+        "wage_q4_highest": 5.598
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.384,
+        "wage_q2_midlow": -0.409,
+        "wage_q3_midhigh": -0.376,
+        "wage_q4_highest": 0.356
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "wage_q1_lowest": 3.132,
+        "wage_q2_midlow": 4.106,
+        "wage_q3_midhigh": 4.757,
+        "wage_q4_highest": 5.374
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.276,
+        "wage_q2_midlow": -0.466,
+        "wage_q3_midhigh": -0.524,
+        "wage_q4_highest": 0.198
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "wage_q1_lowest": 3.407,
+        "wage_q2_midlow": 4.204,
+        "wage_q3_midhigh": 4.775,
+        "wage_q4_highest": 5.15
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.153,
+        "wage_q2_midlow": -0.517,
+        "wage_q3_midhigh": -0.652,
+        "wage_q4_highest": 0.018
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "wage_q1_lowest": 3.458,
+        "wage_q2_midlow": 4.171,
+        "wage_q3_midhigh": 4.429,
+        "wage_q4_highest": 5.55
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.103,
+        "wage_q2_midlow": -0.655,
+        "wage_q3_midhigh": -1.098,
+        "wage_q4_highest": 0.181
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "wage_q1_lowest": 3.509,
+        "wage_q2_midlow": 4.138,
+        "wage_q3_midhigh": 4.083,
+        "wage_q4_highest": 5.949
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.044,
+        "wage_q2_midlow": -0.785,
+        "wage_q3_midhigh": -1.425,
+        "wage_q4_highest": 0.372
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "wage_q1_lowest": 3.559,
+        "wage_q2_midlow": 4.105,
+        "wage_q3_midhigh": 3.737,
+        "wage_q4_highest": 6.349
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.98,
+        "wage_q2_midlow": -0.892,
+        "wage_q3_midhigh": -1.704,
+        "wage_q4_highest": 0.583
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "wage_q1_lowest": 3.776,
+        "wage_q2_midlow": 4.346,
+        "wage_q3_midhigh": 4.305,
+        "wage_q4_highest": 5.76
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.855,
+        "wage_q2_midlow": -0.722,
+        "wage_q3_midhigh": -1.015,
+        "wage_q4_highest": 0.151
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "wage_q1_lowest": 3.992,
+        "wage_q2_midlow": 4.587,
+        "wage_q3_midhigh": 4.873,
+        "wage_q4_highest": 5.17
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.732,
+        "wage_q2_midlow": -0.519,
+        "wage_q3_midhigh": -0.321,
+        "wage_q4_highest": -0.28
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "wage_q1_lowest": 4.209,
+        "wage_q2_midlow": 4.829,
+        "wage_q3_midhigh": 5.44,
+        "wage_q4_highest": 4.581
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.61,
+        "wage_q2_midlow": -0.297,
+        "wage_q3_midhigh": 0.416,
+        "wage_q4_highest": -0.689
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "wage_q1_lowest": 3.868,
+        "wage_q2_midlow": 4.765,
+        "wage_q3_midhigh": 4.916,
+        "wage_q4_highest": 3.98
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.694,
+        "wage_q2_midlow": -0.35,
+        "wage_q3_midhigh": -0.189,
+        "wage_q4_highest": -1.066
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "wage_q1_lowest": 3.528,
+        "wage_q2_midlow": 4.701,
+        "wage_q3_midhigh": 4.391,
+        "wage_q4_highest": 3.379
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.777,
+        "wage_q2_midlow": -0.399,
+        "wage_q3_midhigh": -0.855,
+        "wage_q4_highest": -1.393
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "wage_q1_lowest": 3.188,
+        "wage_q2_midlow": 4.637,
+        "wage_q3_midhigh": 3.866,
+        "wage_q4_highest": 2.778
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.86,
+        "wage_q2_midlow": -0.443,
+        "wage_q3_midhigh": -1.584,
+        "wage_q4_highest": -1.665
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "wage_q1_lowest": 2.62,
+        "wage_q2_midlow": 4.493,
+        "wage_q3_midhigh": 3.759,
+        "wage_q4_highest": 2.569
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.031,
+        "wage_q2_midlow": -0.543,
+        "wage_q3_midhigh": -1.711,
+        "wage_q4_highest": -1.672
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "wage_q1_lowest": 2.051,
+        "wage_q2_midlow": 4.35,
+        "wage_q3_midhigh": 3.652,
+        "wage_q4_highest": 2.361
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.205,
+        "wage_q2_midlow": -0.632,
+        "wage_q3_midhigh": -1.819,
+        "wage_q4_highest": -1.681
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "wage_q1_lowest": 1.483,
+        "wage_q2_midlow": 4.206,
+        "wage_q3_midhigh": 3.544,
+        "wage_q4_highest": 2.153
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.387,
+        "wage_q2_midlow": -0.721,
+        "wage_q3_midhigh": -1.899,
+        "wage_q4_highest": -1.697
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "wage_q1_lowest": 1.343,
+        "wage_q2_midlow": 4.077,
+        "wage_q3_midhigh": 3.445,
+        "wage_q4_highest": 1.935
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.404,
+        "wage_q2_midlow": -0.806,
+        "wage_q3_midhigh": -1.95,
+        "wage_q4_highest": -1.727
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "wage_q1_lowest": 1.204,
+        "wage_q2_midlow": 3.949,
+        "wage_q3_midhigh": 3.346,
+        "wage_q4_highest": 1.717
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.437,
+        "wage_q2_midlow": -0.912,
+        "wage_q3_midhigh": -1.985,
+        "wage_q4_highest": -1.77
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "wage_q1_lowest": 1.064,
+        "wage_q2_midlow": 3.82,
+        "wage_q3_midhigh": 3.246,
+        "wage_q4_highest": 1.499
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.495,
+        "wage_q2_midlow": -1.062,
+        "wage_q3_midhigh": -2.004,
+        "wage_q4_highest": -1.833
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "wage_q1_lowest": 0.925,
+        "wage_q2_midlow": 3.691,
+        "wage_q3_midhigh": 3.147,
+        "wage_q4_highest": 1.281
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.56,
+        "wage_q2_midlow": -1.231,
+        "wage_q3_midhigh": -2.015,
+        "wage_q4_highest": -1.885
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "wage_q1_lowest": 0.786,
+        "wage_q2_midlow": 3.563,
+        "wage_q3_midhigh": 3.048,
+        "wage_q4_highest": 1.062
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.63,
+        "wage_q2_midlow": -1.405,
+        "wage_q3_midhigh": -2.021,
+        "wage_q4_highest": -1.924
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "wage_q1_lowest": 0.646,
+        "wage_q2_midlow": 3.434,
+        "wage_q3_midhigh": 2.948,
+        "wage_q4_highest": 0.844
+      },
+      "zscores": {
+        "wage_q1_lowest": -1.701,
+        "wage_q2_midlow": -1.559,
+        "wage_q3_midhigh": -2.022,
+        "wage_q4_highest": -1.948
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "wage_q1_lowest": 1.894,
+        "wage_q2_midlow": 3.822,
+        "wage_q3_midhigh": 3.785,
+        "wage_q4_highest": 1.057
+      },
+      "zscores": {
+        "wage_q1_lowest": -0.905,
+        "wage_q2_midlow": -0.929,
+        "wage_q3_midhigh": -0.719,
+        "wage_q4_highest": -1.705
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "wage_q1_lowest": 3.142,
+        "wage_q2_midlow": 4.21,
+        "wage_q3_midhigh": 4.622,
+        "wage_q4_highest": 1.271
+      },
+      "zscores": {
+        "wage_q1_lowest": 0.021,
+        "wage_q2_midlow": -0.226,
+        "wage_q3_midhigh": 0.561,
+        "wage_q4_highest": -1.476
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "wage_q1_lowest": 4.39,
+        "wage_q2_midlow": 4.599,
+        "wage_q3_midhigh": 5.459,
+        "wage_q4_highest": 1.484
+      },
+      "zscores": {
+        "wage_q1_lowest": 1.069,
+        "wage_q2_midlow": 0.583,
+        "wage_q3_midhigh": 1.716,
+        "wage_q4_highest": -1.266
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Do low earners or high earners get bigger raises? This chart compares the yearly change in weekly pay for full-time workers at four points of the pay scale. During the tight job market of 2021-2022, the lowest-paid workers got the fastest raises.",
+    "methodology": "Usual weekly earnings of full-time wage and salary workers from the BLS Current Population Survey: 25th percentile (LEU0252911200), median (LEU0252881500), 75th percentile (LEU0252911300) and 90th percentile (LEU0252911400). Shown as change from the same quarter a year earlier. Quarterly data is filled to monthly. The Atlanta Fed wage tracker has no API, so this BLS series is used instead.",
+    "key_findings": [
+      {
+        "date": "2012-07-01",
+        "title": "2012: Slow Recovery, Flat Pay",
+        "description": "Three years after the recession ended, weekly pay at the 25th percentile was 0.5% lower than a year earlier.",
+        "significance": "Low-wage workers felt the slow recovery longest.",
+        "normalized_time": 0.4521
+      },
+      {
+        "date": "2020-04-01",
+        "title": "2020: A Misleading Jump",
+        "description": "Measured pay growth jumped to about 7-10% for every group. Pay did not really rise this fast; millions of low-paid workers lost their jobs, so the workers who were left had higher average pay.",
+        "significance": "When the mix of workers changes, averages can mislead.",
+        "normalized_time": 0.7591
+      },
+      {
+        "date": "2022-06-01",
+        "title": "2021-2022: Low Earners Lead",
+        "description": "In December 2021 the 25th percentile's pay was up 7.5% against 3.2% for the top 10%. By June 2022 it was 9.2% against 6.7%.",
+        "significance": "A shortage of workers gave the lowest-paid the most bargaining power.",
+        "normalized_time": 0.8449
+      }
+    ]
+  }
+}

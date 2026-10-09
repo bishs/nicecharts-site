@@ -1,0 +1,4396 @@
+{
+  "metadata": {
+    "chart_id": "chart_28",
+    "number": 28,
+    "title": "Why Flights Are Late",
+    "section": "Section F: Logistics, Infrastructure & Public Health",
+    "section_id": "section_f",
+    "visual_form": "Animated Bar Race with Year Counter",
+    "agencies": [
+      "BTS"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2005,
+    "end_year": 2026,
+    "observation_count": 258,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-06",
+    "data_notes": "Percent of all scheduled flights that arrived late for each cause (national, all airlines)."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.847,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.225
+      },
+      {
+        "lag": -17,
+        "r": 0.141
+      },
+      {
+        "lag": -16,
+        "r": 0.028
+      },
+      {
+        "lag": -15,
+        "r": -0.073
+      },
+      {
+        "lag": -14,
+        "r": 0.046
+      },
+      {
+        "lag": -13,
+        "r": 0.24
+      },
+      {
+        "lag": -12,
+        "r": 0.505
+      },
+      {
+        "lag": -11,
+        "r": 0.317
+      },
+      {
+        "lag": -10,
+        "r": 0.211
+      },
+      {
+        "lag": -9,
+        "r": 0.095
+      },
+      {
+        "lag": -8,
+        "r": 0.165
+      },
+      {
+        "lag": -7,
+        "r": 0.285
+      },
+      {
+        "lag": -6,
+        "r": 0.443
+      },
+      {
+        "lag": -5,
+        "r": 0.345
+      },
+      {
+        "lag": -4,
+        "r": 0.278
+      },
+      {
+        "lag": -3,
+        "r": 0.174
+      },
+      {
+        "lag": -2,
+        "r": 0.307
+      },
+      {
+        "lag": -1,
+        "r": 0.483
+      },
+      {
+        "lag": 0,
+        "r": 0.847
+      },
+      {
+        "lag": 1,
+        "r": 0.491
+      },
+      {
+        "lag": 2,
+        "r": 0.273
+      },
+      {
+        "lag": 3,
+        "r": 0.082
+      },
+      {
+        "lag": 4,
+        "r": 0.151
+      },
+      {
+        "lag": 5,
+        "r": 0.213
+      },
+      {
+        "lag": 6,
+        "r": 0.295
+      },
+      {
+        "lag": 7,
+        "r": 0.124
+      },
+      {
+        "lag": 8,
+        "r": -0.029
+      },
+      {
+        "lag": 9,
+        "r": -0.129
+      },
+      {
+        "lag": 10,
+        "r": -0.054
+      },
+      {
+        "lag": 11,
+        "r": 0.031
+      },
+      {
+        "lag": 12,
+        "r": 0.222
+      },
+      {
+        "lag": 13,
+        "r": -0.04
+      },
+      {
+        "lag": 14,
+        "r": -0.234
+      },
+      {
+        "lag": 15,
+        "r": -0.38
+      },
+      {
+        "lag": 16,
+        "r": -0.292
+      },
+      {
+        "lag": 17,
+        "r": -0.177
+      },
+      {
+        "lag": 18,
+        "r": -0.077
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "late_aircraft_delay",
+      "agency": "BTS",
+      "series_id": "BTS ASQP 234, delay cause share",
+      "label": "Late Arriving Aircraft Domino Delays",
+      "unit": "% of Flights",
+      "transform": "raw",
+      "color": "#ef4444"
+    },
+    {
+      "key": "carrier_delay",
+      "agency": "BTS",
+      "series_id": "BTS ASQP 234, delay cause share",
+      "label": "Airline Mechanical & Staff Delays",
+      "unit": "% of Flights",
+      "transform": "raw",
+      "color": "#f97316"
+    },
+    {
+      "key": "nas_airspace_delay",
+      "agency": "BTS",
+      "series_id": "BTS ASQP 234, delay cause share",
+      "label": "Air Traffic Control Congestion",
+      "unit": "% of Flights",
+      "transform": "raw",
+      "color": "#0ea5e9"
+    },
+    {
+      "key": "weather_delay",
+      "agency": "BTS",
+      "series_id": "BTS ASQP 234, delay cause share",
+      "label": "Severe Storm Weather Delays",
+      "unit": "% of Flights",
+      "transform": "raw",
+      "color": "#8b5cf6"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005-01-01",
+      "values": {
+        "late_aircraft_delay": 7.17,
+        "carrier_delay": 6.52,
+        "nas_airspace_delay": 8.96,
+        "weather_delay": 1.38
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.0,
+        "carrier_delay": 0.0,
+        "nas_airspace_delay": 0.0,
+        "weather_delay": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "late_aircraft_delay": 5.86,
+        "carrier_delay": 5.4,
+        "nas_airspace_delay": 8.34,
+        "weather_delay": 0.88
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.0,
+        "carrier_delay": -1.0,
+        "nas_airspace_delay": -1.0,
+        "weather_delay": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "late_aircraft_delay": 6.46,
+        "carrier_delay": 5.88,
+        "nas_airspace_delay": 7.99,
+        "weather_delay": 0.88
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.068,
+        "carrier_delay": -0.116,
+        "nas_airspace_delay": -1.097,
+        "weather_delay": -0.707
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "late_aircraft_delay": 4.35,
+        "carrier_delay": 4.44,
+        "nas_airspace_delay": 5.76,
+        "weather_delay": 0.57
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.55,
+        "carrier_delay": -1.476,
+        "nas_airspace_delay": -1.659,
+        "weather_delay": -1.232
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "late_aircraft_delay": 4.53,
+        "carrier_delay": 4.41,
+        "nas_airspace_delay": 5.65,
+        "weather_delay": 0.61
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.049,
+        "carrier_delay": -1.122,
+        "nas_airspace_delay": -1.233,
+        "weather_delay": -0.879
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "late_aircraft_delay": 7.26,
+        "carrier_delay": 6.28,
+        "nas_airspace_delay": 8.24,
+        "weather_delay": 1.11
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.141,
+        "carrier_delay": 0.956,
+        "nas_airspace_delay": 0.579,
+        "weather_delay": 0.734
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "late_aircraft_delay": 8.82,
+        "carrier_delay": 7.11,
+        "nas_airspace_delay": 9.05,
+        "weather_delay": 1.52
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.678,
+        "carrier_delay": 1.457,
+        "nas_airspace_delay": 1.015,
+        "weather_delay": 1.567
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "late_aircraft_delay": 7.05,
+        "carrier_delay": 6.42,
+        "nas_airspace_delay": 7.72,
+        "weather_delay": 1.15
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.439,
+        "carrier_delay": 0.664,
+        "nas_airspace_delay": 0.005,
+        "weather_delay": 0.431
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "late_aircraft_delay": 4.3,
+        "carrier_delay": 4.67,
+        "nas_airspace_delay": 5.64,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.286,
+        "carrier_delay": -1.076,
+        "nas_airspace_delay": -1.383,
+        "weather_delay": -1.231
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "late_aircraft_delay": 5.01,
+        "carrier_delay": 4.76,
+        "nas_airspace_delay": 6.37,
+        "weather_delay": 0.68
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.74,
+        "carrier_delay": -0.888,
+        "nas_airspace_delay": -0.766,
+        "weather_delay": -0.772
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "late_aircraft_delay": 5.21,
+        "carrier_delay": 5.41,
+        "nas_airspace_delay": 7.48,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.565,
+        "carrier_delay": -0.183,
+        "nas_airspace_delay": 0.079,
+        "weather_delay": -0.69
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "late_aircraft_delay": 8.18,
+        "carrier_delay": 8.06,
+        "nas_airspace_delay": 9.46,
+        "weather_delay": 1.13
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.357,
+        "carrier_delay": 2.081,
+        "nas_airspace_delay": 1.438,
+        "weather_delay": 0.642
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "late_aircraft_delay": 5.61,
+        "carrier_delay": 5.81,
+        "nas_airspace_delay": 7.0,
+        "weather_delay": 0.87
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.372,
+        "carrier_delay": 0.026,
+        "nas_airspace_delay": -0.4,
+        "weather_delay": -0.182
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "late_aircraft_delay": 6.92,
+        "carrier_delay": 6.08,
+        "nas_airspace_delay": 8.32,
+        "weather_delay": 0.92
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.524,
+        "carrier_delay": 0.272,
+        "nas_airspace_delay": 0.599,
+        "weather_delay": -0.015
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "late_aircraft_delay": 7.42,
+        "carrier_delay": 6.27,
+        "nas_airspace_delay": 7.86,
+        "weather_delay": 0.81
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.833,
+        "carrier_delay": 0.44,
+        "nas_airspace_delay": 0.223,
+        "weather_delay": -0.379
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "late_aircraft_delay": 6.83,
+        "carrier_delay": 5.69,
+        "nas_airspace_delay": 6.99,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.389,
+        "carrier_delay": -0.141,
+        "nas_airspace_delay": -0.475,
+        "weather_delay": -0.732
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "late_aircraft_delay": 6.85,
+        "carrier_delay": 5.57,
+        "nas_airspace_delay": 7.07,
+        "weather_delay": 0.82
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.39,
+        "carrier_delay": -0.258,
+        "nas_airspace_delay": -0.393,
+        "weather_delay": -0.29
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "late_aircraft_delay": 8.67,
+        "carrier_delay": 7.53,
+        "nas_airspace_delay": 7.67,
+        "weather_delay": 1.26
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.601,
+        "carrier_delay": 1.644,
+        "nas_airspace_delay": 0.123,
+        "weather_delay": 1.242
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "late_aircraft_delay": 8.37,
+        "carrier_delay": 7.53,
+        "nas_airspace_delay": 7.16,
+        "weather_delay": 1.15
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.283,
+        "carrier_delay": 1.497,
+        "nas_airspace_delay": -0.322,
+        "weather_delay": 0.805
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "late_aircraft_delay": 7.51,
+        "carrier_delay": 6.58,
+        "nas_airspace_delay": 7.04,
+        "weather_delay": 0.99
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.645,
+        "carrier_delay": 0.554,
+        "nas_airspace_delay": -0.419,
+        "weather_delay": 0.212
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "late_aircraft_delay": 6.77,
+        "carrier_delay": 5.74,
+        "nas_airspace_delay": 8.37,
+        "weather_delay": 0.92
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.107,
+        "carrier_delay": -0.271,
+        "nas_airspace_delay": 0.79,
+        "weather_delay": -0.049
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "late_aircraft_delay": 7.99,
+        "carrier_delay": 6.34,
+        "nas_airspace_delay": 9.68,
+        "weather_delay": 0.95
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.966,
+        "carrier_delay": 0.328,
+        "nas_airspace_delay": 1.815,
+        "weather_delay": 0.064
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "late_aircraft_delay": 6.77,
+        "carrier_delay": 5.83,
+        "nas_airspace_delay": 8.22,
+        "weather_delay": 0.79
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.059,
+        "carrier_delay": -0.195,
+        "nas_airspace_delay": 0.509,
+        "weather_delay": -0.55
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "late_aircraft_delay": 8.96,
+        "carrier_delay": 7.8,
+        "nas_airspace_delay": 8.15,
+        "weather_delay": 0.97
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.589,
+        "carrier_delay": 1.723,
+        "nas_airspace_delay": 0.435,
+        "weather_delay": 0.167
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "late_aircraft_delay": 7.88,
+        "carrier_delay": 6.76,
+        "nas_airspace_delay": 8.34,
+        "weather_delay": 1.13
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.774,
+        "carrier_delay": 0.656,
+        "nas_airspace_delay": 0.592,
+        "weather_delay": 0.793
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "late_aircraft_delay": 9.57,
+        "carrier_delay": 8.15,
+        "nas_airspace_delay": 8.83,
+        "weather_delay": 1.38
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.841,
+        "carrier_delay": 1.882,
+        "nas_airspace_delay": 1.005,
+        "weather_delay": 1.682
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "late_aircraft_delay": 8.09,
+        "carrier_delay": 7.32,
+        "nas_airspace_delay": 7.61,
+        "weather_delay": 0.8
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.782,
+        "carrier_delay": 1.041,
+        "nas_airspace_delay": -0.122,
+        "weather_delay": -0.594
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "late_aircraft_delay": 7.43,
+        "carrier_delay": 6.38,
+        "nas_airspace_delay": 7.71,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.312,
+        "carrier_delay": 0.136,
+        "nas_airspace_delay": -0.027,
+        "weather_delay": -0.959
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "late_aircraft_delay": 6.71,
+        "carrier_delay": 5.77,
+        "nas_airspace_delay": 7.49,
+        "weather_delay": 0.76
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.2,
+        "carrier_delay": -0.45,
+        "nas_airspace_delay": -0.234,
+        "weather_delay": -0.7
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "late_aircraft_delay": 10.05,
+        "carrier_delay": 8.15,
+        "nas_airspace_delay": 9.13,
+        "weather_delay": 1.42
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.03,
+        "carrier_delay": 1.771,
+        "nas_airspace_delay": 1.304,
+        "weather_delay": 1.818
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "late_aircraft_delay": 9.87,
+        "carrier_delay": 8.07,
+        "nas_airspace_delay": 8.45,
+        "weather_delay": 1.32
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.775,
+        "carrier_delay": 1.595,
+        "nas_airspace_delay": 0.634,
+        "weather_delay": 1.364
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "late_aircraft_delay": 9.27,
+        "carrier_delay": 7.69,
+        "nas_airspace_delay": 8.08,
+        "weather_delay": 1.03
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.319,
+        "carrier_delay": 1.196,
+        "nas_airspace_delay": 0.269,
+        "weather_delay": 0.256
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "late_aircraft_delay": 5.32,
+        "carrier_delay": 5.25,
+        "nas_airspace_delay": 5.89,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.203,
+        "carrier_delay": -1.013,
+        "nas_airspace_delay": -1.771,
+        "weather_delay": -1.482
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "late_aircraft_delay": 6.62,
+        "carrier_delay": 5.63,
+        "nas_airspace_delay": 7.54,
+        "weather_delay": 0.64
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.358,
+        "carrier_delay": -0.65,
+        "nas_airspace_delay": -0.196,
+        "weather_delay": -1.139
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "late_aircraft_delay": 6.07,
+        "carrier_delay": 5.39,
+        "nas_airspace_delay": 6.77,
+        "weather_delay": 0.51
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.702,
+        "carrier_delay": -0.85,
+        "nas_airspace_delay": -0.915,
+        "weather_delay": -1.547
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "late_aircraft_delay": 10.86,
+        "carrier_delay": 9.17,
+        "nas_airspace_delay": 10.42,
+        "weather_delay": 1.39
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.238,
+        "carrier_delay": 2.398,
+        "nas_airspace_delay": 2.366,
+        "weather_delay": 1.608
+      },
+      "events": [
+        {
+          "label": "Worst month: 31.8% of flights late",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "late_aircraft_delay": 8.41,
+        "carrier_delay": 6.79,
+        "nas_airspace_delay": 8.42,
+        "weather_delay": 0.88
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.698,
+        "carrier_delay": 0.342,
+        "nas_airspace_delay": 0.587,
+        "weather_delay": -0.182
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "late_aircraft_delay": 9.74,
+        "carrier_delay": 7.11,
+        "nas_airspace_delay": 9.36,
+        "weather_delay": 1.19
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.421,
+        "carrier_delay": 0.579,
+        "nas_airspace_delay": 1.382,
+        "weather_delay": 0.93
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "late_aircraft_delay": 8.87,
+        "carrier_delay": 7.11,
+        "nas_airspace_delay": 8.56,
+        "weather_delay": 0.93
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.851,
+        "carrier_delay": 0.549,
+        "nas_airspace_delay": 0.654,
+        "weather_delay": -0.033
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "late_aircraft_delay": 6.51,
+        "carrier_delay": 5.63,
+        "nas_airspace_delay": 7.7,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.626,
+        "carrier_delay": -0.787,
+        "nas_airspace_delay": -0.161,
+        "weather_delay": -1.427
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "late_aircraft_delay": 6.39,
+        "carrier_delay": 5.12,
+        "nas_airspace_delay": 7.73,
+        "weather_delay": 0.53
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.767,
+        "carrier_delay": -1.298,
+        "nas_airspace_delay": -0.199,
+        "weather_delay": -1.476
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "late_aircraft_delay": 8.86,
+        "carrier_delay": 6.78,
+        "nas_airspace_delay": 10.16,
+        "weather_delay": 1.14
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.815,
+        "carrier_delay": 0.221,
+        "nas_airspace_delay": 2.025,
+        "weather_delay": 0.737
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "late_aircraft_delay": 7.17,
+        "carrier_delay": 6.3,
+        "nas_airspace_delay": 7.78,
+        "weather_delay": 1.01
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.254,
+        "carrier_delay": -0.202,
+        "nas_airspace_delay": -0.16,
+        "weather_delay": 0.338
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "late_aircraft_delay": 6.32,
+        "carrier_delay": 5.82,
+        "nas_airspace_delay": 6.68,
+        "weather_delay": 0.82
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.792,
+        "carrier_delay": -0.628,
+        "nas_airspace_delay": -1.149,
+        "weather_delay": -0.366
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "late_aircraft_delay": 3.62,
+        "carrier_delay": 4.02,
+        "nas_airspace_delay": 5.1,
+        "weather_delay": 0.4
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.465,
+        "carrier_delay": -2.197,
+        "nas_airspace_delay": -2.518,
+        "weather_delay": -1.941
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "late_aircraft_delay": 3.92,
+        "carrier_delay": 3.85,
+        "nas_airspace_delay": 5.17,
+        "weather_delay": 0.26
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.177,
+        "carrier_delay": -2.231,
+        "nas_airspace_delay": -2.298,
+        "weather_delay": -2.269
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "late_aircraft_delay": 4.79,
+        "carrier_delay": 3.89,
+        "nas_airspace_delay": 6.58,
+        "weather_delay": 0.37
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.622,
+        "carrier_delay": -2.051,
+        "nas_airspace_delay": -1.062,
+        "weather_delay": -1.775
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "late_aircraft_delay": 11.13,
+        "carrier_delay": 7.65,
+        "nas_airspace_delay": 10.57,
+        "weather_delay": 1.53
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.03,
+        "carrier_delay": 1.022,
+        "nas_airspace_delay": 2.158,
+        "weather_delay": 2.042
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "late_aircraft_delay": 6.29,
+        "carrier_delay": 5.09,
+        "nas_airspace_delay": 8.04,
+        "weather_delay": 0.96
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.74,
+        "carrier_delay": -1.049,
+        "nas_airspace_delay": 0.108,
+        "weather_delay": 0.186
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "late_aircraft_delay": 4.79,
+        "carrier_delay": 4.17,
+        "nas_airspace_delay": 6.58,
+        "weather_delay": 0.43
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.518,
+        "carrier_delay": -1.681,
+        "nas_airspace_delay": -1.018,
+        "weather_delay": -1.442
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "late_aircraft_delay": 6.49,
+        "carrier_delay": 4.84,
+        "nas_airspace_delay": 7.29,
+        "weather_delay": 0.62
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.555,
+        "carrier_delay": -1.109,
+        "nas_airspace_delay": -0.439,
+        "weather_delay": -0.821
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "late_aircraft_delay": 6.19,
+        "carrier_delay": 4.78,
+        "nas_airspace_delay": 7.4,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.708,
+        "carrier_delay": -1.119,
+        "nas_airspace_delay": -0.362,
+        "weather_delay": -0.602
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "late_aircraft_delay": 5.84,
+        "carrier_delay": 4.56,
+        "nas_airspace_delay": 7.36,
+        "weather_delay": 0.62
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.877,
+        "carrier_delay": -1.24,
+        "nas_airspace_delay": -0.402,
+        "weather_delay": -0.796
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "late_aircraft_delay": 7.54,
+        "carrier_delay": 5.94,
+        "nas_airspace_delay": 7.69,
+        "weather_delay": 0.83
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.068,
+        "carrier_delay": -0.19,
+        "nas_airspace_delay": -0.138,
+        "weather_delay": -0.113
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "late_aircraft_delay": 7.33,
+        "carrier_delay": 5.93,
+        "nas_airspace_delay": 6.89,
+        "weather_delay": 0.74
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.032,
+        "carrier_delay": -0.167,
+        "nas_airspace_delay": -0.769,
+        "weather_delay": -0.364
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "late_aircraft_delay": 6.45,
+        "carrier_delay": 5.46,
+        "nas_airspace_delay": 6.43,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.499,
+        "carrier_delay": -0.499,
+        "nas_airspace_delay": -1.109,
+        "weather_delay": -0.496
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "late_aircraft_delay": 3.88,
+        "carrier_delay": 3.89,
+        "nas_airspace_delay": 4.92,
+        "weather_delay": 0.37
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.782,
+        "carrier_delay": -1.59,
+        "nas_airspace_delay": -2.086,
+        "weather_delay": -1.422
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "late_aircraft_delay": 7.2,
+        "carrier_delay": 5.26,
+        "nas_airspace_delay": 8.52,
+        "weather_delay": 0.52
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.029,
+        "carrier_delay": -0.565,
+        "nas_airspace_delay": 0.614,
+        "weather_delay": -0.913
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "late_aircraft_delay": 3.23,
+        "carrier_delay": 3.39,
+        "nas_airspace_delay": 3.91,
+        "weather_delay": 0.2
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.95,
+        "carrier_delay": -1.789,
+        "nas_airspace_delay": -2.527,
+        "weather_delay": -1.758
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "late_aircraft_delay": 8.63,
+        "carrier_delay": 6.62,
+        "nas_airspace_delay": 8.57,
+        "weather_delay": 1.05
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.739,
+        "carrier_delay": 0.483,
+        "nas_airspace_delay": 0.662,
+        "weather_delay": 0.713
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "late_aircraft_delay": 6.06,
+        "carrier_delay": 5.28,
+        "nas_airspace_delay": 6.5,
+        "weather_delay": 0.65
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.516,
+        "carrier_delay": -0.437,
+        "nas_airspace_delay": -0.716,
+        "weather_delay": -0.415
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "late_aircraft_delay": 6.67,
+        "carrier_delay": 5.31,
+        "nas_airspace_delay": 6.88,
+        "weather_delay": 0.75
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.176,
+        "carrier_delay": -0.373,
+        "nas_airspace_delay": -0.424,
+        "weather_delay": -0.073
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "late_aircraft_delay": 6.43,
+        "carrier_delay": 5.24,
+        "nas_airspace_delay": 6.03,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.276,
+        "carrier_delay": -0.388,
+        "nas_airspace_delay": -0.964,
+        "weather_delay": -0.662
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "late_aircraft_delay": 4.71,
+        "carrier_delay": 4.3,
+        "nas_airspace_delay": 4.45,
+        "weather_delay": 0.33
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.096,
+        "carrier_delay": -1.033,
+        "nas_airspace_delay": -1.873,
+        "weather_delay": -1.272
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "late_aircraft_delay": 6.48,
+        "carrier_delay": 5.03,
+        "nas_airspace_delay": 6.4,
+        "weather_delay": 0.6
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.205,
+        "carrier_delay": -0.478,
+        "nas_airspace_delay": -0.596,
+        "weather_delay": -0.453
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "late_aircraft_delay": 8.12,
+        "carrier_delay": 6.29,
+        "nas_airspace_delay": 6.56,
+        "weather_delay": 0.74
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.664,
+        "carrier_delay": 0.508,
+        "nas_airspace_delay": -0.456,
+        "weather_delay": 0.021
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "late_aircraft_delay": 8.13,
+        "carrier_delay": 6.37,
+        "nas_airspace_delay": 6.21,
+        "weather_delay": 0.79
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.715,
+        "carrier_delay": 0.636,
+        "nas_airspace_delay": -0.645,
+        "weather_delay": 0.237
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "late_aircraft_delay": 6.42,
+        "carrier_delay": 5.16,
+        "nas_airspace_delay": 5.07,
+        "weather_delay": 0.46
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.157,
+        "carrier_delay": -0.296,
+        "nas_airspace_delay": -1.307,
+        "weather_delay": -0.811
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "late_aircraft_delay": 4.6,
+        "carrier_delay": 3.99,
+        "nas_airspace_delay": 4.81,
+        "weather_delay": 0.41
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.128,
+        "carrier_delay": -1.224,
+        "nas_airspace_delay": -1.424,
+        "weather_delay": -0.955
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "late_aircraft_delay": 5.54,
+        "carrier_delay": 4.44,
+        "nas_airspace_delay": 4.79,
+        "weather_delay": 0.31
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.601,
+        "carrier_delay": -0.819,
+        "nas_airspace_delay": -1.353,
+        "weather_delay": -1.229
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "late_aircraft_delay": 5.64,
+        "carrier_delay": 4.58,
+        "nas_airspace_delay": 5.38,
+        "weather_delay": 0.31
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.539,
+        "carrier_delay": -0.682,
+        "nas_airspace_delay": -0.957,
+        "weather_delay": -1.192
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "late_aircraft_delay": 9.18,
+        "carrier_delay": 6.97,
+        "nas_airspace_delay": 7.07,
+        "weather_delay": 0.76
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.451,
+        "carrier_delay": 1.472,
+        "nas_airspace_delay": 0.124,
+        "weather_delay": 0.322
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "late_aircraft_delay": 7.2,
+        "carrier_delay": 5.65,
+        "nas_airspace_delay": 6.12,
+        "weather_delay": 0.6
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.362,
+        "carrier_delay": 0.301,
+        "nas_airspace_delay": -0.451,
+        "weather_delay": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "late_aircraft_delay": 7.44,
+        "carrier_delay": 5.44,
+        "nas_airspace_delay": 6.73,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.559,
+        "carrier_delay": 0.154,
+        "nas_airspace_delay": -0.007,
+        "weather_delay": 0.165
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "late_aircraft_delay": 7.41,
+        "carrier_delay": 5.35,
+        "nas_airspace_delay": 6.15,
+        "weather_delay": 0.32
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.579,
+        "carrier_delay": 0.12,
+        "nas_airspace_delay": -0.361,
+        "weather_delay": -1.119
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "late_aircraft_delay": 8.35,
+        "carrier_delay": 5.68,
+        "nas_airspace_delay": 7.57,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.103,
+        "carrier_delay": 0.456,
+        "nas_airspace_delay": 0.624,
+        "weather_delay": -0.283
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "late_aircraft_delay": 7.71,
+        "carrier_delay": 5.47,
+        "nas_airspace_delay": 6.67,
+        "weather_delay": 0.68
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.692,
+        "carrier_delay": 0.231,
+        "nas_airspace_delay": 0.021,
+        "weather_delay": 0.175
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "late_aircraft_delay": 8.15,
+        "carrier_delay": 6.1,
+        "nas_airspace_delay": 6.06,
+        "weather_delay": 0.67
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.979,
+        "carrier_delay": 0.916,
+        "nas_airspace_delay": -0.357,
+        "weather_delay": 0.196
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "late_aircraft_delay": 7.99,
+        "carrier_delay": 5.84,
+        "nas_airspace_delay": 5.69,
+        "weather_delay": 0.64
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.862,
+        "carrier_delay": 0.665,
+        "nas_airspace_delay": -0.6,
+        "weather_delay": 0.124
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "late_aircraft_delay": 6.63,
+        "carrier_delay": 5.28,
+        "nas_airspace_delay": 5.19,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.042,
+        "carrier_delay": 0.088,
+        "nas_airspace_delay": -0.943,
+        "weather_delay": 0.378
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "late_aircraft_delay": 5.24,
+        "carrier_delay": 4.29,
+        "nas_airspace_delay": 5.16,
+        "weather_delay": 0.37
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.848,
+        "carrier_delay": -0.984,
+        "nas_airspace_delay": -0.968,
+        "weather_delay": -0.933
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "late_aircraft_delay": 4.6,
+        "carrier_delay": 4.03,
+        "nas_airspace_delay": 4.6,
+        "weather_delay": 0.26
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.28,
+        "carrier_delay": -1.279,
+        "nas_airspace_delay": -1.364,
+        "weather_delay": -1.371
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "late_aircraft_delay": 4.72,
+        "carrier_delay": 3.97,
+        "nas_airspace_delay": 4.9,
+        "weather_delay": 0.26
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.201,
+        "carrier_delay": -1.351,
+        "nas_airspace_delay": -1.085,
+        "weather_delay": -1.34
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "late_aircraft_delay": 5.19,
+        "carrier_delay": 4.46,
+        "nas_airspace_delay": 4.69,
+        "weather_delay": 0.33
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.902,
+        "carrier_delay": -0.8,
+        "nas_airspace_delay": -1.285,
+        "weather_delay": -1.163
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "late_aircraft_delay": 4.93,
+        "carrier_delay": 4.06,
+        "nas_airspace_delay": 5.02,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.044,
+        "carrier_delay": -1.221,
+        "nas_airspace_delay": -0.955,
+        "weather_delay": -0.034
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "late_aircraft_delay": 4.33,
+        "carrier_delay": 3.85,
+        "nas_airspace_delay": 4.13,
+        "weather_delay": 0.35
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.438,
+        "carrier_delay": -1.439,
+        "nas_airspace_delay": -1.61,
+        "weather_delay": -1.046
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "late_aircraft_delay": 6.16,
+        "carrier_delay": 4.9,
+        "nas_airspace_delay": 4.99,
+        "weather_delay": 0.51
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.165,
+        "carrier_delay": -0.219,
+        "nas_airspace_delay": -0.84,
+        "weather_delay": -0.212
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "late_aircraft_delay": 4.59,
+        "carrier_delay": 4.04,
+        "nas_airspace_delay": 3.56,
+        "weather_delay": 0.39
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.196,
+        "carrier_delay": -1.174,
+        "nas_airspace_delay": -1.892,
+        "weather_delay": -0.782
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "late_aircraft_delay": 5.56,
+        "carrier_delay": 4.59,
+        "nas_airspace_delay": 4.75,
+        "weather_delay": 0.58
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.532,
+        "carrier_delay": -0.547,
+        "nas_airspace_delay": -0.871,
+        "weather_delay": 0.195
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "late_aircraft_delay": 6.98,
+        "carrier_delay": 5.62,
+        "nas_airspace_delay": 4.83,
+        "weather_delay": 0.5
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.443,
+        "carrier_delay": 0.647,
+        "nas_airspace_delay": -0.76,
+        "weather_delay": -0.173
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "late_aircraft_delay": 9.03,
+        "carrier_delay": 6.32,
+        "nas_airspace_delay": 6.07,
+        "weather_delay": 0.82
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.739,
+        "carrier_delay": 1.42,
+        "nas_airspace_delay": 0.313,
+        "weather_delay": 1.484
+      },
+      "events": [
+        {
+          "label": "Fewer flights, better on-time record",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "late_aircraft_delay": 7.68,
+        "carrier_delay": 5.79,
+        "nas_airspace_delay": 5.26,
+        "weather_delay": 0.53
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.823,
+        "carrier_delay": 0.803,
+        "nas_airspace_delay": -0.355,
+        "weather_delay": -0.003
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "late_aircraft_delay": 5.72,
+        "carrier_delay": 4.65,
+        "nas_airspace_delay": 4.98,
+        "weather_delay": 0.34
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.5,
+        "carrier_delay": -0.52,
+        "nas_airspace_delay": -0.598,
+        "weather_delay": -0.993
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "late_aircraft_delay": 6.13,
+        "carrier_delay": 4.97,
+        "nas_airspace_delay": 5.42,
+        "weather_delay": 0.25
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.204,
+        "carrier_delay": -0.141,
+        "nas_airspace_delay": -0.159,
+        "weather_delay": -1.385
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "late_aircraft_delay": 4.89,
+        "carrier_delay": 4.27,
+        "nas_airspace_delay": 3.68,
+        "weather_delay": 0.22
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.131,
+        "carrier_delay": -1.021,
+        "nas_airspace_delay": -1.781,
+        "weather_delay": -1.548
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "late_aircraft_delay": 8.55,
+        "carrier_delay": 6.21,
+        "nas_airspace_delay": 6.19,
+        "weather_delay": 0.59
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.48,
+        "carrier_delay": 1.362,
+        "nas_airspace_delay": 0.712,
+        "weather_delay": 0.458
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "late_aircraft_delay": 6.02,
+        "carrier_delay": 4.98,
+        "nas_airspace_delay": 5.73,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.325,
+        "carrier_delay": -0.144,
+        "nas_airspace_delay": 0.253,
+        "weather_delay": 0.247
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "late_aircraft_delay": 6.4,
+        "carrier_delay": 4.96,
+        "nas_airspace_delay": 5.85,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.049,
+        "carrier_delay": -0.157,
+        "nas_airspace_delay": 0.424,
+        "weather_delay": 0.344
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "late_aircraft_delay": 6.95,
+        "carrier_delay": 5.05,
+        "nas_airspace_delay": 5.91,
+        "weather_delay": 0.47
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.333,
+        "carrier_delay": -0.039,
+        "nas_airspace_delay": 0.495,
+        "weather_delay": -0.176
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "late_aircraft_delay": 8.11,
+        "carrier_delay": 5.29,
+        "nas_airspace_delay": 6.76,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.099,
+        "carrier_delay": 0.226,
+        "nas_airspace_delay": 1.353,
+        "weather_delay": 0.324
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "late_aircraft_delay": 7.33,
+        "carrier_delay": 5.13,
+        "nas_airspace_delay": 6.12,
+        "weather_delay": 0.59
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.521,
+        "carrier_delay": 0.022,
+        "nas_airspace_delay": 0.664,
+        "weather_delay": 0.507
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "late_aircraft_delay": 10.7,
+        "carrier_delay": 6.78,
+        "nas_airspace_delay": 7.37,
+        "weather_delay": 1.04
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.622,
+        "carrier_delay": 2.01,
+        "nas_airspace_delay": 1.944,
+        "weather_delay": 2.855
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "late_aircraft_delay": 9.98,
+        "carrier_delay": 6.77,
+        "nas_airspace_delay": 7.4,
+        "weather_delay": 0.76
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.019,
+        "carrier_delay": 1.939,
+        "nas_airspace_delay": 1.857,
+        "weather_delay": 1.348
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "late_aircraft_delay": 8.03,
+        "carrier_delay": 5.79,
+        "nas_airspace_delay": 5.66,
+        "weather_delay": 0.49
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.776,
+        "carrier_delay": 0.749,
+        "nas_airspace_delay": 0.071,
+        "weather_delay": -0.132
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "late_aircraft_delay": 5.81,
+        "carrier_delay": 4.45,
+        "nas_airspace_delay": 4.41,
+        "weather_delay": 0.4
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.623,
+        "carrier_delay": -0.859,
+        "nas_airspace_delay": -1.18,
+        "weather_delay": -0.622
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "late_aircraft_delay": 5.8,
+        "carrier_delay": 4.46,
+        "nas_airspace_delay": 4.69,
+        "weather_delay": 0.22
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.636,
+        "carrier_delay": -0.848,
+        "nas_airspace_delay": -0.893,
+        "weather_delay": -1.564
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "late_aircraft_delay": 5.78,
+        "carrier_delay": 4.63,
+        "nas_airspace_delay": 4.59,
+        "weather_delay": 0.31
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.652,
+        "carrier_delay": -0.647,
+        "nas_airspace_delay": -0.959,
+        "weather_delay": -1.081
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "late_aircraft_delay": 11.25,
+        "carrier_delay": 8.03,
+        "nas_airspace_delay": 7.77,
+        "weather_delay": 0.95
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.571,
+        "carrier_delay": 3.106,
+        "nas_airspace_delay": 2.109,
+        "weather_delay": 2.214
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "late_aircraft_delay": 9.87,
+        "carrier_delay": 7.66,
+        "nas_airspace_delay": 6.6,
+        "weather_delay": 1.26
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.65,
+        "carrier_delay": 2.417,
+        "nas_airspace_delay": 0.963,
+        "weather_delay": 3.145
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "late_aircraft_delay": 9.09,
+        "carrier_delay": 6.78,
+        "nas_airspace_delay": 6.92,
+        "weather_delay": 0.74
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.163,
+        "carrier_delay": 1.451,
+        "nas_airspace_delay": 1.255,
+        "weather_delay": 0.879
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "late_aircraft_delay": 8.09,
+        "carrier_delay": 6.11,
+        "nas_airspace_delay": 5.7,
+        "weather_delay": 0.39
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.596,
+        "carrier_delay": 0.77,
+        "nas_airspace_delay": 0.114,
+        "weather_delay": -0.645
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "late_aircraft_delay": 7.47,
+        "carrier_delay": 5.34,
+        "nas_airspace_delay": 5.75,
+        "weather_delay": 0.4
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.269,
+        "carrier_delay": 0.035,
+        "nas_airspace_delay": 0.221,
+        "weather_delay": -0.58
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "late_aircraft_delay": 8.18,
+        "carrier_delay": 6.04,
+        "nas_airspace_delay": 6.04,
+        "weather_delay": 0.57
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.654,
+        "carrier_delay": 0.693,
+        "nas_airspace_delay": 0.536,
+        "weather_delay": 0.169
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "late_aircraft_delay": 10.43,
+        "carrier_delay": 7.06,
+        "nas_airspace_delay": 7.39,
+        "weather_delay": 0.9
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.786,
+        "carrier_delay": 1.6,
+        "nas_airspace_delay": 1.791,
+        "weather_delay": 1.531
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "late_aircraft_delay": 9.01,
+        "carrier_delay": 6.59,
+        "nas_airspace_delay": 6.16,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.007,
+        "carrier_delay": 1.125,
+        "nas_airspace_delay": 0.579,
+        "weather_delay": 0.677
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "late_aircraft_delay": 7.97,
+        "carrier_delay": 6.01,
+        "nas_airspace_delay": 6.14,
+        "weather_delay": 0.68
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.441,
+        "carrier_delay": 0.57,
+        "nas_airspace_delay": 0.533,
+        "weather_delay": 0.596
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "late_aircraft_delay": 6.07,
+        "carrier_delay": 4.82,
+        "nas_airspace_delay": 5.98,
+        "weather_delay": 0.39
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.571,
+        "carrier_delay": -0.538,
+        "nas_airspace_delay": 0.356,
+        "weather_delay": -0.629
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "late_aircraft_delay": 6.87,
+        "carrier_delay": 5.09,
+        "nas_airspace_delay": 6.48,
+        "weather_delay": 0.34
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.186,
+        "carrier_delay": -0.322,
+        "nas_airspace_delay": 0.793,
+        "weather_delay": -0.858
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "late_aircraft_delay": 6.72,
+        "carrier_delay": 5.19,
+        "nas_airspace_delay": 5.93,
+        "weather_delay": 0.46
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.305,
+        "carrier_delay": -0.267,
+        "nas_airspace_delay": 0.233,
+        "weather_delay": -0.377
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "late_aircraft_delay": 8.82,
+        "carrier_delay": 6.82,
+        "nas_airspace_delay": 6.99,
+        "weather_delay": 0.41
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.815,
+        "carrier_delay": 1.241,
+        "nas_airspace_delay": 1.199,
+        "weather_delay": -0.609
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "late_aircraft_delay": 7.31,
+        "carrier_delay": 6.01,
+        "nas_airspace_delay": 6.36,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.073,
+        "carrier_delay": 0.421,
+        "nas_airspace_delay": 0.552,
+        "weather_delay": 0.638
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "late_aircraft_delay": 7.76,
+        "carrier_delay": 6.44,
+        "nas_airspace_delay": 6.88,
+        "weather_delay": 1.07
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.139,
+        "carrier_delay": 0.802,
+        "nas_airspace_delay": 1.009,
+        "weather_delay": 2.049
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "late_aircraft_delay": 6.86,
+        "carrier_delay": 5.97,
+        "nas_airspace_delay": 5.61,
+        "weather_delay": 0.47
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.421,
+        "carrier_delay": 0.293,
+        "nas_airspace_delay": -0.279,
+        "weather_delay": -0.421
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "late_aircraft_delay": 5.91,
+        "carrier_delay": 5.09,
+        "nas_airspace_delay": 5.36,
+        "weather_delay": 0.57
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.058,
+        "carrier_delay": -0.669,
+        "nas_airspace_delay": -0.63,
+        "weather_delay": -0.03
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "late_aircraft_delay": 6.62,
+        "carrier_delay": 5.31,
+        "nas_airspace_delay": 5.34,
+        "weather_delay": 0.73
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.64,
+        "carrier_delay": -0.464,
+        "nas_airspace_delay": -0.682,
+        "weather_delay": 0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "late_aircraft_delay": 8.81,
+        "carrier_delay": 6.97,
+        "nas_airspace_delay": 6.29,
+        "weather_delay": 0.87
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.73,
+        "carrier_delay": 1.274,
+        "nas_airspace_delay": 0.336,
+        "weather_delay": 1.13
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "late_aircraft_delay": 8.16,
+        "carrier_delay": 6.27,
+        "nas_airspace_delay": 5.58,
+        "weather_delay": 0.62
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.333,
+        "carrier_delay": 0.531,
+        "nas_airspace_delay": -0.453,
+        "weather_delay": 0.139
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "late_aircraft_delay": 6.81,
+        "carrier_delay": 5.69,
+        "nas_airspace_delay": 5.21,
+        "weather_delay": 0.68
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.52,
+        "carrier_delay": -0.084,
+        "nas_airspace_delay": -0.87,
+        "weather_delay": 0.368
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "late_aircraft_delay": 4.2,
+        "carrier_delay": 4.1,
+        "nas_airspace_delay": 4.16,
+        "weather_delay": 0.43
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.075,
+        "carrier_delay": -1.72,
+        "nas_airspace_delay": -1.954,
+        "weather_delay": -0.674
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "late_aircraft_delay": 4.0,
+        "carrier_delay": 4.03,
+        "nas_airspace_delay": 4.07,
+        "weather_delay": 0.24
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.051,
+        "carrier_delay": -1.707,
+        "nas_airspace_delay": -1.912,
+        "weather_delay": -1.458
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "late_aircraft_delay": 5.18,
+        "carrier_delay": 4.6,
+        "nas_airspace_delay": 4.84,
+        "weather_delay": 0.42
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.377,
+        "carrier_delay": -1.157,
+        "nas_airspace_delay": -1.222,
+        "weather_delay": -0.756
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "late_aircraft_delay": 7.64,
+        "carrier_delay": 6.13,
+        "nas_airspace_delay": 5.7,
+        "weather_delay": 0.66
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.082,
+        "carrier_delay": 0.403,
+        "nas_airspace_delay": -0.261,
+        "weather_delay": 0.255
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "late_aircraft_delay": 5.43,
+        "carrier_delay": 5.06,
+        "nas_airspace_delay": 4.87,
+        "weather_delay": 0.5
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.2,
+        "carrier_delay": -0.691,
+        "nas_airspace_delay": -1.127,
+        "weather_delay": -0.418
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "late_aircraft_delay": 4.9,
+        "carrier_delay": 4.34,
+        "nas_airspace_delay": 4.81,
+        "weather_delay": 0.48
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.449,
+        "carrier_delay": -1.381,
+        "nas_airspace_delay": -1.139,
+        "weather_delay": -0.492
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "late_aircraft_delay": 6.24,
+        "carrier_delay": 4.65,
+        "nas_airspace_delay": 5.86,
+        "weather_delay": 0.45
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.67,
+        "carrier_delay": -1.05,
+        "nas_airspace_delay": -0.024,
+        "weather_delay": -0.615
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "late_aircraft_delay": 5.25,
+        "carrier_delay": 4.27,
+        "nas_airspace_delay": 4.53,
+        "weather_delay": 0.34
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.166,
+        "carrier_delay": -1.364,
+        "nas_airspace_delay": -1.35,
+        "weather_delay": -1.037
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "late_aircraft_delay": 5.69,
+        "carrier_delay": 4.62,
+        "nas_airspace_delay": 4.89,
+        "weather_delay": 0.52
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.885,
+        "carrier_delay": -1.001,
+        "nas_airspace_delay": -0.927,
+        "weather_delay": -0.281
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "late_aircraft_delay": 7.91,
+        "carrier_delay": 6.1,
+        "nas_airspace_delay": 5.85,
+        "weather_delay": 0.68
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.4,
+        "carrier_delay": 0.44,
+        "nas_airspace_delay": 0.113,
+        "weather_delay": 0.446
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "late_aircraft_delay": 8.64,
+        "carrier_delay": 6.68,
+        "nas_airspace_delay": 6.39,
+        "weather_delay": 0.86
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.867,
+        "carrier_delay": 1.008,
+        "nas_airspace_delay": 0.753,
+        "weather_delay": 1.204
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "late_aircraft_delay": 7.65,
+        "carrier_delay": 6.04,
+        "nas_airspace_delay": 6.35,
+        "weather_delay": 0.67
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.285,
+        "carrier_delay": 0.378,
+        "nas_airspace_delay": 0.683,
+        "weather_delay": 0.364
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "late_aircraft_delay": 4.69,
+        "carrier_delay": 4.05,
+        "nas_airspace_delay": 4.82,
+        "weather_delay": 0.43
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.432,
+        "carrier_delay": -1.523,
+        "nas_airspace_delay": -1.047,
+        "weather_delay": -0.676
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "late_aircraft_delay": 4.64,
+        "carrier_delay": 3.96,
+        "nas_airspace_delay": 4.64,
+        "weather_delay": 0.18
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.413,
+        "carrier_delay": -1.568,
+        "nas_airspace_delay": -1.247,
+        "weather_delay": -1.738
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "late_aircraft_delay": 4.51,
+        "carrier_delay": 3.83,
+        "nas_airspace_delay": 4.43,
+        "weather_delay": 0.26
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.436,
+        "carrier_delay": -1.625,
+        "nas_airspace_delay": -1.468,
+        "weather_delay": -1.378
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "late_aircraft_delay": 8.46,
+        "carrier_delay": 6.59,
+        "nas_airspace_delay": 6.7,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.882,
+        "carrier_delay": 0.999,
+        "nas_airspace_delay": 1.174,
+        "weather_delay": 0.541
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "late_aircraft_delay": 7.86,
+        "carrier_delay": 5.9,
+        "nas_airspace_delay": 7.19,
+        "weather_delay": 0.72
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.577,
+        "carrier_delay": 0.398,
+        "nas_airspace_delay": 1.692,
+        "weather_delay": 0.798
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "late_aircraft_delay": 5.5,
+        "carrier_delay": 4.22,
+        "nas_airspace_delay": 5.45,
+        "weather_delay": 0.46
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.855,
+        "carrier_delay": -1.27,
+        "nas_airspace_delay": -0.282,
+        "weather_delay": -0.48
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "late_aircraft_delay": 6.78,
+        "carrier_delay": 4.88,
+        "nas_airspace_delay": 6.06,
+        "weather_delay": 0.4
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.016,
+        "carrier_delay": -0.551,
+        "nas_airspace_delay": 0.43,
+        "weather_delay": -0.788
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "late_aircraft_delay": 7.39,
+        "carrier_delay": 5.24,
+        "nas_airspace_delay": 6.4,
+        "weather_delay": 0.63
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.379,
+        "carrier_delay": -0.174,
+        "nas_airspace_delay": 0.804,
+        "weather_delay": 0.355
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "late_aircraft_delay": 7.4,
+        "carrier_delay": 5.19,
+        "nas_airspace_delay": 6.89,
+        "weather_delay": 0.37
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.403,
+        "carrier_delay": -0.202,
+        "nas_airspace_delay": 1.321,
+        "weather_delay": -0.939
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "late_aircraft_delay": 8.85,
+        "carrier_delay": 5.96,
+        "nas_airspace_delay": 6.86,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.453,
+        "carrier_delay": 0.66,
+        "nas_airspace_delay": 1.34,
+        "weather_delay": 0.79
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "late_aircraft_delay": 8.46,
+        "carrier_delay": 5.89,
+        "nas_airspace_delay": 6.41,
+        "weather_delay": 0.82
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.213,
+        "carrier_delay": 0.618,
+        "nas_airspace_delay": 0.797,
+        "weather_delay": 1.378
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "late_aircraft_delay": 8.07,
+        "carrier_delay": 5.54,
+        "nas_airspace_delay": 6.25,
+        "weather_delay": 0.61
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.937,
+        "carrier_delay": 0.246,
+        "nas_airspace_delay": 0.604,
+        "weather_delay": 0.305
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "late_aircraft_delay": 4.4,
+        "carrier_delay": 3.88,
+        "nas_airspace_delay": 4.23,
+        "weather_delay": 0.32
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.536,
+        "carrier_delay": -1.535,
+        "nas_airspace_delay": -1.64,
+        "weather_delay": -1.177
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "late_aircraft_delay": 5.15,
+        "carrier_delay": 4.23,
+        "nas_airspace_delay": 4.73,
+        "weather_delay": 0.24
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.984,
+        "carrier_delay": -1.11,
+        "nas_airspace_delay": -1.018,
+        "weather_delay": -1.544
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "late_aircraft_delay": 3.89,
+        "carrier_delay": 3.61,
+        "nas_airspace_delay": 3.6,
+        "weather_delay": 0.16
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.696,
+        "carrier_delay": -1.656,
+        "nas_airspace_delay": -2.077,
+        "weather_delay": -1.818
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "late_aircraft_delay": 6.72,
+        "carrier_delay": 5.46,
+        "nas_airspace_delay": 5.58,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.149,
+        "carrier_delay": 0.289,
+        "nas_airspace_delay": 0.051,
+        "weather_delay": 0.086
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "late_aircraft_delay": 6.31,
+        "carrier_delay": 5.0,
+        "nas_airspace_delay": 5.29,
+        "weather_delay": 0.71
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.102,
+        "carrier_delay": -0.173,
+        "nas_airspace_delay": -0.235,
+        "weather_delay": 0.809
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "late_aircraft_delay": 6.9,
+        "carrier_delay": 5.05,
+        "nas_airspace_delay": 6.24,
+        "weather_delay": 0.66
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.306,
+        "carrier_delay": -0.08,
+        "nas_airspace_delay": 0.85,
+        "weather_delay": 0.685
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "late_aircraft_delay": 5.93,
+        "carrier_delay": 4.89,
+        "nas_airspace_delay": 4.97,
+        "weather_delay": 0.35
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.323,
+        "carrier_delay": -0.226,
+        "nas_airspace_delay": -0.558,
+        "weather_delay": -0.935
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "late_aircraft_delay": 6.34,
+        "carrier_delay": 4.82,
+        "nas_airspace_delay": 5.8,
+        "weather_delay": 0.41
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.058,
+        "carrier_delay": -0.296,
+        "nas_airspace_delay": 0.358,
+        "weather_delay": -0.593
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "late_aircraft_delay": 7.14,
+        "carrier_delay": 5.26,
+        "nas_airspace_delay": 6.07,
+        "weather_delay": 0.71
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.464,
+        "carrier_delay": 0.198,
+        "nas_airspace_delay": 0.634,
+        "weather_delay": 0.983
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "late_aircraft_delay": 8.17,
+        "carrier_delay": 5.94,
+        "nas_airspace_delay": 6.45,
+        "weather_delay": 0.9
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.18,
+        "carrier_delay": 1.043,
+        "nas_airspace_delay": 1.048,
+        "weather_delay": 1.96
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "late_aircraft_delay": 8.34,
+        "carrier_delay": 5.94,
+        "nas_airspace_delay": 6.62,
+        "weather_delay": 0.96
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.286,
+        "carrier_delay": 1.068,
+        "nas_airspace_delay": 1.18,
+        "weather_delay": 2.088
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "late_aircraft_delay": 8.4,
+        "carrier_delay": 5.81,
+        "nas_airspace_delay": 7.38,
+        "weather_delay": 0.96
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.268,
+        "carrier_delay": 0.906,
+        "nas_airspace_delay": 1.846,
+        "weather_delay": 1.95
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "late_aircraft_delay": 5.56,
+        "carrier_delay": 4.35,
+        "nas_airspace_delay": 5.78,
+        "weather_delay": 0.65
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.643,
+        "carrier_delay": -0.847,
+        "nas_airspace_delay": 0.151,
+        "weather_delay": 0.48
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "late_aircraft_delay": 5.91,
+        "carrier_delay": 4.47,
+        "nas_airspace_delay": 5.89,
+        "weather_delay": 0.42
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.46,
+        "carrier_delay": -0.728,
+        "nas_airspace_delay": 0.223,
+        "weather_delay": -0.629
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "late_aircraft_delay": 6.99,
+        "carrier_delay": 5.09,
+        "nas_airspace_delay": 6.68,
+        "weather_delay": 0.51
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.268,
+        "carrier_delay": 0.01,
+        "nas_airspace_delay": 1.042,
+        "weather_delay": -0.213
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "late_aircraft_delay": 6.72,
+        "carrier_delay": 5.29,
+        "nas_airspace_delay": 5.99,
+        "weather_delay": 0.51
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.094,
+        "carrier_delay": 0.29,
+        "nas_airspace_delay": 0.267,
+        "weather_delay": -0.194
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "late_aircraft_delay": 6.31,
+        "carrier_delay": 4.77,
+        "nas_airspace_delay": 6.52,
+        "weather_delay": 0.72
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.22,
+        "carrier_delay": -0.35,
+        "nas_airspace_delay": 0.807,
+        "weather_delay": 0.78
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "late_aircraft_delay": 8.27,
+        "carrier_delay": 5.94,
+        "nas_airspace_delay": 7.68,
+        "weather_delay": 0.84
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.137,
+        "carrier_delay": 1.051,
+        "nas_airspace_delay": 1.932,
+        "weather_delay": 1.277
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "late_aircraft_delay": 6.37,
+        "carrier_delay": 5.18,
+        "nas_airspace_delay": 5.0,
+        "weather_delay": 0.39
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.248,
+        "carrier_delay": 0.088,
+        "nas_airspace_delay": -0.899,
+        "weather_delay": -0.811
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "late_aircraft_delay": 6.65,
+        "carrier_delay": 5.13,
+        "nas_airspace_delay": 5.24,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.073,
+        "carrier_delay": -0.004,
+        "nas_airspace_delay": -0.681,
+        "weather_delay": -0.051
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "late_aircraft_delay": 7.47,
+        "carrier_delay": 5.42,
+        "nas_airspace_delay": 6.12,
+        "weather_delay": 0.73
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.499,
+        "carrier_delay": 0.337,
+        "nas_airspace_delay": 0.237,
+        "weather_delay": 0.718
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "late_aircraft_delay": 9.32,
+        "carrier_delay": 6.39,
+        "nas_airspace_delay": 7.45,
+        "weather_delay": 0.96
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.778,
+        "carrier_delay": 1.542,
+        "nas_airspace_delay": 1.588,
+        "weather_delay": 1.691
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "late_aircraft_delay": 7.89,
+        "carrier_delay": 5.78,
+        "nas_airspace_delay": 5.99,
+        "weather_delay": 0.96
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.781,
+        "carrier_delay": 0.843,
+        "nas_airspace_delay": 0.056,
+        "weather_delay": 1.649
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "late_aircraft_delay": 7.71,
+        "carrier_delay": 5.42,
+        "nas_airspace_delay": 6.45,
+        "weather_delay": 0.76
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.648,
+        "carrier_delay": 0.4,
+        "nas_airspace_delay": 0.54,
+        "weather_delay": 0.749
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "late_aircraft_delay": 4.83,
+        "carrier_delay": 3.93,
+        "nas_airspace_delay": 4.85,
+        "weather_delay": 0.36
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.455,
+        "carrier_delay": -1.58,
+        "nas_airspace_delay": -1.157,
+        "weather_delay": -0.994
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "late_aircraft_delay": 6.15,
+        "carrier_delay": 4.49,
+        "nas_airspace_delay": 5.68,
+        "weather_delay": 0.35
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.539,
+        "carrier_delay": -0.876,
+        "nas_airspace_delay": -0.316,
+        "weather_delay": -1.091
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "late_aircraft_delay": 5.33,
+        "carrier_delay": 4.35,
+        "nas_airspace_delay": 4.61,
+        "weather_delay": 0.28
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.207,
+        "carrier_delay": -1.118,
+        "nas_airspace_delay": -1.5,
+        "weather_delay": -1.413
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "late_aircraft_delay": 7.92,
+        "carrier_delay": 5.8,
+        "nas_airspace_delay": 6.27,
+        "weather_delay": 0.51
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.822,
+        "carrier_delay": 0.992,
+        "nas_airspace_delay": 0.34,
+        "weather_delay": -0.352
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "late_aircraft_delay": 4.31,
+        "carrier_delay": 4.49,
+        "nas_airspace_delay": 4.59,
+        "weather_delay": 0.54
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.851,
+        "carrier_delay": -0.884,
+        "nas_airspace_delay": -1.435,
+        "weather_delay": -0.194
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "late_aircraft_delay": 4.9,
+        "carrier_delay": 4.42,
+        "nas_airspace_delay": 5.16,
+        "weather_delay": 0.55
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.375,
+        "carrier_delay": -1.005,
+        "nas_airspace_delay": -0.793,
+        "weather_delay": -0.161
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "late_aircraft_delay": 2.55,
+        "carrier_delay": 2.61,
+        "nas_airspace_delay": 3.0,
+        "weather_delay": 0.17
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.696,
+        "carrier_delay": -3.09,
+        "nas_airspace_delay": -2.726,
+        "weather_delay": -1.795
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "late_aircraft_delay": 0.43,
+        "carrier_delay": 1.44,
+        "nas_airspace_delay": 0.89,
+        "weather_delay": 0.1
+      },
+      "zscores": {
+        "late_aircraft_delay": -3.302,
+        "carrier_delay": -3.559,
+        "nas_airspace_delay": -3.658,
+        "weather_delay": -1.928
+      },
+      "events": [
+        {
+          "label": "COVID: only 2.9% of flights late",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "late_aircraft_delay": 0.79,
+        "carrier_delay": 2.04,
+        "nas_airspace_delay": 1.25,
+        "weather_delay": 0.24
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.687,
+        "carrier_delay": -2.575,
+        "nas_airspace_delay": -2.885,
+        "weather_delay": -1.311
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "late_aircraft_delay": 1.3,
+        "carrier_delay": 2.94,
+        "nas_airspace_delay": 1.93,
+        "weather_delay": 0.53
+      },
+      "zscores": {
+        "late_aircraft_delay": -2.215,
+        "carrier_delay": -1.629,
+        "nas_airspace_delay": -2.191,
+        "weather_delay": -0.106
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "late_aircraft_delay": 1.76,
+        "carrier_delay": 3.34,
+        "nas_airspace_delay": 2.66,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.852,
+        "carrier_delay": -1.199,
+        "nas_airspace_delay": -1.605,
+        "weather_delay": 0.573
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "late_aircraft_delay": 1.53,
+        "carrier_delay": 2.97,
+        "nas_airspace_delay": 2.53,
+        "weather_delay": 0.66
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.809,
+        "carrier_delay": -1.434,
+        "nas_airspace_delay": -1.572,
+        "weather_delay": 0.442
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "late_aircraft_delay": 1.21,
+        "carrier_delay": 2.77,
+        "nas_airspace_delay": 1.85,
+        "weather_delay": 0.35
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.825,
+        "carrier_delay": -1.537,
+        "nas_airspace_delay": -1.852,
+        "weather_delay": -0.851
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "late_aircraft_delay": 1.75,
+        "carrier_delay": 3.29,
+        "nas_airspace_delay": 2.87,
+        "weather_delay": 0.41
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.51,
+        "carrier_delay": -1.057,
+        "nas_airspace_delay": -1.211,
+        "weather_delay": -0.633
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "late_aircraft_delay": 1.5,
+        "carrier_delay": 3.1,
+        "nas_airspace_delay": 2.64,
+        "weather_delay": 0.28
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.539,
+        "carrier_delay": -1.19,
+        "nas_airspace_delay": -1.305,
+        "weather_delay": -1.225
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "late_aircraft_delay": 2.43,
+        "carrier_delay": 4.51,
+        "nas_airspace_delay": 4.15,
+        "weather_delay": 0.45
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.112,
+        "carrier_delay": -0.002,
+        "nas_airspace_delay": -0.447,
+        "weather_delay": -0.473
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "late_aircraft_delay": 1.97,
+        "carrier_delay": 3.58,
+        "nas_airspace_delay": 3.67,
+        "weather_delay": 0.48
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.219,
+        "carrier_delay": -0.741,
+        "nas_airspace_delay": -0.683,
+        "weather_delay": -0.317
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "late_aircraft_delay": 2.79,
+        "carrier_delay": 4.76,
+        "nas_airspace_delay": 5.22,
+        "weather_delay": 1.14
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.862,
+        "carrier_delay": 0.246,
+        "nas_airspace_delay": 0.185,
+        "weather_delay": 2.301
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "late_aircraft_delay": 2.56,
+        "carrier_delay": 4.06,
+        "nas_airspace_delay": 3.01,
+        "weather_delay": 0.37
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.904,
+        "carrier_delay": -0.317,
+        "nas_airspace_delay": -0.993,
+        "weather_delay": -0.792
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "late_aircraft_delay": 2.75,
+        "carrier_delay": 4.13,
+        "nas_airspace_delay": 3.18,
+        "weather_delay": 0.41
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.792,
+        "carrier_delay": -0.243,
+        "nas_airspace_delay": -0.855,
+        "weather_delay": -0.631
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "late_aircraft_delay": 3.82,
+        "carrier_delay": 5.09,
+        "nas_airspace_delay": 3.48,
+        "weather_delay": 0.68
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.364,
+        "carrier_delay": 0.561,
+        "nas_airspace_delay": -0.654,
+        "weather_delay": 0.459
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "late_aircraft_delay": 8.26,
+        "carrier_delay": 8.44,
+        "nas_airspace_delay": 5.4,
+        "weather_delay": 1.27
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.291,
+        "carrier_delay": 2.933,
+        "nas_airspace_delay": 0.407,
+        "weather_delay": 2.58
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "late_aircraft_delay": 8.84,
+        "carrier_delay": 8.92,
+        "nas_airspace_delay": 5.5,
+        "weather_delay": 1.21
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.491,
+        "carrier_delay": 2.871,
+        "nas_airspace_delay": 0.485,
+        "weather_delay": 2.226
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "late_aircraft_delay": 7.64,
+        "carrier_delay": 8.28,
+        "nas_airspace_delay": 5.1,
+        "weather_delay": 1.15
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.064,
+        "carrier_delay": 2.245,
+        "nas_airspace_delay": 0.308,
+        "weather_delay": 1.934
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "late_aircraft_delay": 4.37,
+        "carrier_delay": 5.54,
+        "nas_airspace_delay": 3.45,
+        "weather_delay": 0.49
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.145,
+        "carrier_delay": 0.534,
+        "nas_airspace_delay": -0.603,
+        "weather_delay": -0.324
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "late_aircraft_delay": 6.11,
+        "carrier_delay": 7.19,
+        "nas_airspace_delay": 3.87,
+        "weather_delay": 0.51
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.503,
+        "carrier_delay": 1.455,
+        "nas_airspace_delay": -0.332,
+        "weather_delay": -0.265
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "late_aircraft_delay": 4.88,
+        "carrier_delay": 6.25,
+        "nas_airspace_delay": 3.42,
+        "weather_delay": 0.28
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.066,
+        "carrier_delay": 0.867,
+        "nas_airspace_delay": -0.551,
+        "weather_delay": -1.023
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "late_aircraft_delay": 7.04,
+        "carrier_delay": 8.76,
+        "nas_airspace_delay": 4.78,
+        "weather_delay": 0.76
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.875,
+        "carrier_delay": 2.138,
+        "nas_airspace_delay": 0.277,
+        "weather_delay": 0.586
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "late_aircraft_delay": 5.53,
+        "carrier_delay": 7.64,
+        "nas_airspace_delay": 4.25,
+        "weather_delay": 0.71
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.316,
+        "carrier_delay": 1.434,
+        "nas_airspace_delay": -0.003,
+        "weather_delay": 0.418
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "late_aircraft_delay": 5.98,
+        "carrier_delay": 7.23,
+        "nas_airspace_delay": 4.75,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.522,
+        "carrier_delay": 1.176,
+        "nas_airspace_delay": 0.378,
+        "weather_delay": 0.367
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "late_aircraft_delay": 7.22,
+        "carrier_delay": 7.6,
+        "nas_airspace_delay": 5.54,
+        "weather_delay": 0.61
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.985,
+        "carrier_delay": 1.303,
+        "nas_airspace_delay": 0.88,
+        "weather_delay": 0.073
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "late_aircraft_delay": 7.65,
+        "carrier_delay": 7.95,
+        "nas_airspace_delay": 5.21,
+        "weather_delay": 0.61
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.128,
+        "carrier_delay": 1.401,
+        "nas_airspace_delay": 0.666,
+        "weather_delay": 0.068
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "late_aircraft_delay": 6.87,
+        "carrier_delay": 7.7,
+        "nas_airspace_delay": 5.15,
+        "weather_delay": 0.77
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.843,
+        "carrier_delay": 1.219,
+        "nas_airspace_delay": 0.656,
+        "weather_delay": 0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "late_aircraft_delay": 8.2,
+        "carrier_delay": 8.94,
+        "nas_airspace_delay": 5.05,
+        "weather_delay": 0.85
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.389,
+        "carrier_delay": 1.72,
+        "nas_airspace_delay": 0.677,
+        "weather_delay": 0.91
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "late_aircraft_delay": 8.46,
+        "carrier_delay": 8.31,
+        "nas_airspace_delay": 5.09,
+        "weather_delay": 1.03
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.472,
+        "carrier_delay": 1.355,
+        "nas_airspace_delay": 0.737,
+        "weather_delay": 1.515
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "late_aircraft_delay": 7.74,
+        "carrier_delay": 7.77,
+        "nas_airspace_delay": 4.92,
+        "weather_delay": 1.09
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.193,
+        "carrier_delay": 1.062,
+        "nas_airspace_delay": 0.669,
+        "weather_delay": 1.632
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "late_aircraft_delay": 5.43,
+        "carrier_delay": 6.08,
+        "nas_airspace_delay": 4.05,
+        "weather_delay": 0.58
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.295,
+        "carrier_delay": 0.277,
+        "nas_airspace_delay": 0.034,
+        "weather_delay": -0.086
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "late_aircraft_delay": 5.29,
+        "carrier_delay": 6.0,
+        "nas_airspace_delay": 3.95,
+        "weather_delay": 0.35
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.251,
+        "carrier_delay": 0.223,
+        "nas_airspace_delay": -0.005,
+        "weather_delay": -0.858
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "late_aircraft_delay": 6.21,
+        "carrier_delay": 6.75,
+        "nas_airspace_delay": 5.15,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.595,
+        "carrier_delay": 0.532,
+        "nas_airspace_delay": 0.901,
+        "weather_delay": -0.182
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "late_aircraft_delay": 8.95,
+        "carrier_delay": 9.22,
+        "nas_airspace_delay": 5.98,
+        "weather_delay": 1.13
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.614,
+        "carrier_delay": 1.55,
+        "nas_airspace_delay": 1.558,
+        "weather_delay": 1.642
+      },
+      "events": [
+        {
+          "label": "Airline meltdown: carrier delays peak at 9.2%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "late_aircraft_delay": 7.22,
+        "carrier_delay": 7.19,
+        "nas_airspace_delay": 6.36,
+        "weather_delay": 0.83
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.916,
+        "carrier_delay": 0.63,
+        "nas_airspace_delay": 1.74,
+        "weather_delay": 0.626
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "late_aircraft_delay": 6.3,
+        "carrier_delay": 6.5,
+        "nas_airspace_delay": 5.07,
+        "weather_delay": 0.63
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.554,
+        "carrier_delay": 0.305,
+        "nas_airspace_delay": 0.787,
+        "weather_delay": -0.035
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "late_aircraft_delay": 8.27,
+        "carrier_delay": 7.4,
+        "nas_airspace_delay": 6.75,
+        "weather_delay": 0.66
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.217,
+        "carrier_delay": 0.655,
+        "nas_airspace_delay": 1.871,
+        "weather_delay": 0.019
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "late_aircraft_delay": 8.29,
+        "carrier_delay": 7.36,
+        "nas_airspace_delay": 5.87,
+        "weather_delay": 0.72
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.169,
+        "carrier_delay": 0.596,
+        "nas_airspace_delay": 1.218,
+        "weather_delay": 0.173
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "late_aircraft_delay": 6.57,
+        "carrier_delay": 6.44,
+        "nas_airspace_delay": 4.31,
+        "weather_delay": 0.54
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.477,
+        "carrier_delay": 0.109,
+        "nas_airspace_delay": -0.023,
+        "weather_delay": -0.517
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "late_aircraft_delay": 10.05,
+        "carrier_delay": 8.54,
+        "nas_airspace_delay": 6.45,
+        "weather_delay": 1.07
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.732,
+        "carrier_delay": 1.106,
+        "nas_airspace_delay": 1.649,
+        "weather_delay": 1.354
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "late_aircraft_delay": 10.91,
+        "carrier_delay": 8.85,
+        "nas_airspace_delay": 6.44,
+        "weather_delay": 1.25
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.923,
+        "carrier_delay": 1.204,
+        "nas_airspace_delay": 1.55,
+        "weather_delay": 1.85
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "late_aircraft_delay": 8.23,
+        "carrier_delay": 7.12,
+        "nas_airspace_delay": 4.84,
+        "weather_delay": 0.81
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.859,
+        "carrier_delay": 0.259,
+        "nas_airspace_delay": 0.179,
+        "weather_delay": 0.326
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "late_aircraft_delay": 6.5,
+        "carrier_delay": 6.15,
+        "nas_airspace_delay": 4.93,
+        "weather_delay": 0.63
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.131,
+        "carrier_delay": -0.344,
+        "nas_airspace_delay": 0.2,
+        "weather_delay": -0.324
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "late_aircraft_delay": 5.75,
+        "carrier_delay": 5.63,
+        "nas_airspace_delay": 3.65,
+        "weather_delay": 0.33
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.236,
+        "carrier_delay": -0.724,
+        "nas_airspace_delay": -1.06,
+        "weather_delay": -1.353
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "late_aircraft_delay": 4.65,
+        "carrier_delay": 4.8,
+        "nas_airspace_delay": 3.67,
+        "weather_delay": 0.28
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.795,
+        "carrier_delay": -1.334,
+        "nas_airspace_delay": -1.118,
+        "weather_delay": -1.526
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "late_aircraft_delay": 5.49,
+        "carrier_delay": 5.19,
+        "nas_airspace_delay": 4.35,
+        "weather_delay": 0.42
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.47,
+        "carrier_delay": -1.111,
+        "nas_airspace_delay": -0.433,
+        "weather_delay": -1.035
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "late_aircraft_delay": 8.38,
+        "carrier_delay": 7.01,
+        "nas_airspace_delay": 6.33,
+        "weather_delay": 1.31
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.887,
+        "carrier_delay": 0.031,
+        "nas_airspace_delay": 1.491,
+        "weather_delay": 1.879
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "late_aircraft_delay": 5.09,
+        "carrier_delay": 5.04,
+        "nas_airspace_delay": 4.93,
+        "weather_delay": 0.46
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.867,
+        "carrier_delay": -1.386,
+        "nas_airspace_delay": 0.091,
+        "weather_delay": -0.885
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "late_aircraft_delay": 7.65,
+        "carrier_delay": 5.99,
+        "nas_airspace_delay": 5.98,
+        "weather_delay": 0.56
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.461,
+        "carrier_delay": -0.788,
+        "nas_airspace_delay": 1.102,
+        "weather_delay": -0.576
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "late_aircraft_delay": 6.94,
+        "carrier_delay": 5.81,
+        "nas_airspace_delay": 5.29,
+        "weather_delay": 0.59
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.016,
+        "carrier_delay": -1.018,
+        "nas_airspace_delay": 0.338,
+        "weather_delay": -0.497
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "late_aircraft_delay": 9.93,
+        "carrier_delay": 7.33,
+        "nas_airspace_delay": 7.12,
+        "weather_delay": 1.2
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.779,
+        "carrier_delay": 0.162,
+        "nas_airspace_delay": 2.159,
+        "weather_delay": 1.511
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "late_aircraft_delay": 9.45,
+        "carrier_delay": 7.78,
+        "nas_airspace_delay": 5.88,
+        "weather_delay": 0.98
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.42,
+        "carrier_delay": 0.56,
+        "nas_airspace_delay": 0.825,
+        "weather_delay": 0.831
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "late_aircraft_delay": 11.38,
+        "carrier_delay": 9.17,
+        "nas_airspace_delay": 6.61,
+        "weather_delay": 1.1
+      },
+      "zscores": {
+        "late_aircraft_delay": 2.395,
+        "carrier_delay": 1.715,
+        "nas_airspace_delay": 1.511,
+        "weather_delay": 1.277
+      },
+      "events": [
+        {
+          "label": "Late-aircraft delays hit a record 11.4%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "late_aircraft_delay": 8.47,
+        "carrier_delay": 7.04,
+        "nas_airspace_delay": 6.22,
+        "weather_delay": 0.93
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.694,
+        "carrier_delay": -0.043,
+        "nas_airspace_delay": 1.065,
+        "weather_delay": 0.717
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "late_aircraft_delay": 5.3,
+        "carrier_delay": 5.05,
+        "nas_airspace_delay": 4.42,
+        "weather_delay": 0.5
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.167,
+        "carrier_delay": -1.694,
+        "nas_airspace_delay": -0.793,
+        "weather_delay": -0.835
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "late_aircraft_delay": 4.45,
+        "carrier_delay": 4.81,
+        "nas_airspace_delay": 3.41,
+        "weather_delay": 0.22
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.59,
+        "carrier_delay": -1.757,
+        "nas_airspace_delay": -1.789,
+        "weather_delay": -1.75
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "late_aircraft_delay": 4.73,
+        "carrier_delay": 4.91,
+        "nas_airspace_delay": 4.44,
+        "weather_delay": 0.42
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.423,
+        "carrier_delay": -1.595,
+        "nas_airspace_delay": -0.802,
+        "weather_delay": -1.088
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "late_aircraft_delay": 7.69,
+        "carrier_delay": 6.88,
+        "nas_airspace_delay": 5.49,
+        "weather_delay": 0.85
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.246,
+        "carrier_delay": -0.033,
+        "nas_airspace_delay": 0.286,
+        "weather_delay": 0.425
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "late_aircraft_delay": 5.88,
+        "carrier_delay": 6.01,
+        "nas_airspace_delay": 5.49,
+        "weather_delay": 0.88
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.79,
+        "carrier_delay": -0.687,
+        "nas_airspace_delay": 0.253,
+        "weather_delay": 0.512
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "late_aircraft_delay": 6.98,
+        "carrier_delay": 6.12,
+        "nas_airspace_delay": 6.51,
+        "weather_delay": 0.86
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.18,
+        "carrier_delay": -0.573,
+        "nas_airspace_delay": 1.27,
+        "weather_delay": 0.424
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "late_aircraft_delay": 7.0,
+        "carrier_delay": 5.87,
+        "nas_airspace_delay": 5.61,
+        "weather_delay": 0.69
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.165,
+        "carrier_delay": -0.731,
+        "nas_airspace_delay": 0.321,
+        "weather_delay": -0.181
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "late_aircraft_delay": 7.03,
+        "carrier_delay": 5.83,
+        "nas_airspace_delay": 5.74,
+        "weather_delay": 0.72
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.138,
+        "carrier_delay": -0.719,
+        "nas_airspace_delay": 0.441,
+        "weather_delay": -0.086
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "late_aircraft_delay": 8.22,
+        "carrier_delay": 6.47,
+        "nas_airspace_delay": 7.46,
+        "weather_delay": 1.08
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.522,
+        "carrier_delay": -0.187,
+        "nas_airspace_delay": 2.044,
+        "weather_delay": 1.133
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "late_aircraft_delay": 10.67,
+        "carrier_delay": 8.19,
+        "nas_airspace_delay": 7.46,
+        "weather_delay": 1.33
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.802,
+        "carrier_delay": 1.233,
+        "nas_airspace_delay": 1.879,
+        "weather_delay": 1.857
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "late_aircraft_delay": 10.74,
+        "carrier_delay": 8.28,
+        "nas_airspace_delay": 7.27,
+        "weather_delay": 1.39
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.735,
+        "carrier_delay": 1.308,
+        "nas_airspace_delay": 1.587,
+        "weather_delay": 1.932
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "late_aircraft_delay": 8.21,
+        "carrier_delay": 6.83,
+        "nas_airspace_delay": 5.73,
+        "weather_delay": 1.03
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.397,
+        "carrier_delay": 0.144,
+        "nas_airspace_delay": 0.178,
+        "weather_delay": 0.808
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "late_aircraft_delay": 5.52,
+        "carrier_delay": 5.18,
+        "nas_airspace_delay": 4.83,
+        "weather_delay": 0.59
+      },
+      "zscores": {
+        "late_aircraft_delay": -1.017,
+        "carrier_delay": -1.182,
+        "nas_airspace_delay": -0.67,
+        "weather_delay": -0.586
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "late_aircraft_delay": 7.21,
+        "carrier_delay": 6.02,
+        "nas_airspace_delay": 6.16,
+        "weather_delay": 0.4
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.16,
+        "carrier_delay": -0.499,
+        "nas_airspace_delay": 0.516,
+        "weather_delay": -1.198
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "late_aircraft_delay": 7.11,
+        "carrier_delay": 5.78,
+        "nas_airspace_delay": 6.41,
+        "weather_delay": 0.54
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.228,
+        "carrier_delay": -0.668,
+        "nas_airspace_delay": 0.717,
+        "weather_delay": -0.75
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "late_aircraft_delay": 10.28,
+        "carrier_delay": 8.15,
+        "nas_airspace_delay": 6.94,
+        "weather_delay": 0.96
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.428,
+        "carrier_delay": 1.33,
+        "nas_airspace_delay": 1.172,
+        "weather_delay": 0.608
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "late_aircraft_delay": 6.67,
+        "carrier_delay": 6.6,
+        "nas_airspace_delay": 5.34,
+        "weather_delay": 1.03
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.465,
+        "carrier_delay": 0.035,
+        "nas_airspace_delay": -0.289,
+        "weather_delay": 0.809
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "late_aircraft_delay": 6.63,
+        "carrier_delay": 6.45,
+        "nas_airspace_delay": 5.2,
+        "weather_delay": 0.67
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.493,
+        "carrier_delay": -0.091,
+        "nas_airspace_delay": -0.424,
+        "weather_delay": -0.345
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "late_aircraft_delay": 8.79,
+        "carrier_delay": 7.41,
+        "nas_airspace_delay": 6.26,
+        "weather_delay": 0.81
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.636,
+        "carrier_delay": 0.722,
+        "nas_airspace_delay": 0.585,
+        "weather_delay": 0.09
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "late_aircraft_delay": 7.53,
+        "carrier_delay": 5.97,
+        "nas_airspace_delay": 5.59,
+        "weather_delay": 0.58
+      },
+      "zscores": {
+        "late_aircraft_delay": -0.015,
+        "carrier_delay": -0.467,
+        "nas_airspace_delay": -0.04,
+        "weather_delay": -0.631
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "late_aircraft_delay": 8.03,
+        "carrier_delay": 6.54,
+        "nas_airspace_delay": 5.69,
+        "weather_delay": 0.7
+      },
+      "zscores": {
+        "late_aircraft_delay": 0.228,
+        "carrier_delay": 0.015,
+        "nas_airspace_delay": 0.019,
+        "weather_delay": -0.265
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "late_aircraft_delay": 9.94,
+        "carrier_delay": 7.36,
+        "nas_airspace_delay": 6.42,
+        "weather_delay": 1.03
+      },
+      "zscores": {
+        "late_aircraft_delay": 1.24,
+        "carrier_delay": 0.767,
+        "nas_airspace_delay": 0.726,
+        "weather_delay": 0.801
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Why are flights late? This chart shows the share of all US airline flights that arrived late because of each cause. The biggest cause today is a domino effect: a plane arrives late because it was already late on its previous trip.",
+    "methodology": "Monthly on-time data for all reporting US airlines from the Bureau of Transportation Statistics (Airline Service Quality Performance, Form 234), read from the BTS delay-cause tables. Each value is the percent of all scheduled flights that arrived 15+ minutes late because of that cause. \"Weather\" covers only extreme weather; ordinary weather delays are counted under the air traffic system (NAS).",
+    "key_findings": [
+      {
+        "date": "2007-12-01",
+        "title": "December 2007: The Worst Month",
+        "description": "31.8% of all flights arrived late, the highest on the chart. Air traffic system delays alone affected 10.4% of flights.",
+        "significance": "Crowded skies before the recession made delays routine.",
+        "normalized_time": 0.1362
+      },
+      {
+        "date": "2022-12-01",
+        "title": "December 2022: Airline Meltdowns",
+        "description": "Delays caused by the airlines themselves (crews, maintenance, scheduling) reached 9.2% of flights, the highest on the chart, as a winter storm broke airline crew systems.",
+        "significance": "After the pandemic, airlines had too few staff to recover from disruptions.",
+        "normalized_time": 0.8366
+      },
+      {
+        "date": "2024-07-01",
+        "title": "July 2024: The Domino Record",
+        "description": "Late-arriving aircraft delayed 11.4% of all flights, the highest on the chart. In 2025, about 21.6% of flights arrived late on average, up from 16.5% in 2012.",
+        "significance": "Tight schedules mean one late plane delays many flights after it.",
+        "normalized_time": 0.9105
+      }
+    ]
+  }
+}

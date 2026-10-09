@@ -1,0 +1,4814 @@
+{
+  "metadata": {
+    "chart_id": "chart_1",
+    "number": 1,
+    "title": "How a Gas Price Shock Spreads to Other Prices",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "EIA",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2003,
+    "end_year": 2026,
+    "observation_count": 284,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08",
+    "data_notes": "Chart starts in 2003 because the bond-market inflation expectation series (T5YIFR) begins then."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.508,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.22
+      },
+      {
+        "lag": -17,
+        "r": 0.242
+      },
+      {
+        "lag": -16,
+        "r": 0.263
+      },
+      {
+        "lag": -15,
+        "r": 0.278
+      },
+      {
+        "lag": -14,
+        "r": 0.286
+      },
+      {
+        "lag": -13,
+        "r": 0.297
+      },
+      {
+        "lag": -12,
+        "r": 0.314
+      },
+      {
+        "lag": -11,
+        "r": 0.331
+      },
+      {
+        "lag": -10,
+        "r": 0.339
+      },
+      {
+        "lag": -9,
+        "r": 0.345
+      },
+      {
+        "lag": -8,
+        "r": 0.353
+      },
+      {
+        "lag": -7,
+        "r": 0.362
+      },
+      {
+        "lag": -6,
+        "r": 0.371
+      },
+      {
+        "lag": -5,
+        "r": 0.388
+      },
+      {
+        "lag": -4,
+        "r": 0.407
+      },
+      {
+        "lag": -3,
+        "r": 0.431
+      },
+      {
+        "lag": -2,
+        "r": 0.463
+      },
+      {
+        "lag": -1,
+        "r": 0.495
+      },
+      {
+        "lag": 0,
+        "r": 0.508
+      },
+      {
+        "lag": 1,
+        "r": 0.483
+      },
+      {
+        "lag": 2,
+        "r": 0.442
+      },
+      {
+        "lag": 3,
+        "r": 0.4
+      },
+      {
+        "lag": 4,
+        "r": 0.351
+      },
+      {
+        "lag": 5,
+        "r": 0.297
+      },
+      {
+        "lag": 6,
+        "r": 0.241
+      },
+      {
+        "lag": 7,
+        "r": 0.181
+      },
+      {
+        "lag": 8,
+        "r": 0.118
+      },
+      {
+        "lag": 9,
+        "r": 0.053
+      },
+      {
+        "lag": 10,
+        "r": -0.017
+      },
+      {
+        "lag": 11,
+        "r": -0.094
+      },
+      {
+        "lag": 12,
+        "r": -0.162
+      },
+      {
+        "lag": 13,
+        "r": -0.191
+      },
+      {
+        "lag": 14,
+        "r": -0.2
+      },
+      {
+        "lag": 15,
+        "r": -0.208
+      },
+      {
+        "lag": 16,
+        "r": -0.219
+      },
+      {
+        "lag": 17,
+        "r": -0.231
+      },
+      {
+        "lag": 18,
+        "r": -0.245
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "gas_price",
+      "agency": "EIA",
+      "series_id": "EMM_EPM0_PTE_NUS_DPG",
+      "label": "Regular Gasoline Price",
+      "unit": "$/gal",
+      "transform": "raw",
+      "color": "#f59e0b"
+    },
+    {
+      "key": "headline_cpi",
+      "agency": "BLS",
+      "series_id": "CUUR0000SA0",
+      "label": "Overall Inflation (CPI-U)",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#ef4444"
+    },
+    {
+      "key": "core_cpi",
+      "agency": "BLS",
+      "series_id": "CUUR0000SA0L1E",
+      "label": "Core Inflation (Excluding Food & Energy)",
+      "unit": "% YoY",
+      "transform": "yoy_pct",
+      "color": "#3b82f6"
+    },
+    {
+      "key": "fwd_inflation",
+      "agency": "FRED",
+      "series_id": "T5YIFR",
+      "label": "Bond Market Expected Future Inflation",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#10b981"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2003-01-01",
+      "values": {
+        "gas_price": 1.5,
+        "headline_cpi": 2.597,
+        "core_cpi": 1.913,
+        "fwd_inflation": 2.11
+      },
+      "zscores": {
+        "gas_price": 0.0,
+        "headline_cpi": 0.0,
+        "core_cpi": 0.0,
+        "fwd_inflation": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "gas_price": 1.655,
+        "headline_cpi": 2.981,
+        "core_cpi": 1.744,
+        "fwd_inflation": 2.17
+      },
+      "zscores": {
+        "gas_price": 1.0,
+        "headline_cpi": 1.0,
+        "core_cpi": -1.0,
+        "fwd_inflation": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "gas_price": 1.734,
+        "headline_cpi": 3.02,
+        "core_cpi": 1.686,
+        "fwd_inflation": 2.03
+      },
+      "zscores": {
+        "gas_price": 1.073,
+        "headline_cpi": 0.808,
+        "core_cpi": -0.988,
+        "fwd_inflation": -1.279
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "gas_price": 1.633,
+        "headline_cpi": 2.225,
+        "core_cpi": 1.471,
+        "fwd_inflation": 1.98
+      },
+      "zscores": {
+        "gas_price": 0.03,
+        "headline_cpi": -1.489,
+        "core_cpi": -1.471,
+        "fwd_inflation": -1.268
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "gas_price": 1.539,
+        "headline_cpi": 2.058,
+        "core_cpi": 1.577,
+        "fwd_inflation": 1.99
+      },
+      "zscores": {
+        "gas_price": -0.874,
+        "headline_cpi": -1.335,
+        "core_cpi": -0.674,
+        "fwd_inflation": -0.903
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "gas_price": 1.533,
+        "headline_cpi": 2.112,
+        "core_cpi": 1.526,
+        "fwd_inflation": 1.87
+      },
+      "zscores": {
+        "gas_price": -0.806,
+        "headline_cpi": -0.98,
+        "core_cpi": -0.859,
+        "fwd_inflation": -1.611
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "gas_price": 1.554,
+        "headline_cpi": 2.11,
+        "core_cpi": 1.524,
+        "fwd_inflation": 2.16
+      },
+      "zscores": {
+        "gas_price": -0.498,
+        "headline_cpi": -0.856,
+        "core_cpi": -0.765,
+        "fwd_inflation": 1.148
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "gas_price": 1.661,
+        "headline_cpi": 2.158,
+        "core_cpi": 1.309,
+        "fwd_inflation": 2.36
+      },
+      "zscores": {
+        "gas_price": 0.789,
+        "headline_cpi": -0.663,
+        "core_cpi": -1.648,
+        "fwd_inflation": 1.963
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "gas_price": 1.721,
+        "headline_cpi": 2.32,
+        "core_cpi": 1.202,
+        "fwd_inflation": 2.28
+      },
+      "zscores": {
+        "gas_price": 1.317,
+        "headline_cpi": -0.218,
+        "core_cpi": -1.704,
+        "fwd_inflation": 1.192
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "gas_price": 1.606,
+        "headline_cpi": 2.041,
+        "core_cpi": 1.303,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": -0.099,
+        "headline_cpi": -0.907,
+        "core_cpi": -1.071,
+        "fwd_inflation": 1.792
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "gas_price": 1.555,
+        "headline_cpi": 1.765,
+        "core_cpi": 1.095,
+        "fwd_inflation": 2.66
+      },
+      "zscores": {
+        "gas_price": -0.709,
+        "headline_cpi": -1.433,
+        "core_cpi": -1.678,
+        "fwd_inflation": 2.123
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "gas_price": 1.522,
+        "headline_cpi": 1.879,
+        "core_cpi": 1.149,
+        "fwd_inflation": 2.53
+      },
+      "zscores": {
+        "gas_price": -1.044,
+        "headline_cpi": -1.029,
+        "core_cpi": -1.277,
+        "fwd_inflation": 1.347
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "gas_price": 1.614,
+        "headline_cpi": 1.926,
+        "core_cpi": 1.147,
+        "fwd_inflation": 2.49
+      },
+      "zscores": {
+        "gas_price": 0.164,
+        "headline_cpi": -0.845,
+        "core_cpi": -1.164,
+        "fwd_inflation": 1.074
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "gas_price": 1.69,
+        "headline_cpi": 1.693,
+        "core_cpi": 1.247,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 1.106,
+        "headline_cpi": -1.312,
+        "core_cpi": -0.718,
+        "fwd_inflation": 0.771
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "gas_price": 1.778,
+        "headline_cpi": 1.737,
+        "core_cpi": 1.606,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 1.91,
+        "headline_cpi": -1.106,
+        "core_cpi": 0.723,
+        "fwd_inflation": 0.808
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "gas_price": 1.839,
+        "headline_cpi": 2.285,
+        "core_cpi": 1.761,
+        "fwd_inflation": 2.52
+      },
+      "zscores": {
+        "gas_price": 2.137,
+        "headline_cpi": 0.269,
+        "core_cpi": 1.255,
+        "fwd_inflation": 1.038
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "gas_price": 2.023,
+        "headline_cpi": 3.052,
+        "core_cpi": 1.708,
+        "fwd_inflation": 2.74
+      },
+      "zscores": {
+        "gas_price": 2.803,
+        "headline_cpi": 1.927,
+        "core_cpi": 0.978,
+        "fwd_inflation": 1.738
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "gas_price": 2.013,
+        "headline_cpi": 3.266,
+        "core_cpi": 1.865,
+        "fwd_inflation": 2.65
+      },
+      "zscores": {
+        "gas_price": 2.229,
+        "headline_cpi": 2.05,
+        "core_cpi": 1.471,
+        "fwd_inflation": 1.273
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "gas_price": 1.954,
+        "headline_cpi": 2.991,
+        "core_cpi": 1.76,
+        "fwd_inflation": 2.55
+      },
+      "zscores": {
+        "gas_price": 1.649,
+        "headline_cpi": 1.357,
+        "core_cpi": 1.0,
+        "fwd_inflation": 0.839
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "gas_price": 1.92,
+        "headline_cpi": 2.654,
+        "core_cpi": 1.705,
+        "fwd_inflation": 2.49
+      },
+      "zscores": {
+        "gas_price": 1.333,
+        "headline_cpi": 0.645,
+        "core_cpi": 0.755,
+        "fwd_inflation": 0.581
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "gas_price": 1.912,
+        "headline_cpi": 2.538,
+        "core_cpi": 1.963,
+        "fwd_inflation": 2.4
+      },
+      "zscores": {
+        "gas_price": 1.206,
+        "headline_cpi": 0.392,
+        "core_cpi": 1.615,
+        "fwd_inflation": 0.214
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "gas_price": 2.042,
+        "headline_cpi": 3.189,
+        "core_cpi": 2.007,
+        "fwd_inflation": 2.36
+      },
+      "zscores": {
+        "gas_price": 1.791,
+        "headline_cpi": 1.619,
+        "core_cpi": 1.629,
+        "fwd_inflation": 0.048
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "gas_price": 2.023,
+        "headline_cpi": 3.523,
+        "core_cpi": 2.166,
+        "fwd_inflation": 2.41
+      },
+      "zscores": {
+        "gas_price": 1.553,
+        "headline_cpi": 2.025,
+        "core_cpi": 1.959,
+        "fwd_inflation": 0.253
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "gas_price": 1.887,
+        "headline_cpi": 3.256,
+        "core_cpi": 2.169,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 0.779,
+        "headline_cpi": 1.426,
+        "core_cpi": 1.789,
+        "fwd_inflation": 0.414
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "gas_price": 1.875,
+        "headline_cpi": 2.97,
+        "core_cpi": 2.268,
+        "fwd_inflation": 2.42
+      },
+      "zscores": {
+        "gas_price": 0.691,
+        "headline_cpi": 0.872,
+        "core_cpi": 1.9,
+        "fwd_inflation": 0.277
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "gas_price": 1.953,
+        "headline_cpi": 3.008,
+        "core_cpi": 2.36,
+        "fwd_inflation": 2.39
+      },
+      "zscores": {
+        "gas_price": 1.079,
+        "headline_cpi": 0.907,
+        "core_cpi": 1.963,
+        "fwd_inflation": 0.14
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "gas_price": 2.12,
+        "headline_cpi": 3.148,
+        "core_cpi": 2.346,
+        "fwd_inflation": 2.54
+      },
+      "zscores": {
+        "gas_price": 1.838,
+        "headline_cpi": 1.117,
+        "core_cpi": 1.769,
+        "fwd_inflation": 0.797
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "gas_price": 2.285,
+        "headline_cpi": 3.511,
+        "core_cpi": 2.239,
+        "fwd_inflation": 2.5
+      },
+      "zscores": {
+        "gas_price": 2.369,
+        "headline_cpi": 1.655,
+        "core_cpi": 1.402,
+        "fwd_inflation": 0.599
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "gas_price": 2.205,
+        "headline_cpi": 2.803,
+        "core_cpi": 2.188,
+        "fwd_inflation": 2.41
+      },
+      "zscores": {
+        "gas_price": 1.831,
+        "headline_cpi": 0.399,
+        "core_cpi": 1.212,
+        "fwd_inflation": 0.179
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "gas_price": 2.198,
+        "headline_cpi": 2.53,
+        "core_cpi": 2.035,
+        "fwd_inflation": 2.27
+      },
+      "zscores": {
+        "gas_price": 1.68,
+        "headline_cpi": -0.087,
+        "core_cpi": 0.788,
+        "fwd_inflation": -0.471
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "gas_price": 2.333,
+        "headline_cpi": 3.168,
+        "core_cpi": 2.136,
+        "fwd_inflation": 2.29
+      },
+      "zscores": {
+        "gas_price": 2.074,
+        "headline_cpi": 1.037,
+        "core_cpi": 1.021,
+        "fwd_inflation": -0.369
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "gas_price": 2.529,
+        "headline_cpi": 3.641,
+        "core_cpi": 2.134,
+        "fwd_inflation": 2.33
+      },
+      "zscores": {
+        "gas_price": 2.533,
+        "headline_cpi": 1.77,
+        "core_cpi": 0.983,
+        "fwd_inflation": -0.172
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "gas_price": 2.951,
+        "headline_cpi": 4.687,
+        "core_cpi": 1.976,
+        "fwd_inflation": 2.39
+      },
+      "zscores": {
+        "gas_price": 3.298,
+        "headline_cpi": 3.003,
+        "core_cpi": 0.556,
+        "fwd_inflation": 0.121
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "gas_price": 2.765,
+        "headline_cpi": 4.348,
+        "core_cpi": 2.069,
+        "fwd_inflation": 2.41
+      },
+      "zscores": {
+        "gas_price": 2.428,
+        "headline_cpi": 2.258,
+        "core_cpi": 0.783,
+        "fwd_inflation": 0.217
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "gas_price": 2.303,
+        "headline_cpi": 3.455,
+        "core_cpi": 2.12,
+        "fwd_inflation": 2.46
+      },
+      "zscores": {
+        "gas_price": 1.073,
+        "headline_cpi": 0.976,
+        "core_cpi": 0.897,
+        "fwd_inflation": 0.462
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "gas_price": 2.229,
+        "headline_cpi": 3.416,
+        "core_cpi": 2.174,
+        "fwd_inflation": 2.38
+      },
+      "zscores": {
+        "gas_price": 0.842,
+        "headline_cpi": 0.897,
+        "core_cpi": 1.011,
+        "fwd_inflation": 0.052
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "gas_price": 2.36,
+        "headline_cpi": 3.985,
+        "core_cpi": 2.117,
+        "fwd_inflation": 2.41
+      },
+      "zscores": {
+        "gas_price": 1.152,
+        "headline_cpi": 1.586,
+        "core_cpi": 0.836,
+        "fwd_inflation": 0.169
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "gas_price": 2.326,
+        "headline_cpi": 3.597,
+        "core_cpi": 2.055,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 0.997,
+        "headline_cpi": 1.021,
+        "core_cpi": 0.646,
+        "fwd_inflation": 0.346
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "gas_price": 2.468,
+        "headline_cpi": 3.363,
+        "core_cpi": 2.093,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 1.321,
+        "headline_cpi": 0.69,
+        "core_cpi": 0.711,
+        "fwd_inflation": 0.188
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "gas_price": 2.787,
+        "headline_cpi": 3.546,
+        "core_cpi": 2.29,
+        "fwd_inflation": 2.52
+      },
+      "zscores": {
+        "gas_price": 2.028,
+        "headline_cpi": 0.883,
+        "core_cpi": 1.159,
+        "fwd_inflation": 0.671
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "gas_price": 2.953,
+        "headline_cpi": 4.167,
+        "core_cpi": 2.44,
+        "fwd_inflation": 2.63
+      },
+      "zscores": {
+        "gas_price": 2.246,
+        "headline_cpi": 1.598,
+        "core_cpi": 1.453,
+        "fwd_inflation": 1.353
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "gas_price": 2.93,
+        "headline_cpi": 4.319,
+        "core_cpi": 2.642,
+        "fwd_inflation": 2.54
+      },
+      "zscores": {
+        "gas_price": 2.018,
+        "headline_cpi": 1.674,
+        "core_cpi": 1.815,
+        "fwd_inflation": 0.797
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "gas_price": 3.025,
+        "headline_cpi": 4.145,
+        "core_cpi": 2.689,
+        "fwd_inflation": 2.58
+      },
+      "zscores": {
+        "gas_price": 2.071,
+        "headline_cpi": 1.37,
+        "core_cpi": 1.786,
+        "fwd_inflation": 1.133
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "gas_price": 2.999,
+        "headline_cpi": 3.819,
+        "core_cpi": 2.836,
+        "fwd_inflation": 2.62
+      },
+      "zscores": {
+        "gas_price": 1.86,
+        "headline_cpi": 0.906,
+        "core_cpi": 1.977,
+        "fwd_inflation": 1.419
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "gas_price": 2.606,
+        "headline_cpi": 2.062,
+        "core_cpi": 2.931,
+        "fwd_inflation": 2.51
+      },
+      "zscores": {
+        "gas_price": 0.909,
+        "headline_cpi": -1.298,
+        "core_cpi": 2.05,
+        "fwd_inflation": 0.351
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "gas_price": 2.293,
+        "headline_cpi": 1.305,
+        "core_cpi": 2.719,
+        "fwd_inflation": 2.46
+      },
+      "zscores": {
+        "gas_price": 0.15,
+        "headline_cpi": -2.128,
+        "core_cpi": 1.492,
+        "fwd_inflation": -0.138
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "gas_price": 2.275,
+        "headline_cpi": 1.974,
+        "core_cpi": 2.62,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 0.062,
+        "headline_cpi": -1.346,
+        "core_cpi": 1.233,
+        "fwd_inflation": -0.385
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "gas_price": 2.359,
+        "headline_cpi": 2.541,
+        "core_cpi": 2.573,
+        "fwd_inflation": 2.38
+      },
+      "zscores": {
+        "gas_price": 0.222,
+        "headline_cpi": -0.696,
+        "core_cpi": 1.094,
+        "fwd_inflation": -0.848
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "gas_price": 2.289,
+        "headline_cpi": 2.076,
+        "core_cpi": 2.67,
+        "fwd_inflation": 2.37
+      },
+      "zscores": {
+        "gas_price": -0.007,
+        "headline_cpi": -1.289,
+        "core_cpi": 1.329,
+        "fwd_inflation": -0.906
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "gas_price": 2.323,
+        "headline_cpi": 2.415,
+        "core_cpi": 2.707,
+        "fwd_inflation": 2.35
+      },
+      "zscores": {
+        "gas_price": 0.039,
+        "headline_cpi": -0.92,
+        "core_cpi": 1.424,
+        "fwd_inflation": -1.068
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "gas_price": 2.609,
+        "headline_cpi": 2.779,
+        "core_cpi": 2.451,
+        "fwd_inflation": 2.33
+      },
+      "zscores": {
+        "gas_price": 0.79,
+        "headline_cpi": -0.508,
+        "core_cpi": 0.625,
+        "fwd_inflation": -1.207
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "gas_price": 2.891,
+        "headline_cpi": 2.574,
+        "core_cpi": 2.341,
+        "fwd_inflation": 2.4
+      },
+      "zscores": {
+        "gas_price": 1.505,
+        "headline_cpi": -0.806,
+        "core_cpi": 0.241,
+        "fwd_inflation": -0.498
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "gas_price": 3.187,
+        "headline_cpi": 2.691,
+        "core_cpi": 2.244,
+        "fwd_inflation": 2.37
+      },
+      "zscores": {
+        "gas_price": 2.132,
+        "headline_cpi": -0.628,
+        "core_cpi": -0.122,
+        "fwd_inflation": -0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "gas_price": 3.102,
+        "headline_cpi": 2.687,
+        "core_cpi": 2.221,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 1.766,
+        "headline_cpi": -0.609,
+        "core_cpi": -0.238,
+        "fwd_inflation": 0.171
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "gas_price": 3.011,
+        "headline_cpi": 2.358,
+        "core_cpi": 2.21,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 1.44,
+        "headline_cpi": -1.016,
+        "core_cpi": -0.338,
+        "fwd_inflation": 0.209
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "gas_price": 2.834,
+        "headline_cpi": 1.97,
+        "core_cpi": 2.134,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 0.931,
+        "headline_cpi": -1.471,
+        "core_cpi": -0.698,
+        "fwd_inflation": -0.014
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "gas_price": 2.849,
+        "headline_cpi": 2.755,
+        "core_cpi": 2.137,
+        "fwd_inflation": 2.47
+      },
+      "zscores": {
+        "gas_price": 0.921,
+        "headline_cpi": -0.458,
+        "core_cpi": -0.719,
+        "fwd_inflation": 0.451
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "gas_price": 2.853,
+        "headline_cpi": 3.536,
+        "core_cpi": 2.174,
+        "fwd_inflation": 2.46
+      },
+      "zscores": {
+        "gas_price": 0.881,
+        "headline_cpi": 0.55,
+        "core_cpi": -0.601,
+        "fwd_inflation": 0.298
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "gas_price": 3.128,
+        "headline_cpi": 4.306,
+        "core_cpi": 2.329,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 1.531,
+        "headline_cpi": 1.482,
+        "core_cpi": 0.001,
+        "fwd_inflation": 0.161
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "gas_price": 3.07,
+        "headline_cpi": 4.081,
+        "core_cpi": 2.439,
+        "fwd_inflation": 2.4
+      },
+      "zscores": {
+        "gas_price": 1.317,
+        "headline_cpi": 1.146,
+        "core_cpi": 0.415,
+        "fwd_inflation": -0.438
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "gas_price": 3.095,
+        "headline_cpi": 4.28,
+        "core_cpi": 2.466,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 1.336,
+        "headline_cpi": 1.316,
+        "core_cpi": 0.5,
+        "fwd_inflation": -0.072
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "gas_price": 3.078,
+        "headline_cpi": 4.027,
+        "core_cpi": 2.273,
+        "fwd_inflation": 2.53
+      },
+      "zscores": {
+        "gas_price": 1.238,
+        "headline_cpi": 0.961,
+        "core_cpi": -0.266,
+        "fwd_inflation": 1.099
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "gas_price": 3.293,
+        "headline_cpi": 3.981,
+        "core_cpi": 2.355,
+        "fwd_inflation": 2.58
+      },
+      "zscores": {
+        "gas_price": 1.757,
+        "headline_cpi": 0.87,
+        "core_cpi": 0.061,
+        "fwd_inflation": 1.661
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "gas_price": 3.507,
+        "headline_cpi": 3.937,
+        "core_cpi": 2.258,
+        "fwd_inflation": 2.4
+      },
+      "zscores": {
+        "gas_price": 2.165,
+        "headline_cpi": 0.797,
+        "core_cpi": -0.333,
+        "fwd_inflation": -0.456
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "gas_price": 3.815,
+        "headline_cpi": 4.176,
+        "core_cpi": 2.313,
+        "fwd_inflation": 2.48
+      },
+      "zscores": {
+        "gas_price": 2.661,
+        "headline_cpi": 1.022,
+        "core_cpi": -0.125,
+        "fwd_inflation": 0.479
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "gas_price": 4.105,
+        "headline_cpi": 5.022,
+        "core_cpi": 2.413,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 2.925,
+        "headline_cpi": 1.85,
+        "core_cpi": 0.244,
+        "fwd_inflation": -0.184
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "gas_price": 4.114,
+        "headline_cpi": 5.6,
+        "core_cpi": 2.51,
+        "fwd_inflation": 2.41
+      },
+      "zscores": {
+        "gas_price": 2.593,
+        "headline_cpi": 2.242,
+        "core_cpi": 0.605,
+        "fwd_inflation": -0.508
+      },
+      "events": [
+        {
+          "label": "Gas averages $4.11/gal; inflation hits 5.6%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "gas_price": 3.833,
+        "headline_cpi": 5.372,
+        "core_cpi": 2.541,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 1.848,
+        "headline_cpi": 1.858,
+        "core_cpi": 0.694,
+        "fwd_inflation": -0.287
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "gas_price": 3.756,
+        "headline_cpi": 4.937,
+        "core_cpi": 2.473,
+        "fwd_inflation": 2.34
+      },
+      "zscores": {
+        "gas_price": 1.59,
+        "headline_cpi": 1.411,
+        "core_cpi": 0.365,
+        "fwd_inflation": -1.489
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "gas_price": 3.112,
+        "headline_cpi": 3.655,
+        "core_cpi": 2.216,
+        "fwd_inflation": 2.17
+      },
+      "zscores": {
+        "gas_price": 0.334,
+        "headline_cpi": 0.183,
+        "core_cpi": -0.792,
+        "fwd_inflation": -3.157
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "gas_price": 2.208,
+        "headline_cpi": 1.07,
+        "core_cpi": 2.003,
+        "fwd_inflation": 2.72
+      },
+      "zscores": {
+        "gas_price": -1.388,
+        "headline_cpi": -2.141,
+        "core_cpi": -1.69,
+        "fwd_inflation": 2.769
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "gas_price": 1.745,
+        "headline_cpi": 0.091,
+        "core_cpi": 1.763,
+        "fwd_inflation": 0.73
+      },
+      "zscores": {
+        "gas_price": -2.148,
+        "headline_cpi": -2.642,
+        "core_cpi": -2.473,
+        "fwd_inflation": -5.597
+      },
+      "events": [
+        {
+          "label": "Financial crisis: gas falls to $1.75, inflation near 0%",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "gas_price": 1.84,
+        "headline_cpi": 0.03,
+        "core_cpi": 1.68,
+        "fwd_inflation": 1.2
+      },
+      "zscores": {
+        "gas_price": -1.876,
+        "headline_cpi": -2.391,
+        "core_cpi": -2.532,
+        "fwd_inflation": -3.264
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "gas_price": 1.975,
+        "headline_cpi": 0.236,
+        "core_cpi": 1.786,
+        "fwd_inflation": 1.65
+      },
+      "zscores": {
+        "gas_price": -1.586,
+        "headline_cpi": -2.036,
+        "core_cpi": -2.026,
+        "fwd_inflation": -1.85
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "gas_price": 2.011,
+        "headline_cpi": -0.384,
+        "core_cpi": 1.756,
+        "fwd_inflation": 1.63
+      },
+      "zscores": {
+        "gas_price": -1.467,
+        "headline_cpi": -2.226,
+        "core_cpi": -2.0,
+        "fwd_inflation": -1.762
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "gas_price": 2.102,
+        "headline_cpi": -0.737,
+        "core_cpi": 1.899,
+        "fwd_inflation": 1.97
+      },
+      "zscores": {
+        "gas_price": -1.254,
+        "headline_cpi": -2.211,
+        "core_cpi": -1.438,
+        "fwd_inflation": -0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "gas_price": 2.316,
+        "headline_cpi": -1.281,
+        "core_cpi": 1.835,
+        "fwd_inflation": 2.09
+      },
+      "zscores": {
+        "gas_price": -0.864,
+        "headline_cpi": -2.282,
+        "core_cpi": -1.541,
+        "fwd_inflation": -0.52
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "gas_price": 2.681,
+        "headline_cpi": -1.427,
+        "core_cpi": 1.73,
+        "fwd_inflation": 2.19
+      },
+      "zscores": {
+        "gas_price": -0.26,
+        "headline_cpi": -2.144,
+        "core_cpi": -1.737,
+        "fwd_inflation": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "gas_price": 2.582,
+        "headline_cpi": -2.097,
+        "core_cpi": 1.53,
+        "fwd_inflation": 2.2
+      },
+      "zscores": {
+        "gas_price": -0.401,
+        "headline_cpi": -2.252,
+        "core_cpi": -2.145,
+        "fwd_inflation": -0.193
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "gas_price": 2.67,
+        "headline_cpi": -1.484,
+        "core_cpi": 1.441,
+        "fwd_inflation": 2.35
+      },
+      "zscores": {
+        "gas_price": -0.243,
+        "headline_cpi": -1.796,
+        "core_cpi": -2.213,
+        "fwd_inflation": 0.213
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "gas_price": 2.609,
+        "headline_cpi": -1.286,
+        "core_cpi": 1.51,
+        "fwd_inflation": 2.18
+      },
+      "zscores": {
+        "gas_price": -0.342,
+        "headline_cpi": -1.595,
+        "core_cpi": -1.916,
+        "fwd_inflation": -0.204
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "gas_price": 2.605,
+        "headline_cpi": -0.183,
+        "core_cpi": 1.709,
+        "fwd_inflation": 2.31
+      },
+      "zscores": {
+        "gas_price": -0.366,
+        "headline_cpi": -1.051,
+        "core_cpi": -1.287,
+        "fwd_inflation": 0.145
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "gas_price": 2.706,
+        "headline_cpi": 1.838,
+        "core_cpi": 1.705,
+        "fwd_inflation": 2.51
+      },
+      "zscores": {
+        "gas_price": -0.223,
+        "headline_cpi": -0.126,
+        "core_cpi": -1.229,
+        "fwd_inflation": 0.659
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "gas_price": 2.663,
+        "headline_cpi": 2.721,
+        "core_cpi": 1.816,
+        "fwd_inflation": 2.54
+      },
+      "zscores": {
+        "gas_price": -0.31,
+        "headline_cpi": 0.274,
+        "core_cpi": -0.86,
+        "fwd_inflation": 0.721
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "gas_price": 2.769,
+        "headline_cpi": 2.626,
+        "core_cpi": 1.554,
+        "fwd_inflation": 2.65
+      },
+      "zscores": {
+        "gas_price": -0.158,
+        "headline_cpi": 0.224,
+        "core_cpi": -1.539,
+        "fwd_inflation": 0.973
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "gas_price": 2.699,
+        "headline_cpi": 2.143,
+        "core_cpi": 1.34,
+        "fwd_inflation": 2.6
+      },
+      "zscores": {
+        "gas_price": -0.297,
+        "headline_cpi": 0.007,
+        "core_cpi": -2.026,
+        "fwd_inflation": 0.82
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "gas_price": 2.824,
+        "headline_cpi": 2.314,
+        "core_cpi": 1.107,
+        "fwd_inflation": 2.57
+      },
+      "zscores": {
+        "gas_price": -0.094,
+        "headline_cpi": 0.091,
+        "core_cpi": -2.413,
+        "fwd_inflation": 0.722
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "gas_price": 2.9,
+        "headline_cpi": 2.236,
+        "core_cpi": 0.923,
+        "fwd_inflation": 2.73
+      },
+      "zscores": {
+        "gas_price": 0.036,
+        "headline_cpi": 0.06,
+        "core_cpi": -2.555,
+        "fwd_inflation": 1.083
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "gas_price": 2.89,
+        "headline_cpi": 2.021,
+        "core_cpi": 0.942,
+        "fwd_inflation": 2.46
+      },
+      "zscores": {
+        "gas_price": 0.033,
+        "headline_cpi": -0.03,
+        "core_cpi": -2.252,
+        "fwd_inflation": 0.409
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "gas_price": 2.785,
+        "headline_cpi": 1.053,
+        "core_cpi": 0.904,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": -0.133,
+        "headline_cpi": -0.451,
+        "core_cpi": -2.12,
+        "fwd_inflation": -0.119
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "gas_price": 2.782,
+        "headline_cpi": 1.235,
+        "core_cpi": 0.87,
+        "fwd_inflation": 2.12
+      },
+      "zscores": {
+        "gas_price": -0.127,
+        "headline_cpi": -0.353,
+        "core_cpi": -2.002,
+        "fwd_inflation": -0.393
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "gas_price": 2.783,
+        "headline_cpi": 1.148,
+        "core_cpi": 0.89,
+        "fwd_inflation": 2.02
+      },
+      "zscores": {
+        "gas_price": -0.123,
+        "headline_cpi": -0.382,
+        "core_cpi": -1.808,
+        "fwd_inflation": -0.61
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "gas_price": 2.757,
+        "headline_cpi": 1.144,
+        "core_cpi": 0.804,
+        "fwd_inflation": 2.2
+      },
+      "zscores": {
+        "gas_price": -0.163,
+        "headline_cpi": -0.363,
+        "core_cpi": -1.821,
+        "fwd_inflation": -0.149
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "gas_price": 2.853,
+        "headline_cpi": 1.172,
+        "core_cpi": 0.611,
+        "fwd_inflation": 2.52
+      },
+      "zscores": {
+        "gas_price": 0.002,
+        "headline_cpi": -0.322,
+        "core_cpi": -1.992,
+        "fwd_inflation": 0.636
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "gas_price": 2.913,
+        "headline_cpi": 1.143,
+        "core_cpi": 0.768,
+        "fwd_inflation": 2.64
+      },
+      "zscores": {
+        "gas_price": 0.116,
+        "headline_cpi": -0.3,
+        "core_cpi": -1.601,
+        "fwd_inflation": 0.911
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "gas_price": 3.048,
+        "headline_cpi": 1.496,
+        "core_cpi": 0.804,
+        "fwd_inflation": 2.76
+      },
+      "zscores": {
+        "gas_price": 0.35,
+        "headline_cpi": -0.105,
+        "core_cpi": -1.45,
+        "fwd_inflation": 1.159
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "gas_price": 3.148,
+        "headline_cpi": 1.632,
+        "core_cpi": 0.95,
+        "fwd_inflation": 2.74
+      },
+      "zscores": {
+        "gas_price": 0.52,
+        "headline_cpi": -0.006,
+        "core_cpi": -1.14,
+        "fwd_inflation": 1.074
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "gas_price": 3.264,
+        "headline_cpi": 2.108,
+        "core_cpi": 1.092,
+        "fwd_inflation": 2.67
+      },
+      "zscores": {
+        "gas_price": 0.708,
+        "headline_cpi": 0.254,
+        "core_cpi": -0.846,
+        "fwd_inflation": 0.893
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "gas_price": 3.615,
+        "headline_cpi": 2.682,
+        "core_cpi": 1.19,
+        "fwd_inflation": 2.7
+      },
+      "zscores": {
+        "gas_price": 1.275,
+        "headline_cpi": 0.563,
+        "core_cpi": -0.632,
+        "fwd_inflation": 0.95
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "gas_price": 3.852,
+        "headline_cpi": 3.164,
+        "core_cpi": 1.335,
+        "fwd_inflation": 2.87
+      },
+      "zscores": {
+        "gas_price": 1.623,
+        "headline_cpi": 0.824,
+        "core_cpi": -0.336,
+        "fwd_inflation": 1.286
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "gas_price": 3.96,
+        "headline_cpi": 3.569,
+        "core_cpi": 1.51,
+        "fwd_inflation": 2.6
+      },
+      "zscores": {
+        "gas_price": 1.775,
+        "headline_cpi": 1.048,
+        "core_cpi": 0.024,
+        "fwd_inflation": 0.66
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "gas_price": 3.735,
+        "headline_cpi": 3.559,
+        "core_cpi": 1.639,
+        "fwd_inflation": 2.54
+      },
+      "zscores": {
+        "gas_price": 1.467,
+        "headline_cpi": 1.096,
+        "core_cpi": 0.318,
+        "fwd_inflation": 0.515
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "gas_price": 3.705,
+        "headline_cpi": 3.629,
+        "core_cpi": 1.765,
+        "fwd_inflation": 2.73
+      },
+      "zscores": {
+        "gas_price": 1.487,
+        "headline_cpi": 1.222,
+        "core_cpi": 0.641,
+        "fwd_inflation": 0.915
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "gas_price": 3.696,
+        "headline_cpi": 3.771,
+        "core_cpi": 1.951,
+        "fwd_inflation": 2.57
+      },
+      "zscores": {
+        "gas_price": 1.494,
+        "headline_cpi": 1.387,
+        "core_cpi": 1.124,
+        "fwd_inflation": 0.546
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "gas_price": 3.667,
+        "headline_cpi": 3.868,
+        "core_cpi": 1.975,
+        "fwd_inflation": 2.18
+      },
+      "zscores": {
+        "gas_price": 1.457,
+        "headline_cpi": 1.506,
+        "core_cpi": 1.276,
+        "fwd_inflation": -0.314
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "gas_price": 3.506,
+        "headline_cpi": 3.525,
+        "core_cpi": 2.1,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": 1.134,
+        "headline_cpi": 1.307,
+        "core_cpi": 1.595,
+        "fwd_inflation": -0.185
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "gas_price": 3.443,
+        "headline_cpi": 3.394,
+        "core_cpi": 2.153,
+        "fwd_inflation": 2.26
+      },
+      "zscores": {
+        "gas_price": 0.969,
+        "headline_cpi": 1.167,
+        "core_cpi": 1.685,
+        "fwd_inflation": -0.113
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "gas_price": 3.326,
+        "headline_cpi": 2.962,
+        "core_cpi": 2.23,
+        "fwd_inflation": 2.35
+      },
+      "zscores": {
+        "gas_price": 0.724,
+        "headline_cpi": 0.865,
+        "core_cpi": 1.763,
+        "fwd_inflation": -0.014
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "gas_price": 3.44,
+        "headline_cpi": 2.925,
+        "core_cpi": 2.277,
+        "fwd_inflation": 2.39
+      },
+      "zscores": {
+        "gas_price": 0.898,
+        "headline_cpi": 0.797,
+        "core_cpi": 1.758,
+        "fwd_inflation": 0.007
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "gas_price": 3.64,
+        "headline_cpi": 2.871,
+        "core_cpi": 2.177,
+        "fwd_inflation": 2.5
+      },
+      "zscores": {
+        "gas_price": 1.242,
+        "headline_cpi": 0.723,
+        "core_cpi": 1.481,
+        "fwd_inflation": 0.33
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "gas_price": 3.907,
+        "headline_cpi": 2.651,
+        "core_cpi": 2.255,
+        "fwd_inflation": 2.58
+      },
+      "zscores": {
+        "gas_price": 1.71,
+        "headline_cpi": 0.553,
+        "core_cpi": 1.567,
+        "fwd_inflation": 0.606
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "gas_price": 3.958,
+        "headline_cpi": 2.303,
+        "core_cpi": 2.314,
+        "fwd_inflation": 2.58
+      },
+      "zscores": {
+        "gas_price": 1.738,
+        "headline_cpi": 0.304,
+        "core_cpi": 1.615,
+        "fwd_inflation": 0.565
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "gas_price": 3.791,
+        "headline_cpi": 1.704,
+        "core_cpi": 2.257,
+        "fwd_inflation": 2.4
+      },
+      "zscores": {
+        "gas_price": 1.325,
+        "headline_cpi": -0.122,
+        "core_cpi": 1.445,
+        "fwd_inflation": -0.299
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "gas_price": 3.596,
+        "headline_cpi": 1.664,
+        "core_cpi": 2.218,
+        "fwd_inflation": 2.49
+      },
+      "zscores": {
+        "gas_price": 0.858,
+        "headline_cpi": -0.219,
+        "core_cpi": 1.314,
+        "fwd_inflation": 0.087
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "gas_price": 3.498,
+        "headline_cpi": 1.408,
+        "core_cpi": 2.1,
+        "fwd_inflation": 2.49
+      },
+      "zscores": {
+        "gas_price": 0.605,
+        "headline_cpi": -0.529,
+        "core_cpi": 1.047,
+        "fwd_inflation": 0.049
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "gas_price": 3.78,
+        "headline_cpi": 1.692,
+        "core_cpi": 1.913,
+        "fwd_inflation": 2.62
+      },
+      "zscores": {
+        "gas_price": 1.158,
+        "headline_cpi": -0.425,
+        "core_cpi": 0.674,
+        "fwd_inflation": 0.654
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "gas_price": 3.91,
+        "headline_cpi": 1.991,
+        "core_cpi": 1.985,
+        "fwd_inflation": 2.73
+      },
+      "zscores": {
+        "gas_price": 1.367,
+        "headline_cpi": -0.279,
+        "core_cpi": 0.774,
+        "fwd_inflation": 1.138
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "gas_price": 3.812,
+        "headline_cpi": 2.162,
+        "core_cpi": 1.999,
+        "fwd_inflation": 2.82
+      },
+      "zscores": {
+        "gas_price": 1.095,
+        "headline_cpi": -0.185,
+        "core_cpi": 0.779,
+        "fwd_inflation": 1.489
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "gas_price": 3.521,
+        "headline_cpi": 1.764,
+        "core_cpi": 1.941,
+        "fwd_inflation": 2.81
+      },
+      "zscores": {
+        "gas_price": 0.403,
+        "headline_cpi": -0.649,
+        "core_cpi": 0.659,
+        "fwd_inflation": 1.362
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "gas_price": 3.381,
+        "headline_cpi": 1.741,
+        "core_cpi": 1.893,
+        "fwd_inflation": 2.86
+      },
+      "zscores": {
+        "gas_price": 0.037,
+        "headline_cpi": -0.642,
+        "core_cpi": 0.568,
+        "fwd_inflation": 1.507
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "gas_price": 3.391,
+        "headline_cpi": 1.595,
+        "core_cpi": 1.925,
+        "fwd_inflation": 2.86
+      },
+      "zscores": {
+        "gas_price": 0.02,
+        "headline_cpi": -0.774,
+        "core_cpi": 0.604,
+        "fwd_inflation": 1.441
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "gas_price": 3.736,
+        "headline_cpi": 1.978,
+        "core_cpi": 2.004,
+        "fwd_inflation": 2.88
+      },
+      "zscores": {
+        "gas_price": 0.822,
+        "headline_cpi": -0.324,
+        "core_cpi": 0.709,
+        "fwd_inflation": 1.452
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "gas_price": 3.779,
+        "headline_cpi": 1.474,
+        "core_cpi": 1.887,
+        "fwd_inflation": 2.84
+      },
+      "zscores": {
+        "gas_price": 0.882,
+        "headline_cpi": -0.872,
+        "core_cpi": 0.467,
+        "fwd_inflation": 1.218
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "gas_price": 3.638,
+        "headline_cpi": 1.063,
+        "core_cpi": 1.715,
+        "fwd_inflation": 2.73
+      },
+      "zscores": {
+        "gas_price": 0.476,
+        "headline_cpi": -1.275,
+        "core_cpi": 0.122,
+        "fwd_inflation": 0.747
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "gas_price": 3.675,
+        "headline_cpi": 1.362,
+        "core_cpi": 1.681,
+        "fwd_inflation": 2.58
+      },
+      "zscores": {
+        "gas_price": 0.532,
+        "headline_cpi": -0.909,
+        "core_cpi": 0.023,
+        "fwd_inflation": 0.092
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "gas_price": 3.689,
+        "headline_cpi": 1.754,
+        "core_cpi": 1.636,
+        "fwd_inflation": 2.3
+      },
+      "zscores": {
+        "gas_price": 0.528,
+        "headline_cpi": -0.506,
+        "core_cpi": -0.103,
+        "fwd_inflation": -1.126
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "gas_price": 3.661,
+        "headline_cpi": 1.961,
+        "core_cpi": 1.696,
+        "fwd_inflation": 2.39
+      },
+      "zscores": {
+        "gas_price": 0.402,
+        "headline_cpi": -0.301,
+        "core_cpi": -0.033,
+        "fwd_inflation": -0.805
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "gas_price": 3.645,
+        "headline_cpi": 1.518,
+        "core_cpi": 1.765,
+        "fwd_inflation": 2.52
+      },
+      "zscores": {
+        "gas_price": 0.303,
+        "headline_cpi": -0.83,
+        "core_cpi": 0.058,
+        "fwd_inflation": -0.307
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "gas_price": 3.604,
+        "headline_cpi": 1.185,
+        "core_cpi": 1.734,
+        "fwd_inflation": 2.52
+      },
+      "zscores": {
+        "gas_price": 0.099,
+        "headline_cpi": -1.22,
+        "core_cpi": -0.063,
+        "fwd_inflation": -0.37
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "gas_price": 3.42,
+        "headline_cpi": 0.964,
+        "core_cpi": 1.68,
+        "fwd_inflation": 2.6
+      },
+      "zscores": {
+        "gas_price": -0.715,
+        "headline_cpi": -1.457,
+        "core_cpi": -0.274,
+        "fwd_inflation": 0.038
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "gas_price": 3.322,
+        "headline_cpi": 1.237,
+        "core_cpi": 1.721,
+        "fwd_inflation": 2.59
+      },
+      "zscores": {
+        "gas_price": -1.294,
+        "headline_cpi": -1.15,
+        "core_cpi": -0.264,
+        "fwd_inflation": -0.007
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "gas_price": 3.357,
+        "headline_cpi": 1.502,
+        "core_cpi": 1.717,
+        "fwd_inflation": 2.66
+      },
+      "zscores": {
+        "gas_price": -1.27,
+        "headline_cpi": -0.844,
+        "core_cpi": -0.386,
+        "fwd_inflation": 0.379
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "gas_price": 3.392,
+        "headline_cpi": 1.579,
+        "core_cpi": 1.621,
+        "fwd_inflation": 2.71
+      },
+      "zscores": {
+        "gas_price": -1.201,
+        "headline_cpi": -0.752,
+        "core_cpi": -0.818,
+        "fwd_inflation": 0.651
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "gas_price": 3.434,
+        "headline_cpi": 1.126,
+        "core_cpi": 1.567,
+        "fwd_inflation": 2.54
+      },
+      "zscores": {
+        "gas_price": -1.043,
+        "headline_cpi": -1.217,
+        "core_cpi": -1.144,
+        "fwd_inflation": -0.236
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "gas_price": 3.606,
+        "headline_cpi": 1.512,
+        "core_cpi": 1.657,
+        "fwd_inflation": 2.56
+      },
+      "zscores": {
+        "gas_price": -0.1,
+        "headline_cpi": -0.741,
+        "core_cpi": -0.941,
+        "fwd_inflation": -0.109
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "gas_price": 3.735,
+        "headline_cpi": 1.953,
+        "core_cpi": 1.832,
+        "fwd_inflation": 2.52
+      },
+      "zscores": {
+        "gas_price": 0.634,
+        "headline_cpi": -0.211,
+        "core_cpi": -0.309,
+        "fwd_inflation": -0.281
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "gas_price": 3.75,
+        "headline_cpi": 2.127,
+        "core_cpi": 1.956,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 0.785,
+        "headline_cpi": 0.036,
+        "core_cpi": 0.188,
+        "fwd_inflation": -0.643
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "gas_price": 3.766,
+        "headline_cpi": 2.072,
+        "core_cpi": 1.933,
+        "fwd_inflation": 2.49
+      },
+      "zscores": {
+        "gas_price": 0.869,
+        "headline_cpi": 0.021,
+        "core_cpi": 0.048,
+        "fwd_inflation": -0.414
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "gas_price": 3.688,
+        "headline_cpi": 1.992,
+        "core_cpi": 1.859,
+        "fwd_inflation": 2.55
+      },
+      "zscores": {
+        "gas_price": 0.421,
+        "headline_cpi": -0.023,
+        "core_cpi": -0.315,
+        "fwd_inflation": -0.056
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "gas_price": 3.565,
+        "headline_cpi": 1.7,
+        "core_cpi": 1.724,
+        "fwd_inflation": 2.55
+      },
+      "zscores": {
+        "gas_price": -0.273,
+        "headline_cpi": -0.363,
+        "core_cpi": -0.911,
+        "fwd_inflation": -0.053
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "gas_price": 3.484,
+        "headline_cpi": 1.658,
+        "core_cpi": 1.729,
+        "fwd_inflation": 2.47
+      },
+      "zscores": {
+        "gas_price": -0.71,
+        "headline_cpi": -0.378,
+        "core_cpi": -0.847,
+        "fwd_inflation": -0.58
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "gas_price": 3.255,
+        "headline_cpi": 1.664,
+        "core_cpi": 1.808,
+        "fwd_inflation": 2.36
+      },
+      "zscores": {
+        "gas_price": -1.898,
+        "headline_cpi": -0.317,
+        "core_cpi": -0.45,
+        "fwd_inflation": -1.296
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "gas_price": 2.997,
+        "headline_cpi": 1.322,
+        "core_cpi": 1.702,
+        "fwd_inflation": 2.28
+      },
+      "zscores": {
+        "gas_price": -2.872,
+        "headline_cpi": -0.934,
+        "core_cpi": -0.887,
+        "fwd_inflation": -1.802
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "gas_price": 2.632,
+        "headline_cpi": 0.756,
+        "core_cpi": 1.606,
+        "fwd_inflation": 2.12
+      },
+      "zscores": {
+        "gas_price": -3.662,
+        "headline_cpi": -2.016,
+        "core_cpi": -1.273,
+        "fwd_inflation": -2.552
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "gas_price": 2.208,
+        "headline_cpi": -0.089,
+        "core_cpi": 1.649,
+        "fwd_inflation": 2.01
+      },
+      "zscores": {
+        "gas_price": -3.908,
+        "headline_cpi": -3.308,
+        "core_cpi": -1.029,
+        "fwd_inflation": -2.793
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "gas_price": 2.301,
+        "headline_cpi": -0.025,
+        "core_cpi": 1.698,
+        "fwd_inflation": 2.07
+      },
+      "zscores": {
+        "gas_price": -3.031,
+        "headline_cpi": -2.887,
+        "core_cpi": -0.743,
+        "fwd_inflation": -2.245
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "gas_price": 2.546,
+        "headline_cpi": -0.074,
+        "core_cpi": 1.753,
+        "fwd_inflation": 2.05
+      },
+      "zscores": {
+        "gas_price": -2.185,
+        "headline_cpi": -2.686,
+        "core_cpi": -0.415,
+        "fwd_inflation": -2.12
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "gas_price": 2.555,
+        "headline_cpi": -0.2,
+        "core_cpi": 1.808,
+        "fwd_inflation": 2.1
+      },
+      "zscores": {
+        "gas_price": -1.99,
+        "headline_cpi": -2.58,
+        "core_cpi": -0.051,
+        "fwd_inflation": -1.758
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "gas_price": 2.802,
+        "headline_cpi": -0.04,
+        "core_cpi": 1.718,
+        "fwd_inflation": 2.09
+      },
+      "zscores": {
+        "gas_price": -1.337,
+        "headline_cpi": -2.106,
+        "core_cpi": -0.558,
+        "fwd_inflation": -1.695
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "gas_price": 2.885,
+        "headline_cpi": 0.124,
+        "core_cpi": 1.762,
+        "fwd_inflation": 2.1
+      },
+      "zscores": {
+        "gas_price": -1.089,
+        "headline_cpi": -1.723,
+        "core_cpi": -0.199,
+        "fwd_inflation": -1.554
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "gas_price": 2.88,
+        "headline_cpi": 0.17,
+        "core_cpi": 1.805,
+        "fwd_inflation": 2.15
+      },
+      "zscores": {
+        "gas_price": -1.046,
+        "headline_cpi": -1.552,
+        "core_cpi": 0.208,
+        "fwd_inflation": -1.288
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "gas_price": 2.726,
+        "headline_cpi": 0.195,
+        "core_cpi": 1.828,
+        "fwd_inflation": 1.99
+      },
+      "zscores": {
+        "gas_price": -1.305,
+        "headline_cpi": -1.422,
+        "core_cpi": 0.424,
+        "fwd_inflation": -1.759
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "gas_price": 2.462,
+        "headline_cpi": -0.036,
+        "core_cpi": 1.892,
+        "fwd_inflation": 1.89
+      },
+      "zscores": {
+        "gas_price": -1.751,
+        "headline_cpi": -1.62,
+        "core_cpi": 1.023,
+        "fwd_inflation": -1.953
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "gas_price": 2.387,
+        "headline_cpi": 0.171,
+        "core_cpi": 1.91,
+        "fwd_inflation": 1.82
+      },
+      "zscores": {
+        "gas_price": -1.775,
+        "headline_cpi": -1.274,
+        "core_cpi": 1.247,
+        "fwd_inflation": -2.026
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "gas_price": 2.26,
+        "headline_cpi": 0.502,
+        "core_cpi": 2.018,
+        "fwd_inflation": 1.87
+      },
+      "zscores": {
+        "gas_price": -1.872,
+        "headline_cpi": -0.79,
+        "core_cpi": 2.134,
+        "fwd_inflation": -1.734
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "gas_price": 2.144,
+        "headline_cpi": 0.73,
+        "core_cpi": 2.096,
+        "fwd_inflation": 1.79
+      },
+      "zscores": {
+        "gas_price": -1.925,
+        "headline_cpi": -0.454,
+        "core_cpi": 2.542,
+        "fwd_inflation": -1.871
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "gas_price": 2.057,
+        "headline_cpi": 1.373,
+        "core_cpi": 2.207,
+        "fwd_inflation": 1.65
+      },
+      "zscores": {
+        "gas_price": -1.914,
+        "headline_cpi": 0.417,
+        "core_cpi": 2.976,
+        "fwd_inflation": -2.151
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "gas_price": 1.872,
+        "headline_cpi": 1.018,
+        "core_cpi": 2.331,
+        "fwd_inflation": 1.53
+      },
+      "zscores": {
+        "gas_price": -2.049,
+        "headline_cpi": -0.025,
+        "core_cpi": 3.274,
+        "fwd_inflation": -2.324
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "gas_price": 2.071,
+        "headline_cpi": 0.853,
+        "core_cpi": 2.195,
+        "fwd_inflation": 1.69
+      },
+      "zscores": {
+        "gas_price": -1.604,
+        "headline_cpi": -0.229,
+        "core_cpi": 2.22,
+        "fwd_inflation": -1.732
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "gas_price": 2.216,
+        "headline_cpi": 1.125,
+        "core_cpi": 2.146,
+        "fwd_inflation": 1.75
+      },
+      "zscores": {
+        "gas_price": -1.286,
+        "headline_cpi": 0.144,
+        "core_cpi": 1.794,
+        "fwd_inflation": -1.464
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "gas_price": 2.371,
+        "headline_cpi": 1.019,
+        "core_cpi": 2.241,
+        "fwd_inflation": 1.67
+      },
+      "zscores": {
+        "gas_price": -0.977,
+        "headline_cpi": 0.011,
+        "core_cpi": 2.096,
+        "fwd_inflation": -1.597
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "gas_price": 2.467,
+        "headline_cpi": 0.997,
+        "core_cpi": 2.245,
+        "fwd_inflation": 1.5
+      },
+      "zscores": {
+        "gas_price": -0.772,
+        "headline_cpi": 0.01,
+        "core_cpi": 1.946,
+        "fwd_inflation": -1.928
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "gas_price": 2.345,
+        "headline_cpi": 0.827,
+        "core_cpi": 2.189,
+        "fwd_inflation": 1.54
+      },
+      "zscores": {
+        "gas_price": -0.923,
+        "headline_cpi": -0.19,
+        "core_cpi": 1.562,
+        "fwd_inflation": -1.684
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "gas_price": 2.284,
+        "headline_cpi": 1.063,
+        "core_cpi": 2.319,
+        "fwd_inflation": 1.63
+      },
+      "zscores": {
+        "gas_price": -0.971,
+        "headline_cpi": 0.17,
+        "core_cpi": 1.993,
+        "fwd_inflation": -1.355
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "gas_price": 2.327,
+        "headline_cpi": 1.464,
+        "core_cpi": 2.207,
+        "fwd_inflation": 1.68
+      },
+      "zscores": {
+        "gas_price": -0.849,
+        "headline_cpi": 0.738,
+        "core_cpi": 1.396,
+        "fwd_inflation": -1.154
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "gas_price": 2.359,
+        "headline_cpi": 1.636,
+        "core_cpi": 2.145,
+        "fwd_inflation": 1.8
+      },
+      "zscores": {
+        "gas_price": -0.749,
+        "headline_cpi": 0.947,
+        "core_cpi": 1.057,
+        "fwd_inflation": -0.786
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "gas_price": 2.295,
+        "headline_cpi": 1.693,
+        "core_cpi": 2.111,
+        "fwd_inflation": 1.98
+      },
+      "zscores": {
+        "gas_price": -0.812,
+        "headline_cpi": 0.998,
+        "core_cpi": 0.859,
+        "fwd_inflation": -0.258
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "gas_price": 2.366,
+        "headline_cpi": 2.075,
+        "core_cpi": 2.197,
+        "fwd_inflation": 2.06
+      },
+      "zscores": {
+        "gas_price": -0.647,
+        "headline_cpi": 1.477,
+        "core_cpi": 1.168,
+        "fwd_inflation": 0.012
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "gas_price": 2.458,
+        "headline_cpi": 2.5,
+        "core_cpi": 2.272,
+        "fwd_inflation": 2.14
+      },
+      "zscores": {
+        "gas_price": -0.448,
+        "headline_cpi": 1.934,
+        "core_cpi": 1.414,
+        "fwd_inflation": 0.306
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "gas_price": 2.416,
+        "headline_cpi": 2.738,
+        "core_cpi": 2.224,
+        "fwd_inflation": 2.15
+      },
+      "zscores": {
+        "gas_price": -0.483,
+        "headline_cpi": 2.052,
+        "core_cpi": 1.149,
+        "fwd_inflation": 0.382
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "gas_price": 2.437,
+        "headline_cpi": 2.381,
+        "core_cpi": 2.002,
+        "fwd_inflation": 2.16
+      },
+      "zscores": {
+        "gas_price": -0.401,
+        "headline_cpi": 1.535,
+        "core_cpi": 0.122,
+        "fwd_inflation": 0.466
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "gas_price": 2.528,
+        "headline_cpi": 2.2,
+        "core_cpi": 1.883,
+        "fwd_inflation": 2.06
+      },
+      "zscores": {
+        "gas_price": -0.177,
+        "headline_cpi": 1.298,
+        "core_cpi": -0.433,
+        "fwd_inflation": 0.187
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "gas_price": 2.503,
+        "headline_cpi": 1.875,
+        "core_cpi": 1.733,
+        "fwd_inflation": 1.93
+      },
+      "zscores": {
+        "gas_price": -0.17,
+        "headline_cpi": 0.93,
+        "core_cpi": -1.073,
+        "fwd_inflation": -0.215
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "gas_price": 2.46,
+        "headline_cpi": 1.633,
+        "core_cpi": 1.703,
+        "fwd_inflation": 1.82
+      },
+      "zscores": {
+        "gas_price": -0.206,
+        "headline_cpi": 0.666,
+        "core_cpi": -1.159,
+        "fwd_inflation": -0.561
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "gas_price": 2.414,
+        "headline_cpi": 1.728,
+        "core_cpi": 1.692,
+        "fwd_inflation": 1.9
+      },
+      "zscores": {
+        "gas_price": -0.262,
+        "headline_cpi": 0.796,
+        "core_cpi": -1.167,
+        "fwd_inflation": -0.214
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "gas_price": 2.494,
+        "headline_cpi": 1.939,
+        "core_cpi": 1.684,
+        "fwd_inflation": 1.94
+      },
+      "zscores": {
+        "gas_price": 0.046,
+        "headline_cpi": 1.037,
+        "core_cpi": -1.19,
+        "fwd_inflation": 0.012
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "gas_price": 2.761,
+        "headline_cpi": 2.233,
+        "core_cpi": 1.693,
+        "fwd_inflation": 1.99
+      },
+      "zscores": {
+        "gas_price": 1.104,
+        "headline_cpi": 1.347,
+        "core_cpi": -1.144,
+        "fwd_inflation": 0.308
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "gas_price": 2.621,
+        "headline_cpi": 2.041,
+        "core_cpi": 1.774,
+        "fwd_inflation": 1.99
+      },
+      "zscores": {
+        "gas_price": 0.748,
+        "headline_cpi": 1.095,
+        "core_cpi": -0.788,
+        "fwd_inflation": 0.379
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "gas_price": 2.678,
+        "headline_cpi": 2.203,
+        "core_cpi": 1.711,
+        "fwd_inflation": 1.96
+      },
+      "zscores": {
+        "gas_price": 1.093,
+        "headline_cpi": 1.23,
+        "core_cpi": -1.059,
+        "fwd_inflation": 0.287
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "gas_price": 2.594,
+        "headline_cpi": 2.109,
+        "core_cpi": 1.776,
+        "fwd_inflation": 2.03
+      },
+      "zscores": {
+        "gas_price": 0.726,
+        "headline_cpi": 1.064,
+        "core_cpi": -0.82,
+        "fwd_inflation": 0.672
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "gas_price": 2.671,
+        "headline_cpi": 2.071,
+        "core_cpi": 1.821,
+        "fwd_inflation": 2.15
+      },
+      "zscores": {
+        "gas_price": 1.012,
+        "headline_cpi": 0.968,
+        "core_cpi": -0.654,
+        "fwd_inflation": 1.26
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "gas_price": 2.705,
+        "headline_cpi": 2.212,
+        "core_cpi": 1.848,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": 1.101,
+        "headline_cpi": 1.075,
+        "core_cpi": -0.564,
+        "fwd_inflation": 1.65
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "gas_price": 2.709,
+        "headline_cpi": 2.36,
+        "core_cpi": 2.117,
+        "fwd_inflation": 2.16
+      },
+      "zscores": {
+        "gas_price": 1.083,
+        "headline_cpi": 1.189,
+        "core_cpi": 0.632,
+        "fwd_inflation": 1.216
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "gas_price": 2.873,
+        "headline_cpi": 2.463,
+        "core_cpi": 2.139,
+        "fwd_inflation": 2.21
+      },
+      "zscores": {
+        "gas_price": 1.69,
+        "headline_cpi": 1.259,
+        "core_cpi": 0.693,
+        "fwd_inflation": 1.422
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "gas_price": 2.987,
+        "headline_cpi": 2.801,
+        "core_cpi": 2.237,
+        "fwd_inflation": 2.18
+      },
+      "zscores": {
+        "gas_price": 2.069,
+        "headline_cpi": 1.594,
+        "core_cpi": 1.088,
+        "fwd_inflation": 1.249
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "gas_price": 2.97,
+        "headline_cpi": 2.872,
+        "core_cpi": 2.255,
+        "fwd_inflation": 2.17
+      },
+      "zscores": {
+        "gas_price": 1.957,
+        "headline_cpi": 1.597,
+        "core_cpi": 1.108,
+        "fwd_inflation": 1.18
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "gas_price": 2.928,
+        "headline_cpi": 2.95,
+        "core_cpi": 2.354,
+        "fwd_inflation": 2.19
+      },
+      "zscores": {
+        "gas_price": 1.769,
+        "headline_cpi": 1.611,
+        "core_cpi": 1.474,
+        "fwd_inflation": 1.262
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "gas_price": 2.914,
+        "headline_cpi": 2.699,
+        "core_cpi": 2.199,
+        "fwd_inflation": 2.22
+      },
+      "zscores": {
+        "gas_price": 1.649,
+        "headline_cpi": 1.245,
+        "core_cpi": 0.719,
+        "fwd_inflation": 1.34
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "gas_price": 2.915,
+        "headline_cpi": 2.277,
+        "core_cpi": 2.17,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": 1.549,
+        "headline_cpi": 0.664,
+        "core_cpi": 0.549,
+        "fwd_inflation": 1.351
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "gas_price": 2.943,
+        "headline_cpi": 2.522,
+        "core_cpi": 2.139,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": 1.543,
+        "headline_cpi": 0.977,
+        "core_cpi": 0.378,
+        "fwd_inflation": 1.273
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "gas_price": 2.736,
+        "headline_cpi": 2.177,
+        "core_cpi": 2.214,
+        "fwd_inflation": 2.16
+      },
+      "zscores": {
+        "gas_price": 0.758,
+        "headline_cpi": 0.417,
+        "core_cpi": 0.699,
+        "fwd_inflation": 0.878
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "gas_price": 2.457,
+        "headline_cpi": 1.91,
+        "core_cpi": 2.179,
+        "fwd_inflation": 2.03
+      },
+      "zscores": {
+        "gas_price": -0.281,
+        "headline_cpi": -0.059,
+        "core_cpi": 0.523,
+        "fwd_inflation": 0.285
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "gas_price": 2.338,
+        "headline_cpi": 1.551,
+        "core_cpi": 2.154,
+        "fwd_inflation": 1.96
+      },
+      "zscores": {
+        "gas_price": -0.777,
+        "headline_cpi": -0.67,
+        "core_cpi": 0.415,
+        "fwd_inflation": -0.061
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "gas_price": 2.393,
+        "headline_cpi": 1.52,
+        "core_cpi": 2.084,
+        "fwd_inflation": 2.0
+      },
+      "zscores": {
+        "gas_price": -0.685,
+        "headline_cpi": -0.766,
+        "core_cpi": 0.128,
+        "fwd_inflation": 0.064
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "gas_price": 2.594,
+        "headline_cpi": 1.863,
+        "core_cpi": 2.037,
+        "fwd_inflation": 2.01
+      },
+      "zscores": {
+        "gas_price": 0.107,
+        "headline_cpi": -0.237,
+        "core_cpi": -0.076,
+        "fwd_inflation": 0.071
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "gas_price": 2.881,
+        "headline_cpi": 1.996,
+        "core_cpi": 2.065,
+        "fwd_inflation": 2.03
+      },
+      "zscores": {
+        "gas_price": 1.328,
+        "headline_cpi": -0.038,
+        "core_cpi": 0.069,
+        "fwd_inflation": 0.134
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "gas_price": 2.946,
+        "headline_cpi": 1.79,
+        "core_cpi": 1.989,
+        "fwd_inflation": 1.94
+      },
+      "zscores": {
+        "gas_price": 1.52,
+        "headline_cpi": -0.492,
+        "core_cpi": -0.262,
+        "fwd_inflation": -0.371
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "gas_price": 2.804,
+        "headline_cpi": 1.648,
+        "core_cpi": 2.127,
+        "fwd_inflation": 1.85
+      },
+      "zscores": {
+        "gas_price": 0.842,
+        "headline_cpi": -0.856,
+        "core_cpi": 0.421,
+        "fwd_inflation": -0.989
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "gas_price": 2.823,
+        "headline_cpi": 1.811,
+        "core_cpi": 2.21,
+        "fwd_inflation": 1.93
+      },
+      "zscores": {
+        "gas_price": 0.875,
+        "headline_cpi": -0.631,
+        "core_cpi": 0.823,
+        "fwd_inflation": -0.662
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "gas_price": 2.707,
+        "headline_cpi": 1.75,
+        "core_cpi": 2.386,
+        "fwd_inflation": 1.79
+      },
+      "zscores": {
+        "gas_price": 0.314,
+        "headline_cpi": -0.883,
+        "core_cpi": 1.648,
+        "fwd_inflation": -1.715
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "gas_price": 2.681,
+        "headline_cpi": 1.711,
+        "core_cpi": 2.358,
+        "fwd_inflation": 1.78
+      },
+      "zscores": {
+        "gas_price": 0.153,
+        "headline_cpi": -1.019,
+        "core_cpi": 1.458,
+        "fwd_inflation": -1.884
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "gas_price": 2.724,
+        "headline_cpi": 1.764,
+        "core_cpi": 2.314,
+        "fwd_inflation": 1.72
+      },
+      "zscores": {
+        "gas_price": 0.318,
+        "headline_cpi": -0.902,
+        "core_cpi": 1.211,
+        "fwd_inflation": -2.233
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "gas_price": 2.693,
+        "headline_cpi": 2.051,
+        "core_cpi": 2.317,
+        "fwd_inflation": 1.73
+      },
+      "zscores": {
+        "gas_price": 0.118,
+        "headline_cpi": -0.188,
+        "core_cpi": 1.173,
+        "fwd_inflation": -1.994
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "gas_price": 2.645,
+        "headline_cpi": 2.285,
+        "core_cpi": 2.259,
+        "fwd_inflation": 1.81
+      },
+      "zscores": {
+        "gas_price": -0.175,
+        "headline_cpi": 0.41,
+        "core_cpi": 0.897,
+        "fwd_inflation": -1.377
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "gas_price": 2.636,
+        "headline_cpi": 2.487,
+        "core_cpi": 2.261,
+        "fwd_inflation": 1.79
+      },
+      "zscores": {
+        "gas_price": -0.253,
+        "headline_cpi": 0.941,
+        "core_cpi": 0.911,
+        "fwd_inflation": -1.413
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "gas_price": 2.533,
+        "headline_cpi": 2.335,
+        "core_cpi": 2.357,
+        "fwd_inflation": 1.65
+      },
+      "zscores": {
+        "gas_price": -0.847,
+        "headline_cpi": 0.591,
+        "core_cpi": 1.302,
+        "fwd_inflation": -2.093
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "gas_price": 2.329,
+        "headline_cpi": 1.539,
+        "core_cpi": 2.091,
+        "fwd_inflation": 1.3
+      },
+      "zscores": {
+        "gas_price": -1.907,
+        "headline_cpi": -1.468,
+        "core_cpi": 0.118,
+        "fwd_inflation": -3.373
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "gas_price": 1.938,
+        "headline_cpi": 0.329,
+        "core_cpi": 1.432,
+        "fwd_inflation": 1.45
+      },
+      "zscores": {
+        "gas_price": -3.294,
+        "headline_cpi": -3.602,
+        "core_cpi": -2.507,
+        "fwd_inflation": -2.338
+      },
+      "events": [
+        {
+          "label": "COVID lockdowns: gas drops to $1.94",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "gas_price": 1.961,
+        "headline_cpi": 0.118,
+        "core_cpi": 1.222,
+        "fwd_inflation": 1.47
+      },
+      "zscores": {
+        "gas_price": -2.778,
+        "headline_cpi": -3.285,
+        "core_cpi": -2.935,
+        "fwd_inflation": -2.052
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "gas_price": 2.17,
+        "headline_cpi": 0.646,
+        "core_cpi": 1.187,
+        "fwd_inflation": 1.53
+      },
+      "zscores": {
+        "gas_price": -1.827,
+        "headline_cpi": -2.164,
+        "core_cpi": -2.727,
+        "fwd_inflation": -1.692
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "gas_price": 2.272,
+        "headline_cpi": 0.986,
+        "core_cpi": 1.57,
+        "fwd_inflation": 1.6
+      },
+      "zscores": {
+        "gas_price": -1.394,
+        "headline_cpi": -1.523,
+        "core_cpi": -1.449,
+        "fwd_inflation": -1.332
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "gas_price": 2.272,
+        "headline_cpi": 1.31,
+        "core_cpi": 1.736,
+        "fwd_inflation": 1.77
+      },
+      "zscores": {
+        "gas_price": -1.341,
+        "headline_cpi": -0.968,
+        "core_cpi": -0.922,
+        "fwd_inflation": -0.621
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "gas_price": 2.274,
+        "headline_cpi": 1.371,
+        "core_cpi": 1.713,
+        "fwd_inflation": 1.78
+      },
+      "zscores": {
+        "gas_price": -1.258,
+        "headline_cpi": -0.828,
+        "core_cpi": -1.0,
+        "fwd_inflation": -0.555
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "gas_price": 2.248,
+        "headline_cpi": 1.182,
+        "core_cpi": 1.611,
+        "fwd_inflation": 1.85
+      },
+      "zscores": {
+        "gas_price": -1.284,
+        "headline_cpi": -1.069,
+        "core_cpi": -1.298,
+        "fwd_inflation": -0.259
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "gas_price": 2.2,
+        "headline_cpi": 1.175,
+        "core_cpi": 1.646,
+        "fwd_inflation": 1.8
+      },
+      "zscores": {
+        "gas_price": -1.37,
+        "headline_cpi": -1.024,
+        "core_cpi": -1.17,
+        "fwd_inflation": -0.441
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "gas_price": 2.284,
+        "headline_cpi": 1.362,
+        "core_cpi": 1.62,
+        "fwd_inflation": 1.97
+      },
+      "zscores": {
+        "gas_price": -1.033,
+        "headline_cpi": -0.706,
+        "core_cpi": -1.225,
+        "fwd_inflation": 0.248
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "gas_price": 2.42,
+        "headline_cpi": 1.4,
+        "core_cpi": 1.41,
+        "fwd_inflation": 2.06
+      },
+      "zscores": {
+        "gas_price": -0.545,
+        "headline_cpi": -0.618,
+        "core_cpi": -1.769,
+        "fwd_inflation": 0.624
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "gas_price": 2.587,
+        "headline_cpi": 1.676,
+        "core_cpi": 1.283,
+        "fwd_inflation": 2.05
+      },
+      "zscores": {
+        "gas_price": 0.033,
+        "headline_cpi": -0.182,
+        "core_cpi": -1.988,
+        "fwd_inflation": 0.618
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "gas_price": 2.898,
+        "headline_cpi": 2.62,
+        "core_cpi": 1.646,
+        "fwd_inflation": 2.05
+      },
+      "zscores": {
+        "gas_price": 1.059,
+        "headline_cpi": 1.216,
+        "core_cpi": -0.911,
+        "fwd_inflation": 0.637
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "gas_price": 2.948,
+        "headline_cpi": 4.16,
+        "core_cpi": 2.961,
+        "fwd_inflation": 2.17
+      },
+      "zscores": {
+        "gas_price": 1.21,
+        "headline_cpi": 3.007,
+        "core_cpi": 2.471,
+        "fwd_inflation": 1.15
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "gas_price": 3.076,
+        "headline_cpi": 4.993,
+        "core_cpi": 3.798,
+        "fwd_inflation": 2.29
+      },
+      "zscores": {
+        "gas_price": 1.609,
+        "headline_cpi": 3.371,
+        "core_cpi": 3.593,
+        "fwd_inflation": 1.613
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "gas_price": 3.157,
+        "headline_cpi": 5.391,
+        "core_cpi": 4.475,
+        "fwd_inflation": 2.22
+      },
+      "zscores": {
+        "gas_price": 1.811,
+        "headline_cpi": 3.192,
+        "core_cpi": 3.757,
+        "fwd_inflation": 1.309
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "gas_price": 3.231,
+        "headline_cpi": 5.365,
+        "core_cpi": 4.275,
+        "fwd_inflation": 2.16
+      },
+      "zscores": {
+        "gas_price": 1.941,
+        "headline_cpi": 2.775,
+        "core_cpi": 2.924,
+        "fwd_inflation": 1.07
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "gas_price": 3.255,
+        "headline_cpi": 5.251,
+        "core_cpi": 4.0,
+        "fwd_inflation": 2.2
+      },
+      "zscores": {
+        "gas_price": 1.906,
+        "headline_cpi": 2.404,
+        "core_cpi": 2.285,
+        "fwd_inflation": 1.241
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "gas_price": 3.272,
+        "headline_cpi": 5.39,
+        "core_cpi": 4.025,
+        "fwd_inflation": 2.19
+      },
+      "zscores": {
+        "gas_price": 1.852,
+        "headline_cpi": 2.26,
+        "core_cpi": 2.104,
+        "fwd_inflation": 1.214
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "gas_price": 3.384,
+        "headline_cpi": 6.222,
+        "core_cpi": 4.563,
+        "fwd_inflation": 2.33
+      },
+      "zscores": {
+        "gas_price": 2.03,
+        "headline_cpi": 2.515,
+        "core_cpi": 2.429,
+        "fwd_inflation": 1.757
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "gas_price": 3.491,
+        "headline_cpi": 6.809,
+        "core_cpi": 4.929,
+        "fwd_inflation": 2.25
+      },
+      "zscores": {
+        "gas_price": 2.115,
+        "headline_cpi": 2.538,
+        "core_cpi": 2.489,
+        "fwd_inflation": 1.402
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "gas_price": 3.406,
+        "headline_cpi": 7.036,
+        "core_cpi": 5.453,
+        "fwd_inflation": 2.17
+      },
+      "zscores": {
+        "gas_price": 1.757,
+        "headline_cpi": 2.374,
+        "core_cpi": 2.617,
+        "fwd_inflation": 1.05
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "gas_price": 3.413,
+        "headline_cpi": 7.48,
+        "core_cpi": 6.021,
+        "fwd_inflation": 2.1
+      },
+      "zscores": {
+        "gas_price": 1.651,
+        "headline_cpi": 2.329,
+        "core_cpi": 2.694,
+        "fwd_inflation": 0.749
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "gas_price": 3.611,
+        "headline_cpi": 7.871,
+        "core_cpi": 6.414,
+        "fwd_inflation": 2.05
+      },
+      "zscores": {
+        "gas_price": 1.939,
+        "headline_cpi": 2.261,
+        "core_cpi": 2.616,
+        "fwd_inflation": 0.545
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "gas_price": 4.322,
+        "headline_cpi": 8.542,
+        "core_cpi": 6.474,
+        "fwd_inflation": 2.28
+      },
+      "zscores": {
+        "gas_price": 2.965,
+        "headline_cpi": 2.296,
+        "core_cpi": 2.364,
+        "fwd_inflation": 1.387
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "gas_price": 4.213,
+        "headline_cpi": 8.259,
+        "core_cpi": 6.161,
+        "fwd_inflation": 2.45
+      },
+      "zscores": {
+        "gas_price": 2.443,
+        "headline_cpi": 1.987,
+        "core_cpi": 1.974,
+        "fwd_inflation": 1.896
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "gas_price": 4.545,
+        "headline_cpi": 8.582,
+        "core_cpi": 6.022,
+        "fwd_inflation": 2.35
+      },
+      "zscores": {
+        "gas_price": 2.642,
+        "headline_cpi": 1.938,
+        "core_cpi": 1.747,
+        "fwd_inflation": 1.444
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "gas_price": 5.032,
+        "headline_cpi": 9.06,
+        "core_cpi": 5.917,
+        "fwd_inflation": 2.34
+      },
+      "zscores": {
+        "gas_price": 2.891,
+        "headline_cpi": 1.941,
+        "core_cpi": 1.572,
+        "fwd_inflation": 1.328
+      },
+      "events": [
+        {
+          "label": "Gas averages a record $5.03; inflation 9.1%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "gas_price": 4.668,
+        "headline_cpi": 8.525,
+        "core_cpi": 5.911,
+        "fwd_inflation": 2.14
+      },
+      "zscores": {
+        "gas_price": 2.16,
+        "headline_cpi": 1.627,
+        "core_cpi": 1.469,
+        "fwd_inflation": 0.612
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "gas_price": 4.087,
+        "headline_cpi": 8.263,
+        "core_cpi": 6.322,
+        "fwd_inflation": 2.33
+      },
+      "zscores": {
+        "gas_price": 1.332,
+        "headline_cpi": 1.439,
+        "core_cpi": 1.582,
+        "fwd_inflation": 1.196
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "gas_price": 3.817,
+        "headline_cpi": 8.202,
+        "core_cpi": 6.631,
+        "fwd_inflation": 2.31
+      },
+      "zscores": {
+        "gas_price": 0.944,
+        "headline_cpi": 1.334,
+        "core_cpi": 1.627,
+        "fwd_inflation": 1.067
+      },
+      "events": [
+        {
+          "label": "Core inflation peaks at 6.6%, 3 months after gas",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "gas_price": 3.935,
+        "headline_cpi": 7.745,
+        "core_cpi": 6.284,
+        "fwd_inflation": 2.32
+      },
+      "zscores": {
+        "gas_price": 1.035,
+        "headline_cpi": 1.116,
+        "core_cpi": 1.36,
+        "fwd_inflation": 1.041
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "gas_price": 3.799,
+        "headline_cpi": 7.11,
+        "core_cpi": 5.958,
+        "fwd_inflation": 2.3
+      },
+      "zscores": {
+        "gas_price": 0.826,
+        "headline_cpi": 0.857,
+        "core_cpi": 1.128,
+        "fwd_inflation": 0.921
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "gas_price": 3.324,
+        "headline_cpi": 6.454,
+        "core_cpi": 5.708,
+        "fwd_inflation": 2.2
+      },
+      "zscores": {
+        "gas_price": 0.226,
+        "headline_cpi": 0.602,
+        "core_cpi": 0.949,
+        "fwd_inflation": 0.552
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "gas_price": 3.445,
+        "headline_cpi": 6.41,
+        "core_cpi": 5.583,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": 0.347,
+        "headline_cpi": 0.553,
+        "core_cpi": 0.839,
+        "fwd_inflation": 0.647
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "gas_price": 3.501,
+        "headline_cpi": 6.036,
+        "core_cpi": 5.538,
+        "fwd_inflation": 2.22
+      },
+      "zscores": {
+        "gas_price": 0.386,
+        "headline_cpi": 0.396,
+        "core_cpi": 0.773,
+        "fwd_inflation": 0.538
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "gas_price": 3.535,
+        "headline_cpi": 4.985,
+        "core_cpi": 5.59,
+        "fwd_inflation": 2.23
+      },
+      "zscores": {
+        "gas_price": 0.392,
+        "headline_cpi": 0.011,
+        "core_cpi": 0.754,
+        "fwd_inflation": 0.538
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "gas_price": 3.711,
+        "headline_cpi": 4.93,
+        "core_cpi": 5.519,
+        "fwd_inflation": 2.23
+      },
+      "zscores": {
+        "gas_price": 0.569,
+        "headline_cpi": -0.054,
+        "core_cpi": 0.675,
+        "fwd_inflation": 0.498
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "gas_price": 3.666,
+        "headline_cpi": 4.048,
+        "core_cpi": 5.33,
+        "fwd_inflation": 2.27
+      },
+      "zscores": {
+        "gas_price": 0.468,
+        "headline_cpi": -0.424,
+        "core_cpi": 0.535,
+        "fwd_inflation": 0.638
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "gas_price": 3.684,
+        "headline_cpi": 2.969,
+        "core_cpi": 4.829,
+        "fwd_inflation": 2.26
+      },
+      "zscores": {
+        "gas_price": 0.45,
+        "headline_cpi": -0.876,
+        "core_cpi": 0.227,
+        "fwd_inflation": 0.562
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "gas_price": 3.712,
+        "headline_cpi": 3.178,
+        "core_cpi": 4.653,
+        "fwd_inflation": 2.39
+      },
+      "zscores": {
+        "gas_price": 0.447,
+        "headline_cpi": -0.844,
+        "core_cpi": 0.087,
+        "fwd_inflation": 1.274
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "gas_price": 3.954,
+        "headline_cpi": 3.665,
+        "core_cpi": 4.349,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 0.75,
+        "headline_cpi": -0.698,
+        "core_cpi": -0.132,
+        "fwd_inflation": 1.486
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "gas_price": 3.958,
+        "headline_cpi": 3.7,
+        "core_cpi": 4.147,
+        "fwd_inflation": 2.43
+      },
+      "zscores": {
+        "gas_price": 0.713,
+        "headline_cpi": -0.733,
+        "core_cpi": -0.303,
+        "fwd_inflation": 1.48
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "gas_price": 3.742,
+        "headline_cpi": 3.241,
+        "core_cpi": 4.031,
+        "fwd_inflation": 2.46
+      },
+      "zscores": {
+        "gas_price": 0.335,
+        "headline_cpi": -0.982,
+        "core_cpi": -0.436,
+        "fwd_inflation": 1.656
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "gas_price": 3.443,
+        "headline_cpi": 3.137,
+        "core_cpi": 4.007,
+        "fwd_inflation": 2.36
+      },
+      "zscores": {
+        "gas_price": -0.221,
+        "headline_cpi": -1.09,
+        "core_cpi": -0.522,
+        "fwd_inflation": 0.956
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "gas_price": 3.257,
+        "headline_cpi": 3.352,
+        "core_cpi": 3.93,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": -0.636,
+        "headline_cpi": -1.057,
+        "core_cpi": -0.659,
+        "fwd_inflation": -0.107
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "gas_price": 3.197,
+        "headline_cpi": 3.091,
+        "core_cpi": 3.862,
+        "fwd_inflation": 2.31
+      },
+      "zscores": {
+        "gas_price": -0.842,
+        "headline_cpi": -1.245,
+        "core_cpi": -0.827,
+        "fwd_inflation": 0.477
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "gas_price": 3.328,
+        "headline_cpi": 3.153,
+        "core_cpi": 3.752,
+        "fwd_inflation": 2.25
+      },
+      "zscores": {
+        "gas_price": -0.659,
+        "headline_cpi": -1.275,
+        "core_cpi": -1.089,
+        "fwd_inflation": -0.143
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "gas_price": 3.542,
+        "headline_cpi": 3.477,
+        "core_cpi": 3.801,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": -0.253,
+        "headline_cpi": -1.143,
+        "core_cpi": -1.242,
+        "fwd_inflation": -0.314
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "gas_price": 3.733,
+        "headline_cpi": 3.357,
+        "core_cpi": 3.61,
+        "fwd_inflation": 2.34
+      },
+      "zscores": {
+        "gas_price": 0.122,
+        "headline_cpi": -1.18,
+        "core_cpi": -1.501,
+        "fwd_inflation": 0.699
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "gas_price": 3.725,
+        "headline_cpi": 3.269,
+        "core_cpi": 3.419,
+        "fwd_inflation": 2.34
+      },
+      "zscores": {
+        "gas_price": 0.065,
+        "headline_cpi": -1.178,
+        "core_cpi": -1.663,
+        "fwd_inflation": 0.68
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "gas_price": 3.576,
+        "headline_cpi": 2.971,
+        "core_cpi": 3.267,
+        "fwd_inflation": 2.3
+      },
+      "zscores": {
+        "gas_price": -0.317,
+        "headline_cpi": -1.263,
+        "core_cpi": -1.715,
+        "fwd_inflation": 0.234
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "gas_price": 3.6,
+        "headline_cpi": 2.895,
+        "core_cpi": 3.171,
+        "fwd_inflation": 2.36
+      },
+      "zscores": {
+        "gas_price": -0.289,
+        "headline_cpi": -1.239,
+        "core_cpi": -1.716,
+        "fwd_inflation": 0.824
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "gas_price": 3.507,
+        "headline_cpi": 2.531,
+        "core_cpi": 3.197,
+        "fwd_inflation": 2.25
+      },
+      "zscores": {
+        "gas_price": -0.539,
+        "headline_cpi": -1.339,
+        "core_cpi": -1.626,
+        "fwd_inflation": -0.381
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "gas_price": 3.338,
+        "headline_cpi": 2.441,
+        "core_cpi": 3.311,
+        "fwd_inflation": 2.25
+      },
+      "zscores": {
+        "gas_price": -0.965,
+        "headline_cpi": -1.31,
+        "core_cpi": -1.47,
+        "fwd_inflation": -0.405
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "gas_price": 3.261,
+        "headline_cpi": 2.598,
+        "core_cpi": 3.333,
+        "fwd_inflation": 2.34
+      },
+      "zscores": {
+        "gas_price": -1.137,
+        "headline_cpi": -1.173,
+        "core_cpi": -1.383,
+        "fwd_inflation": 0.585
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "gas_price": 3.175,
+        "headline_cpi": 2.749,
+        "core_cpi": 3.319,
+        "fwd_inflation": 2.25
+      },
+      "zscores": {
+        "gas_price": -1.3,
+        "headline_cpi": -1.047,
+        "core_cpi": -1.322,
+        "fwd_inflation": -0.407
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "gas_price": 3.139,
+        "headline_cpi": 2.888,
+        "core_cpi": 3.238,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": -1.344,
+        "headline_cpi": -0.933,
+        "core_cpi": -1.31,
+        "fwd_inflation": -0.55
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "gas_price": 3.196,
+        "headline_cpi": 3.0,
+        "core_cpi": 3.258,
+        "fwd_inflation": 2.31
+      },
+      "zscores": {
+        "gas_price": -1.179,
+        "headline_cpi": -0.836,
+        "core_cpi": -1.22,
+        "fwd_inflation": 0.184
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "gas_price": 3.247,
+        "headline_cpi": 2.822,
+        "core_cpi": 3.117,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": -1.022,
+        "headline_cpi": -0.865,
+        "core_cpi": -1.269,
+        "fwd_inflation": -0.825
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "gas_price": 3.223,
+        "headline_cpi": 2.391,
+        "core_cpi": 2.789,
+        "fwd_inflation": 2.14
+      },
+      "zscores": {
+        "gas_price": -1.023,
+        "headline_cpi": -1.007,
+        "core_cpi": -1.465,
+        "fwd_inflation": -2.02
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "gas_price": 3.299,
+        "headline_cpi": 2.311,
+        "core_cpi": 2.779,
+        "fwd_inflation": 2.13
+      },
+      "zscores": {
+        "gas_price": -0.798,
+        "headline_cpi": -0.995,
+        "core_cpi": -1.394,
+        "fwd_inflation": -2.029
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "gas_price": 3.278,
+        "headline_cpi": 2.355,
+        "core_cpi": 2.787,
+        "fwd_inflation": 2.24
+      },
+      "zscores": {
+        "gas_price": -0.813,
+        "headline_cpi": -0.934,
+        "core_cpi": -1.313,
+        "fwd_inflation": -0.573
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "gas_price": 3.276,
+        "headline_cpi": 2.669,
+        "core_cpi": 2.934,
+        "fwd_inflation": 2.27
+      },
+      "zscores": {
+        "gas_price": -0.867,
+        "headline_cpi": -0.749,
+        "core_cpi": -1.127,
+        "fwd_inflation": -0.16
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "gas_price": 3.25,
+        "headline_cpi": 2.705,
+        "core_cpi": 3.059,
+        "fwd_inflation": 2.32
+      },
+      "zscores": {
+        "gas_price": -1.009,
+        "headline_cpi": -0.697,
+        "core_cpi": -0.968,
+        "fwd_inflation": 0.45
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "gas_price": 3.258,
+        "headline_cpi": 2.916,
+        "core_cpi": 3.11,
+        "fwd_inflation": 2.33
+      },
+      "zscores": {
+        "gas_price": -0.947,
+        "headline_cpi": -0.539,
+        "core_cpi": -0.882,
+        "fwd_inflation": 0.587
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "gas_price": 3.293,
+        "headline_cpi": 3.013,
+        "core_cpi": 3.019,
+        "fwd_inflation": 2.32
+      },
+      "zscores": {
+        "gas_price": -0.758,
+        "headline_cpi": -0.438,
+        "core_cpi": -0.935,
+        "fwd_inflation": 0.445
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "gas_price": 3.19,
+        "headline_cpi": 2.874,
+        "core_cpi": 2.826,
+        "fwd_inflation": 2.25
+      },
+      "zscores": {
+        "gas_price": -1.141,
+        "headline_cpi": -0.506,
+        "core_cpi": -1.09,
+        "fwd_inflation": -0.487
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "gas_price": 3.179,
+        "headline_cpi": 2.735,
+        "core_cpi": 2.633,
+        "fwd_inflation": 2.18
+      },
+      "zscores": {
+        "gas_price": -1.13,
+        "headline_cpi": -0.598,
+        "core_cpi": -1.249,
+        "fwd_inflation": -1.363
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "gas_price": 3.024,
+        "headline_cpi": 2.677,
+        "core_cpi": 2.639,
+        "fwd_inflation": 2.21
+      },
+      "zscores": {
+        "gas_price": -1.703,
+        "headline_cpi": -0.632,
+        "core_cpi": -1.201,
+        "fwd_inflation": -0.97
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "gas_price": 2.936,
+        "headline_cpi": 2.386,
+        "core_cpi": 2.504,
+        "fwd_inflation": 2.22
+      },
+      "zscores": {
+        "gas_price": -1.906,
+        "headline_cpi": -0.99,
+        "core_cpi": -1.31,
+        "fwd_inflation": -0.825
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "gas_price": 3.039,
+        "headline_cpi": 2.414,
+        "core_cpi": 2.457,
+        "fwd_inflation": 2.15
+      },
+      "zscores": {
+        "gas_price": -1.406,
+        "headline_cpi": -1.044,
+        "core_cpi": -1.33,
+        "fwd_inflation": -1.676
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "gas_price": 3.771,
+        "headline_cpi": 3.256,
+        "core_cpi": 2.595,
+        "fwd_inflation": 2.12
+      },
+      "zscores": {
+        "gas_price": 1.371,
+        "headline_cpi": 0.485,
+        "core_cpi": -1.146,
+        "fwd_inflation": -1.925
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "gas_price": 4.236,
+        "headline_cpi": 3.811,
+        "core_cpi": 2.75,
+        "fwd_inflation": 2.17
+      },
+      "zscores": {
+        "gas_price": 2.769,
+        "headline_cpi": 1.954,
+        "core_cpi": -0.933,
+        "fwd_inflation": -1.267
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "gas_price": 4.609,
+        "headline_cpi": 4.249,
+        "core_cpi": 2.851,
+        "fwd_inflation": 2.27
+      },
+      "zscores": {
+        "gas_price": 3.308,
+        "headline_cpi": 2.863,
+        "core_cpi": -0.775,
+        "fwd_inflation": -0.064
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "gas_price": 4.184,
+        "headline_cpi": 3.531,
+        "core_cpi": 2.594,
+        "fwd_inflation": 2.22
+      },
+      "zscores": {
+        "gas_price": 1.953,
+        "headline_cpi": 1.186,
+        "core_cpi": -1.192,
+        "fwd_inflation": -0.648
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "gas_price": 4.064,
+        "headline_cpi": 3.365,
+        "core_cpi": 2.478,
+        "fwd_inflation": 2.23
+      },
+      "zscores": {
+        "gas_price": 1.555,
+        "headline_cpi": 0.801,
+        "core_cpi": -1.39,
+        "fwd_inflation": -0.487
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "gas_price": 4.192,
+        "headline_cpi": 3.397,
+        "core_cpi": 2.446,
+        "fwd_inflation": 2.31
+      },
+      "zscores": {
+        "gas_price": 1.826,
+        "headline_cpi": 0.904,
+        "core_cpi": -1.417,
+        "fwd_inflation": 0.565
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "When gas prices jump at the pump, how fast does the rest of your budget follow? The three cards show a chain: the gas price compared with a year ago, overall inflation (all prices), and \"everyday\" prices (core inflation: everything except food and energy). The stripes below show every month since 2004: red is higher than normal, blue is lower. Gas and overall inflation move together in the same month. Everyday prices follow more slowly and only when the shock lasts: in 2022 they peaked three months after gas did.",
+    "methodology": "Monthly average retail price of regular gasoline from the Energy Information Administration (EIA). Overall and core consumer price inflation are year-over-year changes in the BLS Consumer Price Index (CPI-U). Expected future inflation is the 5-year, 5-year-forward rate from FRED (T5YIFR), averaged by month. The chart starts in 2003, the first year of that bond-market series.",
+    "key_findings": [
+      {
+        "date": "2008-07-01",
+        "title": "July 2008: $4.11 Gas, 5.6% Inflation",
+        "description": "Oil prices hit a record and a gallon of regular averaged $4.11. Overall inflation rose to 5.6%. Core inflation barely moved, staying near 2.5%.",
+        "significance": "A gas spike alone lifts the headline number fast but does not spread to everything else when it is short.",
+        "normalized_time": 0.2332
+      },
+      {
+        "date": "2008-12-01",
+        "title": "December 2008: The Crash",
+        "description": "In five months gas fell to $1.75 and overall inflation dropped to almost zero. Bond traders' expected future inflation collapsed to 0.73%, the lowest on the chart.",
+        "significance": "Markets feared falling prices (deflation), not rising ones, at the depth of the financial crisis.",
+        "normalized_time": 0.2509
+      },
+      {
+        "date": "2022-06-01",
+        "title": "June 2022: $5.03 Gas, 9.1% Inflation",
+        "description": "Gas averaged $5.03, the highest on record, and overall inflation reached 9.1%, a 40-year high. This time core inflation kept climbing and peaked at 6.6% in September 2022, three months after gas.",
+        "significance": "When high energy costs last long enough, they leak into rents, services and everyday goods.",
+        "normalized_time": 0.8233
+      }
+    ]
+  }
+}

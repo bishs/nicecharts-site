@@ -1,0 +1,3534 @@
+{
+  "metadata": {
+    "chart_id": "chart_20",
+    "number": 20,
+    "title": "Pay vs. Prices: Who Is Winning?",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Tug-of-war: pay pulls one way, prices the other",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2007,
+    "end_year": 2026,
+    "observation_count": 234,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08"
+  },
+  "analytics": {
+    "optimal_lag_months": -4,
+    "peak_correlation_coefficient": 0.567,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.318
+      },
+      {
+        "lag": -17,
+        "r": 0.33
+      },
+      {
+        "lag": -16,
+        "r": 0.349
+      },
+      {
+        "lag": -15,
+        "r": 0.371
+      },
+      {
+        "lag": -14,
+        "r": 0.404
+      },
+      {
+        "lag": -13,
+        "r": 0.445
+      },
+      {
+        "lag": -12,
+        "r": 0.477
+      },
+      {
+        "lag": -11,
+        "r": 0.492
+      },
+      {
+        "lag": -10,
+        "r": 0.503
+      },
+      {
+        "lag": -9,
+        "r": 0.515
+      },
+      {
+        "lag": -8,
+        "r": 0.525
+      },
+      {
+        "lag": -7,
+        "r": 0.538
+      },
+      {
+        "lag": -6,
+        "r": 0.555
+      },
+      {
+        "lag": -5,
+        "r": 0.566
+      },
+      {
+        "lag": -4,
+        "r": 0.567
+      },
+      {
+        "lag": -3,
+        "r": 0.562
+      },
+      {
+        "lag": -2,
+        "r": 0.546
+      },
+      {
+        "lag": -1,
+        "r": 0.516
+      },
+      {
+        "lag": 0,
+        "r": 0.491
+      },
+      {
+        "lag": 1,
+        "r": 0.489
+      },
+      {
+        "lag": 2,
+        "r": 0.499
+      },
+      {
+        "lag": 3,
+        "r": 0.506
+      },
+      {
+        "lag": 4,
+        "r": 0.511
+      },
+      {
+        "lag": 5,
+        "r": 0.51
+      },
+      {
+        "lag": 6,
+        "r": 0.5
+      },
+      {
+        "lag": 7,
+        "r": 0.494
+      },
+      {
+        "lag": 8,
+        "r": 0.494
+      },
+      {
+        "lag": 9,
+        "r": 0.494
+      },
+      {
+        "lag": 10,
+        "r": 0.499
+      },
+      {
+        "lag": 11,
+        "r": 0.51
+      },
+      {
+        "lag": 12,
+        "r": 0.524
+      },
+      {
+        "lag": 13,
+        "r": 0.522
+      },
+      {
+        "lag": 14,
+        "r": 0.511
+      },
+      {
+        "lag": 15,
+        "r": 0.507
+      },
+      {
+        "lag": 16,
+        "r": 0.498
+      },
+      {
+        "lag": 17,
+        "r": 0.493
+      },
+      {
+        "lag": 18,
+        "r": 0.496
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "nominal_wage_growth",
+      "agency": "BLS",
+      "series_id": "CES0500000003",
+      "label": "Dollar Wage Raise (% on Paystub)",
+      "unit": "% YoY",
+      "transform": "raw",
+      "color": "#0ea5e9"
+    },
+    {
+      "key": "cpi_inflation",
+      "agency": "BLS",
+      "series_id": "CUUR0000SA0",
+      "label": "Price Increases (Inflation)",
+      "unit": "% YoY",
+      "transform": "raw",
+      "color": "#ef4444"
+    },
+    {
+      "key": "real_wage_delta",
+      "agency": "BLS",
+      "series_id": "REAL_DELTA",
+      "label": "Real Buying Power (Green = Winning, Red = Losing)",
+      "unit": "% YoY",
+      "transform": "diff",
+      "color": "#10b981"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2007-03-01",
+      "values": {
+        "nominal_wage_growth": 3.393,
+        "cpi_inflation": 2.779,
+        "real_wage_delta": 0.614
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.0,
+        "cpi_inflation": 0.0,
+        "real_wage_delta": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "nominal_wage_growth": 3.074,
+        "cpi_inflation": 2.574,
+        "real_wage_delta": 0.5
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.0,
+        "cpi_inflation": -1.0,
+        "real_wage_delta": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "nominal_wage_growth": 3.527,
+        "cpi_inflation": 2.691,
+        "real_wage_delta": 0.836
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.029,
+        "cpi_inflation": 0.116,
+        "real_wage_delta": 1.333
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "nominal_wage_growth": 3.61,
+        "cpi_inflation": 2.687,
+        "real_wage_delta": 0.923
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.024,
+        "cpi_inflation": 0.061,
+        "real_wage_delta": 1.211
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "nominal_wage_growth": 3.204,
+        "cpi_inflation": 2.358,
+        "real_wage_delta": 0.845
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.794,
+        "cpi_inflation": -1.788,
+        "real_wage_delta": 0.636
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "nominal_wage_growth": 3.346,
+        "cpi_inflation": 1.97,
+        "real_wage_delta": 1.376
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.069,
+        "cpi_inflation": -1.96,
+        "real_wage_delta": 1.903
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "nominal_wage_growth": 3.137,
+        "cpi_inflation": 2.755,
+        "real_wage_delta": 0.382
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.026,
+        "cpi_inflation": 0.782,
+        "real_wage_delta": -1.316
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "nominal_wage_growth": 3.134,
+        "cpi_inflation": 3.536,
+        "real_wage_delta": -0.402
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.915,
+        "cpi_inflation": 2.099,
+        "real_wage_delta": -2.141
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "nominal_wage_growth": 3.075,
+        "cpi_inflation": 4.306,
+        "real_wage_delta": -1.232
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.078,
+        "cpi_inflation": 2.255,
+        "real_wage_delta": -2.232
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "nominal_wage_growth": 2.818,
+        "cpi_inflation": 4.081,
+        "real_wage_delta": -1.263
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.832,
+        "cpi_inflation": 1.549,
+        "real_wage_delta": -1.752
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "nominal_wage_growth": 2.914,
+        "cpi_inflation": 4.28,
+        "real_wage_delta": -1.366
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.236,
+        "cpi_inflation": 1.526,
+        "real_wage_delta": -1.553
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "nominal_wage_growth": 2.853,
+        "cpi_inflation": 4.027,
+        "real_wage_delta": -1.174
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.316,
+        "cpi_inflation": 1.086,
+        "real_wage_delta": -1.205
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "nominal_wage_growth": 3.089,
+        "cpi_inflation": 3.981,
+        "real_wage_delta": -0.893
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.333,
+        "cpi_inflation": 0.95,
+        "real_wage_delta": -0.854
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "nominal_wage_growth": 2.838,
+        "cpi_inflation": 3.937,
+        "real_wage_delta": -1.099
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.263,
+        "cpi_inflation": 0.838,
+        "real_wage_delta": -0.989
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "nominal_wage_growth": 3.023,
+        "cpi_inflation": 4.176,
+        "real_wage_delta": -1.153
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.478,
+        "cpi_inflation": 1.059,
+        "real_wage_delta": -0.974
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "nominal_wage_growth": 2.721,
+        "cpi_inflation": 5.022,
+        "real_wage_delta": -2.301
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.559,
+        "cpi_inflation": 1.824,
+        "real_wage_delta": -1.838
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "nominal_wage_growth": 3.152,
+        "cpi_inflation": 5.6,
+        "real_wage_delta": -2.448
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.164,
+        "cpi_inflation": 2.07,
+        "real_wage_delta": -1.729
+      },
+      "events": [
+        {
+          "label": "Gas spike: buying power falls 2.5%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "nominal_wage_growth": 3.333,
+        "cpi_inflation": 5.372,
+        "real_wage_delta": -2.039
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.867,
+        "cpi_inflation": 1.638,
+        "real_wage_delta": -1.269
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "nominal_wage_growth": 3.279,
+        "cpi_inflation": 4.937,
+        "real_wage_delta": -1.657
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.619,
+        "cpi_inflation": 1.142,
+        "real_wage_delta": -0.898
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "nominal_wage_growth": 3.324,
+        "cpi_inflation": 3.655,
+        "real_wage_delta": -0.331
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.774,
+        "cpi_inflation": -0.079,
+        "real_wage_delta": 0.23
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "nominal_wage_growth": 3.504,
+        "cpi_inflation": 1.07,
+        "real_wage_delta": 2.434
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.425,
+        "cpi_inflation": -2.214,
+        "real_wage_delta": 2.242
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "nominal_wage_growth": 3.733,
+        "cpi_inflation": 0.091,
+        "real_wage_delta": 3.642
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.071,
+        "cpi_inflation": -2.508,
+        "real_wage_delta": 2.572
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "nominal_wage_growth": 3.634,
+        "cpi_inflation": 0.03,
+        "real_wage_delta": 3.604
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.562,
+        "cpi_inflation": -2.205,
+        "real_wage_delta": 2.2
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "nominal_wage_growth": 3.338,
+        "cpi_inflation": 0.236,
+        "real_wage_delta": 3.102
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.472,
+        "cpi_inflation": -1.863,
+        "real_wage_delta": 1.735
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "nominal_wage_growth": 3.23,
+        "cpi_inflation": -0.384,
+        "real_wage_delta": 3.614
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.072,
+        "cpi_inflation": -2.015,
+        "real_wage_delta": 1.839
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "nominal_wage_growth": 3.368,
+        "cpi_inflation": -0.737,
+        "real_wage_delta": 4.105
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.575,
+        "cpi_inflation": -1.999,
+        "real_wage_delta": 1.905
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "nominal_wage_growth": 3.027,
+        "cpi_inflation": -1.281,
+        "real_wage_delta": 4.309
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.707,
+        "cpi_inflation": -2.063,
+        "real_wage_delta": 1.839
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "nominal_wage_growth": 2.881,
+        "cpi_inflation": -1.427,
+        "real_wage_delta": 4.308
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.215,
+        "cpi_inflation": -1.947,
+        "real_wage_delta": 1.705
+      },
+      "events": [
+        {
+          "label": "Prices fall in recession: buying power up 4.3%",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "nominal_wage_growth": 2.685,
+        "cpi_inflation": -2.097,
+        "real_wage_delta": 4.782
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.813,
+        "cpi_inflation": -2.057,
+        "real_wage_delta": 1.78
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "nominal_wage_growth": 2.442,
+        "cpi_inflation": -1.484,
+        "real_wage_delta": 3.927
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.382,
+        "cpi_inflation": -1.663,
+        "real_wage_delta": 1.335
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "nominal_wage_growth": 2.485,
+        "cpi_inflation": -1.286,
+        "real_wage_delta": 3.771
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.044,
+        "cpi_inflation": -1.491,
+        "real_wage_delta": 1.216
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "nominal_wage_growth": 2.528,
+        "cpi_inflation": -0.183,
+        "real_wage_delta": 2.71
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.781,
+        "cpi_inflation": -0.984,
+        "real_wage_delta": 0.739
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "nominal_wage_growth": 2.196,
+        "cpi_inflation": 1.838,
+        "real_wage_delta": 0.357
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.469,
+        "cpi_inflation": -0.112,
+        "real_wage_delta": -0.281
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "nominal_wage_growth": 1.913,
+        "cpi_inflation": 2.721,
+        "real_wage_delta": -0.808
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.797,
+        "cpi_inflation": 0.27,
+        "real_wage_delta": -0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "nominal_wage_growth": 2.004,
+        "cpi_inflation": 2.626,
+        "real_wage_delta": -0.622
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.328,
+        "cpi_inflation": 0.224,
+        "real_wage_delta": -0.679
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "nominal_wage_growth": 2.184,
+        "cpi_inflation": 2.143,
+        "real_wage_delta": 0.04
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.8,
+        "cpi_inflation": 0.007,
+        "real_wage_delta": -0.377
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "nominal_wage_growth": 1.859,
+        "cpi_inflation": 2.314,
+        "real_wage_delta": -0.455
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.262,
+        "cpi_inflation": 0.091,
+        "real_wage_delta": -0.585
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "nominal_wage_growth": 1.765,
+        "cpi_inflation": 2.236,
+        "real_wage_delta": -0.472
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.211,
+        "cpi_inflation": 0.06,
+        "real_wage_delta": -0.578
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "nominal_wage_growth": 1.763,
+        "cpi_inflation": 2.021,
+        "real_wage_delta": -0.258
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.031,
+        "cpi_inflation": -0.03,
+        "real_wage_delta": -0.467
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "nominal_wage_growth": 1.762,
+        "cpi_inflation": 1.053,
+        "real_wage_delta": 0.708
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.888,
+        "cpi_inflation": -0.451,
+        "real_wage_delta": -0.032
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "nominal_wage_growth": 1.849,
+        "cpi_inflation": 1.235,
+        "real_wage_delta": 0.613
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.614,
+        "cpi_inflation": -0.353,
+        "real_wage_delta": -0.071
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "nominal_wage_growth": 1.754,
+        "cpi_inflation": 1.148,
+        "real_wage_delta": 0.606
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.655,
+        "cpi_inflation": -0.382,
+        "real_wage_delta": -0.065
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "nominal_wage_growth": 1.796,
+        "cpi_inflation": 1.144,
+        "real_wage_delta": 0.652
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.483,
+        "cpi_inflation": -0.363,
+        "real_wage_delta": -0.048
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "nominal_wage_growth": 1.883,
+        "cpi_inflation": 1.172,
+        "real_wage_delta": 0.71
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.264,
+        "cpi_inflation": -0.322,
+        "real_wage_delta": -0.036
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "nominal_wage_growth": 1.746,
+        "cpi_inflation": 1.143,
+        "real_wage_delta": 0.603
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.393,
+        "cpi_inflation": -0.3,
+        "real_wage_delta": -0.108
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "nominal_wage_growth": 1.743,
+        "cpi_inflation": 1.496,
+        "real_wage_delta": 0.248
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.318,
+        "cpi_inflation": -0.105,
+        "real_wage_delta": -0.292
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "nominal_wage_growth": 2.098,
+        "cpi_inflation": 1.632,
+        "real_wage_delta": 0.466
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.734,
+        "cpi_inflation": -0.006,
+        "real_wage_delta": -0.218
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "nominal_wage_growth": 1.825,
+        "cpi_inflation": 2.108,
+        "real_wage_delta": -0.282
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.092,
+        "cpi_inflation": 0.254,
+        "real_wage_delta": -0.585
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "nominal_wage_growth": 1.825,
+        "cpi_inflation": 2.682,
+        "real_wage_delta": -0.856
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.033,
+        "cpi_inflation": 0.563,
+        "real_wage_delta": -0.857
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "nominal_wage_growth": 1.867,
+        "cpi_inflation": 3.164,
+        "real_wage_delta": -1.296
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.921,
+        "cpi_inflation": 0.824,
+        "real_wage_delta": -1.059
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "nominal_wage_growth": 2.044,
+        "cpi_inflation": 3.569,
+        "real_wage_delta": -1.525
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.621,
+        "cpi_inflation": 1.048,
+        "real_wage_delta": -1.156
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "nominal_wage_growth": 2.086,
+        "cpi_inflation": 3.559,
+        "real_wage_delta": -1.473
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.53,
+        "cpi_inflation": 1.096,
+        "real_wage_delta": -1.159
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "nominal_wage_growth": 2.302,
+        "cpi_inflation": 3.629,
+        "real_wage_delta": -1.327
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.176,
+        "cpi_inflation": 1.222,
+        "real_wage_delta": -1.127
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "nominal_wage_growth": 1.945,
+        "cpi_inflation": 3.771,
+        "real_wage_delta": -1.826
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.672,
+        "cpi_inflation": 1.387,
+        "real_wage_delta": -1.378
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "nominal_wage_growth": 1.941,
+        "cpi_inflation": 3.868,
+        "real_wage_delta": -1.927
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.635,
+        "cpi_inflation": 1.506,
+        "real_wage_delta": -1.416
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "nominal_wage_growth": 1.98,
+        "cpi_inflation": 3.525,
+        "real_wage_delta": -1.545
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.531,
+        "cpi_inflation": 1.307,
+        "real_wage_delta": -1.197
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "nominal_wage_growth": 2.024,
+        "cpi_inflation": 3.394,
+        "real_wage_delta": -1.371
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.415,
+        "cpi_inflation": 1.167,
+        "real_wage_delta": -1.053
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "nominal_wage_growth": 2.021,
+        "cpi_inflation": 2.962,
+        "real_wage_delta": -0.941
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.373,
+        "cpi_inflation": 0.865,
+        "real_wage_delta": -0.803
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "nominal_wage_growth": 1.705,
+        "cpi_inflation": 2.925,
+        "real_wage_delta": -1.22
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.968,
+        "cpi_inflation": 0.797,
+        "real_wage_delta": -0.887
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "nominal_wage_growth": 1.793,
+        "cpi_inflation": 2.871,
+        "real_wage_delta": -1.078
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.756,
+        "cpi_inflation": 0.723,
+        "real_wage_delta": -0.772
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "nominal_wage_growth": 2.143,
+        "cpi_inflation": 2.651,
+        "real_wage_delta": -0.509
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.135,
+        "cpi_inflation": 0.553,
+        "real_wage_delta": -0.447
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "nominal_wage_growth": 2.095,
+        "cpi_inflation": 2.303,
+        "real_wage_delta": -0.208
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.125,
+        "cpi_inflation": 0.304,
+        "real_wage_delta": -0.245
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "nominal_wage_growth": 1.916,
+        "cpi_inflation": 1.704,
+        "real_wage_delta": 0.211
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.385,
+        "cpi_inflation": -0.122,
+        "real_wage_delta": 0.047
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "nominal_wage_growth": 2.0,
+        "cpi_inflation": 1.664,
+        "real_wage_delta": 0.336
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.004,
+        "cpi_inflation": -0.219,
+        "real_wage_delta": 0.201
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "nominal_wage_growth": 1.644,
+        "cpi_inflation": 1.408,
+        "real_wage_delta": 0.236
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.498,
+        "cpi_inflation": -0.529,
+        "real_wage_delta": 0.254
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "nominal_wage_growth": 1.821,
+        "cpi_inflation": 1.692,
+        "real_wage_delta": 0.129
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.646,
+        "cpi_inflation": -0.425,
+        "real_wage_delta": 0.293
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "nominal_wage_growth": 1.99,
+        "cpi_inflation": 1.991,
+        "real_wage_delta": -0.001
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.281,
+        "cpi_inflation": -0.279,
+        "real_wage_delta": 0.332
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "nominal_wage_growth": 1.639,
+        "cpi_inflation": 2.162,
+        "real_wage_delta": -0.523
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.716,
+        "cpi_inflation": -0.185,
+        "real_wage_delta": -0.147
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "nominal_wage_growth": 1.897,
+        "cpi_inflation": 1.764,
+        "real_wage_delta": 0.133
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.058,
+        "cpi_inflation": -0.649,
+        "real_wage_delta": 0.687
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "nominal_wage_growth": 2.153,
+        "cpi_inflation": 1.741,
+        "real_wage_delta": 0.412
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.518,
+        "cpi_inflation": -0.642,
+        "real_wage_delta": 0.986
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "nominal_wage_growth": 2.064,
+        "cpi_inflation": 1.595,
+        "real_wage_delta": 0.469
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.934,
+        "cpi_inflation": -0.774,
+        "real_wage_delta": 1.005
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "nominal_wage_growth": 2.148,
+        "cpi_inflation": 1.978,
+        "real_wage_delta": 0.17
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.482,
+        "cpi_inflation": -0.324,
+        "real_wage_delta": 0.631
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "nominal_wage_growth": 1.884,
+        "cpi_inflation": 1.474,
+        "real_wage_delta": 0.41
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.194,
+        "cpi_inflation": -0.872,
+        "real_wage_delta": 0.886
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "nominal_wage_growth": 2.052,
+        "cpi_inflation": 1.063,
+        "real_wage_delta": 0.989
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.826,
+        "cpi_inflation": -1.275,
+        "real_wage_delta": 1.491
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "nominal_wage_growth": 2.05,
+        "cpi_inflation": 1.362,
+        "real_wage_delta": 0.688
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.769,
+        "cpi_inflation": -0.909,
+        "real_wage_delta": 1.088
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "nominal_wage_growth": 2.131,
+        "cpi_inflation": 1.754,
+        "real_wage_delta": 0.377
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.215,
+        "cpi_inflation": -0.506,
+        "real_wage_delta": 0.746
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "nominal_wage_growth": 2.086,
+        "cpi_inflation": 1.961,
+        "real_wage_delta": 0.125
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.879,
+        "cpi_inflation": -0.301,
+        "real_wage_delta": 0.474
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "nominal_wage_growth": 2.3,
+        "cpi_inflation": 1.518,
+        "real_wage_delta": 0.781
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.047,
+        "cpi_inflation": -0.83,
+        "real_wage_delta": 1.235
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "nominal_wage_growth": 2.079,
+        "cpi_inflation": 1.185,
+        "real_wage_delta": 0.894
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.666,
+        "cpi_inflation": -1.22,
+        "real_wage_delta": 1.346
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "nominal_wage_growth": 2.25,
+        "cpi_inflation": 0.964,
+        "real_wage_delta": 1.286
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.593,
+        "cpi_inflation": -1.457,
+        "real_wage_delta": 1.737
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "nominal_wage_growth": 2.243,
+        "cpi_inflation": 1.237,
+        "real_wage_delta": 1.006
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.466,
+        "cpi_inflation": -1.15,
+        "real_wage_delta": 1.386
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "nominal_wage_growth": 1.939,
+        "cpi_inflation": 1.502,
+        "real_wage_delta": 0.438
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.366,
+        "cpi_inflation": -0.844,
+        "real_wage_delta": 0.744
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "nominal_wage_growth": 2.022,
+        "cpi_inflation": 1.579,
+        "real_wage_delta": 0.443
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.15,
+        "cpi_inflation": -0.752,
+        "real_wage_delta": 0.751
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "nominal_wage_growth": 2.313,
+        "cpi_inflation": 1.126,
+        "real_wage_delta": 1.187
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.785,
+        "cpi_inflation": -1.217,
+        "real_wage_delta": 1.483
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "nominal_wage_growth": 2.143,
+        "cpi_inflation": 1.512,
+        "real_wage_delta": 0.631
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.735,
+        "cpi_inflation": -0.741,
+        "real_wage_delta": 0.838
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "nominal_wage_growth": 1.969,
+        "cpi_inflation": 1.953,
+        "real_wage_delta": 0.016
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.323,
+        "cpi_inflation": -0.211,
+        "real_wage_delta": 0.143
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "nominal_wage_growth": 2.135,
+        "cpi_inflation": 2.127,
+        "real_wage_delta": 0.008
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.658,
+        "cpi_inflation": 0.036,
+        "real_wage_delta": 0.09
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "nominal_wage_growth": 2.087,
+        "cpi_inflation": 2.072,
+        "real_wage_delta": 0.014
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.37,
+        "cpi_inflation": 0.021,
+        "real_wage_delta": 0.053
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "nominal_wage_growth": 2.085,
+        "cpi_inflation": 1.992,
+        "real_wage_delta": 0.093
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.411,
+        "cpi_inflation": -0.023,
+        "real_wage_delta": 0.102
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "nominal_wage_growth": 2.165,
+        "cpi_inflation": 1.7,
+        "real_wage_delta": 0.465
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.864,
+        "cpi_inflation": -0.363,
+        "real_wage_delta": 0.516
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "nominal_wage_growth": 2.078,
+        "cpi_inflation": 1.658,
+        "real_wage_delta": 0.42
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.305,
+        "cpi_inflation": -0.378,
+        "real_wage_delta": 0.413
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "nominal_wage_growth": 2.076,
+        "cpi_inflation": 1.664,
+        "real_wage_delta": 0.411
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.272,
+        "cpi_inflation": -0.317,
+        "real_wage_delta": 0.352
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "nominal_wage_growth": 2.07,
+        "cpi_inflation": 1.322,
+        "real_wage_delta": 0.747
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.227,
+        "cpi_inflation": -0.934,
+        "real_wage_delta": 0.871
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "nominal_wage_growth": 1.861,
+        "cpi_inflation": 0.756,
+        "real_wage_delta": 1.105
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.022,
+        "cpi_inflation": -2.016,
+        "real_wage_delta": 1.449
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "nominal_wage_growth": 2.147,
+        "cpi_inflation": -0.089,
+        "real_wage_delta": 2.236
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.683,
+        "cpi_inflation": -3.308,
+        "real_wage_delta": 3.184
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "nominal_wage_growth": 1.891,
+        "cpi_inflation": -0.025,
+        "real_wage_delta": 1.916
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.006,
+        "cpi_inflation": -2.887,
+        "real_wage_delta": 2.499
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "nominal_wage_growth": 2.221,
+        "cpi_inflation": -0.074,
+        "real_wage_delta": 2.295
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.141,
+        "cpi_inflation": -2.686,
+        "real_wage_delta": 2.792
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "nominal_wage_growth": 2.26,
+        "cpi_inflation": -0.2,
+        "real_wage_delta": 2.459
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.328,
+        "cpi_inflation": -2.58,
+        "real_wage_delta": 2.679
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "nominal_wage_growth": 2.336,
+        "cpi_inflation": -0.04,
+        "real_wage_delta": 2.376
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.684,
+        "cpi_inflation": -2.106,
+        "real_wage_delta": 2.289
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "nominal_wage_growth": 2.085,
+        "cpi_inflation": 0.124,
+        "real_wage_delta": 1.961
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.128,
+        "cpi_inflation": -1.723,
+        "real_wage_delta": 1.605
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "nominal_wage_growth": 2.165,
+        "cpi_inflation": 0.17,
+        "real_wage_delta": 1.995
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.588,
+        "cpi_inflation": -1.552,
+        "real_wage_delta": 1.54
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "nominal_wage_growth": 2.282,
+        "cpi_inflation": 0.195,
+        "real_wage_delta": 2.087
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.323,
+        "cpi_inflation": -1.422,
+        "real_wage_delta": 1.549
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "nominal_wage_growth": 2.239,
+        "cpi_inflation": -0.036,
+        "real_wage_delta": 2.276
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.973,
+        "cpi_inflation": -1.62,
+        "real_wage_delta": 1.664
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "nominal_wage_growth": 2.481,
+        "cpi_inflation": 0.171,
+        "real_wage_delta": 2.31
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.628,
+        "cpi_inflation": -1.274,
+        "real_wage_delta": 1.621
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "nominal_wage_growth": 2.393,
+        "cpi_inflation": 0.502,
+        "real_wage_delta": 1.891
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.86,
+        "cpi_inflation": -0.79,
+        "real_wage_delta": 1.046
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "nominal_wage_growth": 2.517,
+        "cpi_inflation": 0.73,
+        "real_wage_delta": 1.788
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.448,
+        "cpi_inflation": -0.454,
+        "real_wage_delta": 0.871
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "nominal_wage_growth": 2.546,
+        "cpi_inflation": 1.373,
+        "real_wage_delta": 1.173
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.352,
+        "cpi_inflation": 0.417,
+        "real_wage_delta": 0.095
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "nominal_wage_growth": 2.38,
+        "cpi_inflation": 1.018,
+        "real_wage_delta": 1.362
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.272,
+        "cpi_inflation": -0.025,
+        "real_wage_delta": 0.292
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "nominal_wage_growth": 2.414,
+        "cpi_inflation": 0.853,
+        "real_wage_delta": 1.562
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.406,
+        "cpi_inflation": -0.229,
+        "real_wage_delta": 0.507
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "nominal_wage_growth": 2.571,
+        "cpi_inflation": 1.125,
+        "real_wage_delta": 1.446
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.128,
+        "cpi_inflation": 0.144,
+        "real_wage_delta": 0.344
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "nominal_wage_growth": 2.443,
+        "cpi_inflation": 1.019,
+        "real_wage_delta": 1.424
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.32,
+        "cpi_inflation": 0.011,
+        "real_wage_delta": 0.291
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "nominal_wage_growth": 2.603,
+        "cpi_inflation": 0.997,
+        "real_wage_delta": 1.606
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.015,
+        "cpi_inflation": 0.01,
+        "real_wage_delta": 0.485
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "nominal_wage_growth": 2.719,
+        "cpi_inflation": 0.827,
+        "real_wage_delta": 1.892
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.34,
+        "cpi_inflation": -0.19,
+        "real_wage_delta": 0.806
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "nominal_wage_growth": 2.43,
+        "cpi_inflation": 1.063,
+        "real_wage_delta": 1.367
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.913,
+        "cpi_inflation": 0.17,
+        "real_wage_delta": 0.097
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "nominal_wage_growth": 2.628,
+        "cpi_inflation": 1.464,
+        "real_wage_delta": 1.165
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.727,
+        "cpi_inflation": 0.738,
+        "real_wage_delta": -0.181
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "nominal_wage_growth": 2.778,
+        "cpi_inflation": 1.636,
+        "real_wage_delta": 1.142
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.184,
+        "cpi_inflation": 0.947,
+        "real_wage_delta": -0.206
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "nominal_wage_growth": 2.574,
+        "cpi_inflation": 1.693,
+        "real_wage_delta": 0.882
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.241,
+        "cpi_inflation": 0.998,
+        "real_wage_delta": -0.545
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "nominal_wage_growth": 2.693,
+        "cpi_inflation": 2.075,
+        "real_wage_delta": 0.618
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.637,
+        "cpi_inflation": 1.477,
+        "real_wage_delta": -0.906
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "nominal_wage_growth": 2.483,
+        "cpi_inflation": 2.5,
+        "real_wage_delta": -0.017
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.718,
+        "cpi_inflation": 1.934,
+        "real_wage_delta": -1.693
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "nominal_wage_growth": 2.719,
+        "cpi_inflation": 2.738,
+        "real_wage_delta": -0.019
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.601,
+        "cpi_inflation": 2.052,
+        "real_wage_delta": -1.592
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "nominal_wage_growth": 2.593,
+        "cpi_inflation": 2.381,
+        "real_wage_delta": 0.213
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.034,
+        "cpi_inflation": 1.535,
+        "real_wage_delta": -1.269
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "nominal_wage_growth": 2.546,
+        "cpi_inflation": 2.2,
+        "real_wage_delta": 0.346
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.797,
+        "cpi_inflation": 1.298,
+        "real_wage_delta": -1.132
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "nominal_wage_growth": 2.463,
+        "cpi_inflation": 1.875,
+        "real_wage_delta": 0.588
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.421,
+        "cpi_inflation": 0.93,
+        "real_wage_delta": -0.871
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "nominal_wage_growth": 2.498,
+        "cpi_inflation": 1.633,
+        "real_wage_delta": 0.865
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.527,
+        "cpi_inflation": 0.666,
+        "real_wage_delta": -0.565
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "nominal_wage_growth": 2.569,
+        "cpi_inflation": 1.728,
+        "real_wage_delta": 0.841
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.78,
+        "cpi_inflation": 0.796,
+        "real_wage_delta": -0.644
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "nominal_wage_growth": 2.567,
+        "cpi_inflation": 1.939,
+        "real_wage_delta": 0.628
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.728,
+        "cpi_inflation": 1.037,
+        "real_wage_delta": -0.948
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "nominal_wage_growth": 2.794,
+        "cpi_inflation": 2.233,
+        "real_wage_delta": 0.561
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.601,
+        "cpi_inflation": 1.347,
+        "real_wage_delta": -1.052
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "nominal_wage_growth": 2.317,
+        "cpi_inflation": 2.041,
+        "real_wage_delta": 0.275
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.472,
+        "cpi_inflation": 1.095,
+        "real_wage_delta": -1.433
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "nominal_wage_growth": 2.471,
+        "cpi_inflation": 2.203,
+        "real_wage_delta": 0.268
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.161,
+        "cpi_inflation": 1.23,
+        "real_wage_delta": -1.397
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "nominal_wage_growth": 2.7,
+        "cpi_inflation": 2.109,
+        "real_wage_delta": 0.59
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.191,
+        "cpi_inflation": 1.064,
+        "real_wage_delta": -0.932
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "nominal_wage_growth": 2.769,
+        "cpi_inflation": 2.071,
+        "real_wage_delta": 0.699
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.456,
+        "cpi_inflation": 0.968,
+        "real_wage_delta": -0.741
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "nominal_wage_growth": 2.57,
+        "cpi_inflation": 2.212,
+        "real_wage_delta": 0.358
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.427,
+        "cpi_inflation": 1.075,
+        "real_wage_delta": -1.137
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "nominal_wage_growth": 2.834,
+        "cpi_inflation": 2.36,
+        "real_wage_delta": 0.474
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.808,
+        "cpi_inflation": 1.189,
+        "real_wage_delta": -0.93
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "nominal_wage_growth": 2.788,
+        "cpi_inflation": 2.463,
+        "real_wage_delta": 0.326
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.466,
+        "cpi_inflation": 1.259,
+        "real_wage_delta": -1.086
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "nominal_wage_growth": 2.938,
+        "cpi_inflation": 2.801,
+        "real_wage_delta": 0.137
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.099,
+        "cpi_inflation": 1.594,
+        "real_wage_delta": -1.298
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "nominal_wage_growth": 2.932,
+        "cpi_inflation": 2.872,
+        "real_wage_delta": 0.061
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.008,
+        "cpi_inflation": 1.597,
+        "real_wage_delta": -1.333
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "nominal_wage_growth": 2.846,
+        "cpi_inflation": 2.95,
+        "real_wage_delta": -0.103
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.493,
+        "cpi_inflation": 1.611,
+        "real_wage_delta": -1.486
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "nominal_wage_growth": 3.185,
+        "cpi_inflation": 2.699,
+        "real_wage_delta": 0.486
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.978,
+        "cpi_inflation": 1.245,
+        "real_wage_delta": -0.586
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "nominal_wage_growth": 3.133,
+        "cpi_inflation": 2.277,
+        "real_wage_delta": 0.856
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.477,
+        "cpi_inflation": 0.664,
+        "real_wage_delta": 0.034
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "nominal_wage_growth": 3.283,
+        "cpi_inflation": 2.522,
+        "real_wage_delta": 0.761
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.772,
+        "cpi_inflation": 0.977,
+        "real_wage_delta": -0.056
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "nominal_wage_growth": 3.391,
+        "cpi_inflation": 2.177,
+        "real_wage_delta": 1.215
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.81,
+        "cpi_inflation": 0.417,
+        "real_wage_delta": 0.818
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "nominal_wage_growth": 3.492,
+        "cpi_inflation": 1.91,
+        "real_wage_delta": 1.582
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.763,
+        "cpi_inflation": -0.059,
+        "real_wage_delta": 1.537
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "nominal_wage_growth": 3.256,
+        "cpi_inflation": 1.551,
+        "real_wage_delta": 1.705
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.779,
+        "cpi_inflation": -0.67,
+        "real_wage_delta": 1.683
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "nominal_wage_growth": 3.553,
+        "cpi_inflation": 1.52,
+        "real_wage_delta": 2.033
+      },
+      "zscores": {
+        "nominal_wage_growth": 2.481,
+        "cpi_inflation": -0.766,
+        "real_wage_delta": 2.131
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "nominal_wage_growth": 3.426,
+        "cpi_inflation": 1.863,
+        "real_wage_delta": 1.564
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.92,
+        "cpi_inflation": -0.237,
+        "real_wage_delta": 1.32
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "nominal_wage_growth": 3.27,
+        "cpi_inflation": 1.996,
+        "real_wage_delta": 1.274
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.359,
+        "cpi_inflation": -0.038,
+        "real_wage_delta": 0.833
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "nominal_wage_growth": 3.336,
+        "cpi_inflation": 1.79,
+        "real_wage_delta": 1.546
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.46,
+        "cpi_inflation": -0.492,
+        "real_wage_delta": 1.292
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "nominal_wage_growth": 3.478,
+        "cpi_inflation": 1.648,
+        "real_wage_delta": 1.829
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.737,
+        "cpi_inflation": -0.856,
+        "real_wage_delta": 1.743
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "nominal_wage_growth": 3.432,
+        "cpi_inflation": 1.811,
+        "real_wage_delta": 1.62
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.504,
+        "cpi_inflation": -0.631,
+        "real_wage_delta": 1.43
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "nominal_wage_growth": 3.418,
+        "cpi_inflation": 1.75,
+        "real_wage_delta": 1.668
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.383,
+        "cpi_inflation": -0.883,
+        "real_wage_delta": 1.472
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "nominal_wage_growth": 3.075,
+        "cpi_inflation": 1.711,
+        "real_wage_delta": 1.363
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.419,
+        "cpi_inflation": -1.019,
+        "real_wage_delta": 0.935
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "nominal_wage_growth": 3.179,
+        "cpi_inflation": 1.764,
+        "real_wage_delta": 1.415
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.67,
+        "cpi_inflation": -0.902,
+        "real_wage_delta": 0.999
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "nominal_wage_growth": 3.28,
+        "cpi_inflation": 2.051,
+        "real_wage_delta": 1.229
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.894,
+        "cpi_inflation": -0.188,
+        "real_wage_delta": 0.667
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "nominal_wage_growth": 2.975,
+        "cpi_inflation": 2.285,
+        "real_wage_delta": 0.69
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.042,
+        "cpi_inflation": 0.41,
+        "real_wage_delta": -0.236
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "nominal_wage_growth": 3.045,
+        "cpi_inflation": 2.487,
+        "real_wage_delta": 0.558
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.194,
+        "cpi_inflation": 0.941,
+        "real_wage_delta": -0.496
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "nominal_wage_growth": 3.07,
+        "cpi_inflation": 2.335,
+        "real_wage_delta": 0.735
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.239,
+        "cpi_inflation": 0.591,
+        "real_wage_delta": -0.236
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "nominal_wage_growth": 3.457,
+        "cpi_inflation": 1.539,
+        "real_wage_delta": 1.918
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.262,
+        "cpi_inflation": -1.468,
+        "real_wage_delta": 1.73
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "nominal_wage_growth": 8.096,
+        "cpi_inflation": 0.329,
+        "real_wage_delta": 7.767
+      },
+      "zscores": {
+        "nominal_wage_growth": 5.465,
+        "cpi_inflation": -3.602,
+        "real_wage_delta": 5.273
+      },
+      "events": [
+        {
+          "label": "Low-paid job losses lift the average wage",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "nominal_wage_growth": 6.6,
+        "cpi_inflation": 0.118,
+        "real_wage_delta": 6.482
+      },
+      "zscores": {
+        "nominal_wage_growth": 3.144,
+        "cpi_inflation": -3.285,
+        "real_wage_delta": 3.389
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "nominal_wage_growth": 5.041,
+        "cpi_inflation": 0.646,
+        "real_wage_delta": 4.395
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.557,
+        "cpi_inflation": -2.164,
+        "real_wage_delta": 1.866
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "nominal_wage_growth": 4.852,
+        "cpi_inflation": 0.986,
+        "real_wage_delta": 3.866
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.302,
+        "cpi_inflation": -1.523,
+        "real_wage_delta": 1.443
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "nominal_wage_growth": 4.797,
+        "cpi_inflation": 1.31,
+        "real_wage_delta": 3.488
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.182,
+        "cpi_inflation": -0.968,
+        "real_wage_delta": 1.15
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "nominal_wage_growth": 4.794,
+        "cpi_inflation": 1.371,
+        "real_wage_delta": 3.423
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.115,
+        "cpi_inflation": -0.828,
+        "real_wage_delta": 1.052
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "nominal_wage_growth": 4.603,
+        "cpi_inflation": 1.182,
+        "real_wage_delta": 3.421
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.896,
+        "cpi_inflation": -1.069,
+        "real_wage_delta": 0.995
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "nominal_wage_growth": 4.587,
+        "cpi_inflation": 1.175,
+        "real_wage_delta": 3.413
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.833,
+        "cpi_inflation": -1.024,
+        "real_wage_delta": 0.937
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "nominal_wage_growth": 5.391,
+        "cpi_inflation": 1.362,
+        "real_wage_delta": 4.029
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.452,
+        "cpi_inflation": -0.706,
+        "real_wage_delta": 1.222
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "nominal_wage_growth": 5.276,
+        "cpi_inflation": 1.4,
+        "real_wage_delta": 3.876
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.273,
+        "cpi_inflation": -0.618,
+        "real_wage_delta": 1.073
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "nominal_wage_growth": 5.291,
+        "cpi_inflation": 1.676,
+        "real_wage_delta": 3.615
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.214,
+        "cpi_inflation": -0.182,
+        "real_wage_delta": 0.874
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "nominal_wage_growth": 4.525,
+        "cpi_inflation": 2.62,
+        "real_wage_delta": 1.905
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.522,
+        "cpi_inflation": 1.216,
+        "real_wage_delta": -0.121
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "nominal_wage_growth": 0.599,
+        "cpi_inflation": 4.16,
+        "real_wage_delta": -3.56
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.568,
+        "cpi_inflation": 3.007,
+        "real_wage_delta": -2.848
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "nominal_wage_growth": 2.322,
+        "cpi_inflation": 4.993,
+        "real_wage_delta": -2.671
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.182,
+        "cpi_inflation": 3.371,
+        "real_wage_delta": -2.211
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "nominal_wage_growth": 3.948,
+        "cpi_inflation": 5.391,
+        "real_wage_delta": -1.443
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.062,
+        "cpi_inflation": 3.192,
+        "real_wage_delta": -1.562
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "nominal_wage_growth": 4.321,
+        "cpi_inflation": 5.365,
+        "real_wage_delta": -1.044
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.324,
+        "cpi_inflation": 2.775,
+        "real_wage_delta": -1.344
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "nominal_wage_growth": 4.374,
+        "cpi_inflation": 5.251,
+        "real_wage_delta": -0.877
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.341,
+        "cpi_inflation": 2.404,
+        "real_wage_delta": -1.229
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "nominal_wage_growth": 4.981,
+        "cpi_inflation": 5.39,
+        "real_wage_delta": -0.409
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.779,
+        "cpi_inflation": 2.26,
+        "real_wage_delta": -0.989
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "nominal_wage_growth": 5.416,
+        "cpi_inflation": 6.222,
+        "real_wage_delta": -0.805
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.063,
+        "cpi_inflation": 2.515,
+        "real_wage_delta": -1.13
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "nominal_wage_growth": 5.364,
+        "cpi_inflation": 6.809,
+        "real_wage_delta": -1.445
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.97,
+        "cpi_inflation": 2.538,
+        "real_wage_delta": -1.345
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "nominal_wage_growth": 4.948,
+        "cpi_inflation": 7.036,
+        "real_wage_delta": -2.088
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.616,
+        "cpi_inflation": 2.374,
+        "real_wage_delta": -1.526
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "nominal_wage_growth": 5.58,
+        "cpi_inflation": 7.48,
+        "real_wage_delta": -1.9
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.044,
+        "cpi_inflation": 2.329,
+        "real_wage_delta": -1.368
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "nominal_wage_growth": 5.291,
+        "cpi_inflation": 7.871,
+        "real_wage_delta": -2.58
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.782,
+        "cpi_inflation": 2.261,
+        "real_wage_delta": -1.538
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "nominal_wage_growth": 5.894,
+        "cpi_inflation": 8.542,
+        "real_wage_delta": -2.648
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.172,
+        "cpi_inflation": 2.296,
+        "real_wage_delta": -1.471
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "nominal_wage_growth": 5.758,
+        "cpi_inflation": 8.259,
+        "real_wage_delta": -2.501
+      },
+      "zscores": {
+        "nominal_wage_growth": 1.012,
+        "cpi_inflation": 1.987,
+        "real_wage_delta": -1.34
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "nominal_wage_growth": 5.557,
+        "cpi_inflation": 8.582,
+        "real_wage_delta": -3.024
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.816,
+        "cpi_inflation": 1.938,
+        "real_wage_delta": -1.442
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "nominal_wage_growth": 5.403,
+        "cpi_inflation": 9.06,
+        "real_wage_delta": -3.657
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.662,
+        "cpi_inflation": 1.941,
+        "real_wage_delta": -1.56
+      },
+      "events": [
+        {
+          "label": "Worst squeeze: 5.4% raises vs 9.1% inflation",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "nominal_wage_growth": 5.479,
+        "cpi_inflation": 8.525,
+        "real_wage_delta": -3.045
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.679,
+        "cpi_inflation": 1.627,
+        "real_wage_delta": -1.273
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "nominal_wage_growth": 5.393,
+        "cpi_inflation": 8.263,
+        "real_wage_delta": -2.87
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.577,
+        "cpi_inflation": 1.439,
+        "real_wage_delta": -1.15
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "nominal_wage_growth": 5.132,
+        "cpi_inflation": 8.202,
+        "real_wage_delta": -3.069
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.344,
+        "cpi_inflation": 1.334,
+        "real_wage_delta": -1.154
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "nominal_wage_growth": 5.01,
+        "cpi_inflation": 7.745,
+        "real_wage_delta": -2.736
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.215,
+        "cpi_inflation": 1.116,
+        "real_wage_delta": -0.995
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "nominal_wage_growth": 5.091,
+        "cpi_inflation": 7.11,
+        "real_wage_delta": -2.019
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.243,
+        "cpi_inflation": 0.857,
+        "real_wage_delta": -0.729
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "nominal_wage_growth": 4.938,
+        "cpi_inflation": 6.454,
+        "real_wage_delta": -1.517
+      },
+      "zscores": {
+        "nominal_wage_growth": 0.08,
+        "cpi_inflation": 0.602,
+        "real_wage_delta": -0.546
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "nominal_wage_growth": 4.494,
+        "cpi_inflation": 6.41,
+        "real_wage_delta": -1.916
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.326,
+        "cpi_inflation": 0.553,
+        "real_wage_delta": -0.648
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "nominal_wage_growth": 4.772,
+        "cpi_inflation": 6.036,
+        "real_wage_delta": -1.263
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.135,
+        "cpi_inflation": 0.396,
+        "real_wage_delta": -0.422
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "nominal_wage_growth": 4.623,
+        "cpi_inflation": 4.985,
+        "real_wage_delta": -0.362
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.301,
+        "cpi_inflation": 0.011,
+        "real_wage_delta": -0.117
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "nominal_wage_growth": 4.599,
+        "cpi_inflation": 4.93,
+        "real_wage_delta": -0.331
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.267,
+        "cpi_inflation": -0.054,
+        "real_wage_delta": -0.039
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "nominal_wage_growth": 4.361,
+        "cpi_inflation": 4.048,
+        "real_wage_delta": 0.314
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.465,
+        "cpi_inflation": -0.424,
+        "real_wage_delta": 0.268
+      },
+      "events": [
+        {
+          "label": "Raises beat inflation again",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "nominal_wage_growth": 4.66,
+        "cpi_inflation": 2.969,
+        "real_wage_delta": 1.691
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.138,
+        "cpi_inflation": -0.876,
+        "real_wage_delta": 0.855
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "nominal_wage_growth": 4.669,
+        "cpi_inflation": 3.178,
+        "real_wage_delta": 1.491
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.122,
+        "cpi_inflation": -0.844,
+        "real_wage_delta": 0.83
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "nominal_wage_growth": 4.47,
+        "cpi_inflation": 3.665,
+        "real_wage_delta": 0.805
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.324,
+        "cpi_inflation": -0.698,
+        "real_wage_delta": 0.6
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "nominal_wage_growth": 4.421,
+        "cpi_inflation": 3.7,
+        "real_wage_delta": 0.722
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.363,
+        "cpi_inflation": -0.733,
+        "real_wage_delta": 0.62
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "nominal_wage_growth": 4.22,
+        "cpi_inflation": 3.241,
+        "real_wage_delta": 0.979
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.562,
+        "cpi_inflation": -0.982,
+        "real_wage_delta": 0.795
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "nominal_wage_growth": 4.113,
+        "cpi_inflation": 3.137,
+        "real_wage_delta": 0.976
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.657,
+        "cpi_inflation": -1.09,
+        "real_wage_delta": 0.862
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "nominal_wage_growth": 4.098,
+        "cpi_inflation": 3.352,
+        "real_wage_delta": 0.746
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.636,
+        "cpi_inflation": -1.057,
+        "real_wage_delta": 0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "nominal_wage_growth": 4.391,
+        "cpi_inflation": 3.091,
+        "real_wage_delta": 1.3
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.304,
+        "cpi_inflation": -1.245,
+        "real_wage_delta": 1.269
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "nominal_wage_growth": 4.133,
+        "cpi_inflation": 3.153,
+        "real_wage_delta": 0.98
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.543,
+        "cpi_inflation": -1.275,
+        "real_wage_delta": 1.227
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "nominal_wage_growth": 4.148,
+        "cpi_inflation": 3.477,
+        "real_wage_delta": 0.67
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.515,
+        "cpi_inflation": -1.143,
+        "real_wage_delta": 1.094
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "nominal_wage_growth": 3.978,
+        "cpi_inflation": 3.357,
+        "real_wage_delta": 0.621
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.113,
+        "cpi_inflation": -1.18,
+        "real_wage_delta": 1.011
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "nominal_wage_growth": 4.149,
+        "cpi_inflation": 3.269,
+        "real_wage_delta": 0.88
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.15,
+        "cpi_inflation": -1.178,
+        "real_wage_delta": 1.112
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "nominal_wage_growth": 3.918,
+        "cpi_inflation": 2.971,
+        "real_wage_delta": 0.947
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.564,
+        "cpi_inflation": -1.263,
+        "real_wage_delta": 1.095
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "nominal_wage_growth": 3.634,
+        "cpi_inflation": 2.895,
+        "real_wage_delta": 0.739
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.949,
+        "cpi_inflation": -1.239,
+        "real_wage_delta": 0.923
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "nominal_wage_growth": 3.924,
+        "cpi_inflation": 2.531,
+        "real_wage_delta": 1.394
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.395,
+        "cpi_inflation": -1.339,
+        "real_wage_delta": 1.259
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "nominal_wage_growth": 3.911,
+        "cpi_inflation": 2.441,
+        "real_wage_delta": 1.47
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.335,
+        "cpi_inflation": -1.31,
+        "real_wage_delta": 1.246
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "nominal_wage_growth": 4.049,
+        "cpi_inflation": 2.598,
+        "real_wage_delta": 1.451
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.048,
+        "cpi_inflation": -1.173,
+        "real_wage_delta": 1.174
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "nominal_wage_growth": 4.185,
+        "cpi_inflation": 2.749,
+        "real_wage_delta": 1.436
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.777,
+        "cpi_inflation": -1.047,
+        "real_wage_delta": 1.103
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "nominal_wage_growth": 4.083,
+        "cpi_inflation": 2.888,
+        "real_wage_delta": 1.195
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.9,
+        "cpi_inflation": -0.933,
+        "real_wage_delta": 0.913
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "nominal_wage_growth": 3.974,
+        "cpi_inflation": 3.0,
+        "real_wage_delta": 0.974
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.027,
+        "cpi_inflation": -0.836,
+        "real_wage_delta": 0.744
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "nominal_wage_growth": 4.114,
+        "cpi_inflation": 2.822,
+        "real_wage_delta": 1.292
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.746,
+        "cpi_inflation": -0.865,
+        "real_wage_delta": 0.876
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "nominal_wage_growth": 4.214,
+        "cpi_inflation": 2.391,
+        "real_wage_delta": 1.823
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.535,
+        "cpi_inflation": -1.007,
+        "real_wage_delta": 1.123
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "nominal_wage_growth": 3.913,
+        "cpi_inflation": 2.311,
+        "real_wage_delta": 1.601
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.068,
+        "cpi_inflation": -0.995,
+        "real_wage_delta": 0.942
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "nominal_wage_growth": 3.984,
+        "cpi_inflation": 2.355,
+        "real_wage_delta": 1.629
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.894,
+        "cpi_inflation": -0.934,
+        "real_wage_delta": 0.915
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "nominal_wage_growth": 3.856,
+        "cpi_inflation": 2.669,
+        "real_wage_delta": 1.187
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.128,
+        "cpi_inflation": -0.749,
+        "real_wage_delta": 0.606
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "nominal_wage_growth": 3.962,
+        "cpi_inflation": 2.705,
+        "real_wage_delta": 1.257
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.869,
+        "cpi_inflation": -0.697,
+        "real_wage_delta": 0.615
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "nominal_wage_growth": 3.975,
+        "cpi_inflation": 2.916,
+        "real_wage_delta": 1.059
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.819,
+        "cpi_inflation": -0.539,
+        "real_wage_delta": 0.428
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "nominal_wage_growth": 3.848,
+        "cpi_inflation": 3.013,
+        "real_wage_delta": 0.836
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.128,
+        "cpi_inflation": -0.438,
+        "real_wage_delta": 0.191
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "nominal_wage_growth": 3.92,
+        "cpi_inflation": 2.874,
+        "real_wage_delta": 1.017
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.891,
+        "cpi_inflation": -0.506,
+        "real_wage_delta": 0.3
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "nominal_wage_growth": 3.933,
+        "cpi_inflation": 2.735,
+        "real_wage_delta": 1.197
+      },
+      "zscores": {
+        "nominal_wage_growth": -0.836,
+        "cpi_inflation": -0.598,
+        "real_wage_delta": 0.446
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "nominal_wage_growth": 3.727,
+        "cpi_inflation": 2.677,
+        "real_wage_delta": 1.049
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.503,
+        "cpi_inflation": -0.632,
+        "real_wage_delta": 0.215
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "nominal_wage_growth": 3.655,
+        "cpi_inflation": 2.386,
+        "real_wage_delta": 1.269
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.643,
+        "cpi_inflation": -0.99,
+        "real_wage_delta": 0.49
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "nominal_wage_growth": 3.701,
+        "cpi_inflation": 2.414,
+        "real_wage_delta": 1.286
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.448,
+        "cpi_inflation": -1.044,
+        "real_wage_delta": 0.514
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "nominal_wage_growth": 3.434,
+        "cpi_inflation": 3.256,
+        "real_wage_delta": 0.178
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.248,
+        "cpi_inflation": 0.485,
+        "real_wage_delta": -2.032
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "nominal_wage_growth": 3.571,
+        "cpi_inflation": 3.811,
+        "real_wage_delta": -0.239
+      },
+      "zscores": {
+        "nominal_wage_growth": -1.678,
+        "cpi_inflation": 1.954,
+        "real_wage_delta": -3.055
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "nominal_wage_growth": 3.335,
+        "cpi_inflation": 4.249,
+        "real_wage_delta": -0.914
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.285,
+        "cpi_inflation": 2.863,
+        "real_wage_delta": -3.715
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "nominal_wage_growth": 3.383,
+        "cpi_inflation": 3.531,
+        "real_wage_delta": -0.149
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.029,
+        "cpi_inflation": 1.186,
+        "real_wage_delta": -2.066
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "nominal_wage_growth": 3.208,
+        "cpi_inflation": 3.365,
+        "real_wage_delta": -0.157
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.475,
+        "cpi_inflation": 0.801,
+        "real_wage_delta": -1.914
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "nominal_wage_growth": 3.113,
+        "cpi_inflation": 3.397,
+        "real_wage_delta": -0.283
+      },
+      "zscores": {
+        "nominal_wage_growth": -2.539,
+        "cpi_inflation": 0.904,
+        "real_wage_delta": -1.967
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "A raise only helps if it is bigger than the rise in prices. This chart compares the yearly change in average hourly pay with inflation. The difference is the change in real buying power: green when pay wins, red when prices win.",
+    "methodology": "Average hourly earnings of all private-sector employees (BLS CES0500000003), year-over-year change. Inflation is the year-over-year change in CPI-U (BLS). Real buying power = pay growth minus inflation. The hourly earnings series starts in 2006, so the chart starts in March 2007.",
+    "key_findings": [
+      {
+        "date": "2008-07-01",
+        "title": "July 2008: Gas Eats the Raise",
+        "description": "Pay was up 3.2% but prices were up 5.6%, so buying power fell 2.5%.",
+        "significance": "Expensive gas made a normal raise feel like a pay cut.",
+        "normalized_time": 0.0687
+      },
+      {
+        "date": "2022-06-01",
+        "title": "June 2022: The Worst Squeeze on the Chart",
+        "description": "The average raise was 5.4%, the fastest in years, but inflation was 9.1%. Buying power fell 3.7%.",
+        "significance": "Big raises still lost to bigger price increases.",
+        "normalized_time": 0.7854
+      },
+      {
+        "date": "2023-05-01",
+        "title": "May 2023: Raises Win Again",
+        "description": "For the first time in two years, pay growth (4.4%) beat inflation (4.0%). As of August 2026 inflation (3.4%) is slightly above pay growth (3.1%) again.",
+        "significance": "Workers won back buying power for about three years; that gain has now stopped.",
+        "normalized_time": 0.8326
+      }
+    ]
+  }
+}

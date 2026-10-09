@@ -1,0 +1,4580 @@
+{
+  "metadata": {
+    "chart_id": "chart_13",
+    "number": 13,
+    "title": "The Beveridge Curve (Labor Market Slack vs. Openings)",
+    "section": "Section B: Macroeconomics, Money & Financial Conditions",
+    "section_id": "section_b",
+    "visual_form": "Animated Hyperbolic Scatterplot with dynamic regression fits",
+    "agencies": [
+      "BLS",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2000,
+    "end_year": 2026,
+    "observation_count": 309,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08"
+  },
+  "analytics": {
+    "optimal_lag_months": 5,
+    "peak_correlation_coefficient": -0.63,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.217
+      },
+      {
+        "lag": -17,
+        "r": -0.228
+      },
+      {
+        "lag": -16,
+        "r": -0.236
+      },
+      {
+        "lag": -15,
+        "r": -0.243
+      },
+      {
+        "lag": -14,
+        "r": -0.256
+      },
+      {
+        "lag": -13,
+        "r": -0.271
+      },
+      {
+        "lag": -12,
+        "r": -0.29
+      },
+      {
+        "lag": -11,
+        "r": -0.315
+      },
+      {
+        "lag": -10,
+        "r": -0.343
+      },
+      {
+        "lag": -9,
+        "r": -0.375
+      },
+      {
+        "lag": -8,
+        "r": -0.407
+      },
+      {
+        "lag": -7,
+        "r": -0.433
+      },
+      {
+        "lag": -6,
+        "r": -0.457
+      },
+      {
+        "lag": -5,
+        "r": -0.481
+      },
+      {
+        "lag": -4,
+        "r": -0.502
+      },
+      {
+        "lag": -3,
+        "r": -0.521
+      },
+      {
+        "lag": -2,
+        "r": -0.54
+      },
+      {
+        "lag": -1,
+        "r": -0.564
+      },
+      {
+        "lag": 0,
+        "r": -0.591
+      },
+      {
+        "lag": 1,
+        "r": -0.609
+      },
+      {
+        "lag": 2,
+        "r": -0.616
+      },
+      {
+        "lag": 3,
+        "r": -0.62
+      },
+      {
+        "lag": 4,
+        "r": -0.627
+      },
+      {
+        "lag": 5,
+        "r": -0.63
+      },
+      {
+        "lag": 6,
+        "r": -0.629
+      },
+      {
+        "lag": 7,
+        "r": -0.627
+      },
+      {
+        "lag": 8,
+        "r": -0.625
+      },
+      {
+        "lag": 9,
+        "r": -0.621
+      },
+      {
+        "lag": 10,
+        "r": -0.615
+      },
+      {
+        "lag": 11,
+        "r": -0.608
+      },
+      {
+        "lag": 12,
+        "r": -0.601
+      },
+      {
+        "lag": 13,
+        "r": -0.593
+      },
+      {
+        "lag": 14,
+        "r": -0.585
+      },
+      {
+        "lag": 15,
+        "r": -0.571
+      },
+      {
+        "lag": 16,
+        "r": -0.558
+      },
+      {
+        "lag": 17,
+        "r": -0.545
+      },
+      {
+        "lag": 18,
+        "r": -0.533
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "job_openings_rate",
+      "agency": "BLS",
+      "series_id": "JTS000000000000000JOR",
+      "label": "Job Openings Rate ('Help Wanted' Openings)",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "unemployment_rate",
+      "agency": "BLS",
+      "series_id": "LNS14000000",
+      "label": "Unemployment Rate",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#0ea5e9"
+    },
+    {
+      "key": "fed_funds_rate",
+      "agency": "FRED",
+      "series_id": "FEDFUNDS",
+      "label": "Federal Reserve Benchmark Interest Rate",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#f59e0b"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2000-12-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 6.4
+      },
+      "zscores": {
+        "job_openings_rate": 0.0,
+        "unemployment_rate": 0.0,
+        "fed_funds_rate": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 5.98
+      },
+      "zscores": {
+        "job_openings_rate": 1.0,
+        "unemployment_rate": 1.0,
+        "fed_funds_rate": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-02-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 5.49
+      },
+      "zscores": {
+        "job_openings_rate": -0.707,
+        "unemployment_rate": 0.707,
+        "fed_funds_rate": -1.255
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "job_openings_rate": 3.5,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 5.31
+      },
+      "zscores": {
+        "job_openings_rate": -1.606,
+        "unemployment_rate": 1.0,
+        "fed_funds_rate": -1.136
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 4.8
+      },
+      "zscores": {
+        "job_openings_rate": -1.497,
+        "unemployment_rate": 1.195,
+        "fed_funds_rate": -1.443
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 4.21
+      },
+      "zscores": {
+        "job_openings_rate": -1.698,
+        "unemployment_rate": 0.53,
+        "fed_funds_rate": -1.601
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 3.97
+      },
+      "zscores": {
+        "job_openings_rate": -1.323,
+        "unemployment_rate": 1.379,
+        "fed_funds_rate": -1.446
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 3.77
+      },
+      "zscores": {
+        "job_openings_rate": -0.788,
+        "unemployment_rate": 1.5,
+        "fed_funds_rate": -1.355
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 3.65
+      },
+      "zscores": {
+        "job_openings_rate": -1.641,
+        "unemployment_rate": 2.0,
+        "fed_funds_rate": -1.257
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 3.07
+      },
+      "zscores": {
+        "job_openings_rate": -1.382,
+        "unemployment_rate": 1.802,
+        "fed_funds_rate": -1.526
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.3,
+        "fed_funds_rate": 2.49
+      },
+      "zscores": {
+        "job_openings_rate": -1.89,
+        "unemployment_rate": 2.018,
+        "fed_funds_rate": -1.681
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 5.5,
+        "fed_funds_rate": 2.09
+      },
+      "zscores": {
+        "job_openings_rate": -1.38,
+        "unemployment_rate": 1.955,
+        "fed_funds_rate": -1.671
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.82
+      },
+      "zscores": {
+        "job_openings_rate": -1.456,
+        "unemployment_rate": 1.912,
+        "fed_funds_rate": -1.601
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.73
+      },
+      "zscores": {
+        "job_openings_rate": -1.307,
+        "unemployment_rate": 1.64,
+        "fed_funds_rate": -1.465
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.74
+      },
+      "zscores": {
+        "job_openings_rate": -1.408,
+        "unemployment_rate": 1.459,
+        "fed_funds_rate": -1.319
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.73
+      },
+      "zscores": {
+        "job_openings_rate": -1.073,
+        "unemployment_rate": 1.327,
+        "fed_funds_rate": -1.218
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.9,
+        "fed_funds_rate": 1.75
+      },
+      "zscores": {
+        "job_openings_rate": -1.224,
+        "unemployment_rate": 1.484,
+        "fed_funds_rate": -1.122
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 1.75
+      },
+      "zscores": {
+        "job_openings_rate": -1.143,
+        "unemployment_rate": 1.234,
+        "fed_funds_rate": -1.054
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 1.75
+      },
+      "zscores": {
+        "job_openings_rate": -1.287,
+        "unemployment_rate": 1.156,
+        "fed_funds_rate": -0.998
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 1.73
+      },
+      "zscores": {
+        "job_openings_rate": -1.206,
+        "unemployment_rate": 1.091,
+        "fed_funds_rate": -0.96
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.74
+      },
+      "zscores": {
+        "job_openings_rate": -0.926,
+        "unemployment_rate": 0.902,
+        "fed_funds_rate": -0.911
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.75
+      },
+      "zscores": {
+        "job_openings_rate": -1.102,
+        "unemployment_rate": 0.865,
+        "fed_funds_rate": -0.868
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.75
+      },
+      "zscores": {
+        "job_openings_rate": -0.834,
+        "unemployment_rate": 0.833,
+        "fed_funds_rate": -0.836
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.9,
+        "fed_funds_rate": 1.34
+      },
+      "zscores": {
+        "job_openings_rate": -0.805,
+        "unemployment_rate": 1.08,
+        "fed_funds_rate": -1.047
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 6.0,
+        "fed_funds_rate": 1.24
+      },
+      "zscores": {
+        "job_openings_rate": -1.217,
+        "unemployment_rate": 1.169,
+        "fed_funds_rate": -1.063
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 1.24
+      },
+      "zscores": {
+        "job_openings_rate": -0.723,
+        "unemployment_rate": 0.844,
+        "fed_funds_rate": -1.02
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 5.9,
+        "fed_funds_rate": 1.26
+      },
+      "zscores": {
+        "job_openings_rate": -1.147,
+        "unemployment_rate": 0.957,
+        "fed_funds_rate": -0.97
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 5.9,
+        "fed_funds_rate": 1.25
+      },
+      "zscores": {
+        "job_openings_rate": -1.314,
+        "unemployment_rate": 0.925,
+        "fed_funds_rate": -0.943
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 6.0,
+        "fed_funds_rate": 1.26
+      },
+      "zscores": {
+        "job_openings_rate": -1.254,
+        "unemployment_rate": 1.034,
+        "fed_funds_rate": -0.907
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 1.26
+      },
+      "zscores": {
+        "job_openings_rate": -0.772,
+        "unemployment_rate": 1.137,
+        "fed_funds_rate": -0.88
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 6.3,
+        "fed_funds_rate": 1.22
+      },
+      "zscores": {
+        "job_openings_rate": -0.753,
+        "unemployment_rate": 1.364,
+        "fed_funds_rate": -0.879
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "job_openings_rate": 2.2,
+        "unemployment_rate": 6.2,
+        "fed_funds_rate": 1.01
+      },
+      "zscores": {
+        "job_openings_rate": -1.385,
+        "unemployment_rate": 1.173,
+        "fed_funds_rate": -0.981
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 1.03
+      },
+      "zscores": {
+        "job_openings_rate": -0.9,
+        "unemployment_rate": 0.997,
+        "fed_funds_rate": -0.94
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 1.01
+      },
+      "zscores": {
+        "job_openings_rate": -1.093,
+        "unemployment_rate": 0.968,
+        "fed_funds_rate": -0.927
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 6.0,
+        "fed_funds_rate": 1.01
+      },
+      "zscores": {
+        "job_openings_rate": -0.622,
+        "unemployment_rate": 0.804,
+        "fed_funds_rate": -0.903
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 1.0
+      },
+      "zscores": {
+        "job_openings_rate": -0.61,
+        "unemployment_rate": 0.505,
+        "fed_funds_rate": -0.886
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 0.98
+      },
+      "zscores": {
+        "job_openings_rate": -0.57,
+        "unemployment_rate": 0.309,
+        "fed_funds_rate": -0.882
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 1.0
+      },
+      "zscores": {
+        "job_openings_rate": -0.265,
+        "unemployment_rate": 0.259,
+        "fed_funds_rate": -0.853
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 1.01
+      },
+      "zscores": {
+        "job_openings_rate": -0.204,
+        "unemployment_rate": 0.025,
+        "fed_funds_rate": -0.829
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 1.0
+      },
+      "zscores": {
+        "job_openings_rate": -0.139,
+        "unemployment_rate": 0.344,
+        "fed_funds_rate": -0.833
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 1.0
+      },
+      "zscores": {
+        "job_openings_rate": -0.067,
+        "unemployment_rate": -0.134,
+        "fed_funds_rate": -0.83
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 1.0
+      },
+      "zscores": {
+        "job_openings_rate": 0.424,
+        "unemployment_rate": -0.247,
+        "fed_funds_rate": -0.818
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 1.03
+      },
+      "zscores": {
+        "job_openings_rate": -0.404,
+        "unemployment_rate": -0.377,
+        "fed_funds_rate": -0.772
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 5.5,
+        "fed_funds_rate": 1.26
+      },
+      "zscores": {
+        "job_openings_rate": 1.346,
+        "unemployment_rate": -0.892,
+        "fed_funds_rate": -0.404
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 1.43
+      },
+      "zscores": {
+        "job_openings_rate": 0.268,
+        "unemployment_rate": -1.457,
+        "fed_funds_rate": -0.015
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 1.61
+      },
+      "zscores": {
+        "job_openings_rate": 1.736,
+        "unemployment_rate": -1.679,
+        "fed_funds_rate": 0.567
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 5.5,
+        "fed_funds_rate": 1.76
+      },
+      "zscores": {
+        "job_openings_rate": 2.254,
+        "unemployment_rate": -1.315,
+        "fed_funds_rate": 1.148
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 1.93
+      },
+      "zscores": {
+        "job_openings_rate": 0.323,
+        "unemployment_rate": -1.733,
+        "fed_funds_rate": 1.714
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 2.16
+      },
+      "zscores": {
+        "job_openings_rate": 2.708,
+        "unemployment_rate": -1.632,
+        "fed_funds_rate": 2.27
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 5.3,
+        "fed_funds_rate": 2.28
+      },
+      "zscores": {
+        "job_openings_rate": 1.429,
+        "unemployment_rate": -1.916,
+        "fed_funds_rate": 2.391
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 2.5
+      },
+      "zscores": {
+        "job_openings_rate": 1.882,
+        "unemployment_rate": -1.424,
+        "fed_funds_rate": 2.652
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 5.2,
+        "fed_funds_rate": 2.63
+      },
+      "zscores": {
+        "job_openings_rate": 1.778,
+        "unemployment_rate": -2.043,
+        "fed_funds_rate": 2.628
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 5.2,
+        "fed_funds_rate": 2.79
+      },
+      "zscores": {
+        "job_openings_rate": 2.119,
+        "unemployment_rate": -1.877,
+        "fed_funds_rate": 2.631
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 5.1,
+        "fed_funds_rate": 3.0
+      },
+      "zscores": {
+        "job_openings_rate": 1.043,
+        "unemployment_rate": -2.038,
+        "fed_funds_rate": 2.672
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 3.04
+      },
+      "zscores": {
+        "job_openings_rate": 1.453,
+        "unemployment_rate": -2.149,
+        "fed_funds_rate": 2.446
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 3.26
+      },
+      "zscores": {
+        "job_openings_rate": 2.197,
+        "unemployment_rate": -1.964,
+        "fed_funds_rate": 2.486
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 3.5
+      },
+      "zscores": {
+        "job_openings_rate": 1.622,
+        "unemployment_rate": -2.06,
+        "fed_funds_rate": 2.51
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 3.62
+      },
+      "zscores": {
+        "job_openings_rate": 1.895,
+        "unemployment_rate": -1.657,
+        "fed_funds_rate": 2.382
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 3.78
+      },
+      "zscores": {
+        "job_openings_rate": 1.388,
+        "unemployment_rate": -1.549,
+        "fed_funds_rate": 2.31
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 4.0
+      },
+      "zscores": {
+        "job_openings_rate": 1.671,
+        "unemployment_rate": -1.452,
+        "fed_funds_rate": 2.29
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 4.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.565,
+        "unemployment_rate": -1.596,
+        "fed_funds_rate": 2.212
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 4.29
+      },
+      "zscores": {
+        "job_openings_rate": 1.467,
+        "unemployment_rate": -1.922,
+        "fed_funds_rate": 2.119
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 4.8,
+        "fed_funds_rate": 4.49
+      },
+      "zscores": {
+        "job_openings_rate": 1.382,
+        "unemployment_rate": -1.573,
+        "fed_funds_rate": 2.09
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 4.59
+      },
+      "zscores": {
+        "job_openings_rate": 2.282,
+        "unemployment_rate": -1.68,
+        "fed_funds_rate": 1.989
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 4.79
+      },
+      "zscores": {
+        "job_openings_rate": 2.111,
+        "unemployment_rate": -1.577,
+        "fed_funds_rate": 1.97
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 4.94
+      },
+      "zscores": {
+        "job_openings_rate": 1.337,
+        "unemployment_rate": -1.693,
+        "fed_funds_rate": 1.916
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 4.99
+      },
+      "zscores": {
+        "job_openings_rate": 1.571,
+        "unemployment_rate": -1.63,
+        "fed_funds_rate": 1.804
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 5.24
+      },
+      "zscores": {
+        "job_openings_rate": 0.866,
+        "unemployment_rate": -1.353,
+        "fed_funds_rate": 1.834
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 1.494,
+        "unemployment_rate": -1.302,
+        "fed_funds_rate": 1.713
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 1.444,
+        "unemployment_rate": -1.716,
+        "fed_funds_rate": 1.603
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 1.022,
+        "unemployment_rate": -1.867,
+        "fed_funds_rate": 1.506
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 1.331,
+        "unemployment_rate": -1.534,
+        "fed_funds_rate": 1.42
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 5.24
+      },
+      "zscores": {
+        "job_openings_rate": 1.272,
+        "unemployment_rate": -1.677,
+        "fed_funds_rate": 1.337
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 1.207,
+        "unemployment_rate": -1.125,
+        "fed_funds_rate": 1.274
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 5.26
+      },
+      "zscores": {
+        "job_openings_rate": 1.149,
+        "unemployment_rate": -1.304,
+        "fed_funds_rate": 1.217
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "job_openings_rate": 3.5,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 5.26
+      },
+      "zscores": {
+        "job_openings_rate": 1.826,
+        "unemployment_rate": -1.497,
+        "fed_funds_rate": 1.16
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 0.991,
+        "unemployment_rate": -1.18,
+        "fed_funds_rate": 1.101
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 0.94,
+        "unemployment_rate": -1.378,
+        "fed_funds_rate": 1.055
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 5.25
+      },
+      "zscores": {
+        "job_openings_rate": 1.329,
+        "unemployment_rate": -0.8,
+        "fed_funds_rate": 1.014
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 5.26
+      },
+      "zscores": {
+        "job_openings_rate": 0.411,
+        "unemployment_rate": -0.477,
+        "fed_funds_rate": 0.98
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 5.02
+      },
+      "zscores": {
+        "job_openings_rate": 0.364,
+        "unemployment_rate": -0.724,
+        "fed_funds_rate": 0.755
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 4.94
+      },
+      "zscores": {
+        "job_openings_rate": 0.804,
+        "unemployment_rate": -0.381,
+        "fed_funds_rate": 0.65
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 4.76
+      },
+      "zscores": {
+        "job_openings_rate": 0.269,
+        "unemployment_rate": -0.333,
+        "fed_funds_rate": 0.451
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 4.49
+      },
+      "zscores": {
+        "job_openings_rate": 0.763,
+        "unemployment_rate": -0.285,
+        "fed_funds_rate": 0.147
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 4.24
+      },
+      "zscores": {
+        "job_openings_rate": 0.161,
+        "unemployment_rate": 0.869,
+        "fed_funds_rate": -0.168
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 3.94
+      },
+      "zscores": {
+        "job_openings_rate": 0.104,
+        "unemployment_rate": 0.944,
+        "fed_funds_rate": -0.576
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 2.98
+      },
+      "zscores": {
+        "job_openings_rate": -1.188,
+        "unemployment_rate": 0.663,
+        "fed_funds_rate": -1.738
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 5.1,
+        "fed_funds_rate": 2.61
+      },
+      "zscores": {
+        "job_openings_rate": -1.24,
+        "unemployment_rate": 1.577,
+        "fed_funds_rate": -2.169
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 2.28
+      },
+      "zscores": {
+        "job_openings_rate": -2.36,
+        "unemployment_rate": 1.207,
+        "fed_funds_rate": -2.45
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 1.98
+      },
+      "zscores": {
+        "job_openings_rate": -1.24,
+        "unemployment_rate": 2.777,
+        "fed_funds_rate": -2.581
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 2.0
+      },
+      "zscores": {
+        "job_openings_rate": -2.915,
+        "unemployment_rate": 3.086,
+        "fed_funds_rate": -2.388
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 2.01
+      },
+      "zscores": {
+        "job_openings_rate": -2.573,
+        "unemployment_rate": 3.187,
+        "fed_funds_rate": -2.214
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 2.0
+      },
+      "zscores": {
+        "job_openings_rate": -2.744,
+        "unemployment_rate": 3.332,
+        "fed_funds_rate": -2.065
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 1.81
+      },
+      "zscores": {
+        "job_openings_rate": -3.374,
+        "unemployment_rate": 2.857,
+        "fed_funds_rate": -2.064
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 6.5,
+        "fed_funds_rate": 0.97
+      },
+      "zscores": {
+        "job_openings_rate": -2.617,
+        "unemployment_rate": 3.126,
+        "fed_funds_rate": -2.466
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 6.8,
+        "fed_funds_rate": 0.39
+      },
+      "zscores": {
+        "job_openings_rate": -2.603,
+        "unemployment_rate": 3.084,
+        "fed_funds_rate": -2.556
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 7.3,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": -2.327,
+        "unemployment_rate": 3.2,
+        "fed_funds_rate": -2.41
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "job_openings_rate": 2.0,
+        "unemployment_rate": 7.8,
+        "fed_funds_rate": 0.15
+      },
+      "zscores": {
+        "job_openings_rate": -2.769,
+        "unemployment_rate": 3.19,
+        "fed_funds_rate": -2.18
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "job_openings_rate": 2.1,
+        "unemployment_rate": 8.3,
+        "fed_funds_rate": 0.22
+      },
+      "zscores": {
+        "job_openings_rate": -2.249,
+        "unemployment_rate": 3.119,
+        "fed_funds_rate": -1.956
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "job_openings_rate": 1.9,
+        "unemployment_rate": 8.7,
+        "fed_funds_rate": 0.18
+      },
+      "zscores": {
+        "job_openings_rate": -2.433,
+        "unemployment_rate": 2.962,
+        "fed_funds_rate": -1.823
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "job_openings_rate": 1.7,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.15
+      },
+      "zscores": {
+        "job_openings_rate": -2.542,
+        "unemployment_rate": 2.768,
+        "fed_funds_rate": -1.705
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "job_openings_rate": 1.9,
+        "unemployment_rate": 9.4,
+        "fed_funds_rate": 0.18
+      },
+      "zscores": {
+        "job_openings_rate": -1.948,
+        "unemployment_rate": 2.669,
+        "fed_funds_rate": -1.576
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "job_openings_rate": 1.9,
+        "unemployment_rate": 9.5,
+        "fed_funds_rate": 0.21
+      },
+      "zscores": {
+        "job_openings_rate": -1.8,
+        "unemployment_rate": 2.427,
+        "fed_funds_rate": -1.463
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "job_openings_rate": 1.7,
+        "unemployment_rate": 9.5,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": -1.987,
+        "unemployment_rate": 2.188,
+        "fed_funds_rate": -1.398
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "job_openings_rate": 1.8,
+        "unemployment_rate": 9.6,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": -1.681,
+        "unemployment_rate": 2.046,
+        "fed_funds_rate": -1.317
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "job_openings_rate": 1.9,
+        "unemployment_rate": 9.8,
+        "fed_funds_rate": 0.15
+      },
+      "zscores": {
+        "job_openings_rate": -1.416,
+        "unemployment_rate": 1.976,
+        "fed_funds_rate": -1.248
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "job_openings_rate": 1.8,
+        "unemployment_rate": 10.0,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": -1.485,
+        "unemployment_rate": 1.915,
+        "fed_funds_rate": -1.193
+      },
+      "events": [
+        {
+          "label": "10% unemployment, only 1.8% job openings",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "job_openings_rate": 1.9,
+        "unemployment_rate": 9.9,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": -1.244,
+        "unemployment_rate": 1.729,
+        "fed_funds_rate": -1.13
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "job_openings_rate": 1.9,
+        "unemployment_rate": 9.9,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": -1.176,
+        "unemployment_rate": 1.614,
+        "fed_funds_rate": -1.071
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "job_openings_rate": 2.1,
+        "unemployment_rate": 9.8,
+        "fed_funds_rate": 0.11
+      },
+      "zscores": {
+        "job_openings_rate": -0.801,
+        "unemployment_rate": 1.468,
+        "fed_funds_rate": -1.021
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "job_openings_rate": 2.0,
+        "unemployment_rate": 9.8,
+        "fed_funds_rate": 0.13
+      },
+      "zscores": {
+        "job_openings_rate": -0.914,
+        "unemployment_rate": 1.381,
+        "fed_funds_rate": -0.959
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "job_openings_rate": 2.0,
+        "unemployment_rate": 9.9,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": -0.867,
+        "unemployment_rate": 1.347,
+        "fed_funds_rate": -0.897
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.9,
+        "fed_funds_rate": 0.2
+      },
+      "zscores": {
+        "job_openings_rate": -0.146,
+        "unemployment_rate": 1.272,
+        "fed_funds_rate": -0.832
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "job_openings_rate": 2.2,
+        "unemployment_rate": 9.6,
+        "fed_funds_rate": 0.2
+      },
+      "zscores": {
+        "job_openings_rate": -0.455,
+        "unemployment_rate": 1.073,
+        "fed_funds_rate": -0.789
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "job_openings_rate": 2.1,
+        "unemployment_rate": 9.4,
+        "fed_funds_rate": 0.18
+      },
+      "zscores": {
+        "job_openings_rate": -0.592,
+        "unemployment_rate": 0.928,
+        "fed_funds_rate": -0.76
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 9.4,
+        "fed_funds_rate": 0.18
+      },
+      "zscores": {
+        "job_openings_rate": -0.177,
+        "unemployment_rate": 0.878,
+        "fed_funds_rate": -0.723
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "job_openings_rate": 2.2,
+        "unemployment_rate": 9.5,
+        "fed_funds_rate": 0.19
+      },
+      "zscores": {
+        "job_openings_rate": -0.327,
+        "unemployment_rate": 0.877,
+        "fed_funds_rate": -0.68
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "job_openings_rate": 2.2,
+        "unemployment_rate": 9.5,
+        "fed_funds_rate": 0.19
+      },
+      "zscores": {
+        "job_openings_rate": -0.28,
+        "unemployment_rate": 0.829,
+        "fed_funds_rate": -0.646
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.4,
+        "fed_funds_rate": 0.19
+      },
+      "zscores": {
+        "job_openings_rate": 0.196,
+        "unemployment_rate": 0.735,
+        "fed_funds_rate": -0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.8,
+        "fed_funds_rate": 0.19
+      },
+      "zscores": {
+        "job_openings_rate": 0.27,
+        "unemployment_rate": 0.895,
+        "fed_funds_rate": -0.584
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 9.3,
+        "fed_funds_rate": 0.18
+      },
+      "zscores": {
+        "job_openings_rate": 0.099,
+        "unemployment_rate": 0.587,
+        "fed_funds_rate": -0.566
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "job_openings_rate": 2.3,
+        "unemployment_rate": 9.1,
+        "fed_funds_rate": 0.17
+      },
+      "zscores": {
+        "job_openings_rate": 0.178,
+        "unemployment_rate": 0.433,
+        "fed_funds_rate": -0.556
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 0.538,
+        "unemployment_rate": 0.329,
+        "fed_funds_rate": -0.534
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 0.635,
+        "unemployment_rate": 0.28,
+        "fed_funds_rate": -0.524
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.1,
+        "fed_funds_rate": 0.1
+      },
+      "zscores": {
+        "job_openings_rate": 0.705,
+        "unemployment_rate": 0.294,
+        "fed_funds_rate": -0.546
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "job_openings_rate": 2.4,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.849,
+        "unemployment_rate": 0.167,
+        "fed_funds_rate": -0.524
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 9.1,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 1.646,
+        "unemployment_rate": 0.185,
+        "fed_funds_rate": -0.489
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 2.03,
+        "unemployment_rate": 0.031,
+        "fed_funds_rate": -0.507
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "job_openings_rate": 2.5,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.1
+      },
+      "zscores": {
+        "job_openings_rate": 1.292,
+        "unemployment_rate": -0.049,
+        "fed_funds_rate": -0.428
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 9.0,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 2.239,
+        "unemployment_rate": -0.154,
+        "fed_funds_rate": -0.706
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 8.8,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 1.777,
+        "unemployment_rate": -0.558,
+        "fed_funds_rate": -1.527
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 8.6,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.363,
+        "unemployment_rate": -1.098,
+        "fed_funds_rate": -1.605
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.5,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 1.895,
+        "unemployment_rate": -1.548,
+        "fed_funds_rate": -1.707
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.3,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.753,
+        "unemployment_rate": -2.125,
+        "fed_funds_rate": -1.397
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "job_openings_rate": 2.6,
+        "unemployment_rate": 8.3,
+        "fed_funds_rate": 0.1
+      },
+      "zscores": {
+        "job_openings_rate": 1.073,
+        "unemployment_rate": -2.125,
+        "fed_funds_rate": -0.911
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 8.2,
+        "fed_funds_rate": 0.13
+      },
+      "zscores": {
+        "job_openings_rate": 1.843,
+        "unemployment_rate": -2.196,
+        "fed_funds_rate": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.2,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 1.474,
+        "unemployment_rate": -2.029,
+        "fed_funds_rate": 0.032
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.2,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.39,
+        "unemployment_rate": -1.867,
+        "fed_funds_rate": 0.507
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.2,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.314,
+        "unemployment_rate": -1.729,
+        "fed_funds_rate": 0.56
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 8.2,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 0.976,
+        "unemployment_rate": -1.609,
+        "fed_funds_rate": 0.56
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.1,
+        "fed_funds_rate": 0.13
+      },
+      "zscores": {
+        "job_openings_rate": 1.234,
+        "unemployment_rate": -1.654,
+        "fed_funds_rate": -0.14
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 7.8,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 1.178,
+        "unemployment_rate": -1.976,
+        "fed_funds_rate": 0.107
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "job_openings_rate": 2.7,
+        "unemployment_rate": 7.8,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 0.815,
+        "unemployment_rate": -1.846,
+        "fed_funds_rate": 0.561
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 7.7,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.116,
+        "unemployment_rate": -1.863,
+        "fed_funds_rate": 0.534
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 7.9,
+        "fed_funds_rate": 0.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.429,
+        "unemployment_rate": -1.475,
+        "fed_funds_rate": 0.506
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 8.0,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 1.005,
+        "unemployment_rate": -1.255,
+        "fed_funds_rate": 0.007
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 7.7,
+        "fed_funds_rate": 0.15
+      },
+      "zscores": {
+        "job_openings_rate": 1.339,
+        "unemployment_rate": -1.615,
+        "fed_funds_rate": 0.235
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 7.5,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 1.305,
+        "unemployment_rate": -1.809,
+        "fed_funds_rate": 0.007
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 7.6,
+        "fed_funds_rate": 0.15
+      },
+      "zscores": {
+        "job_openings_rate": 1.23,
+        "unemployment_rate": -1.581,
+        "fed_funds_rate": 0.291
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 7.5,
+        "fed_funds_rate": 0.11
+      },
+      "zscores": {
+        "job_openings_rate": 1.556,
+        "unemployment_rate": -1.633,
+        "fed_funds_rate": -0.664
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 7.5,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 1.508,
+        "unemployment_rate": -1.534,
+        "fed_funds_rate": -1.115
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "job_openings_rate": 2.8,
+        "unemployment_rate": 7.3,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.61,
+        "unemployment_rate": -1.715,
+        "fed_funds_rate": -1.056
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 7.2,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.011,
+        "unemployment_rate": -1.748,
+        "fed_funds_rate": -1.25
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 7.2,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 0.98,
+        "unemployment_rate": -1.651,
+        "fed_funds_rate": -1.192
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "job_openings_rate": 3.0,
+        "unemployment_rate": 7.2,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 1.393,
+        "unemployment_rate": -1.561,
+        "fed_funds_rate": -0.881
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 6.9,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 0.854,
+        "unemployment_rate": -1.918,
+        "fed_funds_rate": -1.11
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 6.7,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.82,
+        "unemployment_rate": -2.056,
+        "fed_funds_rate": -0.782
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "job_openings_rate": 2.9,
+        "unemployment_rate": 6.6,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 0.792,
+        "unemployment_rate": -2.032,
+        "fed_funds_rate": -1.308
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 6.7,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 1.872,
+        "unemployment_rate": -1.765,
+        "fed_funds_rate": -1.24
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "job_openings_rate": 3.1,
+        "unemployment_rate": 6.7,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.811,
+        "unemployment_rate": -1.657,
+        "fed_funds_rate": -0.888
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "job_openings_rate": 3.2,
+        "unemployment_rate": 6.2,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 2.311,
+        "unemployment_rate": -2.151,
+        "fed_funds_rate": -0.576
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 6.3,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 2.741,
+        "unemployment_rate": -1.884,
+        "fed_funds_rate": -0.576
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "job_openings_rate": 3.5,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 0.1
+      },
+      "zscores": {
+        "job_openings_rate": 3.28,
+        "unemployment_rate": -1.999,
+        "fed_funds_rate": -0.285
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 6.2,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 2.445,
+        "unemployment_rate": -1.765,
+        "fed_funds_rate": -0.612
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 3.283,
+        "unemployment_rate": -1.785,
+        "fed_funds_rate": -0.602
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 5.9,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 1.847,
+        "unemployment_rate": -1.918,
+        "fed_funds_rate": -0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "job_openings_rate": 3.5,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 2.057,
+        "unemployment_rate": -2.021,
+        "fed_funds_rate": -0.641
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "job_openings_rate": 3.3,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 1.22,
+        "unemployment_rate": -1.78,
+        "fed_funds_rate": -0.655
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "job_openings_rate": 3.5,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": 1.84,
+        "unemployment_rate": -1.883,
+        "fed_funds_rate": 0.25
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 5.7,
+        "fed_funds_rate": 0.11
+      },
+      "zscores": {
+        "job_openings_rate": 2.313,
+        "unemployment_rate": -1.653,
+        "fed_funds_rate": -0.1
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 5.5,
+        "fed_funds_rate": 0.11
+      },
+      "zscores": {
+        "job_openings_rate": 2.128,
+        "unemployment_rate": -1.761,
+        "fed_funds_rate": -0.109
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "job_openings_rate": 3.6,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 0.11
+      },
+      "zscores": {
+        "job_openings_rate": 1.667,
+        "unemployment_rate": -1.75,
+        "fed_funds_rate": -0.091
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": 2.099,
+        "unemployment_rate": -1.643,
+        "fed_funds_rate": 0.258
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 5.6,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": 1.929,
+        "unemployment_rate": -1.348,
+        "fed_funds_rate": 0.306
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "job_openings_rate": 3.6,
+        "unemployment_rate": 5.3,
+        "fed_funds_rate": 0.13
+      },
+      "zscores": {
+        "job_openings_rate": 1.271,
+        "unemployment_rate": -1.586,
+        "fed_funds_rate": 0.703
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 5.2,
+        "fed_funds_rate": 0.13
+      },
+      "zscores": {
+        "job_openings_rate": 2.43,
+        "unemployment_rate": -1.605,
+        "fed_funds_rate": 0.762
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 5.1,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 1.277,
+        "unemployment_rate": -1.621,
+        "fed_funds_rate": 1.112
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 0.14
+      },
+      "zscores": {
+        "job_openings_rate": 1.207,
+        "unemployment_rate": -1.625,
+        "fed_funds_rate": 1.112
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": 1.637,
+        "unemployment_rate": -1.533,
+        "fed_funds_rate": 0.439
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 5.1,
+        "fed_funds_rate": 0.12
+      },
+      "zscores": {
+        "job_openings_rate": 1.298,
+        "unemployment_rate": -1.349,
+        "fed_funds_rate": 0.509
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 0.24
+      },
+      "zscores": {
+        "job_openings_rate": 1.466,
+        "unemployment_rate": -1.389,
+        "fed_funds_rate": 4.103
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "job_openings_rate": 4.0,
+        "unemployment_rate": 4.8,
+        "fed_funds_rate": 0.34
+      },
+      "zscores": {
+        "job_openings_rate": 1.623,
+        "unemployment_rate": -1.541,
+        "fed_funds_rate": 4.563
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 0.38
+      },
+      "zscores": {
+        "job_openings_rate": 1.29,
+        "unemployment_rate": -1.364,
+        "fed_funds_rate": 3.941
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 0.36
+      },
+      "zscores": {
+        "job_openings_rate": 1.686,
+        "unemployment_rate": -1.191,
+        "fed_funds_rate": 3.042
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 5.1,
+        "fed_funds_rate": 0.37
+      },
+      "zscores": {
+        "job_openings_rate": 1.121,
+        "unemployment_rate": -1.03,
+        "fed_funds_rate": 2.743
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 4.8,
+        "fed_funds_rate": 0.37
+      },
+      "zscores": {
+        "job_openings_rate": 1.061,
+        "unemployment_rate": -1.333,
+        "fed_funds_rate": 2.428
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 0.38
+      },
+      "zscores": {
+        "job_openings_rate": 0.76,
+        "unemployment_rate": -1.167,
+        "fed_funds_rate": 2.271
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "job_openings_rate": 4.0,
+        "unemployment_rate": 4.8,
+        "fed_funds_rate": 0.39
+      },
+      "zscores": {
+        "job_openings_rate": 1.224,
+        "unemployment_rate": -1.246,
+        "fed_funds_rate": 2.142
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 0.4
+      },
+      "zscores": {
+        "job_openings_rate": 0.65,
+        "unemployment_rate": -1.071,
+        "fed_funds_rate": 2.036
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 5.0,
+        "fed_funds_rate": 0.4
+      },
+      "zscores": {
+        "job_openings_rate": 0.883,
+        "unemployment_rate": -0.897,
+        "fed_funds_rate": 1.873
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 4.9,
+        "fed_funds_rate": 0.4
+      },
+      "zscores": {
+        "job_openings_rate": 0.265,
+        "unemployment_rate": -1.016,
+        "fed_funds_rate": 1.735
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "job_openings_rate": 4.0,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 0.41
+      },
+      "zscores": {
+        "job_openings_rate": 1.126,
+        "unemployment_rate": -1.286,
+        "fed_funds_rate": 1.686
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 0.54
+      },
+      "zscores": {
+        "job_openings_rate": 0.781,
+        "unemployment_rate": -1.239,
+        "fed_funds_rate": 2.398
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "job_openings_rate": 3.7,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 0.65
+      },
+      "zscores": {
+        "job_openings_rate": 0.031,
+        "unemployment_rate": -1.194,
+        "fed_funds_rate": 2.755
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "job_openings_rate": 3.9,
+        "unemployment_rate": 4.6,
+        "fed_funds_rate": 0.66
+      },
+      "zscores": {
+        "job_openings_rate": 0.752,
+        "unemployment_rate": -1.339,
+        "fed_funds_rate": 2.495
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 0.79
+      },
+      "zscores": {
+        "job_openings_rate": 0.296,
+        "unemployment_rate": -1.688,
+        "fed_funds_rate": 2.806
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "job_openings_rate": 4.0,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 0.9
+      },
+      "zscores": {
+        "job_openings_rate": 1.164,
+        "unemployment_rate": -1.61,
+        "fed_funds_rate": 2.885
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 0.91
+      },
+      "zscores": {
+        "job_openings_rate": 0.156,
+        "unemployment_rate": -1.56,
+        "fed_funds_rate": 2.573
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 1.04
+      },
+      "zscores": {
+        "job_openings_rate": 1.59,
+        "unemployment_rate": -1.687,
+        "fed_funds_rate": 2.708
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 1.15
+      },
+      "zscores": {
+        "job_openings_rate": 1.527,
+        "unemployment_rate": -1.641,
+        "fed_funds_rate": 2.712
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 1.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.432,
+        "unemployment_rate": -1.391,
+        "fed_funds_rate": 2.439
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 1.15
+      },
+      "zscores": {
+        "job_openings_rate": 1.387,
+        "unemployment_rate": -1.56,
+        "fed_funds_rate": 2.179
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 1.15
+      },
+      "zscores": {
+        "job_openings_rate": 1.806,
+        "unemployment_rate": -1.699,
+        "fed_funds_rate": 1.996
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 1.16
+      },
+      "zscores": {
+        "job_openings_rate": 1.306,
+        "unemployment_rate": -1.636,
+        "fed_funds_rate": 1.869
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 1.3
+      },
+      "zscores": {
+        "job_openings_rate": 1.273,
+        "unemployment_rate": -1.773,
+        "fed_funds_rate": 2.056
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 1.41
+      },
+      "zscores": {
+        "job_openings_rate": 2.271,
+        "unemployment_rate": -1.92,
+        "fed_funds_rate": 2.13
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 1.42
+      },
+      "zscores": {
+        "job_openings_rate": 1.582,
+        "unemployment_rate": -1.593,
+        "fed_funds_rate": 1.979
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 1.51
+      },
+      "zscores": {
+        "job_openings_rate": 2.491,
+        "unemployment_rate": -1.731,
+        "fed_funds_rate": 2.011
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 1.69
+      },
+      "zscores": {
+        "job_openings_rate": 2.241,
+        "unemployment_rate": -1.639,
+        "fed_funds_rate": 2.195
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 1.7
+      },
+      "zscores": {
+        "job_openings_rate": 2.443,
+        "unemployment_rate": -2.038,
+        "fed_funds_rate": 2.033
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 1.82
+      },
+      "zscores": {
+        "job_openings_rate": 2.622,
+        "unemployment_rate": -1.467,
+        "fed_funds_rate": 2.085
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 1.91
+      },
+      "zscores": {
+        "job_openings_rate": 2.354,
+        "unemployment_rate": -1.841,
+        "fed_funds_rate": 2.072
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 1.91
+      },
+      "zscores": {
+        "job_openings_rate": 2.153,
+        "unemployment_rate": -1.723,
+        "fed_funds_rate": 1.916
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "job_openings_rate": 4.7,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 1.95
+      },
+      "zscores": {
+        "job_openings_rate": 2.305,
+        "unemployment_rate": -1.823,
+        "fed_funds_rate": 1.848
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "job_openings_rate": 4.7,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 2.19
+      },
+      "zscores": {
+        "job_openings_rate": 2.092,
+        "unemployment_rate": -1.493,
+        "fed_funds_rate": 2.088
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "job_openings_rate": 4.8,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 2.2
+      },
+      "zscores": {
+        "job_openings_rate": 2.21,
+        "unemployment_rate": -1.417,
+        "fed_funds_rate": 1.953
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "job_openings_rate": 4.8,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 2.27
+      },
+      "zscores": {
+        "job_openings_rate": 2.016,
+        "unemployment_rate": -1.122,
+        "fed_funds_rate": 1.915
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "job_openings_rate": 4.8,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 2.4
+      },
+      "zscores": {
+        "job_openings_rate": 1.855,
+        "unemployment_rate": -0.837,
+        "fed_funds_rate": 1.957
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 2.4
+      },
+      "zscores": {
+        "job_openings_rate": 0.913,
+        "unemployment_rate": -1.242,
+        "fed_funds_rate": 1.815
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 2.41
+      },
+      "zscores": {
+        "job_openings_rate": 1.147,
+        "unemployment_rate": -1.184,
+        "fed_funds_rate": 1.709
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 2.42
+      },
+      "zscores": {
+        "job_openings_rate": 1.084,
+        "unemployment_rate": -1.374,
+        "fed_funds_rate": 1.616
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 2.39
+      },
+      "zscores": {
+        "job_openings_rate": 1.025,
+        "unemployment_rate": -1.53,
+        "fed_funds_rate": 1.483
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 2.38
+      },
+      "zscores": {
+        "job_openings_rate": 0.971,
+        "unemployment_rate": -1.457,
+        "fed_funds_rate": 1.39
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 2.4
+      },
+      "zscores": {
+        "job_openings_rate": 0.641,
+        "unemployment_rate": -1.148,
+        "fed_funds_rate": 1.346
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 2.13
+      },
+      "zscores": {
+        "job_openings_rate": 0.599,
+        "unemployment_rate": -1.349,
+        "fed_funds_rate": 0.906
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 2.04
+      },
+      "zscores": {
+        "job_openings_rate": 0.558,
+        "unemployment_rate": -1.575,
+        "fed_funds_rate": 0.729
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 1.83
+      },
+      "zscores": {
+        "job_openings_rate": 0.821,
+        "unemployment_rate": -1.27,
+        "fed_funds_rate": 0.363
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 1.55
+      },
+      "zscores": {
+        "job_openings_rate": -0.162,
+        "unemployment_rate": -1.223,
+        "fed_funds_rate": -0.146
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 1.55
+      },
+      "zscores": {
+        "job_openings_rate": -0.526,
+        "unemployment_rate": -1.185,
+        "fed_funds_rate": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 1.55
+      },
+      "zscores": {
+        "job_openings_rate": 0.426,
+        "unemployment_rate": -1.157,
+        "fed_funds_rate": -0.26
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 1.58
+      },
+      "zscores": {
+        "job_openings_rate": 0.021,
+        "unemployment_rate": -1.453,
+        "fed_funds_rate": -0.266
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "job_openings_rate": 3.8,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 0.65
+      },
+      "zscores": {
+        "job_openings_rate": -2.212,
+        "unemployment_rate": 1.706,
+        "fed_funds_rate": -2.069
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "job_openings_rate": 3.4,
+        "unemployment_rate": 14.8,
+        "fed_funds_rate": 0.05
+      },
+      "zscores": {
+        "job_openings_rate": -3.171,
+        "unemployment_rate": 5.849,
+        "fed_funds_rate": -2.891
+      },
+      "events": [
+        {
+          "label": "COVID: unemployment jumps to 14.8%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "job_openings_rate": 4.0,
+        "unemployment_rate": 13.2,
+        "fed_funds_rate": 0.05
+      },
+      "zscores": {
+        "job_openings_rate": -1.28,
+        "unemployment_rate": 3.742,
+        "fed_funds_rate": -2.625
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 11.0,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": -0.3,
+        "unemployment_rate": 2.473,
+        "fed_funds_rate": -2.358
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 10.2,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.342,
+        "unemployment_rate": 1.978,
+        "fed_funds_rate": -2.157
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 8.4,
+        "fed_funds_rate": 0.1
+      },
+      "zscores": {
+        "job_openings_rate": -0.029,
+        "unemployment_rate": 1.25,
+        "fed_funds_rate": -1.99
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 7.8,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": -0.059,
+        "unemployment_rate": 0.987,
+        "fed_funds_rate": -1.872
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 6.9,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.61,
+        "unemployment_rate": 0.64,
+        "fed_funds_rate": -1.758
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 6.7,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.569,
+        "unemployment_rate": 0.543,
+        "fed_funds_rate": -1.657
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 6.7,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 0.173,
+        "unemployment_rate": 0.517,
+        "fed_funds_rate": -1.561
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "job_openings_rate": 4.8,
+        "unemployment_rate": 6.4,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 1.204,
+        "unemployment_rate": 0.389,
+        "fed_funds_rate": -1.471
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "job_openings_rate": 5.2,
+        "unemployment_rate": 6.2,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 2.367,
+        "unemployment_rate": 0.299,
+        "fed_funds_rate": -1.4
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "job_openings_rate": 5.6,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 3.077,
+        "unemployment_rate": 0.244,
+        "fed_funds_rate": -1.333
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "job_openings_rate": 6.1,
+        "unemployment_rate": 6.1,
+        "fed_funds_rate": 0.07
+      },
+      "zscores": {
+        "job_openings_rate": 3.522,
+        "unemployment_rate": 0.224,
+        "fed_funds_rate": -1.259
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "job_openings_rate": 6.4,
+        "unemployment_rate": 5.8,
+        "fed_funds_rate": 0.06
+      },
+      "zscores": {
+        "job_openings_rate": 3.367,
+        "unemployment_rate": 0.099,
+        "fed_funds_rate": -1.2
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "job_openings_rate": 6.6,
+        "unemployment_rate": 5.9,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 3.101,
+        "unemployment_rate": 0.116,
+        "fed_funds_rate": -1.116
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "job_openings_rate": 7.0,
+        "unemployment_rate": 5.4,
+        "fed_funds_rate": 0.1
+      },
+      "zscores": {
+        "job_openings_rate": 3.101,
+        "unemployment_rate": -0.077,
+        "fed_funds_rate": -1.037
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "job_openings_rate": 6.9,
+        "unemployment_rate": 5.1,
+        "fed_funds_rate": 0.09
+      },
+      "zscores": {
+        "job_openings_rate": 2.587,
+        "unemployment_rate": -0.199,
+        "fed_funds_rate": -0.991
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "job_openings_rate": 6.8,
+        "unemployment_rate": 4.7,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 2.217,
+        "unemployment_rate": -0.354,
+        "fed_funds_rate": -0.947
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "job_openings_rate": 7.0,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 2.204,
+        "unemployment_rate": -0.435,
+        "fed_funds_rate": -0.896
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "job_openings_rate": 7.0,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 2.012,
+        "unemployment_rate": -0.584,
+        "fed_funds_rate": -0.846
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "job_openings_rate": 7.1,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.937,
+        "unemployment_rate": -0.657,
+        "fed_funds_rate": -0.799
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "job_openings_rate": 7.0,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.709,
+        "unemployment_rate": -0.621,
+        "fed_funds_rate": -0.754
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "job_openings_rate": 7.2,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 0.08
+      },
+      "zscores": {
+        "job_openings_rate": 1.749,
+        "unemployment_rate": -0.659,
+        "fed_funds_rate": -0.711
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "job_openings_rate": 7.5,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 0.2
+      },
+      "zscores": {
+        "job_openings_rate": 1.851,
+        "unemployment_rate": -0.73,
+        "fed_funds_rate": -0.539
+      },
+      "events": [
+        {
+          "label": "Record 7.5% job openings rate",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "job_openings_rate": 7.3,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 0.33
+      },
+      "zscores": {
+        "job_openings_rate": 1.571,
+        "unemployment_rate": -0.73,
+        "fed_funds_rate": -0.347
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "job_openings_rate": 7.1,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 0.77
+      },
+      "zscores": {
+        "job_openings_rate": 1.326,
+        "unemployment_rate": -0.766,
+        "fed_funds_rate": 0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "job_openings_rate": 6.9,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 1.21
+      },
+      "zscores": {
+        "job_openings_rate": 1.104,
+        "unemployment_rate": -0.766,
+        "fed_funds_rate": 0.901
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "job_openings_rate": 7.0,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 1.68
+      },
+      "zscores": {
+        "job_openings_rate": 1.117,
+        "unemployment_rate": -0.799,
+        "fed_funds_rate": 1.66
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "job_openings_rate": 6.2,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 2.33
+      },
+      "zscores": {
+        "job_openings_rate": 0.465,
+        "unemployment_rate": -0.763,
+        "fed_funds_rate": 2.538
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "job_openings_rate": 6.6,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 2.56
+      },
+      "zscores": {
+        "job_openings_rate": 0.733,
+        "unemployment_rate": -0.799,
+        "fed_funds_rate": 2.708
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "job_openings_rate": 6.4,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 3.08
+      },
+      "zscores": {
+        "job_openings_rate": 0.541,
+        "unemployment_rate": -0.763,
+        "fed_funds_rate": 3.021
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "job_openings_rate": 6.4,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 3.78
+      },
+      "zscores": {
+        "job_openings_rate": 0.502,
+        "unemployment_rate": -0.763,
+        "fed_funds_rate": 3.238
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "job_openings_rate": 6.6,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 4.1
+      },
+      "zscores": {
+        "job_openings_rate": 0.619,
+        "unemployment_rate": -0.797,
+        "fed_funds_rate": 3.037
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "job_openings_rate": 6.2,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": 0.261,
+        "unemployment_rate": -0.796,
+        "fed_funds_rate": 2.815
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "job_openings_rate": 6.0,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 4.57
+      },
+      "zscores": {
+        "job_openings_rate": 0.061,
+        "unemployment_rate": -0.761,
+        "fed_funds_rate": 2.644
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "job_openings_rate": 5.9,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 4.65
+      },
+      "zscores": {
+        "job_openings_rate": -0.076,
+        "unemployment_rate": -0.784,
+        "fed_funds_rate": 2.398
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "job_openings_rate": 6.0,
+        "unemployment_rate": 3.4,
+        "fed_funds_rate": 4.83
+      },
+      "zscores": {
+        "job_openings_rate": -0.056,
+        "unemployment_rate": -0.841,
+        "fed_funds_rate": 2.257
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "job_openings_rate": 5.7,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 5.06
+      },
+      "zscores": {
+        "job_openings_rate": -0.411,
+        "unemployment_rate": -0.772,
+        "fed_funds_rate": 2.165
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "job_openings_rate": 5.6,
+        "unemployment_rate": 3.6,
+        "fed_funds_rate": 5.08
+      },
+      "zscores": {
+        "job_openings_rate": -0.574,
+        "unemployment_rate": -0.771,
+        "fed_funds_rate": 1.988
+      },
+      "events": [
+        {
+          "label": "Fed rate above 5% to cool the job market",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "job_openings_rate": 5.3,
+        "unemployment_rate": 3.5,
+        "fed_funds_rate": 5.12
+      },
+      "zscores": {
+        "job_openings_rate": -0.946,
+        "unemployment_rate": -0.845,
+        "fed_funds_rate": 1.851
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "job_openings_rate": 5.6,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -0.687,
+        "unemployment_rate": -0.677,
+        "fed_funds_rate": 1.808
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "job_openings_rate": 5.6,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -0.768,
+        "unemployment_rate": -0.646,
+        "fed_funds_rate": 1.679
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "job_openings_rate": 5.2,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.32,
+        "unemployment_rate": -0.431,
+        "fed_funds_rate": 1.568
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "job_openings_rate": 5.2,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.392,
+        "unemployment_rate": -0.572,
+        "fed_funds_rate": 1.469
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "job_openings_rate": 5.2,
+        "unemployment_rate": 3.8,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.489,
+        "unemployment_rate": -0.431,
+        "fed_funds_rate": 1.381
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "job_openings_rate": 5.1,
+        "unemployment_rate": 3.7,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.674,
+        "unemployment_rate": -0.495,
+        "fed_funds_rate": 1.301
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "job_openings_rate": 5.1,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.66,
+        "unemployment_rate": -0.211,
+        "fed_funds_rate": 1.228
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "job_openings_rate": 5.0,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.722,
+        "unemployment_rate": -0.149,
+        "fed_funds_rate": 1.161
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -2.069,
+        "unemployment_rate": -0.075,
+        "fed_funds_rate": 1.099
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "job_openings_rate": 4.7,
+        "unemployment_rate": 3.9,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.795,
+        "unemployment_rate": 0.01,
+        "fed_funds_rate": 1.041
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.872,
+        "unemployment_rate": 0.586,
+        "fed_funds_rate": 0.986
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.738,
+        "unemployment_rate": 1.098,
+        "fed_funds_rate": 0.935
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 5.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.522,
+        "unemployment_rate": 1.438,
+        "fed_funds_rate": 0.886
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 5.13
+      },
+      "zscores": {
+        "job_openings_rate": -1.811,
+        "unemployment_rate": 1.326,
+        "fed_funds_rate": 0.748
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 4.83
+      },
+      "zscores": {
+        "job_openings_rate": -1.407,
+        "unemployment_rate": 1.525,
+        "fed_funds_rate": 0.561
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 4.64
+      },
+      "zscores": {
+        "job_openings_rate": -1.232,
+        "unemployment_rate": 1.918,
+        "fed_funds_rate": 0.423
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 4.48
+      },
+      "zscores": {
+        "job_openings_rate": -1.363,
+        "unemployment_rate": 1.421,
+        "fed_funds_rate": 0.292
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 4.0,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.193,
+        "unemployment_rate": 0.995,
+        "fed_funds_rate": 0.154
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.238,
+        "unemployment_rate": 1.74,
+        "fed_funds_rate": 0.092
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.403,
+        "unemployment_rate": 1.621,
+        "fed_funds_rate": 0.021
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.249,
+        "unemployment_rate": 1.517,
+        "fed_funds_rate": -0.067
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.092,
+        "unemployment_rate": 1.757,
+        "fed_funds_rate": -0.17
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.165,
+        "unemployment_rate": 0.967,
+        "fed_funds_rate": -0.295
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.132,
+        "unemployment_rate": 1.593,
+        "fed_funds_rate": -0.447
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 4.33
+      },
+      "zscores": {
+        "job_openings_rate": -1.198,
+        "unemployment_rate": 1.492,
+        "fed_funds_rate": -0.605
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 4.22
+      },
+      "zscores": {
+        "job_openings_rate": -1.025,
+        "unemployment_rate": 1.725,
+        "fed_funds_rate": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.45,
+        "fed_funds_rate": 4.09
+      },
+      "zscores": {
+        "job_openings_rate": -0.982,
+        "unemployment_rate": 1.762,
+        "fed_funds_rate": -1.457
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "job_openings_rate": 4.1,
+        "unemployment_rate": 4.5,
+        "fed_funds_rate": 3.88
+      },
+      "zscores": {
+        "job_openings_rate": -1.225,
+        "unemployment_rate": 1.791,
+        "fed_funds_rate": -1.915
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "job_openings_rate": 4.0,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 3.72
+      },
+      "zscores": {
+        "job_openings_rate": -1.36,
+        "unemployment_rate": 1.388,
+        "fed_funds_rate": -2.14
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 3.64
+      },
+      "zscores": {
+        "job_openings_rate": -0.683,
+        "unemployment_rate": 1.009,
+        "fed_funds_rate": -2.135
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.4,
+        "fed_funds_rate": 3.64
+      },
+      "zscores": {
+        "job_openings_rate": -0.987,
+        "unemployment_rate": 1.272,
+        "fed_funds_rate": -1.972
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "job_openings_rate": 4.2,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 3.64
+      },
+      "zscores": {
+        "job_openings_rate": -0.95,
+        "unemployment_rate": 0.892,
+        "fed_funds_rate": -1.828
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "job_openings_rate": 4.6,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 3.64
+      },
+      "zscores": {
+        "job_openings_rate": -0.133,
+        "unemployment_rate": 0.86,
+        "fed_funds_rate": -1.699
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "job_openings_rate": 4.5,
+        "unemployment_rate": 4.3,
+        "fed_funds_rate": 3.63
+      },
+      "zscores": {
+        "job_openings_rate": -0.29,
+        "unemployment_rate": 0.817,
+        "fed_funds_rate": -1.597
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.2,
+        "fed_funds_rate": 3.63
+      },
+      "zscores": {
+        "job_openings_rate": -0.698,
+        "unemployment_rate": 0.387,
+        "fed_funds_rate": -1.494
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "job_openings_rate": 4.4,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 3.63
+      },
+      "zscores": {
+        "job_openings_rate": -0.418,
+        "unemployment_rate": -0.092,
+        "fed_funds_rate": -1.403
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "job_openings_rate": 4.3,
+        "unemployment_rate": 4.1,
+        "fed_funds_rate": 3.63
+      },
+      "zscores": {
+        "job_openings_rate": -0.634,
+        "unemployment_rate": -0.149,
+        "fed_funds_rate": -1.323
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "The Beveridge curve compares how many jobs are open with how many people are unemployed. When employers are desperate for workers, openings are high and unemployment is low. In a recession, it is the other way around.",
+    "methodology": "Job openings rate from the BLS Job Openings and Labor Turnover Survey (JOLTS, JTS000000000000000JOR). Unemployment rate from BLS (LNS14000000). Federal funds rate from the Federal Reserve via FRED (FEDFUNDS).",
+    "key_findings": [
+      {
+        "date": "2009-10-01",
+        "title": "October 2009: Few Jobs, Many Job Seekers",
+        "description": "Unemployment reached 10.0% while the job openings rate was only 1.8%.",
+        "significance": "There were about six unemployed people for each open job.",
+        "normalized_time": 0.3442
+      },
+      {
+        "date": "2022-03-01",
+        "title": "March 2022: The Great Labor Shortage",
+        "description": "The job openings rate hit 7.5%, the highest on record, while unemployment was 3.7%. There were about two open jobs for each unemployed person.",
+        "significance": "Employers competed hard for workers, which pushed up wages.",
+        "normalized_time": 0.8279
+      },
+      {
+        "date": "2024-06-01",
+        "title": "2023-2024: Cooling Without a Crash",
+        "description": "The Fed raised its rate from 0.2% to 5.3%. Openings fell to 4.5% while unemployment rose only to 4.1%. As of August 2026, openings are 4.3%.",
+        "significance": "Openings fell a lot before unemployment rose much.",
+        "normalized_time": 0.9156
+      }
+    ]
+  }
+}

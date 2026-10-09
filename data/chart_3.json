@@ -1,0 +1,5253 @@
+{
+  "metadata": {
+    "chart_id": "chart_3",
+    "number": 3,
+    "title": "Two Early Warning Signs of a Recession",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 1997,
+    "end_year": 2026,
+    "observation_count": 357,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-09",
+    "data_notes": "The ICE high-yield spread is limited to 3 years on FRED, so the Moody's Baa spread (1986+) is used instead."
+  },
+  "analytics": {
+    "optimal_lag_months": 5,
+    "peak_correlation_coefficient": -0.419,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.187
+      },
+      {
+        "lag": -17,
+        "r": -0.186
+      },
+      {
+        "lag": -16,
+        "r": -0.187
+      },
+      {
+        "lag": -15,
+        "r": -0.187
+      },
+      {
+        "lag": -14,
+        "r": -0.188
+      },
+      {
+        "lag": -13,
+        "r": -0.189
+      },
+      {
+        "lag": -12,
+        "r": -0.19
+      },
+      {
+        "lag": -11,
+        "r": -0.193
+      },
+      {
+        "lag": -10,
+        "r": -0.197
+      },
+      {
+        "lag": -9,
+        "r": -0.202
+      },
+      {
+        "lag": -8,
+        "r": -0.21
+      },
+      {
+        "lag": -7,
+        "r": -0.222
+      },
+      {
+        "lag": -6,
+        "r": -0.238
+      },
+      {
+        "lag": -5,
+        "r": -0.256
+      },
+      {
+        "lag": -4,
+        "r": -0.274
+      },
+      {
+        "lag": -3,
+        "r": -0.293
+      },
+      {
+        "lag": -2,
+        "r": -0.316
+      },
+      {
+        "lag": -1,
+        "r": -0.342
+      },
+      {
+        "lag": 0,
+        "r": -0.367
+      },
+      {
+        "lag": 1,
+        "r": -0.398
+      },
+      {
+        "lag": 2,
+        "r": -0.409
+      },
+      {
+        "lag": 3,
+        "r": -0.415
+      },
+      {
+        "lag": 4,
+        "r": -0.418
+      },
+      {
+        "lag": 5,
+        "r": -0.419
+      },
+      {
+        "lag": 6,
+        "r": -0.418
+      },
+      {
+        "lag": 7,
+        "r": -0.413
+      },
+      {
+        "lag": 8,
+        "r": -0.406
+      },
+      {
+        "lag": 9,
+        "r": -0.396
+      },
+      {
+        "lag": 10,
+        "r": -0.385
+      },
+      {
+        "lag": 11,
+        "r": -0.369
+      },
+      {
+        "lag": 12,
+        "r": -0.349
+      },
+      {
+        "lag": 13,
+        "r": -0.329
+      },
+      {
+        "lag": 14,
+        "r": -0.306
+      },
+      {
+        "lag": 15,
+        "r": -0.283
+      },
+      {
+        "lag": 16,
+        "r": -0.257
+      },
+      {
+        "lag": 17,
+        "r": -0.227
+      },
+      {
+        "lag": 18,
+        "r": -0.194
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "hy_spread",
+      "agency": "FRED",
+      "series_id": "BAA10Y",
+      "label": "Corporate Borrowing Penalty (Baa Bond Yield minus 10-Yr Treasury)",
+      "unit": "%",
+      "transform": "zscore",
+      "color": "#f43f5e"
+    },
+    {
+      "key": "temp_help",
+      "agency": "BLS",
+      "series_id": "CES6056132001",
+      "label": "Temporary Agency Help Jobs",
+      "unit": "k Jobs",
+      "transform": "zscore",
+      "color": "#8b5cf6"
+    },
+    {
+      "key": "recession",
+      "agency": "FRED",
+      "series_id": "USREC",
+      "label": "Official US Recession (NBER)",
+      "unit": "binary",
+      "transform": "raw",
+      "color": "#64748b"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1997-01-01",
+      "values": {
+        "hy_spread": 1.52,
+        "temp_help": 1946.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.0,
+        "temp_help": 0.0,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-02-01",
+      "values": {
+        "hy_spread": 1.52,
+        "temp_help": 1972.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.0,
+        "temp_help": 1.0,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-03-01",
+      "values": {
+        "hy_spread": 1.49,
+        "temp_help": 2004.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.414,
+        "temp_help": 1.265,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-04-01",
+      "values": {
+        "hy_spread": 1.45,
+        "temp_help": 2027.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.567,
+        "temp_help": 1.291,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-05-01",
+      "values": {
+        "hy_spread": 1.49,
+        "temp_help": 2049.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.155,
+        "temp_help": 1.33,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-06-01",
+      "values": {
+        "hy_spread": 1.53,
+        "temp_help": 2060.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.108,
+        "temp_help": 1.235,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-07-01",
+      "values": {
+        "hy_spread": 1.53,
+        "temp_help": 2088.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.946,
+        "temp_help": 1.449,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-08-01",
+      "values": {
+        "hy_spread": 1.52,
+        "temp_help": 2066.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.53,
+        "temp_help": 0.853,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-09-01",
+      "values": {
+        "hy_spread": 1.5,
+        "temp_help": 2082.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.226,
+        "temp_help": 1.067,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-10-01",
+      "values": {
+        "hy_spread": 1.54,
+        "temp_help": 2110.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.217,
+        "temp_help": 1.393,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-11-01",
+      "values": {
+        "hy_spread": 1.54,
+        "temp_help": 2139.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.089,
+        "temp_help": 1.617,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1997-12-01",
+      "values": {
+        "hy_spread": 1.52,
+        "temp_help": 2163.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.302,
+        "temp_help": 1.689,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2175.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.901,
+        "temp_help": 1.6,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-02-01",
+      "values": {
+        "hy_spread": 1.68,
+        "temp_help": 2189.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.495,
+        "temp_help": 1.578,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-03-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2193.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.925,
+        "temp_help": 1.451,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-04-01",
+      "values": {
+        "hy_spread": 1.69,
+        "temp_help": 2201.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.885,
+        "temp_help": 1.406,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-05-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2221.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.234,
+        "temp_help": 1.489,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-06-01",
+      "values": {
+        "hy_spread": 1.64,
+        "temp_help": 2251.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.034,
+        "temp_help": 1.659,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-07-01",
+      "values": {
+        "hy_spread": 1.69,
+        "temp_help": 2245.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.545,
+        "temp_help": 1.452,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-08-01",
+      "values": {
+        "hy_spread": 1.8,
+        "temp_help": 2265.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.403,
+        "temp_help": 1.533,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-09-01",
+      "values": {
+        "hy_spread": 2.28,
+        "temp_help": 2242.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 3.839,
+        "temp_help": 1.205,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-10-01",
+      "values": {
+        "hy_spread": 2.65,
+        "temp_help": 2284.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 3.604,
+        "temp_help": 1.523,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-11-01",
+      "values": {
+        "hy_spread": 2.51,
+        "temp_help": 2307.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.543,
+        "temp_help": 1.61,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1998-12-01",
+      "values": {
+        "hy_spread": 2.58,
+        "temp_help": 2332.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.355,
+        "temp_help": 1.702,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "hy_spread": 2.57,
+        "temp_help": 2355.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.067,
+        "temp_help": 1.75,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-02-01",
+      "values": {
+        "hy_spread": 2.39,
+        "temp_help": 2387.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.5,
+        "temp_help": 1.854,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-03-01",
+      "values": {
+        "hy_spread": 2.3,
+        "temp_help": 2403.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.214,
+        "temp_help": 1.825,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-04-01",
+      "values": {
+        "hy_spread": 2.29,
+        "temp_help": 2416.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.139,
+        "temp_help": 1.78,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-05-01",
+      "values": {
+        "hy_spread": 2.18,
+        "temp_help": 2434.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.842,
+        "temp_help": 1.777,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-06-01",
+      "values": {
+        "hy_spread": 2.12,
+        "temp_help": 2454.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.676,
+        "temp_help": 1.781,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-07-01",
+      "values": {
+        "hy_spread": 2.16,
+        "temp_help": 2475.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.756,
+        "temp_help": 1.793,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-08-01",
+      "values": {
+        "hy_spread": 2.22,
+        "temp_help": 2482.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.882,
+        "temp_help": 1.726,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-09-01",
+      "values": {
+        "hy_spread": 2.29,
+        "temp_help": 2475.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.025,
+        "temp_help": 1.587,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-10-01",
+      "values": {
+        "hy_spread": 2.27,
+        "temp_help": 2550.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.947,
+        "temp_help": 1.919,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-11-01",
+      "values": {
+        "hy_spread": 2.12,
+        "temp_help": 2573.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.558,
+        "temp_help": 1.915,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "1999-12-01",
+      "values": {
+        "hy_spread": 1.91,
+        "temp_help": 2603.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.022,
+        "temp_help": 1.95,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2620.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.615,
+        "temp_help": 1.918,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-02-01",
+      "values": {
+        "hy_spread": 1.77,
+        "temp_help": 2622.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.377,
+        "temp_help": 1.819,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-03-01",
+      "values": {
+        "hy_spread": 2.11,
+        "temp_help": 2645.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.483,
+        "temp_help": 1.823,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-04-01",
+      "values": {
+        "hy_spread": 2.41,
+        "temp_help": 2681.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.219,
+        "temp_help": 1.886,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-05-01",
+      "values": {
+        "hy_spread": 2.46,
+        "temp_help": 2649.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.28,
+        "temp_help": 1.615,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-06-01",
+      "values": {
+        "hy_spread": 2.39,
+        "temp_help": 2649.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.034,
+        "temp_help": 1.529,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-07-01",
+      "values": {
+        "hy_spread": 2.29,
+        "temp_help": 2644.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.719,
+        "temp_help": 1.423,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-08-01",
+      "values": {
+        "hy_spread": 2.43,
+        "temp_help": 2635.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.048,
+        "temp_help": 1.311,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-09-01",
+      "values": {
+        "hy_spread": 2.55,
+        "temp_help": 2640.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.314,
+        "temp_help": 1.275,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-10-01",
+      "values": {
+        "hy_spread": 2.6,
+        "temp_help": 2630.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.38,
+        "temp_help": 1.164,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2000-11-01",
+      "values": {
+        "hy_spread": 2.56,
+        "temp_help": 2634.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.208,
+        "temp_help": 1.133,
+        "recession": 0.0
+      },
+      "events": [
+        {
+          "label": "Temp jobs start falling before the 2001 recession",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2000-12-01",
+      "values": {
+        "hy_spread": 2.78,
+        "temp_help": 2587.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.745,
+        "temp_help": 0.816,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "hy_spread": 2.77,
+        "temp_help": 2566.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.619,
+        "temp_help": 0.65,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-02-01",
+      "values": {
+        "hy_spread": 2.77,
+        "temp_help": 2533.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.531,
+        "temp_help": 0.407,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "hy_spread": 2.96,
+        "temp_help": 2485.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.94,
+        "temp_help": 0.052,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "hy_spread": 2.93,
+        "temp_help": 2402.1,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.748,
+        "temp_help": -0.562,
+        "recession": 5.916
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "hy_spread": 2.68,
+        "temp_help": 2380.5,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.002,
+        "temp_help": -0.774,
+        "recession": 4.123
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "hy_spread": 2.69,
+        "temp_help": 2342.9,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 0.993,
+        "temp_help": -1.092,
+        "recession": 3.317
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "hy_spread": 2.73,
+        "temp_help": 2314.2,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.077,
+        "temp_help": -1.349,
+        "recession": 2.828
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "hy_spread": 2.88,
+        "temp_help": 2295.1,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.494,
+        "temp_help": -1.516,
+        "recession": 2.49
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "hy_spread": 3.3,
+        "temp_help": 2259.0,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.522,
+        "temp_help": -1.808,
+        "recession": 2.236
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "hy_spread": 3.34,
+        "temp_help": 2218.6,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.378,
+        "temp_help": -2.052,
+        "recession": 2.035
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "hy_spread": 3.16,
+        "temp_help": 2158.0,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.753,
+        "temp_help": -2.34,
+        "recession": 1.871
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "hy_spread": 2.97,
+        "temp_help": 2138.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.203,
+        "temp_help": -2.291,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "hy_spread": 2.83,
+        "temp_help": 2147.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.818,
+        "temp_help": -2.074,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "hy_spread": 2.98,
+        "temp_help": 2156.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.137,
+        "temp_help": -1.881,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "hy_spread": 2.82,
+        "temp_help": 2190.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.7,
+        "temp_help": -1.585,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "hy_spread": 2.82,
+        "temp_help": 2216.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.663,
+        "temp_help": -1.364,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "hy_spread": 2.92,
+        "temp_help": 2226.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.862,
+        "temp_help": -1.25,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "hy_spread": 3.02,
+        "temp_help": 2230.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.052,
+        "temp_help": -1.17,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "hy_spread": 3.24,
+        "temp_help": 2188.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.502,
+        "temp_help": -1.319,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "hy_spread": 3.32,
+        "temp_help": 2231.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.587,
+        "temp_help": -1.041,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "hy_spread": 3.53,
+        "temp_help": 2207.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.922,
+        "temp_help": -1.106,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "hy_spread": 3.79,
+        "temp_help": 2202.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.268,
+        "temp_help": -1.07,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "hy_spread": 3.57,
+        "temp_help": 2176.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.681,
+        "temp_help": -1.137,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "hy_spread": 3.42,
+        "temp_help": 2159.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.307,
+        "temp_help": -1.155,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "hy_spread": 3.3,
+        "temp_help": 2196.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.03,
+        "temp_help": -0.915,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "hy_spread": 3.15,
+        "temp_help": 2180.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.646,
+        "temp_help": -0.942,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "hy_spread": 3.14,
+        "temp_help": 2166.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.58,
+        "temp_help": -0.962,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "hy_spread": 2.89,
+        "temp_help": 2143.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.154,
+        "temp_help": -1.035,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "hy_spread": 2.81,
+        "temp_help": 2190.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.42,
+        "temp_help": -0.742,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "hy_spread": 2.86,
+        "temp_help": 2221.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.324,
+        "temp_help": -0.525,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "hy_spread": 2.64,
+        "temp_help": 2247.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.073,
+        "temp_help": -0.334,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "hy_spread": 2.57,
+        "temp_help": 2246.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.335,
+        "temp_help": -0.29,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "hy_spread": 2.52,
+        "temp_help": 2260.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.489,
+        "temp_help": -0.141,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "hy_spread": 2.44,
+        "temp_help": 2261.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.698,
+        "temp_help": -0.073,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "hy_spread": 2.36,
+        "temp_help": 2275.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.881,
+        "temp_help": 0.123,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "hy_spread": 2.33,
+        "temp_help": 2294.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.847,
+        "temp_help": 0.398,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "hy_spread": 2.29,
+        "temp_help": 2298.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.838,
+        "temp_help": 0.578,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "hy_spread": 2.18,
+        "temp_help": 2310.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.986,
+        "temp_help": 0.917,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "hy_spread": 2.29,
+        "temp_help": 2313.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.585,
+        "temp_help": 1.19,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "hy_spread": 2.11,
+        "temp_help": 2352.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.884,
+        "temp_help": 1.885,
+        "recession": -0.491
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "hy_spread": 2.03,
+        "temp_help": 2381.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.93,
+        "temp_help": 2.334,
+        "recession": -0.447
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "hy_spread": 2.05,
+        "temp_help": 2383.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.763,
+        "temp_help": 2.271,
+        "recession": -0.402
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "hy_spread": 2.12,
+        "temp_help": 2396.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.52,
+        "temp_help": 2.295,
+        "recession": -0.354
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "hy_spread": 2.18,
+        "temp_help": 2403.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.317,
+        "temp_help": 2.199,
+        "recession": -0.302
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "hy_spread": 2.14,
+        "temp_help": 2419.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.319,
+        "temp_help": 2.19,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "hy_spread": 2.11,
+        "temp_help": 2477.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.303,
+        "temp_help": 2.551,
+        "recession": -0.169
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "hy_spread": 2.01,
+        "temp_help": 2459.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.415,
+        "temp_help": 2.138,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "hy_spread": 1.92,
+        "temp_help": 2430.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.493,
+        "temp_help": 1.706,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "hy_spread": 1.8,
+        "temp_help": 2459.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.61,
+        "temp_help": 1.867,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2491.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.75,
+        "temp_help": 2.018,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "hy_spread": 1.56,
+        "temp_help": 2491.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.768,
+        "temp_help": 1.864,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "hy_spread": 1.71,
+        "temp_help": 2508.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.417,
+        "temp_help": 1.858,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "hy_spread": 1.86,
+        "temp_help": 2505.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.102,
+        "temp_help": 1.703,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "hy_spread": 1.86,
+        "temp_help": 2529.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.043,
+        "temp_help": 1.764,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "hy_spread": 1.78,
+        "temp_help": 2538.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.112,
+        "temp_help": 1.715,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "hy_spread": 1.7,
+        "temp_help": 2558.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.182,
+        "temp_help": 1.738,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "hy_spread": 1.83,
+        "temp_help": 2600.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.922,
+        "temp_help": 1.902,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "hy_spread": 1.83,
+        "temp_help": 2604.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.902,
+        "temp_help": 1.797,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "hy_spread": 1.86,
+        "temp_help": 2630.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.818,
+        "temp_help": 1.849,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "hy_spread": 1.85,
+        "temp_help": 2633.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.81,
+        "temp_help": 1.752,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "hy_spread": 1.82,
+        "temp_help": 2624.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.851,
+        "temp_help": 1.585,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "hy_spread": 1.7,
+        "temp_help": 2631.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.116,
+        "temp_help": 1.548,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "hy_spread": 1.69,
+        "temp_help": 2640.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.134,
+        "temp_help": 1.527,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "hy_spread": 1.69,
+        "temp_help": 2636.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.104,
+        "temp_help": 1.441,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "hy_spread": 1.64,
+        "temp_help": 2654.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.222,
+        "temp_help": 1.501,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2648.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.122,
+        "temp_help": 1.39,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2642.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.091,
+        "temp_help": 1.28,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "hy_spread": 1.71,
+        "temp_help": 2651.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.913,
+        "temp_help": 1.286,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "hy_spread": 1.71,
+        "temp_help": 2642.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.882,
+        "temp_help": 1.165,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "hy_spread": 1.7,
+        "temp_help": 2630.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.891,
+        "temp_help": 1.023,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "hy_spread": 1.61,
+        "temp_help": 2626.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.248,
+        "temp_help": 0.951,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2637.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.027,
+        "temp_help": 0.997,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "hy_spread": 1.58,
+        "temp_help": 2652.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.326,
+        "temp_help": 1.088,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "hy_spread": 1.55,
+        "temp_help": 2642.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.41,
+        "temp_help": 0.961,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "hy_spread": 1.7,
+        "temp_help": 2646.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.601,
+        "temp_help": 0.966,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "hy_spread": 1.7,
+        "temp_help": 2629.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.558,
+        "temp_help": 0.753,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "hy_spread": 1.64,
+        "temp_help": 2611.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.86,
+        "temp_help": 0.515,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "hy_spread": 1.59,
+        "temp_help": 2604.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.102,
+        "temp_help": 0.389,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2593.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.701,
+        "temp_help": 0.201,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "hy_spread": 1.98,
+        "temp_help": 2586.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.581,
+        "temp_help": 0.057,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "hy_spread": 2.07,
+        "temp_help": 2557.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.301,
+        "temp_help": -0.442,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "hy_spread": 1.95,
+        "temp_help": 2568.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.572,
+        "temp_help": -0.327,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "hy_spread": 2.25,
+        "temp_help": 2553.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 3.366,
+        "temp_help": -0.629,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "hy_spread": 2.55,
+        "temp_help": 2541.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 3.981,
+        "temp_help": -0.965,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "hy_spread": 2.8,
+        "temp_help": 2548.8,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.871,
+        "temp_help": -0.96,
+        "recession": 5.916
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "hy_spread": 3.09,
+        "temp_help": 2505.9,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.755,
+        "temp_help": -1.849,
+        "recession": 4.123
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "hy_spread": 3.38,
+        "temp_help": 2485.8,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.592,
+        "temp_help": -2.235,
+        "recession": 3.317
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "hy_spread": 3.29,
+        "temp_help": 2463.2,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.867,
+        "temp_help": -2.525,
+        "recession": 2.828
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "hy_spread": 3.05,
+        "temp_help": 2428.0,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.136,
+        "temp_help": -2.878,
+        "recession": 2.49
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "hy_spread": 2.97,
+        "temp_help": 2403.1,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.825,
+        "temp_help": -2.888,
+        "recession": 2.236
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "hy_spread": 3.15,
+        "temp_help": 2369.5,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.976,
+        "temp_help": -2.924,
+        "recession": 2.035
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "hy_spread": 3.26,
+        "temp_help": 2338.8,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.983,
+        "temp_help": -2.857,
+        "recession": 1.871
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "hy_spread": 3.63,
+        "temp_help": 2305.9,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.324,
+        "temp_help": -2.783,
+        "recession": 1.732
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "hy_spread": 5.06,
+        "temp_help": 2231.2,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.537,
+        "temp_help": -2.989,
+        "recession": 1.612
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "hy_spread": 5.69,
+        "temp_help": 2127.1,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.425,
+        "temp_help": -3.213,
+        "recession": 1.508
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "hy_spread": 6.01,
+        "temp_help": 2050.5,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.103,
+        "temp_help": -3.136,
+        "recession": 1.414
+      },
+      "events": [
+        {
+          "label": "Baa borrowing penalty spikes to 6.0 points",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "hy_spread": 5.63,
+        "temp_help": 1967.0,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.45,
+        "temp_help": -3.064,
+        "recession": 1.33
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "hy_spread": 5.21,
+        "temp_help": 1898.3,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.939,
+        "temp_help": -2.919,
+        "recession": 1.254
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "hy_spread": 5.6,
+        "temp_help": 1835.8,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 2.035,
+        "temp_help": -2.774,
+        "recession": 1.183
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "hy_spread": 5.46,
+        "temp_help": 1778.1,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.788,
+        "temp_help": -2.636,
+        "recession": 1.118
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "hy_spread": 4.77,
+        "temp_help": 1773.7,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 1.239,
+        "temp_help": -2.366,
+        "recession": 1.057
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "hy_spread": 3.77,
+        "temp_help": 1753.8,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 0.525,
+        "temp_help": -2.201,
+        "recession": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "hy_spread": 3.53,
+        "temp_help": 1762.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.329,
+        "temp_help": -1.987,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "hy_spread": 2.99,
+        "temp_help": 1758.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.07,
+        "temp_help": -1.845,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "hy_spread": 2.91,
+        "temp_help": 1778.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.151,
+        "temp_help": -1.66,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "hy_spread": 2.9,
+        "temp_help": 1811.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.184,
+        "temp_help": -1.462,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "hy_spread": 2.92,
+        "temp_help": 1868.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.199,
+        "temp_help": -1.219,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "hy_spread": 2.78,
+        "temp_help": 1905.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.33,
+        "temp_help": -1.049,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "hy_spread": 2.51,
+        "temp_help": 1954.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.56,
+        "temp_help": -0.854,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "hy_spread": 2.65,
+        "temp_help": 1965.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.487,
+        "temp_help": -0.775,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "hy_spread": 2.55,
+        "temp_help": 1993.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.592,
+        "temp_help": -0.648,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "hy_spread": 2.41,
+        "temp_help": 2021.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.729,
+        "temp_help": -0.518,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "hy_spread": 2.63,
+        "temp_help": 2066.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.588,
+        "temp_help": -0.339,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "hy_spread": 3.03,
+        "temp_help": 2093.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.303,
+        "temp_help": -0.209,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "hy_spread": 3.0,
+        "temp_help": 2097.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.37,
+        "temp_help": -0.156,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "hy_spread": 2.96,
+        "temp_help": 2118.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.437,
+        "temp_help": -0.042,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "hy_spread": 3.01,
+        "temp_help": 2147.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.424,
+        "temp_help": 0.104,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "hy_spread": 3.18,
+        "temp_help": 2180.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.31,
+        "temp_help": 0.277,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "hy_spread": 3.16,
+        "temp_help": 2206.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.358,
+        "temp_help": 0.429,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "hy_spread": 2.81,
+        "temp_help": 2259.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.698,
+        "temp_help": 0.698,
+        "recession": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "hy_spread": 2.69,
+        "temp_help": 2231.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.807,
+        "temp_help": 0.651,
+        "recession": -0.946
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "hy_spread": 2.57,
+        "temp_help": 2266.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.898,
+        "temp_help": 0.863,
+        "recession": -0.894
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "hy_spread": 2.62,
+        "temp_help": 2297.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.824,
+        "temp_help": 1.065,
+        "recession": -0.845
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "hy_spread": 2.57,
+        "temp_help": 2292.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.843,
+        "temp_help": 1.1,
+        "recession": -0.798
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "hy_spread": 2.61,
+        "temp_help": 2294.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.79,
+        "temp_help": 1.157,
+        "recession": -0.752
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "hy_spread": 2.75,
+        "temp_help": 2282.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.655,
+        "temp_help": 1.142,
+        "recession": -0.707
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "hy_spread": 2.76,
+        "temp_help": 2273.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.633,
+        "temp_help": 1.132,
+        "recession": -0.663
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "hy_spread": 3.06,
+        "temp_help": 2314.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.357,
+        "temp_help": 1.355,
+        "recession": -0.62
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "hy_spread": 3.3,
+        "temp_help": 2344.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.132,
+        "temp_help": 1.496,
+        "recession": -0.577
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "hy_spread": 3.22,
+        "temp_help": 2363.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.163,
+        "temp_help": 1.535,
+        "recession": -0.535
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "hy_spread": 3.12,
+        "temp_help": 2376.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.203,
+        "temp_help": 1.516,
+        "recession": -0.491
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "hy_spread": 3.27,
+        "temp_help": 2404.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.025,
+        "temp_help": 1.55,
+        "recession": -0.447
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "hy_spread": 3.26,
+        "temp_help": 2428.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.098,
+        "temp_help": 1.555,
+        "recession": -0.402
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "hy_spread": 3.17,
+        "temp_help": 2470.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.062,
+        "temp_help": 1.627,
+        "recession": -0.354
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "hy_spread": 3.06,
+        "temp_help": 2466.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.009,
+        "temp_help": 1.51,
+        "recession": -0.302
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "hy_spread": 3.14,
+        "temp_help": 2472.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.354,
+        "temp_help": 1.456,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "hy_spread": 3.27,
+        "temp_help": 2482.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.062,
+        "temp_help": 1.425,
+        "recession": -0.169
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "hy_spread": 3.4,
+        "temp_help": 2505.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.648,
+        "temp_help": 1.462,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "hy_spread": 3.35,
+        "temp_help": 2516.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.538,
+        "temp_help": 1.448,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "hy_spread": 3.23,
+        "temp_help": 2519.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.054,
+        "temp_help": 1.415,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "hy_spread": 3.12,
+        "temp_help": 2489.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.63,
+        "temp_help": 1.232,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "hy_spread": 2.84,
+        "temp_help": 2516.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.375,
+        "temp_help": 1.329,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "hy_spread": 2.86,
+        "temp_help": 2535.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.296,
+        "temp_help": 1.385,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "hy_spread": 2.91,
+        "temp_help": 2539.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.13,
+        "temp_help": 1.358,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "hy_spread": 2.82,
+        "temp_help": 2551.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.503,
+        "temp_help": 1.374,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "hy_spread": 2.86,
+        "temp_help": 2568.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.382,
+        "temp_help": 1.421,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "hy_spread": 2.9,
+        "temp_help": 2587.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.276,
+        "temp_help": 1.486,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "hy_spread": 2.83,
+        "temp_help": 2600.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.64,
+        "temp_help": 1.511,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "hy_spread": 2.8,
+        "temp_help": 2610.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.805,
+        "temp_help": 1.507,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "hy_spread": 2.89,
+        "temp_help": 2622.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.399,
+        "temp_help": 1.522,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "hy_spread": 2.74,
+        "temp_help": 2624.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.0,
+        "temp_help": 1.476,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "hy_spread": 2.69,
+        "temp_help": 2634.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.158,
+        "temp_help": 1.486,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "hy_spread": 2.66,
+        "temp_help": 2639.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.217,
+        "temp_help": 1.466,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "hy_spread": 2.69,
+        "temp_help": 2640.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.035,
+        "temp_help": 1.414,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "hy_spread": 2.67,
+        "temp_help": 2660.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.055,
+        "temp_help": 1.49,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "hy_spread": 2.48,
+        "temp_help": 2685.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.716,
+        "temp_help": 1.588,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "hy_spread": 2.33,
+        "temp_help": 2675.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -2.133,
+        "temp_help": 1.451,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "hy_spread": 2.39,
+        "temp_help": 2702.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.842,
+        "temp_help": 1.577,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "hy_spread": 2.34,
+        "temp_help": 2715.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.914,
+        "temp_help": 1.583,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "hy_spread": 2.2,
+        "temp_help": 2726.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -2.226,
+        "temp_help": 1.59,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "hy_spread": 2.2,
+        "temp_help": 2737.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -2.074,
+        "temp_help": 1.592,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "hy_spread": 2.2,
+        "temp_help": 2751.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.922,
+        "temp_help": 1.633,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "hy_spread": 2.19,
+        "temp_help": 2768.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.815,
+        "temp_help": 1.715,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "hy_spread": 2.27,
+        "temp_help": 2787.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.491,
+        "temp_help": 1.792,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "hy_spread": 2.27,
+        "temp_help": 2808.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.407,
+        "temp_help": 1.868,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "hy_spread": 2.38,
+        "temp_help": 2808.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.053,
+        "temp_help": 1.784,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "hy_spread": 2.46,
+        "temp_help": 2815.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.792,
+        "temp_help": 1.754,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "hy_spread": 2.53,
+        "temp_help": 2833.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.561,
+        "temp_help": 1.806,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "hy_spread": 2.57,
+        "temp_help": 2838.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.409,
+        "temp_help": 1.746,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "hy_spread": 2.53,
+        "temp_help": 2839.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.483,
+        "temp_help": 1.648,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "hy_spread": 2.5,
+        "temp_help": 2842.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.531,
+        "temp_help": 1.584,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "hy_spread": 2.55,
+        "temp_help": 2850.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.344,
+        "temp_help": 1.562,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "hy_spread": 2.69,
+        "temp_help": 2872.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.132,
+        "temp_help": 1.653,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "hy_spread": 2.76,
+        "temp_help": 2885.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.446,
+        "temp_help": 1.656,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "hy_spread": 2.88,
+        "temp_help": 2884.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.982,
+        "temp_help": 1.559,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "hy_spread": 3.02,
+        "temp_help": 2887.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.595,
+        "temp_help": 1.496,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "hy_spread": 3.17,
+        "temp_help": 2882.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.152,
+        "temp_help": 1.397,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "hy_spread": 3.27,
+        "temp_help": 2895.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.318,
+        "temp_help": 1.434,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "hy_spread": 3.19,
+        "temp_help": 2894.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.91,
+        "temp_help": 1.361,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "hy_spread": 3.21,
+        "temp_help": 2932.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.874,
+        "temp_help": 1.615,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "hy_spread": 3.36,
+        "temp_help": 2888.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.169,
+        "temp_help": 1.175,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "hy_spread": 3.56,
+        "temp_help": 2885.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.488,
+        "temp_help": 1.097,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "hy_spread": 3.24,
+        "temp_help": 2885.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.516,
+        "temp_help": 1.049,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "hy_spread": 2.98,
+        "temp_help": 2878.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.787,
+        "temp_help": 0.937,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "hy_spread": 2.87,
+        "temp_help": 2861.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.482,
+        "temp_help": 0.724,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "hy_spread": 2.88,
+        "temp_help": 2877.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.51,
+        "temp_help": 0.849,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "hy_spread": 2.71,
+        "temp_help": 2882.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.051,
+        "temp_help": 0.853,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "hy_spread": 2.68,
+        "temp_help": 2878.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.03,
+        "temp_help": 0.776,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "hy_spread": 2.68,
+        "temp_help": 2901.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.032,
+        "temp_help": 1.01,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "hy_spread": 2.61,
+        "temp_help": 2894.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.216,
+        "temp_help": 0.895,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "hy_spread": 2.57,
+        "temp_help": 2903.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.316,
+        "temp_help": 0.985,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "hy_spread": 2.34,
+        "temp_help": 2906.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.922,
+        "temp_help": 1.001,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "hy_spread": 2.23,
+        "temp_help": 2908.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.201,
+        "temp_help": 1.015,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "hy_spread": 2.22,
+        "temp_help": 2903.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.2,
+        "temp_help": 0.906,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "hy_spread": 2.2,
+        "temp_help": 2910.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.229,
+        "temp_help": 1.017,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "hy_spread": 2.27,
+        "temp_help": 2907.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.058,
+        "temp_help": 0.941,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "hy_spread": 2.25,
+        "temp_help": 2933.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.119,
+        "temp_help": 1.495,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "hy_spread": 2.18,
+        "temp_help": 2946.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.299,
+        "temp_help": 1.788,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "hy_spread": 2.07,
+        "temp_help": 2955.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.56,
+        "temp_help": 1.97,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "hy_spread": 2.1,
+        "temp_help": 2955.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.448,
+        "temp_help": 1.918,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "hy_spread": 2.1,
+        "temp_help": 2946.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.415,
+        "temp_help": 1.623,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "hy_spread": 1.96,
+        "temp_help": 2962.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.679,
+        "temp_help": 1.967,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "hy_spread": 1.92,
+        "temp_help": 2965.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.674,
+        "temp_help": 1.965,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "hy_spread": 1.82,
+        "temp_help": 2968.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.778,
+        "temp_help": 1.938,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2971.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.943,
+        "temp_help": 1.915,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2982.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.838,
+        "temp_help": 2.081,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "hy_spread": 1.8,
+        "temp_help": 2986.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.453,
+        "temp_help": 2.044,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "hy_spread": 1.8,
+        "temp_help": 2994.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.374,
+        "temp_help": 2.092,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "hy_spread": 1.85,
+        "temp_help": 2995.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.21,
+        "temp_help": 1.948,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "hy_spread": 1.92,
+        "temp_help": 2996.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.025,
+        "temp_help": 1.829,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "hy_spread": 1.9,
+        "temp_help": 2995.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.005,
+        "temp_help": 1.691,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "hy_spread": 1.88,
+        "temp_help": 2999.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.985,
+        "temp_help": 1.649,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "hy_spread": 1.88,
+        "temp_help": 3000.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.933,
+        "temp_help": 1.565,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "hy_spread": 1.91,
+        "temp_help": 3001.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.832,
+        "temp_help": 1.483,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "hy_spread": 2.11,
+        "temp_help": 2993.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.408,
+        "temp_help": 1.246,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "hy_spread": 2.3,
+        "temp_help": 2979.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.019,
+        "temp_help": 0.885,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "hy_spread": 2.41,
+        "temp_help": 2953.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.325,
+        "temp_help": 0.281,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "hy_spread": 2.27,
+        "temp_help": 2940.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.106,
+        "temp_help": -0.042,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "hy_spread": 2.26,
+        "temp_help": 2935.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.167,
+        "temp_help": -0.19,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "hy_spread": 2.17,
+        "temp_help": 2953.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.027,
+        "temp_help": 0.193,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "hy_spread": 2.23,
+        "temp_help": 2960.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.226,
+        "temp_help": 0.302,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "hy_spread": 2.39,
+        "temp_help": 2964.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.86,
+        "temp_help": 0.368,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "hy_spread": 2.22,
+        "temp_help": 2961.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.324,
+        "temp_help": 0.239,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "hy_spread": 2.25,
+        "temp_help": 2974.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.511,
+        "temp_help": 0.55,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "hy_spread": 2.22,
+        "temp_help": 2981.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.476,
+        "temp_help": 0.746,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "hy_spread": 2.22,
+        "temp_help": 2963.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.559,
+        "temp_help": 0.114,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "hy_spread": 2.13,
+        "temp_help": 2951.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.216,
+        "temp_help": -0.356,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "hy_spread": 2.02,
+        "temp_help": 2936.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.288,
+        "temp_help": -0.931,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "hy_spread": 2.01,
+        "temp_help": 2917.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.31,
+        "temp_help": -1.669,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "hy_spread": 2.11,
+        "temp_help": 2888.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.215,
+        "temp_help": -2.632,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "hy_spread": 3.42,
+        "temp_help": 2867.9,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 4.46,
+        "temp_help": -2.999,
+        "recession": 5.916
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "hy_spread": 3.47,
+        "temp_help": 1950.4,
+        "recession": 1.0
+      },
+      "zscores": {
+        "hy_spread": 3.6,
+        "temp_help": -5.824,
+        "recession": 4.123
+      },
+      "events": [
+        {
+          "label": "COVID: 920,000 temp jobs lost in one month",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "hy_spread": 3.28,
+        "temp_help": 2030.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 2.686,
+        "temp_help": -3.907,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "hy_spread": 2.91,
+        "temp_help": 2224.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.675,
+        "temp_help": -2.645,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "hy_spread": 2.69,
+        "temp_help": 2361.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 1.109,
+        "temp_help": -1.926,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "hy_spread": 2.62,
+        "temp_help": 2478.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.907,
+        "temp_help": -1.397,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "hy_spread": 2.68,
+        "temp_help": 2498.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.992,
+        "temp_help": -1.249,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "hy_spread": 2.65,
+        "temp_help": 2595.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.878,
+        "temp_help": -0.859,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "hy_spread": 2.43,
+        "temp_help": 2675.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.365,
+        "temp_help": -0.544,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "hy_spread": 2.23,
+        "temp_help": 2749.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.105,
+        "temp_help": -0.259,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "hy_spread": 2.16,
+        "temp_help": 2804.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.3,
+        "temp_help": -0.046,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "hy_spread": 2.16,
+        "temp_help": 2829.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.343,
+        "temp_help": 0.059,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "hy_spread": 2.13,
+        "temp_help": 2868.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.444,
+        "temp_help": 0.212,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "hy_spread": 1.97,
+        "temp_help": 2816.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.853,
+        "temp_help": 0.041,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "hy_spread": 2.0,
+        "temp_help": 2806.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.798,
+        "temp_help": 0.024,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "hy_spread": 1.93,
+        "temp_help": 2856.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.972,
+        "temp_help": 0.223,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "hy_spread": 1.93,
+        "temp_help": 2889.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.976,
+        "temp_help": 0.356,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "hy_spread": 1.96,
+        "temp_help": 2896.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.912,
+        "temp_help": 0.395,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "hy_spread": 1.86,
+        "temp_help": 2906.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.158,
+        "temp_help": 0.444,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "hy_spread": 1.77,
+        "temp_help": 3023.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.357,
+        "temp_help": 0.88,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "hy_spread": 1.72,
+        "temp_help": 3050.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.417,
+        "temp_help": 0.971,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "hy_spread": 1.83,
+        "temp_help": 3079.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.102,
+        "temp_help": 1.06,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "hy_spread": 1.82,
+        "temp_help": 3077.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.07,
+        "temp_help": 1.027,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "hy_spread": 2.03,
+        "temp_help": 3147.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.565,
+        "temp_help": 1.237,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "hy_spread": 2.17,
+        "temp_help": 3161.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.235,
+        "temp_help": 1.242,
+        "recession": -0.243
+      },
+      "events": [
+        {
+          "label": "Temp jobs peak at 3.16 million",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "hy_spread": 1.91,
+        "temp_help": 3132.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.812,
+        "temp_help": 1.108,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "hy_spread": 2.22,
+        "temp_help": 3113.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.102,
+        "temp_help": 1.014,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "hy_spread": 2.12,
+        "temp_help": 3106.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.313,
+        "temp_help": 0.97,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "hy_spread": 2.32,
+        "temp_help": 3095.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.138,
+        "temp_help": 0.909,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "hy_spread": 2.25,
+        "temp_help": 3080.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.022,
+        "temp_help": 0.845,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "hy_spread": 2.17,
+        "temp_help": 3081.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.202,
+        "temp_help": 0.833,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "hy_spread": 2.28,
+        "temp_help": 3070.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.046,
+        "temp_help": 0.782,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "hy_spread": 2.17,
+        "temp_help": 3036.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.208,
+        "temp_help": 0.66,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "hy_spread": 1.98,
+        "temp_help": 2968.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.64,
+        "temp_help": 0.432,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "hy_spread": 1.97,
+        "temp_help": 2967.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.659,
+        "temp_help": 0.423,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "hy_spread": 1.85,
+        "temp_help": 2949.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.907,
+        "temp_help": 0.357,
+        "recession": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "hy_spread": 2.05,
+        "temp_help": 2921.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.412,
+        "temp_help": 0.26,
+        "recession": -0.169
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "hy_spread": 2.07,
+        "temp_help": 2906.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.311,
+        "temp_help": 0.145,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "hy_spread": 2.19,
+        "temp_help": 2898.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.163,
+        "temp_help": 0.028,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "hy_spread": 2.01,
+        "temp_help": 2867.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.44,
+        "temp_help": -0.218,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "hy_spread": 1.84,
+        "temp_help": 2833.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.095,
+        "temp_help": -0.522,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "hy_spread": 1.85,
+        "temp_help": 2809.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.023,
+        "temp_help": -0.789,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "hy_spread": 1.78,
+        "temp_help": 2787.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.352,
+        "temp_help": -1.096,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "hy_spread": 1.83,
+        "temp_help": 2773.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.125,
+        "temp_help": -1.326,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "hy_spread": 1.79,
+        "temp_help": 2734.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.326,
+        "temp_help": -1.673,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "hy_spread": 1.62,
+        "temp_help": 2685.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -2.154,
+        "temp_help": -1.994,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "hy_spread": 1.62,
+        "temp_help": 2694.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.975,
+        "temp_help": -1.841,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "hy_spread": 1.56,
+        "temp_help": 2676.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -2.102,
+        "temp_help": -1.863,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "hy_spread": 1.55,
+        "temp_help": 2670.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.974,
+        "temp_help": -1.786,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "hy_spread": 1.46,
+        "temp_help": 2655.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -2.187,
+        "temp_help": -1.788,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "hy_spread": 1.47,
+        "temp_help": 2641.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.958,
+        "temp_help": -1.777,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "hy_spread": 1.51,
+        "temp_help": 2615.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.661,
+        "temp_help": -1.812,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "hy_spread": 1.59,
+        "temp_help": 2598.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.255,
+        "temp_help": -1.781,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "hy_spread": 1.73,
+        "temp_help": 2582.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.648,
+        "temp_help": -1.74,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "hy_spread": 1.69,
+        "temp_help": 2564.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.786,
+        "temp_help": -1.714,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "hy_spread": 1.54,
+        "temp_help": 2547.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.339,
+        "temp_help": -1.671,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "hy_spread": 1.42,
+        "temp_help": 2550.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.716,
+        "temp_help": -1.551,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "hy_spread": 1.41,
+        "temp_help": 2541.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.643,
+        "temp_help": -1.493,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "hy_spread": 1.45,
+        "temp_help": 2539.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.416,
+        "temp_help": -1.416,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "hy_spread": 1.47,
+        "temp_help": 2533.0,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.267,
+        "temp_help": -1.373,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "hy_spread": 1.65,
+        "temp_help": 2528.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.593,
+        "temp_help": -1.331,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "hy_spread": 1.9,
+        "temp_help": 2527.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.299,
+        "temp_help": -1.273,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "hy_spread": 1.86,
+        "temp_help": 2513.1,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.198,
+        "temp_help": -1.282,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "hy_spread": 1.76,
+        "temp_help": 2504.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.135,
+        "temp_help": -1.268,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "hy_spread": 1.71,
+        "temp_help": 2494.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.274,
+        "temp_help": -1.266,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "hy_spread": 1.73,
+        "temp_help": 2483.3,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.145,
+        "temp_help": -1.271,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "hy_spread": 1.71,
+        "temp_help": 2471.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.183,
+        "temp_help": -1.289,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2451.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.307,
+        "temp_help": -1.359,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "hy_spread": 1.76,
+        "temp_help": 2465.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.183,
+        "temp_help": -1.239,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "hy_spread": 1.75,
+        "temp_help": 2451.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.169,
+        "temp_help": -1.274,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "hy_spread": 1.67,
+        "temp_help": 2470.2,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.206,
+        "temp_help": -1.114,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "hy_spread": 1.69,
+        "temp_help": 2471.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.077,
+        "temp_help": -1.065,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "hy_spread": 1.79,
+        "temp_help": 2479.9,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.518,
+        "temp_help": -0.973,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "hy_spread": 1.71,
+        "temp_help": 2490.4,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": 0.136,
+        "temp_help": -0.862,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "hy_spread": 1.62,
+        "temp_help": 2490.6,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.355,
+        "temp_help": -0.832,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "hy_spread": 1.53,
+        "temp_help": 2507.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.951,
+        "temp_help": -0.655,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "hy_spread": 1.59,
+        "temp_help": 2497.5,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.465,
+        "temp_help": -0.714,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "hy_spread": 1.63,
+        "temp_help": 2497.7,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -0.118,
+        "temp_help": -0.68,
+        "recession": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2026-09-01",
+      "values": {
+        "hy_spread": 1.48,
+        "temp_help": 2486.8,
+        "recession": 0.0
+      },
+      "zscores": {
+        "hy_spread": -1.225,
+        "temp_help": -0.77,
+        "recession": 0.0
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Two warning signs of a recession. The first is the borrowing penalty: the extra interest that riskier companies pay compared with the US government. The second is the number of temp agency workers, often the first people companies let go. The stripes below show every month since 1998: red is a warning sign, blue is healthy. When the borrowing penalty rises, temp jobs tend to fall about 6 months later, and falling temp jobs come with recessions. The signs showed before the 2001 and 2008 recessions. COVID in 2020 came with almost no warning.",
+    "methodology": "Borrowing penalty: Moody's Baa corporate bond yield minus the 10-year Treasury yield (FRED BAA10Y, monthly average). Temp jobs: BLS temporary help services employment (CES6056132001). Grey periods are official NBER recessions (FRED USREC). The high-yield spread used before is only available for 3 years on FRED, so the longer Baa spread replaces it.",
+    "key_findings": [
+      {
+        "date": "2008-12-01",
+        "title": "December 2008: Credit Freezes",
+        "description": "The Baa spread jumped to 6.0 percentage points, its highest on the chart. Temp jobs kept falling until June 2009, to 1.75 million, down a third from 2.6 million in late 2005.",
+        "significance": "When lenders panic, temp workers lose their jobs next.",
+        "normalized_time": 0.4017
+      },
+      {
+        "date": "2020-04-01",
+        "title": "April 2020: Fastest Drop Ever",
+        "description": "Temp jobs fell from 2.87 million to 1.95 million in a single month as COVID closed businesses.",
+        "significance": "Temp staffing reacts within weeks to a sudden shock.",
+        "normalized_time": 0.7837
+      },
+      {
+        "date": "2022-03-01",
+        "title": "March 2022 to Now: A Quiet Warning",
+        "description": "Temp jobs peaked at 3.16 million in March 2022. As of September 2026 they are 2.49 million, about 21% lower, even though there has been no recession and the borrowing penalty is low (1.5 points).",
+        "significance": "The two signals disagree today, which is unusual. Watch which one turns out right.",
+        "normalized_time": 0.8483
+      }
+    ]
+  }
+}

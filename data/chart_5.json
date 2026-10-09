@@ -1,0 +1,3366 @@
+{
+  "metadata": {
+    "chart_id": "chart_5",
+    "number": 5,
+    "title": "What America Buys Abroad, and What It Pays",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "Census/BEA"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2005,
+    "end_year": 2026,
+    "observation_count": 260,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08",
+    "data_notes": "Port wait-time data has no public federal API, so that series was removed."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.741,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.429
+      },
+      {
+        "lag": -17,
+        "r": 0.438
+      },
+      {
+        "lag": -16,
+        "r": 0.447
+      },
+      {
+        "lag": -15,
+        "r": 0.456
+      },
+      {
+        "lag": -14,
+        "r": 0.467
+      },
+      {
+        "lag": -13,
+        "r": 0.479
+      },
+      {
+        "lag": -12,
+        "r": 0.493
+      },
+      {
+        "lag": -11,
+        "r": 0.509
+      },
+      {
+        "lag": -10,
+        "r": 0.527
+      },
+      {
+        "lag": -9,
+        "r": 0.545
+      },
+      {
+        "lag": -8,
+        "r": 0.565
+      },
+      {
+        "lag": -7,
+        "r": 0.588
+      },
+      {
+        "lag": -6,
+        "r": 0.612
+      },
+      {
+        "lag": -5,
+        "r": 0.637
+      },
+      {
+        "lag": -4,
+        "r": 0.665
+      },
+      {
+        "lag": -3,
+        "r": 0.692
+      },
+      {
+        "lag": -2,
+        "r": 0.715
+      },
+      {
+        "lag": -1,
+        "r": 0.731
+      },
+      {
+        "lag": 0,
+        "r": 0.741
+      },
+      {
+        "lag": 1,
+        "r": 0.734
+      },
+      {
+        "lag": 2,
+        "r": 0.721
+      },
+      {
+        "lag": 3,
+        "r": 0.705
+      },
+      {
+        "lag": 4,
+        "r": 0.686
+      },
+      {
+        "lag": 5,
+        "r": 0.667
+      },
+      {
+        "lag": 6,
+        "r": 0.647
+      },
+      {
+        "lag": 7,
+        "r": 0.628
+      },
+      {
+        "lag": 8,
+        "r": 0.609
+      },
+      {
+        "lag": 9,
+        "r": 0.589
+      },
+      {
+        "lag": 10,
+        "r": 0.573
+      },
+      {
+        "lag": 11,
+        "r": 0.558
+      },
+      {
+        "lag": 12,
+        "r": 0.544
+      },
+      {
+        "lag": 13,
+        "r": 0.533
+      },
+      {
+        "lag": 14,
+        "r": 0.522
+      },
+      {
+        "lag": 15,
+        "r": 0.512
+      },
+      {
+        "lag": 16,
+        "r": 0.498
+      },
+      {
+        "lag": 17,
+        "r": 0.483
+      },
+      {
+        "lag": 18,
+        "r": 0.463
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "import_volume",
+      "agency": "Census/BEA (via FRED)",
+      "series_id": "BOPGIMP",
+      "label": "Value of Foreign Goods Imported (Monthly)",
+      "unit": "$B",
+      "transform": "raw",
+      "color": "#06b6d4"
+    },
+    {
+      "key": "import_price_idx",
+      "agency": "BLS",
+      "series_id": "EIUIR",
+      "label": "Import Price Index (Price of Goods Brought into US)",
+      "unit": "Index",
+      "transform": "raw",
+      "color": "#e11d48"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005-01-01",
+      "values": {
+        "import_volume": 133.86,
+        "import_price_idx": 104.6
+      },
+      "zscores": {
+        "import_volume": 0.0,
+        "import_price_idx": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "import_volume": 136.644,
+        "import_price_idx": 105.5
+      },
+      "zscores": {
+        "import_volume": 1.0,
+        "import_price_idx": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "import_volume": 132.668,
+        "import_price_idx": 107.8
+      },
+      "zscores": {
+        "import_volume": -1.034,
+        "import_price_idx": 1.361
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "import_volume": 139.028,
+        "import_price_idx": 108.8
+      },
+      "zscores": {
+        "import_volume": 1.407,
+        "import_price_idx": 1.255
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "import_volume": 137.471,
+        "import_price_idx": 107.9
+      },
+      "zscores": {
+        "import_volume": 0.656,
+        "import_price_idx": 0.616
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "import_volume": 139.36,
+        "import_price_idx": 109.2
+      },
+      "zscores": {
+        "import_volume": 1.147,
+        "import_price_idx": 1.129
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "import_volume": 139.298,
+        "import_price_idx": 110.5
+      },
+      "zscores": {
+        "import_volume": 0.956,
+        "import_price_idx": 1.429
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "import_volume": 141.058,
+        "import_price_idx": 112.1
+      },
+      "zscores": {
+        "import_volume": 1.339,
+        "import_price_idx": 1.653
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "import_volume": 145.862,
+        "import_price_idx": 114.4
+      },
+      "zscores": {
+        "import_volume": 2.035,
+        "import_price_idx": 1.874
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "import_volume": 150.612,
+        "import_price_idx": 114.5
+      },
+      "zscores": {
+        "import_volume": 2.173,
+        "import_price_idx": 1.55
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "import_volume": 148.662,
+        "import_price_idx": 112.3
+      },
+      "zscores": {
+        "import_volume": 1.501,
+        "import_price_idx": 0.797
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "import_volume": 151.296,
+        "import_price_idx": 112.3
+      },
+      "zscores": {
+        "import_volume": 1.646,
+        "import_price_idx": 0.744
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "import_volume": 154.855,
+        "import_price_idx": 113.7
+      },
+      "zscores": {
+        "import_volume": 1.824,
+        "import_price_idx": 1.09
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "import_volume": 150.436,
+        "import_price_idx": 112.8
+      },
+      "zscores": {
+        "import_volume": 1.084,
+        "import_price_idx": 0.757
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "import_volume": 152.762,
+        "import_price_idx": 112.7
+      },
+      "zscores": {
+        "import_volume": 1.288,
+        "import_price_idx": 0.688
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "import_volume": 153.3,
+        "import_price_idx": 115.1
+      },
+      "zscores": {
+        "import_volume": 1.249,
+        "import_price_idx": 1.341
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "import_volume": 157.124,
+        "import_price_idx": 117.2
+      },
+      "zscores": {
+        "import_volume": 1.581,
+        "import_price_idx": 1.753
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "import_volume": 157.467,
+        "import_price_idx": 117.3
+      },
+      "zscores": {
+        "import_volume": 1.475,
+        "import_price_idx": 1.597
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "import_volume": 158.363,
+        "import_price_idx": 118.2
+      },
+      "zscores": {
+        "import_volume": 1.452,
+        "import_price_idx": 1.657
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "import_volume": 162.167,
+        "import_price_idx": 118.8
+      },
+      "zscores": {
+        "import_volume": 1.712,
+        "import_price_idx": 1.64
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "import_volume": 160.014,
+        "import_price_idx": 116.2
+      },
+      "zscores": {
+        "import_volume": 1.364,
+        "import_price_idx": 0.94
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "import_volume": 155.327,
+        "import_price_idx": 113.3
+      },
+      "zscores": {
+        "import_volume": 0.811,
+        "import_price_idx": 0.204
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "import_volume": 156.144,
+        "import_price_idx": 113.8
+      },
+      "zscores": {
+        "import_volume": 0.867,
+        "import_price_idx": 0.325
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "import_volume": 160.234,
+        "import_price_idx": 115.1
+      },
+      "zscores": {
+        "import_volume": 1.254,
+        "import_price_idx": 0.647
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "import_volume": 157.97,
+        "import_price_idx": 113.7
+      },
+      "zscores": {
+        "import_volume": 0.964,
+        "import_price_idx": 0.268
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "import_volume": 156.951,
+        "import_price_idx": 114.1
+      },
+      "zscores": {
+        "import_volume": 0.823,
+        "import_price_idx": 0.368
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "import_volume": 164.681,
+        "import_price_idx": 115.9
+      },
+      "zscores": {
+        "import_volume": 1.573,
+        "import_price_idx": 0.837
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "import_volume": 162.341,
+        "import_price_idx": 117.5
+      },
+      "zscores": {
+        "import_volume": 1.257,
+        "import_price_idx": 1.222
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "import_volume": 163.599,
+        "import_price_idx": 118.6
+      },
+      "zscores": {
+        "import_volume": 1.324,
+        "import_price_idx": 1.441
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "import_volume": 165.28,
+        "import_price_idx": 120.0
+      },
+      "zscores": {
+        "import_volume": 1.423,
+        "import_price_idx": 1.696
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "import_volume": 166.277,
+        "import_price_idx": 121.5
+      },
+      "zscores": {
+        "import_volume": 1.448,
+        "import_price_idx": 1.921
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "import_volume": 165.91,
+        "import_price_idx": 121.1
+      },
+      "zscores": {
+        "import_volume": 1.347,
+        "import_price_idx": 1.707
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "import_volume": 167.436,
+        "import_price_idx": 121.8
+      },
+      "zscores": {
+        "import_volume": 1.429,
+        "import_price_idx": 1.755
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "import_volume": 169.47,
+        "import_price_idx": 123.6
+      },
+      "zscores": {
+        "import_volume": 1.545,
+        "import_price_idx": 2.003
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "import_volume": 173.98,
+        "import_price_idx": 127.5
+      },
+      "zscores": {
+        "import_volume": 1.848,
+        "import_price_idx": 2.537
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "import_volume": 172.452,
+        "import_price_idx": 127.3
+      },
+      "zscores": {
+        "import_volume": 1.619,
+        "import_price_idx": 2.273
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "import_volume": 178.289,
+        "import_price_idx": 129.2
+      },
+      "zscores": {
+        "import_volume": 2.013,
+        "import_price_idx": 2.423
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "import_volume": 183.25,
+        "import_price_idx": 129.5
+      },
+      "zscores": {
+        "import_volume": 2.258,
+        "import_price_idx": 2.291
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "import_volume": 178.852,
+        "import_price_idx": 133.5
+      },
+      "zscores": {
+        "import_volume": 1.802,
+        "import_price_idx": 2.658
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "import_volume": 186.523,
+        "import_price_idx": 137.3
+      },
+      "zscores": {
+        "import_volume": 2.271,
+        "import_price_idx": 2.842
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "import_volume": 186.839,
+        "import_price_idx": 141.2
+      },
+      "zscores": {
+        "import_volume": 2.143,
+        "import_price_idx": 2.942
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "import_volume": 190.071,
+        "import_price_idx": 145.5
+      },
+      "zscores": {
+        "import_volume": 2.229,
+        "import_price_idx": 2.987
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "import_volume": 197.785,
+        "import_price_idx": 147.5
+      },
+      "zscores": {
+        "import_volume": 2.577,
+        "import_price_idx": 2.785
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "import_volume": 189.366,
+        "import_price_idx": 143.0
+      },
+      "zscores": {
+        "import_volume": 1.825,
+        "import_price_idx": 2.103
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "import_volume": 179.683,
+        "import_price_idx": 137.8
+      },
+      "zscores": {
+        "import_volume": 1.036,
+        "import_price_idx": 1.484
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "import_volume": 176.777,
+        "import_price_idx": 129.6
+      },
+      "zscores": {
+        "import_volume": 0.765,
+        "import_price_idx": 0.649
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "import_volume": 152.703,
+        "import_price_idx": 120.0
+      },
+      "zscores": {
+        "import_volume": -1.14,
+        "import_price_idx": -0.31
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "import_volume": 141.149,
+        "import_price_idx": 114.5
+      },
+      "zscores": {
+        "import_volume": -1.961,
+        "import_price_idx": -0.865
+      },
+      "events": [
+        {
+          "label": "Global trade collapse: import prices fall 23%",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "import_volume": 130.87,
+        "import_price_idx": 113.0
+      },
+      "zscores": {
+        "import_volume": -2.477,
+        "import_price_idx": -1.01
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "import_volume": 123.402,
+        "import_price_idx": 113.0
+      },
+      "zscores": {
+        "import_volume": -2.677,
+        "import_price_idx": -1.011
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "import_volume": 123.437,
+        "import_price_idx": 113.6
+      },
+      "zscores": {
+        "import_volume": -2.416,
+        "import_price_idx": -0.956
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "import_volume": 122.124,
+        "import_price_idx": 114.8
+      },
+      "zscores": {
+        "import_volume": -2.27,
+        "import_price_idx": -0.835
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "import_volume": 120.129,
+        "import_price_idx": 116.8
+      },
+      "zscores": {
+        "import_volume": -2.166,
+        "import_price_idx": -0.635
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "import_volume": 123.788,
+        "import_price_idx": 120.0
+      },
+      "zscores": {
+        "import_volume": -1.838,
+        "import_price_idx": -0.326
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "import_volume": 131.576,
+        "import_price_idx": 119.3
+      },
+      "zscores": {
+        "import_volume": -1.386,
+        "import_price_idx": -0.399
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "import_volume": 130.616,
+        "import_price_idx": 121.1
+      },
+      "zscores": {
+        "import_volume": -1.353,
+        "import_price_idx": -0.227
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "import_volume": 138.039,
+        "import_price_idx": 121.3
+      },
+      "zscores": {
+        "import_volume": -0.972,
+        "import_price_idx": -0.222
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "import_volume": 141.186,
+        "import_price_idx": 122.3
+      },
+      "zscores": {
+        "import_volume": -0.805,
+        "import_price_idx": -0.149
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "import_volume": 145.332,
+        "import_price_idx": 124.1
+      },
+      "zscores": {
+        "import_volume": -0.602,
+        "import_price_idx": 0.006
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "import_volume": 149.527,
+        "import_price_idx": 124.4
+      },
+      "zscores": {
+        "import_volume": -0.401,
+        "import_price_idx": 0.01
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "import_volume": 148.319,
+        "import_price_idx": 125.9
+      },
+      "zscores": {
+        "import_volume": -0.442,
+        "import_price_idx": 0.135
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "import_volume": 152.565,
+        "import_price_idx": 125.8
+      },
+      "zscores": {
+        "import_volume": -0.248,
+        "import_price_idx": 0.091
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "import_volume": 156.04,
+        "import_price_idx": 126.3
+      },
+      "zscores": {
+        "import_volume": -0.083,
+        "import_price_idx": 0.115
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "import_volume": 155.845,
+        "import_price_idx": 127.7
+      },
+      "zscores": {
+        "import_volume": -0.084,
+        "import_price_idx": 0.241
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "import_volume": 160.141,
+        "import_price_idx": 126.7
+      },
+      "zscores": {
+        "import_volume": 0.111,
+        "import_price_idx": 0.105
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "import_volume": 164.456,
+        "import_price_idx": 125.2
+      },
+      "zscores": {
+        "import_volume": 0.304,
+        "import_price_idx": -0.08
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "import_volume": 161.613,
+        "import_price_idx": 125.2
+      },
+      "zscores": {
+        "import_volume": 0.184,
+        "import_price_idx": -0.092
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "import_volume": 166.459,
+        "import_price_idx": 125.7
+      },
+      "zscores": {
+        "import_volume": 0.399,
+        "import_price_idx": -0.05
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "import_volume": 165.935,
+        "import_price_idx": 125.7
+      },
+      "zscores": {
+        "import_volume": 0.377,
+        "import_price_idx": -0.063
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "import_volume": 167.399,
+        "import_price_idx": 127.1
+      },
+      "zscores": {
+        "import_volume": 0.446,
+        "import_price_idx": 0.087
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "import_volume": 167.024,
+        "import_price_idx": 129.2
+      },
+      "zscores": {
+        "import_volume": 0.44,
+        "import_price_idx": 0.321
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "import_volume": 173.155,
+        "import_price_idx": 131.0
+      },
+      "zscores": {
+        "import_volume": 0.713,
+        "import_price_idx": 0.514
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "import_volume": 181.172,
+        "import_price_idx": 133.0
+      },
+      "zscores": {
+        "import_volume": 1.065,
+        "import_price_idx": 0.725
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "import_volume": 176.72,
+        "import_price_idx": 135.3
+      },
+      "zscores": {
+        "import_volume": 0.882,
+        "import_price_idx": 0.956
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "import_volume": 183.794,
+        "import_price_idx": 139.3
+      },
+      "zscores": {
+        "import_volume": 1.186,
+        "import_price_idx": 1.36
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "import_volume": 183.646,
+        "import_price_idx": 142.9
+      },
+      "zscores": {
+        "import_volume": 1.188,
+        "import_price_idx": 1.697
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "import_volume": 188.108,
+        "import_price_idx": 143.1
+      },
+      "zscores": {
+        "import_volume": 1.384,
+        "import_price_idx": 1.697
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "import_volume": 188.224,
+        "import_price_idx": 142.2
+      },
+      "zscores": {
+        "import_volume": 1.396,
+        "import_price_idx": 1.64
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "import_volume": 188.519,
+        "import_price_idx": 142.4
+      },
+      "zscores": {
+        "import_volume": 1.448,
+        "import_price_idx": 1.73
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "import_volume": 188.399,
+        "import_price_idx": 141.9
+      },
+      "zscores": {
+        "import_volume": 1.447,
+        "import_price_idx": 1.687
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "import_volume": 188.572,
+        "import_price_idx": 141.7
+      },
+      "zscores": {
+        "import_volume": 1.423,
+        "import_price_idx": 1.624
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "import_volume": 189.614,
+        "import_price_idx": 141.2
+      },
+      "zscores": {
+        "import_volume": 1.428,
+        "import_price_idx": 1.486
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "import_volume": 189.764,
+        "import_price_idx": 142.2
+      },
+      "zscores": {
+        "import_volume": 1.353,
+        "import_price_idx": 1.491
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "import_volume": 193.353,
+        "import_price_idx": 142.2
+      },
+      "zscores": {
+        "import_volume": 1.415,
+        "import_price_idx": 1.41
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "import_volume": 194.081,
+        "import_price_idx": 142.2
+      },
+      "zscores": {
+        "import_volume": 1.364,
+        "import_price_idx": 1.343
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "import_volume": 188.995,
+        "import_price_idx": 142.2
+      },
+      "zscores": {
+        "import_volume": 1.096,
+        "import_price_idx": 1.285
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "import_volume": 198.986,
+        "import_price_idx": 144.2
+      },
+      "zscores": {
+        "import_volume": 1.455,
+        "import_price_idx": 1.435
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "import_volume": 194.615,
+        "import_price_idx": 144.1
+      },
+      "zscores": {
+        "import_volume": 1.216,
+        "import_price_idx": 1.363
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "import_volume": 193.313,
+        "import_price_idx": 142.0
+      },
+      "zscores": {
+        "import_volume": 1.122,
+        "import_price_idx": 1.077
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "import_volume": 191.132,
+        "import_price_idx": 138.7
+      },
+      "zscores": {
+        "import_volume": 0.986,
+        "import_price_idx": 0.652
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "import_volume": 189.868,
+        "import_price_idx": 137.7
+      },
+      "zscores": {
+        "import_volume": 0.884,
+        "import_price_idx": 0.491
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "import_volume": 189.461,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.831,
+        "import_price_idx": 0.656
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "import_volume": 190.996,
+        "import_price_idx": 140.8
+      },
+      "zscores": {
+        "import_volume": 0.882,
+        "import_price_idx": 0.789
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "import_volume": 188.161,
+        "import_price_idx": 141.2
+      },
+      "zscores": {
+        "import_volume": 0.674,
+        "import_price_idx": 0.796
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "import_volume": 194.364,
+        "import_price_idx": 140.2
+      },
+      "zscores": {
+        "import_volume": 1.032,
+        "import_price_idx": 0.618
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "import_volume": 189.778,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.685,
+        "import_price_idx": 0.466
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "import_volume": 191.961,
+        "import_price_idx": 140.1
+      },
+      "zscores": {
+        "import_volume": 0.806,
+        "import_price_idx": 0.523
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "import_volume": 195.039,
+        "import_price_idx": 141.3
+      },
+      "zscores": {
+        "import_volume": 1.006,
+        "import_price_idx": 0.656
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "import_volume": 186.153,
+        "import_price_idx": 141.2
+      },
+      "zscores": {
+        "import_volume": 0.244,
+        "import_price_idx": 0.598
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "import_volume": 190.339,
+        "import_price_idx": 140.2
+      },
+      "zscores": {
+        "import_volume": 0.564,
+        "import_price_idx": 0.4
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "import_volume": 192.993,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.778,
+        "import_price_idx": 0.224
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "import_volume": 188.907,
+        "import_price_idx": 138.8
+      },
+      "zscores": {
+        "import_volume": 0.324,
+        "import_price_idx": 0.063
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "import_volume": 189.978,
+        "import_price_idx": 138.9
+      },
+      "zscores": {
+        "import_volume": 0.392,
+        "import_price_idx": 0.013
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "import_volume": 190.405,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.396,
+        "import_price_idx": 0.041
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "import_volume": 193.379,
+        "import_price_idx": 139.8
+      },
+      "zscores": {
+        "import_volume": 0.758,
+        "import_price_idx": 0.049
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "import_volume": 193.256,
+        "import_price_idx": 138.9
+      },
+      "zscores": {
+        "import_volume": 0.731,
+        "import_price_idx": -0.318
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "import_volume": 191.472,
+        "import_price_idx": 137.7
+      },
+      "zscores": {
+        "import_volume": 0.41,
+        "import_price_idx": -0.905
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "import_volume": 190.364,
+        "import_price_idx": 137.8
+      },
+      "zscores": {
+        "import_volume": 0.104,
+        "import_price_idx": -1.118
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "import_volume": 193.634,
+        "import_price_idx": 138.3
+      },
+      "zscores": {
+        "import_volume": 0.876,
+        "import_price_idx": -1.127
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "import_volume": 194.747,
+        "import_price_idx": 139.8
+      },
+      "zscores": {
+        "import_volume": 1.266,
+        "import_price_idx": -0.474
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "import_volume": 201.05,
+        "import_price_idx": 140.5
+      },
+      "zscores": {
+        "import_volume": 2.935,
+        "import_price_idx": -0.096
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "import_volume": 202.461,
+        "import_price_idx": 139.7
+      },
+      "zscores": {
+        "import_volume": 2.994,
+        "import_price_idx": -0.514
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "import_volume": 200.362,
+        "import_price_idx": 140.1
+      },
+      "zscores": {
+        "import_volume": 2.181,
+        "import_price_idx": -0.238
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "import_volume": 198.416,
+        "import_price_idx": 140.5
+      },
+      "zscores": {
+        "import_volume": 1.558,
+        "import_price_idx": 0.032
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "import_volume": 199.403,
+        "import_price_idx": 140.1
+      },
+      "zscores": {
+        "import_volume": 1.688,
+        "import_price_idx": -0.177
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "import_volume": 198.438,
+        "import_price_idx": 139.0
+      },
+      "zscores": {
+        "import_volume": 1.361,
+        "import_price_idx": -0.819
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "import_volume": 200.05,
+        "import_price_idx": 137.9
+      },
+      "zscores": {
+        "import_volume": 1.646,
+        "import_price_idx": -1.418
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "import_volume": 200.191,
+        "import_price_idx": 136.0
+      },
+      "zscores": {
+        "import_volume": 1.57,
+        "import_price_idx": -2.314
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "import_volume": 197.007,
+        "import_price_idx": 133.5
+      },
+      "zscores": {
+        "import_volume": 0.765,
+        "import_price_idx": -3.127
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "import_volume": 199.72,
+        "import_price_idx": 130.1
+      },
+      "zscores": {
+        "import_volume": 1.337,
+        "import_price_idx": -3.7
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "import_volume": 192.301,
+        "import_price_idx": 126.0
+      },
+      "zscores": {
+        "import_volume": -0.38,
+        "import_price_idx": -3.917
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "import_volume": 185.557,
+        "import_price_idx": 125.5
+      },
+      "zscores": {
+        "import_volume": -1.865,
+        "import_price_idx": -3.302
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "import_volume": 199.997,
+        "import_price_idx": 125.3
+      },
+      "zscores": {
+        "import_volume": 1.369,
+        "import_price_idx": -2.894
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "import_volume": 191.982,
+        "import_price_idx": 125.1
+      },
+      "zscores": {
+        "import_volume": -0.404,
+        "import_price_idx": -2.603
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "import_volume": 189.253,
+        "import_price_idx": 126.5
+      },
+      "zscores": {
+        "import_volume": -0.974,
+        "import_price_idx": -2.101
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "import_volume": 192.581,
+        "import_price_idx": 126.6
+      },
+      "zscores": {
+        "import_volume": -0.252,
+        "import_price_idx": -1.91
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "import_volume": 189.639,
+        "import_price_idx": 125.4
+      },
+      "zscores": {
+        "import_volume": -0.899,
+        "import_price_idx": -1.956
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "import_volume": 190.707,
+        "import_price_idx": 123.2
+      },
+      "zscores": {
+        "import_volume": -0.675,
+        "import_price_idx": -2.124
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "import_volume": 188.714,
+        "import_price_idx": 121.9
+      },
+      "zscores": {
+        "import_volume": -1.09,
+        "import_price_idx": -2.123
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "import_volume": 185.909,
+        "import_price_idx": 121.5
+      },
+      "zscores": {
+        "import_volume": -1.658,
+        "import_price_idx": -2.0
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "import_volume": 183.412,
+        "import_price_idx": 120.8
+      },
+      "zscores": {
+        "import_volume": -2.005,
+        "import_price_idx": -1.931
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "import_volume": 183.198,
+        "import_price_idx": 119.3
+      },
+      "zscores": {
+        "import_volume": -1.917,
+        "import_price_idx": -1.963
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "import_volume": 178.992,
+        "import_price_idx": 117.8
+      },
+      "zscores": {
+        "import_volume": -2.426,
+        "import_price_idx": -1.983
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "import_volume": 183.825,
+        "import_price_idx": 117.2
+      },
+      "zscores": {
+        "import_volume": -1.476,
+        "import_price_idx": -1.899
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "import_volume": 176.684,
+        "import_price_idx": 117.7
+      },
+      "zscores": {
+        "import_volume": -2.453,
+        "import_price_idx": -1.71
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "import_volume": 179.656,
+        "import_price_idx": 118.5
+      },
+      "zscores": {
+        "import_volume": -1.842,
+        "import_price_idx": -1.512
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "import_volume": 181.784,
+        "import_price_idx": 119.9
+      },
+      "zscores": {
+        "import_volume": -1.432,
+        "import_price_idx": -1.268
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "import_volume": 185.843,
+        "import_price_idx": 120.7
+      },
+      "zscores": {
+        "import_volume": -0.821,
+        "import_price_idx": -1.11
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "import_volume": 185.349,
+        "import_price_idx": 120.8
+      },
+      "zscores": {
+        "import_volume": -0.865,
+        "import_price_idx": -1.039
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "import_volume": 186.137,
+        "import_price_idx": 120.5
+      },
+      "zscores": {
+        "import_volume": -0.73,
+        "import_price_idx": -1.016
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "import_volume": 184.79,
+        "import_price_idx": 120.6
+      },
+      "zscores": {
+        "import_volume": -0.879,
+        "import_price_idx": -0.951
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "import_volume": 185.115,
+        "import_price_idx": 121.2
+      },
+      "zscores": {
+        "import_volume": -0.795,
+        "import_price_idx": -0.832
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "import_volume": 188.875,
+        "import_price_idx": 121.1
+      },
+      "zscores": {
+        "import_volume": -0.259,
+        "import_price_idx": -0.796
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "import_volume": 190.144,
+        "import_price_idx": 121.6
+      },
+      "zscores": {
+        "import_volume": -0.081,
+        "import_price_idx": -0.692
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "import_volume": 194.722,
+        "import_price_idx": 122.3
+      },
+      "zscores": {
+        "import_volume": 0.554,
+        "import_price_idx": -0.564
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "import_volume": 191.868,
+        "import_price_idx": 122.7
+      },
+      "zscores": {
+        "import_volume": 0.168,
+        "import_price_idx": -0.47
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "import_volume": 192.666,
+        "import_price_idx": 122.5
+      },
+      "zscores": {
+        "import_volume": 0.322,
+        "import_price_idx": -0.453
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "import_volume": 195.224,
+        "import_price_idx": 122.8
+      },
+      "zscores": {
+        "import_volume": 0.747,
+        "import_price_idx": -0.366
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "import_volume": 193.486,
+        "import_price_idx": 122.7
+      },
+      "zscores": {
+        "import_volume": 0.531,
+        "import_price_idx": -0.333
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "import_volume": 194.399,
+        "import_price_idx": 122.4
+      },
+      "zscores": {
+        "import_volume": 0.701,
+        "import_price_idx": -0.33
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "import_volume": 192.986,
+        "import_price_idx": 122.2
+      },
+      "zscores": {
+        "import_volume": 0.522,
+        "import_price_idx": -0.312
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "import_volume": 193.142,
+        "import_price_idx": 122.9
+      },
+      "zscores": {
+        "import_volume": 0.585,
+        "import_price_idx": -0.11
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "import_volume": 195.29,
+        "import_price_idx": 123.9
+      },
+      "zscores": {
+        "import_volume": 0.991,
+        "import_price_idx": 0.223
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "import_volume": 198.3,
+        "import_price_idx": 124.1
+      },
+      "zscores": {
+        "import_volume": 1.537,
+        "import_price_idx": 0.429
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "import_volume": 204.998,
+        "import_price_idx": 125.3
+      },
+      "zscores": {
+        "import_volume": 2.476,
+        "import_price_idx": 1.024
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "import_volume": 209.264,
+        "import_price_idx": 125.5
+      },
+      "zscores": {
+        "import_volume": 2.846,
+        "import_price_idx": 1.261
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "import_volume": 208.161,
+        "import_price_idx": 126.5
+      },
+      "zscores": {
+        "import_volume": 2.398,
+        "import_price_idx": 1.64
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "import_volume": 212.102,
+        "import_price_idx": 126.8
+      },
+      "zscores": {
+        "import_volume": 2.565,
+        "import_price_idx": 1.708
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "import_volume": 210.066,
+        "import_price_idx": 126.5
+      },
+      "zscores": {
+        "import_volume": 2.161,
+        "import_price_idx": 1.552
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "import_volume": 211.698,
+        "import_price_idx": 127.1
+      },
+      "zscores": {
+        "import_volume": 2.133,
+        "import_price_idx": 1.709
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "import_volume": 210.426,
+        "import_price_idx": 128.2
+      },
+      "zscores": {
+        "import_volume": 1.839,
+        "import_price_idx": 2.036
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "import_volume": 211.157,
+        "import_price_idx": 128.2
+      },
+      "zscores": {
+        "import_volume": 1.775,
+        "import_price_idx": 1.966
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "import_volume": 214.042,
+        "import_price_idx": 128.1
+      },
+      "zscores": {
+        "import_volume": 1.89,
+        "import_price_idx": 1.837
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "import_volume": 214.016,
+        "import_price_idx": 127.6
+      },
+      "zscores": {
+        "import_volume": 1.748,
+        "import_price_idx": 1.57
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "import_volume": 216.97,
+        "import_price_idx": 127.7
+      },
+      "zscores": {
+        "import_volume": 1.85,
+        "import_price_idx": 1.501
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "import_volume": 218.705,
+        "import_price_idx": 128.3
+      },
+      "zscores": {
+        "import_volume": 1.84,
+        "import_price_idx": 1.576
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "import_volume": 212.631,
+        "import_price_idx": 126.2
+      },
+      "zscores": {
+        "import_volume": 1.271,
+        "import_price_idx": 0.889
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "import_volume": 215.687,
+        "import_price_idx": 124.4
+      },
+      "zscores": {
+        "import_volume": 1.426,
+        "import_price_idx": 0.307
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "import_volume": 210.577,
+        "import_price_idx": 124.6
+      },
+      "zscores": {
+        "import_volume": 0.969,
+        "import_price_idx": 0.325
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "import_volume": 210.981,
+        "import_price_idx": 125.9
+      },
+      "zscores": {
+        "import_volume": 0.948,
+        "import_price_idx": 0.705
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "import_volume": 212.445,
+        "import_price_idx": 126.6
+      },
+      "zscores": {
+        "import_volume": 1.023,
+        "import_price_idx": 0.907
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "import_volume": 210.588,
+        "import_price_idx": 126.8
+      },
+      "zscores": {
+        "import_volume": 0.822,
+        "import_price_idx": 0.941
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "import_volume": 215.971,
+        "import_price_idx": 127.0
+      },
+      "zscores": {
+        "import_volume": 1.238,
+        "import_price_idx": 0.968
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "import_volume": 211.063,
+        "import_price_idx": 125.6
+      },
+      "zscores": {
+        "import_volume": 0.752,
+        "import_price_idx": 0.383
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "import_volume": 211.175,
+        "import_price_idx": 125.6
+      },
+      "zscores": {
+        "import_volume": 0.718,
+        "import_price_idx": 0.341
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "import_volume": 211.311,
+        "import_price_idx": 124.9
+      },
+      "zscores": {
+        "import_volume": 0.688,
+        "import_price_idx": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "import_volume": 206.127,
+        "import_price_idx": 125.0
+      },
+      "zscores": {
+        "import_volume": 0.127,
+        "import_price_idx": -0.01
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "import_volume": 203.846,
+        "import_price_idx": 124.5
+      },
+      "zscores": {
+        "import_volume": -0.174,
+        "import_price_idx": -0.294
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "import_volume": 201.758,
+        "import_price_idx": 124.7
+      },
+      "zscores": {
+        "import_volume": -0.466,
+        "import_price_idx": -0.26
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "import_volume": 206.516,
+        "import_price_idx": 125.0
+      },
+      "zscores": {
+        "import_volume": 0.035,
+        "import_price_idx": -0.164
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "import_volume": 203.448,
+        "import_price_idx": 125.2
+      },
+      "zscores": {
+        "import_volume": -0.379,
+        "import_price_idx": -0.104
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "import_volume": 200.104,
+        "import_price_idx": 124.3
+      },
+      "zscores": {
+        "import_volume": -0.859,
+        "import_price_idx": -0.642
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "import_volume": 192.213,
+        "import_price_idx": 121.3
+      },
+      "zscores": {
+        "import_volume": -1.878,
+        "import_price_idx": -2.238
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "import_volume": 169.414,
+        "import_price_idx": 118.2
+      },
+      "zscores": {
+        "import_volume": -3.774,
+        "import_price_idx": -3.301
+      },
+      "events": [
+        {
+          "label": "COVID shutdowns: imports drop to $169 billion",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "import_volume": 166.819,
+        "import_price_idx": 119.0
+      },
+      "zscores": {
+        "import_volume": -3.349,
+        "import_price_idx": -2.633
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "import_volume": 175.398,
+        "import_price_idx": 120.6
+      },
+      "zscores": {
+        "import_volume": -2.371,
+        "import_price_idx": -1.868
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "import_volume": 195.985,
+        "import_price_idx": 122.1
+      },
+      "zscores": {
+        "import_volume": -0.716,
+        "import_price_idx": -1.245
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "import_volume": 202.043,
+        "import_price_idx": 123.2
+      },
+      "zscores": {
+        "import_volume": -0.247,
+        "import_price_idx": -0.797
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "import_volume": 201.913,
+        "import_price_idx": 123.4
+      },
+      "zscores": {
+        "import_volume": -0.275,
+        "import_price_idx": -0.706
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "import_volume": 207.83,
+        "import_price_idx": 123.3
+      },
+      "zscores": {
+        "import_volume": 0.196,
+        "import_price_idx": -0.734
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "import_volume": 214.373,
+        "import_price_idx": 123.4
+      },
+      "zscores": {
+        "import_volume": 0.714,
+        "import_price_idx": -0.667
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "import_volume": 217.188,
+        "import_price_idx": 124.6
+      },
+      "zscores": {
+        "import_volume": 0.919,
+        "import_price_idx": -0.168
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "import_volume": 219.946,
+        "import_price_idx": 126.5
+      },
+      "zscores": {
+        "import_volume": 1.099,
+        "import_price_idx": 0.607
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "import_volume": 218.896,
+        "import_price_idx": 128.0
+      },
+      "zscores": {
+        "import_volume": 0.988,
+        "import_price_idx": 1.19
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "import_volume": 231.074,
+        "import_price_idx": 129.9
+      },
+      "zscores": {
+        "import_volume": 1.821,
+        "import_price_idx": 1.831
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "import_volume": 229.53,
+        "import_price_idx": 131.1
+      },
+      "zscores": {
+        "import_volume": 1.606,
+        "import_price_idx": 2.118
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "import_volume": 232.372,
+        "import_price_idx": 132.8
+      },
+      "zscores": {
+        "import_volume": 1.696,
+        "import_price_idx": 2.481
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "import_volume": 238.089,
+        "import_price_idx": 134.2
+      },
+      "zscores": {
+        "import_volume": 1.933,
+        "import_price_idx": 2.626
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "import_volume": 234.617,
+        "import_price_idx": 134.6
+      },
+      "zscores": {
+        "import_volume": 1.606,
+        "import_price_idx": 2.468
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "import_volume": 240.106,
+        "import_price_idx": 134.3
+      },
+      "zscores": {
+        "import_volume": 1.82,
+        "import_price_idx": 2.178
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "import_volume": 238.772,
+        "import_price_idx": 134.9
+      },
+      "zscores": {
+        "import_volume": 1.639,
+        "import_price_idx": 2.135
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "import_volume": 244.418,
+        "import_price_idx": 136.9
+      },
+      "zscores": {
+        "import_volume": 1.838,
+        "import_price_idx": 2.359
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "import_volume": 259.616,
+        "import_price_idx": 137.9
+      },
+      "zscores": {
+        "import_volume": 2.392,
+        "import_price_idx": 2.311
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "import_volume": 261.606,
+        "import_price_idx": 137.4
+      },
+      "zscores": {
+        "import_volume": 2.247,
+        "import_price_idx": 2.013
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "import_volume": 262.778,
+        "import_price_idx": 140.1
+      },
+      "zscores": {
+        "import_volume": 2.091,
+        "import_price_idx": 2.272
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "import_volume": 264.292,
+        "import_price_idx": 142.6
+      },
+      "zscores": {
+        "import_volume": 1.973,
+        "import_price_idx": 2.412
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "import_volume": 289.302,
+        "import_price_idx": 146.8
+      },
+      "zscores": {
+        "import_volume": 2.626,
+        "import_price_idx": 2.685
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "import_volume": 280.584,
+        "import_price_idx": 147.5
+      },
+      "zscores": {
+        "import_volume": 2.087,
+        "import_price_idx": 2.46
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "import_volume": 281.925,
+        "import_price_idx": 148.2
+      },
+      "zscores": {
+        "import_volume": 1.954,
+        "import_price_idx": 2.285
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "import_volume": 281.601,
+        "import_price_idx": 148.5
+      },
+      "zscores": {
+        "import_volume": 1.794,
+        "import_price_idx": 2.105
+      },
+      "events": [
+        {
+          "label": "Imports and import prices near pandemic-era highs",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "import_volume": 271.727,
+        "import_price_idx": 146.4
+      },
+      "zscores": {
+        "import_volume": 1.392,
+        "import_price_idx": 1.724
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "import_volume": 272.569,
+        "import_price_idx": 144.6
+      },
+      "zscores": {
+        "import_volume": 1.334,
+        "import_price_idx": 1.429
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "import_volume": 269.325,
+        "import_price_idx": 143.1
+      },
+      "zscores": {
+        "import_volume": 1.168,
+        "import_price_idx": 1.196
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "import_volume": 275.391,
+        "import_price_idx": 142.7
+      },
+      "zscores": {
+        "import_volume": 1.27,
+        "import_price_idx": 1.09
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "import_volume": 258.647,
+        "import_price_idx": 141.6
+      },
+      "zscores": {
+        "import_volume": 0.736,
+        "import_price_idx": 0.921
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "import_volume": 262.0,
+        "import_price_idx": 141.8
+      },
+      "zscores": {
+        "import_volume": 0.789,
+        "import_price_idx": 0.891
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "import_volume": 265.269,
+        "import_price_idx": 141.3
+      },
+      "zscores": {
+        "import_volume": 0.837,
+        "import_price_idx": 0.793
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "import_volume": 259.377,
+        "import_price_idx": 141.0
+      },
+      "zscores": {
+        "import_volume": 0.622,
+        "import_price_idx": 0.717
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "import_volume": 253.294,
+        "import_price_idx": 139.9
+      },
+      "zscores": {
+        "import_volume": 0.4,
+        "import_price_idx": 0.558
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "import_volume": 261.036,
+        "import_price_idx": 140.3
+      },
+      "zscores": {
+        "import_volume": 0.598,
+        "import_price_idx": 0.559
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "import_volume": 255.078,
+        "import_price_idx": 139.7
+      },
+      "zscores": {
+        "import_volume": 0.355,
+        "import_price_idx": 0.447
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "import_volume": 253.023,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.224,
+        "import_price_idx": 0.365
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "import_volume": 256.767,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.326,
+        "import_price_idx": 0.32
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "import_volume": 257.739,
+        "import_price_idx": 140.3
+      },
+      "zscores": {
+        "import_volume": 0.319,
+        "import_price_idx": 0.394
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "import_volume": 260.406,
+        "import_price_idx": 141.0
+      },
+      "zscores": {
+        "import_volume": 0.393,
+        "import_price_idx": 0.447
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "import_volume": 264.532,
+        "import_price_idx": 140.1
+      },
+      "zscores": {
+        "import_volume": 0.551,
+        "import_price_idx": 0.265
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "import_volume": 258.403,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.184,
+        "import_price_idx": 0.093
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "import_volume": 259.796,
+        "import_price_idx": 138.4
+      },
+      "zscores": {
+        "import_volume": 0.209,
+        "import_price_idx": -0.157
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "import_volume": 260.766,
+        "import_price_idx": 139.4
+      },
+      "zscores": {
+        "import_volume": 0.213,
+        "import_price_idx": -0.04
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "import_volume": 265.021,
+        "import_price_idx": 139.7
+      },
+      "zscores": {
+        "import_volume": 0.435,
+        "import_price_idx": -0.05
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "import_volume": 261.215,
+        "import_price_idx": 140.5
+      },
+      "zscores": {
+        "import_volume": 0.125,
+        "import_price_idx": 0.069
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "import_volume": 271.925,
+        "import_price_idx": 141.7
+      },
+      "zscores": {
+        "import_volume": 0.859,
+        "import_price_idx": 0.31
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "import_volume": 269.289,
+        "import_price_idx": 141.5
+      },
+      "zscores": {
+        "import_volume": 0.62,
+        "import_price_idx": 0.207
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "import_volume": 272.262,
+        "import_price_idx": 141.6
+      },
+      "zscores": {
+        "import_volume": 0.821,
+        "import_price_idx": 0.187
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "import_volume": 278.736,
+        "import_price_idx": 141.8
+      },
+      "zscores": {
+        "import_volume": 1.349,
+        "import_price_idx": 0.197
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "import_volume": 275.984,
+        "import_price_idx": 141.4
+      },
+      "zscores": {
+        "import_volume": 1.066,
+        "import_price_idx": 0.015
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "import_volume": 285.682,
+        "import_price_idx": 140.9
+      },
+      "zscores": {
+        "import_volume": 1.947,
+        "import_price_idx": -0.218
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "import_volume": 273.795,
+        "import_price_idx": 141.1
+      },
+      "zscores": {
+        "import_volume": 0.726,
+        "import_price_idx": -0.196
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "import_volume": 283.779,
+        "import_price_idx": 141.3
+      },
+      "zscores": {
+        "import_volume": 1.662,
+        "import_price_idx": -0.162
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "import_volume": 294.061,
+        "import_price_idx": 141.4
+      },
+      "zscores": {
+        "import_volume": 2.412,
+        "import_price_idx": -0.173
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "import_volume": 325.808,
+        "import_price_idx": 141.8
+      },
+      "zscores": {
+        "import_volume": 3.935,
+        "import_price_idx": -0.036
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "import_volume": 323.674,
+        "import_price_idx": 142.1
+      },
+      "zscores": {
+        "import_volume": 3.122,
+        "import_price_idx": 0.087
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "import_volume": 342.316,
+        "import_price_idx": 141.6
+      },
+      "zscores": {
+        "import_volume": 3.439,
+        "import_price_idx": -0.055
+      },
+      "events": [
+        {
+          "label": "Record $342 billion of imports ahead of tariffs",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "import_volume": 276.502,
+        "import_price_idx": 141.7
+      },
+      "zscores": {
+        "import_volume": 0.16,
+        "import_price_idx": 0.058
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "import_volume": 274.558,
+        "import_price_idx": 141.0
+      },
+      "zscores": {
+        "import_volume": 0.073,
+        "import_price_idx": -0.196
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "import_volume": 264.739,
+        "import_price_idx": 140.8
+      },
+      "zscores": {
+        "import_volume": -0.395,
+        "import_price_idx": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "import_volume": 281.965,
+        "import_price_idx": 141.2
+      },
+      "zscores": {
+        "import_volume": 0.453,
+        "import_price_idx": 0.158
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "import_volume": 266.587,
+        "import_price_idx": 141.0
+      },
+      "zscores": {
+        "import_volume": -0.307,
+        "import_price_idx": 0.085
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "import_volume": 274.362,
+        "import_price_idx": 140.8
+      },
+      "zscores": {
+        "import_volume": 0.074,
+        "import_price_idx": -0.053
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "import_volume": 261.178,
+        "import_price_idx": 141.0
+      },
+      "zscores": {
+        "import_volume": -0.562,
+        "import_price_idx": 0.222
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "import_volume": 276.354,
+        "import_price_idx": 141.2
+      },
+      "zscores": {
+        "import_volume": 0.169,
+        "import_price_idx": 0.464
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "import_volume": 283.497,
+        "import_price_idx": 141.4
+      },
+      "zscores": {
+        "import_volume": 0.497,
+        "import_price_idx": 0.713
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "import_volume": 276.984,
+        "import_price_idx": 142.1
+      },
+      "zscores": {
+        "import_volume": 0.155,
+        "import_price_idx": 1.455
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "import_volume": 288.589,
+        "import_price_idx": 143.5
+      },
+      "zscores": {
+        "import_volume": 0.697,
+        "import_price_idx": 2.639
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "import_volume": 298.617,
+        "import_price_idx": 144.8
+      },
+      "zscores": {
+        "import_volume": 1.135,
+        "import_price_idx": 3.233
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "import_volume": 305.074,
+        "import_price_idx": 148.1
+      },
+      "zscores": {
+        "import_volume": 1.37,
+        "import_price_idx": 4.175
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "import_volume": 317.321,
+        "import_price_idx": 150.7
+      },
+      "zscores": {
+        "import_volume": 1.826,
+        "import_price_idx": 4.082
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "import_volume": 309.22,
+        "import_price_idx": 150.3
+      },
+      "zscores": {
+        "import_volume": 1.36,
+        "import_price_idx": 3.208
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "import_volume": 325.053,
+        "import_price_idx": 149.8
+      },
+      "zscores": {
+        "import_volume": 1.943,
+        "import_price_idx": 2.636
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "import_volume": 342.232,
+        "import_price_idx": 150.8
+      },
+      "zscores": {
+        "import_volume": 2.431,
+        "import_price_idx": 2.601
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "How much the US spends on goods from abroad each month, and how the prices of those goods change. The stripes below show every month since 2006: red means higher than a year before, blue means lower. The two rise and fall together in the same month. Part of this is built in: when import prices go up, the same goods cost more dollars.",
+    "methodology": "Monthly value of goods imports (balance of payments basis) from the Census Bureau and BEA via FRED (BOPGIMP). Import price index for all imports from BLS (EIUIR). Port wait-time data is not published through any public federal API, so it is not shown.",
+    "key_findings": [
+      {
+        "date": "2009-06-01",
+        "title": "2009: Trade Collapses",
+        "description": "Monthly imports fell from $198 billion (July 2008) to $124 billion (June 2009). Import prices dropped 23% in just five months, from 148 to 114.",
+        "significance": "In a deep recession, both the amount and the price of imports fall together.",
+        "normalized_time": 0.2046
+      },
+      {
+        "date": "2022-06-01",
+        "title": "2022: Pandemic Buying Boom",
+        "description": "Americans bought goods instead of services. Imports reached $282 billion a month, and import prices rose 25% from their April 2020 low, to 148.",
+        "significance": "Strong demand plus clogged supply chains pushed up prices of goods from abroad.",
+        "normalized_time": 0.8069
+      },
+      {
+        "date": "2025-03-01",
+        "title": "March 2025: Record Imports",
+        "description": "Imports hit a record $342 billion in one month as companies rushed to bring in goods before new tariffs took effect.",
+        "significance": "Policy announcements can pull purchases forward and create sudden spikes.",
+        "normalized_time": 0.9344
+      }
+    ]
+  }
+}

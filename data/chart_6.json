@@ -1,0 +1,3353 @@
+{
+  "metadata": {
+    "chart_id": "chart_6",
+    "number": 6,
+    "title": "Clean Grid Penetration vs. Industrial Power Costs",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Connected Animated Scatterplot with Localized Time Vector Trails",
+    "agencies": [
+      "BLS",
+      "EIA"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2005,
+    "end_year": 2026,
+    "observation_count": 259,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-07"
+  },
+  "analytics": {
+    "optimal_lag_months": 16,
+    "peak_correlation_coefficient": 0.967,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.905
+      },
+      {
+        "lag": -17,
+        "r": 0.894
+      },
+      {
+        "lag": -16,
+        "r": 0.897
+      },
+      {
+        "lag": -15,
+        "r": 0.902
+      },
+      {
+        "lag": -14,
+        "r": 0.897
+      },
+      {
+        "lag": -13,
+        "r": 0.883
+      },
+      {
+        "lag": -12,
+        "r": 0.871
+      },
+      {
+        "lag": -11,
+        "r": 0.881
+      },
+      {
+        "lag": -10,
+        "r": 0.911
+      },
+      {
+        "lag": -9,
+        "r": 0.942
+      },
+      {
+        "lag": -8,
+        "r": 0.95
+      },
+      {
+        "lag": -7,
+        "r": 0.937
+      },
+      {
+        "lag": -6,
+        "r": 0.916
+      },
+      {
+        "lag": -5,
+        "r": 0.905
+      },
+      {
+        "lag": -4,
+        "r": 0.908
+      },
+      {
+        "lag": -3,
+        "r": 0.913
+      },
+      {
+        "lag": -2,
+        "r": 0.909
+      },
+      {
+        "lag": -1,
+        "r": 0.895
+      },
+      {
+        "lag": 0,
+        "r": 0.886
+      },
+      {
+        "lag": 1,
+        "r": 0.894
+      },
+      {
+        "lag": 2,
+        "r": 0.923
+      },
+      {
+        "lag": 3,
+        "r": 0.951
+      },
+      {
+        "lag": 4,
+        "r": 0.961
+      },
+      {
+        "lag": 5,
+        "r": 0.946
+      },
+      {
+        "lag": 6,
+        "r": 0.925
+      },
+      {
+        "lag": 7,
+        "r": 0.916
+      },
+      {
+        "lag": 8,
+        "r": 0.921
+      },
+      {
+        "lag": 9,
+        "r": 0.924
+      },
+      {
+        "lag": 10,
+        "r": 0.915
+      },
+      {
+        "lag": 11,
+        "r": 0.898
+      },
+      {
+        "lag": 12,
+        "r": 0.887
+      },
+      {
+        "lag": 13,
+        "r": 0.898
+      },
+      {
+        "lag": 14,
+        "r": 0.929
+      },
+      {
+        "lag": 15,
+        "r": 0.958
+      },
+      {
+        "lag": 16,
+        "r": 0.967
+      },
+      {
+        "lag": 17,
+        "r": 0.953
+      },
+      {
+        "lag": 18,
+        "r": 0.928
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "renewable_share",
+      "agency": "EIA",
+      "series_id": "EIA-923 (WND+SUN)/ALL",
+      "label": "Clean Energy Share (Wind & Solar)",
+      "unit": "% of Grid",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "industrial_power_ppi",
+      "agency": "BLS",
+      "series_id": "WPU0543",
+      "label": "Wholesale Electricity Cost for Factories",
+      "unit": "Index",
+      "transform": "raw",
+      "color": "#f59e0b"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2005-01-01",
+      "values": {
+        "renewable_share": 0.332,
+        "industrial_power_ppi": 148.9
+      },
+      "zscores": {
+        "renewable_share": 0.0,
+        "industrial_power_ppi": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "renewable_share": 0.328,
+        "industrial_power_ppi": 148.0
+      },
+      "zscores": {
+        "renewable_share": -1.0,
+        "industrial_power_ppi": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "renewable_share": 0.504,
+        "industrial_power_ppi": 148.1
+      },
+      "zscores": {
+        "renewable_share": 1.414,
+        "industrial_power_ppi": -0.579
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "renewable_share": 0.606,
+        "industrial_power_ppi": 148.7
+      },
+      "zscores": {
+        "renewable_share": 1.386,
+        "industrial_power_ppi": 0.718
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "renewable_share": 0.58,
+        "industrial_power_ppi": 151.1
+      },
+      "zscores": {
+        "renewable_share": 0.923,
+        "industrial_power_ppi": 1.905
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "renewable_share": 0.518,
+        "industrial_power_ppi": 159.7
+      },
+      "zscores": {
+        "renewable_share": 0.365,
+        "industrial_power_ppi": 2.166
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "renewable_share": 0.371,
+        "industrial_power_ppi": 162.1
+      },
+      "zscores": {
+        "renewable_share": -0.844,
+        "industrial_power_ppi": 1.764
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "renewable_share": 0.3,
+        "industrial_power_ppi": 162.5
+      },
+      "zscores": {
+        "renewable_share": -1.24,
+        "industrial_power_ppi": 1.441
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "renewable_share": 0.437,
+        "industrial_power_ppi": 162.8
+      },
+      "zscores": {
+        "renewable_share": -0.047,
+        "industrial_power_ppi": 1.258
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "renewable_share": 0.469,
+        "industrial_power_ppi": 159.5
+      },
+      "zscores": {
+        "renewable_share": 0.236,
+        "industrial_power_ppi": 0.691
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "renewable_share": 0.53,
+        "industrial_power_ppi": 161.1
+      },
+      "zscores": {
+        "renewable_share": 0.766,
+        "industrial_power_ppi": 0.866
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "renewable_share": 0.526,
+        "industrial_power_ppi": 161.4
+      },
+      "zscores": {
+        "renewable_share": 0.679,
+        "industrial_power_ppi": 0.846
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "renewable_share": 0.729,
+        "industrial_power_ppi": 167.0
+      },
+      "zscores": {
+        "renewable_share": 2.088,
+        "industrial_power_ppi": 1.513
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "renewable_share": 0.632,
+        "industrial_power_ppi": 168.6
+      },
+      "zscores": {
+        "renewable_share": 1.163,
+        "industrial_power_ppi": 1.531
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "renewable_share": 0.75,
+        "industrial_power_ppi": 167.4
+      },
+      "zscores": {
+        "renewable_share": 1.809,
+        "industrial_power_ppi": 1.24
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "renewable_share": 0.847,
+        "industrial_power_ppi": 169.6
+      },
+      "zscores": {
+        "renewable_share": 2.07,
+        "industrial_power_ppi": 1.395
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "renewable_share": 0.765,
+        "industrial_power_ppi": 170.8
+      },
+      "zscores": {
+        "renewable_share": 1.396,
+        "industrial_power_ppi": 1.412
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "renewable_share": 0.582,
+        "industrial_power_ppi": 181.2
+      },
+      "zscores": {
+        "renewable_share": 0.242,
+        "industrial_power_ppi": 2.244
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "renewable_share": 0.491,
+        "industrial_power_ppi": 181.9
+      },
+      "zscores": {
+        "renewable_share": -0.335,
+        "industrial_power_ppi": 1.995
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "renewable_share": 0.426,
+        "industrial_power_ppi": 180.2
+      },
+      "zscores": {
+        "renewable_share": -0.735,
+        "industrial_power_ppi": 1.645
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "renewable_share": 0.582,
+        "industrial_power_ppi": 181.0
+      },
+      "zscores": {
+        "renewable_share": 0.299,
+        "industrial_power_ppi": 1.573
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "renewable_share": 0.769,
+        "industrial_power_ppi": 171.2
+      },
+      "zscores": {
+        "renewable_share": 1.461,
+        "industrial_power_ppi": 0.65
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "renewable_share": 0.827,
+        "industrial_power_ppi": 167.2
+      },
+      "zscores": {
+        "renewable_share": 1.681,
+        "industrial_power_ppi": 0.271
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "renewable_share": 0.736,
+        "industrial_power_ppi": 167.8
+      },
+      "zscores": {
+        "renewable_share": 1.055,
+        "industrial_power_ppi": 0.321
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "renewable_share": 0.697,
+        "industrial_power_ppi": 171.9
+      },
+      "zscores": {
+        "renewable_share": 0.786,
+        "industrial_power_ppi": 0.696
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "renewable_share": 0.786,
+        "industrial_power_ppi": 175.7
+      },
+      "zscores": {
+        "renewable_share": 1.276,
+        "industrial_power_ppi": 1.025
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "renewable_share": 0.966,
+        "industrial_power_ppi": 172.1
+      },
+      "zscores": {
+        "renewable_share": 2.142,
+        "industrial_power_ppi": 0.655
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "renewable_share": 1.064,
+        "industrial_power_ppi": 173.1
+      },
+      "zscores": {
+        "renewable_share": 2.37,
+        "industrial_power_ppi": 0.733
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "renewable_share": 0.92,
+        "industrial_power_ppi": 179.2
+      },
+      "zscores": {
+        "renewable_share": 1.516,
+        "industrial_power_ppi": 1.278
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "renewable_share": 0.746,
+        "industrial_power_ppi": 186.7
+      },
+      "zscores": {
+        "renewable_share": 0.612,
+        "industrial_power_ppi": 1.86
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "renewable_share": 0.571,
+        "industrial_power_ppi": 187.0
+      },
+      "zscores": {
+        "renewable_share": -0.287,
+        "industrial_power_ppi": 1.759
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "renewable_share": 0.658,
+        "industrial_power_ppi": 187.6
+      },
+      "zscores": {
+        "renewable_share": 0.167,
+        "industrial_power_ppi": 1.699
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "renewable_share": 0.826,
+        "industrial_power_ppi": 188.4
+      },
+      "zscores": {
+        "renewable_share": 1.029,
+        "industrial_power_ppi": 1.665
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "renewable_share": 1.03,
+        "industrial_power_ppi": 182.7
+      },
+      "zscores": {
+        "renewable_share": 1.959,
+        "industrial_power_ppi": 1.141
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "renewable_share": 0.993,
+        "industrial_power_ppi": 180.3
+      },
+      "zscores": {
+        "renewable_share": 1.673,
+        "industrial_power_ppi": 0.913
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "renewable_share": 1.009,
+        "industrial_power_ppi": 180.0
+      },
+      "zscores": {
+        "renewable_share": 1.659,
+        "industrial_power_ppi": 0.866
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "renewable_share": 1.182,
+        "industrial_power_ppi": 181.9
+      },
+      "zscores": {
+        "renewable_share": 2.275,
+        "industrial_power_ppi": 0.981
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "renewable_share": 1.196,
+        "industrial_power_ppi": 180.0
+      },
+      "zscores": {
+        "renewable_share": 2.161,
+        "industrial_power_ppi": 0.776
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "renewable_share": 1.496,
+        "industrial_power_ppi": 183.1
+      },
+      "zscores": {
+        "renewable_share": 2.962,
+        "industrial_power_ppi": 1.029
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "renewable_share": 1.739,
+        "industrial_power_ppi": 185.2
+      },
+      "zscores": {
+        "renewable_share": 3.2,
+        "industrial_power_ppi": 1.209
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "renewable_share": 1.672,
+        "industrial_power_ppi": 189.5
+      },
+      "zscores": {
+        "renewable_share": 2.601,
+        "industrial_power_ppi": 1.619
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "renewable_share": 1.412,
+        "industrial_power_ppi": 191.9
+      },
+      "zscores": {
+        "renewable_share": 1.694,
+        "industrial_power_ppi": 1.77
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "renewable_share": 1.022,
+        "industrial_power_ppi": 196.1
+      },
+      "zscores": {
+        "renewable_share": 0.527,
+        "industrial_power_ppi": 2.053
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "renewable_share": 0.866,
+        "industrial_power_ppi": 197.1
+      },
+      "zscores": {
+        "renewable_share": 0.02,
+        "industrial_power_ppi": 1.999
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "renewable_share": 0.948,
+        "industrial_power_ppi": 195.9
+      },
+      "zscores": {
+        "renewable_share": 0.232,
+        "industrial_power_ppi": 1.759
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "renewable_share": 1.512,
+        "industrial_power_ppi": 193.0
+      },
+      "zscores": {
+        "renewable_share": 1.86,
+        "industrial_power_ppi": 1.409
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "renewable_share": 1.62,
+        "industrial_power_ppi": 187.7
+      },
+      "zscores": {
+        "renewable_share": 2.01,
+        "industrial_power_ppi": 0.823
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "renewable_share": 1.929,
+        "industrial_power_ppi": 188.3
+      },
+      "zscores": {
+        "renewable_share": 2.574,
+        "industrial_power_ppi": 0.849
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "renewable_share": 1.678,
+        "industrial_power_ppi": 190.3
+      },
+      "zscores": {
+        "renewable_share": 1.757,
+        "industrial_power_ppi": 1.022
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "renewable_share": 1.955,
+        "industrial_power_ppi": 190.3
+      },
+      "zscores": {
+        "renewable_share": 2.231,
+        "industrial_power_ppi": 0.971
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "renewable_share": 2.311,
+        "industrial_power_ppi": 187.6
+      },
+      "zscores": {
+        "renewable_share": 2.682,
+        "industrial_power_ppi": 0.611
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "renewable_share": 2.61,
+        "industrial_power_ppi": 186.9
+      },
+      "zscores": {
+        "renewable_share": 2.841,
+        "industrial_power_ppi": 0.483
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "renewable_share": 2.047,
+        "industrial_power_ppi": 190.5
+      },
+      "zscores": {
+        "renewable_share": 1.639,
+        "industrial_power_ppi": 0.89
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "renewable_share": 1.64,
+        "industrial_power_ppi": 193.3
+      },
+      "zscores": {
+        "renewable_share": 0.836,
+        "industrial_power_ppi": 1.186
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "renewable_share": 1.363,
+        "industrial_power_ppi": 196.2
+      },
+      "zscores": {
+        "renewable_share": 0.279,
+        "industrial_power_ppi": 1.459
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "renewable_share": 1.464,
+        "industrial_power_ppi": 194.7
+      },
+      "zscores": {
+        "renewable_share": 0.431,
+        "industrial_power_ppi": 1.203
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "renewable_share": 1.45,
+        "industrial_power_ppi": 194.9
+      },
+      "zscores": {
+        "renewable_share": 0.363,
+        "industrial_power_ppi": 1.161
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "renewable_share": 2.241,
+        "industrial_power_ppi": 189.9
+      },
+      "zscores": {
+        "renewable_share": 1.815,
+        "industrial_power_ppi": 0.523
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "renewable_share": 2.331,
+        "industrial_power_ppi": 186.0
+      },
+      "zscores": {
+        "renewable_share": 1.838,
+        "industrial_power_ppi": -0.025
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "renewable_share": 1.976,
+        "industrial_power_ppi": 186.0
+      },
+      "zscores": {
+        "renewable_share": 1.109,
+        "industrial_power_ppi": -0.102
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "renewable_share": 1.902,
+        "industrial_power_ppi": 186.3
+      },
+      "zscores": {
+        "renewable_share": 0.917,
+        "industrial_power_ppi": -0.126
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "renewable_share": 1.709,
+        "industrial_power_ppi": 186.1
+      },
+      "zscores": {
+        "renewable_share": 0.51,
+        "industrial_power_ppi": -0.213
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "renewable_share": 2.776,
+        "industrial_power_ppi": 189.0
+      },
+      "zscores": {
+        "renewable_share": 2.311,
+        "industrial_power_ppi": 0.211
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "renewable_share": 3.432,
+        "industrial_power_ppi": 188.8
+      },
+      "zscores": {
+        "renewable_share": 2.953,
+        "industrial_power_ppi": 0.106
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "renewable_share": 2.699,
+        "industrial_power_ppi": 192.0
+      },
+      "zscores": {
+        "renewable_share": 1.672,
+        "industrial_power_ppi": 0.727
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "renewable_share": 2.189,
+        "industrial_power_ppi": 197.8
+      },
+      "zscores": {
+        "renewable_share": 0.839,
+        "industrial_power_ppi": 1.827
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "renewable_share": 1.68,
+        "industrial_power_ppi": 199.8
+      },
+      "zscores": {
+        "renewable_share": -0.003,
+        "industrial_power_ppi": 2.038
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "renewable_share": 1.673,
+        "industrial_power_ppi": 200.8
+      },
+      "zscores": {
+        "renewable_share": -0.063,
+        "industrial_power_ppi": 2.033
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "renewable_share": 2.093,
+        "industrial_power_ppi": 200.0
+      },
+      "zscores": {
+        "renewable_share": 0.607,
+        "industrial_power_ppi": 1.748
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "renewable_share": 2.604,
+        "industrial_power_ppi": 194.6
+      },
+      "zscores": {
+        "renewable_share": 1.414,
+        "industrial_power_ppi": 0.758
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "renewable_share": 3.21,
+        "industrial_power_ppi": 190.9
+      },
+      "zscores": {
+        "renewable_share": 2.245,
+        "industrial_power_ppi": 0.052
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "renewable_share": 2.514,
+        "industrial_power_ppi": 191.4
+      },
+      "zscores": {
+        "renewable_share": 1.039,
+        "industrial_power_ppi": 0.091
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "renewable_share": 2.367,
+        "industrial_power_ppi": 193.1
+      },
+      "zscores": {
+        "renewable_share": 0.748,
+        "industrial_power_ppi": 0.382
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "renewable_share": 3.365,
+        "industrial_power_ppi": 194.4
+      },
+      "zscores": {
+        "renewable_share": 2.215,
+        "industrial_power_ppi": 0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "renewable_share": 3.347,
+        "industrial_power_ppi": 195.0
+      },
+      "zscores": {
+        "renewable_share": 1.997,
+        "industrial_power_ppi": 0.708
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "renewable_share": 4.162,
+        "industrial_power_ppi": 194.1
+      },
+      "zscores": {
+        "renewable_share": 2.779,
+        "industrial_power_ppi": 0.454
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "renewable_share": 3.696,
+        "industrial_power_ppi": 196.9
+      },
+      "zscores": {
+        "renewable_share": 1.966,
+        "industrial_power_ppi": 1.072
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "renewable_share": 3.048,
+        "industrial_power_ppi": 205.7
+      },
+      "zscores": {
+        "renewable_share": 1.074,
+        "industrial_power_ppi": 2.742
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "renewable_share": 1.834,
+        "industrial_power_ppi": 215.3
+      },
+      "zscores": {
+        "renewable_share": -0.519,
+        "industrial_power_ppi": 3.682
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "renewable_share": 1.895,
+        "industrial_power_ppi": 216.6
+      },
+      "zscores": {
+        "renewable_share": -0.498,
+        "industrial_power_ppi": 3.216
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "renewable_share": 2.088,
+        "industrial_power_ppi": 215.8
+      },
+      "zscores": {
+        "renewable_share": -0.29,
+        "industrial_power_ppi": 2.695
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "renewable_share": 3.461,
+        "industrial_power_ppi": 206.6
+      },
+      "zscores": {
+        "renewable_share": 1.581,
+        "industrial_power_ppi": 1.442
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "renewable_share": 4.126,
+        "industrial_power_ppi": 204.0
+      },
+      "zscores": {
+        "renewable_share": 2.271,
+        "industrial_power_ppi": 1.063
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "renewable_share": 3.21,
+        "industrial_power_ppi": 204.4
+      },
+      "zscores": {
+        "renewable_share": 1.001,
+        "industrial_power_ppi": 1.051
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "renewable_share": 4.043,
+        "industrial_power_ppi": 201.1
+      },
+      "zscores": {
+        "renewable_share": 1.928,
+        "industrial_power_ppi": 0.615
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "renewable_share": 3.616,
+        "industrial_power_ppi": 200.3
+      },
+      "zscores": {
+        "renewable_share": 1.308,
+        "industrial_power_ppi": 0.487
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "renewable_share": 4.613,
+        "industrial_power_ppi": 199.8
+      },
+      "zscores": {
+        "renewable_share": 2.277,
+        "industrial_power_ppi": 0.39
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "renewable_share": 4.413,
+        "industrial_power_ppi": 198.1
+      },
+      "zscores": {
+        "renewable_share": 1.887,
+        "industrial_power_ppi": 0.145
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "renewable_share": 3.864,
+        "industrial_power_ppi": 201.5
+      },
+      "zscores": {
+        "renewable_share": 1.218,
+        "industrial_power_ppi": 0.537
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "renewable_share": 3.464,
+        "industrial_power_ppi": 207.7
+      },
+      "zscores": {
+        "renewable_share": 0.745,
+        "industrial_power_ppi": 1.248
+      },
+      "events": [
+        {
+          "label": "Wind and solar reach 3.5% of US power",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "renewable_share": 2.251,
+        "industrial_power_ppi": 221.5
+      },
+      "zscores": {
+        "renewable_share": -0.612,
+        "industrial_power_ppi": 2.587
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "renewable_share": 2.257,
+        "industrial_power_ppi": 222.1
+      },
+      "zscores": {
+        "renewable_share": -0.646,
+        "industrial_power_ppi": 2.361
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "renewable_share": 2.764,
+        "industrial_power_ppi": 222.8
+      },
+      "zscores": {
+        "renewable_share": -0.112,
+        "industrial_power_ppi": 2.192
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "renewable_share": 4.193,
+        "industrial_power_ppi": 214.1
+      },
+      "zscores": {
+        "renewable_share": 1.481,
+        "industrial_power_ppi": 1.281
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "renewable_share": 3.92,
+        "industrial_power_ppi": 212.3
+      },
+      "zscores": {
+        "renewable_share": 1.102,
+        "industrial_power_ppi": 1.054
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "renewable_share": 4.444,
+        "industrial_power_ppi": 213.8
+      },
+      "zscores": {
+        "renewable_share": 1.592,
+        "industrial_power_ppi": 1.138
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "renewable_share": 4.312,
+        "industrial_power_ppi": 199.2
+      },
+      "zscores": {
+        "renewable_share": 1.363,
+        "industrial_power_ppi": -0.324
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "renewable_share": 4.684,
+        "industrial_power_ppi": 199.4
+      },
+      "zscores": {
+        "renewable_share": 1.676,
+        "industrial_power_ppi": -0.354
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "renewable_share": 5.032,
+        "industrial_power_ppi": 199.0
+      },
+      "zscores": {
+        "renewable_share": 1.894,
+        "industrial_power_ppi": -0.436
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "renewable_share": 6.061,
+        "industrial_power_ppi": 198.8
+      },
+      "zscores": {
+        "renewable_share": 2.607,
+        "industrial_power_ppi": -0.503
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "renewable_share": 5.274,
+        "industrial_power_ppi": 203.5
+      },
+      "zscores": {
+        "renewable_share": 1.724,
+        "industrial_power_ppi": -0.019
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "renewable_share": 4.097,
+        "industrial_power_ppi": 211.9
+      },
+      "zscores": {
+        "renewable_share": 0.61,
+        "industrial_power_ppi": 0.881
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "renewable_share": 3.02,
+        "industrial_power_ppi": 211.4
+      },
+      "zscores": {
+        "renewable_share": -0.433,
+        "industrial_power_ppi": 0.784
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "renewable_share": 2.745,
+        "industrial_power_ppi": 210.4
+      },
+      "zscores": {
+        "renewable_share": -0.75,
+        "industrial_power_ppi": 0.64
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "renewable_share": 3.702,
+        "industrial_power_ppi": 210.3
+      },
+      "zscores": {
+        "renewable_share": 0.158,
+        "industrial_power_ppi": 0.597
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "renewable_share": 4.643,
+        "industrial_power_ppi": 201.2
+      },
+      "zscores": {
+        "renewable_share": 1.057,
+        "industrial_power_ppi": -0.444
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "renewable_share": 5.286,
+        "industrial_power_ppi": 199.0
+      },
+      "zscores": {
+        "renewable_share": 1.594,
+        "industrial_power_ppi": -0.74
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "renewable_share": 4.197,
+        "industrial_power_ppi": 200.5
+      },
+      "zscores": {
+        "renewable_share": 0.487,
+        "industrial_power_ppi": -0.615
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "renewable_share": 4.947,
+        "industrial_power_ppi": 215.1
+      },
+      "zscores": {
+        "renewable_share": 1.17,
+        "industrial_power_ppi": 1.09
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "renewable_share": 4.576,
+        "industrial_power_ppi": 214.4
+      },
+      "zscores": {
+        "renewable_share": 0.76,
+        "industrial_power_ppi": 0.953
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "renewable_share": 5.742,
+        "industrial_power_ppi": 214.8
+      },
+      "zscores": {
+        "renewable_share": 1.775,
+        "industrial_power_ppi": 0.952
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "renewable_share": 6.761,
+        "industrial_power_ppi": 210.8
+      },
+      "zscores": {
+        "renewable_share": 2.442,
+        "industrial_power_ppi": 0.4
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "renewable_share": 5.343,
+        "industrial_power_ppi": 215.2
+      },
+      "zscores": {
+        "renewable_share": 1.148,
+        "industrial_power_ppi": 0.932
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "renewable_share": 4.953,
+        "industrial_power_ppi": 224.0
+      },
+      "zscores": {
+        "renewable_share": 0.77,
+        "industrial_power_ppi": 1.939
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "renewable_share": 3.623,
+        "industrial_power_ppi": 227.5
+      },
+      "zscores": {
+        "renewable_share": -0.43,
+        "industrial_power_ppi": 2.197
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "renewable_share": 3.135,
+        "industrial_power_ppi": 227.7
+      },
+      "zscores": {
+        "renewable_share": -0.942,
+        "industrial_power_ppi": 2.07
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "renewable_share": 3.928,
+        "industrial_power_ppi": 225.1
+      },
+      "zscores": {
+        "renewable_share": -0.257,
+        "industrial_power_ppi": 1.686
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "renewable_share": 5.159,
+        "industrial_power_ppi": 217.0
+      },
+      "zscores": {
+        "renewable_share": 0.917,
+        "industrial_power_ppi": 0.762
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "renewable_share": 6.377,
+        "industrial_power_ppi": 210.7
+      },
+      "zscores": {
+        "renewable_share": 1.948,
+        "industrial_power_ppi": 0.057
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "renewable_share": 4.658,
+        "industrial_power_ppi": 213.9
+      },
+      "zscores": {
+        "renewable_share": 0.306,
+        "industrial_power_ppi": 0.38
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "renewable_share": 4.527,
+        "industrial_power_ppi": 222.4
+      },
+      "zscores": {
+        "renewable_share": 0.168,
+        "industrial_power_ppi": 1.239
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "renewable_share": 4.903,
+        "industrial_power_ppi": 221.1
+      },
+      "zscores": {
+        "renewable_share": 0.493,
+        "industrial_power_ppi": 1.039
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "renewable_share": 5.359,
+        "industrial_power_ppi": 218.2
+      },
+      "zscores": {
+        "renewable_share": 0.898,
+        "industrial_power_ppi": 0.678
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "renewable_share": 6.882,
+        "industrial_power_ppi": 213.3
+      },
+      "zscores": {
+        "renewable_share": 2.119,
+        "industrial_power_ppi": 0.087
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "renewable_share": 6.101,
+        "industrial_power_ppi": 217.0
+      },
+      "zscores": {
+        "renewable_share": 1.346,
+        "industrial_power_ppi": 0.475
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "renewable_share": 4.408,
+        "industrial_power_ppi": 237.2
+      },
+      "zscores": {
+        "renewable_share": -0.135,
+        "industrial_power_ppi": 2.514
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "renewable_share": 4.07,
+        "industrial_power_ppi": 237.3
+      },
+      "zscores": {
+        "renewable_share": -0.502,
+        "industrial_power_ppi": 2.304
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "renewable_share": 4.02,
+        "industrial_power_ppi": 236.8
+      },
+      "zscores": {
+        "renewable_share": -0.634,
+        "industrial_power_ppi": 2.089
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "renewable_share": 4.623,
+        "industrial_power_ppi": 234.2
+      },
+      "zscores": {
+        "renewable_share": -0.095,
+        "industrial_power_ppi": 1.748
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "renewable_share": 5.858,
+        "industrial_power_ppi": 218.2
+      },
+      "zscores": {
+        "renewable_share": 1.126,
+        "industrial_power_ppi": 0.284
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "renewable_share": 7.119,
+        "industrial_power_ppi": 213.4
+      },
+      "zscores": {
+        "renewable_share": 2.186,
+        "industrial_power_ppi": -0.155
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "renewable_share": 6.677,
+        "industrial_power_ppi": 214.8
+      },
+      "zscores": {
+        "renewable_share": 1.638,
+        "industrial_power_ppi": -0.03
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "renewable_share": 5.657,
+        "industrial_power_ppi": 205.3
+      },
+      "zscores": {
+        "renewable_share": 0.656,
+        "industrial_power_ppi": -0.925
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "renewable_share": 7.131,
+        "industrial_power_ppi": 204.3
+      },
+      "zscores": {
+        "renewable_share": 1.861,
+        "industrial_power_ppi": -1.047
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "renewable_share": 8.067,
+        "industrial_power_ppi": 204.5
+      },
+      "zscores": {
+        "renewable_share": 2.387,
+        "industrial_power_ppi": -1.062
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "renewable_share": 8.082,
+        "industrial_power_ppi": 202.4
+      },
+      "zscores": {
+        "renewable_share": 2.204,
+        "industrial_power_ppi": -1.291
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "renewable_share": 7.029,
+        "industrial_power_ppi": 206.3
+      },
+      "zscores": {
+        "renewable_share": 1.338,
+        "industrial_power_ppi": -0.927
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "renewable_share": 5.376,
+        "industrial_power_ppi": 220.4
+      },
+      "zscores": {
+        "renewable_share": 0.1,
+        "industrial_power_ppi": 0.43
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "renewable_share": 5.233,
+        "industrial_power_ppi": 226.2
+      },
+      "zscores": {
+        "renewable_share": -0.054,
+        "industrial_power_ppi": 0.948
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "renewable_share": 4.284,
+        "industrial_power_ppi": 227.3
+      },
+      "zscores": {
+        "renewable_share": -0.859,
+        "industrial_power_ppi": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "renewable_share": 5.7,
+        "industrial_power_ppi": 228.1
+      },
+      "zscores": {
+        "renewable_share": 0.248,
+        "industrial_power_ppi": 1.019
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "renewable_share": 7.518,
+        "industrial_power_ppi": 214.9
+      },
+      "zscores": {
+        "renewable_share": 1.634,
+        "industrial_power_ppi": -0.281
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "renewable_share": 7.464,
+        "industrial_power_ppi": 211.3
+      },
+      "zscores": {
+        "renewable_share": 1.493,
+        "industrial_power_ppi": -0.699
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "renewable_share": 7.403,
+        "industrial_power_ppi": 211.7
+      },
+      "zscores": {
+        "renewable_share": 1.361,
+        "industrial_power_ppi": -0.719
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "renewable_share": 6.714,
+        "industrial_power_ppi": 231.8
+      },
+      "zscores": {
+        "renewable_share": 0.79,
+        "industrial_power_ppi": 1.351
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "renewable_share": 8.534,
+        "industrial_power_ppi": 232.9
+      },
+      "zscores": {
+        "renewable_share": 1.994,
+        "industrial_power_ppi": 1.378
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "renewable_share": 9.467,
+        "industrial_power_ppi": 234.2
+      },
+      "zscores": {
+        "renewable_share": 2.378,
+        "industrial_power_ppi": 1.417
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "renewable_share": 10.25,
+        "industrial_power_ppi": 234.3
+      },
+      "zscores": {
+        "renewable_share": 2.566,
+        "industrial_power_ppi": 1.343
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "renewable_share": 8.919,
+        "industrial_power_ppi": 237.1
+      },
+      "zscores": {
+        "renewable_share": 1.641,
+        "industrial_power_ppi": 1.512
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "renewable_share": 7.322,
+        "industrial_power_ppi": 251.0
+      },
+      "zscores": {
+        "renewable_share": 0.676,
+        "industrial_power_ppi": 2.504
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "renewable_share": 5.361,
+        "industrial_power_ppi": 253.4
+      },
+      "zscores": {
+        "renewable_share": -0.502,
+        "industrial_power_ppi": 2.424
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "renewable_share": 5.001,
+        "industrial_power_ppi": 251.2
+      },
+      "zscores": {
+        "renewable_share": -0.779,
+        "industrial_power_ppi": 2.065
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "renewable_share": 6.837,
+        "industrial_power_ppi": 249.0
+      },
+      "zscores": {
+        "renewable_share": 0.321,
+        "industrial_power_ppi": 1.769
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "renewable_share": 9.104,
+        "industrial_power_ppi": 238.7
+      },
+      "zscores": {
+        "renewable_share": 1.648,
+        "industrial_power_ppi": 0.988
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "renewable_share": 8.379,
+        "industrial_power_ppi": 236.8
+      },
+      "zscores": {
+        "renewable_share": 1.142,
+        "industrial_power_ppi": 0.808
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "renewable_share": 7.199,
+        "industrial_power_ppi": 237.4
+      },
+      "zscores": {
+        "renewable_share": 0.388,
+        "industrial_power_ppi": 0.804
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "renewable_share": 7.745,
+        "industrial_power_ppi": 243.4
+      },
+      "zscores": {
+        "renewable_share": 0.681,
+        "industrial_power_ppi": 1.162
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "renewable_share": 8.821,
+        "industrial_power_ppi": 245.3
+      },
+      "zscores": {
+        "renewable_share": 1.281,
+        "industrial_power_ppi": 1.222
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "renewable_share": 9.796,
+        "industrial_power_ppi": 241.0
+      },
+      "zscores": {
+        "renewable_share": 1.751,
+        "industrial_power_ppi": 0.884
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "renewable_share": 10.791,
+        "industrial_power_ppi": 237.7
+      },
+      "zscores": {
+        "renewable_share": 2.133,
+        "industrial_power_ppi": 0.622
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "renewable_share": 9.08,
+        "industrial_power_ppi": 241.3
+      },
+      "zscores": {
+        "renewable_share": 1.107,
+        "industrial_power_ppi": 0.819
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "renewable_share": 8.63,
+        "industrial_power_ppi": 255.2
+      },
+      "zscores": {
+        "renewable_share": 0.811,
+        "industrial_power_ppi": 1.663
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "renewable_share": 5.637,
+        "industrial_power_ppi": 258.8
+      },
+      "zscores": {
+        "renewable_share": -0.945,
+        "industrial_power_ppi": 1.779
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "renewable_share": 6.5,
+        "industrial_power_ppi": 258.7
+      },
+      "zscores": {
+        "renewable_share": -0.503,
+        "industrial_power_ppi": 1.668
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "renewable_share": 6.866,
+        "industrial_power_ppi": 255.4
+      },
+      "zscores": {
+        "renewable_share": -0.328,
+        "industrial_power_ppi": 1.395
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "renewable_share": 8.049,
+        "industrial_power_ppi": 246.6
+      },
+      "zscores": {
+        "renewable_share": 0.398,
+        "industrial_power_ppi": 0.835
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "renewable_share": 7.988,
+        "industrial_power_ppi": 240.2
+      },
+      "zscores": {
+        "renewable_share": 0.342,
+        "industrial_power_ppi": 0.425
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "renewable_share": 8.01,
+        "industrial_power_ppi": 241.0
+      },
+      "zscores": {
+        "renewable_share": 0.333,
+        "industrial_power_ppi": 0.435
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "renewable_share": 7.751,
+        "industrial_power_ppi": 244.9
+      },
+      "zscores": {
+        "renewable_share": 0.129,
+        "industrial_power_ppi": 0.626
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "renewable_share": 8.392,
+        "industrial_power_ppi": 244.0
+      },
+      "zscores": {
+        "renewable_share": 0.531,
+        "industrial_power_ppi": 0.527
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "renewable_share": 9.688,
+        "industrial_power_ppi": 241.6
+      },
+      "zscores": {
+        "renewable_share": 1.327,
+        "industrial_power_ppi": 0.322
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "renewable_share": 12.011,
+        "industrial_power_ppi": 238.7
+      },
+      "zscores": {
+        "renewable_share": 2.503,
+        "industrial_power_ppi": 0.054
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "renewable_share": 9.962,
+        "industrial_power_ppi": 241.1
+      },
+      "zscores": {
+        "renewable_share": 1.229,
+        "industrial_power_ppi": 0.179
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "renewable_share": 8.611,
+        "industrial_power_ppi": 250.7
+      },
+      "zscores": {
+        "renewable_share": 0.41,
+        "industrial_power_ppi": 0.935
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "renewable_share": 7.367,
+        "industrial_power_ppi": 253.3
+      },
+      "zscores": {
+        "renewable_share": -0.373,
+        "industrial_power_ppi": 1.096
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "renewable_share": 6.934,
+        "industrial_power_ppi": 257.1
+      },
+      "zscores": {
+        "renewable_share": -0.734,
+        "industrial_power_ppi": 1.342
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "renewable_share": 8.685,
+        "industrial_power_ppi": 254.4
+      },
+      "zscores": {
+        "renewable_share": 0.375,
+        "industrial_power_ppi": 1.052
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "renewable_share": 10.52,
+        "industrial_power_ppi": 231.4
+      },
+      "zscores": {
+        "renewable_share": 1.518,
+        "industrial_power_ppi": -1.025
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "renewable_share": 9.354,
+        "industrial_power_ppi": 230.2
+      },
+      "zscores": {
+        "renewable_share": 0.712,
+        "industrial_power_ppi": -1.319
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "renewable_share": 8.89,
+        "industrial_power_ppi": 232.5
+      },
+      "zscores": {
+        "renewable_share": 0.382,
+        "industrial_power_ppi": -1.326
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "renewable_share": 9.526,
+        "industrial_power_ppi": 232.9
+      },
+      "zscores": {
+        "renewable_share": 0.755,
+        "industrial_power_ppi": -1.288
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "renewable_share": 10.845,
+        "industrial_power_ppi": 234.3
+      },
+      "zscores": {
+        "renewable_share": 1.533,
+        "industrial_power_ppi": -1.132
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "renewable_share": 11.511,
+        "industrial_power_ppi": 233.2
+      },
+      "zscores": {
+        "renewable_share": 1.839,
+        "industrial_power_ppi": -1.256
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "renewable_share": 13.462,
+        "industrial_power_ppi": 233.0
+      },
+      "zscores": {
+        "renewable_share": 2.697,
+        "industrial_power_ppi": -1.269
+      },
+      "events": [
+        {
+          "label": "COVID lowers demand; wind and solar hit 13.5%",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "renewable_share": 12.476,
+        "industrial_power_ppi": 232.8
+      },
+      "zscores": {
+        "renewable_share": 1.976,
+        "industrial_power_ppi": -1.26
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "renewable_share": 11.327,
+        "industrial_power_ppi": 250.4
+      },
+      "zscores": {
+        "renewable_share": 1.294,
+        "industrial_power_ppi": 0.804
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "renewable_share": 8.167,
+        "industrial_power_ppi": 253.5
+      },
+      "zscores": {
+        "renewable_share": -0.386,
+        "industrial_power_ppi": 1.167
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "renewable_share": 8.116,
+        "industrial_power_ppi": 253.6
+      },
+      "zscores": {
+        "renewable_share": -0.491,
+        "industrial_power_ppi": 1.161
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "renewable_share": 9.271,
+        "industrial_power_ppi": 256.2
+      },
+      "zscores": {
+        "renewable_share": 0.135,
+        "industrial_power_ppi": 1.407
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "renewable_share": 11.446,
+        "industrial_power_ppi": 236.5
+      },
+      "zscores": {
+        "renewable_share": 1.334,
+        "industrial_power_ppi": -0.82
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "renewable_share": 12.905,
+        "industrial_power_ppi": 233.3
+      },
+      "zscores": {
+        "renewable_share": 1.978,
+        "industrial_power_ppi": -1.158
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "renewable_share": 10.769,
+        "industrial_power_ppi": 232.8
+      },
+      "zscores": {
+        "renewable_share": 0.781,
+        "industrial_power_ppi": -1.184
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "renewable_share": 10.2,
+        "industrial_power_ppi": 234.7
+      },
+      "zscores": {
+        "renewable_share": 0.439,
+        "industrial_power_ppi": -0.936
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "renewable_share": 10.203,
+        "industrial_power_ppi": 235.3
+      },
+      "zscores": {
+        "renewable_share": 0.419,
+        "industrial_power_ppi": -0.832
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "renewable_share": 15.575,
+        "industrial_power_ppi": 253.2
+      },
+      "zscores": {
+        "renewable_share": 2.863,
+        "industrial_power_ppi": 1.048
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "renewable_share": 16.041,
+        "industrial_power_ppi": 237.1
+      },
+      "zscores": {
+        "renewable_share": 2.697,
+        "industrial_power_ppi": -0.662
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "renewable_share": 14.443,
+        "industrial_power_ppi": 239.2
+      },
+      "zscores": {
+        "renewable_share": 1.853,
+        "industrial_power_ppi": -0.432
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "renewable_share": 10.397,
+        "industrial_power_ppi": 259.8
+      },
+      "zscores": {
+        "renewable_share": 0.186,
+        "industrial_power_ppi": 1.704
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "renewable_share": 8.359,
+        "industrial_power_ppi": 264.727
+      },
+      "zscores": {
+        "renewable_share": -0.704,
+        "industrial_power_ppi": 2.131
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "renewable_share": 9.455,
+        "industrial_power_ppi": 266.382
+      },
+      "zscores": {
+        "renewable_share": -0.282,
+        "industrial_power_ppi": 2.188
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "renewable_share": 11.564,
+        "industrial_power_ppi": 263.224
+      },
+      "zscores": {
+        "renewable_share": 0.599,
+        "industrial_power_ppi": 1.806
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "renewable_share": 12.955,
+        "industrial_power_ppi": 255.289
+      },
+      "zscores": {
+        "renewable_share": 1.157,
+        "industrial_power_ppi": 1.023
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "renewable_share": 13.855,
+        "industrial_power_ppi": 253.517
+      },
+      "zscores": {
+        "renewable_share": 1.464,
+        "industrial_power_ppi": 0.819
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "renewable_share": 13.628,
+        "industrial_power_ppi": 251.385
+      },
+      "zscores": {
+        "renewable_share": 1.287,
+        "industrial_power_ppi": 0.594
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "renewable_share": 12.103,
+        "industrial_power_ppi": 263.262
+      },
+      "zscores": {
+        "renewable_share": 0.578,
+        "industrial_power_ppi": 1.576
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "renewable_share": 14.391,
+        "industrial_power_ppi": 269.233
+      },
+      "zscores": {
+        "renewable_share": 1.499,
+        "industrial_power_ppi": 1.93
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "renewable_share": 16.863,
+        "industrial_power_ppi": 264.93
+      },
+      "zscores": {
+        "renewable_share": 2.309,
+        "industrial_power_ppi": 1.472
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "renewable_share": 19.595,
+        "industrial_power_ppi": 262.97
+      },
+      "zscores": {
+        "renewable_share": 2.907,
+        "industrial_power_ppi": 1.238
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "renewable_share": 16.729,
+        "industrial_power_ppi": 267.786
+      },
+      "zscores": {
+        "renewable_share": 1.75,
+        "industrial_power_ppi": 1.516
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "renewable_share": 13.14,
+        "industrial_power_ppi": 284.453
+      },
+      "zscores": {
+        "renewable_share": 0.495,
+        "industrial_power_ppi": 2.481
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "renewable_share": 10.696,
+        "industrial_power_ppi": 297.134
+      },
+      "zscores": {
+        "renewable_share": -0.387,
+        "industrial_power_ppi": 2.875
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "renewable_share": 9.517,
+        "industrial_power_ppi": 300.917
+      },
+      "zscores": {
+        "renewable_share": -0.857,
+        "industrial_power_ppi": 2.704
+      },
+      "events": [
+        {
+          "label": "Natural gas spike lifts factory power prices",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "renewable_share": 11.55,
+        "industrial_power_ppi": 304.327
+      },
+      "zscores": {
+        "renewable_share": -0.145,
+        "industrial_power_ppi": 2.543
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "renewable_share": 14.234,
+        "industrial_power_ppi": 285.166
+      },
+      "zscores": {
+        "renewable_share": 0.812,
+        "industrial_power_ppi": 1.496
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "renewable_share": 15.415,
+        "industrial_power_ppi": 273.936
+      },
+      "zscores": {
+        "renewable_share": 1.181,
+        "industrial_power_ppi": 0.898
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "renewable_share": 12.618,
+        "industrial_power_ppi": 280.086
+      },
+      "zscores": {
+        "renewable_share": 0.114,
+        "industrial_power_ppi": 1.135
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "renewable_share": 13.267,
+        "industrial_power_ppi": 304.966
+      },
+      "zscores": {
+        "renewable_share": 0.324,
+        "industrial_power_ppi": 2.147
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "renewable_share": 16.357,
+        "industrial_power_ppi": 296.017
+      },
+      "zscores": {
+        "renewable_share": 1.412,
+        "industrial_power_ppi": 1.618
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "renewable_share": 16.821,
+        "industrial_power_ppi": 290.643
+      },
+      "zscores": {
+        "renewable_share": 1.485,
+        "industrial_power_ppi": 1.297
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "renewable_share": 19.148,
+        "industrial_power_ppi": 282.063
+      },
+      "zscores": {
+        "renewable_share": 2.121,
+        "industrial_power_ppi": 0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "renewable_share": 15.118,
+        "industrial_power_ppi": 289.781
+      },
+      "zscores": {
+        "renewable_share": 0.728,
+        "industrial_power_ppi": 1.153
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "renewable_share": 12.633,
+        "industrial_power_ppi": 312.1
+      },
+      "zscores": {
+        "renewable_share": -0.12,
+        "industrial_power_ppi": 2.008
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "renewable_share": 11.023,
+        "industrial_power_ppi": 315.619
+      },
+      "zscores": {
+        "renewable_share": -0.711,
+        "industrial_power_ppi": 1.977
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "renewable_share": 10.91,
+        "industrial_power_ppi": 317.41
+      },
+      "zscores": {
+        "renewable_share": -0.806,
+        "industrial_power_ppi": 1.886
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "renewable_share": 12.188,
+        "industrial_power_ppi": 318.298
+      },
+      "zscores": {
+        "renewable_share": -0.384,
+        "industrial_power_ppi": 1.775
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "renewable_share": 15.347,
+        "industrial_power_ppi": 299.423
+      },
+      "zscores": {
+        "renewable_share": 0.744,
+        "industrial_power_ppi": 0.995
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "renewable_share": 14.618,
+        "industrial_power_ppi": 294.67
+      },
+      "zscores": {
+        "renewable_share": 0.456,
+        "industrial_power_ppi": 0.765
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "renewable_share": 13.56,
+        "industrial_power_ppi": 295.404
+      },
+      "zscores": {
+        "renewable_share": 0.038,
+        "industrial_power_ppi": 0.751
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "renewable_share": 11.643,
+        "industrial_power_ppi": 297.248
+      },
+      "zscores": {
+        "renewable_share": -0.703,
+        "industrial_power_ppi": 0.785
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "renewable_share": 16.611,
+        "industrial_power_ppi": 305.893
+      },
+      "zscores": {
+        "renewable_share": 1.117,
+        "industrial_power_ppi": 1.113
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "renewable_share": 18.81,
+        "industrial_power_ppi": 300.25
+      },
+      "zscores": {
+        "renewable_share": 1.839,
+        "industrial_power_ppi": 0.812
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "renewable_share": 21.343,
+        "industrial_power_ppi": 297.514
+      },
+      "zscores": {
+        "renewable_share": 2.483,
+        "industrial_power_ppi": 0.649
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "renewable_share": 17.684,
+        "industrial_power_ppi": 293.251
+      },
+      "zscores": {
+        "renewable_share": 1.205,
+        "industrial_power_ppi": 0.398
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "renewable_share": 16.117,
+        "industrial_power_ppi": 317.819
+      },
+      "zscores": {
+        "renewable_share": 0.649,
+        "industrial_power_ppi": 1.564
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "renewable_share": 12.296,
+        "industrial_power_ppi": 320.093
+      },
+      "zscores": {
+        "renewable_share": -0.69,
+        "industrial_power_ppi": 1.574
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "renewable_share": 12.672,
+        "industrial_power_ppi": 320.024
+      },
+      "zscores": {
+        "renewable_share": -0.612,
+        "industrial_power_ppi": 1.475
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "renewable_share": 13.833,
+        "industrial_power_ppi": 320.188
+      },
+      "zscores": {
+        "renewable_share": -0.217,
+        "industrial_power_ppi": 1.401
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "renewable_share": 17.791,
+        "industrial_power_ppi": 303.443
+      },
+      "zscores": {
+        "renewable_share": 1.168,
+        "industrial_power_ppi": 0.533
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "renewable_share": 16.744,
+        "industrial_power_ppi": 293.721
+      },
+      "zscores": {
+        "renewable_share": 0.755,
+        "industrial_power_ppi": -0.027
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "renewable_share": 14.428,
+        "industrial_power_ppi": 295.102
+      },
+      "zscores": {
+        "renewable_share": -0.084,
+        "industrial_power_ppi": -0.019
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "renewable_share": 14.677,
+        "industrial_power_ppi": 297.295
+      },
+      "zscores": {
+        "renewable_share": -0.02,
+        "industrial_power_ppi": 0.059
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "renewable_share": 16.478,
+        "industrial_power_ppi": 301.406
+      },
+      "zscores": {
+        "renewable_share": 0.611,
+        "industrial_power_ppi": 0.273
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "renewable_share": 22.129,
+        "industrial_power_ppi": 302.735
+      },
+      "zscores": {
+        "renewable_share": 2.399,
+        "industrial_power_ppi": 0.312
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "renewable_share": 22.671,
+        "industrial_power_ppi": 303.129
+      },
+      "zscores": {
+        "renewable_share": 2.414,
+        "industrial_power_ppi": 0.288
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "renewable_share": 19.364,
+        "industrial_power_ppi": 296.787
+      },
+      "zscores": {
+        "renewable_share": 1.319,
+        "industrial_power_ppi": -0.294
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "renewable_share": 17.242,
+        "industrial_power_ppi": 318.893
+      },
+      "zscores": {
+        "renewable_share": 0.628,
+        "industrial_power_ppi": 1.503
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "renewable_share": 14.616,
+        "industrial_power_ppi": 337.884
+      },
+      "zscores": {
+        "renewable_share": -0.223,
+        "industrial_power_ppi": 2.692
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "renewable_share": 14.067,
+        "industrial_power_ppi": 342.491
+      },
+      "zscores": {
+        "renewable_share": -0.459,
+        "industrial_power_ppi": 2.643
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "renewable_share": 14.62,
+        "industrial_power_ppi": 330.906
+      },
+      "zscores": {
+        "renewable_share": -0.311,
+        "industrial_power_ppi": 1.729
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "renewable_share": 18.577,
+        "industrial_power_ppi": 318.881
+      },
+      "zscores": {
+        "renewable_share": 0.987,
+        "industrial_power_ppi": 0.899
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "renewable_share": 17.777,
+        "industrial_power_ppi": 310.08
+      },
+      "zscores": {
+        "renewable_share": 0.69,
+        "industrial_power_ppi": 0.274
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "renewable_share": 16.337,
+        "industrial_power_ppi": 312.138
+      },
+      "zscores": {
+        "renewable_share": 0.176,
+        "industrial_power_ppi": 0.372
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "renewable_share": 15.623,
+        "industrial_power_ppi": 309.963
+      },
+      "zscores": {
+        "renewable_share": -0.09,
+        "industrial_power_ppi": 0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "renewable_share": 17.798,
+        "industrial_power_ppi": 311.307
+      },
+      "zscores": {
+        "renewable_share": 0.64,
+        "industrial_power_ppi": 0.273
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "renewable_share": 23.288,
+        "industrial_power_ppi": 307.0
+      },
+      "zscores": {
+        "renewable_share": 2.27,
+        "industrial_power_ppi": -0.08
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "renewable_share": 24.263,
+        "industrial_power_ppi": 305.384
+      },
+      "zscores": {
+        "renewable_share": 2.355,
+        "industrial_power_ppi": -0.265
+      },
+      "events": [
+        {
+          "label": "Record: wind and solar supply 24.3% of US power",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "renewable_share": 21.871,
+        "industrial_power_ppi": 302.718
+      },
+      "zscores": {
+        "renewable_share": 1.545,
+        "industrial_power_ppi": -0.522
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "renewable_share": 20.219,
+        "industrial_power_ppi": 333.877
+      },
+      "zscores": {
+        "renewable_share": 1.017,
+        "industrial_power_ppi": 1.888
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "renewable_share": 16.22,
+        "industrial_power_ppi": 343.963
+      },
+      "zscores": {
+        "renewable_share": -0.169,
+        "industrial_power_ppi": 2.396
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Wind and solar went from almost nothing to about a fifth of US electricity. At the same time, the wholesale price of electricity for factories kept rising. More clean power has not, by itself, made industrial power cheaper; fuel prices and grid costs still matter.",
+    "methodology": "Wind plus solar share of total US electricity generation, all sectors, from EIA Form 923 data (EIA API). Industrial power price is the BLS Producer Price Index for industrial electric power (WPU0543). Both series rise over time, so their high correlation mostly reflects a shared trend, not cause and effect.",
+    "key_findings": [
+      {
+        "date": "2012-06-01",
+        "title": "2012: Wind Takes Off",
+        "description": "Wind and solar supplied 3.5% of US electricity, up from 0.3% in 2005, as wind farms spread across Texas and the Plains.",
+        "significance": "A tenfold rise in seven years.",
+        "normalized_time": 0.345
+      },
+      {
+        "date": "2022-08-01",
+        "title": "August 2022: Gas Prices Push Power Costs Up",
+        "description": "Natural gas prices spiked after the invasion of Ukraine. The factory power price index reached 301, up from 233 in early 2020.",
+        "significance": "Gas plants often set the price of power, so gas price shocks reach factories.",
+        "normalized_time": 0.8178
+      },
+      {
+        "date": "2026-04-01",
+        "title": "April 2026: A New Record",
+        "description": "Wind and solar supplied 24.3% of US electricity in April 2026, the highest month on record. Spring is when wind is strong, sun is rising and demand is low.",
+        "significance": "Clean power's share keeps climbing, but factory power prices also hit a record (344) in July 2026.",
+        "normalized_time": 0.9884
+      }
+    ]
+  }
+}

@@ -1,0 +1,5190 @@
+{
+  "metadata": {
+    "chart_id": "chart_16",
+    "number": 16,
+    "title": "Quit or Laid Off? Who Ends Jobs",
+    "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
+    "section_id": "section_c",
+    "visual_form": "Tug-of-war: quits vs. layoffs",
+    "agencies": [
+      "BLS"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2001,
+    "end_year": 2026,
+    "observation_count": 308,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08"
+  },
+  "analytics": {
+    "optimal_lag_months": -1,
+    "peak_correlation_coefficient": 0.827,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.719
+      },
+      {
+        "lag": -17,
+        "r": 0.728
+      },
+      {
+        "lag": -16,
+        "r": 0.737
+      },
+      {
+        "lag": -15,
+        "r": 0.746
+      },
+      {
+        "lag": -14,
+        "r": 0.759
+      },
+      {
+        "lag": -13,
+        "r": 0.769
+      },
+      {
+        "lag": -12,
+        "r": 0.778
+      },
+      {
+        "lag": -11,
+        "r": 0.784
+      },
+      {
+        "lag": -10,
+        "r": 0.792
+      },
+      {
+        "lag": -9,
+        "r": 0.796
+      },
+      {
+        "lag": -8,
+        "r": 0.798
+      },
+      {
+        "lag": -7,
+        "r": 0.801
+      },
+      {
+        "lag": -6,
+        "r": 0.804
+      },
+      {
+        "lag": -5,
+        "r": 0.811
+      },
+      {
+        "lag": -4,
+        "r": 0.816
+      },
+      {
+        "lag": -3,
+        "r": 0.816
+      },
+      {
+        "lag": -2,
+        "r": 0.819
+      },
+      {
+        "lag": -1,
+        "r": 0.827
+      },
+      {
+        "lag": 0,
+        "r": 0.822
+      },
+      {
+        "lag": 1,
+        "r": 0.805
+      },
+      {
+        "lag": 2,
+        "r": 0.799
+      },
+      {
+        "lag": 3,
+        "r": 0.797
+      },
+      {
+        "lag": 4,
+        "r": 0.796
+      },
+      {
+        "lag": 5,
+        "r": 0.782
+      },
+      {
+        "lag": 6,
+        "r": 0.766
+      },
+      {
+        "lag": 7,
+        "r": 0.756
+      },
+      {
+        "lag": 8,
+        "r": 0.744
+      },
+      {
+        "lag": 9,
+        "r": 0.726
+      },
+      {
+        "lag": 10,
+        "r": 0.706
+      },
+      {
+        "lag": 11,
+        "r": 0.688
+      },
+      {
+        "lag": 12,
+        "r": 0.669
+      },
+      {
+        "lag": 13,
+        "r": 0.654
+      },
+      {
+        "lag": 14,
+        "r": 0.636
+      },
+      {
+        "lag": 15,
+        "r": 0.614
+      },
+      {
+        "lag": 16,
+        "r": 0.601
+      },
+      {
+        "lag": 17,
+        "r": 0.586
+      },
+      {
+        "lag": 18,
+        "r": 0.57
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "job_openings",
+      "agency": "BLS",
+      "series_id": "JTS000000000000000JOL",
+      "label": "Job Openings ('Help Wanted')",
+      "unit": "k Positions",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "hires",
+      "agency": "BLS",
+      "series_id": "JTS000000000000000HIL",
+      "label": "People Newly Hired This Month",
+      "unit": "k Workers",
+      "transform": "raw",
+      "color": "#06b6d4"
+    },
+    {
+      "key": "quits",
+      "agency": "BLS",
+      "series_id": "JTS000000000000000QUL",
+      "label": "People Voluntarily Quitting (Confidence)",
+      "unit": "k Workers",
+      "transform": "raw",
+      "color": "#8b5cf6"
+    },
+    {
+      "key": "layoffs",
+      "agency": "BLS",
+      "series_id": "JTS000000000000000LDL",
+      "label": "Layoffs & Firings",
+      "unit": "k Workers",
+      "transform": "raw",
+      "color": "#ef4444"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2001-01-01",
+      "values": {
+        "job_openings": 5234.0,
+        "hires": 5722.0,
+        "quits": 3245.0,
+        "layoffs": 2220.0
+      },
+      "zscores": {
+        "job_openings": 0.0,
+        "hires": 0.0,
+        "quits": 0.0,
+        "layoffs": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-02-01",
+      "values": {
+        "job_openings": 5097.0,
+        "hires": 5303.0,
+        "quits": 3053.0,
+        "layoffs": 1855.0
+      },
+      "zscores": {
+        "job_openings": -1.0,
+        "hires": -1.0,
+        "quits": -1.0,
+        "layoffs": -1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2001-03-01",
+      "values": {
+        "job_openings": 4762.0,
+        "hires": 5528.0,
+        "quits": 3054.0,
+        "layoffs": 2133.0
+      },
+      "zscores": {
+        "job_openings": -1.357,
+        "hires": 0.06,
+        "quits": -0.702,
+        "layoffs": 0.409
+      },
+      "events": []
+    },
+    {
+      "date": "2001-04-01",
+      "values": {
+        "job_openings": 4615.0,
+        "hires": 5204.0,
+        "quits": 3163.0,
+        "layoffs": 1883.0
+      },
+      "zscores": {
+        "job_openings": -1.254,
+        "hires": -1.17,
+        "quits": 0.425,
+        "layoffs": -0.89
+      },
+      "events": []
+    },
+    {
+      "date": "2001-05-01",
+      "values": {
+        "job_openings": 4425.0,
+        "hires": 5410.0,
+        "quits": 2993.0,
+        "layoffs": 2029.0
+      },
+      "zscores": {
+        "job_openings": -1.34,
+        "hires": -0.13,
+        "quits": -1.203,
+        "layoffs": 0.036
+      },
+      "events": []
+    },
+    {
+      "date": "2001-06-01",
+      "values": {
+        "job_openings": 4361.0,
+        "hires": 5109.0,
+        "quits": 2878.0,
+        "layoffs": 2015.0
+      },
+      "zscores": {
+        "job_openings": -1.197,
+        "hires": -1.324,
+        "quits": -1.59,
+        "layoffs": -0.058
+      },
+      "events": []
+    },
+    {
+      "date": "2001-07-01",
+      "values": {
+        "job_openings": 4447.0,
+        "hires": 5244.0,
+        "quits": 2947.0,
+        "layoffs": 2038.0
+      },
+      "zscores": {
+        "job_openings": -0.814,
+        "hires": -0.595,
+        "quits": -0.867,
+        "layoffs": 0.112
+      },
+      "events": []
+    },
+    {
+      "date": "2001-08-01",
+      "values": {
+        "job_openings": 4024.0,
+        "hires": 5223.0,
+        "quits": 2928.0,
+        "layoffs": 2011.0
+      },
+      "zscores": {
+        "job_openings": -1.598,
+        "hires": -0.638,
+        "quits": -0.906,
+        "layoffs": -0.108
+      },
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "job_openings": 4071.0,
+        "hires": 4954.0,
+        "quits": 2703.0,
+        "layoffs": 2107.0
+      },
+      "zscores": {
+        "job_openings": -1.246,
+        "hires": -1.607,
+        "quits": -1.949,
+        "layoffs": 0.69
+      },
+      "events": []
+    },
+    {
+      "date": "2001-10-01",
+      "values": {
+        "job_openings": 3707.0,
+        "hires": 5078.0,
+        "quits": 2795.0,
+        "layoffs": 2319.0
+      },
+      "zscores": {
+        "job_openings": -1.7,
+        "hires": -0.929,
+        "quits": -1.169,
+        "layoffs": 1.926
+      },
+      "events": []
+    },
+    {
+      "date": "2001-11-01",
+      "values": {
+        "job_openings": 3775.0,
+        "hires": 4914.0,
+        "quits": 2560.0,
+        "layoffs": 2255.0
+      },
+      "zscores": {
+        "job_openings": -1.338,
+        "hires": -1.438,
+        "quits": -1.99,
+        "layoffs": 1.265
+      },
+      "events": []
+    },
+    {
+      "date": "2001-12-01",
+      "values": {
+        "job_openings": 3677.0,
+        "hires": 4829.0,
+        "quits": 2559.0,
+        "layoffs": 1922.0
+      },
+      "zscores": {
+        "job_openings": -1.351,
+        "hires": -1.534,
+        "quits": -1.656,
+        "layoffs": -1.024
+      },
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "job_openings": 3699.0,
+        "hires": 4855.0,
+        "quits": 2845.0,
+        "layoffs": 1907.0
+      },
+      "zscores": {
+        "job_openings": -1.18,
+        "hires": -1.277,
+        "quits": -0.281,
+        "layoffs": -1.036
+      },
+      "events": []
+    },
+    {
+      "date": "2002-02-01",
+      "values": {
+        "job_openings": 3436.0,
+        "hires": 4801.0,
+        "quits": 2572.0,
+        "layoffs": 1978.0
+      },
+      "zscores": {
+        "job_openings": -1.489,
+        "hires": -1.332,
+        "quits": -1.44,
+        "layoffs": -0.509
+      },
+      "events": []
+    },
+    {
+      "date": "2002-03-01",
+      "values": {
+        "job_openings": 3612.0,
+        "hires": 4706.0,
+        "quits": 2493.0,
+        "layoffs": 1883.0
+      },
+      "zscores": {
+        "job_openings": -1.076,
+        "hires": -1.496,
+        "quits": -1.585,
+        "layoffs": -1.107
+      },
+      "events": []
+    },
+    {
+      "date": "2002-04-01",
+      "values": {
+        "job_openings": 3471.0,
+        "hires": 4928.0,
+        "quits": 2624.0,
+        "layoffs": 1956.0
+      },
+      "zscores": {
+        "job_openings": -1.226,
+        "hires": -0.671,
+        "quits": -0.946,
+        "layoffs": -0.558
+      },
+      "events": []
+    },
+    {
+      "date": "2002-05-01",
+      "values": {
+        "job_openings": 3457.0,
+        "hires": 4857.0,
+        "quits": 2537.0,
+        "layoffs": 1967.0
+      },
+      "zscores": {
+        "job_openings": -1.162,
+        "hires": -0.879,
+        "quits": -1.228,
+        "layoffs": -0.46
+      },
+      "events": []
+    },
+    {
+      "date": "2002-06-01",
+      "values": {
+        "job_openings": 3412.0,
+        "hires": 4869.0,
+        "quits": 2522.0,
+        "layoffs": 2015.0
+      },
+      "zscores": {
+        "job_openings": -1.158,
+        "hires": -0.796,
+        "quits": -1.202,
+        "layoffs": -0.096
+      },
+      "events": []
+    },
+    {
+      "date": "2002-07-01",
+      "values": {
+        "job_openings": 3367.0,
+        "hires": 4946.0,
+        "quits": 2561.0,
+        "layoffs": 2102.0
+      },
+      "zscores": {
+        "job_openings": -1.159,
+        "hires": -0.496,
+        "quits": -0.981,
+        "layoffs": 0.557
+      },
+      "events": []
+    },
+    {
+      "date": "2002-08-01",
+      "values": {
+        "job_openings": 3517.0,
+        "hires": 4871.0,
+        "quits": 2561.0,
+        "layoffs": 1923.0
+      },
+      "zscores": {
+        "job_openings": -0.858,
+        "hires": -0.747,
+        "quits": -0.934,
+        "layoffs": -0.818
+      },
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "job_openings": 3301.0,
+        "hires": 4879.0,
+        "quits": 2521.0,
+        "layoffs": 2022.0
+      },
+      "zscores": {
+        "job_openings": -1.164,
+        "hires": -0.691,
+        "quits": -1.048,
+        "layoffs": -0.03
+      },
+      "events": []
+    },
+    {
+      "date": "2002-10-01",
+      "values": {
+        "job_openings": 3479.0,
+        "hires": 4798.0,
+        "quits": 2423.0,
+        "layoffs": 1935.0
+      },
+      "zscores": {
+        "job_openings": -0.823,
+        "hires": -0.958,
+        "quits": -1.366,
+        "layoffs": -0.713
+      },
+      "events": []
+    },
+    {
+      "date": "2002-11-01",
+      "values": {
+        "job_openings": 3514.0,
+        "hires": 4792.0,
+        "quits": 2403.0,
+        "layoffs": 1944.0
+      },
+      "zscores": {
+        "job_openings": -0.736,
+        "hires": -0.94,
+        "quits": -1.357,
+        "layoffs": -0.619
+      },
+      "events": []
+    },
+    {
+      "date": "2002-12-01",
+      "values": {
+        "job_openings": 3169.0,
+        "hires": 4893.0,
+        "quits": 2501.0,
+        "layoffs": 2007.0
+      },
+      "zscores": {
+        "job_openings": -1.268,
+        "hires": -0.535,
+        "quits": -0.921,
+        "layoffs": -0.092
+      },
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "job_openings": 3441.0,
+        "hires": 5058.0,
+        "quits": 2429.0,
+        "layoffs": 2109.0
+      },
+      "zscores": {
+        "job_openings": -0.771,
+        "hires": 0.108,
+        "quits": -1.156,
+        "layoffs": 0.753
+      },
+      "events": []
+    },
+    {
+      "date": "2003-02-01",
+      "values": {
+        "job_openings": 3229.0,
+        "hires": 4714.0,
+        "quits": 2490.0,
+        "layoffs": 2015.0
+      },
+      "zscores": {
+        "job_openings": -1.092,
+        "hires": -1.205,
+        "quits": -0.878,
+        "layoffs": -0.054
+      },
+      "events": []
+    },
+    {
+      "date": "2003-03-01",
+      "values": {
+        "job_openings": 3099.0,
+        "hires": 4470.0,
+        "quits": 2394.0,
+        "layoffs": 1949.0
+      },
+      "zscores": {
+        "job_openings": -1.253,
+        "hires": -1.964,
+        "quits": -1.209,
+        "layoffs": -0.616
+      },
+      "events": []
+    },
+    {
+      "date": "2003-04-01",
+      "values": {
+        "job_openings": 3108.0,
+        "hires": 4600.0,
+        "quits": 2279.0,
+        "layoffs": 1998.0
+      },
+      "zscores": {
+        "job_openings": -1.183,
+        "hires": -1.401,
+        "quits": -1.565,
+        "layoffs": -0.178
+      },
+      "events": []
+    },
+    {
+      "date": "2003-05-01",
+      "values": {
+        "job_openings": 3289.0,
+        "hires": 4678.0,
+        "quits": 2291.0,
+        "layoffs": 2072.0
+      },
+      "zscores": {
+        "job_openings": -0.849,
+        "hires": -1.074,
+        "quits": -1.435,
+        "layoffs": 0.479
+      },
+      "events": []
+    },
+    {
+      "date": "2003-06-01",
+      "values": {
+        "job_openings": 3390.0,
+        "hires": 4682.0,
+        "quits": 2315.0,
+        "layoffs": 2076.0
+      },
+      "zscores": {
+        "job_openings": -0.66,
+        "hires": -1.023,
+        "quits": -1.283,
+        "layoffs": 0.505
+      },
+      "events": []
+    },
+    {
+      "date": "2003-07-01",
+      "values": {
+        "job_openings": 2981.0,
+        "hires": 4639.0,
+        "quits": 2271.0,
+        "layoffs": 2062.0
+      },
+      "zscores": {
+        "job_openings": -1.305,
+        "hires": -1.134,
+        "quits": -1.38,
+        "layoffs": 0.368
+      },
+      "events": []
+    },
+    {
+      "date": "2003-08-01",
+      "values": {
+        "job_openings": 3190.0,
+        "hires": 4666.0,
+        "quits": 2195.0,
+        "layoffs": 2162.0
+      },
+      "zscores": {
+        "job_openings": -0.921,
+        "hires": -1.004,
+        "quits": -1.57,
+        "layoffs": 1.254
+      },
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "job_openings": 3091.0,
+        "hires": 4799.0,
+        "quits": 2354.0,
+        "layoffs": 1932.0
+      },
+      "zscores": {
+        "job_openings": -1.055,
+        "hires": -0.514,
+        "quits": -0.964,
+        "layoffs": -0.861
+      },
+      "events": []
+    },
+    {
+      "date": "2003-10-01",
+      "values": {
+        "job_openings": 3305.0,
+        "hires": 4902.0,
+        "quits": 2415.0,
+        "layoffs": 1969.0
+      },
+      "zscores": {
+        "job_openings": -0.675,
+        "hires": -0.136,
+        "quits": -0.726,
+        "layoffs": -0.506
+      },
+      "events": []
+    },
+    {
+      "date": "2003-11-01",
+      "values": {
+        "job_openings": 3324.0,
+        "hires": 4767.0,
+        "quits": 2411.0,
+        "layoffs": 1951.0
+      },
+      "zscores": {
+        "job_openings": -0.63,
+        "hires": -0.623,
+        "quits": -0.724,
+        "layoffs": -0.662
+      },
+      "events": []
+    },
+    {
+      "date": "2003-12-01",
+      "values": {
+        "job_openings": 3414.0,
+        "hires": 4984.0,
+        "quits": 2444.0,
+        "layoffs": 2007.0
+      },
+      "zscores": {
+        "job_openings": -0.466,
+        "hires": 0.184,
+        "quits": -0.592,
+        "layoffs": -0.128
+      },
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "job_openings": 3424.0,
+        "hires": 4900.0,
+        "quits": 2354.0,
+        "layoffs": 2037.0
+      },
+      "zscores": {
+        "job_openings": -0.405,
+        "hires": -0.055,
+        "quits": -0.9,
+        "layoffs": 0.223
+      },
+      "events": []
+    },
+    {
+      "date": "2004-02-01",
+      "values": {
+        "job_openings": 3532.0,
+        "hires": 4788.0,
+        "quits": 2448.0,
+        "layoffs": 1985.0
+      },
+      "zscores": {
+        "job_openings": -0.123,
+        "hires": -0.502,
+        "quits": -0.48,
+        "layoffs": -0.357
+      },
+      "events": []
+    },
+    {
+      "date": "2004-03-01",
+      "values": {
+        "job_openings": 3525.0,
+        "hires": 5227.0,
+        "quits": 2582.0,
+        "layoffs": 2065.0
+      },
+      "zscores": {
+        "job_openings": -0.068,
+        "hires": 1.685,
+        "quits": 0.149,
+        "layoffs": 0.518
+      },
+      "events": []
+    },
+    {
+      "date": "2004-04-01",
+      "values": {
+        "job_openings": 3511.0,
+        "hires": 5152.0,
+        "quits": 2534.0,
+        "layoffs": 2010.0
+      },
+      "zscores": {
+        "job_openings": -0.03,
+        "hires": 1.331,
+        "quits": 0.013,
+        "layoffs": -0.115
+      },
+      "events": []
+    },
+    {
+      "date": "2004-05-01",
+      "values": {
+        "job_openings": 3710.0,
+        "hires": 4976.0,
+        "quits": 2428.0,
+        "layoffs": 1914.0
+      },
+      "zscores": {
+        "job_openings": 0.647,
+        "hires": 0.559,
+        "quits": -0.484,
+        "layoffs": -1.125
+      },
+      "events": []
+    },
+    {
+      "date": "2004-06-01",
+      "values": {
+        "job_openings": 3337.0,
+        "hires": 5009.0,
+        "quits": 2659.0,
+        "layoffs": 1887.0
+      },
+      "zscores": {
+        "job_openings": -0.472,
+        "hires": 0.773,
+        "quits": 0.866,
+        "layoffs": -1.345
+      },
+      "events": []
+    },
+    {
+      "date": "2004-07-01",
+      "values": {
+        "job_openings": 3814.0,
+        "hires": 4891.0,
+        "quits": 2609.0,
+        "layoffs": 1885.0
+      },
+      "zscores": {
+        "job_openings": 1.467,
+        "hires": 0.166,
+        "quits": 0.693,
+        "layoffs": -1.29
+      },
+      "events": []
+    },
+    {
+      "date": "2004-08-01",
+      "values": {
+        "job_openings": 3541.0,
+        "hires": 5013.0,
+        "quits": 2586.0,
+        "layoffs": 1974.0
+      },
+      "zscores": {
+        "job_openings": 0.439,
+        "hires": 1.005,
+        "quits": 0.68,
+        "layoffs": -0.356
+      },
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "job_openings": 3821.0,
+        "hires": 5062.0,
+        "quits": 2531.0,
+        "layoffs": 2027.0
+      },
+      "zscores": {
+        "job_openings": 1.846,
+        "hires": 1.279,
+        "quits": 0.332,
+        "layoffs": 0.219
+      },
+      "events": []
+    },
+    {
+      "date": "2004-10-01",
+      "values": {
+        "job_openings": 3943.0,
+        "hires": 5149.0,
+        "quits": 2550.0,
+        "layoffs": 1903.0
+      },
+      "zscores": {
+        "job_openings": 2.27,
+        "hires": 1.785,
+        "quits": 0.563,
+        "layoffs": -1.135
+      },
+      "events": []
+    },
+    {
+      "date": "2004-11-01",
+      "values": {
+        "job_openings": 3472.0,
+        "hires": 5181.0,
+        "quits": 2789.0,
+        "layoffs": 2037.0
+      },
+      "zscores": {
+        "job_openings": 0.181,
+        "hires": 1.844,
+        "quits": 2.245,
+        "layoffs": 0.712
+      },
+      "events": []
+    },
+    {
+      "date": "2004-12-01",
+      "values": {
+        "job_openings": 4074.0,
+        "hires": 5153.0,
+        "quits": 2695.0,
+        "layoffs": 1951.0
+      },
+      "zscores": {
+        "job_openings": 2.679,
+        "hires": 1.568,
+        "quits": 1.48,
+        "layoffs": -0.568
+      },
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "job_openings": 3804.0,
+        "hires": 5201.0,
+        "quits": 2732.0,
+        "layoffs": 2008.0
+      },
+      "zscores": {
+        "job_openings": 1.494,
+        "hires": 1.712,
+        "quits": 1.862,
+        "layoffs": 0.24
+      },
+      "events": []
+    },
+    {
+      "date": "2005-02-01",
+      "values": {
+        "job_openings": 3965.0,
+        "hires": 5276.0,
+        "quits": 2651.0,
+        "layoffs": 2068.0
+      },
+      "zscores": {
+        "job_openings": 1.984,
+        "hires": 1.943,
+        "quits": 1.213,
+        "layoffs": 1.092
+      },
+      "events": []
+    },
+    {
+      "date": "2005-03-01",
+      "values": {
+        "job_openings": 4044.0,
+        "hires": 5273.0,
+        "quits": 2747.0,
+        "layoffs": 2188.0
+      },
+      "zscores": {
+        "job_openings": 2.111,
+        "hires": 1.787,
+        "quits": 1.789,
+        "layoffs": 2.58
+      },
+      "events": []
+    },
+    {
+      "date": "2005-04-01",
+      "values": {
+        "job_openings": 4159.0,
+        "hires": 5362.0,
+        "quits": 2741.0,
+        "layoffs": 1957.0
+      },
+      "zscores": {
+        "job_openings": 2.277,
+        "hires": 2.04,
+        "quits": 1.673,
+        "layoffs": -0.644
+      },
+      "events": []
+    },
+    {
+      "date": "2005-05-01",
+      "values": {
+        "job_openings": 3797.0,
+        "hires": 5271.0,
+        "quits": 2763.0,
+        "layoffs": 2021.0
+      },
+      "zscores": {
+        "job_openings": 0.993,
+        "hires": 1.508,
+        "quits": 1.707,
+        "layoffs": 0.229
+      },
+      "events": []
+    },
+    {
+      "date": "2005-06-01",
+      "values": {
+        "job_openings": 4062.0,
+        "hires": 5376.0,
+        "quits": 2754.0,
+        "layoffs": 2015.0
+      },
+      "zscores": {
+        "job_openings": 1.746,
+        "hires": 1.832,
+        "quits": 1.549,
+        "layoffs": 0.145
+      },
+      "events": []
+    },
+    {
+      "date": "2005-07-01",
+      "values": {
+        "job_openings": 4256.0,
+        "hires": 5328.0,
+        "quits": 2735.0,
+        "layoffs": 1898.0
+      },
+      "zscores": {
+        "job_openings": 2.144,
+        "hires": 1.523,
+        "quits": 1.361,
+        "layoffs": -1.411
+      },
+      "events": []
+    },
+    {
+      "date": "2005-08-01",
+      "values": {
+        "job_openings": 4142.0,
+        "hires": 5409.0,
+        "quits": 2957.0,
+        "layoffs": 1905.0
+      },
+      "zscores": {
+        "job_openings": 1.676,
+        "hires": 1.727,
+        "quits": 2.439,
+        "layoffs": -1.295
+      },
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "job_openings": 4352.0,
+        "hires": 5493.0,
+        "quits": 3046.0,
+        "layoffs": 2032.0
+      },
+      "zscores": {
+        "job_openings": 2.076,
+        "hires": 1.896,
+        "quits": 2.576,
+        "layoffs": 0.46
+      },
+      "events": []
+    },
+    {
+      "date": "2005-10-01",
+      "values": {
+        "job_openings": 4184.0,
+        "hires": 5124.0,
+        "quits": 2863.0,
+        "layoffs": 1873.0
+      },
+      "zscores": {
+        "job_openings": 1.514,
+        "hires": 0.45,
+        "quits": 1.533,
+        "layoffs": -1.665
+      },
+      "events": []
+    },
+    {
+      "date": "2005-11-01",
+      "values": {
+        "job_openings": 4248.0,
+        "hires": 5344.0,
+        "quits": 2895.0,
+        "layoffs": 1769.0
+      },
+      "zscores": {
+        "job_openings": 1.572,
+        "hires": 1.224,
+        "quits": 1.578,
+        "layoffs": -2.689
+      },
+      "events": []
+    },
+    {
+      "date": "2005-12-01",
+      "values": {
+        "job_openings": 4282.0,
+        "hires": 5294.0,
+        "quits": 2849.0,
+        "layoffs": 1923.0
+      },
+      "zscores": {
+        "job_openings": 1.556,
+        "hires": 0.981,
+        "quits": 1.28,
+        "layoffs": -0.798
+      },
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "job_openings": 4397.0,
+        "hires": 5271.0,
+        "quits": 2945.0,
+        "layoffs": 1784.0
+      },
+      "zscores": {
+        "job_openings": 1.71,
+        "hires": 0.863,
+        "quits": 1.613,
+        "layoffs": -2.241
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "job_openings": 4325.0,
+        "hires": 5474.0,
+        "quits": 2965.0,
+        "layoffs": 1882.0
+      },
+      "zscores": {
+        "job_openings": 1.444,
+        "hires": 1.521,
+        "quits": 1.589,
+        "layoffs": -1.068
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "job_openings": 4732.0,
+        "hires": 5524.0,
+        "quits": 2956.0,
+        "layoffs": 1888.0
+      },
+      "zscores": {
+        "job_openings": 2.21,
+        "hires": 1.65,
+        "quits": 1.453,
+        "layoffs": -0.969
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "job_openings": 4790.0,
+        "hires": 5215.0,
+        "quits": 2778.0,
+        "layoffs": 1853.0
+      },
+      "zscores": {
+        "job_openings": 2.153,
+        "hires": 0.431,
+        "quits": 0.639,
+        "layoffs": -1.283
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "job_openings": 4463.0,
+        "hires": 5498.0,
+        "quits": 3002.0,
+        "layoffs": 1991.0
+      },
+      "zscores": {
+        "job_openings": 1.351,
+        "hires": 1.487,
+        "quits": 1.546,
+        "layoffs": 0.241
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "job_openings": 4614.0,
+        "hires": 5455.0,
+        "quits": 3042.0,
+        "layoffs": 1817.0
+      },
+      "zscores": {
+        "job_openings": 1.571,
+        "hires": 1.259,
+        "quits": 1.625,
+        "layoffs": -1.571
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "job_openings": 4394.0,
+        "hires": 5573.0,
+        "quits": 3047.0,
+        "layoffs": 1860.0
+      },
+      "zscores": {
+        "job_openings": 1.058,
+        "hires": 1.685,
+        "quits": 1.569,
+        "layoffs": -1.045
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "job_openings": 4710.0,
+        "hires": 5373.0,
+        "quits": 3056.0,
+        "layoffs": 1775.0
+      },
+      "zscores": {
+        "job_openings": 1.663,
+        "hires": 0.799,
+        "quits": 1.565,
+        "layoffs": -1.893
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "job_openings": 4737.0,
+        "hires": 5288.0,
+        "quits": 2888.0,
+        "layoffs": 1831.0
+      },
+      "zscores": {
+        "job_openings": 1.647,
+        "hires": 0.369,
+        "quits": 0.74,
+        "layoffs": -1.215
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "job_openings": 4591.0,
+        "hires": 5375.0,
+        "quits": 2983.0,
+        "layoffs": 1898.0
+      },
+      "zscores": {
+        "job_openings": 1.255,
+        "hires": 0.737,
+        "quits": 1.14,
+        "layoffs": -0.464
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "job_openings": 4645.0,
+        "hires": 5495.0,
+        "quits": 3043.0,
+        "layoffs": 1926.0
+      },
+      "zscores": {
+        "job_openings": 1.313,
+        "hires": 1.288,
+        "quits": 1.367,
+        "layoffs": -0.153
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "job_openings": 4620.0,
+        "hires": 5214.0,
+        "quits": 2999.0,
+        "layoffs": 1772.0
+      },
+      "zscores": {
+        "job_openings": 1.195,
+        "hires": -0.19,
+        "quits": 1.094,
+        "layoffs": -1.692
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "job_openings": 4763.0,
+        "hires": 5426.0,
+        "quits": 2956.0,
+        "layoffs": 1922.0
+      },
+      "zscores": {
+        "job_openings": 1.454,
+        "hires": 0.882,
+        "quits": 0.842,
+        "layoffs": -0.089
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "job_openings": 4699.0,
+        "hires": 5160.0,
+        "quits": 2933.0,
+        "layoffs": 1850.0
+      },
+      "zscores": {
+        "job_openings": 1.237,
+        "hires": -0.697,
+        "quits": 0.677,
+        "layoffs": -0.812
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "job_openings": 4962.0,
+        "hires": 5479.0,
+        "quits": 2997.0,
+        "layoffs": 1882.0
+      },
+      "zscores": {
+        "job_openings": 1.753,
+        "hires": 1.17,
+        "quits": 0.985,
+        "layoffs": -0.432
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "job_openings": 4689.0,
+        "hires": 5353.0,
+        "quits": 2911.0,
+        "layoffs": 2000.0
+      },
+      "zscores": {
+        "job_openings": 1.057,
+        "hires": 0.39,
+        "quits": 0.449,
+        "layoffs": 0.861
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "job_openings": 4657.0,
+        "hires": 5469.0,
+        "quits": 3010.0,
+        "layoffs": 1967.0
+      },
+      "zscores": {
+        "job_openings": 0.927,
+        "hires": 1.04,
+        "quits": 1.018,
+        "layoffs": 0.483
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "job_openings": 4859.0,
+        "hires": 5267.0,
+        "quits": 2910.0,
+        "layoffs": 1845.0
+      },
+      "zscores": {
+        "job_openings": 1.395,
+        "hires": -0.271,
+        "quits": 0.337,
+        "layoffs": -0.829
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "job_openings": 4598.0,
+        "hires": 5217.0,
+        "quits": 2951.0,
+        "layoffs": 1896.0
+      },
+      "zscores": {
+        "job_openings": 0.673,
+        "hires": -0.732,
+        "quits": 0.564,
+        "layoffs": -0.28
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "job_openings": 4546.0,
+        "hires": 5358.0,
+        "quits": 3014.0,
+        "layoffs": 2033.0
+      },
+      "zscores": {
+        "job_openings": 0.492,
+        "hires": 0.241,
+        "quits": 0.951,
+        "layoffs": 1.168
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "job_openings": 4652.0,
+        "hires": 5344.0,
+        "quits": 2691.0,
+        "layoffs": 2188.0
+      },
+      "zscores": {
+        "job_openings": 0.747,
+        "hires": 0.075,
+        "quits": -1.467,
+        "layoffs": 2.548
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "job_openings": 4636.0,
+        "hires": 5398.0,
+        "quits": 2926.0,
+        "layoffs": 1998.0
+      },
+      "zscores": {
+        "job_openings": 0.657,
+        "hires": 0.485,
+        "quits": 0.26,
+        "layoffs": 0.657
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "job_openings": 4646.0,
+        "hires": 5176.0,
+        "quits": 2784.0,
+        "layoffs": 1966.0
+      },
+      "zscores": {
+        "job_openings": 0.666,
+        "hires": -1.432,
+        "quits": -0.928,
+        "layoffs": 0.369
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "job_openings": 4545.0,
+        "hires": 5119.0,
+        "quits": 2773.0,
+        "layoffs": 1915.0
+      },
+      "zscores": {
+        "job_openings": 0.29,
+        "hires": -1.889,
+        "quits": -1.065,
+        "layoffs": -0.125
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "job_openings": 4624.0,
+        "hires": 5071.0,
+        "quits": 2847.0,
+        "layoffs": 1989.0
+      },
+      "zscores": {
+        "job_openings": 0.519,
+        "hires": -2.155,
+        "quits": -0.469,
+        "layoffs": 0.614
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "job_openings": 4279.0,
+        "hires": 5077.0,
+        "quits": 2881.0,
+        "layoffs": 1995.0
+      },
+      "zscores": {
+        "job_openings": -0.819,
+        "hires": -1.953,
+        "quits": -0.243,
+        "layoffs": 0.709
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "job_openings": 4225.0,
+        "hires": 4924.0,
+        "quits": 2661.0,
+        "layoffs": 1918.0
+      },
+      "zscores": {
+        "job_openings": -1.075,
+        "hires": -2.718,
+        "quits": -2.214,
+        "layoffs": 0.004
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "job_openings": 4035.0,
+        "hires": 4948.0,
+        "quits": 2837.0,
+        "layoffs": 1958.0
+      },
+      "zscores": {
+        "job_openings": -1.775,
+        "hires": -2.286,
+        "quits": -0.653,
+        "layoffs": 0.458
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "job_openings": 4194.0,
+        "hires": 4691.0,
+        "quits": 2607.0,
+        "layoffs": 1950.0
+      },
+      "zscores": {
+        "job_openings": -1.317,
+        "hires": -3.202,
+        "quits": -2.558,
+        "layoffs": 0.397
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "job_openings": 3830.0,
+        "hires": 4893.0,
+        "quits": 2595.0,
+        "layoffs": 2172.0
+      },
+      "zscores": {
+        "job_openings": -2.668,
+        "hires": -1.949,
+        "quits": -2.447,
+        "layoffs": 2.654
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "job_openings": 3749.0,
+        "hires": 4637.0,
+        "quits": 2489.0,
+        "layoffs": 2071.0
+      },
+      "zscores": {
+        "job_openings": -2.658,
+        "hires": -2.774,
+        "quits": -2.903,
+        "layoffs": 1.491
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "job_openings": 3674.0,
+        "hires": 4682.0,
+        "quits": 2445.0,
+        "layoffs": 2190.0
+      },
+      "zscores": {
+        "job_openings": -2.638,
+        "hires": -2.303,
+        "quits": -2.765,
+        "layoffs": 2.4
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "job_openings": 3222.0,
+        "hires": 4499.0,
+        "quits": 2468.0,
+        "layoffs": 2088.0
+      },
+      "zscores": {
+        "job_openings": -3.336,
+        "hires": -2.668,
+        "quits": -2.348,
+        "layoffs": 1.41
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "job_openings": 3377.0,
+        "hires": 4548.0,
+        "quits": 2347.0,
+        "layoffs": 2250.0
+      },
+      "zscores": {
+        "job_openings": -2.582,
+        "hires": -2.247,
+        "quits": -2.665,
+        "layoffs": 2.54
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "job_openings": 3231.0,
+        "hires": 4104.0,
+        "quits": 2157.0,
+        "layoffs": 2290.0
+      },
+      "zscores": {
+        "job_openings": -2.591,
+        "hires": -3.122,
+        "quits": -3.058,
+        "layoffs": 2.561
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "job_openings": 3146.0,
+        "hires": 4348.0,
+        "quits": 2084.0,
+        "layoffs": 2482.0
+      },
+      "zscores": {
+        "job_openings": -2.466,
+        "hires": -2.169,
+        "quits": -2.879,
+        "layoffs": 3.274
+      },
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "job_openings": 2738.0,
+        "hires": 4095.0,
+        "quits": 1976.0,
+        "layoffs": 2581.0
+      },
+      "zscores": {
+        "job_openings": -2.817,
+        "hires": -2.516,
+        "quits": -2.826,
+        "layoffs": 3.23
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "job_openings": 2864.0,
+        "hires": 4061.0,
+        "quits": 1952.0,
+        "layoffs": 2599.0
+      },
+      "zscores": {
+        "job_openings": -2.317,
+        "hires": -2.329,
+        "quits": -2.552,
+        "layoffs": 2.84
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "job_openings": 2534.0,
+        "hires": 3858.0,
+        "quits": 1834.0,
+        "layoffs": 2575.0
+      },
+      "zscores": {
+        "job_openings": -2.519,
+        "hires": -2.484,
+        "quits": -2.566,
+        "layoffs": 2.415
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "job_openings": 2295.0,
+        "hires": 3888.0,
+        "quits": 1712.0,
+        "layoffs": 2654.0
+      },
+      "zscores": {
+        "job_openings": -2.534,
+        "hires": -2.181,
+        "quits": -2.557,
+        "layoffs": 2.452
+      },
+      "events": [
+        {
+          "label": "Great Recession: 2.65 million layoffs in one month",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "job_openings": 2549.0,
+        "hires": 3758.0,
+        "quits": 1683.0,
+        "layoffs": 2231.0
+      },
+      "zscores": {
+        "job_openings": -1.994,
+        "hires": -2.208,
+        "quits": -2.351,
+        "layoffs": 0.68
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "job_openings": 2503.0,
+        "hires": 3639.0,
+        "quits": 1685.0,
+        "layoffs": 2261.0
+      },
+      "zscores": {
+        "job_openings": -1.887,
+        "hires": -2.2,
+        "quits": -2.13,
+        "layoffs": 0.757
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "job_openings": 2232.0,
+        "hires": 3857.0,
+        "quits": 1685.0,
+        "layoffs": 2267.0
+      },
+      "zscores": {
+        "job_openings": -2.024,
+        "hires": -1.694,
+        "quits": -1.956,
+        "layoffs": 0.738
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "job_openings": 2338.0,
+        "hires": 3810.0,
+        "quits": 1555.0,
+        "layoffs": 2119.0
+      },
+      "zscores": {
+        "job_openings": -1.76,
+        "hires": -1.653,
+        "quits": -2.049,
+        "layoffs": 0.089
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "job_openings": 2487.0,
+        "hires": 3944.0,
+        "quits": 1627.0,
+        "layoffs": 2195.0
+      },
+      "zscores": {
+        "job_openings": -1.492,
+        "hires": -1.343,
+        "quits": -1.757,
+        "layoffs": 0.374
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "job_openings": 2406.0,
+        "hires": 3838.0,
+        "quits": 1660.0,
+        "layoffs": 2028.0
+      },
+      "zscores": {
+        "job_openings": -1.481,
+        "hires": -1.426,
+        "quits": -1.579,
+        "layoffs": -0.365
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "job_openings": 2503.0,
+        "hires": 4024.0,
+        "quits": 1810.0,
+        "layoffs": 1913.0
+      },
+      "zscores": {
+        "job_openings": -1.296,
+        "hires": -1.064,
+        "quits": -1.214,
+        "layoffs": -0.862
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "job_openings": 2568.0,
+        "hires": 4004.0,
+        "quits": 1766.0,
+        "layoffs": 2033.0
+      },
+      "zscores": {
+        "job_openings": -1.159,
+        "hires": -1.037,
+        "quits": -1.228,
+        "layoffs": -0.384
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "job_openings": 2837.0,
+        "hires": 3904.0,
+        "quits": 1742.0,
+        "layoffs": 1880.0
+      },
+      "zscores": {
+        "job_openings": -0.826,
+        "hires": -1.138,
+        "quits": -1.205,
+        "layoffs": -1.058
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "job_openings": 2666.0,
+        "hires": 3864.0,
+        "quits": 1844.0,
+        "layoffs": 1825.0
+      },
+      "zscores": {
+        "job_openings": -0.955,
+        "hires": -1.137,
+        "quits": -0.952,
+        "layoffs": -1.295
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "job_openings": 2679.0,
+        "hires": 4302.0,
+        "quits": 1856.0,
+        "layoffs": 1924.0
+      },
+      "zscores": {
+        "job_openings": -0.892,
+        "hires": -0.379,
+        "quits": -0.879,
+        "layoffs": -0.865
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "job_openings": 3153.0,
+        "hires": 4159.0,
+        "quits": 1897.0,
+        "layoffs": 1749.0
+      },
+      "zscores": {
+        "job_openings": -0.331,
+        "hires": -0.578,
+        "quits": -0.752,
+        "layoffs": -1.564
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "job_openings": 2988.0,
+        "hires": 4420.0,
+        "quits": 1813.0,
+        "layoffs": 1762.0
+      },
+      "zscores": {
+        "job_openings": -0.476,
+        "hires": -0.08,
+        "quits": -0.872,
+        "layoffs": -1.446
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "job_openings": 2801.0,
+        "hires": 4111.0,
+        "quits": 1911.0,
+        "layoffs": 2075.0
+      },
+      "zscores": {
+        "job_openings": -0.649,
+        "hires": -0.595,
+        "quits": -0.628,
+        "layoffs": -0.157
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "job_openings": 3082.0,
+        "hires": 4163.0,
+        "quits": 1785.0,
+        "layoffs": 2166.0
+      },
+      "zscores": {
+        "job_openings": -0.271,
+        "hires": -0.457,
+        "quits": -0.846,
+        "layoffs": 0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "job_openings": 2999.0,
+        "hires": 4046.0,
+        "quits": 1842.0,
+        "layoffs": 1890.0
+      },
+      "zscores": {
+        "job_openings": -0.331,
+        "hires": -0.637,
+        "quits": -0.681,
+        "layoffs": -0.965
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "job_openings": 2918.0,
+        "hires": 4034.0,
+        "quits": 1895.0,
+        "layoffs": 1832.0
+      },
+      "zscores": {
+        "job_openings": -0.391,
+        "hires": -0.62,
+        "quits": -0.521,
+        "layoffs": -1.151
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "job_openings": 3235.0,
+        "hires": 4173.0,
+        "quits": 1846.0,
+        "layoffs": 1745.0
+      },
+      "zscores": {
+        "job_openings": 0.091,
+        "hires": -0.278,
+        "quits": -0.591,
+        "layoffs": -1.447
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "job_openings": 3211.0,
+        "hires": 4182.0,
+        "quits": 1887.0,
+        "layoffs": 1849.0
+      },
+      "zscores": {
+        "job_openings": 0.121,
+        "hires": -0.208,
+        "quits": -0.45,
+        "layoffs": -0.997
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "job_openings": 3058.0,
+        "hires": 4299.0,
+        "quits": 1977.0,
+        "layoffs": 1854.0
+      },
+      "zscores": {
+        "job_openings": -0.051,
+        "hires": 0.135,
+        "quits": -0.18,
+        "layoffs": -0.964
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "job_openings": 3104.0,
+        "hires": 4000.0,
+        "quits": 1832.0,
+        "layoffs": 1827.0
+      },
+      "zscores": {
+        "job_openings": 0.101,
+        "hires": -0.587,
+        "quits": -0.514,
+        "layoffs": -1.041
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "job_openings": 3226.0,
+        "hires": 4231.0,
+        "quits": 1958.0,
+        "layoffs": 1755.0
+      },
+      "zscores": {
+        "job_openings": 0.399,
+        "hires": 0.113,
+        "quits": -0.103,
+        "layoffs": -1.273
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "job_openings": 3261.0,
+        "hires": 4430.0,
+        "quits": 2033.0,
+        "layoffs": 1794.0
+      },
+      "zscores": {
+        "job_openings": 0.56,
+        "hires": 0.789,
+        "quits": 0.187,
+        "layoffs": -1.095
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "job_openings": 3259.0,
+        "hires": 4296.0,
+        "quits": 1882.0,
+        "layoffs": 1792.0
+      },
+      "zscores": {
+        "job_openings": 0.641,
+        "hires": 0.464,
+        "quits": -0.241,
+        "layoffs": -1.071
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "job_openings": 3179.0,
+        "hires": 4261.0,
+        "quits": 1965.0,
+        "layoffs": 1904.0
+      },
+      "zscores": {
+        "job_openings": 0.59,
+        "hires": 0.403,
+        "quits": 0.138,
+        "layoffs": -0.639
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "job_openings": 3455.0,
+        "hires": 4366.0,
+        "quits": 1923.0,
+        "layoffs": 1942.0
+      },
+      "zscores": {
+        "job_openings": 1.365,
+        "hires": 0.923,
+        "quits": 0.05,
+        "layoffs": -0.47
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "job_openings": 3623.0,
+        "hires": 4261.0,
+        "quits": 1986.0,
+        "layoffs": 1845.0
+      },
+      "zscores": {
+        "job_openings": 1.846,
+        "hires": 0.578,
+        "quits": 0.434,
+        "layoffs": -0.806
+      },
+      "events": []
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "job_openings": 3329.0,
+        "hires": 4298.0,
+        "quits": 2031.0,
+        "layoffs": 1845.0
+      },
+      "zscores": {
+        "job_openings": 1.136,
+        "hires": 0.84,
+        "quits": 0.793,
+        "layoffs": -0.766
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "job_openings": 3774.0,
+        "hires": 4429.0,
+        "quits": 2041.0,
+        "layoffs": 1872.0
+      },
+      "zscores": {
+        "job_openings": 2.182,
+        "hires": 1.466,
+        "quits": 1.066,
+        "layoffs": -0.639
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "job_openings": 3619.0,
+        "hires": 4370.0,
+        "quits": 1997.0,
+        "layoffs": 1794.0
+      },
+      "zscores": {
+        "job_openings": 1.719,
+        "hires": 1.264,
+        "quits": 0.971,
+        "layoffs": -0.879
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "job_openings": 3565.0,
+        "hires": 4365.0,
+        "quits": 2039.0,
+        "layoffs": 1912.0
+      },
+      "zscores": {
+        "job_openings": 1.518,
+        "hires": 1.181,
+        "quits": 1.361,
+        "layoffs": -0.409
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "job_openings": 3768.0,
+        "hires": 4356.0,
+        "quits": 1981.0,
+        "layoffs": 1801.0
+      },
+      "zscores": {
+        "job_openings": 1.88,
+        "hires": 1.136,
+        "quits": 0.967,
+        "layoffs": -0.78
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "job_openings": 3909.0,
+        "hires": 4457.0,
+        "quits": 2030.0,
+        "layoffs": 1797.0
+      },
+      "zscores": {
+        "job_openings": 2.016,
+        "hires": 1.511,
+        "quits": 1.325,
+        "layoffs": -0.762
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "job_openings": 3616.0,
+        "hires": 4560.0,
+        "quits": 2130.0,
+        "layoffs": 1903.0
+      },
+      "zscores": {
+        "job_openings": 1.29,
+        "hires": 1.824,
+        "quits": 1.963,
+        "layoffs": -0.268
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "job_openings": 3979.0,
+        "hires": 4575.0,
+        "quits": 2167.0,
+        "layoffs": 1784.0
+      },
+      "zscores": {
+        "job_openings": 1.913,
+        "hires": 1.759,
+        "quits": 2.038,
+        "layoffs": -0.805
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "job_openings": 3793.0,
+        "hires": 4389.0,
+        "quits": 2134.0,
+        "layoffs": 1880.0
+      },
+      "zscores": {
+        "job_openings": 1.449,
+        "hires": 0.922,
+        "quits": 1.686,
+        "layoffs": -0.251
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "job_openings": 3835.0,
+        "hires": 4533.0,
+        "quits": 2138.0,
+        "layoffs": 1969.0
+      },
+      "zscores": {
+        "job_openings": 1.445,
+        "hires": 1.463,
+        "quits": 1.61,
+        "layoffs": 0.412
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "job_openings": 3911.0,
+        "hires": 4440.0,
+        "quits": 2152.0,
+        "layoffs": 1892.0
+      },
+      "zscores": {
+        "job_openings": 1.509,
+        "hires": 1.04,
+        "quits": 1.604,
+        "layoffs": -0.065
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "job_openings": 3735.0,
+        "hires": 4327.0,
+        "quits": 2072.0,
+        "layoffs": 1722.0
+      },
+      "zscores": {
+        "job_openings": 1.104,
+        "hires": 0.474,
+        "quits": 1.018,
+        "layoffs": -1.407
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "job_openings": 3809.0,
+        "hires": 4450.0,
+        "quits": 2069.0,
+        "layoffs": 1894.0
+      },
+      "zscores": {
+        "job_openings": 1.213,
+        "hires": 1.026,
+        "quits": 0.979,
+        "layoffs": 0.137
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "job_openings": 3882.0,
+        "hires": 4302.0,
+        "quits": 1950.0,
+        "layoffs": 1805.0
+      },
+      "zscores": {
+        "job_openings": 1.312,
+        "hires": 0.239,
+        "quits": 0.035,
+        "layoffs": -0.66
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "job_openings": 3775.0,
+        "hires": 4389.0,
+        "quits": 2035.0,
+        "layoffs": 1891.0
+      },
+      "zscores": {
+        "job_openings": 1.032,
+        "hires": 0.654,
+        "quits": 0.683,
+        "layoffs": 0.29
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "job_openings": 3878.0,
+        "hires": 4489.0,
+        "quits": 2078.0,
+        "layoffs": 1921.0
+      },
+      "zscores": {
+        "job_openings": 1.229,
+        "hires": 1.148,
+        "quits": 0.999,
+        "layoffs": 0.612
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "job_openings": 3970.0,
+        "hires": 4452.0,
+        "quits": 2051.0,
+        "layoffs": 1700.0
+      },
+      "zscores": {
+        "job_openings": 1.399,
+        "hires": 0.893,
+        "quits": 0.72,
+        "layoffs": -1.699
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "job_openings": 3923.0,
+        "hires": 4487.0,
+        "quits": 2280.0,
+        "layoffs": 1678.0
+      },
+      "zscores": {
+        "job_openings": 1.216,
+        "hires": 1.065,
+        "quits": 2.558,
+        "layoffs": -1.791
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "job_openings": 4004.0,
+        "hires": 4571.0,
+        "quits": 2298.0,
+        "layoffs": 1664.0
+      },
+      "zscores": {
+        "job_openings": 1.37,
+        "hires": 1.588,
+        "quits": 2.429,
+        "layoffs": -1.803
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "job_openings": 4076.0,
+        "hires": 4369.0,
+        "quits": 2124.0,
+        "layoffs": 1787.0
+      },
+      "zscores": {
+        "job_openings": 1.507,
+        "hires": 0.23,
+        "quits": 0.962,
+        "layoffs": -0.544
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "job_openings": 3988.0,
+        "hires": 4572.0,
+        "quits": 2296.0,
+        "layoffs": 1793.0
+      },
+      "zscores": {
+        "job_openings": 1.198,
+        "hires": 1.486,
+        "quits": 2.146,
+        "layoffs": -0.501
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "job_openings": 4145.0,
+        "hires": 4663.0,
+        "quits": 2234.0,
+        "layoffs": 1836.0
+      },
+      "zscores": {
+        "job_openings": 1.531,
+        "hires": 1.934,
+        "quits": 1.578,
+        "layoffs": -0.089
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "job_openings": 4150.0,
+        "hires": 4440.0,
+        "quits": 2203.0,
+        "layoffs": 1761.0
+      },
+      "zscores": {
+        "job_openings": 1.492,
+        "hires": 0.502,
+        "quits": 1.263,
+        "layoffs": -0.823
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "job_openings": 3885.0,
+        "hires": 4561.0,
+        "quits": 2363.0,
+        "layoffs": 1713.0
+      },
+      "zscores": {
+        "job_openings": 0.712,
+        "hires": 1.211,
+        "quits": 2.298,
+        "layoffs": -1.483
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "job_openings": 4085.0,
+        "hires": 4730.0,
+        "quits": 2316.0,
+        "layoffs": 1816.0
+      },
+      "zscores": {
+        "job_openings": 1.228,
+        "hires": 2.167,
+        "quits": 1.827,
+        "layoffs": -0.073
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "job_openings": 4128.0,
+        "hires": 4726.0,
+        "quits": 2302.0,
+        "layoffs": 1892.0
+      },
+      "zscores": {
+        "job_openings": 1.317,
+        "hires": 2.054,
+        "quits": 1.616,
+        "layoffs": 0.926
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "job_openings": 4222.0,
+        "hires": 4518.0,
+        "quits": 2372.0,
+        "layoffs": 1675.0
+      },
+      "zscores": {
+        "job_openings": 1.514,
+        "hires": 0.654,
+        "quits": 1.979,
+        "layoffs": -1.888
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "job_openings": 4119.0,
+        "hires": 4622.0,
+        "quits": 2391.0,
+        "layoffs": 1630.0
+      },
+      "zscores": {
+        "job_openings": 1.143,
+        "hires": 1.288,
+        "quits": 1.961,
+        "layoffs": -2.221
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "job_openings": 4121.0,
+        "hires": 4614.0,
+        "quits": 2287.0,
+        "layoffs": 1770.0
+      },
+      "zscores": {
+        "job_openings": 1.115,
+        "hires": 1.165,
+        "quits": 1.175,
+        "layoffs": -0.512
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "job_openings": 4127.0,
+        "hires": 4626.0,
+        "quits": 2311.0,
+        "layoffs": 1806.0
+      },
+      "zscores": {
+        "job_openings": 1.103,
+        "hires": 1.276,
+        "quits": 1.289,
+        "layoffs": -0.073
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "job_openings": 4373.0,
+        "hires": 4696.0,
+        "quits": 2411.0,
+        "layoffs": 1767.0
+      },
+      "zscores": {
+        "job_openings": 1.865,
+        "hires": 1.715,
+        "quits": 1.848,
+        "layoffs": -0.546
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "job_openings": 4388.0,
+        "hires": 4763.0,
+        "quits": 2449.0,
+        "layoffs": 1703.0
+      },
+      "zscores": {
+        "job_openings": 1.83,
+        "hires": 2.029,
+        "quits": 1.933,
+        "layoffs": -1.257
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "job_openings": 4566.0,
+        "hires": 4880.0,
+        "quits": 2474.0,
+        "layoffs": 1764.0
+      },
+      "zscores": {
+        "job_openings": 2.309,
+        "hires": 2.551,
+        "quits": 1.965,
+        "layoffs": -0.529
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "job_openings": 4747.0,
+        "hires": 4808.0,
+        "quits": 2483.0,
+        "layoffs": 1710.0
+      },
+      "zscores": {
+        "job_openings": 2.744,
+        "hires": 1.932,
+        "quits": 1.878,
+        "layoffs": -1.099
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "job_openings": 4982.0,
+        "hires": 4925.0,
+        "quits": 2507.0,
+        "layoffs": 1761.0
+      },
+      "zscores": {
+        "job_openings": 3.052,
+        "hires": 2.403,
+        "quits": 1.898,
+        "layoffs": -0.458
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "job_openings": 4846.0,
+        "hires": 5008.0,
+        "quits": 2633.0,
+        "layoffs": 1781.0
+      },
+      "zscores": {
+        "job_openings": 2.361,
+        "hires": 2.597,
+        "quits": 2.404,
+        "layoffs": -0.194
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "job_openings": 5349.0,
+        "hires": 4810.0,
+        "quits": 2549.0,
+        "layoffs": 1699.0
+      },
+      "zscores": {
+        "job_openings": 3.248,
+        "hires": 1.398,
+        "quits": 1.78,
+        "layoffs": -1.13
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "job_openings": 4914.0,
+        "hires": 5149.0,
+        "quits": 2732.0,
+        "layoffs": 1718.0
+      },
+      "zscores": {
+        "job_openings": 1.952,
+        "hires": 2.835,
+        "quits": 2.489,
+        "layoffs": -0.852
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "job_openings": 5012.0,
+        "hires": 5111.0,
+        "quits": 2718.0,
+        "layoffs": 1835.0
+      },
+      "zscores": {
+        "job_openings": 2.015,
+        "hires": 2.368,
+        "quits": 2.202,
+        "layoffs": 0.544
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "job_openings": 4843.0,
+        "hires": 4978.0,
+        "quits": 2600.0,
+        "layoffs": 1726.0
+      },
+      "zscores": {
+        "job_openings": 1.525,
+        "hires": 1.632,
+        "quits": 1.521,
+        "layoffs": -0.721
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "job_openings": 5130.0,
+        "hires": 5192.0,
+        "quits": 2552.0,
+        "layoffs": 1857.0
+      },
+      "zscores": {
+        "job_openings": 2.01,
+        "hires": 2.348,
+        "quits": 1.224,
+        "layoffs": 0.865
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "job_openings": 5344.0,
+        "hires": 5061.0,
+        "quits": 2764.0,
+        "layoffs": 1789.0
+      },
+      "zscores": {
+        "job_openings": 2.236,
+        "hires": 1.661,
+        "quits": 2.079,
+        "layoffs": 0.038
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "job_openings": 5466.0,
+        "hires": 5127.0,
+        "quits": 2741.0,
+        "layoffs": 1757.0
+      },
+      "zscores": {
+        "job_openings": 2.262,
+        "hires": 1.787,
+        "quits": 1.821,
+        "layoffs": -0.312
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "job_openings": 5210.0,
+        "hires": 5126.0,
+        "quits": 2754.0,
+        "layoffs": 1973.0
+      },
+      "zscores": {
+        "job_openings": 1.634,
+        "hires": 1.657,
+        "quits": 1.741,
+        "layoffs": 2.171
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "job_openings": 5598.0,
+        "hires": 5196.0,
+        "quits": 2705.0,
+        "layoffs": 1856.0
+      },
+      "zscores": {
+        "job_openings": 2.158,
+        "hires": 1.787,
+        "quits": 1.433,
+        "layoffs": 0.819
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "job_openings": 5563.0,
+        "hires": 5142.0,
+        "quits": 2743.0,
+        "layoffs": 1711.0
+      },
+      "zscores": {
+        "job_openings": 1.928,
+        "hires": 1.485,
+        "quits": 1.497,
+        "layoffs": -0.853
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "job_openings": 5248.0,
+        "hires": 5125.0,
+        "quits": 2756.0,
+        "layoffs": 1821.0
+      },
+      "zscores": {
+        "job_openings": 1.301,
+        "hires": 1.341,
+        "quits": 1.456,
+        "layoffs": 0.56
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "job_openings": 6056.0,
+        "hires": 5150.0,
+        "quits": 2764.0,
+        "layoffs": 1703.0
+      },
+      "zscores": {
+        "job_openings": 2.41,
+        "hires": 1.358,
+        "quits": 1.408,
+        "layoffs": -0.939
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "job_openings": 5467.0,
+        "hires": 5163.0,
+        "quits": 2879.0,
+        "layoffs": 1773.0
+      },
+      "zscores": {
+        "job_openings": 1.381,
+        "hires": 1.325,
+        "quits": 1.767,
+        "layoffs": -0.005
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "job_openings": 5488.0,
+        "hires": 5287.0,
+        "quits": 2778.0,
+        "layoffs": 1964.0
+      },
+      "zscores": {
+        "job_openings": 1.334,
+        "hires": 1.678,
+        "quits": 1.308,
+        "layoffs": 2.269
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "job_openings": 5773.0,
+        "hires": 5338.0,
+        "quits": 2810.0,
+        "layoffs": 1845.0
+      },
+      "zscores": {
+        "job_openings": 1.674,
+        "hires": 1.749,
+        "quits": 1.384,
+        "layoffs": 0.849
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "job_openings": 5708.0,
+        "hires": 5358.0,
+        "quits": 2897.0,
+        "layoffs": 1779.0
+      },
+      "zscores": {
+        "job_openings": 1.481,
+        "hires": 1.701,
+        "quits": 1.675,
+        "layoffs": 0.083
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "job_openings": 5845.0,
+        "hires": 5540.0,
+        "quits": 3056.0,
+        "layoffs": 1803.0
+      },
+      "zscores": {
+        "job_openings": 1.586,
+        "hires": 2.145,
+        "quits": 2.22,
+        "layoffs": 0.363
+      },
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "job_openings": 6012.0,
+        "hires": 5220.0,
+        "quits": 2875.0,
+        "layoffs": 1805.0
+      },
+      "zscores": {
+        "job_openings": 1.721,
+        "hires": 1.016,
+        "quits": 1.355,
+        "layoffs": 0.35
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "job_openings": 5770.0,
+        "hires": 5470.0,
+        "quits": 2994.0,
+        "layoffs": 1894.0
+      },
+      "zscores": {
+        "job_openings": 1.286,
+        "hires": 1.739,
+        "quits": 1.735,
+        "layoffs": 1.467
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "job_openings": 6129.0,
+        "hires": 5359.0,
+        "quits": 2917.0,
+        "layoffs": 1850.0
+      },
+      "zscores": {
+        "job_openings": 1.702,
+        "hires": 1.318,
+        "quits": 1.358,
+        "layoffs": 0.84
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "job_openings": 5803.0,
+        "hires": 5294.0,
+        "quits": 2955.0,
+        "layoffs": 1771.0
+      },
+      "zscores": {
+        "job_openings": 1.163,
+        "hires": 1.039,
+        "quits": 1.435,
+        "layoffs": -0.207
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "job_openings": 5777.0,
+        "hires": 5197.0,
+        "quits": 3009.0,
+        "layoffs": 1825.0
+      },
+      "zscores": {
+        "job_openings": 1.066,
+        "hires": 0.661,
+        "quits": 1.579,
+        "layoffs": 0.52
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "job_openings": 5742.0,
+        "hires": 5281.0,
+        "quits": 3018.0,
+        "layoffs": 1750.0
+      },
+      "zscores": {
+        "job_openings": 0.961,
+        "hires": 0.916,
+        "quits": 1.547,
+        "layoffs": -0.48
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "job_openings": 5962.0,
+        "hires": 5426.0,
+        "quits": 2967.0,
+        "layoffs": 1759.0
+      },
+      "zscores": {
+        "job_openings": 1.241,
+        "hires": 1.384,
+        "quits": 1.254,
+        "layoffs": -0.381
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "job_openings": 5677.0,
+        "hires": 5327.0,
+        "quits": 2998.0,
+        "layoffs": 1860.0
+      },
+      "zscores": {
+        "job_openings": 0.754,
+        "hires": 0.96,
+        "quits": 1.322,
+        "layoffs": 0.958
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "job_openings": 5868.0,
+        "hires": 5306.0,
+        "quits": 3047.0,
+        "layoffs": 1588.0
+      },
+      "zscores": {
+        "job_openings": 1.014,
+        "hires": 0.832,
+        "quits": 1.468,
+        "layoffs": -2.411
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "job_openings": 5591.0,
+        "hires": 5210.0,
+        "quits": 3074.0,
+        "layoffs": 1664.0
+      },
+      "zscores": {
+        "job_openings": 0.511,
+        "hires": 0.42,
+        "quits": 1.505,
+        "layoffs": -1.445
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "job_openings": 5971.0,
+        "hires": 5308.0,
+        "quits": 3026.0,
+        "layoffs": 1751.0
+      },
+      "zscores": {
+        "job_openings": 1.127,
+        "hires": 0.784,
+        "quits": 1.228,
+        "layoffs": -0.42
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "job_openings": 5964.0,
+        "hires": 5343.0,
+        "quits": 2989.0,
+        "layoffs": 1708.0
+      },
+      "zscores": {
+        "job_openings": 1.084,
+        "hires": 0.904,
+        "quits": 1.025,
+        "layoffs": -0.951
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "job_openings": 5617.0,
+        "hires": 5499.0,
+        "quits": 3188.0,
+        "layoffs": 1745.0
+      },
+      "zscores": {
+        "job_openings": 0.373,
+        "hires": 1.594,
+        "quits": 1.907,
+        "layoffs": -0.448
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "job_openings": 5923.0,
+        "hires": 5350.0,
+        "quits": 3089.0,
+        "layoffs": 1711.0
+      },
+      "zscores": {
+        "job_openings": 0.983,
+        "hires": 0.839,
+        "quits": 1.365,
+        "layoffs": -0.859
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "job_openings": 5811.0,
+        "hires": 5395.0,
+        "quits": 3150.0,
+        "layoffs": 1762.0
+      },
+      "zscores": {
+        "job_openings": 0.704,
+        "hires": 1.045,
+        "quits": 1.599,
+        "layoffs": -0.229
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "job_openings": 6091.0,
+        "hires": 5272.0,
+        "quits": 3028.0,
+        "layoffs": 1710.0
+      },
+      "zscores": {
+        "job_openings": 1.356,
+        "hires": 0.315,
+        "quits": 0.93,
+        "layoffs": -0.876
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "job_openings": 5826.0,
+        "hires": 5477.0,
+        "quits": 3111.0,
+        "layoffs": 1794.0
+      },
+      "zscores": {
+        "job_openings": 0.635,
+        "hires": 1.485,
+        "quits": 1.325,
+        "layoffs": 0.175
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "job_openings": 6305.0,
+        "hires": 5635.0,
+        "quits": 3154.0,
+        "layoffs": 1970.0
+      },
+      "zscores": {
+        "job_openings": 1.829,
+        "hires": 2.283,
+        "quits": 1.505,
+        "layoffs": 2.214
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "job_openings": 6238.0,
+        "hires": 5497.0,
+        "quits": 3097.0,
+        "layoffs": 1910.0
+      },
+      "zscores": {
+        "job_openings": 1.592,
+        "hires": 1.376,
+        "quits": 1.122,
+        "layoffs": 1.406
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "job_openings": 6276.0,
+        "hires": 5519.0,
+        "quits": 3103.0,
+        "layoffs": 1868.0
+      },
+      "zscores": {
+        "job_openings": 1.585,
+        "hires": 1.523,
+        "quits": 1.117,
+        "layoffs": 0.865
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "job_openings": 6320.0,
+        "hires": 5450.0,
+        "quits": 3190.0,
+        "layoffs": 1787.0
+      },
+      "zscores": {
+        "job_openings": 1.646,
+        "hires": 1.007,
+        "quits": 1.538,
+        "layoffs": -0.113
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "job_openings": 6408.0,
+        "hires": 5581.0,
+        "quits": 3219.0,
+        "layoffs": 1837.0
+      },
+      "zscores": {
+        "job_openings": 1.808,
+        "hires": 1.748,
+        "quits": 1.604,
+        "layoffs": 0.482
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "job_openings": 6271.0,
+        "hires": 5494.0,
+        "quits": 3186.0,
+        "layoffs": 1747.0
+      },
+      "zscores": {
+        "job_openings": 1.417,
+        "hires": 1.15,
+        "quits": 1.362,
+        "layoffs": -0.6
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "job_openings": 6336.0,
+        "hires": 5421.0,
+        "quits": 3222.0,
+        "layoffs": 1732.0
+      },
+      "zscores": {
+        "job_openings": 1.563,
+        "hires": 0.613,
+        "quits": 1.557,
+        "layoffs": -0.738
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "job_openings": 6621.0,
+        "hires": 5512.0,
+        "quits": 3019.0,
+        "layoffs": 1932.0
+      },
+      "zscores": {
+        "job_openings": 2.264,
+        "hires": 1.188,
+        "quits": 0.215,
+        "layoffs": 1.551
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "job_openings": 6552.0,
+        "hires": 5624.0,
+        "quits": 3222.0,
+        "layoffs": 1771.0
+      },
+      "zscores": {
+        "job_openings": 1.901,
+        "hires": 1.853,
+        "quits": 1.475,
+        "layoffs": -0.313
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "job_openings": 6818.0,
+        "hires": 5623.0,
+        "quits": 3323.0,
+        "layoffs": 1795.0
+      },
+      "zscores": {
+        "job_openings": 2.481,
+        "hires": 1.739,
+        "quits": 1.998,
+        "layoffs": 0.024
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "job_openings": 6877.0,
+        "hires": 5590.0,
+        "quits": 3370.0,
+        "layoffs": 1727.0
+      },
+      "zscores": {
+        "job_openings": 2.371,
+        "hires": 1.423,
+        "quits": 2.162,
+        "layoffs": -0.769
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "job_openings": 7016.0,
+        "hires": 5859.0,
+        "quits": 3382.0,
+        "layoffs": 1775.0
+      },
+      "zscores": {
+        "job_openings": 2.446,
+        "hires": 2.858,
+        "quits": 2.095,
+        "layoffs": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "job_openings": 7230.0,
+        "hires": 5760.0,
+        "quits": 3382.0,
+        "layoffs": 1822.0
+      },
+      "zscores": {
+        "job_openings": 2.682,
+        "hires": 2.083,
+        "quits": 1.973,
+        "layoffs": 0.383
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "job_openings": 7190.0,
+        "hires": 5649.0,
+        "quits": 3426.0,
+        "layoffs": 1806.0
+      },
+      "zscores": {
+        "job_openings": 2.314,
+        "hires": 1.337,
+        "quits": 2.109,
+        "layoffs": 0.15
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "job_openings": 7208.0,
+        "hires": 5815.0,
+        "quits": 3423.0,
+        "layoffs": 1803.0
+      },
+      "zscores": {
+        "job_openings": 2.156,
+        "hires": 2.188,
+        "quits": 1.934,
+        "layoffs": 0.102
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "job_openings": 7411.0,
+        "hires": 5625.0,
+        "quits": 3391.0,
+        "layoffs": 1764.0
+      },
+      "zscores": {
+        "job_openings": 2.333,
+        "hires": 0.985,
+        "quits": 1.666,
+        "layoffs": -0.346
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "job_openings": 7304.0,
+        "hires": 5907.0,
+        "quits": 3458.0,
+        "layoffs": 1813.0
+      },
+      "zscores": {
+        "job_openings": 1.948,
+        "hires": 2.391,
+        "quits": 1.959,
+        "layoffs": 0.335
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "job_openings": 7594.0,
+        "hires": 5826.0,
+        "quits": 3511.0,
+        "layoffs": 1938.0
+      },
+      "zscores": {
+        "job_openings": 2.248,
+        "hires": 1.791,
+        "quits": 2.103,
+        "layoffs": 1.883
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "job_openings": 7489.0,
+        "hires": 5768.0,
+        "quits": 3407.0,
+        "layoffs": 1839.0
+      },
+      "zscores": {
+        "job_openings": 1.897,
+        "hires": 1.407,
+        "quits": 1.398,
+        "layoffs": 0.582
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "job_openings": 7502.0,
+        "hires": 5786.0,
+        "quits": 3517.0,
+        "layoffs": 1705.0
+      },
+      "zscores": {
+        "job_openings": 1.773,
+        "hires": 1.42,
+        "quits": 1.903,
+        "layoffs": -1.095
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "job_openings": 7066.0,
+        "hires": 5704.0,
+        "quits": 3547.0,
+        "layoffs": 1763.0
+      },
+      "zscores": {
+        "job_openings": 1.012,
+        "hires": 0.949,
+        "quits": 1.912,
+        "layoffs": -0.319
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "job_openings": 7317.0,
+        "hires": 5689.0,
+        "quits": 3529.0,
+        "layoffs": 1690.0
+      },
+      "zscores": {
+        "job_openings": 1.333,
+        "hires": 0.825,
+        "quits": 1.706,
+        "layoffs": -1.197
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "job_openings": 7272.0,
+        "hires": 6016.0,
+        "quits": 3501.0,
+        "layoffs": 1963.0
+      },
+      "zscores": {
+        "job_openings": 1.192,
+        "hires": 2.264,
+        "quits": 1.468,
+        "layoffs": 2.099
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "job_openings": 7275.0,
+        "hires": 5686.0,
+        "quits": 3472.0,
+        "layoffs": 1775.0
+      },
+      "zscores": {
+        "job_openings": 1.133,
+        "hires": 0.624,
+        "quits": 1.239,
+        "layoffs": -0.145
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "job_openings": 7194.0,
+        "hires": 5801.0,
+        "quits": 3474.0,
+        "layoffs": 1780.0
+      },
+      "zscores": {
+        "job_openings": 0.952,
+        "hires": 1.141,
+        "quits": 1.183,
+        "layoffs": -0.095
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "job_openings": 7042.0,
+        "hires": 5871.0,
+        "quits": 3654.0,
+        "layoffs": 1833.0
+      },
+      "zscores": {
+        "job_openings": 0.669,
+        "hires": 1.405,
+        "quits": 2.003,
+        "layoffs": 0.519
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "job_openings": 7178.0,
+        "hires": 5900.0,
+        "quits": 3540.0,
+        "layoffs": 1808.0
+      },
+      "zscores": {
+        "job_openings": 0.839,
+        "hires": 1.46,
+        "quits": 1.329,
+        "layoffs": 0.237
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "job_openings": 7124.0,
+        "hires": 5963.0,
+        "quits": 3447.0,
+        "layoffs": 1970.0
+      },
+      "zscores": {
+        "job_openings": 0.706,
+        "hires": 1.666,
+        "quits": 0.789,
+        "layoffs": 2.132
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "job_openings": 7289.0,
+        "hires": 5781.0,
+        "quits": 3452.0,
+        "layoffs": 1819.0
+      },
+      "zscores": {
+        "job_openings": 0.939,
+        "hires": 0.736,
+        "quits": 0.769,
+        "layoffs": 0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "job_openings": 6888.0,
+        "hires": 5847.0,
+        "quits": 3541.0,
+        "layoffs": 1782.0
+      },
+      "zscores": {
+        "job_openings": 0.204,
+        "hires": 1.028,
+        "quits": 1.195,
+        "layoffs": -0.291
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "job_openings": 6699.0,
+        "hires": 5951.0,
+        "quits": 3487.0,
+        "layoffs": 1931.0
+      },
+      "zscores": {
+        "job_openings": -0.174,
+        "hires": 1.503,
+        "quits": 0.854,
+        "layoffs": 1.556
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "job_openings": 7124.0,
+        "hires": 5981.0,
+        "quits": 3563.0,
+        "layoffs": 1808.0
+      },
+      "zscores": {
+        "job_openings": 0.566,
+        "hires": 1.555,
+        "quits": 1.22,
+        "layoffs": -0.055
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "job_openings": 6966.0,
+        "hires": 5990.0,
+        "quits": 3497.0,
+        "layoffs": 1954.0
+      },
+      "zscores": {
+        "job_openings": 0.208,
+        "hires": 1.526,
+        "quits": 0.796,
+        "layoffs": 1.728
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "job_openings": 5894.0,
+        "hires": 5171.0,
+        "quits": 2933.0,
+        "layoffs": 12985.0
+      },
+      "zscores": {
+        "job_openings": -2.022,
+        "hires": -2.596,
+        "quits": -2.322,
+        "layoffs": 5.911
+      },
+      "events": [
+        {
+          "label": "COVID: record 13 million layoffs in one month",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "job_openings": 4606.0,
+        "hires": 4029.0,
+        "quits": 1991.0,
+        "layoffs": 9170.0
+      },
+      "zscores": {
+        "job_openings": -3.724,
+        "hires": -4.881,
+        "quits": -4.694,
+        "layoffs": 3.151
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "job_openings": 5612.0,
+        "hires": 8133.0,
+        "quits": 2259.0,
+        "layoffs": 2139.0
+      },
+      "zscores": {
+        "job_openings": -1.99,
+        "hires": 4.572,
+        "quits": -3.137,
+        "layoffs": -0.096
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "job_openings": 6129.0,
+        "hires": 7477.0,
+        "quits": 2594.0,
+        "layoffs": 2245.0
+      },
+      "zscores": {
+        "job_openings": -1.121,
+        "hires": 2.832,
+        "quits": -1.97,
+        "layoffs": -0.051
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "job_openings": 6530.0,
+        "hires": 6320.0,
+        "quits": 3020.0,
+        "layoffs": 1827.0
+      },
+      "zscores": {
+        "job_openings": -0.484,
+        "hires": 0.85,
+        "quits": -0.75,
+        "layoffs": -0.243
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "job_openings": 6429.0,
+        "hires": 6004.0,
+        "quits": 2931.0,
+        "layoffs": 1560.0
+      },
+      "zscores": {
+        "job_openings": -0.661,
+        "hires": 0.303,
+        "quits": -0.978,
+        "layoffs": -0.362
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "job_openings": 6511.0,
+        "hires": 5966.0,
+        "quits": 3185.0,
+        "layoffs": 1567.0
+      },
+      "zscores": {
+        "job_openings": -0.537,
+        "hires": 0.217,
+        "quits": -0.266,
+        "layoffs": -0.355
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "job_openings": 6798.0,
+        "hires": 6091.0,
+        "quits": 3311.0,
+        "layoffs": 1697.0
+      },
+      "zscores": {
+        "job_openings": -0.076,
+        "hires": 0.402,
+        "quits": 0.08,
+        "layoffs": -0.293
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "job_openings": 6820.0,
+        "hires": 5894.0,
+        "quits": 3209.0,
+        "layoffs": 2097.0
+      },
+      "zscores": {
+        "job_openings": -0.066,
+        "hires": 0.054,
+        "quits": -0.208,
+        "layoffs": -0.114
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "job_openings": 6773.0,
+        "hires": 5577.0,
+        "quits": 3369.0,
+        "layoffs": 1906.0
+      },
+      "zscores": {
+        "job_openings": -0.168,
+        "hires": -0.489,
+        "quits": 0.23,
+        "layoffs": -0.204
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "job_openings": 7162.0,
+        "hires": 5598.0,
+        "quits": 3292.0,
+        "layoffs": 1567.0
+      },
+      "zscores": {
+        "job_openings": 0.476,
+        "hires": -0.459,
+        "quits": -0.008,
+        "layoffs": -0.355
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "job_openings": 7827.0,
+        "hires": 5813.0,
+        "quits": 3373.0,
+        "layoffs": 1628.0
+      },
+      "zscores": {
+        "job_openings": 1.515,
+        "hires": -0.103,
+        "quits": 0.209,
+        "layoffs": -0.325
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "job_openings": 8499.0,
+        "hires": 6158.0,
+        "quits": 3654.0,
+        "layoffs": 1500.0
+      },
+      "zscores": {
+        "job_openings": 2.351,
+        "hires": 0.457,
+        "quits": 0.965,
+        "layoffs": -0.38
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "job_openings": 9346.0,
+        "hires": 6138.0,
+        "quits": 3943.0,
+        "layoffs": 1402.0
+      },
+      "zscores": {
+        "job_openings": 3.042,
+        "hires": 0.398,
+        "quits": 1.658,
+        "layoffs": -0.42
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "job_openings": 9954.0,
+        "hires": 5981.0,
+        "quits": 3817.0,
+        "layoffs": 1351.0
+      },
+      "zscores": {
+        "job_openings": 3.159,
+        "hires": 0.125,
+        "quits": 1.259,
+        "layoffs": -0.438
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "job_openings": 10319.0,
+        "hires": 6535.0,
+        "quits": 4017.0,
+        "layoffs": 1335.0
+      },
+      "zscores": {
+        "job_openings": 2.993,
+        "hires": 1.016,
+        "quits": 1.666,
+        "layoffs": -0.438
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "job_openings": 10983.0,
+        "hires": 6720.0,
+        "quits": 4059.0,
+        "layoffs": 1410.0
+      },
+      "zscores": {
+        "job_openings": 3.032,
+        "hires": 1.251,
+        "quits": 1.659,
+        "layoffs": -0.398
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "job_openings": 10872.0,
+        "hires": 6394.0,
+        "quits": 4171.0,
+        "layoffs": 1332.0
+      },
+      "zscores": {
+        "job_openings": 2.572,
+        "hires": 0.685,
+        "quits": 1.792,
+        "layoffs": -0.427
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "job_openings": 10834.0,
+        "hires": 6632.0,
+        "quits": 4354.0,
+        "layoffs": 1411.0
+      },
+      "zscores": {
+        "job_openings": 2.282,
+        "hires": 1.018,
+        "quits": 2.021,
+        "layoffs": -0.386
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "job_openings": 11238.0,
+        "hires": 6678.0,
+        "quits": 4153.0,
+        "layoffs": 1313.0
+      },
+      "zscores": {
+        "job_openings": 2.291,
+        "hires": 1.041,
+        "quits": 1.495,
+        "layoffs": -0.423
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "job_openings": 11199.0,
+        "hires": 6911.0,
+        "quits": 4453.0,
+        "layoffs": 1348.0
+      },
+      "zscores": {
+        "job_openings": 2.064,
+        "hires": 1.331,
+        "quits": 1.953,
+        "layoffs": -0.399
+      },
+      "events": [
+        {
+          "label": "The Great Resignation: 4.45 million quit in one month",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "job_openings": 11520.0,
+        "hires": 6686.0,
+        "quits": 4314.0,
+        "layoffs": 1403.0
+      },
+      "zscores": {
+        "job_openings": 2.053,
+        "hires": 0.933,
+        "quits": 1.57,
+        "layoffs": -0.368
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "job_openings": 11210.0,
+        "hires": 6431.0,
+        "quits": 4413.0,
+        "layoffs": 1423.0
+      },
+      "zscores": {
+        "job_openings": 1.743,
+        "hires": 0.512,
+        "quits": 1.644,
+        "layoffs": -0.355
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "job_openings": 11698.0,
+        "hires": 6801.0,
+        "quits": 4233.0,
+        "layoffs": 1401.0
+      },
+      "zscores": {
+        "job_openings": 1.843,
+        "hires": 1.024,
+        "quits": 1.251,
+        "layoffs": -0.36
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "job_openings": 12301.0,
+        "hires": 6619.0,
+        "quits": 4447.0,
+        "layoffs": 1377.0
+      },
+      "zscores": {
+        "job_openings": 1.965,
+        "hires": 0.707,
+        "quits": 1.534,
+        "layoffs": -0.366
+      },
+      "events": [
+        {
+          "label": "Record 12.3 million open jobs",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "job_openings": 11861.0,
+        "hires": 6528.0,
+        "quits": 4499.0,
+        "layoffs": 1312.0
+      },
+      "zscores": {
+        "job_openings": 1.632,
+        "hires": 0.545,
+        "quits": 1.523,
+        "layoffs": -0.387
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "job_openings": 11535.0,
+        "hires": 6440.0,
+        "quits": 4237.0,
+        "layoffs": 1500.0
+      },
+      "zscores": {
+        "job_openings": 1.391,
+        "hires": 0.382,
+        "quits": 1.034,
+        "layoffs": -0.298
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "job_openings": 11283.0,
+        "hires": 6487.0,
+        "quits": 4165.0,
+        "layoffs": 1528.0
+      },
+      "zscores": {
+        "job_openings": 1.207,
+        "hires": 0.426,
+        "quits": 0.875,
+        "layoffs": -0.283
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "job_openings": 11576.0,
+        "hires": 6478.0,
+        "quits": 4031.0,
+        "layoffs": 1462.0
+      },
+      "zscores": {
+        "job_openings": 1.259,
+        "hires": 0.387,
+        "quits": 0.637,
+        "layoffs": -0.307
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "job_openings": 10092.0,
+        "hires": 6448.0,
+        "quits": 4258.0,
+        "layoffs": 1606.0
+      },
+      "zscores": {
+        "job_openings": 0.579,
+        "hires": 0.318,
+        "quits": 0.959,
+        "layoffs": -0.24
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "job_openings": 10800.0,
+        "hires": 6201.0,
+        "quits": 4134.0,
+        "layoffs": 1445.0
+      },
+      "zscores": {
+        "job_openings": 0.841,
+        "hires": -0.071,
+        "quits": 0.726,
+        "layoffs": -0.305
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "job_openings": 10447.0,
+        "hires": 6151.0,
+        "quits": 3956.0,
+        "layoffs": 1553.0
+      },
+      "zscores": {
+        "job_openings": 0.649,
+        "hires": -0.164,
+        "quits": 0.421,
+        "layoffs": -0.253
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "job_openings": 10632.0,
+        "hires": 6180.0,
+        "quits": 4083.0,
+        "layoffs": 1472.0
+      },
+      "zscores": {
+        "job_openings": 0.688,
+        "hires": -0.135,
+        "quits": 0.596,
+        "layoffs": -0.286
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "job_openings": 10902.0,
+        "hires": 6163.0,
+        "quits": 4125.0,
+        "layoffs": 1535.0
+      },
+      "zscores": {
+        "job_openings": 0.76,
+        "hires": -0.171,
+        "quits": 0.632,
+        "layoffs": -0.252
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "job_openings": 10318.0,
+        "hires": 6370.0,
+        "quits": 3839.0,
+        "layoffs": 1767.0
+      },
+      "zscores": {
+        "job_openings": 0.468,
+        "hires": 0.136,
+        "quits": 0.17,
+        "layoffs": -0.148
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "job_openings": 9857.0,
+        "hires": 5989.0,
+        "quits": 3917.0,
+        "layoffs": 1535.0
+      },
+      "zscores": {
+        "job_openings": 0.231,
+        "hires": -0.46,
+        "quits": 0.275,
+        "layoffs": -0.246
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "job_openings": 9655.0,
+        "hires": 5925.0,
+        "quits": 3800.0,
+        "layoffs": 1903.0
+      },
+      "zscores": {
+        "job_openings": 0.097,
+        "hires": -0.618,
+        "quits": 0.054,
+        "layoffs": 0.098
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "job_openings": 9966.0,
+        "hires": 5876.0,
+        "quits": 3617.0,
+        "layoffs": 1654.0
+      },
+      "zscores": {
+        "job_openings": 0.186,
+        "hires": -0.988,
+        "quits": -0.359,
+        "layoffs": 0.357
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "job_openings": 9368.0,
+        "hires": 6119.0,
+        "quits": 3999.0,
+        "layoffs": 1540.0
+      },
+      "zscores": {
+        "job_openings": -0.179,
+        "hires": -0.472,
+        "quits": 0.291,
+        "layoffs": -0.061
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "job_openings": 9180.0,
+        "hires": 5928.0,
+        "quits": 3693.0,
+        "layoffs": 1658.0
+      },
+      "zscores": {
+        "job_openings": -0.343,
+        "hires": -0.992,
+        "quits": -0.464,
+        "layoffs": 0.666
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "job_openings": 8657.0,
+        "hires": 5672.0,
+        "quits": 3552.0,
+        "layoffs": 1677.0
+      },
+      "zscores": {
+        "job_openings": -0.703,
+        "hires": -1.644,
+        "quits": -0.873,
+        "layoffs": 0.816
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "job_openings": 9254.0,
+        "hires": 5846.0,
+        "quits": 3621.0,
+        "layoffs": 1675.0
+      },
+      "zscores": {
+        "job_openings": -0.42,
+        "hires": -1.114,
+        "quits": -0.814,
+        "layoffs": 0.78
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "job_openings": 9259.0,
+        "hires": 5773.0,
+        "quits": 3644.0,
+        "layoffs": 1531.0
+      },
+      "zscores": {
+        "job_openings": -0.497,
+        "hires": -1.288,
+        "quits": -0.826,
+        "layoffs": -0.022
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "job_openings": 8580.0,
+        "hires": 5765.0,
+        "quits": 3574.0,
+        "layoffs": 1623.0
+      },
+      "zscores": {
+        "job_openings": -1.042,
+        "hires": -1.258,
+        "quits": -1.075,
+        "layoffs": 0.51
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "job_openings": 8602.0,
+        "hires": 5535.0,
+        "quits": 3576.0,
+        "layoffs": 1554.0
+      },
+      "zscores": {
+        "job_openings": -1.13,
+        "hires": -1.799,
+        "quits": -1.155,
+        "layoffs": 0.244
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "job_openings": 8520.0,
+        "hires": 5583.0,
+        "quits": 3412.0,
+        "layoffs": 1685.0
+      },
+      "zscores": {
+        "job_openings": -1.322,
+        "hires": -1.673,
+        "quits": -1.669,
+        "layoffs": 1.267
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "job_openings": 8378.0,
+        "hires": 5591.0,
+        "quits": 3347.0,
+        "layoffs": 1641.0
+      },
+      "zscores": {
+        "job_openings": -1.55,
+        "hires": -1.65,
+        "quits": -1.891,
+        "layoffs": 0.921
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "job_openings": 8440.0,
+        "hires": 5618.0,
+        "quits": 3482.0,
+        "layoffs": 1692.0
+      },
+      "zscores": {
+        "job_openings": -1.552,
+        "hires": -1.534,
+        "quits": -1.506,
+        "layoffs": 1.26
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "job_openings": 8206.0,
+        "hires": 5452.0,
+        "quits": 3289.0,
+        "layoffs": 1647.0
+      },
+      "zscores": {
+        "job_openings": -1.732,
+        "hires": -1.825,
+        "quits": -1.987,
+        "layoffs": 0.9
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "job_openings": 7529.0,
+        "hires": 5469.0,
+        "quits": 3438.0,
+        "layoffs": 1548.0
+      },
+      "zscores": {
+        "job_openings": -2.141,
+        "hires": -1.666,
+        "quits": -1.451,
+        "layoffs": 0.174
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "job_openings": 7782.0,
+        "hires": 5492.0,
+        "quits": 3386.0,
+        "layoffs": 1747.0
+      },
+      "zscores": {
+        "job_openings": -1.796,
+        "hires": -1.529,
+        "quits": -1.518,
+        "layoffs": 1.497
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "job_openings": 7416.0,
+        "hires": 5137.0,
+        "quits": 3280.0,
+        "layoffs": 1497.0
+      },
+      "zscores": {
+        "job_openings": -1.911,
+        "hires": -2.133,
+        "quits": -1.688,
+        "layoffs": -0.304
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "job_openings": 7426.0,
+        "hires": 5430.0,
+        "quits": 3359.0,
+        "layoffs": 1711.0
+      },
+      "zscores": {
+        "job_openings": -1.761,
+        "hires": -1.41,
+        "quits": -1.385,
+        "layoffs": 1.176
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "job_openings": 7520.0,
+        "hires": 5204.0,
+        "quits": 3240.0,
+        "layoffs": 1683.0
+      },
+      "zscores": {
+        "job_openings": -1.58,
+        "hires": -1.759,
+        "quits": -1.584,
+        "layoffs": 0.926
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "job_openings": 6943.0,
+        "hires": 5427.0,
+        "quits": 3123.0,
+        "layoffs": 1780.0
+      },
+      "zscores": {
+        "job_openings": -1.824,
+        "hires": -1.223,
+        "quits": -1.756,
+        "layoffs": 1.536
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "job_openings": 7379.0,
+        "hires": 5228.0,
+        "quits": 3215.0,
+        "layoffs": 1650.0
+      },
+      "zscores": {
+        "job_openings": -1.442,
+        "hires": -1.545,
+        "quits": -1.431,
+        "layoffs": 0.554
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "job_openings": 7566.0,
+        "hires": 5155.0,
+        "quits": 3050.0,
+        "layoffs": 1831.0
+      },
+      "zscores": {
+        "job_openings": -1.246,
+        "hires": -1.625,
+        "quits": -1.729,
+        "layoffs": 1.814
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "job_openings": 7295.0,
+        "hires": 5292.0,
+        "quits": 3085.0,
+        "layoffs": 1689.0
+      },
+      "zscores": {
+        "job_openings": -1.344,
+        "hires": -1.272,
+        "quits": -1.547,
+        "layoffs": 0.7
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "job_openings": 7431.0,
+        "hires": 5238.0,
+        "quits": 3203.0,
+        "layoffs": 1738.0
+      },
+      "zscores": {
+        "job_openings": -1.188,
+        "hires": -1.31,
+        "quits": -1.204,
+        "layoffs": 1.021
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "job_openings": 7242.0,
+        "hires": 5236.0,
+        "quits": 3153.0,
+        "layoffs": 1867.0
+      },
+      "zscores": {
+        "job_openings": -1.247,
+        "hires": -1.27,
+        "quits": -1.257,
+        "layoffs": 1.895
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "job_openings": 6952.0,
+        "hires": 5333.0,
+        "quits": 3456.0,
+        "layoffs": 1595.0
+      },
+      "zscores": {
+        "job_openings": -1.39,
+        "hires": -1.009,
+        "quits": -0.465,
+        "layoffs": -0.249
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "job_openings": 7098.0,
+        "hires": 5391.0,
+        "quits": 3144.0,
+        "layoffs": 1818.0
+      },
+      "zscores": {
+        "job_openings": -1.243,
+        "hires": -0.832,
+        "quits": -1.248,
+        "layoffs": 1.535
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "job_openings": 7310.0,
+        "hires": 5328.0,
+        "quits": 3287.0,
+        "layoffs": 1671.0
+      },
+      "zscores": {
+        "job_openings": -1.05,
+        "hires": -0.935,
+        "quits": -0.811,
+        "layoffs": 0.232
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "job_openings": 7204.0,
+        "hires": 5327.0,
+        "quits": 3254.0,
+        "layoffs": 1843.0
+      },
+      "zscores": {
+        "job_openings": -1.082,
+        "hires": -0.897,
+        "quits": -0.86,
+        "layoffs": 1.629
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "job_openings": 7089.0,
+        "hires": 5225.0,
+        "quits": 3132.0,
+        "layoffs": 1772.0
+      },
+      "zscores": {
+        "job_openings": -1.138,
+        "hires": -1.119,
+        "quits": -1.159,
+        "layoffs": 0.97
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "job_openings": 6919.0,
+        "hires": 5145.0,
+        "quits": 3095.0,
+        "layoffs": 1832.0
+      },
+      "zscores": {
+        "job_openings": -1.206,
+        "hires": -1.297,
+        "quits": -1.236,
+        "layoffs": 1.408
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "job_openings": 7169.0,
+        "hires": 5244.0,
+        "quits": 2990.0,
+        "layoffs": 1816.0
+      },
+      "zscores": {
+        "job_openings": -0.964,
+        "hires": -0.97,
+        "quits": -1.511,
+        "layoffs": 1.222
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "job_openings": 7170.0,
+        "hires": 5180.0,
+        "quits": 2980.0,
+        "layoffs": 1891.0
+      },
+      "zscores": {
+        "job_openings": -0.919,
+        "hires": -1.103,
+        "quits": -1.466,
+        "layoffs": 1.756
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "job_openings": 6846.0,
+        "hires": 5019.0,
+        "quits": 3119.0,
+        "layoffs": 1660.0
+      },
+      "zscores": {
+        "job_openings": -1.162,
+        "hires": -1.513,
+        "quits": -0.978,
+        "layoffs": -0.302
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "job_openings": 6550.0,
+        "hires": 5272.0,
+        "quits": 3225.0,
+        "layoffs": 1666.0
+      },
+      "zscores": {
+        "job_openings": -1.419,
+        "hires": -0.708,
+        "quits": -0.577,
+        "layoffs": -0.289
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "job_openings": 7240.0,
+        "hires": 5347.0,
+        "quits": 3131.0,
+        "layoffs": 1660.0
+      },
+      "zscores": {
+        "job_openings": -0.71,
+        "hires": -0.429,
+        "quits": -0.888,
+        "layoffs": -0.319
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "job_openings": 6922.0,
+        "hires": 4899.0,
+        "quits": 3046.0,
+        "layoffs": 1714.0
+      },
+      "zscores": {
+        "job_openings": -1.006,
+        "hires": -1.922,
+        "quits": -1.189,
+        "layoffs": 0.147
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "job_openings": 6887.0,
+        "hires": 5535.0,
+        "quits": 3160.0,
+        "layoffs": 1884.0
+      },
+      "zscores": {
+        "job_openings": -1.005,
+        "hires": 0.41,
+        "quits": -0.676,
+        "layoffs": 1.825
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "job_openings": 7585.0,
+        "hires": 5215.0,
+        "quits": 3043.0,
+        "layoffs": 1667.0
+      },
+      "zscores": {
+        "job_openings": -0.137,
+        "hires": -0.742,
+        "quits": -1.124,
+        "layoffs": -0.312
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "job_openings": 7537.0,
+        "hires": 5252.0,
+        "quits": 3153.0,
+        "layoffs": 1761.0
+      },
+      "zscores": {
+        "job_openings": -0.143,
+        "hires": -0.569,
+        "quits": -0.626,
+        "layoffs": 0.571
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "job_openings": 7182.0,
+        "hires": 5332.0,
+        "quits": 3213.0,
+        "layoffs": 1785.0
+      },
+      "zscores": {
+        "job_openings": -0.589,
+        "hires": -0.163,
+        "quits": -0.271,
+        "layoffs": 0.774
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "job_openings": 7335.0,
+        "hires": 5146.0,
+        "quits": 3089.0,
+        "layoffs": 1702.0
+      },
+      "zscores": {
+        "job_openings": -0.324,
+        "hires": -0.993,
+        "quits": -0.899,
+        "layoffs": -0.071
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "job_openings": 7079.0,
+        "hires": 5192.0,
+        "quits": 3066.0,
+        "layoffs": 1641.0
+      },
+      "zscores": {
+        "job_openings": -0.683,
+        "hires": -0.741,
+        "quits": -0.991,
+        "layoffs": -0.676
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Every month millions of Americans are hired, quit, or are laid off, while employers post millions of open jobs. These four flows show the health of the job market better than the unemployment rate alone. Many quits mean workers feel confident they can find something better.",
+    "methodology": "Job openings, hires, quits and layoffs-and-discharges (levels, thousands, seasonally adjusted) from the BLS Job Openings and Labor Turnover Survey (JOLTS).",
+    "key_findings": [
+      {
+        "date": "2009-07-01",
+        "title": "2009: The Job Market Freezes",
+        "description": "Openings fell to 2.23 million and hires to 3.64 million, the lowest on the chart. Quits dropped to 1.56 million: people held on to the jobs they had.",
+        "significance": "When nobody is hiring, nobody dares to quit.",
+        "normalized_time": 0.3322
+      },
+      {
+        "date": "2020-03-01",
+        "title": "March 2020: 13 Million Layoffs",
+        "description": "Layoffs and discharges hit 12.99 million in a single month as COVID closed the economy. In normal months the number is about 1.5 to 2 million.",
+        "significance": "The largest one-month job loss in the record.",
+        "normalized_time": 0.7492
+      },
+      {
+        "date": "2022-03-01",
+        "title": "2022: The Great Resignation",
+        "description": "Openings reached a record 12.3 million in March 2022 and quits a record 4.50 million in April 2022. As of August 2026, openings are 7.1 million and quits 3.1 million.",
+        "significance": "Workers changed jobs for better pay at the fastest rate ever measured.",
+        "normalized_time": 0.8274
+      }
+    ]
+  }
+}

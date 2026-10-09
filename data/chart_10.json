@@ -1,0 +1,3728 @@
+{
+  "metadata": {
+    "chart_id": "chart_10",
+    "number": 10,
+    "title": "The Dollar, Exports and Factory Jobs",
+    "section": "Section A: Cross-Platform & Cross-Agency Correlations",
+    "section_id": "section_a",
+    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "agencies": [
+      "BLS",
+      "Census/BEA",
+      "FRED"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2006,
+    "end_year": 2026,
+    "observation_count": 248,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-08",
+    "data_notes": "Chart starts in 2006 because the broad dollar index (DTWEXBGS) begins then."
+  },
+  "analytics": {
+    "optimal_lag_months": -18,
+    "peak_correlation_coefficient": 0.771,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": 0.771
+      },
+      {
+        "lag": -17,
+        "r": 0.77
+      },
+      {
+        "lag": -16,
+        "r": 0.768
+      },
+      {
+        "lag": -15,
+        "r": 0.767
+      },
+      {
+        "lag": -14,
+        "r": 0.765
+      },
+      {
+        "lag": -13,
+        "r": 0.762
+      },
+      {
+        "lag": -12,
+        "r": 0.76
+      },
+      {
+        "lag": -11,
+        "r": 0.757
+      },
+      {
+        "lag": -10,
+        "r": 0.754
+      },
+      {
+        "lag": -9,
+        "r": 0.753
+      },
+      {
+        "lag": -8,
+        "r": 0.751
+      },
+      {
+        "lag": -7,
+        "r": 0.746
+      },
+      {
+        "lag": -6,
+        "r": 0.737
+      },
+      {
+        "lag": -5,
+        "r": 0.726
+      },
+      {
+        "lag": -4,
+        "r": 0.714
+      },
+      {
+        "lag": -3,
+        "r": 0.703
+      },
+      {
+        "lag": -2,
+        "r": 0.691
+      },
+      {
+        "lag": -1,
+        "r": 0.679
+      },
+      {
+        "lag": 0,
+        "r": 0.67
+      },
+      {
+        "lag": 1,
+        "r": 0.663
+      },
+      {
+        "lag": 2,
+        "r": 0.66
+      },
+      {
+        "lag": 3,
+        "r": 0.661
+      },
+      {
+        "lag": 4,
+        "r": 0.663
+      },
+      {
+        "lag": 5,
+        "r": 0.664
+      },
+      {
+        "lag": 6,
+        "r": 0.666
+      },
+      {
+        "lag": 7,
+        "r": 0.67
+      },
+      {
+        "lag": 8,
+        "r": 0.675
+      },
+      {
+        "lag": 9,
+        "r": 0.68
+      },
+      {
+        "lag": 10,
+        "r": 0.686
+      },
+      {
+        "lag": 11,
+        "r": 0.692
+      },
+      {
+        "lag": 12,
+        "r": 0.699
+      },
+      {
+        "lag": 13,
+        "r": 0.705
+      },
+      {
+        "lag": 14,
+        "r": 0.711
+      },
+      {
+        "lag": 15,
+        "r": 0.716
+      },
+      {
+        "lag": 16,
+        "r": 0.717
+      },
+      {
+        "lag": 17,
+        "r": 0.718
+      },
+      {
+        "lag": 18,
+        "r": 0.718
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "dollar_index",
+      "agency": "FRED",
+      "series_id": "DTWEXBGS",
+      "label": "US Dollar Strength Index",
+      "unit": "Index",
+      "transform": "raw",
+      "color": "#10b981"
+    },
+    {
+      "key": "goods_exports",
+      "agency": "Census/BEA (via FRED)",
+      "series_id": "BOPGEXP",
+      "label": "American Goods Sold Overseas (Exports)",
+      "unit": "$B",
+      "transform": "raw",
+      "color": "#38bdf8"
+    },
+    {
+      "key": "durable_payroll",
+      "agency": "BLS",
+      "series_id": "CES3100000001",
+      "label": "Factory Jobs (Machinery, Vehicles, Equipment)",
+      "unit": "k Jobs",
+      "transform": "raw",
+      "color": "#f43f5e"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2006-01-01",
+      "values": {
+        "dollar_index": 100.0,
+        "goods_exports": 81.984,
+        "durable_payroll": 8980.0
+      },
+      "zscores": {
+        "dollar_index": 0.0,
+        "goods_exports": 0.0,
+        "durable_payroll": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-02-01",
+      "values": {
+        "dollar_index": 100.211,
+        "goods_exports": 82.943,
+        "durable_payroll": 8985.0
+      },
+      "zscores": {
+        "dollar_index": 1.0,
+        "goods_exports": 1.0,
+        "durable_payroll": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2006-03-01",
+      "values": {
+        "dollar_index": 100.428,
+        "goods_exports": 84.745,
+        "durable_payroll": 8996.0
+      },
+      "zscores": {
+        "dollar_index": 1.23,
+        "goods_exports": 1.329,
+        "durable_payroll": 1.347
+      },
+      "events": []
+    },
+    {
+      "date": "2006-04-01",
+      "values": {
+        "dollar_index": 99.743,
+        "goods_exports": 84.593,
+        "durable_payroll": 9016.0
+      },
+      "zscores": {
+        "dollar_index": -1.389,
+        "goods_exports": 0.889,
+        "durable_payroll": 1.573
+      },
+      "events": []
+    },
+    {
+      "date": "2006-05-01",
+      "values": {
+        "dollar_index": 97.512,
+        "goods_exports": 85.841,
+        "durable_payroll": 9013.0
+      },
+      "zscores": {
+        "dollar_index": -1.954,
+        "goods_exports": 1.322,
+        "durable_payroll": 1.037
+      },
+      "events": []
+    },
+    {
+      "date": "2006-06-01",
+      "values": {
+        "dollar_index": 98.693,
+        "goods_exports": 87.739,
+        "durable_payroll": 9024.0
+      },
+      "zscores": {
+        "dollar_index": -0.723,
+        "goods_exports": 1.656,
+        "durable_payroll": 1.323
+      },
+      "events": []
+    },
+    {
+      "date": "2006-07-01",
+      "values": {
+        "dollar_index": 98.439,
+        "goods_exports": 85.676,
+        "durable_payroll": 9004.0
+      },
+      "zscores": {
+        "dollar_index": -0.845,
+        "goods_exports": 0.501,
+        "durable_payroll": 0.094
+      },
+      "events": []
+    },
+    {
+      "date": "2006-08-01",
+      "values": {
+        "dollar_index": 97.714,
+        "goods_exports": 87.953,
+        "durable_payroll": 8987.0
+      },
+      "zscores": {
+        "dollar_index": -1.281,
+        "goods_exports": 1.414,
+        "durable_payroll": -0.902
+      },
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "dollar_index": 97.981,
+        "goods_exports": 88.736,
+        "durable_payroll": 8968.0
+      },
+      "zscores": {
+        "dollar_index": -0.92,
+        "goods_exports": 1.463,
+        "durable_payroll": -1.653
+      },
+      "events": []
+    },
+    {
+      "date": "2006-10-01",
+      "values": {
+        "dollar_index": 98.316,
+        "goods_exports": 89.373,
+        "durable_payroll": 8940.0
+      },
+      "zscores": {
+        "dollar_index": -0.567,
+        "goods_exports": 1.458,
+        "durable_payroll": -2.15
+      },
+      "events": []
+    },
+    {
+      "date": "2006-11-01",
+      "values": {
+        "dollar_index": 97.513,
+        "goods_exports": 90.348,
+        "durable_payroll": 8912.0
+      },
+      "zscores": {
+        "dollar_index": -1.185,
+        "goods_exports": 1.556,
+        "durable_payroll": -2.238
+      },
+      "events": []
+    },
+    {
+      "date": "2006-12-01",
+      "values": {
+        "dollar_index": 96.795,
+        "goods_exports": 90.975,
+        "durable_payroll": 8908.0
+      },
+      "zscores": {
+        "dollar_index": -1.568,
+        "goods_exports": 1.53,
+        "durable_payroll": -1.869
+      },
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "dollar_index": 97.834,
+        "goods_exports": 92.195,
+        "durable_payroll": 8886.0
+      },
+      "zscores": {
+        "dollar_index": -0.634,
+        "goods_exports": 1.661,
+        "durable_payroll": -1.951
+      },
+      "events": []
+    },
+    {
+      "date": "2007-02-01",
+      "values": {
+        "dollar_index": 97.476,
+        "goods_exports": 90.572,
+        "durable_payroll": 8886.0
+      },
+      "zscores": {
+        "dollar_index": -0.887,
+        "goods_exports": 1.039,
+        "durable_payroll": -1.667
+      },
+      "events": []
+    },
+    {
+      "date": "2007-03-01",
+      "values": {
+        "dollar_index": 97.012,
+        "goods_exports": 94.037,
+        "durable_payroll": 8865.0
+      },
+      "zscores": {
+        "dollar_index": -1.191,
+        "goods_exports": 1.832,
+        "durable_payroll": -1.792
+      },
+      "events": []
+    },
+    {
+      "date": "2007-04-01",
+      "values": {
+        "dollar_index": 95.632,
+        "goods_exports": 93.672,
+        "durable_payroll": 8854.0
+      },
+      "zscores": {
+        "dollar_index": -1.988,
+        "goods_exports": 1.533,
+        "durable_payroll": -1.735
+      },
+      "events": []
+    },
+    {
+      "date": "2007-05-01",
+      "values": {
+        "dollar_index": 94.722,
+        "goods_exports": 95.704,
+        "durable_payroll": 8839.0
+      },
+      "zscores": {
+        "dollar_index": -2.186,
+        "goods_exports": 1.818,
+        "durable_payroll": -1.747
+      },
+      "events": []
+    },
+    {
+      "date": "2007-06-01",
+      "values": {
+        "dollar_index": 94.445,
+        "goods_exports": 96.544,
+        "durable_payroll": 8822.0
+      },
+      "zscores": {
+        "dollar_index": -2.012,
+        "goods_exports": 1.783,
+        "durable_payroll": -1.778
+      },
+      "events": []
+    },
+    {
+      "date": "2007-07-01",
+      "values": {
+        "dollar_index": 93.206,
+        "goods_exports": 97.079,
+        "durable_payroll": 8807.0
+      },
+      "zscores": {
+        "dollar_index": -2.266,
+        "goods_exports": 1.703,
+        "durable_payroll": -1.775
+      },
+      "events": []
+    },
+    {
+      "date": "2007-08-01",
+      "values": {
+        "dollar_index": 93.76,
+        "goods_exports": 98.85,
+        "durable_payroll": 8772.0
+      },
+      "zscores": {
+        "dollar_index": -1.763,
+        "goods_exports": 1.854,
+        "durable_payroll": -1.976
+      },
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "dollar_index": 92.437,
+        "goods_exports": 99.722,
+        "durable_payroll": 8745.0
+      },
+      "zscores": {
+        "dollar_index": -2.081,
+        "goods_exports": 1.816,
+        "durable_payroll": -2.026
+      },
+      "events": []
+    },
+    {
+      "date": "2007-10-01",
+      "values": {
+        "dollar_index": 90.4,
+        "goods_exports": 101.17,
+        "durable_payroll": 8719.0
+      },
+      "zscores": {
+        "dollar_index": -2.459,
+        "goods_exports": 1.872,
+        "durable_payroll": -2.043
+      },
+      "events": []
+    },
+    {
+      "date": "2007-11-01",
+      "values": {
+        "dollar_index": 89.053,
+        "goods_exports": 102.239,
+        "durable_payroll": 8717.0
+      },
+      "zscores": {
+        "dollar_index": -2.472,
+        "goods_exports": 1.857,
+        "durable_payroll": -1.855
+      },
+      "events": []
+    },
+    {
+      "date": "2007-12-01",
+      "values": {
+        "dollar_index": 90.005,
+        "goods_exports": 103.367,
+        "durable_payroll": 8700.0
+      },
+      "zscores": {
+        "dollar_index": -1.932,
+        "goods_exports": 1.852,
+        "durable_payroll": -1.836
+      },
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "dollar_index": 89.397,
+        "goods_exports": 106.639,
+        "durable_payroll": 8686.0
+      },
+      "zscores": {
+        "dollar_index": -1.913,
+        "goods_exports": 2.106,
+        "durable_payroll": -1.797
+      },
+      "events": []
+    },
+    {
+      "date": "2008-02-01",
+      "values": {
+        "dollar_index": 88.643,
+        "goods_exports": 109.141,
+        "durable_payroll": 8668.0
+      },
+      "zscores": {
+        "dollar_index": -1.929,
+        "goods_exports": 2.186,
+        "durable_payroll": -1.796
+      },
+      "events": []
+    },
+    {
+      "date": "2008-03-01",
+      "values": {
+        "dollar_index": 86.84,
+        "goods_exports": 107.934,
+        "durable_payroll": 8637.0
+      },
+      "zscores": {
+        "dollar_index": -2.156,
+        "goods_exports": 1.849,
+        "durable_payroll": -1.885
+      },
+      "events": []
+    },
+    {
+      "date": "2008-04-01",
+      "values": {
+        "dollar_index": 86.547,
+        "goods_exports": 112.208,
+        "durable_payroll": 8587.0
+      },
+      "zscores": {
+        "dollar_index": -2.018,
+        "goods_exports": 2.149,
+        "durable_payroll": -2.071
+      },
+      "events": []
+    },
+    {
+      "date": "2008-05-01",
+      "values": {
+        "dollar_index": 86.825,
+        "goods_exports": 112.971,
+        "durable_payroll": 8569.0
+      },
+      "zscores": {
+        "dollar_index": -1.803,
+        "goods_exports": 2.033,
+        "durable_payroll": -2.01
+      },
+      "events": []
+    },
+    {
+      "date": "2008-06-01",
+      "values": {
+        "dollar_index": 87.073,
+        "goods_exports": 117.785,
+        "durable_payroll": 8532.0
+      },
+      "zscores": {
+        "dollar_index": -1.636,
+        "goods_exports": 2.293,
+        "durable_payroll": -2.069
+      },
+      "events": []
+    },
+    {
+      "date": "2008-07-01",
+      "values": {
+        "dollar_index": 86.454,
+        "goods_exports": 120.156,
+        "durable_payroll": 8477.0
+      },
+      "zscores": {
+        "dollar_index": -1.662,
+        "goods_exports": 2.273,
+        "durable_payroll": -2.203
+      },
+      "events": []
+    },
+    {
+      "date": "2008-08-01",
+      "values": {
+        "dollar_index": 88.945,
+        "goods_exports": 117.826,
+        "durable_payroll": 8420.0
+      },
+      "zscores": {
+        "dollar_index": -1.09,
+        "goods_exports": 1.896,
+        "durable_payroll": -2.3
+      },
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "dollar_index": 91.265,
+        "goods_exports": 109.228,
+        "durable_payroll": 8363.0
+      },
+      "zscores": {
+        "dollar_index": -0.584,
+        "goods_exports": 1.069,
+        "durable_payroll": -2.359
+      },
+      "events": []
+    },
+    {
+      "date": "2008-10-01",
+      "values": {
+        "dollar_index": 98.04,
+        "goods_exports": 106.639,
+        "durable_payroll": 8266.0
+      },
+      "zscores": {
+        "dollar_index": 0.851,
+        "goods_exports": 0.811,
+        "durable_payroll": -2.549
+      },
+      "events": []
+    },
+    {
+      "date": "2008-11-01",
+      "values": {
+        "dollar_index": 100.767,
+        "goods_exports": 99.102,
+        "durable_payroll": 8184.0
+      },
+      "zscores": {
+        "dollar_index": 1.379,
+        "goods_exports": 0.115,
+        "durable_payroll": -2.606
+      },
+      "events": []
+    },
+    {
+      "date": "2008-12-01",
+      "values": {
+        "dollar_index": 99.662,
+        "goods_exports": 89.166,
+        "durable_payroll": 8056.0
+      },
+      "zscores": {
+        "dollar_index": 1.108,
+        "goods_exports": -0.796,
+        "durable_payroll": -2.771
+      },
+      "events": [
+        {
+          "label": "Financial crisis: exports fall 26%",
+          "type": "recession"
+        }
+      ]
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "dollar_index": 100.352,
+        "goods_exports": 83.705,
+        "durable_payroll": 7823.0
+      },
+      "zscores": {
+        "dollar_index": 1.249,
+        "goods_exports": -1.321,
+        "durable_payroll": -3.092
+      },
+      "events": []
+    },
+    {
+      "date": "2009-02-01",
+      "values": {
+        "dollar_index": 102.974,
+        "goods_exports": 86.043,
+        "durable_payroll": 7690.0
+      },
+      "zscores": {
+        "dollar_index": 1.745,
+        "goods_exports": -1.12,
+        "durable_payroll": -2.996
+      },
+      "events": []
+    },
+    {
+      "date": "2009-03-01",
+      "values": {
+        "dollar_index": 103.44,
+        "goods_exports": 84.462,
+        "durable_payroll": 7565.0
+      },
+      "zscores": {
+        "dollar_index": 1.778,
+        "goods_exports": -1.269,
+        "durable_payroll": -2.882
+      },
+      "events": []
+    },
+    {
+      "date": "2009-04-01",
+      "values": {
+        "dollar_index": 100.716,
+        "goods_exports": 82.58,
+        "durable_payroll": 7416.0
+      },
+      "zscores": {
+        "dollar_index": 1.217,
+        "goods_exports": -1.433,
+        "durable_payroll": -2.822
+      },
+      "events": []
+    },
+    {
+      "date": "2009-05-01",
+      "values": {
+        "dollar_index": 97.552,
+        "goods_exports": 84.534,
+        "durable_payroll": 7277.0
+      },
+      "zscores": {
+        "dollar_index": 0.583,
+        "goods_exports": -1.239,
+        "durable_payroll": -2.736
+      },
+      "events": []
+    },
+    {
+      "date": "2009-06-01",
+      "values": {
+        "dollar_index": 96.043,
+        "goods_exports": 86.944,
+        "durable_payroll": 7169.0
+      },
+      "zscores": {
+        "dollar_index": 0.298,
+        "goods_exports": -1.008,
+        "durable_payroll": -2.606
+      },
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "dollar_index": 95.661,
+        "goods_exports": 88.738,
+        "durable_payroll": 7132.0
+      },
+      "zscores": {
+        "dollar_index": 0.239,
+        "goods_exports": -0.854,
+        "durable_payroll": -2.392
+      },
+      "events": []
+    },
+    {
+      "date": "2009-08-01",
+      "values": {
+        "dollar_index": 94.373,
+        "goods_exports": 88.8,
+        "durable_payroll": 7099.0
+      },
+      "zscores": {
+        "dollar_index": -0.004,
+        "goods_exports": -0.852,
+        "durable_payroll": -2.216
+      },
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "dollar_index": 93.664,
+        "goods_exports": 92.743,
+        "durable_payroll": 7072.0
+      },
+      "zscores": {
+        "dollar_index": -0.126,
+        "goods_exports": -0.491,
+        "durable_payroll": -2.065
+      },
+      "events": []
+    },
+    {
+      "date": "2009-10-01",
+      "values": {
+        "dollar_index": 92.26,
+        "goods_exports": 95.836,
+        "durable_payroll": 7032.0
+      },
+      "zscores": {
+        "dollar_index": -0.383,
+        "goods_exports": -0.214,
+        "durable_payroll": -1.956
+      },
+      "events": []
+    },
+    {
+      "date": "2009-11-01",
+      "values": {
+        "dollar_index": 91.8,
+        "goods_exports": 96.26,
+        "durable_payroll": 7009.0
+      },
+      "zscores": {
+        "dollar_index": -0.448,
+        "goods_exports": -0.19,
+        "durable_payroll": -1.841
+      },
+      "events": []
+    },
+    {
+      "date": "2009-12-01",
+      "values": {
+        "dollar_index": 92.259,
+        "goods_exports": 99.687,
+        "durable_payroll": 6988.0
+      },
+      "zscores": {
+        "dollar_index": -0.327,
+        "goods_exports": 0.121,
+        "durable_payroll": -1.739
+      },
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "dollar_index": 92.44,
+        "goods_exports": 99.243,
+        "durable_payroll": 6976.0
+      },
+      "zscores": {
+        "dollar_index": -0.26,
+        "goods_exports": 0.059,
+        "durable_payroll": -1.639
+      },
+      "events": []
+    },
+    {
+      "date": "2010-02-01",
+      "values": {
+        "dollar_index": 93.887,
+        "goods_exports": 100.546,
+        "durable_payroll": 6971.0
+      },
+      "zscores": {
+        "dollar_index": 0.067,
+        "goods_exports": 0.161,
+        "durable_payroll": -1.542
+      },
+      "events": []
+    },
+    {
+      "date": "2010-03-01",
+      "values": {
+        "dollar_index": 93.15,
+        "goods_exports": 104.49,
+        "durable_payroll": 6982.0
+      },
+      "zscores": {
+        "dollar_index": -0.067,
+        "goods_exports": 0.524,
+        "durable_payroll": -1.436
+      },
+      "events": []
+    },
+    {
+      "date": "2010-04-01",
+      "values": {
+        "dollar_index": 92.639,
+        "goods_exports": 103.405,
+        "durable_payroll": 7012.0
+      },
+      "zscores": {
+        "dollar_index": -0.16,
+        "goods_exports": 0.39,
+        "durable_payroll": -1.315
+      },
+      "events": []
+    },
+    {
+      "date": "2010-05-01",
+      "values": {
+        "dollar_index": 95.531,
+        "goods_exports": 106.546,
+        "durable_payroll": 7039.0
+      },
+      "zscores": {
+        "dollar_index": 0.458,
+        "goods_exports": 0.67,
+        "durable_payroll": -1.209
+      },
+      "events": []
+    },
+    {
+      "date": "2010-06-01",
+      "values": {
+        "dollar_index": 96.061,
+        "goods_exports": 105.364,
+        "durable_payroll": 7056.0
+      },
+      "zscores": {
+        "dollar_index": 0.56,
+        "goods_exports": 0.527,
+        "durable_payroll": -1.123
+      },
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "dollar_index": 94.455,
+        "goods_exports": 108.197,
+        "durable_payroll": 7069.0
+      },
+      "zscores": {
+        "dollar_index": 0.208,
+        "goods_exports": 0.771,
+        "durable_payroll": -1.047
+      },
+      "events": []
+    },
+    {
+      "date": "2010-08-01",
+      "values": {
+        "dollar_index": 93.682,
+        "goods_exports": 108.331,
+        "durable_payroll": 7075.0
+      },
+      "zscores": {
+        "dollar_index": 0.043,
+        "goods_exports": 0.753,
+        "durable_payroll": -0.985
+      },
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "dollar_index": 92.763,
+        "goods_exports": 108.638,
+        "durable_payroll": 7091.0
+      },
+      "zscores": {
+        "dollar_index": -0.156,
+        "goods_exports": 0.753,
+        "durable_payroll": -0.912
+      },
+      "events": []
+    },
+    {
+      "date": "2010-10-01",
+      "values": {
+        "dollar_index": 90.229,
+        "goods_exports": 113.684,
+        "durable_payroll": 7095.0
+      },
+      "zscores": {
+        "dollar_index": -0.697,
+        "goods_exports": 1.182,
+        "durable_payroll": -0.857
+      },
+      "events": []
+    },
+    {
+      "date": "2010-11-01",
+      "values": {
+        "dollar_index": 90.51,
+        "goods_exports": 114.639,
+        "durable_payroll": 7110.0
+      },
+      "zscores": {
+        "dollar_index": -0.65,
+        "goods_exports": 1.214,
+        "durable_payroll": -0.79
+      },
+      "events": []
+    },
+    {
+      "date": "2010-12-01",
+      "values": {
+        "dollar_index": 91.183,
+        "goods_exports": 117.196,
+        "durable_payroll": 7122.0
+      },
+      "zscores": {
+        "dollar_index": -0.514,
+        "goods_exports": 1.377,
+        "durable_payroll": -0.727
+      },
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "dollar_index": 90.111,
+        "goods_exports": 118.562,
+        "durable_payroll": 7153.0
+      },
+      "zscores": {
+        "dollar_index": -0.754,
+        "goods_exports": 1.43,
+        "durable_payroll": -0.637
+      },
+      "events": []
+    },
+    {
+      "date": "2011-02-01",
+      "values": {
+        "dollar_index": 89.397,
+        "goods_exports": 117.018,
+        "durable_payroll": 7178.0
+      },
+      "zscores": {
+        "dollar_index": -0.918,
+        "goods_exports": 1.253,
+        "durable_payroll": -0.554
+      },
+      "events": []
+    },
+    {
+      "date": "2011-03-01",
+      "values": {
+        "dollar_index": 88.487,
+        "goods_exports": 124.039,
+        "durable_payroll": 7198.0
+      },
+      "zscores": {
+        "dollar_index": -1.141,
+        "goods_exports": 1.745,
+        "durable_payroll": -0.477
+      },
+      "events": []
+    },
+    {
+      "date": "2011-04-01",
+      "values": {
+        "dollar_index": 86.921,
+        "goods_exports": 125.834,
+        "durable_payroll": 7225.0
+      },
+      "zscores": {
+        "dollar_index": -1.496,
+        "goods_exports": 1.79,
+        "durable_payroll": -0.384
+      },
+      "events": []
+    },
+    {
+      "date": "2011-05-01",
+      "values": {
+        "dollar_index": 86.946,
+        "goods_exports": 125.03,
+        "durable_payroll": 7241.0
+      },
+      "zscores": {
+        "dollar_index": -1.492,
+        "goods_exports": 1.646,
+        "durable_payroll": -0.305
+      },
+      "events": []
+    },
+    {
+      "date": "2011-06-01",
+      "values": {
+        "dollar_index": 86.941,
+        "goods_exports": 122.625,
+        "durable_payroll": 7258.0
+      },
+      "zscores": {
+        "dollar_index": -1.491,
+        "goods_exports": 1.432,
+        "durable_payroll": -0.217
+      },
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "dollar_index": 86.318,
+        "goods_exports": 126.453,
+        "durable_payroll": 7271.0
+      },
+      "zscores": {
+        "dollar_index": -1.626,
+        "goods_exports": 1.677,
+        "durable_payroll": -0.127
+      },
+      "events": [
+        {
+          "label": "Weakest dollar on the chart (86.3)",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2011-08-01",
+      "values": {
+        "dollar_index": 86.898,
+        "goods_exports": 126.475,
+        "durable_payroll": 7286.0
+      },
+      "zscores": {
+        "dollar_index": -1.462,
+        "goods_exports": 1.622,
+        "durable_payroll": -0.019
+      },
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "dollar_index": 89.725,
+        "goods_exports": 128.738,
+        "durable_payroll": 7297.0
+      },
+      "zscores": {
+        "dollar_index": -0.83,
+        "goods_exports": 1.678,
+        "durable_payroll": 0.101
+      },
+      "events": []
+    },
+    {
+      "date": "2011-10-01",
+      "values": {
+        "dollar_index": 90.61,
+        "goods_exports": 128.747,
+        "durable_payroll": 7313.0
+      },
+      "zscores": {
+        "dollar_index": -0.599,
+        "goods_exports": 1.577,
+        "durable_payroll": 0.266
+      },
+      "events": []
+    },
+    {
+      "date": "2011-11-01",
+      "values": {
+        "dollar_index": 91.265,
+        "goods_exports": 127.077,
+        "durable_payroll": 7313.0
+      },
+      "zscores": {
+        "dollar_index": -0.412,
+        "goods_exports": 1.377,
+        "durable_payroll": 0.421
+      },
+      "events": []
+    },
+    {
+      "date": "2011-12-01",
+      "values": {
+        "dollar_index": 92.206,
+        "goods_exports": 128.287,
+        "durable_payroll": 7350.0
+      },
+      "zscores": {
+        "dollar_index": -0.157,
+        "goods_exports": 1.372,
+        "durable_payroll": 0.815
+      },
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "dollar_index": 91.646,
+        "goods_exports": 127.345,
+        "durable_payroll": 7380.0
+      },
+      "zscores": {
+        "dollar_index": -0.242,
+        "goods_exports": 1.247,
+        "durable_payroll": 1.215
+      },
+      "events": []
+    },
+    {
+      "date": "2012-02-01",
+      "values": {
+        "dollar_index": 89.96,
+        "goods_exports": 128.801,
+        "durable_payroll": 7402.0
+      },
+      "zscores": {
+        "dollar_index": -0.624,
+        "goods_exports": 1.275,
+        "durable_payroll": 1.583
+      },
+      "events": []
+    },
+    {
+      "date": "2012-03-01",
+      "values": {
+        "dollar_index": 90.511,
+        "goods_exports": 132.015,
+        "durable_payroll": 7428.0
+      },
+      "zscores": {
+        "dollar_index": -0.439,
+        "goods_exports": 1.417,
+        "durable_payroll": 1.905
+      },
+      "events": []
+    },
+    {
+      "date": "2012-04-01",
+      "values": {
+        "dollar_index": 90.816,
+        "goods_exports": 130.538,
+        "durable_payroll": 7442.0
+      },
+      "zscores": {
+        "dollar_index": -0.29,
+        "goods_exports": 1.267,
+        "durable_payroll": 1.983
+      },
+      "events": []
+    },
+    {
+      "date": "2012-05-01",
+      "values": {
+        "dollar_index": 92.493,
+        "goods_exports": 130.724,
+        "durable_payroll": 7452.0
+      },
+      "zscores": {
+        "dollar_index": 0.376,
+        "goods_exports": 1.232,
+        "durable_payroll": 1.927
+      },
+      "events": []
+    },
+    {
+      "date": "2012-06-01",
+      "values": {
+        "dollar_index": 93.881,
+        "goods_exports": 130.717,
+        "durable_payroll": 7461.0
+      },
+      "zscores": {
+        "dollar_index": 0.952,
+        "goods_exports": 1.185,
+        "durable_payroll": 1.837
+      },
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "dollar_index": 93.406,
+        "goods_exports": 130.145,
+        "durable_payroll": 7483.0
+      },
+      "zscores": {
+        "dollar_index": 0.816,
+        "goods_exports": 1.099,
+        "durable_payroll": 1.827
+      },
+      "events": []
+    },
+    {
+      "date": "2012-08-01",
+      "values": {
+        "dollar_index": 92.528,
+        "goods_exports": 128.352,
+        "durable_payroll": 7473.0
+      },
+      "zscores": {
+        "dollar_index": 0.493,
+        "goods_exports": 0.924,
+        "durable_payroll": 1.641
+      },
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "dollar_index": 90.98,
+        "goods_exports": 133.58,
+        "durable_payroll": 7463.0
+      },
+      "zscores": {
+        "dollar_index": -0.11,
+        "goods_exports": 1.302,
+        "durable_payroll": 1.479
+      },
+      "events": []
+    },
+    {
+      "date": "2012-10-01",
+      "values": {
+        "dollar_index": 90.757,
+        "goods_exports": 127.616,
+        "durable_payroll": 7465.0
+      },
+      "zscores": {
+        "dollar_index": -0.186,
+        "goods_exports": 0.758,
+        "durable_payroll": 1.403
+      },
+      "events": []
+    },
+    {
+      "date": "2012-11-01",
+      "values": {
+        "dollar_index": 91.475,
+        "goods_exports": 129.697,
+        "durable_payroll": 7468.0
+      },
+      "zscores": {
+        "dollar_index": 0.116,
+        "goods_exports": 0.903,
+        "durable_payroll": 1.342
+      },
+      "events": []
+    },
+    {
+      "date": "2012-12-01",
+      "values": {
+        "dollar_index": 90.88,
+        "goods_exports": 133.1,
+        "durable_payroll": 7484.0
+      },
+      "zscores": {
+        "dollar_index": -0.115,
+        "goods_exports": 1.171,
+        "durable_payroll": 1.361
+      },
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "dollar_index": 90.826,
+        "goods_exports": 131.197,
+        "durable_payroll": 7494.0
+      },
+      "zscores": {
+        "dollar_index": -0.12,
+        "goods_exports": 0.952,
+        "durable_payroll": 1.352
+      },
+      "events": []
+    },
+    {
+      "date": "2013-02-01",
+      "values": {
+        "dollar_index": 91.551,
+        "goods_exports": 133.289,
+        "durable_payroll": 7502.0
+      },
+      "zscores": {
+        "dollar_index": 0.214,
+        "goods_exports": 1.128,
+        "durable_payroll": 1.338
+      },
+      "events": []
+    },
+    {
+      "date": "2013-03-01",
+      "values": {
+        "dollar_index": 92.413,
+        "goods_exports": 130.539,
+        "durable_payroll": 7509.0
+      },
+      "zscores": {
+        "dollar_index": 0.593,
+        "goods_exports": 0.796,
+        "durable_payroll": 1.323
+      },
+      "events": []
+    },
+    {
+      "date": "2013-04-01",
+      "values": {
+        "dollar_index": 92.048,
+        "goods_exports": 131.932,
+        "durable_payroll": 7512.0
+      },
+      "zscores": {
+        "dollar_index": 0.446,
+        "goods_exports": 0.92,
+        "durable_payroll": 1.284
+      },
+      "events": []
+    },
+    {
+      "date": "2013-05-01",
+      "values": {
+        "dollar_index": 92.529,
+        "goods_exports": 130.799,
+        "durable_payroll": 7511.0
+      },
+      "zscores": {
+        "dollar_index": 0.723,
+        "goods_exports": 0.748,
+        "durable_payroll": 1.221
+      },
+      "events": []
+    },
+    {
+      "date": "2013-06-01",
+      "values": {
+        "dollar_index": 93.284,
+        "goods_exports": 133.359,
+        "durable_payroll": 7517.0
+      },
+      "zscores": {
+        "dollar_index": 1.171,
+        "goods_exports": 1.053,
+        "durable_payroll": 1.205
+      },
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "dollar_index": 93.872,
+        "goods_exports": 132.03,
+        "durable_payroll": 7494.0
+      },
+      "zscores": {
+        "dollar_index": 1.481,
+        "goods_exports": 0.845,
+        "durable_payroll": 1.006
+      },
+      "events": []
+    },
+    {
+      "date": "2013-08-01",
+      "values": {
+        "dollar_index": 93.715,
+        "goods_exports": 132.361,
+        "durable_payroll": 7525.0
+      },
+      "zscores": {
+        "dollar_index": 1.403,
+        "goods_exports": 0.88,
+        "durable_payroll": 1.171
+      },
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "dollar_index": 93.471,
+        "goods_exports": 131.743,
+        "durable_payroll": 7542.0
+      },
+      "zscores": {
+        "dollar_index": 1.261,
+        "goods_exports": 0.775,
+        "durable_payroll": 1.243
+      },
+      "events": []
+    },
+    {
+      "date": "2013-10-01",
+      "values": {
+        "dollar_index": 92.499,
+        "goods_exports": 135.485,
+        "durable_payroll": 7553.0
+      },
+      "zscores": {
+        "dollar_index": 0.757,
+        "goods_exports": 1.474,
+        "durable_payroll": 1.279
+      },
+      "events": []
+    },
+    {
+      "date": "2013-11-01",
+      "values": {
+        "dollar_index": 93.374,
+        "goods_exports": 136.235,
+        "durable_payroll": 7565.0
+      },
+      "zscores": {
+        "dollar_index": 1.118,
+        "goods_exports": 1.635,
+        "durable_payroll": 1.328
+      },
+      "events": []
+    },
+    {
+      "date": "2013-12-01",
+      "values": {
+        "dollar_index": 93.534,
+        "goods_exports": 134.737,
+        "durable_payroll": 7568.0
+      },
+      "zscores": {
+        "dollar_index": 1.141,
+        "goods_exports": 1.296,
+        "durable_payroll": 1.316
+      },
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "dollar_index": 94.465,
+        "goods_exports": 133.813,
+        "durable_payroll": 7560.0
+      },
+      "zscores": {
+        "dollar_index": 1.471,
+        "goods_exports": 1.063,
+        "durable_payroll": 1.214
+      },
+      "events": []
+    },
+    {
+      "date": "2014-02-01",
+      "values": {
+        "dollar_index": 94.646,
+        "goods_exports": 132.989,
+        "durable_payroll": 7582.0
+      },
+      "zscores": {
+        "dollar_index": 1.455,
+        "goods_exports": 0.875,
+        "durable_payroll": 1.365
+      },
+      "events": []
+    },
+    {
+      "date": "2014-03-01",
+      "values": {
+        "dollar_index": 94.441,
+        "goods_exports": 137.312,
+        "durable_payroll": 7597.0
+      },
+      "zscores": {
+        "dollar_index": 1.29,
+        "goods_exports": 2.084,
+        "durable_payroll": 1.458
+      },
+      "events": []
+    },
+    {
+      "date": "2014-04-01",
+      "values": {
+        "dollar_index": 93.996,
+        "goods_exports": 136.036,
+        "durable_payroll": 7607.0
+      },
+      "zscores": {
+        "dollar_index": 1.055,
+        "goods_exports": 1.593,
+        "durable_payroll": 1.501
+      },
+      "events": []
+    },
+    {
+      "date": "2014-05-01",
+      "values": {
+        "dollar_index": 93.67,
+        "goods_exports": 137.841,
+        "durable_payroll": 7622.0
+      },
+      "zscores": {
+        "dollar_index": 0.873,
+        "goods_exports": 2.008,
+        "durable_payroll": 1.592
+      },
+      "events": []
+    },
+    {
+      "date": "2014-06-01",
+      "values": {
+        "dollar_index": 93.827,
+        "goods_exports": 137.005,
+        "durable_payroll": 7645.0
+      },
+      "zscores": {
+        "dollar_index": 0.926,
+        "goods_exports": 1.738,
+        "durable_payroll": 1.754
+      },
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "dollar_index": 93.604,
+        "goods_exports": 137.619,
+        "durable_payroll": 7661.0
+      },
+      "zscores": {
+        "dollar_index": 0.809,
+        "goods_exports": 1.818,
+        "durable_payroll": 1.841
+      },
+      "events": []
+    },
+    {
+      "date": "2014-08-01",
+      "values": {
+        "dollar_index": 94.581,
+        "goods_exports": 139.035,
+        "durable_payroll": 7674.0
+      },
+      "zscores": {
+        "dollar_index": 1.477,
+        "goods_exports": 2.107,
+        "durable_payroll": 1.892
+      },
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "dollar_index": 96.121,
+        "goods_exports": 136.162,
+        "durable_payroll": 7684.0
+      },
+      "zscores": {
+        "dollar_index": 2.366,
+        "goods_exports": 1.149,
+        "durable_payroll": 1.914
+      },
+      "events": []
+    },
+    {
+      "date": "2014-10-01",
+      "values": {
+        "dollar_index": 97.44,
+        "goods_exports": 137.767,
+        "durable_payroll": 7706.0
+      },
+      "zscores": {
+        "dollar_index": 2.836,
+        "goods_exports": 1.543,
+        "durable_payroll": 2.046
+      },
+      "events": []
+    },
+    {
+      "date": "2014-11-01",
+      "values": {
+        "dollar_index": 99.115,
+        "goods_exports": 135.528,
+        "durable_payroll": 7724.0
+      },
+      "zscores": {
+        "dollar_index": 3.191,
+        "goods_exports": 0.817,
+        "durable_payroll": 2.138
+      },
+      "events": []
+    },
+    {
+      "date": "2014-12-01",
+      "values": {
+        "dollar_index": 101.444,
+        "goods_exports": 134.456,
+        "durable_payroll": 7726.0
+      },
+      "zscores": {
+        "dollar_index": 3.477,
+        "goods_exports": 0.437,
+        "durable_payroll": 2.039
+      },
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "dollar_index": 103.761,
+        "goods_exports": 130.199,
+        "durable_payroll": 7725.0
+      },
+      "zscores": {
+        "dollar_index": 3.509,
+        "goods_exports": -1.008,
+        "durable_payroll": 1.908
+      },
+      "events": []
+    },
+    {
+      "date": "2015-02-01",
+      "values": {
+        "dollar_index": 105.168,
+        "goods_exports": 127.893,
+        "durable_payroll": 7734.0
+      },
+      "zscores": {
+        "dollar_index": 3.283,
+        "goods_exports": -1.753,
+        "durable_payroll": 1.879
+      },
+      "events": []
+    },
+    {
+      "date": "2015-03-01",
+      "values": {
+        "dollar_index": 107.365,
+        "goods_exports": 127.813,
+        "durable_payroll": 7738.0
+      },
+      "zscores": {
+        "dollar_index": 3.231,
+        "goods_exports": -1.673,
+        "durable_payroll": 1.796
+      },
+      "events": []
+    },
+    {
+      "date": "2015-04-01",
+      "values": {
+        "dollar_index": 106.352,
+        "goods_exports": 129.26,
+        "durable_payroll": 7736.0
+      },
+      "zscores": {
+        "dollar_index": 2.607,
+        "goods_exports": -1.186,
+        "durable_payroll": 1.663
+      },
+      "events": []
+    },
+    {
+      "date": "2015-05-01",
+      "values": {
+        "dollar_index": 105.406,
+        "goods_exports": 127.791,
+        "durable_payroll": 7746.0
+      },
+      "zscores": {
+        "dollar_index": 2.159,
+        "goods_exports": -1.577,
+        "durable_payroll": 1.656
+      },
+      "events": []
+    },
+    {
+      "date": "2015-06-01",
+      "values": {
+        "dollar_index": 106.179,
+        "goods_exports": 127.095,
+        "durable_payroll": 7745.0
+      },
+      "zscores": {
+        "dollar_index": 2.106,
+        "goods_exports": -1.697,
+        "durable_payroll": 1.546
+      },
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "dollar_index": 108.124,
+        "goods_exports": 126.898,
+        "durable_payroll": 7748.0
+      },
+      "zscores": {
+        "dollar_index": 2.241,
+        "goods_exports": -1.673,
+        "durable_payroll": 1.481
+      },
+      "events": []
+    },
+    {
+      "date": "2015-08-01",
+      "values": {
+        "dollar_index": 109.977,
+        "goods_exports": 123.935,
+        "durable_payroll": 7747.0
+      },
+      "zscores": {
+        "dollar_index": 2.313,
+        "goods_exports": -2.338,
+        "durable_payroll": 1.388
+      },
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "dollar_index": 110.851,
+        "goods_exports": 125.167,
+        "durable_payroll": 7745.0
+      },
+      "zscores": {
+        "dollar_index": 2.224,
+        "goods_exports": -1.848,
+        "durable_payroll": 1.298
+      },
+      "events": []
+    },
+    {
+      "date": "2015-10-01",
+      "values": {
+        "dollar_index": 109.904,
+        "goods_exports": 123.524,
+        "durable_payroll": 7742.0
+      },
+      "zscores": {
+        "dollar_index": 1.908,
+        "goods_exports": -2.135,
+        "durable_payroll": 1.206
+      },
+      "events": []
+    },
+    {
+      "date": "2015-11-01",
+      "values": {
+        "dollar_index": 111.692,
+        "goods_exports": 121.367,
+        "durable_payroll": 7728.0
+      },
+      "zscores": {
+        "dollar_index": 2.002,
+        "goods_exports": -2.395,
+        "durable_payroll": 1.012
+      },
+      "events": []
+    },
+    {
+      "date": "2015-12-01",
+      "values": {
+        "dollar_index": 112.786,
+        "goods_exports": 120.441,
+        "durable_payroll": 7721.0
+      },
+      "zscores": {
+        "dollar_index": 1.988,
+        "goods_exports": -2.323,
+        "durable_payroll": 0.891
+      },
+      "events": [
+        {
+          "label": "Dollar up 16% in about a year",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "dollar_index": 115.234,
+        "goods_exports": 117.47,
+        "durable_payroll": 7733.0
+      },
+      "zscores": {
+        "dollar_index": 2.13,
+        "goods_exports": -2.574,
+        "durable_payroll": 0.968
+      },
+      "events": []
+    },
+    {
+      "date": "2016-02-01",
+      "values": {
+        "dollar_index": 114.282,
+        "goods_exports": 119.526,
+        "durable_payroll": 7720.0
+      },
+      "zscores": {
+        "dollar_index": 1.85,
+        "goods_exports": -1.999,
+        "durable_payroll": 0.781
+      },
+      "events": []
+    },
+    {
+      "date": "2016-03-01",
+      "values": {
+        "dollar_index": 111.893,
+        "goods_exports": 118.266,
+        "durable_payroll": 7698.0
+      },
+      "zscores": {
+        "dollar_index": 1.444,
+        "goods_exports": -2.03,
+        "durable_payroll": 0.494
+      },
+      "events": []
+    },
+    {
+      "date": "2016-04-01",
+      "values": {
+        "dollar_index": 110.017,
+        "goods_exports": 119.929,
+        "durable_payroll": 7703.0
+      },
+      "zscores": {
+        "dollar_index": 1.137,
+        "goods_exports": -1.636,
+        "durable_payroll": 0.509
+      },
+      "events": []
+    },
+    {
+      "date": "2016-05-01",
+      "values": {
+        "dollar_index": 111.141,
+        "goods_exports": 119.814,
+        "durable_payroll": 7678.0
+      },
+      "zscores": {
+        "dollar_index": 1.211,
+        "goods_exports": -1.55,
+        "durable_payroll": 0.163
+      },
+      "events": []
+    },
+    {
+      "date": "2016-06-01",
+      "values": {
+        "dollar_index": 111.56,
+        "goods_exports": 120.538,
+        "durable_payroll": 7675.0
+      },
+      "zscores": {
+        "dollar_index": 1.195,
+        "goods_exports": -1.353,
+        "durable_payroll": 0.074
+      },
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "dollar_index": 112.477,
+        "goods_exports": 121.694,
+        "durable_payroll": 7688.0
+      },
+      "zscores": {
+        "dollar_index": 1.239,
+        "goods_exports": -1.119,
+        "durable_payroll": 0.189
+      },
+      "events": []
+    },
+    {
+      "date": "2016-08-01",
+      "values": {
+        "dollar_index": 111.438,
+        "goods_exports": 123.5,
+        "durable_payroll": 7667.0
+      },
+      "zscores": {
+        "dollar_index": 1.047,
+        "goods_exports": -0.811,
+        "durable_payroll": -0.179
+      },
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "dollar_index": 112.317,
+        "goods_exports": 124.204,
+        "durable_payroll": 7662.0
+      },
+      "zscores": {
+        "dollar_index": 1.098,
+        "goods_exports": -0.675,
+        "durable_payroll": -0.327
+      },
+      "events": []
+    },
+    {
+      "date": "2016-10-01",
+      "values": {
+        "dollar_index": 113.475,
+        "goods_exports": 123.717,
+        "durable_payroll": 7662.0
+      },
+      "zscores": {
+        "dollar_index": 1.184,
+        "goods_exports": -0.703,
+        "durable_payroll": -0.402
+      },
+      "events": []
+    },
+    {
+      "date": "2016-11-01",
+      "values": {
+        "dollar_index": 116.108,
+        "goods_exports": 122.075,
+        "durable_payroll": 7655.0
+      },
+      "zscores": {
+        "dollar_index": 1.441,
+        "goods_exports": -0.892,
+        "durable_payroll": -0.604
+      },
+      "events": []
+    },
+    {
+      "date": "2016-12-01",
+      "values": {
+        "dollar_index": 117.905,
+        "goods_exports": 126.661,
+        "durable_payroll": 7663.0
+      },
+      "zscores": {
+        "dollar_index": 1.578,
+        "goods_exports": -0.185,
+        "durable_payroll": -0.542
+      },
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "dollar_index": 117.786,
+        "goods_exports": 128.32,
+        "durable_payroll": 7670.0
+      },
+      "zscores": {
+        "dollar_index": 1.477,
+        "goods_exports": 0.087,
+        "durable_payroll": -0.514
+      },
+      "events": []
+    },
+    {
+      "date": "2017-02-01",
+      "values": {
+        "dollar_index": 116.12,
+        "goods_exports": 128.276,
+        "durable_payroll": 7667.0
+      },
+      "zscores": {
+        "dollar_index": 1.201,
+        "goods_exports": 0.101,
+        "durable_payroll": -0.691
+      },
+      "events": []
+    },
+    {
+      "date": "2017-03-01",
+      "values": {
+        "dollar_index": 115.656,
+        "goods_exports": 127.612,
+        "durable_payroll": 7673.0
+      },
+      "zscores": {
+        "dollar_index": 1.087,
+        "goods_exports": 0.042,
+        "durable_payroll": -0.648
+      },
+      "events": []
+    },
+    {
+      "date": "2017-04-01",
+      "values": {
+        "dollar_index": 114.77,
+        "goods_exports": 126.819,
+        "durable_payroll": 7676.0
+      },
+      "zscores": {
+        "dollar_index": 0.925,
+        "goods_exports": -0.044,
+        "durable_payroll": -0.673
+      },
+      "events": []
+    },
+    {
+      "date": "2017-05-01",
+      "values": {
+        "dollar_index": 114.259,
+        "goods_exports": 126.303,
+        "durable_payroll": 7685.0
+      },
+      "zscores": {
+        "dollar_index": 0.816,
+        "goods_exports": -0.079,
+        "durable_payroll": -0.501
+      },
+      "events": []
+    },
+    {
+      "date": "2017-06-01",
+      "values": {
+        "dollar_index": 112.76,
+        "goods_exports": 128.407,
+        "durable_payroll": 7693.0
+      },
+      "zscores": {
+        "dollar_index": 0.558,
+        "goods_exports": 0.332,
+        "durable_payroll": -0.31
+      },
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "dollar_index": 111.061,
+        "goods_exports": 127.503,
+        "durable_payroll": 7685.0
+      },
+      "zscores": {
+        "dollar_index": 0.242,
+        "goods_exports": 0.235,
+        "durable_payroll": -0.599
+      },
+      "events": []
+    },
+    {
+      "date": "2017-08-01",
+      "values": {
+        "dollar_index": 109.906,
+        "goods_exports": 128.829,
+        "durable_payroll": 7721.0
+      },
+      "zscores": {
+        "dollar_index": -0.027,
+        "goods_exports": 0.584,
+        "durable_payroll": 0.536
+      },
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "dollar_index": 108.854,
+        "goods_exports": 130.31,
+        "durable_payroll": 7732.0
+      },
+      "zscores": {
+        "dollar_index": -0.322,
+        "goods_exports": 0.968,
+        "durable_payroll": 0.851
+      },
+      "events": []
+    },
+    {
+      "date": "2017-10-01",
+      "values": {
+        "dollar_index": 110.889,
+        "goods_exports": 131.635,
+        "durable_payroll": 7742.0
+      },
+      "zscores": {
+        "dollar_index": 0.026,
+        "goods_exports": 1.391,
+        "durable_payroll": 1.125
+      },
+      "events": []
+    },
+    {
+      "date": "2017-11-01",
+      "values": {
+        "dollar_index": 111.163,
+        "goods_exports": 135.163,
+        "durable_payroll": 7762.0
+      },
+      "zscores": {
+        "dollar_index": 0.013,
+        "goods_exports": 2.223,
+        "durable_payroll": 1.67
+      },
+      "events": []
+    },
+    {
+      "date": "2017-12-01",
+      "values": {
+        "dollar_index": 110.876,
+        "goods_exports": 137.825,
+        "durable_payroll": 7786.0
+      },
+      "zscores": {
+        "dollar_index": -0.145,
+        "goods_exports": 2.683,
+        "durable_payroll": 2.202
+      },
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "dollar_index": 108.357,
+        "goods_exports": 134.575,
+        "durable_payroll": 7805.0
+      },
+      "zscores": {
+        "dollar_index": -0.971,
+        "goods_exports": 1.864,
+        "durable_payroll": 2.452
+      },
+      "events": []
+    },
+    {
+      "date": "2018-02-01",
+      "values": {
+        "dollar_index": 107.65,
+        "goods_exports": 137.531,
+        "durable_payroll": 7827.0
+      },
+      "zscores": {
+        "dollar_index": -1.253,
+        "goods_exports": 2.259,
+        "durable_payroll": 2.66
+      },
+      "events": []
+    },
+    {
+      "date": "2018-03-01",
+      "values": {
+        "dollar_index": 107.947,
+        "goods_exports": 140.257,
+        "durable_payroll": 7853.0
+      },
+      "zscores": {
+        "dollar_index": -1.171,
+        "goods_exports": 2.481,
+        "durable_payroll": 2.824
+      },
+      "events": []
+    },
+    {
+      "date": "2018-04-01",
+      "values": {
+        "dollar_index": 107.943,
+        "goods_exports": 140.638,
+        "durable_payroll": 7870.0
+      },
+      "zscores": {
+        "dollar_index": -1.212,
+        "goods_exports": 2.305,
+        "durable_payroll": 2.751
+      },
+      "events": []
+    },
+    {
+      "date": "2018-05-01",
+      "values": {
+        "dollar_index": 111.047,
+        "goods_exports": 143.86,
+        "durable_payroll": 7885.0
+      },
+      "zscores": {
+        "dollar_index": -0.259,
+        "goods_exports": 2.506,
+        "durable_payroll": 2.652
+      },
+      "events": []
+    },
+    {
+      "date": "2018-06-01",
+      "values": {
+        "dollar_index": 112.844,
+        "goods_exports": 141.848,
+        "durable_payroll": 7911.0
+      },
+      "zscores": {
+        "dollar_index": 0.322,
+        "goods_exports": 2.014,
+        "durable_payroll": 2.684
+      },
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "dollar_index": 113.059,
+        "goods_exports": 139.405,
+        "durable_payroll": 7928.0
+      },
+      "zscores": {
+        "dollar_index": 0.361,
+        "goods_exports": 1.562,
+        "durable_payroll": 2.578
+      },
+      "events": []
+    },
+    {
+      "date": "2018-08-01",
+      "values": {
+        "dollar_index": 113.832,
+        "goods_exports": 138.889,
+        "durable_payroll": 7936.0
+      },
+      "zscores": {
+        "dollar_index": 0.617,
+        "goods_exports": 1.4,
+        "durable_payroll": 2.392
+      },
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "dollar_index": 114.079,
+        "goods_exports": 141.314,
+        "durable_payroll": 7955.0
+      },
+      "zscores": {
+        "dollar_index": 0.675,
+        "goods_exports": 1.605,
+        "durable_payroll": 2.344
+      },
+      "events": []
+    },
+    {
+      "date": "2018-10-01",
+      "values": {
+        "dollar_index": 114.831,
+        "goods_exports": 142.181,
+        "durable_payroll": 7975.0
+      },
+      "zscores": {
+        "dollar_index": 0.91,
+        "goods_exports": 1.599,
+        "durable_payroll": 2.3
+      },
+      "events": []
+    },
+    {
+      "date": "2018-11-01",
+      "values": {
+        "dollar_index": 116.169,
+        "goods_exports": 139.523,
+        "durable_payroll": 7983.0
+      },
+      "zscores": {
+        "dollar_index": 1.338,
+        "goods_exports": 1.197,
+        "durable_payroll": 2.153
+      },
+      "events": []
+    },
+    {
+      "date": "2018-12-01",
+      "values": {
+        "dollar_index": 116.212,
+        "goods_exports": 136.892,
+        "durable_payroll": 8000.0
+      },
+      "zscores": {
+        "dollar_index": 1.287,
+        "goods_exports": 0.823,
+        "durable_payroll": 2.1
+      },
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "dollar_index": 114.442,
+        "goods_exports": 138.58,
+        "durable_payroll": 8025.0
+      },
+      "zscores": {
+        "dollar_index": 0.657,
+        "goods_exports": 0.984,
+        "durable_payroll": 2.108
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "dollar_index": 114.413,
+        "goods_exports": 139.872,
+        "durable_payroll": 8020.0
+      },
+      "zscores": {
+        "dollar_index": 0.645,
+        "goods_exports": 1.093,
+        "durable_payroll": 1.896
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "dollar_index": 114.784,
+        "goods_exports": 140.456,
+        "durable_payroll": 8021.0
+      },
+      "zscores": {
+        "dollar_index": 0.746,
+        "goods_exports": 1.117,
+        "durable_payroll": 1.761
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "dollar_index": 114.904,
+        "goods_exports": 136.155,
+        "durable_payroll": 8016.0
+      },
+      "zscores": {
+        "dollar_index": 0.744,
+        "goods_exports": 0.501,
+        "durable_payroll": 1.604
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "dollar_index": 115.957,
+        "goods_exports": 139.405,
+        "durable_payroll": 8006.0
+      },
+      "zscores": {
+        "dollar_index": 1.068,
+        "goods_exports": 0.905,
+        "durable_payroll": 1.435
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "dollar_index": 115.427,
+        "goods_exports": 136.77,
+        "durable_payroll": 8007.0
+      },
+      "zscores": {
+        "dollar_index": 0.833,
+        "goods_exports": 0.485,
+        "durable_payroll": 1.358
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "dollar_index": 115.078,
+        "goods_exports": 137.794,
+        "durable_payroll": 8011.0
+      },
+      "zscores": {
+        "dollar_index": 0.678,
+        "goods_exports": 0.596,
+        "durable_payroll": 1.306
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "dollar_index": 117.1,
+        "goods_exports": 137.488,
+        "durable_payroll": 8003.0
+      },
+      "zscores": {
+        "dollar_index": 1.316,
+        "goods_exports": 0.505,
+        "durable_payroll": 1.181
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "dollar_index": 117.324,
+        "goods_exports": 136.669,
+        "durable_payroll": 7998.0
+      },
+      "zscores": {
+        "dollar_index": 1.314,
+        "goods_exports": 0.329,
+        "durable_payroll": 1.085
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "dollar_index": 116.746,
+        "goods_exports": 136.659,
+        "durable_payroll": 7943.0
+      },
+      "zscores": {
+        "dollar_index": 1.068,
+        "goods_exports": 0.281,
+        "durable_payroll": 0.645
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "dollar_index": 116.559,
+        "goods_exports": 137.266,
+        "durable_payroll": 7983.0
+      },
+      "zscores": {
+        "dollar_index": 0.997,
+        "goods_exports": 0.34,
+        "durable_payroll": 0.89
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "dollar_index": 115.91,
+        "goods_exports": 137.986,
+        "durable_payroll": 7973.0
+      },
+      "zscores": {
+        "dollar_index": 0.816,
+        "goods_exports": 0.434,
+        "durable_payroll": 0.77
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "dollar_index": 115.279,
+        "goods_exports": 136.175,
+        "durable_payroll": 7963.0
+      },
+      "zscores": {
+        "dollar_index": 0.641,
+        "goods_exports": 0.031,
+        "durable_payroll": 0.65
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "dollar_index": 116.71,
+        "goods_exports": 137.583,
+        "durable_payroll": 7963.0
+      },
+      "zscores": {
+        "dollar_index": 1.129,
+        "goods_exports": 0.278,
+        "durable_payroll": 0.607
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "dollar_index": 121.023,
+        "goods_exports": 126.704,
+        "durable_payroll": 7930.0
+      },
+      "zscores": {
+        "dollar_index": 2.381,
+        "goods_exports": -2.018,
+        "durable_payroll": 0.289
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "dollar_index": 123.28,
+        "goods_exports": 94.513,
+        "durable_payroll": 7030.0
+      },
+      "zscores": {
+        "dollar_index": 2.701,
+        "goods_exports": -4.97,
+        "durable_payroll": -4.698
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "dollar_index": 122.615,
+        "goods_exports": 90.117,
+        "durable_payroll": 7162.0
+      },
+      "zscores": {
+        "dollar_index": 2.259,
+        "goods_exports": -4.02,
+        "durable_payroll": -3.286
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "dollar_index": 119.677,
+        "goods_exports": 103.668,
+        "durable_payroll": 7427.0
+      },
+      "zscores": {
+        "dollar_index": 1.392,
+        "goods_exports": -2.484,
+        "durable_payroll": -1.92
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "dollar_index": 118.69,
+        "goods_exports": 115.415,
+        "durable_payroll": 7448.0
+      },
+      "zscores": {
+        "dollar_index": 1.076,
+        "goods_exports": -1.444,
+        "durable_payroll": -1.732
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "dollar_index": 116.945,
+        "goods_exports": 118.859,
+        "durable_payroll": 7440.0
+      },
+      "zscores": {
+        "dollar_index": 0.588,
+        "goods_exports": -1.126,
+        "durable_payroll": -1.67
+      },
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "dollar_index": 116.343,
+        "goods_exports": 123.549,
+        "durable_payroll": 7482.0
+      },
+      "zscores": {
+        "dollar_index": 0.389,
+        "goods_exports": -0.734,
+        "durable_payroll": -1.428
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "dollar_index": 115.78,
+        "goods_exports": 125.549,
+        "durable_payroll": 7492.0
+      },
+      "zscores": {
+        "dollar_index": 0.205,
+        "goods_exports": -0.56,
+        "durable_payroll": -1.327
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "dollar_index": 114.098,
+        "goods_exports": 128.213,
+        "durable_payroll": 7517.0
+      },
+      "zscores": {
+        "dollar_index": -0.28,
+        "goods_exports": -0.336,
+        "durable_payroll": -1.179
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "dollar_index": 111.899,
+        "goods_exports": 133.504,
+        "durable_payroll": 7533.0
+      },
+      "zscores": {
+        "dollar_index": -0.904,
+        "goods_exports": 0.088,
+        "durable_payroll": -1.072
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "dollar_index": 111.487,
+        "goods_exports": 135.286,
+        "durable_payroll": 7524.0
+      },
+      "zscores": {
+        "dollar_index": -1.083,
+        "goods_exports": 0.226,
+        "durable_payroll": -1.059
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "dollar_index": 112.017,
+        "goods_exports": 132.166,
+        "durable_payroll": 7545.0
+      },
+      "zscores": {
+        "dollar_index": -1.023,
+        "goods_exports": -0.007,
+        "durable_payroll": -0.939
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "dollar_index": 113.337,
+        "goods_exports": 144.388,
+        "durable_payroll": 7585.0
+      },
+      "zscores": {
+        "dollar_index": -0.713,
+        "goods_exports": 0.938,
+        "durable_payroll": -0.758
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "dollar_index": 112.632,
+        "goods_exports": 143.775,
+        "durable_payroll": 7553.0
+      },
+      "zscores": {
+        "dollar_index": -1.072,
+        "goods_exports": 0.879,
+        "durable_payroll": -0.835
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "dollar_index": 111.212,
+        "goods_exports": 145.18,
+        "durable_payroll": 7571.0
+      },
+      "zscores": {
+        "dollar_index": -1.587,
+        "goods_exports": 0.983,
+        "durable_payroll": -0.734
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "dollar_index": 111.578,
+        "goods_exports": 146.233,
+        "durable_payroll": 7600.0
+      },
+      "zscores": {
+        "dollar_index": -1.421,
+        "goods_exports": 1.046,
+        "durable_payroll": -0.597
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "dollar_index": 113.063,
+        "goods_exports": 148.045,
+        "durable_payroll": 7640.0
+      },
+      "zscores": {
+        "dollar_index": -0.896,
+        "goods_exports": 1.149,
+        "durable_payroll": -0.424
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "dollar_index": 113.403,
+        "goods_exports": 148.986,
+        "durable_payroll": 7671.0
+      },
+      "zscores": {
+        "dollar_index": -0.769,
+        "goods_exports": 1.179,
+        "durable_payroll": -0.287
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "dollar_index": 113.444,
+        "goods_exports": 144.542,
+        "durable_payroll": 7698.0
+      },
+      "zscores": {
+        "dollar_index": -0.746,
+        "goods_exports": 0.838,
+        "durable_payroll": -0.164
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "dollar_index": 114.064,
+        "goods_exports": 158.446,
+        "durable_payroll": 7737.0
+      },
+      "zscores": {
+        "dollar_index": -0.519,
+        "goods_exports": 1.761,
+        "durable_payroll": 0.003
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "dollar_index": 114.99,
+        "goods_exports": 157.457,
+        "durable_payroll": 7756.0
+      },
+      "zscores": {
+        "dollar_index": -0.183,
+        "goods_exports": 1.598,
+        "durable_payroll": 0.098
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "dollar_index": 115.805,
+        "goods_exports": 161.348,
+        "durable_payroll": 7777.0
+      },
+      "zscores": {
+        "dollar_index": 0.107,
+        "goods_exports": 1.739,
+        "durable_payroll": 0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "dollar_index": 115.037,
+        "goods_exports": 157.852,
+        "durable_payroll": 7800.0
+      },
+      "zscores": {
+        "dollar_index": -0.168,
+        "goods_exports": 1.432,
+        "durable_payroll": 0.32
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "dollar_index": 114.998,
+        "goods_exports": 161.191,
+        "durable_payroll": 7808.0
+      },
+      "zscores": {
+        "dollar_index": -0.188,
+        "goods_exports": 1.552,
+        "durable_payroll": 0.38
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "dollar_index": 116.291,
+        "goods_exports": 171.505,
+        "durable_payroll": 7863.0
+      },
+      "zscores": {
+        "dollar_index": 0.252,
+        "goods_exports": 2.01,
+        "durable_payroll": 0.625
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "dollar_index": 117.169,
+        "goods_exports": 177.675,
+        "durable_payroll": 7894.0
+      },
+      "zscores": {
+        "dollar_index": 0.537,
+        "goods_exports": 2.144,
+        "durable_payroll": 0.773
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "dollar_index": 119.696,
+        "goods_exports": 180.321,
+        "durable_payroll": 7894.0
+      },
+      "zscores": {
+        "dollar_index": 1.35,
+        "goods_exports": 2.083,
+        "durable_payroll": 0.796
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "dollar_index": 120.026,
+        "goods_exports": 182.577,
+        "durable_payroll": 7906.0
+      },
+      "zscores": {
+        "dollar_index": 1.38,
+        "goods_exports": 2.007,
+        "durable_payroll": 0.867
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "dollar_index": 122.751,
+        "goods_exports": 183.636,
+        "durable_payroll": 7931.0
+      },
+      "zscores": {
+        "dollar_index": 2.076,
+        "goods_exports": 1.892,
+        "durable_payroll": 0.991
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "dollar_index": 122.318,
+        "goods_exports": 183.226,
+        "durable_payroll": 7966.0
+      },
+      "zscores": {
+        "dollar_index": 1.808,
+        "goods_exports": 1.737,
+        "durable_payroll": 1.149
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "dollar_index": 125.595,
+        "goods_exports": 179.567,
+        "durable_payroll": 7976.0
+      },
+      "zscores": {
+        "dollar_index": 2.468,
+        "goods_exports": 1.481,
+        "durable_payroll": 1.198
+      },
+      "events": [
+        {
+          "label": "Dollar near a 20-year high",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "dollar_index": 127.481,
+        "goods_exports": 176.393,
+        "durable_payroll": 8002.0
+      },
+      "zscores": {
+        "dollar_index": 2.602,
+        "goods_exports": 1.273,
+        "durable_payroll": 1.29
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "dollar_index": 124.853,
+        "goods_exports": 172.205,
+        "durable_payroll": 8012.0
+      },
+      "zscores": {
+        "dollar_index": 1.817,
+        "goods_exports": 1.047,
+        "durable_payroll": 1.323
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "dollar_index": 122.234,
+        "goods_exports": 169.429,
+        "durable_payroll": 8031.0
+      },
+      "zscores": {
+        "dollar_index": 1.15,
+        "goods_exports": 0.891,
+        "durable_payroll": 1.385
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "dollar_index": 119.81,
+        "goods_exports": 174.97,
+        "durable_payroll": 8036.0
+      },
+      "zscores": {
+        "dollar_index": 0.571,
+        "goods_exports": 1.055,
+        "durable_payroll": 1.382
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "dollar_index": 120.308,
+        "goods_exports": 168.757,
+        "durable_payroll": 8032.0
+      },
+      "zscores": {
+        "dollar_index": 0.657,
+        "goods_exports": 0.772,
+        "durable_payroll": 1.345
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "dollar_index": 120.745,
+        "goods_exports": 173.468,
+        "durable_payroll": 8028.0
+      },
+      "zscores": {
+        "dollar_index": 0.758,
+        "goods_exports": 0.905,
+        "durable_payroll": 1.302
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "dollar_index": 119.245,
+        "goods_exports": 167.163,
+        "durable_payroll": 8023.0
+      },
+      "zscores": {
+        "dollar_index": 0.456,
+        "goods_exports": 0.62,
+        "durable_payroll": 1.286
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "dollar_index": 119.629,
+        "goods_exports": 166.386,
+        "durable_payroll": 8014.0
+      },
+      "zscores": {
+        "dollar_index": 0.573,
+        "goods_exports": 0.553,
+        "durable_payroll": 1.234
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "dollar_index": 119.297,
+        "goods_exports": 164.824,
+        "durable_payroll": 8027.0
+      },
+      "zscores": {
+        "dollar_index": 0.498,
+        "goods_exports": 0.436,
+        "durable_payroll": 1.234
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "dollar_index": 118.049,
+        "goods_exports": 168.32,
+        "durable_payroll": 8025.0
+      },
+      "zscores": {
+        "dollar_index": 0.21,
+        "goods_exports": 0.572,
+        "durable_payroll": 1.166
+      },
+      "events": []
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "dollar_index": 119.856,
+        "goods_exports": 172.823,
+        "durable_payroll": 8029.0
+      },
+      "zscores": {
+        "dollar_index": 0.612,
+        "goods_exports": 0.776,
+        "durable_payroll": 1.134
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "dollar_index": 121.645,
+        "goods_exports": 175.209,
+        "durable_payroll": 8029.0
+      },
+      "zscores": {
+        "dollar_index": 0.983,
+        "goods_exports": 0.873,
+        "durable_payroll": 1.081
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "dollar_index": 123.497,
+        "goods_exports": 174.693,
+        "durable_payroll": 7990.0
+      },
+      "zscores": {
+        "dollar_index": 1.329,
+        "goods_exports": 0.805,
+        "durable_payroll": 0.835
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "dollar_index": 121.222,
+        "goods_exports": 168.405,
+        "durable_payroll": 8017.0
+      },
+      "zscores": {
+        "dollar_index": 0.772,
+        "goods_exports": 0.361,
+        "durable_payroll": 0.933
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "dollar_index": 119.833,
+        "goods_exports": 172.195,
+        "durable_payroll": 8029.0
+      },
+      "zscores": {
+        "dollar_index": 0.419,
+        "goods_exports": 0.576,
+        "durable_payroll": 0.953
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "dollar_index": 120.227,
+        "goods_exports": 170.031,
+        "durable_payroll": 8023.0
+      },
+      "zscores": {
+        "dollar_index": 0.468,
+        "goods_exports": 0.375,
+        "durable_payroll": 0.878
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "dollar_index": 121.066,
+        "goods_exports": 175.003,
+        "durable_payroll": 8004.0
+      },
+      "zscores": {
+        "dollar_index": 0.624,
+        "goods_exports": 0.726,
+        "durable_payroll": 0.725
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "dollar_index": 120.659,
+        "goods_exports": 171.232,
+        "durable_payroll": 7993.0
+      },
+      "zscores": {
+        "dollar_index": 0.485,
+        "goods_exports": 0.367,
+        "durable_payroll": 0.615
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "dollar_index": 122.143,
+        "goods_exports": 173.479,
+        "durable_payroll": 7988.0
+      },
+      "zscores": {
+        "dollar_index": 0.808,
+        "goods_exports": 0.521,
+        "durable_payroll": 0.542
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "dollar_index": 121.858,
+        "goods_exports": 171.044,
+        "durable_payroll": 7981.0
+      },
+      "zscores": {
+        "dollar_index": 0.696,
+        "goods_exports": 0.245,
+        "durable_payroll": 0.45
+      },
+      "events": []
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "dollar_index": 123.71,
+        "goods_exports": 173.502,
+        "durable_payroll": 7968.0
+      },
+      "zscores": {
+        "dollar_index": 1.155,
+        "goods_exports": 0.444,
+        "durable_payroll": 0.297
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "dollar_index": 123.382,
+        "goods_exports": 174.61,
+        "durable_payroll": 7960.0
+      },
+      "zscores": {
+        "dollar_index": 1.018,
+        "goods_exports": 0.521,
+        "durable_payroll": 0.168
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "dollar_index": 122.614,
+        "goods_exports": 178.079,
+        "durable_payroll": 7930.0
+      },
+      "zscores": {
+        "dollar_index": 0.753,
+        "goods_exports": 0.896,
+        "durable_payroll": -0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "dollar_index": 121.885,
+        "goods_exports": 174.966,
+        "durable_payroll": 7921.0
+      },
+      "zscores": {
+        "dollar_index": 0.487,
+        "goods_exports": 0.483,
+        "durable_payroll": -0.403
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "dollar_index": 123.595,
+        "goods_exports": 170.966,
+        "durable_payroll": 7870.0
+      },
+      "zscores": {
+        "dollar_index": 1.006,
+        "goods_exports": -0.174,
+        "durable_payroll": -1.132
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "dollar_index": 126.311,
+        "goods_exports": 176.707,
+        "durable_payroll": 7895.0
+      },
+      "zscores": {
+        "dollar_index": 1.838,
+        "goods_exports": 0.698,
+        "durable_payroll": -0.947
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "dollar_index": 127.576,
+        "goods_exports": 170.109,
+        "durable_payroll": 7875.0
+      },
+      "zscores": {
+        "dollar_index": 2.115,
+        "goods_exports": -0.491,
+        "durable_payroll": -1.367
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "dollar_index": 128.837,
+        "goods_exports": 173.046,
+        "durable_payroll": 7858.0
+      },
+      "zscores": {
+        "dollar_index": 2.365,
+        "goods_exports": -0.045,
+        "durable_payroll": -1.736
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "dollar_index": 127.876,
+        "goods_exports": 179.391,
+        "durable_payroll": 7859.0
+      },
+      "zscores": {
+        "dollar_index": 1.962,
+        "goods_exports": 1.213,
+        "durable_payroll": -1.833
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "dollar_index": 126.243,
+        "goods_exports": 182.864,
+        "durable_payroll": 7854.0
+      },
+      "zscores": {
+        "dollar_index": 1.359,
+        "goods_exports": 1.811,
+        "durable_payroll": -1.898
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "dollar_index": 124.14,
+        "goods_exports": 189.917,
+        "durable_payroll": 7853.0
+      },
+      "zscores": {
+        "dollar_index": 0.59,
+        "goods_exports": 2.829,
+        "durable_payroll": -1.842
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "dollar_index": 122.342,
+        "goods_exports": 181.784,
+        "durable_payroll": 7845.0
+      },
+      "zscores": {
+        "dollar_index": -0.087,
+        "goods_exports": 1.324,
+        "durable_payroll": -1.885
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "dollar_index": 120.594,
+        "goods_exports": 179.101,
+        "durable_payroll": 7833.0
+      },
+      "zscores": {
+        "dollar_index": -0.736,
+        "goods_exports": 0.874,
+        "durable_payroll": -1.951
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "dollar_index": 120.113,
+        "goods_exports": 179.32,
+        "durable_payroll": 7834.0
+      },
+      "zscores": {
+        "dollar_index": -0.877,
+        "goods_exports": 0.965,
+        "durable_payroll": -1.811
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "dollar_index": 120.576,
+        "goods_exports": 178.393,
+        "durable_payroll": 7819.0
+      },
+      "zscores": {
+        "dollar_index": -0.686,
+        "goods_exports": 0.842,
+        "durable_payroll": -1.866
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "dollar_index": 120.029,
+        "goods_exports": 186.465,
+        "durable_payroll": 7814.0
+      },
+      "zscores": {
+        "dollar_index": -0.835,
+        "goods_exports": 2.251,
+        "durable_payroll": -1.787
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "dollar_index": 120.762,
+        "goods_exports": 195.879,
+        "durable_payroll": 7805.0
+      },
+      "zscores": {
+        "dollar_index": -0.525,
+        "goods_exports": 3.258,
+        "durable_payroll": -1.759
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "dollar_index": 121.418,
+        "goods_exports": 184.881,
+        "durable_payroll": 7802.0
+      },
+      "zscores": {
+        "dollar_index": -0.241,
+        "goods_exports": 1.457,
+        "durable_payroll": -1.67
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "dollar_index": 120.188,
+        "goods_exports": 180.88,
+        "durable_payroll": 7797.0
+      },
+      "zscores": {
+        "dollar_index": -0.692,
+        "goods_exports": 0.808,
+        "durable_payroll": -1.616
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "dollar_index": 119.23,
+        "goods_exports": 194.699,
+        "durable_payroll": 7803.0
+      },
+      "zscores": {
+        "dollar_index": -1.05,
+        "goods_exports": 2.537,
+        "durable_payroll": -1.454
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "dollar_index": 117.906,
+        "goods_exports": 206.055,
+        "durable_payroll": 7811.0
+      },
+      "zscores": {
+        "dollar_index": -1.491,
+        "goods_exports": 3.314,
+        "durable_payroll": -1.286
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "dollar_index": 119.92,
+        "goods_exports": 212.505,
+        "durable_payroll": 7824.0
+      },
+      "zscores": {
+        "dollar_index": -0.727,
+        "goods_exports": 3.278,
+        "durable_payroll": -1.076
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "dollar_index": 119.036,
+        "goods_exports": 222.014,
+        "durable_payroll": 7825.0
+      },
+      "zscores": {
+        "dollar_index": -1.051,
+        "goods_exports": 3.374,
+        "durable_payroll": -1.008
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "dollar_index": 118.779,
+        "goods_exports": 211.052,
+        "durable_payroll": 7839.0
+      },
+      "zscores": {
+        "dollar_index": -1.128,
+        "goods_exports": 2.256,
+        "durable_payroll": -0.797
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "dollar_index": 120.083,
+        "goods_exports": 207.248,
+        "durable_payroll": 7852.0
+      },
+      "zscores": {
+        "dollar_index": -0.66,
+        "goods_exports": 1.829,
+        "durable_payroll": -0.6
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "dollar_index": 120.597,
+        "goods_exports": 201.245,
+        "durable_payroll": 7876.0
+      },
+      "zscores": {
+        "dollar_index": -0.509,
+        "goods_exports": 1.311,
+        "durable_payroll": -0.267
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "dollar_index": 118.851,
+        "goods_exports": 205.66,
+        "durable_payroll": 7890.0
+      },
+      "zscores": {
+        "dollar_index": -1.15,
+        "goods_exports": 1.523,
+        "durable_payroll": -0.046
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "How strong the US dollar is against other currencies, how much American goods sell abroad, and how many people work in factories that make machines, cars and equipment. The stripes below show every month since 2007: red means higher than a year before, blue means lower. A stronger dollar makes American goods more expensive abroad, so exports fall about 2 months later. Factory jobs follow exports a few months after that.",
+    "methodology": "Nominal broad US dollar index from the Federal Reserve via FRED (DTWEXBGS, January 2006 = 100, monthly average). Goods exports from Census and BEA via FRED (BOPGEXP). Durable goods manufacturing jobs from BLS (CES3100000001). The chart starts in 2006, the first year of the dollar index.",
+    "key_findings": [
+      {
+        "date": "2010-02-01",
+        "title": "2010: Factory Jobs Bottom",
+        "description": "Durable goods jobs fell from 9.02 million (June 2006) to 6.97 million in February 2010, a loss of about 2 million.",
+        "significance": "Most of these jobs never came back.",
+        "normalized_time": 0.1984
+      },
+      {
+        "date": "2015-12-01",
+        "title": "2014-2015: The Dollar Jumps",
+        "description": "The dollar rose 16% in about a year, from 97 to 113. Exports fell from $138 billion a month (October 2014) to $120 billion.",
+        "significance": "A strong dollar cuts exports quickly.",
+        "normalized_time": 0.4818
+      },
+      {
+        "date": "2025-01-01",
+        "title": "January 2025: Strongest Dollar on the Chart",
+        "description": "The dollar index reached 129. Exports still rose to records, about $222 billion a month by April 2026.",
+        "significance": "Factory jobs (7.9 million as of August 2026) remain well below their 2006 level.",
+        "normalized_time": 0.9231
+      }
+    ]
+  }
+}

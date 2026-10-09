@@ -1,0 +1,1356 @@
+{
+  "metadata": {
+    "chart_id": "chart_26",
+    "number": 26,
+    "title": "Real-Time Grid Duck Curve Evolution",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "24-Hour Polar Clock Area Chart with Daily Step Interpolation",
+    "agencies": [
+      "EIA"
+    ],
+    "engine": "canvas",
+    "frequency": "monthly_anchor",
+    "base_year": 2019,
+    "end_year": 2026,
+    "observation_count": 93,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026-09",
+    "data_notes": "California grid (CAISO) only. Wasted-solar data is not in the EIA API, so it was removed."
+  },
+  "analytics": {
+    "optimal_lag_months": 16,
+    "peak_correlation_coefficient": -0.734,
+    "lag_profile": [
+      {
+        "lag": -18,
+        "r": -0.15
+      },
+      {
+        "lag": -17,
+        "r": 0.151
+      },
+      {
+        "lag": -16,
+        "r": 0.316
+      },
+      {
+        "lag": -15,
+        "r": 0.329
+      },
+      {
+        "lag": -14,
+        "r": 0.292
+      },
+      {
+        "lag": -13,
+        "r": 0.199
+      },
+      {
+        "lag": -12,
+        "r": 0.042
+      },
+      {
+        "lag": -11,
+        "r": -0.178
+      },
+      {
+        "lag": -10,
+        "r": -0.474
+      },
+      {
+        "lag": -9,
+        "r": -0.705
+      },
+      {
+        "lag": -8,
+        "r": -0.709
+      },
+      {
+        "lag": -7,
+        "r": -0.472
+      },
+      {
+        "lag": -6,
+        "r": -0.148
+      },
+      {
+        "lag": -5,
+        "r": 0.154
+      },
+      {
+        "lag": -4,
+        "r": 0.332
+      },
+      {
+        "lag": -3,
+        "r": 0.331
+      },
+      {
+        "lag": -2,
+        "r": 0.25
+      },
+      {
+        "lag": -1,
+        "r": 0.157
+      },
+      {
+        "lag": 0,
+        "r": -0.055
+      },
+      {
+        "lag": 1,
+        "r": -0.219
+      },
+      {
+        "lag": 2,
+        "r": -0.443
+      },
+      {
+        "lag": 3,
+        "r": -0.705
+      },
+      {
+        "lag": 4,
+        "r": -0.732
+      },
+      {
+        "lag": 5,
+        "r": -0.495
+      },
+      {
+        "lag": 6,
+        "r": -0.078
+      },
+      {
+        "lag": 7,
+        "r": 0.283
+      },
+      {
+        "lag": 8,
+        "r": 0.427
+      },
+      {
+        "lag": 9,
+        "r": 0.413
+      },
+      {
+        "lag": 10,
+        "r": 0.374
+      },
+      {
+        "lag": 11,
+        "r": 0.26
+      },
+      {
+        "lag": 12,
+        "r": 0.094
+      },
+      {
+        "lag": 13,
+        "r": -0.087
+      },
+      {
+        "lag": 14,
+        "r": -0.385
+      },
+      {
+        "lag": 15,
+        "r": -0.655
+      },
+      {
+        "lag": 16,
+        "r": -0.734
+      },
+      {
+        "lag": 17,
+        "r": -0.523
+      },
+      {
+        "lag": 18,
+        "r": -0.147
+      }
+    ]
+  },
+  "series_manifest": [
+    {
+      "key": "midday_net_load",
+      "agency": "EIA",
+      "series_id": "EIA-930 CISO demand - solar - wind, 11am-3pm avg",
+      "label": "California Midday Power Needed from Grid (Duck Belly)",
+      "unit": "MW",
+      "transform": "raw",
+      "color": "#eab308"
+    },
+    {
+      "key": "evening_ramp_req",
+      "agency": "EIA",
+      "series_id": "EIA-930 CISO evening peak - midday low",
+      "label": "California Sunset Power Surge (Duck Neck)",
+      "unit": "MW",
+      "transform": "raw",
+      "color": "#ef4444"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-01-01",
+      "values": {
+        "midday_net_load": 14840.79,
+        "evening_ramp_req": 11698.677
+      },
+      "zscores": {
+        "midday_net_load": 0.0,
+        "evening_ramp_req": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-02-01",
+      "values": {
+        "midday_net_load": 12105.357,
+        "evening_ramp_req": 13171.321
+      },
+      "zscores": {
+        "midday_net_load": -1.0,
+        "evening_ramp_req": 1.0
+      },
+      "events": []
+    },
+    {
+      "date": "2019-03-01",
+      "values": {
+        "midday_net_load": 9511.048,
+        "evening_ramp_req": 11402.452
+      },
+      "zscores": {
+        "midday_net_load": -1.214,
+        "evening_ramp_req": -0.89
+      },
+      "events": []
+    },
+    {
+      "date": "2019-04-01",
+      "values": {
+        "midday_net_load": 10963.35,
+        "evening_ramp_req": 12887.233
+      },
+      "zscores": {
+        "midday_net_load": -0.456,
+        "evening_ramp_req": 0.793
+      },
+      "events": []
+    },
+    {
+      "date": "2019-05-01",
+      "values": {
+        "midday_net_load": 11161.935,
+        "evening_ramp_req": 12761.355
+      },
+      "zscores": {
+        "midday_net_load": -0.313,
+        "evening_ramp_req": 0.539
+      },
+      "events": []
+    },
+    {
+      "date": "2019-06-01",
+      "values": {
+        "midday_net_load": 13886.567,
+        "evening_ramp_req": 14637.867
+      },
+      "zscores": {
+        "midday_net_load": 1.001,
+        "evening_ramp_req": 1.78
+      },
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "midday_net_load": 17607.858,
+        "evening_ramp_req": 16047.8
+      },
+      "zscores": {
+        "midday_net_load": 1.853,
+        "evening_ramp_req": 1.867
+      },
+      "events": []
+    },
+    {
+      "date": "2019-08-01",
+      "values": {
+        "midday_net_load": 19000.308,
+        "evening_ramp_req": 17395.233
+      },
+      "zscores": {
+        "midday_net_load": 1.711,
+        "evening_ramp_req": 1.848
+      },
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "midday_net_load": 17628.207,
+        "evening_ramp_req": 15736.69
+      },
+      "zscores": {
+        "midday_net_load": 1.105,
+        "evening_ramp_req": 0.9
+      },
+      "events": []
+    },
+    {
+      "date": "2019-10-01",
+      "values": {
+        "midday_net_load": 13873.895,
+        "evening_ramp_req": 13163.871
+      },
+      "zscores": {
+        "midday_net_load": -0.06,
+        "evening_ramp_req": -0.387
+      },
+      "events": []
+    },
+    {
+      "date": "2019-11-01",
+      "values": {
+        "midday_net_load": 15568.534,
+        "evening_ramp_req": 12145.931
+      },
+      "zscores": {
+        "midday_net_load": 0.467,
+        "evening_ramp_req": -0.853
+      },
+      "events": []
+    },
+    {
+      "date": "2019-12-01",
+      "values": {
+        "midday_net_load": 17559.645,
+        "evening_ramp_req": 10737.097
+      },
+      "zscores": {
+        "midday_net_load": 1.041,
+        "evening_ramp_req": -1.399
+      },
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "midday_net_load": 14344.315,
+        "evening_ramp_req": 12147.935
+      },
+      "zscores": {
+        "midday_net_load": -0.043,
+        "evening_ramp_req": -0.642
+      },
+      "events": []
+    },
+    {
+      "date": "2020-02-01",
+      "values": {
+        "midday_net_load": 11974.768,
+        "evening_ramp_req": 14496.25
+      },
+      "zscores": {
+        "midday_net_load": -0.821,
+        "evening_ramp_req": 0.554
+      },
+      "events": []
+    },
+    {
+      "date": "2020-03-01",
+      "values": {
+        "midday_net_load": 12381.911,
+        "evening_ramp_req": 12696.097
+      },
+      "zscores": {
+        "midday_net_load": -0.644,
+        "evening_ramp_req": -0.392
+      },
+      "events": []
+    },
+    {
+      "date": "2020-04-01",
+      "values": {
+        "midday_net_load": 9605.833,
+        "evening_ramp_req": 13575.133
+      },
+      "zscores": {
+        "midday_net_load": -1.476,
+        "evening_ramp_req": 0.089
+      },
+      "events": []
+    },
+    {
+      "date": "2020-05-01",
+      "values": {
+        "midday_net_load": 10286.081,
+        "evening_ramp_req": 15724.452
+      },
+      "zscores": {
+        "midday_net_load": -1.153,
+        "evening_ramp_req": 1.211
+      },
+      "events": []
+    },
+    {
+      "date": "2020-06-01",
+      "values": {
+        "midday_net_load": 13309.983,
+        "evening_ramp_req": 16078.167
+      },
+      "zscores": {
+        "midday_net_load": -0.118,
+        "evening_ramp_req": 1.299
+      },
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "midday_net_load": 15300.315,
+        "evening_ramp_req": 18403.065
+      },
+      "zscores": {
+        "midday_net_load": 0.56,
+        "evening_ramp_req": 2.152
+      },
+      "events": []
+    },
+    {
+      "date": "2020-08-01",
+      "values": {
+        "midday_net_load": 20436.815,
+        "evening_ramp_req": 17325.871
+      },
+      "zscores": {
+        "midday_net_load": 2.058,
+        "evening_ramp_req": 1.495
+      },
+      "events": [
+        {
+          "label": "Heat wave: midday net load peaks at 20,400 MW",
+          "type": "macro_shock"
+        }
+      ]
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "midday_net_load": 18728.975,
+        "evening_ramp_req": 16810.667
+      },
+      "zscores": {
+        "midday_net_load": 1.397,
+        "evening_ramp_req": 1.181
+      },
+      "events": []
+    },
+    {
+      "date": "2020-10-01",
+      "values": {
+        "midday_net_load": 15836.637,
+        "evening_ramp_req": 15361.71
+      },
+      "zscores": {
+        "midday_net_load": 0.473,
+        "evening_ramp_req": 0.501
+      },
+      "events": []
+    },
+    {
+      "date": "2020-11-01",
+      "values": {
+        "midday_net_load": 12441.792,
+        "evening_ramp_req": 14235.967
+      },
+      "zscores": {
+        "midday_net_load": -0.596,
+        "evening_ramp_req": -0.025
+      },
+      "events": []
+    },
+    {
+      "date": "2020-12-01",
+      "values": {
+        "midday_net_load": 14259.823,
+        "evening_ramp_req": 13447.742
+      },
+      "zscores": {
+        "midday_net_load": -0.005,
+        "evening_ramp_req": -0.392
+      },
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "midday_net_load": 13530.202,
+        "evening_ramp_req": 12887.161
+      },
+      "zscores": {
+        "midday_net_load": -0.242,
+        "evening_ramp_req": -0.646
+      },
+      "events": []
+    },
+    {
+      "date": "2021-02-01",
+      "values": {
+        "midday_net_load": 9482.402,
+        "evening_ramp_req": 14877.929
+      },
+      "zscores": {
+        "midday_net_load": -1.506,
+        "evening_ramp_req": 0.327
+      },
+      "events": []
+    },
+    {
+      "date": "2021-03-01",
+      "values": {
+        "midday_net_load": 9130.145,
+        "evening_ramp_req": 15387.032
+      },
+      "zscores": {
+        "midday_net_load": -1.52,
+        "evening_ramp_req": 0.568
+      },
+      "events": []
+    },
+    {
+      "date": "2021-04-01",
+      "values": {
+        "midday_net_load": 7249.533,
+        "evening_ramp_req": 16349.567
+      },
+      "zscores": {
+        "midday_net_load": -1.933,
+        "evening_ramp_req": 1.017
+      },
+      "events": []
+    },
+    {
+      "date": "2021-05-01",
+      "values": {
+        "midday_net_load": 8207.903,
+        "evening_ramp_req": 16741.581
+      },
+      "zscores": {
+        "midday_net_load": -1.545,
+        "evening_ramp_req": 1.165
+      },
+      "events": []
+    },
+    {
+      "date": "2021-06-01",
+      "values": {
+        "midday_net_load": 13763.667,
+        "evening_ramp_req": 16888.733
+      },
+      "zscores": {
+        "midday_net_load": 0.089,
+        "evening_ramp_req": 1.189
+      },
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "midday_net_load": 18459.839,
+        "evening_ramp_req": 16856.903
+      },
+      "zscores": {
+        "midday_net_load": 1.42,
+        "evening_ramp_req": 1.129
+      },
+      "events": []
+    },
+    {
+      "date": "2021-08-01",
+      "values": {
+        "midday_net_load": 17257.266,
+        "evening_ramp_req": 17690.194
+      },
+      "zscores": {
+        "midday_net_load": 1.032,
+        "evening_ramp_req": 1.465
+      },
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "midday_net_load": 15415.85,
+        "evening_ramp_req": 18022.433
+      },
+      "zscores": {
+        "midday_net_load": 0.482,
+        "evening_ramp_req": 1.541
+      },
+      "events": []
+    },
+    {
+      "date": "2021-10-01",
+      "values": {
+        "midday_net_load": 11984.468,
+        "evening_ramp_req": 14839.581
+      },
+      "zscores": {
+        "midday_net_load": -0.526,
+        "evening_ramp_req": 0.027
+      },
+      "events": []
+    },
+    {
+      "date": "2021-11-01",
+      "values": {
+        "midday_net_load": 12401.633,
+        "evening_ramp_req": 14287.6
+      },
+      "zscores": {
+        "midday_net_load": -0.394,
+        "evening_ramp_req": -0.236
+      },
+      "events": []
+    },
+    {
+      "date": "2021-12-01",
+      "values": {
+        "midday_net_load": 16614.524,
+        "evening_ramp_req": 11294.774
+      },
+      "zscores": {
+        "midday_net_load": 0.864,
+        "evening_ramp_req": -1.613
+      },
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "midday_net_load": 12575.226,
+        "evening_ramp_req": 13960.258
+      },
+      "zscores": {
+        "midday_net_load": -0.348,
+        "evening_ramp_req": -0.38
+      },
+      "events": []
+    },
+    {
+      "date": "2022-02-01",
+      "values": {
+        "midday_net_load": 9527.688,
+        "evening_ramp_req": 16347.607
+      },
+      "zscores": {
+        "midday_net_load": -1.232,
+        "evening_ramp_req": 0.748
+      },
+      "events": []
+    },
+    {
+      "date": "2022-03-01",
+      "values": {
+        "midday_net_load": 8486.105,
+        "evening_ramp_req": 16215.806
+      },
+      "zscores": {
+        "midday_net_load": -1.517,
+        "evening_ramp_req": 0.641
+      },
+      "events": []
+    },
+    {
+      "date": "2022-04-01",
+      "values": {
+        "midday_net_load": 6975.7,
+        "evening_ramp_req": 16737.0
+      },
+      "zscores": {
+        "midday_net_load": -1.85,
+        "evening_ramp_req": 0.856
+      },
+      "events": []
+    },
+    {
+      "date": "2022-05-01",
+      "values": {
+        "midday_net_load": 7538.333,
+        "evening_ramp_req": 17376.033
+      },
+      "zscores": {
+        "midday_net_load": -1.61,
+        "evening_ramp_req": 1.12
+      },
+      "events": []
+    },
+    {
+      "date": "2022-06-01",
+      "values": {
+        "midday_net_load": 12472.138,
+        "evening_ramp_req": 18630.31
+      },
+      "zscores": {
+        "midday_net_load": -0.245,
+        "evening_ramp_req": 1.641
+      },
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "midday_net_load": 14434.871,
+        "evening_ramp_req": 18431.194
+      },
+      "zscores": {
+        "midday_net_load": 0.323,
+        "evening_ramp_req": 1.466
+      },
+      "events": []
+    },
+    {
+      "date": "2022-08-01",
+      "values": {
+        "midday_net_load": 17998.081,
+        "evening_ramp_req": 19330.968
+      },
+      "zscores": {
+        "midday_net_load": 1.341,
+        "evening_ramp_req": 1.806
+      },
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "midday_net_load": 18353.333,
+        "evening_ramp_req": 17807.7
+      },
+      "zscores": {
+        "midday_net_load": 1.424,
+        "evening_ramp_req": 1.059
+      },
+      "events": []
+    },
+    {
+      "date": "2022-10-01",
+      "values": {
+        "midday_net_load": 13142.073,
+        "evening_ramp_req": 15396.484
+      },
+      "zscores": {
+        "midday_net_load": -0.031,
+        "evening_ramp_req": -0.068
+      },
+      "events": []
+    },
+    {
+      "date": "2022-11-01",
+      "values": {
+        "midday_net_load": 11185.233,
+        "evening_ramp_req": 14676.333
+      },
+      "zscores": {
+        "midday_net_load": -0.546,
+        "evening_ramp_req": -0.448
+      },
+      "events": []
+    },
+    {
+      "date": "2022-12-01",
+      "values": {
+        "midday_net_load": 15977.371,
+        "evening_ramp_req": 11385.452
+      },
+      "zscores": {
+        "midday_net_load": 0.823,
+        "evening_ramp_req": -2.069
+      },
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "midday_net_load": 14580.056,
+        "evening_ramp_req": 11944.548
+      },
+      "zscores": {
+        "midday_net_load": 0.423,
+        "evening_ramp_req": -1.785
+      },
+      "events": []
+    },
+    {
+      "date": "2023-02-01",
+      "values": {
+        "midday_net_load": 11491.027,
+        "evening_ramp_req": 14580.0
+      },
+      "zscores": {
+        "midday_net_load": -0.451,
+        "evening_ramp_req": -0.509
+      },
+      "events": []
+    },
+    {
+      "date": "2023-03-01",
+      "values": {
+        "midday_net_load": 12471.573,
+        "evening_ramp_req": 12544.935
+      },
+      "zscores": {
+        "midday_net_load": -0.173,
+        "evening_ramp_req": -1.49
+      },
+      "events": []
+    },
+    {
+      "date": "2023-04-01",
+      "values": {
+        "midday_net_load": 8317.992,
+        "evening_ramp_req": 15753.767
+      },
+      "zscores": {
+        "midday_net_load": -1.327,
+        "evening_ramp_req": 0.034
+      },
+      "events": []
+    },
+    {
+      "date": "2023-05-01",
+      "values": {
+        "midday_net_load": 8900.089,
+        "evening_ramp_req": 15684.0
+      },
+      "zscores": {
+        "midday_net_load": -1.141,
+        "evening_ramp_req": 0.0
+      },
+      "events": []
+    },
+    {
+      "date": "2023-06-01",
+      "values": {
+        "midday_net_load": 8334.608,
+        "evening_ramp_req": 16689.833
+      },
+      "zscores": {
+        "midday_net_load": -1.232,
+        "evening_ramp_req": 0.484
+      },
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "midday_net_load": 13525.573,
+        "evening_ramp_req": 20520.677
+      },
+      "zscores": {
+        "midday_net_load": 0.193,
+        "evening_ramp_req": 2.217
+      },
+      "events": [
+        {
+          "label": "Evening ramp peaks at 20,500 MW",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-01",
+      "values": {
+        "midday_net_load": 15282.355,
+        "evening_ramp_req": 20455.387
+      },
+      "zscores": {
+        "midday_net_load": 0.755,
+        "evening_ramp_req": 2.031
+      },
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "midday_net_load": 11621.683,
+        "evening_ramp_req": 18582.2
+      },
+      "zscores": {
+        "midday_net_load": -0.26,
+        "evening_ramp_req": 1.164
+      },
+      "events": []
+    },
+    {
+      "date": "2023-10-01",
+      "values": {
+        "midday_net_load": 10577.867,
+        "evening_ramp_req": 18502.967
+      },
+      "zscores": {
+        "midday_net_load": -0.537,
+        "evening_ramp_req": 1.075
+      },
+      "events": []
+    },
+    {
+      "date": "2023-11-01",
+      "values": {
+        "midday_net_load": 10796.06,
+        "evening_ramp_req": 15802.138
+      },
+      "zscores": {
+        "midday_net_load": -0.455,
+        "evening_ramp_req": -0.096
+      },
+      "events": []
+    },
+    {
+      "date": "2023-12-01",
+      "values": {
+        "midday_net_load": 13920.218,
+        "evening_ramp_req": 13132.419
+      },
+      "zscores": {
+        "midday_net_load": 0.502,
+        "evening_ramp_req": -1.234
+      },
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "midday_net_load": 13376.411,
+        "evening_ramp_req": 12540.226
+      },
+      "zscores": {
+        "midday_net_load": 0.338,
+        "evening_ramp_req": -1.474
+      },
+      "events": []
+    },
+    {
+      "date": "2024-02-01",
+      "values": {
+        "midday_net_load": 10790.664,
+        "evening_ramp_req": 14273.345
+      },
+      "zscores": {
+        "midday_net_load": -0.468,
+        "evening_ramp_req": -0.727
+      },
+      "events": []
+    },
+    {
+      "date": "2024-03-01",
+      "values": {
+        "midday_net_load": 8228.887,
+        "evening_ramp_req": 14852.581
+      },
+      "zscores": {
+        "midday_net_load": -1.239,
+        "evening_ramp_req": -0.474
+      },
+      "events": []
+    },
+    {
+      "date": "2024-04-01",
+      "values": {
+        "midday_net_load": 6662.742,
+        "evening_ramp_req": 15552.133
+      },
+      "zscores": {
+        "midday_net_load": -1.699,
+        "evening_ramp_req": -0.17
+      },
+      "events": []
+    },
+    {
+      "date": "2024-05-01",
+      "values": {
+        "midday_net_load": 5684.452,
+        "evening_ramp_req": 16615.258
+      },
+      "zscores": {
+        "midday_net_load": -1.91,
+        "evening_ramp_req": 0.281
+      },
+      "events": [
+        {
+          "label": "Midday net load bottoms at 5,700 MW",
+          "type": "policy_shift"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-01",
+      "values": {
+        "midday_net_load": 9026.083,
+        "evening_ramp_req": 18278.333
+      },
+      "zscores": {
+        "midday_net_load": -0.884,
+        "evening_ramp_req": 0.957
+      },
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "midday_net_load": 15152.613,
+        "evening_ramp_req": 19825.323
+      },
+      "zscores": {
+        "midday_net_load": 0.961,
+        "evening_ramp_req": 1.52
+      },
+      "events": []
+    },
+    {
+      "date": "2024-08-01",
+      "values": {
+        "midday_net_load": 13687.758,
+        "evening_ramp_req": 20083.387
+      },
+      "zscores": {
+        "midday_net_load": 0.566,
+        "evening_ramp_req": 1.551
+      },
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "midday_net_load": 12730.625,
+        "evening_ramp_req": 19472.967
+      },
+      "zscores": {
+        "midday_net_load": 0.295,
+        "evening_ramp_req": 1.275
+      },
+      "events": []
+    },
+    {
+      "date": "2024-10-01",
+      "values": {
+        "midday_net_load": 12479.887,
+        "evening_ramp_req": 16885.871
+      },
+      "zscores": {
+        "midday_net_load": 0.211,
+        "evening_ramp_req": 0.253
+      },
+      "events": []
+    },
+    {
+      "date": "2024-11-01",
+      "values": {
+        "midday_net_load": 11783.742,
+        "evening_ramp_req": 13818.9
+      },
+      "zscores": {
+        "midday_net_load": -0.004,
+        "evening_ramp_req": -0.928
+      },
+      "events": []
+    },
+    {
+      "date": "2024-12-01",
+      "values": {
+        "midday_net_load": 14379.452,
+        "evening_ramp_req": 11932.323
+      },
+      "zscores": {
+        "midday_net_load": 0.861,
+        "evening_ramp_req": -1.685
+      },
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "midday_net_load": 10724.645,
+        "evening_ramp_req": 15032.806
+      },
+      "zscores": {
+        "midday_net_load": -0.312,
+        "evening_ramp_req": -0.488
+      },
+      "events": []
+    },
+    {
+      "date": "2025-02-01",
+      "values": {
+        "midday_net_load": 9857.384,
+        "evening_ramp_req": 14970.929
+      },
+      "zscores": {
+        "midday_net_load": -0.598,
+        "evening_ramp_req": -0.495
+      },
+      "events": []
+    },
+    {
+      "date": "2025-03-01",
+      "values": {
+        "midday_net_load": 8501.242,
+        "evening_ramp_req": 14406.742
+      },
+      "zscores": {
+        "midday_net_load": -1.041,
+        "evening_ramp_req": -0.692
+      },
+      "events": []
+    },
+    {
+      "date": "2025-04-01",
+      "values": {
+        "midday_net_load": 6639.133,
+        "evening_ramp_req": 16380.567
+      },
+      "zscores": {
+        "midday_net_load": -1.637,
+        "evening_ramp_req": 0.082
+      },
+      "events": []
+    },
+    {
+      "date": "2025-05-01",
+      "values": {
+        "midday_net_load": 6216.863,
+        "evening_ramp_req": 18003.323
+      },
+      "zscores": {
+        "midday_net_load": -1.73,
+        "evening_ramp_req": 0.706
+      },
+      "events": []
+    },
+    {
+      "date": "2025-06-01",
+      "values": {
+        "midday_net_load": 8109.2,
+        "evening_ramp_req": 18431.267
+      },
+      "zscores": {
+        "midday_net_load": -1.072,
+        "evening_ramp_req": 0.876
+      },
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "midday_net_load": 9738.637,
+        "evening_ramp_req": 19175.258
+      },
+      "zscores": {
+        "midday_net_load": -0.524,
+        "evening_ramp_req": 1.149
+      },
+      "events": []
+    },
+    {
+      "date": "2025-08-01",
+      "values": {
+        "midday_net_load": 13900.444,
+        "evening_ramp_req": 19692.516
+      },
+      "zscores": {
+        "midday_net_load": 0.875,
+        "evening_ramp_req": 1.338
+      },
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "midday_net_load": 14407.633,
+        "evening_ramp_req": 18015.733
+      },
+      "zscores": {
+        "midday_net_load": 1.157,
+        "evening_ramp_req": 0.69
+      },
+      "events": []
+    },
+    {
+      "date": "2025-10-01",
+      "values": {
+        "midday_net_load": 10571.339,
+        "evening_ramp_req": 16046.065
+      },
+      "zscores": {
+        "midday_net_load": -0.191,
+        "evening_ramp_req": -0.074
+      },
+      "events": []
+    },
+    {
+      "date": "2025-11-01",
+      "values": {
+        "midday_net_load": 13440.408,
+        "evening_ramp_req": 12552.533
+      },
+      "zscores": {
+        "midday_net_load": 0.812,
+        "evening_ramp_req": -1.364
+      },
+      "events": []
+    },
+    {
+      "date": "2025-12-01",
+      "values": {
+        "midday_net_load": 16018.694,
+        "evening_ramp_req": 10432.387
+      },
+      "zscores": {
+        "midday_net_load": 1.729,
+        "evening_ramp_req": -2.11
+      },
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "midday_net_load": 13777.782,
+        "evening_ramp_req": 12337.258
+      },
+      "zscores": {
+        "midday_net_load": 0.947,
+        "evening_ramp_req": -1.42
+      },
+      "events": []
+    },
+    {
+      "date": "2026-02-01",
+      "values": {
+        "midday_net_load": 11401.491,
+        "evening_ramp_req": 14163.607
+      },
+      "zscores": {
+        "midday_net_load": 0.094,
+        "evening_ramp_req": -0.736
+      },
+      "events": []
+    },
+    {
+      "date": "2026-03-01",
+      "values": {
+        "midday_net_load": 9535.968,
+        "evening_ramp_req": 16938.032
+      },
+      "zscores": {
+        "midday_net_load": -0.547,
+        "evening_ramp_req": 0.252
+      },
+      "events": []
+    },
+    {
+      "date": "2026-04-01",
+      "values": {
+        "midday_net_load": 7868.975,
+        "evening_ramp_req": 14981.633
+      },
+      "zscores": {
+        "midday_net_load": -1.135,
+        "evening_ramp_req": -0.481
+      },
+      "events": []
+    },
+    {
+      "date": "2026-05-01",
+      "values": {
+        "midday_net_load": 7173.798,
+        "evening_ramp_req": 16820.355
+      },
+      "zscores": {
+        "midday_net_load": -1.342,
+        "evening_ramp_req": 0.203
+      },
+      "events": []
+    },
+    {
+      "date": "2026-06-01",
+      "values": {
+        "midday_net_load": 8231.675,
+        "evening_ramp_req": 19284.333
+      },
+      "zscores": {
+        "midday_net_load": -0.969,
+        "evening_ramp_req": 1.09
+      },
+      "events": []
+    },
+    {
+      "date": "2026-07-01",
+      "values": {
+        "midday_net_load": 12867.766,
+        "evening_ramp_req": 19909.355
+      },
+      "zscores": {
+        "midday_net_load": 0.666,
+        "evening_ramp_req": 1.341
+      },
+      "events": []
+    },
+    {
+      "date": "2026-08-01",
+      "values": {
+        "midday_net_load": 16000.46,
+        "evening_ramp_req": 19559.774
+      },
+      "zscores": {
+        "midday_net_load": 1.743,
+        "evening_ramp_req": 1.236
+      },
+      "events": []
+    },
+    {
+      "date": "2026-09-01",
+      "values": {
+        "midday_net_load": 12671.375,
+        "evening_ramp_req": 18499.033
+      },
+      "zscores": {
+        "midday_net_load": 0.571,
+        "evening_ramp_req": 0.833
+      },
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "In California, solar panels flood the grid at midday, so power plants have very little to do. At sunset, solar drops away just as people get home, and other plants must ramp up fast. Drawn over a day, this looks like a duck: a low belly at noon and a steep neck in the evening.",
+    "methodology": "Hourly data for the California Independent System Operator (CAISO) from EIA Form 930 (EIA API, local time). Net load = demand minus solar minus wind. The belly is the average net load from 11 am to 3 pm. The neck is the evening peak (5 to 10 pm) minus the midday low. Both are monthly averages of daily values. Data on solar that had to be switched off is not in the EIA API.",
+    "key_findings": [
+      {
+        "date": "2019-06-01",
+        "title": "2019: The Duck Is Small",
+        "description": "In June 2019 the grid still needed about 13,900 MW from other plants at midday, and the evening ramp was about 14,600 MW.",
+        "significance": "Solar was large, but not yet dominant.",
+        "normalized_time": 0.0543
+      },
+      {
+        "date": "2023-07-01",
+        "title": "July 2023: The Steepest Neck",
+        "description": "The evening ramp reached 20,500 MW, the largest on the chart. Other plants had to add about 20 large power stations' worth of output within a few hours.",
+        "significance": "This ramp is why California built so many batteries.",
+        "normalized_time": 0.587
+      },
+      {
+        "date": "2024-05-01",
+        "title": "May 2024: The Deepest Belly",
+        "description": "Midday net load fell to 5,700 MW, less than half its 2019 level, as solar covered most daytime demand.",
+        "significance": "On spring days, solar alone almost runs the state at noon.",
+        "normalized_time": 0.6957
+      }
+    ]
+  }
+}
