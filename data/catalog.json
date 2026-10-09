@@ -778,5 +778,171 @@
     ],
     "data_status": "real",
     "latest_observation": "2025"
+  },
+  {
+    "id": "chart_33",
+    "number": 33,
+    "title": "A Warmer Planet, More Extreme Heat in the US",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Decade rows: temperature and extreme weather",
+    "agencies": [
+      "NASA",
+      "NOAA"
+    ],
+    "engine": "svg",
+    "time_range": "1910 - 2020",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 4,
+    "primary_series": [
+      "Planet temperature vs 1951\u20131980",
+      "Extreme heat (% of US)",
+      "Extreme cold (% of US)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2020"
+  },
+  {
+    "id": "chart_34",
+    "number": 34,
+    "title": "The Shrinking Arctic Sea Ice",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of September sea ice",
+    "agencies": [
+      "NSIDC",
+      "NASA"
+    ],
+    "engine": "svg",
+    "time_range": "1979 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 1,
+    "primary_series": [
+      "Arctic sea ice in September"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026"
+  },
+  {
+    "id": "chart_35",
+    "number": 35,
+    "title": "Rising Seas",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year line of global sea level",
+    "agencies": [
+      "NOAA",
+      "NASA"
+    ],
+    "engine": "svg",
+    "time_range": "1993 - 2024",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 0,
+    "series_count": 1,
+    "primary_series": [
+      "Sea level vs 1993"
+    ],
+    "data_status": "real",
+    "latest_observation": "2024"
+  },
+  {
+    "id": "chart_36",
+    "number": 36,
+    "title": "Rocks That Pass Close to Earth",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of near-Earth asteroids found",
+    "agencies": [
+      "NASA"
+    ],
+    "engine": "svg",
+    "time_range": "1980 - 2025",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 2,
+    "primary_series": [
+      "Near-Earth objects first seen",
+      "Of which 140 m or larger"
+    ],
+    "data_status": "real",
+    "latest_observation": "2025"
+  },
+  {
+    "id": "chart_37",
+    "number": 37,
+    "title": "Planets Around Other Stars",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of exoplanets found",
+    "agencies": [
+      "NASA"
+    ],
+    "engine": "svg",
+    "time_range": "1995 - 2026",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 3,
+    "primary_series": [
+      "Planets found",
+      "Found by a star dimming",
+      "Found by a star wobbling"
+    ],
+    "data_status": "real",
+    "latest_observation": "2026"
+  },
+  {
+    "id": "chart_38",
+    "number": 38,
+    "title": "What Share of the Budget Goes to NASA?",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of NASA's budget share",
+    "agencies": [
+      "OMB",
+      "NASA"
+    ],
+    "engine": "svg",
+    "time_range": "1962 - 2025",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 1,
+    "primary_series": [
+      "NASA share of federal spending"
+    ],
+    "data_status": "real",
+    "latest_observation": "2025"
+  },
+  {
+    "id": "chart_39",
+    "number": 39,
+    "title": "CO\u2082 in the Air vs US Emissions",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Two lines: CO\u2082 in the air vs US emissions",
+    "agencies": [
+      "NOAA",
+      "EIA"
+    ],
+    "engine": "svg",
+    "time_range": "1970 - 2022",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 4,
+    "primary_series": [
+      "CO\u2082 in the air, change since 1970",
+      "US emissions, change since 1970",
+      "CO\u2082 in the air"
+    ],
+    "data_status": "real",
+    "latest_observation": "2022"
   }
 ]

@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "chart_id": "chart_38",
+    "number": 38,
+    "title": "What Share of the Budget Goes to NASA?",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of NASA's budget share",
+    "agencies": [
+      "OMB",
+      "NASA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1962,
+    "end_year": 2025,
+    "observation_count": 64,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2025",
+    "data_notes": "OMB Historical Tables, Table 4.1 (FY2027 edition). Actual years only."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "share",
+      "agency": "OMB",
+      "series_id": "Historical Table 4.1, NASA outlays \u00f7 total outlays",
+      "label": "NASA share of federal spending",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#22d3ee"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1962-01-01",
+      "values": {
+        "share": 1.177
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1963-01-01",
+      "values": {
+        "share": 2.293
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1964-01-01",
+      "values": {
+        "share": 3.519
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1965-01-01",
+      "values": {
+        "share": 4.307
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1966-01-01",
+      "values": {
+        "share": 4.41
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1967-01-01",
+      "values": {
+        "share": 3.445
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1968-01-01",
+      "values": {
+        "share": 2.651
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1969-01-01",
+      "values": {
+        "share": 2.315
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1970-01-01",
+      "values": {
+        "share": 1.918
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1971-01-01",
+      "values": {
+        "share": 1.609
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1972-01-01",
+      "values": {
+        "share": 1.484
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1973-01-01",
+      "values": {
+        "share": 1.348
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1974-01-01",
+      "values": {
+        "share": 1.208
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1975-01-01",
+      "values": {
+        "share": 0.984
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1976-01-01",
+      "values": {
+        "share": 0.987
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1977-01-01",
+      "values": {
+        "share": 0.978
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1978-01-01",
+      "values": {
+        "share": 0.908
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1979-01-01",
+      "values": {
+        "share": 0.869
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1980-01-01",
+      "values": {
+        "share": 0.839
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1981-01-01",
+      "values": {
+        "share": 0.816
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1982-01-01",
+      "values": {
+        "share": 0.825
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1983-01-01",
+      "values": {
+        "share": 0.848
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1984-01-01",
+      "values": {
+        "share": 0.828
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1985-01-01",
+      "values": {
+        "share": 0.766
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1986-01-01",
+      "values": {
+        "share": 0.747
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1987-01-01",
+      "values": {
+        "share": 0.756
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1988-01-01",
+      "values": {
+        "share": 0.854
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1989-01-01",
+      "values": {
+        "share": 0.965
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1990-01-01",
+      "values": {
+        "share": 0.992
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1991-01-01",
+      "values": {
+        "share": 1.048
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1992-01-01",
+      "values": {
+        "share": 1.011
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1993-01-01",
+      "values": {
+        "share": 1.015
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1994-01-01",
+      "values": {
+        "share": 0.937
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1995-01-01",
+      "values": {
+        "share": 0.883
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "share": 0.89
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "share": 0.897
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "share": 0.859
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "share": 0.801
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "share": 0.751
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "share": 0.756
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "share": 0.716
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "share": 0.676
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "share": 0.661
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "share": 0.631
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "share": 0.57
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "share": 0.581
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "share": 0.598
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "share": 0.545
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "share": 0.547
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "share": 0.489
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "share": 0.487
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "share": 0.491
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "share": 0.488
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "share": 0.495
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "share": 0.489
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "share": 0.47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "share": 0.481
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "share": 0.454
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "share": 0.33
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "share": 0.326
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "share": 0.368
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "share": 0.413
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "share": 0.371
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "share": 0.351
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Each bar is NASA's spending as a share of all federal government spending that fiscal year.",
+    "methodology": "OMB Historical Tables, Table 4.1 (Outlays by Agency), FY2027 budget edition: NASA outlays divided by total federal outlays. Actual years only; estimates are left out.",
+    "key_findings": [
+      {
+        "date": "1966-01-01",
+        "title": "Peak: 1966",
+        "description": "In 1966, during the race to the Moon, NASA got 4.4% of federal spending.",
+        "significance": "record",
+        "normalized_time": 0.0635
+      }
+    ]
+  }
+}

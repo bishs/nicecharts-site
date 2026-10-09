@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "chart_id": "chart_33",
+    "number": 33,
+    "title": "A Warmer Planet, More Extreme Heat in the US",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Decade rows: temperature and extreme weather",
+    "agencies": [
+      "NASA",
+      "NOAA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1910,
+    "end_year": 2020,
+    "observation_count": 12,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2020",
+    "data_notes": "NASA GISTEMP v4; NOAA NCEI Climate Extremes Index (steps 1 and 4)."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "temp",
+      "agency": "NASA",
+      "series_id": "GISTEMP v4",
+      "label": "Planet temperature vs 1951\u20131980",
+      "unit": "\u00b0C",
+      "transform": "raw",
+      "color": "#ef4444"
+    },
+    {
+      "key": "heat",
+      "agency": "NOAA",
+      "series_id": "CEI step 1, much above normal",
+      "label": "Extreme heat (% of US)",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#ef4444"
+    },
+    {
+      "key": "cold",
+      "agency": "NOAA",
+      "series_id": "CEI step 1, much below normal",
+      "label": "Extreme cold (% of US)",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#60a5fa"
+    },
+    {
+      "key": "rain",
+      "agency": "NOAA",
+      "series_id": "CEI step 4",
+      "label": "Heavy downpours (% of US)",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#34d399"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1910-01-01",
+      "values": {
+        "temp": -0.327,
+        "heat": 2.01,
+        "cold": 25.04,
+        "rain": 10.43,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1920-01-01",
+      "values": {
+        "temp": -0.237,
+        "heat": 6.79,
+        "cold": 16.06,
+        "rain": 9.31,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1930-01-01",
+      "values": {
+        "temp": -0.121,
+        "heat": 16.6,
+        "cold": 2.81,
+        "rain": 8.86,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1940-01-01",
+      "values": {
+        "temp": 0.042,
+        "heat": 2.37,
+        "cold": 7.27,
+        "rain": 7.28,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1950-01-01",
+      "values": {
+        "temp": -0.047,
+        "heat": 8.16,
+        "cold": 11.15,
+        "rain": 9.09,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1960-01-01",
+      "values": {
+        "temp": -0.03,
+        "heat": 0.45,
+        "cold": 11.25,
+        "rain": 8.59,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1970-01-01",
+      "values": {
+        "temp": 0.035,
+        "heat": 0.28,
+        "cold": 14.02,
+        "rain": 8.4,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1980-01-01",
+      "values": {
+        "temp": 0.247,
+        "heat": 5.34,
+        "cold": 9.94,
+        "rain": 9.87,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1990-01-01",
+      "values": {
+        "temp": 0.386,
+        "heat": 10.21,
+        "cold": 8.01,
+        "rain": 14.58,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "temp": 0.588,
+        "heat": 10.68,
+        "cold": 0.62,
+        "rain": 11.84,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "temp": 0.804,
+        "heat": 28.22,
+        "cold": 3.72,
+        "rain": 15.2,
+        "years": 10
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "temp": 1.063,
+        "heat": 48.12,
+        "cold": 0.1,
+        "rain": 11.67,
+        "years": 6
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Per decade: how much warmer the planet was (NASA), and the share of the US with extreme heat, extreme cold and heavy downpours in an average year (NOAA). Extreme heat went from 2% of the US in the 1910s to 48% in the 2020s.",
+    "methodology": "NASA GISTEMP v4 annual global temperature, averaged per decade. NOAA Climate Extremes Index for the contiguous US: step 1 (daily high temperatures much above or much below normal) and step 4 (share of the US with a much greater than normal share of rain from extreme 1-day events). 'Much above' or 'much below' means in the top or bottom 10% on record for that place. NOAA's single total index is not used, because it adds hot and cold extremes together. The last decade has 6 years so far.",
+    "key_findings": [
+      {
+        "date": "1930-01-01",
+        "title": "The Dust Bowl decade",
+        "description": "In the 1930s, 17% of the US had extreme heat in an average year, before modern warming.",
+        "significance": "milestone",
+        "normalized_time": 0.1818
+      }
+    ]
+  }
+}

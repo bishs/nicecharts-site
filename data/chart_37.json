@@ -1,0 +1,391 @@
+{
+  "metadata": {
+    "chart_id": "chart_37",
+    "number": 37,
+    "title": "Planets Around Other Stars",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of exoplanets found",
+    "agencies": [
+      "NASA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1995,
+    "end_year": 2026,
+    "observation_count": 32,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026",
+    "data_notes": "NASA Exoplanet Archive (Caltech/IPAC). The current year is partial."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "n",
+      "agency": "NASA",
+      "series_id": "Exoplanet Archive, pscomppars",
+      "label": "Planets found",
+      "unit": "planets",
+      "transform": "raw",
+      "color": "#fbbf24"
+    },
+    {
+      "key": "transit",
+      "agency": "NASA",
+      "series_id": "discoverymethod = Transit",
+      "label": "Found by a star dimming",
+      "unit": "planets",
+      "transform": "raw",
+      "color": "#34d399"
+    },
+    {
+      "key": "rv",
+      "agency": "NASA",
+      "series_id": "discoverymethod = Radial Velocity",
+      "label": "Found by a star wobbling",
+      "unit": "planets",
+      "transform": "raw",
+      "color": "#60a5fa"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1995-01-01",
+      "values": {
+        "n": 1,
+        "transit": 0,
+        "rv": 1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "n": 6,
+        "transit": 0,
+        "rv": 6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "n": 1,
+        "transit": 0,
+        "rv": 1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "n": 6,
+        "transit": 0,
+        "rv": 6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "n": 13,
+        "transit": 0,
+        "rv": 13
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "n": 16,
+        "transit": 0,
+        "rv": 16
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "n": 12,
+        "transit": 0,
+        "rv": 12
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "n": 29,
+        "transit": 1,
+        "rv": 28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "n": 22,
+        "transit": 0,
+        "rv": 21
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "n": 27,
+        "transit": 5,
+        "rv": 18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "n": 36,
+        "transit": 0,
+        "rv": 33
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "n": 32,
+        "transit": 5,
+        "rv": 21
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "n": 52,
+        "transit": 16,
+        "rv": 34
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "n": 62,
+        "transit": 15,
+        "rv": 36
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "n": 87,
+        "transit": 18,
+        "rv": 66
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "n": 93,
+        "transit": 46,
+        "rv": 37
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "n": 141,
+        "transit": 80,
+        "rv": 49
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "n": 144,
+        "transit": 94,
+        "rv": 39
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "n": 128,
+        "transit": 79,
+        "rv": 34
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "n": 872,
+        "transit": 810,
+        "rv": 48
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "n": 155,
+        "transit": 99,
+        "rv": 46
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "n": 1504,
+        "transit": 1432,
+        "rv": 58
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "n": 152,
+        "transit": 87,
+        "rv": 48
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "n": 308,
+        "transit": 244,
+        "rv": 38
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "n": 194,
+        "transit": 107,
+        "rv": 65
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "n": 234,
+        "transit": 164,
+        "rv": 46
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "n": 564,
+        "transit": 457,
+        "rv": 77
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "n": 367,
+        "transit": 192,
+        "rv": 115
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "n": 323,
+        "transit": 225,
+        "rv": 56
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "n": 260,
+        "transit": 187,
+        "rv": 29
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "n": 246,
+        "transit": 144,
+        "rv": 62
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2026-01-01",
+      "values": {
+        "n": 355,
+        "transit": 274,
+        "rv": 44
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Each bar counts the confirmed planets outside our solar system found that year.",
+    "methodology": "NASA Exoplanet Archive, Planetary Systems Composite table, confirmed planets counted by discovery year and method. The current year is partial.",
+    "key_findings": [
+      {
+        "date": "2016-01-01",
+        "title": "Most found: 2016",
+        "description": "1,504 planets confirmed with a 2016 discovery year.",
+        "significance": "record",
+        "normalized_time": 0.6774
+      }
+    ]
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "metadata": {
+    "chart_id": "chart_36",
+    "number": 36,
+    "title": "Rocks That Pass Close to Earth",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of near-Earth asteroids found",
+    "agencies": [
+      "NASA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1980,
+    "end_year": 2025,
+    "observation_count": 46,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2025",
+    "data_notes": "NASA/JPL Small-Body Database (first observation date)."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "n",
+      "agency": "NASA",
+      "series_id": "JPL Small-Body Database, NEO group",
+      "label": "Near-Earth objects first seen",
+      "unit": "objects",
+      "transform": "raw",
+      "color": "#a78bfa"
+    },
+    {
+      "key": "big",
+      "agency": "NASA",
+      "series_id": "JPL SBDB, H \u2264 22",
+      "label": "Of which 140 m or larger",
+      "unit": "objects",
+      "transform": "raw",
+      "color": "#f472b6"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1980-01-01",
+      "values": {
+        "n": 14,
+        "big": 14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1981-01-01",
+      "values": {
+        "n": 14,
+        "big": 14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1982-01-01",
+      "values": {
+        "n": 32,
+        "big": 30
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1983-01-01",
+      "values": {
+        "n": 30,
+        "big": 29
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1984-01-01",
+      "values": {
+        "n": 17,
+        "big": 17
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1985-01-01",
+      "values": {
+        "n": 17,
+        "big": 17
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1986-01-01",
+      "values": {
+        "n": 22,
+        "big": 21
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1987-01-01",
+      "values": {
+        "n": 25,
+        "big": 25
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1988-01-01",
+      "values": {
+        "n": 23,
+        "big": 23
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1989-01-01",
+      "values": {
+        "n": 42,
+        "big": 39
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1990-01-01",
+      "values": {
+        "n": 39,
+        "big": 37
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1991-01-01",
+      "values": {
+        "n": 57,
+        "big": 47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1992-01-01",
+      "values": {
+        "n": 37,
+        "big": 34
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1993-01-01",
+      "values": {
+        "n": 59,
+        "big": 51
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1994-01-01",
+      "values": {
+        "n": 65,
+        "big": 50
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1995-01-01",
+      "values": {
+        "n": 62,
+        "big": 47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "n": 76,
+        "big": 65
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "n": 81,
+        "big": 68
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "n": 218,
+        "big": 196
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "n": 208,
+        "big": 173
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "n": 371,
+        "big": 310
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "n": 520,
+        "big": 413
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "n": 638,
+        "big": 519
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "n": 481,
+        "big": 350
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "n": 550,
+        "big": 346
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "n": 644,
+        "big": 382
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "n": 680,
+        "big": 340
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "n": 642,
+        "big": 319
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "n": 813,
+        "big": 376
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "n": 779,
+        "big": 329
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "n": 1119,
+        "big": 552
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "n": 1024,
+        "big": 469
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "n": 1092,
+        "big": 450
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "n": 1177,
+        "big": 477
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "n": 1678,
+        "big": 619
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "n": 1683,
+        "big": 570
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "n": 1948,
+        "big": 542
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "n": 2005,
+        "big": 440
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "n": 1742,
+        "big": 343
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "n": 2307,
+        "big": 371
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "n": 2716,
+        "big": 350
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "n": 2881,
+        "big": 272
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "n": 3005,
+        "big": 281
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "n": 2785,
+        "big": 315
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "n": 3006,
+        "big": 311
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "n": 3157,
+        "big": 294
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Each bar counts the asteroids and comets that come close to Earth's orbit, by the year telescopes first saw them.",
+    "methodology": "NASA/JPL Small-Body Database: all near-Earth objects, counted by the date of their first observation. '140 m or larger' uses absolute magnitude H \u2264 22, the usual size cut-off. A few objects were found later in older photos; they count in the year of that photo.",
+    "key_findings": [
+      {
+        "date": "2025-01-01",
+        "title": "Most found: 2025",
+        "description": "3,157 near-Earth objects were first seen in 2025.",
+        "significance": "record",
+        "normalized_time": 1.0
+      }
+    ]
+  }
+}

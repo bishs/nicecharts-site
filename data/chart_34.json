@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "chart_id": "chart_34",
+    "number": 34,
+    "title": "The Shrinking Arctic Sea Ice",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year bars of September sea ice",
+    "agencies": [
+      "NSIDC",
+      "NASA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1979,
+    "end_year": 2026,
+    "observation_count": 48,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2026",
+    "data_notes": "NSIDC Sea Ice Index v4, from NASA and DMSP satellite data."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "ice",
+      "agency": "NSIDC",
+      "series_id": "Sea Ice Index v4, Arctic, September",
+      "label": "Arctic sea ice in September",
+      "unit": "million km\u00b2",
+      "transform": "raw",
+      "color": "#7dd3fc"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1979-09-01",
+      "values": {
+        "ice": 7.05
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1980-09-01",
+      "values": {
+        "ice": 7.67
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1981-09-01",
+      "values": {
+        "ice": 7.14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1982-09-01",
+      "values": {
+        "ice": 7.3
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1983-09-01",
+      "values": {
+        "ice": 7.39
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1984-09-01",
+      "values": {
+        "ice": 6.81
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1985-09-01",
+      "values": {
+        "ice": 6.7
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1986-09-01",
+      "values": {
+        "ice": 7.41
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1987-09-01",
+      "values": {
+        "ice": 7.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1988-09-01",
+      "values": {
+        "ice": 7.37
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1989-09-01",
+      "values": {
+        "ice": 7.01
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1990-09-01",
+      "values": {
+        "ice": 6.14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1991-09-01",
+      "values": {
+        "ice": 6.47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1992-09-01",
+      "values": {
+        "ice": 7.47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1993-09-01",
+      "values": {
+        "ice": 6.4
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1994-09-01",
+      "values": {
+        "ice": 7.14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1995-09-01",
+      "values": {
+        "ice": 6.08
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-09-01",
+      "values": {
+        "ice": 7.58
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-09-01",
+      "values": {
+        "ice": 6.69
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-09-01",
+      "values": {
+        "ice": 6.54
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-09-01",
+      "values": {
+        "ice": 6.12
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-09-01",
+      "values": {
+        "ice": 6.25
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-09-01",
+      "values": {
+        "ice": 6.73
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-09-01",
+      "values": {
+        "ice": 5.83
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-09-01",
+      "values": {
+        "ice": 6.12
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-09-01",
+      "values": {
+        "ice": 5.98
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-09-01",
+      "values": {
+        "ice": 5.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-09-01",
+      "values": {
+        "ice": 5.86
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-09-01",
+      "values": {
+        "ice": 4.27
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-09-01",
+      "values": {
+        "ice": 4.69
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-09-01",
+      "values": {
+        "ice": 5.26
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-09-01",
+      "values": {
+        "ice": 4.87
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-09-01",
+      "values": {
+        "ice": 4.56
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-09-01",
+      "values": {
+        "ice": 3.57
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-09-01",
+      "values": {
+        "ice": 5.21
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-09-01",
+      "values": {
+        "ice": 5.22
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-09-01",
+      "values": {
+        "ice": 4.62
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-09-01",
+      "values": {
+        "ice": 4.53
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-09-01",
+      "values": {
+        "ice": 4.82
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-09-01",
+      "values": {
+        "ice": 4.79
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-09-01",
+      "values": {
+        "ice": 4.36
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-09-01",
+      "values": {
+        "ice": 4.0
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-09-01",
+      "values": {
+        "ice": 4.95
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-09-01",
+      "values": {
+        "ice": 4.9
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-09-01",
+      "values": {
+        "ice": 4.38
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-09-01",
+      "values": {
+        "ice": 4.35
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2025-09-01",
+      "values": {
+        "ice": 4.75
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2026-09-01",
+      "values": {
+        "ice": 4.81
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Each bar is the area of the Arctic Ocean covered by ice each September, when the ice is at its smallest.",
+    "methodology": "NSIDC Sea Ice Index version 4, monthly mean extent for September, measured by NASA and DMSP satellites. Extent is the area where at least 15% of the sea surface is ice.",
+    "key_findings": [
+      {
+        "date": "2012-09-01",
+        "title": "Smallest: 2012",
+        "description": "3.57 million km\u00b2 of ice in September 2012.",
+        "significance": "record",
+        "normalized_time": 0.7021
+      }
+    ]
+  }
+}

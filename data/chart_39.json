@@ -1,0 +1,664 @@
+{
+  "metadata": {
+    "chart_id": "chart_39",
+    "number": 39,
+    "title": "CO\u2082 in the Air vs US Emissions",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Two lines: CO\u2082 in the air vs US emissions",
+    "agencies": [
+      "NOAA",
+      "EIA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1970,
+    "end_year": 2022,
+    "observation_count": 53,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2022",
+    "data_notes": "NOAA GML Mauna Loa CO\u2082; EIA energy-related CO\u2082 emissions."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "air_pct",
+      "agency": "NOAA",
+      "series_id": "Mauna Loa annual mean CO\u2082",
+      "label": "CO\u2082 in the air, change since 1970",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#f472b6"
+    },
+    {
+      "key": "us_pct",
+      "agency": "EIA",
+      "series_id": "Energy-related CO\u2082, US total",
+      "label": "US emissions, change since 1970",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#fbbf24"
+    },
+    {
+      "key": "air",
+      "agency": "NOAA",
+      "series_id": "Mauna Loa annual mean CO\u2082",
+      "label": "CO\u2082 in the air",
+      "unit": "ppm",
+      "transform": "raw",
+      "color": "#f472b6"
+    },
+    {
+      "key": "us",
+      "agency": "EIA",
+      "series_id": "Energy-related CO\u2082, US total",
+      "label": "US CO\u2082 emissions",
+      "unit": "million tonnes",
+      "transform": "raw",
+      "color": "#fbbf24"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1970-01-01",
+      "values": {
+        "air_pct": 0.0,
+        "us_pct": 0.0,
+        "air": 325.68,
+        "us": 4255.76409
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1971-01-01",
+      "values": {
+        "air_pct": 0.2,
+        "us_pct": 1.06,
+        "air": 326.32,
+        "us": 4301.051228
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1972-01-01",
+      "values": {
+        "air_pct": 0.55,
+        "us_pct": 6.22,
+        "air": 327.46,
+        "us": 4520.368879
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1973-01-01",
+      "values": {
+        "air_pct": 1.23,
+        "us_pct": 10.84,
+        "air": 329.68,
+        "us": 4717.127972
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1974-01-01",
+      "values": {
+        "air_pct": 1.38,
+        "us_pct": 6.81,
+        "air": 330.19,
+        "us": 4545.548208
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1975-01-01",
+      "values": {
+        "air_pct": 1.67,
+        "us_pct": 3.87,
+        "air": 331.13,
+        "us": 4420.378537
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1976-01-01",
+      "values": {
+        "air_pct": 1.95,
+        "us_pct": 10.19,
+        "air": 332.03,
+        "us": 4689.287763
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1977-01-01",
+      "values": {
+        "air_pct": 2.51,
+        "us_pct": 13.43,
+        "air": 333.84,
+        "us": 4827.390773
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1978-01-01",
+      "values": {
+        "air_pct": 2.99,
+        "us_pct": 14.41,
+        "air": 335.41,
+        "us": 4868.928541
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1979-01-01",
+      "values": {
+        "air_pct": 3.43,
+        "us_pct": 15.92,
+        "air": 336.84,
+        "us": 4933.350511
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1980-01-01",
+      "values": {
+        "air_pct": 4.02,
+        "us_pct": 11.73,
+        "air": 338.76,
+        "us": 4755.14695
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1981-01-01",
+      "values": {
+        "air_pct": 4.43,
+        "us_pct": 8.94,
+        "air": 340.12,
+        "us": 4636.018449
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1982-01-01",
+      "values": {
+        "air_pct": 4.85,
+        "us_pct": 3.21,
+        "air": 341.48,
+        "us": 4392.27066
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1983-01-01",
+      "values": {
+        "air_pct": 5.36,
+        "us_pct": 2.77,
+        "air": 343.15,
+        "us": 4373.593947
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1984-01-01",
+      "values": {
+        "air_pct": 5.89,
+        "us_pct": 8.02,
+        "air": 344.87,
+        "us": 4596.909431
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1985-01-01",
+      "values": {
+        "air_pct": 6.35,
+        "us_pct": 8.09,
+        "air": 346.35,
+        "us": 4600.025795
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1986-01-01",
+      "values": {
+        "air_pct": 6.73,
+        "us_pct": 8.18,
+        "air": 347.61,
+        "us": 4603.894537
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1987-01-01",
+      "values": {
+        "air_pct": 7.26,
+        "us_pct": 11.75,
+        "air": 349.31,
+        "us": 4755.781415
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1988-01-01",
+      "values": {
+        "air_pct": 7.99,
+        "us_pct": 17.13,
+        "air": 351.69,
+        "us": 4984.801732
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1989-01-01",
+      "values": {
+        "air_pct": 8.45,
+        "us_pct": 18.88,
+        "air": 353.2,
+        "us": 5059.165116
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1990-01-01",
+      "values": {
+        "air_pct": 8.83,
+        "us_pct": 17.92,
+        "air": 354.45,
+        "us": 5018.525809
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1991-01-01",
+      "values": {
+        "air_pct": 9.22,
+        "us_pct": 16.82,
+        "air": 355.7,
+        "us": 4971.560681
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1992-01-01",
+      "values": {
+        "air_pct": 9.48,
+        "us_pct": 19.04,
+        "air": 356.54,
+        "us": 5066.078521
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1993-01-01",
+      "values": {
+        "air_pct": 9.68,
+        "us_pct": 21.27,
+        "air": 357.21,
+        "us": 5161.024082
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1994-01-01",
+      "values": {
+        "air_pct": 10.22,
+        "us_pct": 22.95,
+        "air": 358.96,
+        "us": 5232.449154
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1995-01-01",
+      "values": {
+        "air_pct": 10.84,
+        "us_pct": 24.47,
+        "air": 360.97,
+        "us": 5297.044254
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "air_pct": 11.38,
+        "us_pct": 29.12,
+        "air": 362.74,
+        "us": 5494.966976
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "air_pct": 11.73,
+        "us_pct": 30.84,
+        "air": 363.88,
+        "us": 5568.099272
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "air_pct": 12.64,
+        "us_pct": 31.65,
+        "air": 366.84,
+        "us": 5602.558156
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "air_pct": 13.16,
+        "us_pct": 33.13,
+        "air": 368.54,
+        "us": 5665.865381
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "air_pct": 13.52,
+        "us_pct": 37.64,
+        "air": 369.71,
+        "us": 5857.665115
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "air_pct": 14.01,
+        "us_pct": 35.07,
+        "air": 371.32,
+        "us": 5748.116629
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "air_pct": 14.67,
+        "us_pct": 35.9,
+        "air": 373.45,
+        "us": 5783.704707
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "air_pct": 15.44,
+        "us_pct": 37.58,
+        "air": 375.98,
+        "us": 5855.120696
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "air_pct": 15.97,
+        "us_pct": 39.88,
+        "air": 377.7,
+        "us": 5953.145129
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "air_pct": 16.67,
+        "us_pct": 40.48,
+        "air": 379.98,
+        "us": 5978.622048
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "air_pct": 17.32,
+        "us_pct": 38.63,
+        "air": 382.09,
+        "us": 5899.968838
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "air_pct": 17.91,
+        "us_pct": 40.76,
+        "air": 384.02,
+        "us": 5990.393938
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "air_pct": 18.47,
+        "us_pct": 36.23,
+        "air": 385.83,
+        "us": 5797.600658
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "air_pct": 19.02,
+        "us_pct": 26.53,
+        "air": 387.64,
+        "us": 5384.827417
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "air_pct": 19.78,
+        "us_pct": 31.03,
+        "air": 390.1,
+        "us": 5576.384711
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "air_pct": 20.32,
+        "us_pct": 27.74,
+        "air": 391.85,
+        "us": 5436.286405
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "air_pct": 21.0,
+        "us_pct": 22.56,
+        "air": 394.06,
+        "us": 5215.669136
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "air_pct": 21.82,
+        "us_pct": 25.48,
+        "air": 396.74,
+        "us": 5340.022042
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "air_pct": 22.45,
+        "us_pct": 26.79,
+        "air": 398.81,
+        "us": 5395.774871
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "air_pct": 23.13,
+        "us_pct": 23.19,
+        "air": 401.01,
+        "us": 5242.87365
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "air_pct": 24.17,
+        "us_pct": 21.0,
+        "air": 404.41,
+        "us": 5149.659408
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "air_pct": 24.9,
+        "us_pct": 20.18,
+        "air": 406.76,
+        "us": 5114.432894
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "air_pct": 25.5,
+        "us_pct": 23.77,
+        "air": 408.72,
+        "us": 5267.156182
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "air_pct": 26.4,
+        "us_pct": 20.65,
+        "air": 411.65,
+        "us": 5134.769716
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "air_pct": 27.18,
+        "us_pct": 7.43,
+        "air": 414.21,
+        "us": 4571.972693
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "air_pct": 27.86,
+        "us_pct": 15.03,
+        "air": 416.41,
+        "us": 4895.597877
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "air_pct": 28.51,
+        "us_pct": 15.95,
+        "air": 418.53,
+        "us": 4934.407552
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Two lines, both as % change since 1970: the amount of CO\u2082 in the air (NOAA, Mauna Loa, Hawaii) and the CO\u2082 the US releases from energy each year (EIA).",
+    "methodology": "NOAA Global Monitoring Laboratory annual mean CO\u2082 at Mauna Loa, in parts per million. EIA energy-related CO\u2082 emissions for the US, all sectors and fuels, in million metric tonnes. CO\u2082 in the air depends on the whole world's emissions, not only the US, and CO\u2082 stays in the air for a long time.",
+    "key_findings": [
+      {
+        "date": "2007-01-01",
+        "title": "US peak: 2007",
+        "description": "US energy emissions peaked at 5,990 million tonnes in 2007.",
+        "significance": "record",
+        "normalized_time": 0.7115
+      }
+    ]
+  }
+}

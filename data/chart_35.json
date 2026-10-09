@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "chart_id": "chart_35",
+    "number": 35,
+    "title": "Rising Seas",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year line of global sea level",
+    "agencies": [
+      "NOAA",
+      "NASA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1993,
+    "end_year": 2024,
+    "observation_count": 32,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2024",
+    "data_notes": "NOAA STAR, from NASA/CNES/EUMETSAT radar satellites."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "sl",
+      "agency": "NOAA",
+      "series_id": "Global mean sea level, TOPEX/Jason/Sentinel-6",
+      "label": "Sea level vs 1993",
+      "unit": "mm",
+      "transform": "raw",
+      "color": "#38bdf8"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1993-01-01",
+      "values": {
+        "sl": 0.0
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1994-01-01",
+      "values": {
+        "sl": 4.7
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1995-01-01",
+      "values": {
+        "sl": 10.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "sl": 13.6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "sl": 17.6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "sl": 16.7
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "sl": 15.9
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "sl": 20.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "sl": 25.4
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "sl": 27.0
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "sl": 30.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "sl": 31.9
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "sl": 35.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "sl": 37.6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "sl": 37.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "sl": 41.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "sl": 45.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "sl": 46.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "sl": 44.9
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "sl": 55.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "sl": 57.6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "sl": 60.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "sl": 69.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "sl": 72.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "sl": 73.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "sl": 76.0
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "sl": 82.4
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "sl": 85.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "sl": 89.5
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "sl": 92.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "sl": 97.9
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "sl": 101.3
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "The average height of the world's oceans each year, in millimetres above the 1993 level, measured from space.",
+    "methodology": "NOAA Laboratory for Satellite Altimetry global mean sea level, from the NASA/CNES TOPEX/Poseidon, Jason-1, -2, -3 and Sentinel-6 satellites. Seasonal signals removed by NOAA. Each year is the mean of all readings that year, shown relative to the first full year.",
+    "key_findings": []
+  }
+}
