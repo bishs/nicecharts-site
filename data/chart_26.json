@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_26",
     "number": 26,
-    "title": "Real-Time Grid Duck Curve Evolution",
+    "title": "California's Sunset Power Rush",
     "section": "Section E: Energy, Climate & Natural Resources",
     "section_id": "section_e",
-    "visual_form": "24-Hour Polar Clock Area Chart with Daily Step Interpolation",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "EIA"
     ],
@@ -201,8 +201,8 @@
         "evening_ramp_req": 11698.677
       },
       "zscores": {
-        "midday_net_load": 0.0,
-        "evening_ramp_req": 0.0
+        "midday_net_load": 0,
+        "evening_ramp_req": 0
       },
       "events": []
     },
@@ -213,8 +213,8 @@
         "evening_ramp_req": 13171.321
       },
       "zscores": {
-        "midday_net_load": -1.0,
-        "evening_ramp_req": 1.0
+        "midday_net_load": -1,
+        "evening_ramp_req": 1
       },
       "events": []
     },
@@ -671,7 +671,7 @@
       "date": "2022-04-01",
       "values": {
         "midday_net_load": 6975.7,
-        "evening_ramp_req": 16737.0
+        "evening_ramp_req": 16737
       },
       "zscores": {
         "midday_net_load": -1.85,
@@ -791,7 +791,7 @@
       "date": "2023-02-01",
       "values": {
         "midday_net_load": 11491.027,
-        "evening_ramp_req": 14580.0
+        "evening_ramp_req": 14580
       },
       "zscores": {
         "midday_net_load": -0.451,
@@ -827,11 +827,11 @@
       "date": "2023-05-01",
       "values": {
         "midday_net_load": 8900.089,
-        "evening_ramp_req": 15684.0
+        "evening_ramp_req": 15684
       },
       "zscores": {
         "midday_net_load": -1.141,
-        "evening_ramp_req": 0.0
+        "evening_ramp_req": 0
       },
       "events": []
     },

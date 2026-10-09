@@ -5,7 +5,7 @@
     "title": "How a Gas Price Shock Spreads to Other Prices",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "EIA",
@@ -223,10 +223,10 @@
         "fwd_inflation": 2.11
       },
       "zscores": {
-        "gas_price": 0.0,
-        "headline_cpi": 0.0,
-        "core_cpi": 0.0,
-        "fwd_inflation": 0.0
+        "gas_price": 0,
+        "headline_cpi": 0,
+        "core_cpi": 0,
+        "fwd_inflation": 0
       },
       "events": []
     },
@@ -239,10 +239,10 @@
         "fwd_inflation": 2.17
       },
       "zscores": {
-        "gas_price": 1.0,
-        "headline_cpi": 1.0,
-        "core_cpi": -1.0,
-        "fwd_inflation": 1.0
+        "gas_price": 1,
+        "headline_cpi": 1,
+        "core_cpi": -1,
+        "fwd_inflation": 1
       },
       "events": []
     },
@@ -513,7 +513,7 @@
       "zscores": {
         "gas_price": 1.649,
         "headline_cpi": 1.357,
-        "core_cpi": 1.0,
+        "core_cpi": 1,
         "fwd_inflation": 0.839
       },
       "events": []
@@ -1419,7 +1419,7 @@
       "zscores": {
         "gas_price": -1.467,
         "headline_cpi": -2.226,
-        "core_cpi": -2.0,
+        "core_cpi": -2,
         "fwd_inflation": -1.762
       },
       "events": []
@@ -3318,7 +3318,7 @@
         "gas_price": 2.393,
         "headline_cpi": 1.52,
         "core_cpi": 2.084,
-        "fwd_inflation": 2.0
+        "fwd_inflation": 2
       },
       "zscores": {
         "gas_price": -0.685,
@@ -3632,7 +3632,7 @@
       "zscores": {
         "gas_price": -1.258,
         "headline_cpi": -0.828,
-        "core_cpi": -1.0,
+        "core_cpi": -1,
         "fwd_inflation": -0.555
       },
       "events": []
@@ -3802,7 +3802,7 @@
       "values": {
         "gas_price": 3.255,
         "headline_cpi": 5.251,
-        "core_cpi": 4.0,
+        "core_cpi": 4,
         "fwd_inflation": 2.2
       },
       "zscores": {
@@ -4467,7 +4467,7 @@
       "date": "2025-01-01",
       "values": {
         "gas_price": 3.196,
-        "headline_cpi": 3.0,
+        "headline_cpi": 3,
         "core_cpi": 3.258,
         "fwd_inflation": 2.31
       },

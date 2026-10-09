@@ -5,7 +5,7 @@
     "title": "Why Flights Are Late",
     "section": "Section F: Logistics, Infrastructure & Public Health",
     "section_id": "section_f",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BTS"
     ],
@@ -221,10 +221,10 @@
         "weather_delay": 1.38
       },
       "zscores": {
-        "late_aircraft_delay": 0.0,
-        "carrier_delay": 0.0,
-        "nas_airspace_delay": 0.0,
-        "weather_delay": 0.0
+        "late_aircraft_delay": 0,
+        "carrier_delay": 0,
+        "nas_airspace_delay": 0,
+        "weather_delay": 0
       },
       "events": []
     },
@@ -237,10 +237,10 @@
         "weather_delay": 0.88
       },
       "zscores": {
-        "late_aircraft_delay": -1.0,
-        "carrier_delay": -1.0,
-        "nas_airspace_delay": -1.0,
-        "weather_delay": -1.0
+        "late_aircraft_delay": -1,
+        "carrier_delay": -1,
+        "nas_airspace_delay": -1,
+        "weather_delay": -1
       },
       "events": []
     },
@@ -409,7 +409,7 @@
       "values": {
         "late_aircraft_delay": 5.61,
         "carrier_delay": 5.81,
-        "nas_airspace_delay": 7.0,
+        "nas_airspace_delay": 7,
         "weather_delay": 0.87
       },
       "zscores": {
@@ -2289,7 +2289,7 @@
     {
       "date": "2015-10-01",
       "values": {
-        "late_aircraft_delay": 4.0,
+        "late_aircraft_delay": 4,
         "carrier_delay": 4.03,
         "nas_airspace_delay": 4.07,
         "weather_delay": 0.24
@@ -2722,7 +2722,7 @@
       "date": "2018-01-01",
       "values": {
         "late_aircraft_delay": 6.31,
-        "carrier_delay": 5.0,
+        "carrier_delay": 5,
         "nas_airspace_delay": 5.29,
         "weather_delay": 0.71
       },
@@ -2947,7 +2947,7 @@
       "values": {
         "late_aircraft_delay": 6.37,
         "carrier_delay": 5.18,
-        "nas_airspace_delay": 5.0,
+        "nas_airspace_delay": 5,
         "weather_delay": 0.39
       },
       "zscores": {
@@ -3139,7 +3139,7 @@
       "values": {
         "late_aircraft_delay": 2.55,
         "carrier_delay": 2.61,
-        "nas_airspace_delay": 3.0,
+        "nas_airspace_delay": 3,
         "weather_delay": 0.17
       },
       "zscores": {
@@ -3639,7 +3639,7 @@
       "date": "2022-10-01",
       "values": {
         "late_aircraft_delay": 5.29,
-        "carrier_delay": 6.0,
+        "carrier_delay": 6,
         "nas_airspace_delay": 3.95,
         "weather_delay": 0.35
       },
@@ -4112,7 +4112,7 @@
     {
       "date": "2025-03-01",
       "values": {
-        "late_aircraft_delay": 7.0,
+        "late_aircraft_delay": 7,
         "carrier_delay": 5.87,
         "nas_airspace_delay": 5.61,
         "weather_delay": 0.69

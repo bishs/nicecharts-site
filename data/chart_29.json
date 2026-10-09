@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_29",
     "number": 29,
-    "title": "Domestic Freight Corridor Flow Density",
+    "title": "What Trains Carry: Bulk Goods vs. Containers",
     "section": "Section F: Logistics, Infrastructure & Public Health",
     "section_id": "section_f",
-    "visual_form": "Illuminated Vector Polyline Network",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "BTS",
       "BTS/AAR",
@@ -219,14 +219,14 @@
       "values": {
         "freight_tsi": 109.9,
         "truck_tonnage": 83.9,
-        "rail_carloads": 1358916.0,
-        "rail_intermodal": 993054.0
+        "rail_carloads": 1358916,
+        "rail_intermodal": 993054
       },
       "zscores": {
-        "freight_tsi": 0.0,
-        "truck_tonnage": 0.0,
-        "rail_carloads": 0.0,
-        "rail_intermodal": 0.0
+        "freight_tsi": 0,
+        "truck_tonnage": 0,
+        "rail_carloads": 0,
+        "rail_intermodal": 0
       },
       "events": []
     },
@@ -235,14 +235,14 @@
       "values": {
         "freight_tsi": 110.5,
         "truck_tonnage": 84.2,
-        "rail_carloads": 1350763.0,
-        "rail_intermodal": 996979.0
+        "rail_carloads": 1350763,
+        "rail_intermodal": 996979
       },
       "zscores": {
-        "freight_tsi": 1.0,
-        "truck_tonnage": 1.0,
-        "rail_carloads": -1.0,
-        "rail_intermodal": 1.0
+        "freight_tsi": 1,
+        "truck_tonnage": 1,
+        "rail_carloads": -1,
+        "rail_intermodal": 1
       },
       "events": []
     },
@@ -251,8 +251,8 @@
       "values": {
         "freight_tsi": 111.7,
         "truck_tonnage": 85.4,
-        "rail_carloads": 1359553.0,
-        "rail_intermodal": 988031.0
+        "rail_carloads": 1359553,
+        "rail_intermodal": 988031
       },
       "zscores": {
         "freight_tsi": 1.336,
@@ -267,8 +267,8 @@
       "values": {
         "freight_tsi": 110.3,
         "truck_tonnage": 83.7,
-        "rail_carloads": 1366114.0,
-        "rail_intermodal": 979590.0
+        "rail_carloads": 1366114,
+        "rail_intermodal": 979590
       },
       "zscores": {
         "freight_tsi": -0.447,
@@ -283,8 +283,8 @@
       "values": {
         "freight_tsi": 110.4,
         "truck_tonnage": 83.8,
-        "rail_carloads": 1364222.0,
-        "rail_intermodal": 983231.0
+        "rail_carloads": 1364222,
+        "rail_intermodal": 983231
       },
       "zscores": {
         "freight_tsi": -0.264,
@@ -299,8 +299,8 @@
       "values": {
         "freight_tsi": 109.7,
         "truck_tonnage": 82.8,
-        "rail_carloads": 1397949.0,
-        "rail_intermodal": 989984.0
+        "rail_carloads": 1397949,
+        "rail_intermodal": 989984
       },
       "zscores": {
         "freight_tsi": -1.122,
@@ -315,8 +315,8 @@
       "values": {
         "freight_tsi": 108.7,
         "truck_tonnage": 82.8,
-        "rail_carloads": 1359406.0,
-        "rail_intermodal": 976599.0
+        "rail_carloads": 1359406,
+        "rail_intermodal": 976599
       },
       "zscores": {
         "freight_tsi": -1.746,
@@ -331,8 +331,8 @@
       "values": {
         "freight_tsi": 109.6,
         "truck_tonnage": 83.6,
-        "rail_carloads": 1372779.0,
-        "rail_intermodal": 969084.0
+        "rail_carloads": 1372779,
+        "rail_intermodal": 969084
       },
       "zscores": {
         "freight_tsi": -0.617,
@@ -347,8 +347,8 @@
       "values": {
         "freight_tsi": 109.3,
         "truck_tonnage": 82.5,
-        "rail_carloads": 1379791.0,
-        "rail_intermodal": 980897.0
+        "rail_carloads": 1379791,
+        "rail_intermodal": 980897
       },
       "zscores": {
         "freight_tsi": -0.884,
@@ -363,8 +363,8 @@
       "values": {
         "freight_tsi": 110.9,
         "truck_tonnage": 84.7,
-        "rail_carloads": 1376456.0,
-        "rail_intermodal": 958562.0
+        "rail_carloads": 1376456,
+        "rail_intermodal": 958562
       },
       "zscores": {
         "freight_tsi": 0.989,
@@ -379,8 +379,8 @@
       "values": {
         "freight_tsi": 110.7,
         "truck_tonnage": 84.6,
-        "rail_carloads": 1391777.0,
-        "rail_intermodal": 971428.0
+        "rail_carloads": 1391777,
+        "rail_intermodal": 971428
       },
       "zscores": {
         "freight_tsi": 0.69,
@@ -395,8 +395,8 @@
       "values": {
         "freight_tsi": 110.7,
         "truck_tonnage": 84.5,
-        "rail_carloads": 1378743.0,
-        "rail_intermodal": 964045.0
+        "rail_carloads": 1378743,
+        "rail_intermodal": 964045
       },
       "zscores": {
         "freight_tsi": 0.648,
@@ -411,8 +411,8 @@
       "values": {
         "freight_tsi": 113.4,
         "truck_tonnage": 87.6,
-        "rail_carloads": 1376424.0,
-        "rail_intermodal": 962108.0
+        "rail_carloads": 1376424,
+        "rail_intermodal": 962108
       },
       "zscores": {
         "freight_tsi": 2.615,
@@ -427,8 +427,8 @@
       "values": {
         "freight_tsi": 111.1,
         "truck_tonnage": 85.4,
-        "rail_carloads": 1375374.0,
-        "rail_intermodal": 965347.0
+        "rail_carloads": 1375374,
+        "rail_intermodal": 965347
       },
       "zscores": {
         "freight_tsi": 0.551,
@@ -443,8 +443,8 @@
       "values": {
         "freight_tsi": 109.6,
         "truck_tonnage": 85.7,
-        "rail_carloads": 1364086.0,
-        "rail_intermodal": 941354.0
+        "rail_carloads": 1364086,
+        "rail_intermodal": 941354
       },
       "zscores": {
         "freight_tsi": -0.766,
@@ -459,8 +459,8 @@
       "values": {
         "freight_tsi": 111.6,
         "truck_tonnage": 86.6,
-        "rail_carloads": 1377656.0,
-        "rail_intermodal": 950510.0
+        "rail_carloads": 1377656,
+        "rail_intermodal": 950510
       },
       "zscores": {
         "freight_tsi": 1.003,
@@ -475,8 +475,8 @@
       "values": {
         "freight_tsi": 111.3,
         "truck_tonnage": 86.3,
-        "rail_carloads": 1376467.0,
-        "rail_intermodal": 956747.0
+        "rail_carloads": 1376467,
+        "rail_intermodal": 956747
       },
       "zscores": {
         "freight_tsi": 0.696,
@@ -491,8 +491,8 @@
       "values": {
         "freight_tsi": 109.9,
         "truck_tonnage": 86.8,
-        "rail_carloads": 1350225.0,
-        "rail_intermodal": 953271.0
+        "rail_carloads": 1350225,
+        "rail_intermodal": 953271
       },
       "zscores": {
         "freight_tsi": -0.585,
@@ -507,8 +507,8 @@
       "values": {
         "freight_tsi": 111.1,
         "truck_tonnage": 86.3,
-        "rail_carloads": 1389414.0,
-        "rail_intermodal": 961411.0
+        "rail_carloads": 1389414,
+        "rail_intermodal": 961411
       },
       "zscores": {
         "freight_tsi": 0.534,
@@ -521,10 +521,10 @@
     {
       "date": "2008-08-01",
       "values": {
-        "freight_tsi": 109.0,
+        "freight_tsi": 109,
         "truck_tonnage": 84.3,
-        "rail_carloads": 1363316.0,
-        "rail_intermodal": 945549.0
+        "rail_carloads": 1363316,
+        "rail_intermodal": 945549
       },
       "zscores": {
         "freight_tsi": -1.383,
@@ -539,8 +539,8 @@
       "values": {
         "freight_tsi": 107.4,
         "truck_tonnage": 84.4,
-        "rail_carloads": 1323234.0,
-        "rail_intermodal": 939975.0
+        "rail_carloads": 1323234,
+        "rail_intermodal": 939975
       },
       "zscores": {
         "freight_tsi": -2.384,
@@ -555,8 +555,8 @@
       "values": {
         "freight_tsi": 107.4,
         "truck_tonnage": 82.9,
-        "rail_carloads": 1335012.0,
-        "rail_intermodal": 935840.0
+        "rail_carloads": 1335012,
+        "rail_intermodal": 935840
       },
       "zscores": {
         "freight_tsi": -2.077,
@@ -571,8 +571,8 @@
       "values": {
         "freight_tsi": 104.2,
         "truck_tonnage": 81.5,
-        "rail_carloads": 1254898.0,
-        "rail_intermodal": 899357.0
+        "rail_carloads": 1254898,
+        "rail_intermodal": 899357
       },
       "zscores": {
         "freight_tsi": -3.193,
@@ -592,8 +592,8 @@
       "values": {
         "freight_tsi": 100.4,
         "truck_tonnage": 79.4,
-        "rail_carloads": 1180302.0,
-        "rail_intermodal": 813842.0
+        "rail_carloads": 1180302,
+        "rail_intermodal": 813842
       },
       "zscores": {
         "freight_tsi": -3.525,
@@ -608,8 +608,8 @@
       "values": {
         "freight_tsi": 98.6,
         "truck_tonnage": 77.5,
-        "rail_carloads": 1156335.0,
-        "rail_intermodal": 834023.0
+        "rail_carloads": 1156335,
+        "rail_intermodal": 834023
       },
       "zscores": {
         "freight_tsi": -3.16,
@@ -624,8 +624,8 @@
       "values": {
         "freight_tsi": 101.1,
         "truck_tonnage": 79.5,
-        "rail_carloads": 1204357.0,
-        "rail_intermodal": 784880.0
+        "rail_carloads": 1204357,
+        "rail_intermodal": 784880
       },
       "zscores": {
         "freight_tsi": -2.134,
@@ -640,8 +640,8 @@
       "values": {
         "freight_tsi": 95.8,
         "truck_tonnage": 75.6,
-        "rail_carloads": 1121533.0,
-        "rail_intermodal": 791400.0
+        "rail_carloads": 1121533,
+        "rail_intermodal": 791400
       },
       "zscores": {
         "freight_tsi": -2.907,
@@ -656,8 +656,8 @@
       "values": {
         "freight_tsi": 94.9,
         "truck_tonnage": 74.8,
-        "rail_carloads": 1060832.0,
-        "rail_intermodal": 790318.0
+        "rail_carloads": 1060832,
+        "rail_intermodal": 790318
       },
       "zscores": {
         "freight_tsi": -2.637,
@@ -672,8 +672,8 @@
       "values": {
         "freight_tsi": 95.1,
         "truck_tonnage": 76.4,
-        "rail_carloads": 1045234.0,
-        "rail_intermodal": 778350.0
+        "rail_carloads": 1045234,
+        "rail_intermodal": 778350
       },
       "zscores": {
         "freight_tsi": -2.298,
@@ -688,8 +688,8 @@
       "values": {
         "freight_tsi": 96.2,
         "truck_tonnage": 75.3,
-        "rail_carloads": 1096019.0,
-        "rail_intermodal": 773412.0
+        "rail_carloads": 1096019,
+        "rail_intermodal": 773412
       },
       "zscores": {
         "freight_tsi": -1.922,
@@ -704,8 +704,8 @@
       "values": {
         "freight_tsi": 98.4,
         "truck_tonnage": 76.9,
-        "rail_carloads": 1147576.0,
-        "rail_intermodal": 788607.0
+        "rail_carloads": 1147576,
+        "rail_intermodal": 788607
       },
       "zscores": {
         "freight_tsi": -1.452,
@@ -720,8 +720,8 @@
       "values": {
         "freight_tsi": 99.2,
         "truck_tonnage": 77.9,
-        "rail_carloads": 1130827.0,
-        "rail_intermodal": 795365.0
+        "rail_carloads": 1130827,
+        "rail_intermodal": 795365
       },
       "zscores": {
         "freight_tsi": -1.259,
@@ -736,8 +736,8 @@
       "values": {
         "freight_tsi": 99.7,
         "truck_tonnage": 78.4,
-        "rail_carloads": 1133806.0,
-        "rail_intermodal": 804179.0
+        "rail_carloads": 1133806,
+        "rail_intermodal": 804179
       },
       "zscores": {
         "freight_tsi": -1.131,
@@ -752,8 +752,8 @@
       "values": {
         "freight_tsi": 98.6,
         "truck_tonnage": 77.9,
-        "rail_carloads": 1116701.0,
-        "rail_intermodal": 822015.0
+        "rail_carloads": 1116701,
+        "rail_intermodal": 822015
       },
       "zscores": {
         "freight_tsi": -1.268,
@@ -768,8 +768,8 @@
       "values": {
         "freight_tsi": 101.3,
         "truck_tonnage": 79.3,
-        "rail_carloads": 1149131.0,
-        "rail_intermodal": 844149.0
+        "rail_carloads": 1149131,
+        "rail_intermodal": 844149
       },
       "zscores": {
         "freight_tsi": -0.791,
@@ -784,8 +784,8 @@
       "values": {
         "freight_tsi": 101.7,
         "truck_tonnage": 80.1,
-        "rail_carloads": 1116309.0,
-        "rail_intermodal": 846307.0
+        "rail_carloads": 1116309,
+        "rail_intermodal": 846307
       },
       "zscores": {
         "freight_tsi": -0.707,
@@ -800,8 +800,8 @@
       "values": {
         "freight_tsi": 103.1,
         "truck_tonnage": 80.5,
-        "rail_carloads": 1148866.0,
-        "rail_intermodal": 871746.0
+        "rail_carloads": 1148866,
+        "rail_intermodal": 871746
       },
       "zscores": {
         "freight_tsi": -0.436,
@@ -816,8 +816,8 @@
       "values": {
         "freight_tsi": 105.2,
         "truck_tonnage": 81.5,
-        "rail_carloads": 1184187.0,
-        "rail_intermodal": 870112.0
+        "rail_carloads": 1184187,
+        "rail_intermodal": 870112
       },
       "zscores": {
         "freight_tsi": -0.049,
@@ -832,8 +832,8 @@
       "values": {
         "freight_tsi": 105.4,
         "truck_tonnage": 81.8,
-        "rail_carloads": 1206701.0,
-        "rail_intermodal": 893465.0
+        "rail_carloads": 1206701,
+        "rail_intermodal": 893465
       },
       "zscores": {
         "freight_tsi": 0.017,
@@ -847,9 +847,9 @@
       "date": "2010-04-01",
       "values": {
         "freight_tsi": 106.2,
-        "truck_tonnage": 82.0,
-        "rail_carloads": 1225823.0,
-        "rail_intermodal": 883633.0
+        "truck_tonnage": 82,
+        "rail_carloads": 1225823,
+        "rail_intermodal": 883633
       },
       "zscores": {
         "freight_tsi": 0.181,
@@ -864,8 +864,8 @@
       "values": {
         "freight_tsi": 106.3,
         "truck_tonnage": 81.6,
-        "rail_carloads": 1213595.0,
-        "rail_intermodal": 905241.0
+        "rail_carloads": 1213595,
+        "rail_intermodal": 905241
       },
       "zscores": {
         "freight_tsi": 0.222,
@@ -880,8 +880,8 @@
       "values": {
         "freight_tsi": 106.4,
         "truck_tonnage": 81.6,
-        "rail_carloads": 1207251.0,
-        "rail_intermodal": 924321.0
+        "rail_carloads": 1207251,
+        "rail_intermodal": 924321
       },
       "zscores": {
         "freight_tsi": 0.259,
@@ -895,9 +895,9 @@
       "date": "2010-07-01",
       "values": {
         "freight_tsi": 106.9,
-        "truck_tonnage": 82.0,
-        "rail_carloads": 1217876.0,
-        "rail_intermodal": 938974.0
+        "truck_tonnage": 82,
+        "rail_carloads": 1217876,
+        "rail_intermodal": 938974
       },
       "zscores": {
         "freight_tsi": 0.361,
@@ -912,8 +912,8 @@
       "values": {
         "freight_tsi": 106.7,
         "truck_tonnage": 81.4,
-        "rail_carloads": 1210261.0,
-        "rail_intermodal": 953039.0
+        "rail_carloads": 1210261,
+        "rail_intermodal": 953039
       },
       "zscores": {
         "freight_tsi": 0.342,
@@ -927,9 +927,9 @@
       "date": "2010-09-01",
       "values": {
         "freight_tsi": 107.2,
-        "truck_tonnage": 82.0,
-        "rail_carloads": 1222708.0,
-        "rail_intermodal": 950050.0
+        "truck_tonnage": 82,
+        "rail_carloads": 1222708,
+        "rail_intermodal": 950050
       },
       "zscores": {
         "freight_tsi": 0.449,
@@ -944,8 +944,8 @@
       "values": {
         "freight_tsi": 107.8,
         "truck_tonnage": 83.1,
-        "rail_carloads": 1223062.0,
-        "rail_intermodal": 942507.0
+        "rail_carloads": 1223062,
+        "rail_intermodal": 942507
       },
       "zscores": {
         "freight_tsi": 0.586,
@@ -960,8 +960,8 @@
       "values": {
         "freight_tsi": 107.3,
         "truck_tonnage": 82.9,
-        "rail_carloads": 1209307.0,
-        "rail_intermodal": 936676.0
+        "rail_carloads": 1209307,
+        "rail_intermodal": 936676
       },
       "zscores": {
         "freight_tsi": 0.516,
@@ -975,9 +975,9 @@
       "date": "2010-12-01",
       "values": {
         "freight_tsi": 108.7,
-        "truck_tonnage": 84.0,
-        "rail_carloads": 1213073.0,
-        "rail_intermodal": 939077.0
+        "truck_tonnage": 84,
+        "rail_carloads": 1213073,
+        "rail_intermodal": 939077
       },
       "zscores": {
         "freight_tsi": 0.805,
@@ -990,10 +990,10 @@
     {
       "date": "2011-01-01",
       "values": {
-        "freight_tsi": 110.0,
+        "freight_tsi": 110,
         "truck_tonnage": 85.3,
-        "rail_carloads": 1241670.0,
-        "rail_intermodal": 948516.0
+        "rail_carloads": 1241670,
+        "rail_intermodal": 948516
       },
       "zscores": {
         "freight_tsi": 1.105,
@@ -1008,8 +1008,8 @@
       "values": {
         "freight_tsi": 109.4,
         "truck_tonnage": 84.8,
-        "rail_carloads": 1237404.0,
-        "rail_intermodal": 963344.0
+        "rail_carloads": 1237404,
+        "rail_intermodal": 963344
       },
       "zscores": {
         "freight_tsi": 1.005,
@@ -1024,8 +1024,8 @@
       "values": {
         "freight_tsi": 110.9,
         "truck_tonnage": 86.9,
-        "rail_carloads": 1253490.0,
-        "rail_intermodal": 960155.0
+        "rail_carloads": 1253490,
+        "rail_intermodal": 960155
       },
       "zscores": {
         "freight_tsi": 1.29,
@@ -1039,9 +1039,9 @@
       "date": "2011-04-01",
       "values": {
         "freight_tsi": 110.3,
-        "truck_tonnage": 86.0,
-        "rail_carloads": 1239432.0,
-        "rail_intermodal": 969158.0
+        "truck_tonnage": 86,
+        "rail_carloads": 1239432,
+        "rail_intermodal": 969158
       },
       "zscores": {
         "freight_tsi": 1.188,
@@ -1056,8 +1056,8 @@
       "values": {
         "freight_tsi": 108.5,
         "truck_tonnage": 84.8,
-        "rail_carloads": 1221641.0,
-        "rail_intermodal": 977293.0
+        "rail_carloads": 1221641,
+        "rail_intermodal": 977293
       },
       "zscores": {
         "freight_tsi": 0.855,
@@ -1072,8 +1072,8 @@
       "values": {
         "freight_tsi": 110.3,
         "truck_tonnage": 86.4,
-        "rail_carloads": 1220881.0,
-        "rail_intermodal": 967381.0
+        "rail_carloads": 1220881,
+        "rail_intermodal": 967381
       },
       "zscores": {
         "freight_tsi": 1.22,
@@ -1088,8 +1088,8 @@
       "values": {
         "freight_tsi": 110.1,
         "truck_tonnage": 85.6,
-        "rail_carloads": 1204189.0,
-        "rail_intermodal": 955615.0
+        "rail_carloads": 1204189,
+        "rail_intermodal": 955615
       },
       "zscores": {
         "freight_tsi": 1.194,
@@ -1104,8 +1104,8 @@
       "values": {
         "freight_tsi": 110.6,
         "truck_tonnage": 86.6,
-        "rail_carloads": 1211339.0,
-        "rail_intermodal": 959813.0
+        "rail_carloads": 1211339,
+        "rail_intermodal": 959813
       },
       "zscores": {
         "freight_tsi": 1.275,
@@ -1120,8 +1120,8 @@
       "values": {
         "freight_tsi": 111.2,
         "truck_tonnage": 87.3,
-        "rail_carloads": 1232724.0,
-        "rail_intermodal": 964683.0
+        "rail_carloads": 1232724,
+        "rail_intermodal": 964683
       },
       "zscores": {
         "freight_tsi": 1.347,
@@ -1136,8 +1136,8 @@
       "values": {
         "freight_tsi": 111.5,
         "truck_tonnage": 87.4,
-        "rail_carloads": 1251208.0,
-        "rail_intermodal": 977456.0
+        "rail_carloads": 1251208,
+        "rail_intermodal": 977456
       },
       "zscores": {
         "freight_tsi": 1.354,
@@ -1152,8 +1152,8 @@
       "values": {
         "freight_tsi": 111.8,
         "truck_tonnage": 88.2,
-        "rail_carloads": 1237349.0,
-        "rail_intermodal": 978862.0
+        "rail_carloads": 1237349,
+        "rail_intermodal": 978862
       },
       "zscores": {
         "freight_tsi": 1.336,
@@ -1168,8 +1168,8 @@
       "values": {
         "freight_tsi": 114.8,
         "truck_tonnage": 91.7,
-        "rail_carloads": 1280098.0,
-        "rail_intermodal": 994663.0
+        "rail_carloads": 1280098,
+        "rail_intermodal": 994663
       },
       "zscores": {
         "freight_tsi": 1.767,
@@ -1184,8 +1184,8 @@
       "values": {
         "freight_tsi": 111.2,
         "truck_tonnage": 87.7,
-        "rail_carloads": 1253977.0,
-        "rail_intermodal": 983864.0
+        "rail_carloads": 1253977,
+        "rail_intermodal": 983864
       },
       "zscores": {
         "freight_tsi": 1.046,
@@ -1200,8 +1200,8 @@
       "values": {
         "freight_tsi": 111.7,
         "truck_tonnage": 88.3,
-        "rail_carloads": 1204762.0,
-        "rail_intermodal": 973288.0
+        "rail_carloads": 1204762,
+        "rail_intermodal": 973288
       },
       "zscores": {
         "freight_tsi": 1.076,
@@ -1216,8 +1216,8 @@
       "values": {
         "freight_tsi": 111.6,
         "truck_tonnage": 89.2,
-        "rail_carloads": 1184365.0,
-        "rail_intermodal": 997989.0
+        "rail_carloads": 1184365,
+        "rail_intermodal": 997989
       },
       "zscores": {
         "freight_tsi": 1.013,
@@ -1232,8 +1232,8 @@
       "values": {
         "freight_tsi": 111.8,
         "truck_tonnage": 88.6,
-        "rail_carloads": 1172697.0,
-        "rail_intermodal": 1010714.0
+        "rail_carloads": 1172697,
+        "rail_intermodal": 1010714
       },
       "zscores": {
         "freight_tsi": 1.019,
@@ -1248,8 +1248,8 @@
       "values": {
         "freight_tsi": 112.7,
         "truck_tonnage": 88.4,
-        "rail_carloads": 1185790.0,
-        "rail_intermodal": 1005862.0
+        "rail_carloads": 1185790,
+        "rail_intermodal": 1005862
       },
       "zscores": {
         "freight_tsi": 1.177,
@@ -1264,8 +1264,8 @@
       "values": {
         "freight_tsi": 113.5,
         "truck_tonnage": 89.5,
-        "rail_carloads": 1201729.0,
-        "rail_intermodal": 1016361.0
+        "rail_carloads": 1201729,
+        "rail_intermodal": 1016361
       },
       "zscores": {
         "freight_tsi": 1.326,
@@ -1280,8 +1280,8 @@
       "values": {
         "freight_tsi": 113.2,
         "truck_tonnage": 89.6,
-        "rail_carloads": 1189754.0,
-        "rail_intermodal": 1011171.0
+        "rail_carloads": 1189754,
+        "rail_intermodal": 1011171
       },
       "zscores": {
         "freight_tsi": 1.22,
@@ -1295,9 +1295,9 @@
       "date": "2012-08-01",
       "values": {
         "freight_tsi": 112.5,
-        "truck_tonnage": 89.0,
-        "rail_carloads": 1188267.0,
-        "rail_intermodal": 1005469.0
+        "truck_tonnage": 89,
+        "rail_carloads": 1188267,
+        "rail_intermodal": 1005469
       },
       "zscores": {
         "freight_tsi": 1.018,
@@ -1312,8 +1312,8 @@
       "values": {
         "freight_tsi": 111.8,
         "truck_tonnage": 88.5,
-        "rail_carloads": 1179960.0,
-        "rail_intermodal": 1006978.0
+        "rail_carloads": 1179960,
+        "rail_intermodal": 1006978
       },
       "zscores": {
         "freight_tsi": 0.807,
@@ -1327,9 +1327,9 @@
       "date": "2012-10-01",
       "values": {
         "freight_tsi": 110.2,
-        "truck_tonnage": 87.0,
-        "rail_carloads": 1163482.0,
-        "rail_intermodal": 997366.0
+        "truck_tonnage": 87,
+        "rail_carloads": 1163482,
+        "rail_intermodal": 997366
       },
       "zscores": {
         "freight_tsi": 0.321,
@@ -1344,8 +1344,8 @@
       "values": {
         "freight_tsi": 111.8,
         "truck_tonnage": 88.6,
-        "rail_carloads": 1176986.0,
-        "rail_intermodal": 984997.0
+        "rail_carloads": 1176986,
+        "rail_intermodal": 984997
       },
       "zscores": {
         "freight_tsi": 0.788,
@@ -1360,8 +1360,8 @@
       "values": {
         "freight_tsi": 111.9,
         "truck_tonnage": 89.3,
-        "rail_carloads": 1199550.0,
-        "rail_intermodal": 985704.0
+        "rail_carloads": 1199550,
+        "rail_intermodal": 985704
       },
       "zscores": {
         "freight_tsi": 0.801,
@@ -1376,8 +1376,8 @@
       "values": {
         "freight_tsi": 114.1,
         "truck_tonnage": 91.9,
-        "rail_carloads": 1172903.0,
-        "rail_intermodal": 1052936.0
+        "rail_carloads": 1172903,
+        "rail_intermodal": 1052936
       },
       "zscores": {
         "freight_tsi": 1.59,
@@ -1392,8 +1392,8 @@
       "values": {
         "freight_tsi": 115.6,
         "truck_tonnage": 92.8,
-        "rail_carloads": 1194736.0,
-        "rail_intermodal": 1066046.0
+        "rail_carloads": 1194736,
+        "rail_intermodal": 1066046
       },
       "zscores": {
         "freight_tsi": 2.046,
@@ -1408,8 +1408,8 @@
       "values": {
         "freight_tsi": 115.5,
         "truck_tonnage": 92.7,
-        "rail_carloads": 1182730.0,
-        "rail_intermodal": 1020240.0
+        "rail_carloads": 1182730,
+        "rail_intermodal": 1020240
       },
       "zscores": {
         "freight_tsi": 1.9,
@@ -1423,9 +1423,9 @@
       "date": "2013-04-01",
       "values": {
         "freight_tsi": 114.7,
-        "truck_tonnage": 93.0,
-        "rail_carloads": 1174025.0,
-        "rail_intermodal": 1007582.0
+        "truck_tonnage": 93,
+        "rail_carloads": 1174025,
+        "rail_intermodal": 1007582
       },
       "zscores": {
         "freight_tsi": 1.512,
@@ -1440,8 +1440,8 @@
       "values": {
         "freight_tsi": 115.7,
         "truck_tonnage": 94.6,
-        "rail_carloads": 1193598.0,
-        "rail_intermodal": 1029059.0
+        "rail_carloads": 1193598,
+        "rail_intermodal": 1029059
       },
       "zscores": {
         "freight_tsi": 1.801,
@@ -1456,8 +1456,8 @@
       "values": {
         "freight_tsi": 116.2,
         "truck_tonnage": 94.2,
-        "rail_carloads": 1193548.0,
-        "rail_intermodal": 1032086.0
+        "rail_carloads": 1193548,
+        "rail_intermodal": 1032086
       },
       "zscores": {
         "freight_tsi": 1.885,
@@ -1472,8 +1472,8 @@
       "values": {
         "freight_tsi": 115.8,
         "truck_tonnage": 94.4,
-        "rail_carloads": 1180625.0,
-        "rail_intermodal": 1037701.0
+        "rail_carloads": 1180625,
+        "rail_intermodal": 1037701
       },
       "zscores": {
         "freight_tsi": 1.642,
@@ -1488,8 +1488,8 @@
       "values": {
         "freight_tsi": 116.3,
         "truck_tonnage": 94.7,
-        "rail_carloads": 1194039.0,
-        "rail_intermodal": 1047659.0
+        "rail_carloads": 1194039,
+        "rail_intermodal": 1047659
       },
       "zscores": {
         "freight_tsi": 1.753,
@@ -1504,8 +1504,8 @@
       "values": {
         "freight_tsi": 116.4,
         "truck_tonnage": 95.4,
-        "rail_carloads": 1184876.0,
-        "rail_intermodal": 1057903.0
+        "rail_carloads": 1184876,
+        "rail_intermodal": 1057903
       },
       "zscores": {
         "freight_tsi": 1.706,
@@ -1520,8 +1520,8 @@
       "values": {
         "freight_tsi": 116.3,
         "truck_tonnage": 94.7,
-        "rail_carloads": 1178253.0,
-        "rail_intermodal": 1059918.0
+        "rail_carloads": 1178253,
+        "rail_intermodal": 1059918
       },
       "zscores": {
         "freight_tsi": 1.584,
@@ -1536,8 +1536,8 @@
       "values": {
         "freight_tsi": 118.7,
         "truck_tonnage": 97.2,
-        "rail_carloads": 1201455.0,
-        "rail_intermodal": 1065372.0
+        "rail_carloads": 1201455,
+        "rail_intermodal": 1065372
       },
       "zscores": {
         "freight_tsi": 2.372,
@@ -1552,8 +1552,8 @@
       "values": {
         "freight_tsi": 117.4,
         "truck_tonnage": 95.7,
-        "rail_carloads": 1180515.0,
-        "rail_intermodal": 1045845.0
+        "rail_carloads": 1180515,
+        "rail_intermodal": 1045845
       },
       "zscores": {
         "freight_tsi": 1.748,
@@ -1568,8 +1568,8 @@
       "values": {
         "freight_tsi": 115.9,
         "truck_tonnage": 93.1,
-        "rail_carloads": 1185173.0,
-        "rail_intermodal": 1042844.0
+        "rail_carloads": 1185173,
+        "rail_intermodal": 1042844
       },
       "zscores": {
         "freight_tsi": 1.097,
@@ -1584,8 +1584,8 @@
       "values": {
         "freight_tsi": 117.8,
         "truck_tonnage": 95.5,
-        "rail_carloads": 1181161.0,
-        "rail_intermodal": 1069274.0
+        "rail_carloads": 1181161,
+        "rail_intermodal": 1069274
       },
       "zscores": {
         "freight_tsi": 1.729,
@@ -1600,8 +1600,8 @@
       "values": {
         "freight_tsi": 119.7,
         "truck_tonnage": 96.1,
-        "rail_carloads": 1235081.0,
-        "rail_intermodal": 1108773.0
+        "rail_carloads": 1235081,
+        "rail_intermodal": 1108773
       },
       "zscores": {
         "freight_tsi": 2.225,
@@ -1616,8 +1616,8 @@
       "values": {
         "freight_tsi": 120.2,
         "truck_tonnage": 96.8,
-        "rail_carloads": 1256789.0,
-        "rail_intermodal": 1113181.0
+        "rail_carloads": 1256789,
+        "rail_intermodal": 1113181
       },
       "zscores": {
         "freight_tsi": 2.189,
@@ -1632,8 +1632,8 @@
       "values": {
         "freight_tsi": 120.7,
         "truck_tonnage": 97.2,
-        "rail_carloads": 1265725.0,
-        "rail_intermodal": 1100770.0
+        "rail_carloads": 1265725,
+        "rail_intermodal": 1100770
       },
       "zscores": {
         "freight_tsi": 2.195,
@@ -1647,9 +1647,9 @@
       "date": "2014-06-01",
       "values": {
         "freight_tsi": 119.4,
-        "truck_tonnage": 97.0,
-        "rail_carloads": 1232675.0,
-        "rail_intermodal": 1104251.0
+        "truck_tonnage": 97,
+        "rail_carloads": 1232675,
+        "rail_intermodal": 1104251
       },
       "zscores": {
         "freight_tsi": 1.646,
@@ -1664,8 +1664,8 @@
       "values": {
         "freight_tsi": 120.1,
         "truck_tonnage": 97.4,
-        "rail_carloads": 1252166.0,
-        "rail_intermodal": 1103386.0
+        "rail_carloads": 1252166,
+        "rail_intermodal": 1103386
       },
       "zscores": {
         "freight_tsi": 1.759,
@@ -1680,8 +1680,8 @@
       "values": {
         "freight_tsi": 120.4,
         "truck_tonnage": 98.4,
-        "rail_carloads": 1224156.0,
-        "rail_intermodal": 1092644.0
+        "rail_carloads": 1224156,
+        "rail_intermodal": 1092644
       },
       "zscores": {
         "freight_tsi": 1.736,
@@ -1695,9 +1695,9 @@
       "date": "2014-09-01",
       "values": {
         "freight_tsi": 121.5,
-        "truck_tonnage": 99.0,
-        "rail_carloads": 1220050.0,
-        "rail_intermodal": 1104007.0
+        "truck_tonnage": 99,
+        "rail_carloads": 1220050,
+        "rail_intermodal": 1104007
       },
       "zscores": {
         "freight_tsi": 1.93,
@@ -1712,8 +1712,8 @@
       "values": {
         "freight_tsi": 122.3,
         "truck_tonnage": 99.3,
-        "rail_carloads": 1234597.0,
-        "rail_intermodal": 1114707.0
+        "rail_carloads": 1234597,
+        "rail_intermodal": 1114707
       },
       "zscores": {
         "freight_tsi": 2.003,
@@ -1727,9 +1727,9 @@
       "date": "2014-11-01",
       "values": {
         "freight_tsi": 122.9,
-        "truck_tonnage": 100.0,
-        "rail_carloads": 1220503.0,
-        "rail_intermodal": 1098134.0
+        "truck_tonnage": 100,
+        "rail_carloads": 1220503,
+        "rail_intermodal": 1098134
       },
       "zscores": {
         "freight_tsi": 2.003,
@@ -1744,8 +1744,8 @@
       "values": {
         "freight_tsi": 122.8,
         "truck_tonnage": 99.5,
-        "rail_carloads": 1283400.0,
-        "rail_intermodal": 1094952.0
+        "rail_carloads": 1283400,
+        "rail_intermodal": 1094952
       },
       "zscores": {
         "freight_tsi": 1.821,
@@ -1760,8 +1760,8 @@
       "values": {
         "freight_tsi": 122.6,
         "truck_tonnage": 99.2,
-        "rail_carloads": 1257668.0,
-        "rail_intermodal": 1050836.0
+        "rail_carloads": 1257668,
+        "rail_intermodal": 1050836
       },
       "zscores": {
         "freight_tsi": 1.656,
@@ -1776,8 +1776,8 @@
       "values": {
         "freight_tsi": 121.7,
         "truck_tonnage": 98.6,
-        "rail_carloads": 1171747.0,
-        "rail_intermodal": 990831.0
+        "rail_carloads": 1171747,
+        "rail_intermodal": 990831
       },
       "zscores": {
         "freight_tsi": 1.336,
@@ -1792,8 +1792,8 @@
       "values": {
         "freight_tsi": 122.6,
         "truck_tonnage": 101.1,
-        "rail_carloads": 1196471.0,
-        "rail_intermodal": 1173990.0
+        "rail_carloads": 1196471,
+        "rail_intermodal": 1173990
       },
       "zscores": {
         "freight_tsi": 1.488,
@@ -1808,8 +1808,8 @@
       "values": {
         "freight_tsi": 121.6,
         "truck_tonnage": 98.5,
-        "rail_carloads": 1194820.0,
-        "rail_intermodal": 1174433.0
+        "rail_carloads": 1194820,
+        "rail_intermodal": 1174433
       },
       "zscores": {
         "freight_tsi": 1.159,
@@ -1824,8 +1824,8 @@
       "values": {
         "freight_tsi": 121.7,
         "truck_tonnage": 99.4,
-        "rail_carloads": 1150474.0,
-        "rail_intermodal": 1146571.0
+        "rail_carloads": 1150474,
+        "rail_intermodal": 1146571
       },
       "zscores": {
         "freight_tsi": 1.123,
@@ -1840,8 +1840,8 @@
       "values": {
         "freight_tsi": 121.3,
         "truck_tonnage": 99.4,
-        "rail_carloads": 1126950.0,
-        "rail_intermodal": 1138338.0
+        "rail_carloads": 1126950,
+        "rail_intermodal": 1138338
       },
       "zscores": {
         "freight_tsi": 0.96,
@@ -1856,8 +1856,8 @@
       "values": {
         "freight_tsi": 122.4,
         "truck_tonnage": 100.2,
-        "rail_carloads": 1163857.0,
-        "rail_intermodal": 1144359.0
+        "rail_carloads": 1163857,
+        "rail_intermodal": 1144359
       },
       "zscores": {
         "freight_tsi": 1.191,
@@ -1872,8 +1872,8 @@
       "values": {
         "freight_tsi": 122.9,
         "truck_tonnage": 100.9,
-        "rail_carloads": 1161359.0,
-        "rail_intermodal": 1137024.0
+        "rail_carloads": 1161359,
+        "rail_intermodal": 1137024
       },
       "zscores": {
         "freight_tsi": 1.261,
@@ -1888,8 +1888,8 @@
       "values": {
         "freight_tsi": 123.1,
         "truck_tonnage": 100.9,
-        "rail_carloads": 1154181.0,
-        "rail_intermodal": 1120958.0
+        "rail_carloads": 1154181,
+        "rail_intermodal": 1120958
       },
       "zscores": {
         "freight_tsi": 1.26,
@@ -1904,8 +1904,8 @@
       "values": {
         "freight_tsi": 122.6,
         "truck_tonnage": 100.7,
-        "rail_carloads": 1150109.0,
-        "rail_intermodal": 1098093.0
+        "rail_carloads": 1150109,
+        "rail_intermodal": 1098093
       },
       "zscores": {
         "freight_tsi": 1.096,
@@ -1920,8 +1920,8 @@
       "values": {
         "freight_tsi": 120.7,
         "truck_tonnage": 99.6,
-        "rail_carloads": 1096564.0,
-        "rail_intermodal": 1089149.0
+        "rail_carloads": 1096564,
+        "rail_intermodal": 1089149
       },
       "zscores": {
         "freight_tsi": 0.481,
@@ -1936,8 +1936,8 @@
       "values": {
         "freight_tsi": 120.3,
         "truck_tonnage": 101.1,
-        "rail_carloads": 1077594.0,
-        "rail_intermodal": 1063336.0
+        "rail_carloads": 1077594,
+        "rail_intermodal": 1063336
       },
       "zscores": {
         "freight_tsi": 0.301,
@@ -1952,8 +1952,8 @@
       "values": {
         "freight_tsi": 122.1,
         "truck_tonnage": 102.7,
-        "rail_carloads": 1049110.0,
-        "rail_intermodal": 1109120.0
+        "rail_carloads": 1049110,
+        "rail_intermodal": 1109120
       },
       "zscores": {
         "freight_tsi": 0.892,
@@ -1968,8 +1968,8 @@
       "values": {
         "freight_tsi": 121.4,
         "truck_tonnage": 101.6,
-        "rail_carloads": 1040591.0,
-        "rail_intermodal": 1118131.0
+        "rail_carloads": 1040591,
+        "rail_intermodal": 1118131
       },
       "zscores": {
         "freight_tsi": 0.593,
@@ -1984,8 +1984,8 @@
       "values": {
         "freight_tsi": 120.4,
         "truck_tonnage": 101.7,
-        "rail_carloads": 1022798.0,
-        "rail_intermodal": 1088723.0
+        "rail_carloads": 1022798,
+        "rail_intermodal": 1088723
       },
       "zscores": {
         "freight_tsi": 0.172,
@@ -2000,8 +2000,8 @@
       "values": {
         "freight_tsi": 122.8,
         "truck_tonnage": 103.2,
-        "rail_carloads": 1003227.0,
-        "rail_intermodal": 1079455.0
+        "rail_carloads": 1003227,
+        "rail_intermodal": 1079455
       },
       "zscores": {
         "freight_tsi": 1.073,
@@ -2014,10 +2014,10 @@
     {
       "date": "2016-05-01",
       "values": {
-        "freight_tsi": 122.0,
-        "truck_tonnage": 102.0,
-        "rail_carloads": 1017061.0,
-        "rail_intermodal": 1093780.0
+        "freight_tsi": 122,
+        "truck_tonnage": 102,
+        "rail_carloads": 1017061,
+        "rail_intermodal": 1093780
       },
       "zscores": {
         "freight_tsi": 0.703,
@@ -2032,11 +2032,11 @@
       "values": {
         "freight_tsi": 122.8,
         "truck_tonnage": 102.2,
-        "rail_carloads": 1046877.0,
-        "rail_intermodal": 1086784.0
+        "rail_carloads": 1046877,
+        "rail_intermodal": 1086784
       },
       "zscores": {
-        "freight_tsi": 1.0,
+        "freight_tsi": 1,
         "truck_tonnage": 1.341,
         "rail_carloads": -1.589,
         "rail_intermodal": -0.175
@@ -2048,8 +2048,8 @@
       "values": {
         "freight_tsi": 125.2,
         "truck_tonnage": 104.8,
-        "rail_carloads": 1077197.0,
-        "rail_intermodal": 1073620.0
+        "rail_carloads": 1077197,
+        "rail_intermodal": 1073620
       },
       "zscores": {
         "freight_tsi": 1.966,
@@ -2064,8 +2064,8 @@
       "values": {
         "freight_tsi": 123.2,
         "truck_tonnage": 101.4,
-        "rail_carloads": 1077691.0,
-        "rail_intermodal": 1081674.0
+        "rail_carloads": 1077691,
+        "rail_intermodal": 1081674
       },
       "zscores": {
         "freight_tsi": 1.032,
@@ -2080,8 +2080,8 @@
       "values": {
         "freight_tsi": 121.9,
         "truck_tonnage": 100.2,
-        "rail_carloads": 1095302.0,
-        "rail_intermodal": 1075001.0
+        "rail_carloads": 1095302,
+        "rail_intermodal": 1075001
       },
       "zscores": {
         "freight_tsi": 0.376,
@@ -2096,8 +2096,8 @@
       "values": {
         "freight_tsi": 122.9,
         "truck_tonnage": 101.6,
-        "rail_carloads": 1091276.0,
-        "rail_intermodal": 1089927.0
+        "rail_carloads": 1091276,
+        "rail_intermodal": 1089927
       },
       "zscores": {
         "freight_tsi": 0.854,
@@ -2110,10 +2110,10 @@
     {
       "date": "2016-11-01",
       "values": {
-        "freight_tsi": 123.0,
+        "freight_tsi": 123,
         "truck_tonnage": 102.4,
-        "rail_carloads": 1103925.0,
-        "rail_intermodal": 1105852.0
+        "rail_carloads": 1103925,
+        "rail_intermodal": 1105852
       },
       "zscores": {
         "freight_tsi": 0.86,
@@ -2128,8 +2128,8 @@
       "values": {
         "freight_tsi": 124.2,
         "truck_tonnage": 103.2,
-        "rail_carloads": 1084402.0,
-        "rail_intermodal": 1126979.0
+        "rail_carloads": 1084402,
+        "rail_intermodal": 1126979
       },
       "zscores": {
         "freight_tsi": 1.488,
@@ -2143,9 +2143,9 @@
       "date": "2017-01-01",
       "values": {
         "freight_tsi": 123.8,
-        "truck_tonnage": 103.0,
-        "rail_carloads": 1097401.0,
-        "rail_intermodal": 1124346.0
+        "truck_tonnage": 103,
+        "rail_carloads": 1097401,
+        "rail_intermodal": 1124346
       },
       "zscores": {
         "freight_tsi": 1.331,
@@ -2159,9 +2159,9 @@
       "date": "2017-02-01",
       "values": {
         "freight_tsi": 124.6,
-        "truck_tonnage": 104.0,
-        "rail_carloads": 1118887.0,
-        "rail_intermodal": 1129302.0
+        "truck_tonnage": 104,
+        "rail_carloads": 1118887,
+        "rail_intermodal": 1129302
       },
       "zscores": {
         "freight_tsi": 1.882,
@@ -2175,9 +2175,9 @@
       "date": "2017-03-01",
       "values": {
         "freight_tsi": 124.9,
-        "truck_tonnage": 103.0,
-        "rail_carloads": 1095263.0,
-        "rail_intermodal": 1123000.0
+        "truck_tonnage": 103,
+        "rail_carloads": 1095263,
+        "rail_intermodal": 1123000
       },
       "zscores": {
         "freight_tsi": 1.97,
@@ -2192,8 +2192,8 @@
       "values": {
         "freight_tsi": 125.3,
         "truck_tonnage": 104.4,
-        "rail_carloads": 1083853.0,
-        "rail_intermodal": 1130096.0
+        "rail_carloads": 1083853,
+        "rail_intermodal": 1130096
       },
       "zscores": {
         "freight_tsi": 2.083,
@@ -2208,8 +2208,8 @@
       "values": {
         "freight_tsi": 125.9,
         "truck_tonnage": 104.7,
-        "rail_carloads": 1095006.0,
-        "rail_intermodal": 1138189.0
+        "rail_carloads": 1095006,
+        "rail_intermodal": 1138189
       },
       "zscores": {
         "freight_tsi": 2.264,
@@ -2224,8 +2224,8 @@
       "values": {
         "freight_tsi": 125.8,
         "truck_tonnage": 103.6,
-        "rail_carloads": 1105641.0,
-        "rail_intermodal": 1142825.0
+        "rail_carloads": 1105641,
+        "rail_intermodal": 1142825
       },
       "zscores": {
         "freight_tsi": 2.075,
@@ -2240,8 +2240,8 @@
       "values": {
         "freight_tsi": 128.2,
         "truck_tonnage": 107.2,
-        "rail_carloads": 1073632.0,
-        "rail_intermodal": 1134385.0
+        "rail_carloads": 1073632,
+        "rail_intermodal": 1134385
       },
       "zscores": {
         "freight_tsi": 3.115,
@@ -2256,8 +2256,8 @@
       "values": {
         "freight_tsi": 128.9,
         "truck_tonnage": 108.3,
-        "rail_carloads": 1076232.0,
-        "rail_intermodal": 1145251.0
+        "rail_carloads": 1076232,
+        "rail_intermodal": 1145251
       },
       "zscores": {
         "freight_tsi": 3.009,
@@ -2271,9 +2271,9 @@
       "date": "2017-09-01",
       "values": {
         "freight_tsi": 128.8,
-        "truck_tonnage": 109.0,
-        "rail_carloads": 1072813.0,
-        "rail_intermodal": 1117593.0
+        "truck_tonnage": 109,
+        "rail_carloads": 1072813,
+        "rail_intermodal": 1117593
       },
       "zscores": {
         "freight_tsi": 2.59,
@@ -2288,8 +2288,8 @@
       "values": {
         "freight_tsi": 130.1,
         "truck_tonnage": 109.4,
-        "rail_carloads": 1089483.0,
-        "rail_intermodal": 1155063.0
+        "rail_carloads": 1089483,
+        "rail_intermodal": 1155063
       },
       "zscores": {
         "freight_tsi": 2.754,
@@ -2304,8 +2304,8 @@
       "values": {
         "freight_tsi": 131.7,
         "truck_tonnage": 110.2,
-        "rail_carloads": 1091478.0,
-        "rail_intermodal": 1159544.0
+        "rail_carloads": 1091478,
+        "rail_intermodal": 1159544
       },
       "zscores": {
         "freight_tsi": 2.9,
@@ -2319,9 +2319,9 @@
       "date": "2017-12-01",
       "values": {
         "freight_tsi": 133.3,
-        "truck_tonnage": 112.0,
-        "rail_carloads": 1096046.0,
-        "rail_intermodal": 1168567.0
+        "truck_tonnage": 112,
+        "rail_carloads": 1096046,
+        "rail_intermodal": 1168567
       },
       "zscores": {
         "freight_tsi": 2.938,
@@ -2336,8 +2336,8 @@
       "values": {
         "freight_tsi": 131.3,
         "truck_tonnage": 109.1,
-        "rail_carloads": 1063356.0,
-        "rail_intermodal": 1166089.0
+        "rail_carloads": 1063356,
+        "rail_intermodal": 1166089
       },
       "zscores": {
         "freight_tsi": 2.088,
@@ -2352,8 +2352,8 @@
       "values": {
         "freight_tsi": 133.7,
         "truck_tonnage": 111.7,
-        "rail_carloads": 1109655.0,
-        "rail_intermodal": 1194068.0
+        "rail_carloads": 1109655,
+        "rail_intermodal": 1194068
       },
       "zscores": {
         "freight_tsi": 2.479,
@@ -2368,8 +2368,8 @@
       "values": {
         "freight_tsi": 135.3,
         "truck_tonnage": 112.2,
-        "rail_carloads": 1132328.0,
-        "rail_intermodal": 1203882.0
+        "rail_carloads": 1132328,
+        "rail_intermodal": 1203882
       },
       "zscores": {
         "freight_tsi": 2.555,
@@ -2384,8 +2384,8 @@
       "values": {
         "freight_tsi": 135.2,
         "truck_tonnage": 111.6,
-        "rail_carloads": 1114962.0,
-        "rail_intermodal": 1199987.0
+        "rail_carloads": 1114962,
+        "rail_intermodal": 1199987
       },
       "zscores": {
         "freight_tsi": 2.273,
@@ -2399,9 +2399,9 @@
       "date": "2018-05-01",
       "values": {
         "freight_tsi": 136.2,
-        "truck_tonnage": 113.0,
-        "rail_carloads": 1123510.0,
-        "rail_intermodal": 1212901.0
+        "truck_tonnage": 113,
+        "rail_carloads": 1123510,
+        "rail_intermodal": 1212901
       },
       "zscores": {
         "freight_tsi": 2.253,
@@ -2415,9 +2415,9 @@
       "date": "2018-06-01",
       "values": {
         "freight_tsi": 136.9,
-        "truck_tonnage": 114.0,
-        "rail_carloads": 1127912.0,
-        "rail_intermodal": 1214697.0
+        "truck_tonnage": 114,
+        "rail_carloads": 1127912,
+        "rail_intermodal": 1214697
       },
       "zscores": {
         "freight_tsi": 2.178,
@@ -2432,8 +2432,8 @@
       "values": {
         "freight_tsi": 135.6,
         "truck_tonnage": 113.4,
-        "rail_carloads": 1114288.0,
-        "rail_intermodal": 1209880.0
+        "rail_carloads": 1114288,
+        "rail_intermodal": 1209880
       },
       "zscores": {
         "freight_tsi": 1.769,
@@ -2447,9 +2447,9 @@
       "date": "2018-08-01",
       "values": {
         "freight_tsi": 136.2,
-        "truck_tonnage": 114.0,
-        "rail_carloads": 1116294.0,
-        "rail_intermodal": 1201420.0
+        "truck_tonnage": 114,
+        "rail_carloads": 1116294,
+        "rail_intermodal": 1201420
       },
       "zscores": {
         "freight_tsi": 1.747,
@@ -2462,10 +2462,10 @@
     {
       "date": "2018-09-01",
       "values": {
-        "freight_tsi": 138.0,
+        "freight_tsi": 138,
         "truck_tonnage": 115.2,
-        "rail_carloads": 1107229.0,
-        "rail_intermodal": 1193403.0
+        "rail_carloads": 1107229,
+        "rail_intermodal": 1193403
       },
       "zscores": {
         "freight_tsi": 1.915,
@@ -2480,8 +2480,8 @@
       "values": {
         "freight_tsi": 139.1,
         "truck_tonnage": 116.1,
-        "rail_carloads": 1103770.0,
-        "rail_intermodal": 1198496.0
+        "rail_carloads": 1103770,
+        "rail_intermodal": 1198496
       },
       "zscores": {
         "freight_tsi": 1.939,
@@ -2495,9 +2495,9 @@
       "date": "2018-11-01",
       "values": {
         "freight_tsi": 139.2,
-        "truck_tonnage": 117.0,
-        "rail_carloads": 1093494.0,
-        "rail_intermodal": 1194254.0
+        "truck_tonnage": 117,
+        "rail_carloads": 1093494,
+        "rail_intermodal": 1194254
       },
       "zscores": {
         "freight_tsi": 1.817,
@@ -2512,8 +2512,8 @@
       "values": {
         "freight_tsi": 137.2,
         "truck_tonnage": 115.2,
-        "rail_carloads": 1110634.0,
-        "rail_intermodal": 1214993.0
+        "rail_carloads": 1110634,
+        "rail_intermodal": 1214993
       },
       "zscores": {
         "freight_tsi": 1.4,
@@ -2528,8 +2528,8 @@
       "values": {
         "freight_tsi": 137.5,
         "truck_tonnage": 115.6,
-        "rail_carloads": 1088641.0,
-        "rail_intermodal": 1194448.0
+        "rail_carloads": 1088641,
+        "rail_intermodal": 1194448
       },
       "zscores": {
         "freight_tsi": 1.367,
@@ -2544,8 +2544,8 @@
       "values": {
         "freight_tsi": 136.3,
         "truck_tonnage": 115.9,
-        "rail_carloads": 1069563.0,
-        "rail_intermodal": 1173510.0
+        "rail_carloads": 1069563,
+        "rail_intermodal": 1173510
       },
       "zscores": {
         "freight_tsi": 1.107,
@@ -2559,9 +2559,9 @@
       "date": "2019-03-01",
       "values": {
         "freight_tsi": 136.4,
-        "truck_tonnage": 116.0,
-        "rail_carloads": 1024294.0,
-        "rail_intermodal": 1170180.0
+        "truck_tonnage": 116,
+        "rail_carloads": 1024294,
+        "rail_intermodal": 1170180
       },
       "zscores": {
         "freight_tsi": 1.069,
@@ -2576,8 +2576,8 @@
       "values": {
         "freight_tsi": 137.6,
         "truck_tonnage": 116.9,
-        "rail_carloads": 1101977.0,
-        "rail_intermodal": 1154647.0
+        "rail_carloads": 1101977,
+        "rail_intermodal": 1154647
       },
       "zscores": {
         "freight_tsi": 1.205,
@@ -2592,8 +2592,8 @@
       "values": {
         "freight_tsi": 137.4,
         "truck_tonnage": 116.9,
-        "rail_carloads": 1087091.0,
-        "rail_intermodal": 1137831.0
+        "rail_carloads": 1087091,
+        "rail_intermodal": 1137831
       },
       "zscores": {
         "freight_tsi": 1.112,
@@ -2608,8 +2608,8 @@
       "values": {
         "freight_tsi": 136.6,
         "truck_tonnage": 117.6,
-        "rail_carloads": 1065524.0,
-        "rail_intermodal": 1134083.0
+        "rail_carloads": 1065524,
+        "rail_intermodal": 1134083
       },
       "zscores": {
         "freight_tsi": 0.924,
@@ -2624,8 +2624,8 @@
       "values": {
         "freight_tsi": 138.6,
         "truck_tonnage": 118.9,
-        "rail_carloads": 1068740.0,
-        "rail_intermodal": 1137536.0
+        "rail_carloads": 1068740,
+        "rail_intermodal": 1137536
       },
       "zscores": {
         "freight_tsi": 1.203,
@@ -2640,8 +2640,8 @@
       "values": {
         "freight_tsi": 140.7,
         "truck_tonnage": 120.4,
-        "rail_carloads": 1064954.0,
-        "rail_intermodal": 1129115.0
+        "rail_carloads": 1064954,
+        "rail_intermodal": 1129115
       },
       "zscores": {
         "freight_tsi": 1.483,
@@ -2659,10 +2659,10 @@
     {
       "date": "2019-09-01",
       "values": {
-        "freight_tsi": 137.0,
+        "freight_tsi": 137,
         "truck_tonnage": 117.5,
-        "rail_carloads": 1029010.0,
-        "rail_intermodal": 1124837.0
+        "rail_carloads": 1029010,
+        "rail_intermodal": 1124837
       },
       "zscores": {
         "freight_tsi": 0.797,
@@ -2675,10 +2675,10 @@
     {
       "date": "2019-10-01",
       "values": {
-        "freight_tsi": 137.0,
-        "truck_tonnage": 118.0,
-        "rail_carloads": 1007679.0,
-        "rail_intermodal": 1107508.0
+        "freight_tsi": 137,
+        "truck_tonnage": 118,
+        "rail_carloads": 1007679,
+        "rail_intermodal": 1107508
       },
       "zscores": {
         "freight_tsi": 0.754,
@@ -2693,8 +2693,8 @@
       "values": {
         "freight_tsi": 136.7,
         "truck_tonnage": 117.4,
-        "rail_carloads": 1007683.0,
-        "rail_intermodal": 1099076.0
+        "rail_carloads": 1007683,
+        "rail_intermodal": 1099076
       },
       "zscores": {
         "freight_tsi": 0.656,
@@ -2709,8 +2709,8 @@
       "values": {
         "freight_tsi": 135.4,
         "truck_tonnage": 116.4,
-        "rail_carloads": 1003416.0,
-        "rail_intermodal": 1092878.0
+        "rail_carloads": 1003416,
+        "rail_intermodal": 1092878
       },
       "zscores": {
         "freight_tsi": 0.355,
@@ -2725,8 +2725,8 @@
       "values": {
         "freight_tsi": 135.6,
         "truck_tonnage": 116.3,
-        "rail_carloads": 1020146.0,
-        "rail_intermodal": 1105639.0
+        "rail_carloads": 1020146,
+        "rail_intermodal": 1105639
       },
       "zscores": {
         "freight_tsi": 0.35,
@@ -2741,8 +2741,8 @@
       "values": {
         "freight_tsi": 135.1,
         "truck_tonnage": 116.4,
-        "rail_carloads": 979126.0,
-        "rail_intermodal": 1075865.0
+        "rail_carloads": 979126,
+        "rail_intermodal": 1075865
       },
       "zscores": {
         "freight_tsi": 0.188,
@@ -2757,8 +2757,8 @@
       "values": {
         "freight_tsi": 133.9,
         "truck_tonnage": 116.7,
-        "rail_carloads": 944795.0,
-        "rail_intermodal": 1016584.0
+        "rail_carloads": 944795,
+        "rail_intermodal": 1016584
       },
       "zscores": {
         "freight_tsi": -0.163,
@@ -2773,8 +2773,8 @@
       "values": {
         "freight_tsi": 123.7,
         "truck_tonnage": 106.5,
-        "rail_carloads": 815211.0,
-        "rail_intermodal": 958751.0
+        "rail_carloads": 815211,
+        "rail_intermodal": 958751
       },
       "zscores": {
         "freight_tsi": -2.647,
@@ -2789,8 +2789,8 @@
       "values": {
         "freight_tsi": 125.5,
         "truck_tonnage": 109.5,
-        "rail_carloads": 763548.0,
-        "rail_intermodal": 983649.0
+        "rail_carloads": 763548,
+        "rail_intermodal": 983649
       },
       "zscores": {
         "freight_tsi": -2.19,
@@ -2810,8 +2810,8 @@
       "values": {
         "freight_tsi": 128.5,
         "truck_tonnage": 111.4,
-        "rail_carloads": 830824.0,
-        "rail_intermodal": 1064328.0
+        "rail_carloads": 830824,
+        "rail_intermodal": 1064328
       },
       "zscores": {
         "freight_tsi": -1.529,
@@ -2825,9 +2825,9 @@
       "date": "2020-07-01",
       "values": {
         "freight_tsi": 132.5,
-        "truck_tonnage": 114.0,
-        "rail_carloads": 884319.0,
-        "rail_intermodal": 1129099.0
+        "truck_tonnage": 114,
+        "rail_carloads": 884319,
+        "rail_intermodal": 1129099
       },
       "zscores": {
         "freight_tsi": -0.57,
@@ -2842,8 +2842,8 @@
       "values": {
         "freight_tsi": 130.8,
         "truck_tonnage": 111.9,
-        "rail_carloads": 896126.0,
-        "rail_intermodal": 1168608.0
+        "rail_carloads": 896126,
+        "rail_intermodal": 1168608
       },
       "zscores": {
         "freight_tsi": -1.045,
@@ -2857,9 +2857,9 @@
       "date": "2020-09-01",
       "values": {
         "freight_tsi": 131.1,
-        "truck_tonnage": 111.0,
-        "rail_carloads": 925014.0,
-        "rail_intermodal": 1201392.0
+        "truck_tonnage": 111,
+        "rail_carloads": 925014,
+        "rail_intermodal": 1201392
       },
       "zscores": {
         "freight_tsi": -1.004,
@@ -2872,10 +2872,10 @@
     {
       "date": "2020-10-01",
       "values": {
-        "freight_tsi": 132.0,
+        "freight_tsi": 132,
         "truck_tonnage": 111.3,
-        "rail_carloads": 935095.0,
-        "rail_intermodal": 1204874.0
+        "rail_carloads": 935095,
+        "rail_intermodal": 1204874
       },
       "zscores": {
         "freight_tsi": -0.786,
@@ -2890,8 +2890,8 @@
       "values": {
         "freight_tsi": 132.3,
         "truck_tonnage": 112.5,
-        "rail_carloads": 950776.0,
-        "rail_intermodal": 1236445.0
+        "rail_carloads": 950776,
+        "rail_intermodal": 1236445
       },
       "zscores": {
         "freight_tsi": -0.711,
@@ -2906,8 +2906,8 @@
       "values": {
         "freight_tsi": 133.9,
         "truck_tonnage": 113.3,
-        "rail_carloads": 949971.0,
-        "rail_intermodal": 1242731.0
+        "rail_carloads": 949971,
+        "rail_intermodal": 1242731
       },
       "zscores": {
         "freight_tsi": -0.274,
@@ -2922,8 +2922,8 @@
       "values": {
         "freight_tsi": 136.2,
         "truck_tonnage": 114.6,
-        "rail_carloads": 1000881.0,
-        "rail_intermodal": 1276595.0
+        "rail_carloads": 1000881,
+        "rail_intermodal": 1276595
       },
       "zscores": {
         "freight_tsi": 0.329,
@@ -2943,8 +2943,8 @@
       "values": {
         "freight_tsi": 131.7,
         "truck_tonnage": 111.9,
-        "rail_carloads": 896709.0,
-        "rail_intermodal": 1098906.0
+        "rail_carloads": 896709,
+        "rail_intermodal": 1098906
       },
       "zscores": {
         "freight_tsi": -0.907,
@@ -2959,8 +2959,8 @@
       "values": {
         "freight_tsi": 134.6,
         "truck_tonnage": 113.5,
-        "rail_carloads": 974926.0,
-        "rail_intermodal": 1253528.0
+        "rail_carloads": 974926,
+        "rail_intermodal": 1253528
       },
       "zscores": {
         "freight_tsi": -0.097,
@@ -2975,8 +2975,8 @@
       "values": {
         "freight_tsi": 136.2,
         "truck_tonnage": 113.8,
-        "rail_carloads": 988813.0,
-        "rail_intermodal": 1263301.0
+        "rail_carloads": 988813,
+        "rail_intermodal": 1263301
       },
       "zscores": {
         "freight_tsi": 0.339,
@@ -2990,9 +2990,9 @@
       "date": "2021-05-01",
       "values": {
         "freight_tsi": 135.1,
-        "truck_tonnage": 113.0,
-        "rail_carloads": 1004144.0,
-        "rail_intermodal": 1223612.0
+        "truck_tonnage": 113,
+        "rail_carloads": 1004144,
+        "rail_intermodal": 1223612
       },
       "zscores": {
         "freight_tsi": 0.042,
@@ -3005,10 +3005,10 @@
     {
       "date": "2021-06-01",
       "values": {
-        "freight_tsi": 134.0,
+        "freight_tsi": 134,
         "truck_tonnage": 111.4,
-        "rail_carloads": 987202.0,
-        "rail_intermodal": 1195630.0
+        "rail_carloads": 987202,
+        "rail_intermodal": 1195630
       },
       "zscores": {
         "freight_tsi": -0.241,
@@ -3023,8 +3023,8 @@
       "values": {
         "freight_tsi": 132.9,
         "truck_tonnage": 111.1,
-        "rail_carloads": 965122.0,
-        "rail_intermodal": 1153926.0
+        "rail_carloads": 965122,
+        "rail_intermodal": 1153926
       },
       "zscores": {
         "freight_tsi": -0.525,
@@ -3039,8 +3039,8 @@
       "values": {
         "freight_tsi": 131.7,
         "truck_tonnage": 110.6,
-        "rail_carloads": 941593.0,
-        "rail_intermodal": 1128022.0
+        "rail_carloads": 941593,
+        "rail_intermodal": 1128022
       },
       "zscores": {
         "freight_tsi": -0.817,
@@ -3055,8 +3055,8 @@
       "values": {
         "freight_tsi": 132.8,
         "truck_tonnage": 112.4,
-        "rail_carloads": 965056.0,
-        "rail_intermodal": 1126607.0
+        "rail_carloads": 965056,
+        "rail_intermodal": 1126607
       },
       "zscores": {
         "freight_tsi": -0.479,
@@ -3071,8 +3071,8 @@
       "values": {
         "freight_tsi": 134.5,
         "truck_tonnage": 113.3,
-        "rail_carloads": 972744.0,
-        "rail_intermodal": 1114292.0
+        "rail_carloads": 972744,
+        "rail_intermodal": 1114292
       },
       "zscores": {
         "freight_tsi": 0.03,
@@ -3087,8 +3087,8 @@
       "values": {
         "freight_tsi": 135.5,
         "truck_tonnage": 114.3,
-        "rail_carloads": 974320.0,
-        "rail_intermodal": 1108794.0
+        "rail_carloads": 974320,
+        "rail_intermodal": 1108794
       },
       "zscores": {
         "freight_tsi": 0.353,
@@ -3101,10 +3101,10 @@
     {
       "date": "2021-12-01",
       "values": {
-        "freight_tsi": 136.0,
+        "freight_tsi": 136,
         "truck_tonnage": 115.2,
-        "rail_carloads": 971018.0,
-        "rail_intermodal": 1112113.0
+        "rail_carloads": 971018,
+        "rail_intermodal": 1112113
       },
       "zscores": {
         "freight_tsi": 0.512,
@@ -3119,8 +3119,8 @@
       "values": {
         "freight_tsi": 137.4,
         "truck_tonnage": 115.8,
-        "rail_carloads": 981328.0,
-        "rail_intermodal": 1110585.0
+        "rail_carloads": 981328,
+        "rail_intermodal": 1110585
       },
       "zscores": {
         "freight_tsi": 0.925,
@@ -3134,9 +3134,9 @@
       "date": "2022-02-01",
       "values": {
         "freight_tsi": 137.4,
-        "truck_tonnage": 115.0,
-        "rail_carloads": 985995.0,
-        "rail_intermodal": 1118734.0
+        "truck_tonnage": 115,
+        "rail_carloads": 985995,
+        "rail_intermodal": 1118734
       },
       "zscores": {
         "freight_tsi": 0.91,
@@ -3151,8 +3151,8 @@
       "values": {
         "freight_tsi": 139.1,
         "truck_tonnage": 117.4,
-        "rail_carloads": 986018.0,
-        "rail_intermodal": 1165315.0
+        "rail_carloads": 986018,
+        "rail_intermodal": 1165315
       },
       "zscores": {
         "freight_tsi": 1.355,
@@ -3167,8 +3167,8 @@
       "values": {
         "freight_tsi": 138.4,
         "truck_tonnage": 117.2,
-        "rail_carloads": 964601.0,
-        "rail_intermodal": 1165299.0
+        "rail_carloads": 964601,
+        "rail_intermodal": 1165299
       },
       "zscores": {
         "freight_tsi": 1.141,
@@ -3181,10 +3181,10 @@
     {
       "date": "2022-05-01",
       "values": {
-        "freight_tsi": 138.0,
+        "freight_tsi": 138,
         "truck_tonnage": 116.7,
-        "rail_carloads": 971045.0,
-        "rail_intermodal": 1173804.0
+        "rail_carloads": 971045,
+        "rail_intermodal": 1173804
       },
       "zscores": {
         "freight_tsi": 1.018,
@@ -3199,8 +3199,8 @@
       "values": {
         "freight_tsi": 138.2,
         "truck_tonnage": 117.8,
-        "rail_carloads": 975219.0,
-        "rail_intermodal": 1137801.0
+        "rail_carloads": 975219,
+        "rail_intermodal": 1137801
       },
       "zscores": {
         "freight_tsi": 1.051,
@@ -3213,10 +3213,10 @@
     {
       "date": "2022-07-01",
       "values": {
-        "freight_tsi": 137.0,
+        "freight_tsi": 137,
         "truck_tonnage": 116.5,
-        "rail_carloads": 971443.0,
-        "rail_intermodal": 1120617.0
+        "rail_carloads": 971443,
+        "rail_intermodal": 1120617
       },
       "zscores": {
         "freight_tsi": 0.736,
@@ -3231,8 +3231,8 @@
       "values": {
         "freight_tsi": 137.8,
         "truck_tonnage": 117.4,
-        "rail_carloads": 971048.0,
-        "rail_intermodal": 1108767.0
+        "rail_carloads": 971048,
+        "rail_intermodal": 1108767
       },
       "zscores": {
         "freight_tsi": 1.019,
@@ -3247,8 +3247,8 @@
       "values": {
         "freight_tsi": 138.3,
         "truck_tonnage": 118.6,
-        "rail_carloads": 962326.0,
-        "rail_intermodal": 1077241.0
+        "rail_carloads": 962326,
+        "rail_intermodal": 1077241
       },
       "zscores": {
         "freight_tsi": 1.143,
@@ -3261,10 +3261,10 @@
     {
       "date": "2022-10-01",
       "values": {
-        "freight_tsi": 137.0,
+        "freight_tsi": 137,
         "truck_tonnage": 117.6,
-        "rail_carloads": 979130.0,
-        "rail_intermodal": 1097092.0
+        "rail_carloads": 979130,
+        "rail_intermodal": 1097092
       },
       "zscores": {
         "freight_tsi": 0.766,
@@ -3279,8 +3279,8 @@
       "values": {
         "freight_tsi": 134.7,
         "truck_tonnage": 115.5,
-        "rail_carloads": 971296.0,
-        "rail_intermodal": 1052650.0
+        "rail_carloads": 971296,
+        "rail_intermodal": 1052650
       },
       "zscores": {
         "freight_tsi": 0.117,
@@ -3295,8 +3295,8 @@
       "values": {
         "freight_tsi": 135.3,
         "truck_tonnage": 116.7,
-        "rail_carloads": 921049.0,
-        "rail_intermodal": 1023450.0
+        "rail_carloads": 921049,
+        "rail_intermodal": 1023450
       },
       "zscores": {
         "freight_tsi": 0.292,
@@ -3311,8 +3311,8 @@
       "values": {
         "freight_tsi": 138.1,
         "truck_tonnage": 117.4,
-        "rail_carloads": 1010802.0,
-        "rail_intermodal": 1040703.0
+        "rail_carloads": 1010802,
+        "rail_intermodal": 1040703
       },
       "zscores": {
         "freight_tsi": 1.073,
@@ -3325,10 +3325,10 @@
     {
       "date": "2023-02-01",
       "values": {
-        "freight_tsi": 139.0,
+        "freight_tsi": 139,
         "truck_tonnage": 116.7,
-        "rail_carloads": 975691.0,
-        "rail_intermodal": 1017350.0
+        "rail_carloads": 975691,
+        "rail_intermodal": 1017350
       },
       "zscores": {
         "freight_tsi": 1.271,
@@ -3343,8 +3343,8 @@
       "values": {
         "freight_tsi": 137.7,
         "truck_tonnage": 114.5,
-        "rail_carloads": 976489.0,
-        "rail_intermodal": 1007193.0
+        "rail_carloads": 976489,
+        "rail_intermodal": 1007193
       },
       "zscores": {
         "freight_tsi": 0.867,
@@ -3357,10 +3357,10 @@
     {
       "date": "2023-04-01",
       "values": {
-        "freight_tsi": 137.0,
+        "freight_tsi": 137,
         "truck_tonnage": 113.9,
-        "rail_carloads": 984401.0,
-        "rail_intermodal": 1025769.0
+        "rail_carloads": 984401,
+        "rail_intermodal": 1025769
       },
       "zscores": {
         "freight_tsi": 0.659,
@@ -3375,8 +3375,8 @@
       "values": {
         "freight_tsi": 136.8,
         "truck_tonnage": 113.6,
-        "rail_carloads": 981350.0,
-        "rail_intermodal": 1041116.0
+        "rail_carloads": 981350,
+        "rail_intermodal": 1041116
       },
       "zscores": {
         "freight_tsi": 0.573,
@@ -3389,10 +3389,10 @@
     {
       "date": "2023-06-01",
       "values": {
-        "freight_tsi": 137.0,
+        "freight_tsi": 137,
         "truck_tonnage": 114.1,
-        "rail_carloads": 972658.0,
-        "rail_intermodal": 1050360.0
+        "rail_carloads": 972658,
+        "rail_intermodal": 1050360
       },
       "zscores": {
         "freight_tsi": 0.615,
@@ -3406,9 +3406,9 @@
       "date": "2023-07-01",
       "values": {
         "freight_tsi": 137.7,
-        "truck_tonnage": 115.0,
-        "rail_carloads": 963341.0,
-        "rail_intermodal": 1060465.0
+        "truck_tonnage": 115,
+        "rail_carloads": 963341,
+        "rail_intermodal": 1060465
       },
       "zscores": {
         "freight_tsi": 0.852,
@@ -3421,10 +3421,10 @@
     {
       "date": "2023-08-01",
       "values": {
-        "freight_tsi": 137.0,
-        "truck_tonnage": 114.0,
-        "rail_carloads": 953366.0,
-        "rail_intermodal": 1042274.0
+        "freight_tsi": 137,
+        "truck_tonnage": 114,
+        "rail_carloads": 953366,
+        "rail_intermodal": 1042274
       },
       "zscores": {
         "freight_tsi": 0.52,
@@ -3438,9 +3438,9 @@
       "date": "2023-09-01",
       "values": {
         "freight_tsi": 137.5,
-        "truck_tonnage": 114.0,
-        "rail_carloads": 976706.0,
-        "rail_intermodal": 1071743.0
+        "truck_tonnage": 114,
+        "rail_carloads": 976706,
+        "rail_intermodal": 1071743
       },
       "zscores": {
         "freight_tsi": 0.701,
@@ -3455,8 +3455,8 @@
       "values": {
         "freight_tsi": 137.7,
         "truck_tonnage": 114.3,
-        "rail_carloads": 970310.0,
-        "rail_intermodal": 1121467.0
+        "rail_carloads": 970310,
+        "rail_intermodal": 1121467
       },
       "zscores": {
         "freight_tsi": 0.752,
@@ -3471,8 +3471,8 @@
       "values": {
         "freight_tsi": 137.5,
         "truck_tonnage": 113.9,
-        "rail_carloads": 976291.0,
-        "rail_intermodal": 1109026.0
+        "rail_carloads": 976291,
+        "rail_intermodal": 1109026
       },
       "zscores": {
         "freight_tsi": 0.613,
@@ -3487,8 +3487,8 @@
       "values": {
         "freight_tsi": 138.5,
         "truck_tonnage": 116.3,
-        "rail_carloads": 976642.0,
-        "rail_intermodal": 1115499.0
+        "rail_carloads": 976642,
+        "rail_intermodal": 1115499
       },
       "zscores": {
         "freight_tsi": 1.064,
@@ -3503,8 +3503,8 @@
       "values": {
         "freight_tsi": 135.2,
         "truck_tonnage": 112.5,
-        "rail_carloads": 931364.0,
-        "rail_intermodal": 1096223.0
+        "rail_carloads": 931364,
+        "rail_intermodal": 1096223
       },
       "zscores": {
         "freight_tsi": -0.611,
@@ -3519,8 +3519,8 @@
       "values": {
         "freight_tsi": 136.7,
         "truck_tonnage": 113.7,
-        "rail_carloads": 957684.0,
-        "rail_intermodal": 1133927.0
+        "rail_carloads": 957684,
+        "rail_intermodal": 1133927
       },
       "zscores": {
         "freight_tsi": 0.091,
@@ -3534,9 +3534,9 @@
       "date": "2024-03-01",
       "values": {
         "freight_tsi": 136.7,
-        "truck_tonnage": 113.0,
-        "rail_carloads": 936140.0,
-        "rail_intermodal": 1127034.0
+        "truck_tonnage": 113,
+        "rail_carloads": 936140,
+        "rail_intermodal": 1127034
       },
       "zscores": {
         "freight_tsi": 0.06,
@@ -3551,8 +3551,8 @@
       "values": {
         "freight_tsi": 135.2,
         "truck_tonnage": 112.8,
-        "rail_carloads": 923328.0,
-        "rail_intermodal": 1098632.0
+        "rail_carloads": 923328,
+        "rail_intermodal": 1098632
       },
       "zscores": {
         "freight_tsi": -0.769,
@@ -3567,8 +3567,8 @@
       "values": {
         "freight_tsi": 138.6,
         "truck_tonnage": 114.7,
-        "rail_carloads": 921514.0,
-        "rail_intermodal": 1124336.0
+        "rail_carloads": 921514,
+        "rail_intermodal": 1124336
       },
       "zscores": {
         "freight_tsi": 1.082,
@@ -3581,10 +3581,10 @@
     {
       "date": "2024-06-01",
       "values": {
-        "freight_tsi": 138.0,
+        "freight_tsi": 138,
         "truck_tonnage": 113.8,
-        "rail_carloads": 951362.0,
-        "rail_intermodal": 1147827.0
+        "rail_carloads": 951362,
+        "rail_intermodal": 1147827
       },
       "zscores": {
         "freight_tsi": 0.702,
@@ -3599,8 +3599,8 @@
       "values": {
         "freight_tsi": 137.3,
         "truck_tonnage": 113.4,
-        "rail_carloads": 942678.0,
-        "rail_intermodal": 1149909.0
+        "rail_carloads": 942678,
+        "rail_intermodal": 1149909
       },
       "zscores": {
         "freight_tsi": 0.249,
@@ -3615,8 +3615,8 @@
       "values": {
         "freight_tsi": 138.8,
         "truck_tonnage": 114.5,
-        "rail_carloads": 960874.0,
-        "rail_intermodal": 1180469.0
+        "rail_carloads": 960874,
+        "rail_intermodal": 1180469
       },
       "zscores": {
         "freight_tsi": 1.228,
@@ -3631,8 +3631,8 @@
       "values": {
         "freight_tsi": 137.3,
         "truck_tonnage": 112.9,
-        "rail_carloads": 967657.0,
-        "rail_intermodal": 1193690.0
+        "rail_carloads": 967657,
+        "rail_intermodal": 1193690
       },
       "zscores": {
         "freight_tsi": 0.068,
@@ -3646,9 +3646,9 @@
       "date": "2024-10-01",
       "values": {
         "freight_tsi": 138.3,
-        "truck_tonnage": 114.0,
-        "rail_carloads": 954192.0,
-        "rail_intermodal": 1186511.0
+        "truck_tonnage": 114,
+        "rail_carloads": 954192,
+        "rail_intermodal": 1186511
       },
       "zscores": {
         "freight_tsi": 0.883,
@@ -3663,8 +3663,8 @@
       "values": {
         "freight_tsi": 137.1,
         "truck_tonnage": 113.2,
-        "rail_carloads": 947337.0,
-        "rail_intermodal": 1217879.0
+        "rail_carloads": 947337,
+        "rail_intermodal": 1217879
       },
       "zscores": {
         "freight_tsi": -0.254,
@@ -3678,9 +3678,9 @@
       "date": "2024-12-01",
       "values": {
         "freight_tsi": 137.4,
-        "truck_tonnage": 113.0,
-        "rail_carloads": 955910.0,
-        "rail_intermodal": 1209966.0
+        "truck_tonnage": 113,
+        "rail_carloads": 955910,
+        "rail_intermodal": 1209966
       },
       "zscores": {
         "freight_tsi": -0.008,
@@ -3695,8 +3695,8 @@
       "values": {
         "freight_tsi": 137.8,
         "truck_tonnage": 113.1,
-        "rail_carloads": 944368.0,
-        "rail_intermodal": 1210168.0
+        "rail_carloads": 944368,
+        "rail_intermodal": 1210168
       },
       "zscores": {
         "freight_tsi": 0.367,
@@ -3711,8 +3711,8 @@
       "values": {
         "freight_tsi": 136.8,
         "truck_tonnage": 113.4,
-        "rail_carloads": 938078.0,
-        "rail_intermodal": 1198203.0
+        "rail_carloads": 938078,
+        "rail_intermodal": 1198203
       },
       "zscores": {
         "freight_tsi": -0.578,
@@ -3727,8 +3727,8 @@
       "values": {
         "freight_tsi": 137.6,
         "truck_tonnage": 113.5,
-        "rail_carloads": 978299.0,
-        "rail_intermodal": 1205912.0
+        "rail_carloads": 978299,
+        "rail_intermodal": 1205912
       },
       "zscores": {
         "freight_tsi": 0.238,
@@ -3743,8 +3743,8 @@
       "values": {
         "freight_tsi": 137.5,
         "truck_tonnage": 113.5,
-        "rail_carloads": 979750.0,
-        "rail_intermodal": 1194188.0
+        "rail_carloads": 979750,
+        "rail_intermodal": 1194188
       },
       "zscores": {
         "freight_tsi": 0.166,
@@ -3759,8 +3759,8 @@
       "values": {
         "freight_tsi": 136.9,
         "truck_tonnage": 113.3,
-        "rail_carloads": 976995.0,
-        "rail_intermodal": 1136584.0
+        "rail_carloads": 976995,
+        "rail_intermodal": 1136584
       },
       "zscores": {
         "freight_tsi": -0.412,
@@ -3773,10 +3773,10 @@
     {
       "date": "2025-06-01",
       "values": {
-        "freight_tsi": 137.0,
+        "freight_tsi": 137,
         "truck_tonnage": 113.2,
-        "rail_carloads": 971340.0,
-        "rail_intermodal": 1120831.0
+        "rail_carloads": 971340,
+        "rail_intermodal": 1120831
       },
       "zscores": {
         "freight_tsi": -0.28,
@@ -3791,8 +3791,8 @@
       "values": {
         "freight_tsi": 138.5,
         "truck_tonnage": 113.9,
-        "rail_carloads": 987061.0,
-        "rail_intermodal": 1186507.0
+        "rail_carloads": 987061,
+        "rail_intermodal": 1186507
       },
       "zscores": {
         "freight_tsi": 1.195,
@@ -3806,9 +3806,9 @@
       "date": "2025-08-01",
       "values": {
         "freight_tsi": 138.9,
-        "truck_tonnage": 115.0,
-        "rail_carloads": 969322.0,
-        "rail_intermodal": 1184555.0
+        "truck_tonnage": 115,
+        "rail_carloads": 969322,
+        "rail_intermodal": 1184555
       },
       "zscores": {
         "freight_tsi": 1.519,
@@ -3821,10 +3821,10 @@
     {
       "date": "2025-09-01",
       "values": {
-        "freight_tsi": 138.0,
+        "freight_tsi": 138,
         "truck_tonnage": 113.7,
-        "rail_carloads": 955945.0,
-        "rail_intermodal": 1177820.0
+        "rail_carloads": 955945,
+        "rail_intermodal": 1177820
       },
       "zscores": {
         "freight_tsi": 0.653,
@@ -3839,8 +3839,8 @@
       "values": {
         "freight_tsi": 136.7,
         "truck_tonnage": 112.2,
-        "rail_carloads": 955009.0,
-        "rail_intermodal": 1147712.0
+        "rail_carloads": 955009,
+        "rail_intermodal": 1147712
       },
       "zscores": {
         "freight_tsi": -0.615,
@@ -3855,8 +3855,8 @@
       "values": {
         "freight_tsi": 137.2,
         "truck_tonnage": 113.2,
-        "rail_carloads": 960173.0,
-        "rail_intermodal": 1146055.0
+        "rail_carloads": 960173,
+        "rail_intermodal": 1146055
       },
       "zscores": {
         "freight_tsi": -0.214,
@@ -3871,8 +3871,8 @@
       "values": {
         "freight_tsi": 136.9,
         "truck_tonnage": 113.1,
-        "rail_carloads": 928034.0,
-        "rail_intermodal": 1186127.0
+        "rail_carloads": 928034,
+        "rail_intermodal": 1186127
       },
       "zscores": {
         "freight_tsi": -0.634,
@@ -3887,8 +3887,8 @@
       "values": {
         "freight_tsi": 136.3,
         "truck_tonnage": 114.2,
-        "rail_carloads": 984338.0,
-        "rail_intermodal": 1178181.0
+        "rail_carloads": 984338,
+        "rail_intermodal": 1178181
       },
       "zscores": {
         "freight_tsi": -1.26,
@@ -3903,8 +3903,8 @@
       "values": {
         "freight_tsi": 138.4,
         "truck_tonnage": 115.8,
-        "rail_carloads": 993669.0,
-        "rail_intermodal": 1212574.0
+        "rail_carloads": 993669,
+        "rail_intermodal": 1212574
       },
       "zscores": {
         "freight_tsi": 1.219,
@@ -3919,8 +3919,8 @@
       "values": {
         "freight_tsi": 139.3,
         "truck_tonnage": 117.5,
-        "rail_carloads": 995100.0,
-        "rail_intermodal": 1224745.0
+        "rail_carloads": 995100,
+        "rail_intermodal": 1224745
       },
       "zscores": {
         "freight_tsi": 2.096,
@@ -3935,8 +3935,8 @@
       "values": {
         "freight_tsi": 138.2,
         "truck_tonnage": 116.3,
-        "rail_carloads": 1001193.0,
-        "rail_intermodal": 1219554.0
+        "rail_carloads": 1001193,
+        "rail_intermodal": 1219554
       },
       "zscores": {
         "freight_tsi": 0.827,
@@ -3951,8 +3951,8 @@
       "values": {
         "freight_tsi": 135.3,
         "truck_tonnage": 112.8,
-        "rail_carloads": 1003227.0,
-        "rail_intermodal": 1231599.0
+        "rail_carloads": 1003227,
+        "rail_intermodal": 1231599
       },
       "zscores": {
         "freight_tsi": -2.188,
@@ -3967,8 +3967,8 @@
       "values": {
         "freight_tsi": 136.6,
         "truck_tonnage": 114.4,
-        "rail_carloads": 990656.0,
-        "rail_intermodal": 1240117.0
+        "rail_carloads": 990656,
+        "rail_intermodal": 1240117
       },
       "zscores": {
         "freight_tsi": -0.823,
@@ -3983,8 +3983,8 @@
       "values": {
         "freight_tsi": 135.7,
         "truck_tonnage": 113.5,
-        "rail_carloads": 992923.0,
-        "rail_intermodal": 1259001.0
+        "rail_carloads": 992923,
+        "rail_intermodal": 1259001
       },
       "zscores": {
         "freight_tsi": -1.629,

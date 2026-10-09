@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_12",
     "number": 12,
-    "title": "The Phillips Curve Phase Loop",
+    "title": "Jobs vs. Prices: The Fed's Balancing Act",
     "section": "Section B: Macroeconomics, Money & Financial Conditions",
     "section_id": "section_b",
-    "visual_form": "Animated Connected Scatterplot with time-decay trailing motion paths",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BLS"
     ],
@@ -200,8 +200,8 @@
         "cpi_inflation": 0.971
       },
       "zscores": {
-        "unemployment_rate": 0.0,
-        "cpi_inflation": 0.0
+        "unemployment_rate": 0,
+        "cpi_inflation": 0
       },
       "events": []
     },
@@ -212,8 +212,8 @@
         "cpi_inflation": 0.971
       },
       "zscores": {
-        "unemployment_rate": 1.0,
-        "cpi_inflation": 0.0
+        "unemployment_rate": 1,
+        "cpi_inflation": 0
       },
       "events": []
     },
@@ -328,7 +328,7 @@
     {
       "date": "1965-12-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 1.923
       },
       "zscores": {
@@ -340,7 +340,7 @@
     {
       "date": "1966-01-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 1.923
       },
       "zscores": {
@@ -592,12 +592,12 @@
     {
       "date": "1967-10-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.432
       },
       "zscores": {
         "unemployment_rate": -0.151,
-        "cpi_inflation": -0.0
+        "cpi_inflation": 0
       },
       "events": []
     },
@@ -988,7 +988,7 @@
     {
       "date": "1970-07-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 5.978
       },
       "zscores": {
@@ -1073,7 +1073,7 @@
       "date": "1971-02-01",
       "values": {
         "unemployment_rate": 5.9,
-        "cpi_inflation": 5.0
+        "cpi_inflation": 5
       },
       "zscores": {
         "unemployment_rate": 1.98,
@@ -1084,7 +1084,7 @@
     {
       "date": "1971-03-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 4.712
       },
       "zscores": {
@@ -1132,7 +1132,7 @@
     {
       "date": "1971-07-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 4.359
       },
       "zscores": {
@@ -1156,7 +1156,7 @@
     {
       "date": "1971-09-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 4.082
       },
       "zscores": {
@@ -1180,7 +1180,7 @@
     {
       "date": "1971-11-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 3.283
       },
       "zscores": {
@@ -1192,7 +1192,7 @@
     {
       "date": "1971-12-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 3.266
       },
       "zscores": {
@@ -1360,7 +1360,7 @@
     {
       "date": "1973-02-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 3.874
       },
       "zscores": {
@@ -1384,7 +1384,7 @@
     {
       "date": "1973-04-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 5.06
       },
       "zscores": {
@@ -1600,7 +1600,7 @@
     {
       "date": "1974-10-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 12.061
       },
       "zscores": {
@@ -1684,7 +1684,7 @@
     {
       "date": "1975-05-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 9.465
       },
       "zscores": {
@@ -1977,7 +1977,7 @@
     {
       "date": "1977-05-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 6.726
       },
       "zscores": {
@@ -2013,7 +2013,7 @@
     {
       "date": "1977-08-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 6.62
       },
       "zscores": {
@@ -2121,7 +2121,7 @@
     {
       "date": "1978-05-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 6.965
       },
       "zscores": {
@@ -2169,7 +2169,7 @@
     {
       "date": "1978-09-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 8.306
       },
       "zscores": {
@@ -2205,7 +2205,7 @@
     {
       "date": "1978-12-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 9.018
       },
       "zscores": {
@@ -2301,7 +2301,7 @@
     {
       "date": "1979-08-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 11.818
       },
       "zscores": {
@@ -2325,7 +2325,7 @@
     {
       "date": "1979-10-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 12.072
       },
       "zscores": {
@@ -2349,7 +2349,7 @@
     {
       "date": "1979-12-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 13.294
       },
       "zscores": {
@@ -2547,7 +2547,7 @@
       "date": "1981-04-01",
       "values": {
         "unemployment_rate": 7.2,
-        "cpi_inflation": 10.0
+        "cpi_inflation": 10
       },
       "zscores": {
         "unemployment_rate": 0.961,
@@ -2678,7 +2678,7 @@
     {
       "date": "1982-03-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 6.78
       },
       "zscores": {
@@ -2947,7 +2947,7 @@
     {
       "date": "1984-01-01",
       "values": {
-        "unemployment_rate": 8.0,
+        "unemployment_rate": 8,
         "cpi_inflation": 4.192
       },
       "zscores": {
@@ -3211,7 +3211,7 @@
     {
       "date": "1985-11-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 3.514
       },
       "zscores": {
@@ -3223,7 +3223,7 @@
     {
       "date": "1985-12-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 3.799
       },
       "zscores": {
@@ -3307,7 +3307,7 @@
     {
       "date": "1986-07-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 1.577
       },
       "zscores": {
@@ -3331,7 +3331,7 @@
     {
       "date": "1986-09-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 1.754
       },
       "zscores": {
@@ -3343,7 +3343,7 @@
     {
       "date": "1986-10-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 1.472
       },
       "zscores": {
@@ -3463,7 +3463,7 @@
     {
       "date": "1987-08-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 4.284
       },
       "zscores": {
@@ -3487,7 +3487,7 @@
     {
       "date": "1987-10-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 4.533
       },
       "zscores": {
@@ -3691,7 +3691,7 @@
     {
       "date": "1989-03-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 4.979
       },
       "zscores": {
@@ -4063,7 +4063,7 @@
     {
       "date": "1991-10-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 2.921
       },
       "zscores": {
@@ -4075,7 +4075,7 @@
     {
       "date": "1991-11-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 2.99
       },
       "zscores": {
@@ -4267,7 +4267,7 @@
     {
       "date": "1993-03-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 3.087
       },
       "zscores": {
@@ -4303,7 +4303,7 @@
     {
       "date": "1993-06-01",
       "values": {
-        "unemployment_rate": 7.0,
+        "unemployment_rate": 7,
         "cpi_inflation": 2.996
       },
       "zscores": {
@@ -4471,7 +4471,7 @@
     {
       "date": "1994-08-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 2.901
       },
       "zscores": {
@@ -4879,7 +4879,7 @@
     {
       "date": "1997-06-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 2.297
       },
       "zscores": {
@@ -5239,7 +5239,7 @@
     {
       "date": "1999-12-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.685
       },
       "zscores": {
@@ -5251,7 +5251,7 @@
     {
       "date": "2000-01-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.739
       },
       "zscores": {
@@ -5275,7 +5275,7 @@
     {
       "date": "2000-03-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 3.758
       },
       "zscores": {
@@ -5299,7 +5299,7 @@
     {
       "date": "2000-05-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 3.189
       },
       "zscores": {
@@ -5311,7 +5311,7 @@
     {
       "date": "2000-06-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 3.73
       },
       "zscores": {
@@ -5323,7 +5323,7 @@
     {
       "date": "2000-07-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 3.659
       },
       "zscores": {
@@ -5491,7 +5491,7 @@
     {
       "date": "2001-09-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 2.648
       },
       "zscores": {
@@ -5671,7 +5671,7 @@
     {
       "date": "2002-12-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 2.377
       },
       "zscores": {
@@ -5719,7 +5719,7 @@
     {
       "date": "2003-04-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 2.225
       },
       "zscores": {
@@ -5791,7 +5791,7 @@
     {
       "date": "2003-10-01",
       "values": {
-        "unemployment_rate": 6.0,
+        "unemployment_rate": 6,
         "cpi_inflation": 2.041
       },
       "zscores": {
@@ -6031,7 +6031,7 @@
     {
       "date": "2005-06-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 2.53
       },
       "zscores": {
@@ -6043,7 +6043,7 @@
     {
       "date": "2005-07-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 3.168
       },
       "zscores": {
@@ -6067,7 +6067,7 @@
     {
       "date": "2005-09-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 4.687
       },
       "zscores": {
@@ -6079,7 +6079,7 @@
     {
       "date": "2005-10-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 4.348
       },
       "zscores": {
@@ -6091,7 +6091,7 @@
     {
       "date": "2005-11-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 3.455
       },
       "zscores": {
@@ -6391,7 +6391,7 @@
     {
       "date": "2007-12-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 4.081
       },
       "zscores": {
@@ -6403,7 +6403,7 @@
     {
       "date": "2008-01-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 4.28
       },
       "zscores": {
@@ -6439,7 +6439,7 @@
     {
       "date": "2008-04-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 3.937
       },
       "zscores": {
@@ -6583,7 +6583,7 @@
     {
       "date": "2009-04-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": -0.737
       },
       "zscores": {
@@ -6655,7 +6655,7 @@
     {
       "date": "2009-10-01",
       "values": {
-        "unemployment_rate": 10.0,
+        "unemployment_rate": 10,
         "cpi_inflation": -0.183
       },
       "zscores": {
@@ -6847,7 +6847,7 @@
     {
       "date": "2011-02-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 2.108
       },
       "zscores": {
@@ -6859,7 +6859,7 @@
     {
       "date": "2011-03-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 2.682
       },
       "zscores": {
@@ -6883,7 +6883,7 @@
     {
       "date": "2011-05-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 3.569
       },
       "zscores": {
@@ -6907,7 +6907,7 @@
     {
       "date": "2011-07-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 3.629
       },
       "zscores": {
@@ -6919,7 +6919,7 @@
     {
       "date": "2011-08-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 3.771
       },
       "zscores": {
@@ -6931,7 +6931,7 @@
     {
       "date": "2011-09-01",
       "values": {
-        "unemployment_rate": 9.0,
+        "unemployment_rate": 9,
         "cpi_inflation": 3.868
       },
       "zscores": {
@@ -7123,7 +7123,7 @@
     {
       "date": "2013-01-01",
       "values": {
-        "unemployment_rate": 8.0,
+        "unemployment_rate": 8,
         "cpi_inflation": 1.595
       },
       "zscores": {
@@ -7507,7 +7507,7 @@
     {
       "date": "2015-09-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": -0.036
       },
       "zscores": {
@@ -7519,7 +7519,7 @@
     {
       "date": "2015-10-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 0.171
       },
       "zscores": {
@@ -7543,7 +7543,7 @@
     {
       "date": "2015-12-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 0.73
       },
       "zscores": {
@@ -7579,7 +7579,7 @@
     {
       "date": "2016-03-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 0.853
       },
       "zscores": {
@@ -7651,7 +7651,7 @@
     {
       "date": "2016-09-01",
       "values": {
-        "unemployment_rate": 5.0,
+        "unemployment_rate": 5,
         "cpi_inflation": 1.464
       },
       "zscores": {
@@ -7843,7 +7843,7 @@
     {
       "date": "2018-01-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.071
       },
       "zscores": {
@@ -7867,7 +7867,7 @@
     {
       "date": "2018-03-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.36
       },
       "zscores": {
@@ -7879,7 +7879,7 @@
     {
       "date": "2018-04-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.463
       },
       "zscores": {
@@ -7903,7 +7903,7 @@
     {
       "date": "2018-06-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 2.872
       },
       "zscores": {
@@ -7987,7 +7987,7 @@
     {
       "date": "2019-01-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 1.551
       },
       "zscores": {
@@ -8196,7 +8196,7 @@
     {
       "date": "2020-06-01",
       "values": {
-        "unemployment_rate": 11.0,
+        "unemployment_rate": 11,
         "cpi_inflation": 0.646
       },
       "zscores": {
@@ -8424,7 +8424,7 @@
     {
       "date": "2022-01-01",
       "values": {
-        "unemployment_rate": 4.0,
+        "unemployment_rate": 4,
         "cpi_inflation": 7.48
       },
       "zscores": {
@@ -8861,8 +8861,8 @@
     {
       "date": "2025-01-01",
       "values": {
-        "unemployment_rate": 4.0,
-        "cpi_inflation": 3.0
+        "unemployment_rate": 4,
+        "cpi_inflation": 3
       },
       "zscores": {
         "unemployment_rate": 0.995,

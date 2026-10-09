@@ -5,7 +5,7 @@
     "title": "Where Seniors Now Outnumber Kids",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Animated County Map",
+    "visual_form": "County map",
     "agencies": [
       "Census"
     ],
@@ -211,9 +211,9 @@
         "inverted_counties": 296
       },
       "zscores": {
-        "senior_pop_share": 0.0,
-        "youth_pop_share": 0.0,
-        "inverted_counties": 0.0
+        "senior_pop_share": 0,
+        "youth_pop_share": 0,
+        "inverted_counties": 0
       },
       "events": []
     },
@@ -225,9 +225,9 @@
         "inverted_counties": 296.333
       },
       "zscores": {
-        "senior_pop_share": 1.0,
-        "youth_pop_share": -1.0,
-        "inverted_counties": 1.0
+        "senior_pop_share": 1,
+        "youth_pop_share": -1,
+        "inverted_counties": 1
       },
       "events": []
     },
@@ -250,7 +250,7 @@
       "values": {
         "senior_pop_share": 12.919,
         "youth_pop_share": 24.193,
-        "inverted_counties": 297.0
+        "inverted_counties": 297
       },
       "zscores": {
         "senior_pop_share": 1.342,
@@ -292,7 +292,7 @@
       "values": {
         "senior_pop_share": 12.969,
         "youth_pop_share": 24.12,
-        "inverted_counties": 298.0
+        "inverted_counties": 298
       },
       "zscores": {
         "senior_pop_share": 1.5,
@@ -334,7 +334,7 @@
       "values": {
         "senior_pop_share": 13.02,
         "youth_pop_share": 24.047,
-        "inverted_counties": 299.0
+        "inverted_counties": 299
       },
       "zscores": {
         "senior_pop_share": 1.567,
@@ -418,7 +418,7 @@
       "values": {
         "senior_pop_share": 13.123,
         "youth_pop_share": 23.911,
-        "inverted_counties": 311.0
+        "inverted_counties": 311
       },
       "zscores": {
         "senior_pop_share": 1.644,
@@ -460,7 +460,7 @@
       "values": {
         "senior_pop_share": 13.176,
         "youth_pop_share": 23.847,
-        "inverted_counties": 322.0
+        "inverted_counties": 322
       },
       "zscores": {
         "senior_pop_share": 1.663,
@@ -502,7 +502,7 @@
       "values": {
         "senior_pop_share": 13.229,
         "youth_pop_share": 23.784,
-        "inverted_counties": 333.0
+        "inverted_counties": 333
       },
       "zscores": {
         "senior_pop_share": 1.674,
@@ -577,7 +577,7 @@
       "values": {
         "senior_pop_share": 13.359,
         "youth_pop_share": 23.68,
-        "inverted_counties": 351.0
+        "inverted_counties": 351
       },
       "zscores": {
         "senior_pop_share": 1.92,
@@ -605,7 +605,7 @@
       "values": {
         "senior_pop_share": 13.435,
         "youth_pop_share": 23.641,
-        "inverted_counties": 358.0
+        "inverted_counties": 358
       },
       "zscores": {
         "senior_pop_share": 2.043,
@@ -633,7 +633,7 @@
       "values": {
         "senior_pop_share": 13.512,
         "youth_pop_share": 23.601,
-        "inverted_counties": 365.0
+        "inverted_counties": 365
       },
       "zscores": {
         "senior_pop_share": 2.095,
@@ -661,7 +661,7 @@
       "values": {
         "senior_pop_share": 13.589,
         "youth_pop_share": 23.561,
-        "inverted_counties": 372.0
+        "inverted_counties": 372
       },
       "zscores": {
         "senior_pop_share": 2.109,
@@ -689,7 +689,7 @@
       "values": {
         "senior_pop_share": 13.666,
         "youth_pop_share": 23.521,
-        "inverted_counties": 379.0
+        "inverted_counties": 379
       },
       "zscores": {
         "senior_pop_share": 2.104,
@@ -827,7 +827,7 @@
     {
       "date": "2013-03-01",
       "values": {
-        "senior_pop_share": 14.0,
+        "senior_pop_share": 14,
         "youth_pop_share": 23.345,
         "inverted_counties": 406.667
       },
@@ -941,7 +941,7 @@
       "values": {
         "senior_pop_share": 14.25,
         "youth_pop_share": 23.21,
-        "inverted_counties": 438.0
+        "inverted_counties": 438
       },
       "zscores": {
         "senior_pop_share": 1.655,
@@ -997,7 +997,7 @@
       "values": {
         "senior_pop_share": 14.372,
         "youth_pop_share": 23.143,
-        "inverted_counties": 459.0
+        "inverted_counties": 459
       },
       "zscores": {
         "senior_pop_share": 1.614,
@@ -1067,7 +1067,7 @@
       "values": {
         "senior_pop_share": 14.524,
         "youth_pop_share": 23.061,
-        "inverted_counties": 485.0
+        "inverted_counties": 485
       },
       "zscores": {
         "senior_pop_share": 1.619,
@@ -1081,7 +1081,7 @@
       "values": {
         "senior_pop_share": 14.553,
         "youth_pop_share": 23.047,
-        "inverted_counties": 490.0
+        "inverted_counties": 490
       },
       "zscores": {
         "senior_pop_share": 1.623,
@@ -1095,7 +1095,7 @@
       "values": {
         "senior_pop_share": 14.583,
         "youth_pop_share": 23.033,
-        "inverted_counties": 495.0
+        "inverted_counties": 495
       },
       "zscores": {
         "senior_pop_share": 1.627,
@@ -1109,7 +1109,7 @@
       "values": {
         "senior_pop_share": 14.613,
         "youth_pop_share": 23.019,
-        "inverted_counties": 500.0
+        "inverted_counties": 500
       },
       "zscores": {
         "senior_pop_share": 1.632,
@@ -1123,7 +1123,7 @@
       "values": {
         "senior_pop_share": 14.643,
         "youth_pop_share": 23.006,
-        "inverted_counties": 505.0
+        "inverted_counties": 505
       },
       "zscores": {
         "senior_pop_share": 1.636,
@@ -1137,7 +1137,7 @@
       "values": {
         "senior_pop_share": 14.672,
         "youth_pop_share": 22.992,
-        "inverted_counties": 510.0
+        "inverted_counties": 510
       },
       "zscores": {
         "senior_pop_share": 1.641,
@@ -1151,7 +1151,7 @@
       "values": {
         "senior_pop_share": 14.702,
         "youth_pop_share": 22.978,
-        "inverted_counties": 515.0
+        "inverted_counties": 515
       },
       "zscores": {
         "senior_pop_share": 1.645,
@@ -1165,7 +1165,7 @@
       "values": {
         "senior_pop_share": 14.732,
         "youth_pop_share": 22.964,
-        "inverted_counties": 520.0
+        "inverted_counties": 520
       },
       "zscores": {
         "senior_pop_share": 1.65,
@@ -1179,7 +1179,7 @@
       "values": {
         "senior_pop_share": 14.761,
         "youth_pop_share": 22.95,
-        "inverted_counties": 525.0
+        "inverted_counties": 525
       },
       "zscores": {
         "senior_pop_share": 1.653,
@@ -1193,7 +1193,7 @@
       "values": {
         "senior_pop_share": 14.791,
         "youth_pop_share": 22.936,
-        "inverted_counties": 530.0
+        "inverted_counties": 530
       },
       "zscores": {
         "senior_pop_share": 1.656,
@@ -1207,7 +1207,7 @@
       "values": {
         "senior_pop_share": 14.821,
         "youth_pop_share": 22.922,
-        "inverted_counties": 535.0
+        "inverted_counties": 535
       },
       "zscores": {
         "senior_pop_share": 1.659,
@@ -1277,7 +1277,7 @@
       "values": {
         "senior_pop_share": 14.977,
         "youth_pop_share": 22.868,
-        "inverted_counties": 563.0
+        "inverted_counties": 563
       },
       "zscores": {
         "senior_pop_share": 1.686,
@@ -1333,7 +1333,7 @@
       "values": {
         "senior_pop_share": 15.104,
         "youth_pop_share": 22.829,
-        "inverted_counties": 586.0
+        "inverted_counties": 586
       },
       "zscores": {
         "senior_pop_share": 1.703,
@@ -1809,7 +1809,7 @@
       "values": {
         "senior_pop_share": 16.249,
         "youth_pop_share": 22.325,
-        "inverted_counties": 822.0
+        "inverted_counties": 822
       },
       "zscores": {
         "senior_pop_share": 1.76,
@@ -2108,7 +2108,7 @@
       "values": {
         "senior_pop_share": 16.703,
         "youth_pop_share": 22.173,
-        "inverted_counties": 964.0
+        "inverted_counties": 964
       },
       "zscores": {
         "senior_pop_share": 1.317,
@@ -2150,7 +2150,7 @@
       "values": {
         "senior_pop_share": 16.749,
         "youth_pop_share": 22.161,
-        "inverted_counties": 954.0
+        "inverted_counties": 954
       },
       "zscores": {
         "senior_pop_share": 1.318,
@@ -2192,7 +2192,7 @@
       "values": {
         "senior_pop_share": 16.795,
         "youth_pop_share": 22.15,
-        "inverted_counties": 944.0
+        "inverted_counties": 944
       },
       "zscores": {
         "senior_pop_share": 1.346,
@@ -2458,7 +2458,7 @@
       "values": {
         "senior_pop_share": 17.469,
         "youth_pop_share": 21.698,
-        "inverted_counties": 1120.0
+        "inverted_counties": 1120
       },
       "zscores": {
         "senior_pop_share": 1.945,
@@ -2514,7 +2514,7 @@
       "values": {
         "senior_pop_share": 17.588,
         "youth_pop_share": 21.695,
-        "inverted_counties": 1137.0
+        "inverted_counties": 1137
       },
       "zscores": {
         "senior_pop_share": 1.787,
@@ -2612,7 +2612,7 @@
       "values": {
         "senior_pop_share": 17.783,
         "youth_pop_share": 21.629,
-        "inverted_counties": 1182.0
+        "inverted_counties": 1182
       },
       "zscores": {
         "senior_pop_share": 1.588,
@@ -2654,7 +2654,7 @@
       "values": {
         "senior_pop_share": 17.858,
         "youth_pop_share": 21.567,
-        "inverted_counties": 1210.0
+        "inverted_counties": 1210
       },
       "zscores": {
         "senior_pop_share": 1.529,
@@ -2696,7 +2696,7 @@
       "values": {
         "senior_pop_share": 17.933,
         "youth_pop_share": 21.505,
-        "inverted_counties": 1238.0
+        "inverted_counties": 1238
       },
       "zscores": {
         "senior_pop_share": 1.5,
@@ -2776,7 +2776,7 @@
         "title": "2024: 1,266 Counties",
         "description": "Seniors are now 18.0% of Americans and children 21.4%. In 1,266 counties, about 40% of all US counties, seniors outnumber children.",
         "significance": "This changes demand for schools, hospitals and workers.",
-        "normalized_time": 1.0
+        "normalized_time": 1
       }
     ]
   }

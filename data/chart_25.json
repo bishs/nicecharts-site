@@ -5,7 +5,7 @@
     "title": "Where America's Electricity Comes From",
     "section": "Section E: Energy, Climate & Natural Resources",
     "section_id": "section_e",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "EIA"
     ],
@@ -220,10 +220,10 @@
         "generation_renewables": 0.396
       },
       "zscores": {
-        "generation_coal": 0.0,
-        "generation_gas": 0.0,
-        "generation_nuclear": 0.0,
-        "generation_renewables": 0.0
+        "generation_coal": 0,
+        "generation_gas": 0,
+        "generation_nuclear": 0,
+        "generation_renewables": 0
       },
       "events": []
     },
@@ -236,10 +236,10 @@
         "generation_renewables": 0.444
       },
       "zscores": {
-        "generation_coal": -1.0,
-        "generation_gas": -1.0,
-        "generation_nuclear": -1.0,
-        "generation_renewables": 1.0
+        "generation_coal": -1,
+        "generation_gas": -1,
+        "generation_nuclear": -1,
+        "generation_renewables": 1
       },
       "events": []
     },
@@ -1117,7 +1117,7 @@
       },
       "zscores": {
         "generation_coal": 0.493,
-        "generation_gas": 1.0,
+        "generation_gas": 1,
         "generation_nuclear": 0.448,
         "generation_renewables": 1.129
       },
@@ -2436,7 +2436,7 @@
         "generation_coal": 0.785,
         "generation_gas": 2.643,
         "generation_nuclear": 0.604,
-        "generation_renewables": 0.0
+        "generation_renewables": 0
       },
       "events": []
     },
@@ -4674,7 +4674,7 @@
       "zscores": {
         "generation_coal": -1.382,
         "generation_gas": -0.42,
-        "generation_nuclear": -0.0,
+        "generation_nuclear": 0,
         "generation_renewables": 1.185
       },
       "events": []

@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_8",
     "number": 8,
-    "title": "Labor Productivity vs. Real Wage Decoupling",
+    "title": "Workers Make More Per Hour. Is Their Pay Keeping Up?",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Divergence Wedge with Floating Value Callouts",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "BLS",
       "FRED"
@@ -212,9 +212,9 @@
         "corporate_profits": 19.844
       },
       "zscores": {
-        "productivity_index": 0.0,
-        "real_wage_index": 0.0,
-        "corporate_profits": 0.0
+        "productivity_index": 0,
+        "real_wage_index": 0,
+        "corporate_profits": 0
       },
       "events": []
     },
@@ -226,9 +226,9 @@
         "corporate_profits": 20.037
       },
       "zscores": {
-        "productivity_index": 1.0,
-        "real_wage_index": 1.0,
-        "corporate_profits": 1.0
+        "productivity_index": 1,
+        "real_wage_index": 1,
+        "corporate_profits": 1
       },
       "events": []
     },
@@ -305,8 +305,8 @@
     {
       "date": "1950-08-01",
       "values": {
-        "productivity_index": 100.0,
-        "real_wage_index": 100.0,
+        "productivity_index": 100,
+        "real_wage_index": 100,
         "corporate_profits": 28.777
       },
       "zscores": {
@@ -1781,7 +1781,7 @@
       },
       "zscores": {
         "productivity_index": 1.887,
-        "real_wage_index": 2.0,
+        "real_wage_index": 2,
         "corporate_profits": 1.956
       },
       "events": []
@@ -5450,7 +5450,7 @@
       "values": {
         "productivity_index": 195.581,
         "real_wage_index": 182.902,
-        "corporate_profits": 208.0
+        "corporate_profits": 208
       },
       "zscores": {
         "productivity_index": 2.196,
@@ -6906,7 +6906,7 @@
       "values": {
         "productivity_index": 222.911,
         "real_wage_index": 197.213,
-        "corporate_profits": 263.0
+        "corporate_profits": 263
       },
       "zscores": {
         "productivity_index": 1.38,
@@ -7105,7 +7105,7 @@
         "corporate_profits": 295.781
       },
       "zscores": {
-        "productivity_index": 1.0,
+        "productivity_index": 1,
         "real_wage_index": -0.406,
         "corporate_profits": 2.007
       },
@@ -8206,14 +8206,14 @@
     {
       "date": "1997-08-01",
       "values": {
-        "productivity_index": 256.0,
+        "productivity_index": 256,
         "real_wage_index": 208.553,
         "corporate_profits": 608.221
       },
       "zscores": {
         "productivity_index": 2.041,
         "real_wage_index": 2.436,
-        "corporate_profits": 2.0
+        "corporate_profits": 2
       },
       "events": []
     },
@@ -8556,7 +8556,7 @@
     {
       "date": "1999-09-01",
       "values": {
-        "productivity_index": 275.0,
+        "productivity_index": 275,
         "real_wage_index": 222.986,
         "corporate_profits": 576.514
       },

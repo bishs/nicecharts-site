@@ -5,7 +5,7 @@
     "title": "How a Gas Price Shock Spreads to Other Prices",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "EIA",
@@ -31,7 +31,7 @@
     "title": "Mortgage Rates, New Homes and Building Jobs",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Census",
@@ -57,7 +57,7 @@
     "title": "Two Early Warning Signs of a Recession",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "FRED"
@@ -82,7 +82,7 @@
     "title": "Interest Rates, Company Loans and Jobs Move Together",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Federal Reserve",
@@ -108,7 +108,7 @@
     "title": "What America Buys Abroad, and What It Pays",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Census/BEA"
@@ -129,10 +129,10 @@
   {
     "id": "chart_6",
     "number": 6,
-    "title": "Clean Grid Penetration vs. Industrial Power Costs",
+    "title": "More Wind and Solar: Do Factories Pay More for Power?",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Connected Animated Scatterplot with Localized Time Vector Trails",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BLS",
       "EIA"
@@ -156,7 +156,7 @@
     "title": "Drought and Grocery Prices",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "NOAA"
@@ -177,10 +177,10 @@
   {
     "id": "chart_8",
     "number": 8,
-    "title": "Labor Productivity vs. Real Wage Decoupling",
+    "title": "Workers Make More Per Hour. Is Their Pay Keeping Up?",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Divergence Wedge with Floating Value Callouts",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "BLS",
       "FRED"
@@ -205,7 +205,7 @@
     "title": "Driving, Gasoline and Car Insurance",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "EIA",
@@ -231,7 +231,7 @@
     "title": "The Dollar, Exports and Factory Jobs",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Census/BEA",
@@ -278,10 +278,10 @@
   {
     "id": "chart_12",
     "number": 12,
-    "title": "The Phillips Curve Phase Loop",
+    "title": "Jobs vs. Prices: The Fed's Balancing Act",
     "section": "Section B: Macroeconomics, Money & Financial Conditions",
     "section_id": "section_b",
-    "visual_form": "Animated Connected Scatterplot with time-decay trailing motion paths",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BLS"
     ],
@@ -301,10 +301,10 @@
   {
     "id": "chart_13",
     "number": 13,
-    "title": "The Beveridge Curve (Labor Market Slack vs. Openings)",
+    "title": "Job Openings vs. People Out of Work",
     "section": "Section B: Macroeconomics, Money & Financial Conditions",
     "section_id": "section_b",
-    "visual_form": "Animated Hyperbolic Scatterplot with dynamic regression fits",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BLS",
       "FRED"
@@ -326,10 +326,10 @@
   {
     "id": "chart_14",
     "number": 14,
-    "title": "Real Federal Funds Rate vs. Real GDP Trajectory",
+    "title": "The Fed's Gas Pedal and Brakes",
     "section": "Section B: Macroeconomics, Money & Financial Conditions",
     "section_id": "section_b",
-    "visual_form": "Dual-Hemisphere Bubble Velocity Chart",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BEA",
       "FRED"
@@ -402,7 +402,7 @@
     "title": "Which Prices Are Rising the Fastest?",
     "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
     "section_id": "section_c",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BLS"
     ],
@@ -426,7 +426,7 @@
     "title": "Who Gets the Biggest Raises?",
     "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
     "section_id": "section_c",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BLS"
     ],
@@ -450,7 +450,7 @@
     "title": "Where Americans Work: The Jobs Race Since 1960",
     "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
     "section_id": "section_c",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BLS"
     ],
@@ -498,7 +498,7 @@
     "title": "How the Center of America Moved West",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Animated Map with Moving Center Point",
+    "visual_form": "Map with a moving center point",
     "agencies": [
       "Census"
     ],
@@ -509,8 +509,8 @@
     "key_findings_count": 3,
     "series_count": 4,
     "primary_series": [
-      "Center Latitude (\u00b0North)",
-      "Center Longitude (\u00b0West)",
+      "Center Latitude (°North)",
+      "Center Longitude (°West)",
       "Total Miles Shifted West Since 1790"
     ],
     "data_status": "real",
@@ -522,7 +522,7 @@
     "title": "How Many Years of Pay Buy a Home?",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Scrollytelling Divergent Matrix Chart",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "Census"
     ],
@@ -546,7 +546,7 @@
     "title": "Where Seniors Now Outnumber Kids",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Animated County Map",
+    "visual_form": "County map",
     "agencies": [
       "Census"
     ],
@@ -570,7 +570,7 @@
     "title": "Where Americans Move: Four Big Routes",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Animated Map with Moving Flows",
+    "visual_form": "Map with moving routes",
     "agencies": [
       "Census"
     ],
@@ -581,9 +581,9 @@
     "key_findings_count": 3,
     "series_count": 4,
     "primary_series": [
-      "California \u2192 Texas (Net People Moved per Year)",
-      "New York \u2192 Florida (Net People Moved per Year)",
-      "Illinois \u2192 Florida (Net People Moved per Year)"
+      "California → Texas (Net People Moved per Year)",
+      "New York → Florida (Net People Moved per Year)",
+      "Illinois → Florida (Net People Moved per Year)"
     ],
     "data_status": "real",
     "latest_observation": "2024-07"
@@ -594,7 +594,7 @@
     "title": "Where America's Electricity Comes From",
     "section": "Section E: Energy, Climate & Natural Resources",
     "section_id": "section_e",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "EIA"
     ],
@@ -615,10 +615,10 @@
   {
     "id": "chart_26",
     "number": 26,
-    "title": "Real-Time Grid Duck Curve Evolution",
+    "title": "California's Sunset Power Rush",
     "section": "Section E: Energy, Climate & Natural Resources",
     "section_id": "section_e",
-    "visual_form": "24-Hour Polar Clock Area Chart with Daily Step Interpolation",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "EIA"
     ],
@@ -665,7 +665,7 @@
     "title": "Why Flights Are Late",
     "section": "Section F: Logistics, Infrastructure & Public Health",
     "section_id": "section_f",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BTS"
     ],
@@ -686,10 +686,10 @@
   {
     "id": "chart_29",
     "number": 29,
-    "title": "Domestic Freight Corridor Flow Density",
+    "title": "What Trains Carry: Bulk Goods vs. Containers",
     "section": "Section F: Logistics, Infrastructure & Public Health",
     "section_id": "section_f",
-    "visual_form": "Illuminated Vector Polyline Network",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "BTS",
       "BTS/AAR",
@@ -712,10 +712,10 @@
   {
     "id": "chart_30",
     "number": 30,
-    "title": "Healthcare Spending as a Share of GDP",
+    "title": "How Much of Every $100 Goes to Health Care?",
     "section": "Section F: Logistics, Infrastructure & Public Health",
     "section_id": "section_f",
-    "visual_form": "Dynamic Voronoi Treemap with Organic Cell Relocation",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "BEA"
     ],
@@ -745,11 +745,11 @@
     "engine": "svg",
     "time_range": "1880 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 3,
     "series_count": 1,
     "primary_series": [
-      "Global temperature vs 1951\u20131980 average"
+      "Global temperature vs 1951–1980 average"
     ],
     "data_status": "real",
     "latest_observation": "2025"
@@ -768,12 +768,12 @@
     "engine": "svg",
     "time_range": "2008 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 2,
     "series_count": 4,
     "primary_series": [
       "Summer heat (cooling degree days)",
-      "Electricity per home, Jun\u2013Aug",
+      "Electricity per home, Jun–Aug",
       "Summer heat vs average"
     ],
     "data_status": "real",
@@ -793,11 +793,11 @@
     "engine": "svg",
     "time_range": "1910 - 2020",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 1,
     "series_count": 4,
     "primary_series": [
-      "Planet temperature vs 1951\u20131980",
+      "Planet temperature vs 1951–1980",
       "Extreme heat (% of US)",
       "Extreme cold (% of US)"
     ],
@@ -818,7 +818,7 @@
     "engine": "svg",
     "time_range": "1979 - 2026",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 1,
     "series_count": 1,
     "primary_series": [
@@ -841,7 +841,7 @@
     "engine": "svg",
     "time_range": "1993 - 2024",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 0,
     "series_count": 1,
     "primary_series": [
@@ -863,7 +863,7 @@
     "engine": "svg",
     "time_range": "1980 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 1,
     "series_count": 2,
     "primary_series": [
@@ -886,7 +886,7 @@
     "engine": "svg",
     "time_range": "1995 - 2026",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 1,
     "series_count": 3,
     "primary_series": [
@@ -911,7 +911,7 @@
     "engine": "svg",
     "time_range": "1962 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 1,
     "series_count": 1,
     "primary_series": [
@@ -923,10 +923,10 @@
   {
     "id": "chart_39",
     "number": 39,
-    "title": "CO\u2082 in the Air vs US Emissions",
+    "title": "CO₂ in the Air vs US Emissions",
     "section": "NASA & Climate",
     "section_id": "nasa",
-    "visual_form": "Two lines: CO\u2082 in the air vs US emissions",
+    "visual_form": "Two lines: CO₂ in the air vs US emissions",
     "agencies": [
       "NOAA",
       "EIA"
@@ -934,13 +934,13 @@
     "engine": "svg",
     "time_range": "1970 - 2022",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0.0,
+    "peak_correlation_coefficient": 0,
     "key_findings_count": 1,
     "series_count": 4,
     "primary_series": [
-      "CO\u2082 in the air, change since 1970",
+      "CO₂ in the air, change since 1970",
       "US emissions, change since 1970",
-      "CO\u2082 in the air"
+      "CO₂ in the air"
     ],
     "data_status": "real",
     "latest_observation": "2022"

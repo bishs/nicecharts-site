@@ -5,7 +5,7 @@
     "title": "How Many Years of Pay Buy a Home?",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Scrollytelling Divergent Matrix Chart",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "Census"
     ],
@@ -291,17 +291,17 @@
         "ratio_pittsburgh": 2.507
       },
       "zscores": {
-        "ratio_us": 0.0,
-        "ratio_san_francisco": 0.0,
-        "ratio_los_angeles": 0.0,
-        "ratio_seattle": 0.0,
-        "ratio_new_york": 0.0,
-        "ratio_miami": 0.0,
-        "ratio_austin": 0.0,
-        "ratio_chicago": 0.0,
-        "ratio_st_louis": 0.0,
-        "ratio_detroit": 0.0,
-        "ratio_pittsburgh": 0.0
+        "ratio_us": 0,
+        "ratio_san_francisco": 0,
+        "ratio_los_angeles": 0,
+        "ratio_seattle": 0,
+        "ratio_new_york": 0,
+        "ratio_miami": 0,
+        "ratio_austin": 0,
+        "ratio_chicago": 0,
+        "ratio_st_louis": 0,
+        "ratio_detroit": 0,
+        "ratio_pittsburgh": 0
       },
       "events": []
     },
@@ -321,17 +321,17 @@
         "ratio_pittsburgh": 2.512
       },
       "zscores": {
-        "ratio_us": 1.0,
-        "ratio_san_francisco": -1.0,
-        "ratio_los_angeles": 1.0,
-        "ratio_seattle": 1.0,
-        "ratio_new_york": 1.0,
-        "ratio_miami": 1.0,
-        "ratio_austin": -1.0,
-        "ratio_chicago": 1.0,
-        "ratio_st_louis": 1.0,
-        "ratio_detroit": -1.0,
-        "ratio_pittsburgh": 1.0
+        "ratio_us": 1,
+        "ratio_san_francisco": -1,
+        "ratio_los_angeles": 1,
+        "ratio_seattle": 1,
+        "ratio_new_york": 1,
+        "ratio_miami": 1,
+        "ratio_austin": -1,
+        "ratio_chicago": 1,
+        "ratio_st_louis": 1,
+        "ratio_detroit": -1,
+        "ratio_pittsburgh": 1
       },
       "events": []
     },
@@ -2607,7 +2607,7 @@
       },
       "zscores": {
         "ratio_us": -1.703,
-        "ratio_san_francisco": -2.0,
+        "ratio_san_francisco": -2,
         "ratio_los_angeles": -1.615,
         "ratio_seattle": -1.82,
         "ratio_new_york": -2.064,
@@ -3143,7 +3143,7 @@
         "ratio_los_angeles": 7.685,
         "ratio_seattle": 4.555,
         "ratio_new_york": 5.993,
-        "ratio_miami": 4.0,
+        "ratio_miami": 4,
         "ratio_austin": 3.312,
         "ratio_chicago": 3.414,
         "ratio_st_louis": 2.823,
@@ -5498,7 +5498,7 @@
         "ratio_new_york": 2.768,
         "ratio_miami": 1.53,
         "ratio_austin": 2.286,
-        "ratio_chicago": -1.0,
+        "ratio_chicago": -1,
         "ratio_st_louis": 0.605,
         "ratio_detroit": 2.21,
         "ratio_pittsburgh": 1.75
@@ -5602,7 +5602,7 @@
         "ratio_san_francisco": 8.496,
         "ratio_los_angeles": 8.762,
         "ratio_seattle": 5.697,
-        "ratio_new_york": 6.0,
+        "ratio_new_york": 6,
         "ratio_miami": 5.408,
         "ratio_austin": 4.179,
         "ratio_chicago": 3.453,
@@ -5876,7 +5876,7 @@
         "ratio_miami": 5.572,
         "ratio_austin": 4.425,
         "ratio_chicago": 3.539,
-        "ratio_st_louis": 3.0,
+        "ratio_st_louis": 3,
         "ratio_detroit": 3.223,
         "ratio_pittsburgh": 2.801
       },
@@ -6693,7 +6693,7 @@
         "ratio_chicago": 3.635,
         "ratio_st_louis": 3.174,
         "ratio_detroit": 3.457,
-        "ratio_pittsburgh": 3.0
+        "ratio_pittsburgh": 3
       },
       "zscores": {
         "ratio_us": 1.397,
@@ -7170,7 +7170,7 @@
         "title": "2005: Bubble-Era Prices",
         "description": "A San Francisco home cost 10.0 years of income and a New York home 7.5 years. Austin (3.2) and Chicago (4.3) were far cheaper.",
         "significance": "Coastal homes were already out of reach for typical earners before the crash.",
-        "normalized_time": 0.0
+        "normalized_time": 0
       },
       {
         "date": "2012-07-01",

@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_30",
     "number": 30,
-    "title": "Healthcare Spending as a Share of GDP",
+    "title": "How Much of Every $100 Goes to Health Care?",
     "section": "Section F: Logistics, Infrastructure & Public Health",
     "section_id": "section_f",
-    "visual_form": "Dynamic Voronoi Treemap with Organic Cell Relocation",
+    "visual_form": "Rows of blocks",
     "agencies": [
       "BEA"
     ],
@@ -201,8 +201,8 @@
         "prescription_drugs_share": 17.187
       },
       "zscores": {
-        "total_health_share_gdp": 0.0,
-        "prescription_drugs_share": 0.0
+        "total_health_share_gdp": 0,
+        "prescription_drugs_share": 0
       },
       "events": []
     },
@@ -213,8 +213,8 @@
         "prescription_drugs_share": 17.199
       },
       "zscores": {
-        "total_health_share_gdp": -1.0,
-        "prescription_drugs_share": 1.0
+        "total_health_share_gdp": -1,
+        "prescription_drugs_share": 1
       },
       "events": []
     },
@@ -6063,7 +6063,7 @@
     {
       "date": "2000-09-01",
       "values": {
-        "total_health_share_gdp": 9.0,
+        "total_health_share_gdp": 9,
         "prescription_drugs_share": 14.714
       },
       "zscores": {

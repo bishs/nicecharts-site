@@ -5,7 +5,7 @@
     "title": "Mortgage Rates, New Homes and Building Jobs",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Census",
@@ -208,13 +208,13 @@
       "date": "1995-01-01",
       "values": {
         "mortgage_rate": 9.15,
-        "housing_starts": 1407.0,
-        "specialty_contractors": 3130.0
+        "housing_starts": 1407,
+        "specialty_contractors": 3130
       },
       "zscores": {
-        "mortgage_rate": 0.0,
-        "housing_starts": 0.0,
-        "specialty_contractors": 0.0
+        "mortgage_rate": 0,
+        "housing_starts": 0,
+        "specialty_contractors": 0
       },
       "events": []
     },
@@ -222,13 +222,13 @@
       "date": "1995-02-01",
       "values": {
         "mortgage_rate": 8.83,
-        "housing_starts": 1316.0,
+        "housing_starts": 1316,
         "specialty_contractors": 3106.4
       },
       "zscores": {
-        "mortgage_rate": -1.0,
-        "housing_starts": -1.0,
-        "specialty_contractors": -1.0
+        "mortgage_rate": -1,
+        "housing_starts": -1,
+        "specialty_contractors": -1
       },
       "events": []
     },
@@ -236,7 +236,7 @@
       "date": "1995-03-01",
       "values": {
         "mortgage_rate": 8.46,
-        "housing_starts": 1249.0,
+        "housing_starts": 1249,
         "specialty_contractors": 3145.8
       },
       "zscores": {
@@ -250,7 +250,7 @@
       "date": "1995-04-01",
       "values": {
         "mortgage_rate": 8.32,
-        "housing_starts": 1267.0,
+        "housing_starts": 1267,
         "specialty_contractors": 3155.2
       },
       "zscores": {
@@ -264,7 +264,7 @@
       "date": "1995-05-01",
       "values": {
         "mortgage_rate": 7.96,
-        "housing_starts": 1314.0,
+        "housing_starts": 1314,
         "specialty_contractors": 3141.9
       },
       "zscores": {
@@ -278,7 +278,7 @@
       "date": "1995-06-01",
       "values": {
         "mortgage_rate": 7.57,
-        "housing_starts": 1281.0,
+        "housing_starts": 1281,
         "specialty_contractors": 3160.9
       },
       "zscores": {
@@ -292,8 +292,8 @@
       "date": "1995-07-01",
       "values": {
         "mortgage_rate": 7.61,
-        "housing_starts": 1461.0,
-        "specialty_contractors": 3167.0
+        "housing_starts": 1461,
+        "specialty_contractors": 3167
       },
       "zscores": {
         "mortgage_rate": -1.194,
@@ -306,8 +306,8 @@
       "date": "1995-08-01",
       "values": {
         "mortgage_rate": 7.86,
-        "housing_starts": 1416.0,
-        "specialty_contractors": 3185.0
+        "housing_starts": 1416,
+        "specialty_contractors": 3185
       },
       "zscores": {
         "mortgage_rate": -0.672,
@@ -320,7 +320,7 @@
       "date": "1995-09-01",
       "values": {
         "mortgage_rate": 7.64,
-        "housing_starts": 1369.0,
+        "housing_starts": 1369,
         "specialty_contractors": 3208.5
       },
       "zscores": {
@@ -334,7 +334,7 @@
       "date": "1995-10-01",
       "values": {
         "mortgage_rate": 7.48,
-        "housing_starts": 1369.0,
+        "housing_starts": 1369,
         "specialty_contractors": 3228.8
       },
       "zscores": {
@@ -348,7 +348,7 @@
       "date": "1995-11-01",
       "values": {
         "mortgage_rate": 7.38,
-        "housing_starts": 1452.0,
+        "housing_starts": 1452,
         "specialty_contractors": 3236.8
       },
       "zscores": {
@@ -362,7 +362,7 @@
       "date": "1995-12-01",
       "values": {
         "mortgage_rate": 7.2,
-        "housing_starts": 1431.0,
+        "housing_starts": 1431,
         "specialty_contractors": 3227.7
       },
       "zscores": {
@@ -376,8 +376,8 @@
       "date": "1996-01-01",
       "values": {
         "mortgage_rate": 7.03,
-        "housing_starts": 1467.0,
-        "specialty_contractors": 3242.0
+        "housing_starts": 1467,
+        "specialty_contractors": 3242
       },
       "zscores": {
         "mortgage_rate": -1.395,
@@ -390,7 +390,7 @@
       "date": "1996-02-01",
       "values": {
         "mortgage_rate": 7.08,
-        "housing_starts": 1491.0,
+        "housing_starts": 1491,
         "specialty_contractors": 3276.3
       },
       "zscores": {
@@ -404,7 +404,7 @@
       "date": "1996-03-01",
       "values": {
         "mortgage_rate": 7.62,
-        "housing_starts": 1424.0,
+        "housing_starts": 1424,
         "specialty_contractors": 3290.3
       },
       "zscores": {
@@ -418,7 +418,7 @@
       "date": "1996-04-01",
       "values": {
         "mortgage_rate": 7.93,
-        "housing_starts": 1516.0,
+        "housing_starts": 1516,
         "specialty_contractors": 3309.4
       },
       "zscores": {
@@ -432,8 +432,8 @@
       "date": "1996-05-01",
       "values": {
         "mortgage_rate": 8.07,
-        "housing_starts": 1504.0,
-        "specialty_contractors": 3328.0
+        "housing_starts": 1504,
+        "specialty_contractors": 3328
       },
       "zscores": {
         "mortgage_rate": 0.411,
@@ -446,7 +446,7 @@
       "date": "1996-06-01",
       "values": {
         "mortgage_rate": 8.32,
-        "housing_starts": 1467.0,
+        "housing_starts": 1467,
         "specialty_contractors": 3348.5
       },
       "zscores": {
@@ -460,7 +460,7 @@
       "date": "1996-07-01",
       "values": {
         "mortgage_rate": 8.25,
-        "housing_starts": 1472.0,
+        "housing_starts": 1472,
         "specialty_contractors": 3367.2
       },
       "zscores": {
@@ -473,8 +473,8 @@
     {
       "date": "1996-08-01",
       "values": {
-        "mortgage_rate": 8.0,
-        "housing_starts": 1557.0,
+        "mortgage_rate": 8,
+        "housing_starts": 1557,
         "specialty_contractors": 3385.9
       },
       "zscores": {
@@ -488,8 +488,8 @@
       "date": "1996-09-01",
       "values": {
         "mortgage_rate": 8.23,
-        "housing_starts": 1475.0,
-        "specialty_contractors": 3405.0
+        "housing_starts": 1475,
+        "specialty_contractors": 3405
       },
       "zscores": {
         "mortgage_rate": 0.606,
@@ -502,7 +502,7 @@
       "date": "1996-10-01",
       "values": {
         "mortgage_rate": 7.92,
-        "housing_starts": 1392.0,
+        "housing_starts": 1392,
         "specialty_contractors": 3428.7
       },
       "zscores": {
@@ -516,7 +516,7 @@
       "date": "1996-11-01",
       "values": {
         "mortgage_rate": 7.62,
-        "housing_starts": 1489.0,
+        "housing_starts": 1489,
         "specialty_contractors": 3447.7
       },
       "zscores": {
@@ -530,7 +530,7 @@
       "date": "1996-12-01",
       "values": {
         "mortgage_rate": 7.6,
-        "housing_starts": 1370.0,
+        "housing_starts": 1370,
         "specialty_contractors": 3452.6
       },
       "zscores": {
@@ -544,7 +544,7 @@
       "date": "1997-01-01",
       "values": {
         "mortgage_rate": 7.82,
-        "housing_starts": 1355.0,
+        "housing_starts": 1355,
         "specialty_contractors": 3450.3
       },
       "zscores": {
@@ -558,7 +558,7 @@
       "date": "1997-02-01",
       "values": {
         "mortgage_rate": 7.65,
-        "housing_starts": 1486.0,
+        "housing_starts": 1486,
         "specialty_contractors": 3478.2
       },
       "zscores": {
@@ -572,7 +572,7 @@
       "date": "1997-03-01",
       "values": {
         "mortgage_rate": 7.9,
-        "housing_starts": 1457.0,
+        "housing_starts": 1457,
         "specialty_contractors": 3503.7
       },
       "zscores": {
@@ -586,7 +586,7 @@
       "date": "1997-04-01",
       "values": {
         "mortgage_rate": 8.14,
-        "housing_starts": 1492.0,
+        "housing_starts": 1492,
         "specialty_contractors": 3516.7
       },
       "zscores": {
@@ -600,7 +600,7 @@
       "date": "1997-05-01",
       "values": {
         "mortgage_rate": 7.94,
-        "housing_starts": 1442.0,
+        "housing_starts": 1442,
         "specialty_contractors": 3535.9
       },
       "zscores": {
@@ -614,7 +614,7 @@
       "date": "1997-06-01",
       "values": {
         "mortgage_rate": 7.69,
-        "housing_starts": 1494.0,
+        "housing_starts": 1494,
         "specialty_contractors": 3543.7
       },
       "zscores": {
@@ -628,8 +628,8 @@
       "date": "1997-07-01",
       "values": {
         "mortgage_rate": 7.5,
-        "housing_starts": 1437.0,
-        "specialty_contractors": 3561.0
+        "housing_starts": 1437,
+        "specialty_contractors": 3561
       },
       "zscores": {
         "mortgage_rate": -0.792,
@@ -642,7 +642,7 @@
       "date": "1997-08-01",
       "values": {
         "mortgage_rate": 7.48,
-        "housing_starts": 1390.0,
+        "housing_starts": 1390,
         "specialty_contractors": 3582.4
       },
       "zscores": {
@@ -656,7 +656,7 @@
       "date": "1997-09-01",
       "values": {
         "mortgage_rate": 7.43,
-        "housing_starts": 1546.0,
+        "housing_starts": 1546,
         "specialty_contractors": 3600.6
       },
       "zscores": {
@@ -670,7 +670,7 @@
       "date": "1997-10-01",
       "values": {
         "mortgage_rate": 7.29,
-        "housing_starts": 1520.0,
+        "housing_starts": 1520,
         "specialty_contractors": 3607.2
       },
       "zscores": {
@@ -684,7 +684,7 @@
       "date": "1997-11-01",
       "values": {
         "mortgage_rate": 7.21,
-        "housing_starts": 1510.0,
+        "housing_starts": 1510,
         "specialty_contractors": 3617.6
       },
       "zscores": {
@@ -698,7 +698,7 @@
       "date": "1997-12-01",
       "values": {
         "mortgage_rate": 7.1,
-        "housing_starts": 1566.0,
+        "housing_starts": 1566,
         "specialty_contractors": 3639.4
       },
       "zscores": {
@@ -712,7 +712,7 @@
       "date": "1998-01-01",
       "values": {
         "mortgage_rate": 6.99,
-        "housing_starts": 1525.0,
+        "housing_starts": 1525,
         "specialty_contractors": 3671.2
       },
       "zscores": {
@@ -726,7 +726,7 @@
       "date": "1998-02-01",
       "values": {
         "mortgage_rate": 7.04,
-        "housing_starts": 1584.0,
+        "housing_starts": 1584,
         "specialty_contractors": 3681.2
       },
       "zscores": {
@@ -740,7 +740,7 @@
       "date": "1998-03-01",
       "values": {
         "mortgage_rate": 7.13,
-        "housing_starts": 1567.0,
+        "housing_starts": 1567,
         "specialty_contractors": 3659.5
       },
       "zscores": {
@@ -754,7 +754,7 @@
       "date": "1998-04-01",
       "values": {
         "mortgage_rate": 7.14,
-        "housing_starts": 1540.0,
+        "housing_starts": 1540,
         "specialty_contractors": 3710.5
       },
       "zscores": {
@@ -768,8 +768,8 @@
       "date": "1998-05-01",
       "values": {
         "mortgage_rate": 7.14,
-        "housing_starts": 1536.0,
-        "specialty_contractors": 3728.0
+        "housing_starts": 1536,
+        "specialty_contractors": 3728
       },
       "zscores": {
         "mortgage_rate": -1.161,
@@ -781,8 +781,8 @@
     {
       "date": "1998-06-01",
       "values": {
-        "mortgage_rate": 7.0,
-        "housing_starts": 1641.0,
+        "mortgage_rate": 7,
+        "housing_starts": 1641,
         "specialty_contractors": 3756.9
       },
       "zscores": {
@@ -796,7 +796,7 @@
       "date": "1998-07-01",
       "values": {
         "mortgage_rate": 6.95,
-        "housing_starts": 1698.0,
+        "housing_starts": 1698,
         "specialty_contractors": 3783.5
       },
       "zscores": {
@@ -810,7 +810,7 @@
       "date": "1998-08-01",
       "values": {
         "mortgage_rate": 6.92,
-        "housing_starts": 1614.0,
+        "housing_starts": 1614,
         "specialty_contractors": 3811.9
       },
       "zscores": {
@@ -824,7 +824,7 @@
       "date": "1998-09-01",
       "values": {
         "mortgage_rate": 6.72,
-        "housing_starts": 1582.0,
+        "housing_starts": 1582,
         "specialty_contractors": 3826.8
       },
       "zscores": {
@@ -838,7 +838,7 @@
       "date": "1998-10-01",
       "values": {
         "mortgage_rate": 6.71,
-        "housing_starts": 1715.0,
+        "housing_starts": 1715,
         "specialty_contractors": 3850.8
       },
       "zscores": {
@@ -852,7 +852,7 @@
       "date": "1998-11-01",
       "values": {
         "mortgage_rate": 6.87,
-        "housing_starts": 1660.0,
+        "housing_starts": 1660,
         "specialty_contractors": 3879.8
       },
       "zscores": {
@@ -866,7 +866,7 @@
       "date": "1998-12-01",
       "values": {
         "mortgage_rate": 6.74,
-        "housing_starts": 1792.0,
+        "housing_starts": 1792,
         "specialty_contractors": 3933.3
       },
       "zscores": {
@@ -880,7 +880,7 @@
       "date": "1999-01-01",
       "values": {
         "mortgage_rate": 6.79,
-        "housing_starts": 1748.0,
+        "housing_starts": 1748,
         "specialty_contractors": 3920.3
       },
       "zscores": {
@@ -894,7 +894,7 @@
       "date": "1999-02-01",
       "values": {
         "mortgage_rate": 6.81,
-        "housing_starts": 1670.0,
+        "housing_starts": 1670,
         "specialty_contractors": 3974.6
       },
       "zscores": {
@@ -908,7 +908,7 @@
       "date": "1999-03-01",
       "values": {
         "mortgage_rate": 7.04,
-        "housing_starts": 1710.0,
+        "housing_starts": 1710,
         "specialty_contractors": 3956.8
       },
       "zscores": {
@@ -922,7 +922,7 @@
       "date": "1999-04-01",
       "values": {
         "mortgage_rate": 6.92,
-        "housing_starts": 1553.0,
+        "housing_starts": 1553,
         "specialty_contractors": 4004.1
       },
       "zscores": {
@@ -936,7 +936,7 @@
       "date": "1999-05-01",
       "values": {
         "mortgage_rate": 7.15,
-        "housing_starts": 1611.0,
+        "housing_starts": 1611,
         "specialty_contractors": 4031.2
       },
       "zscores": {
@@ -950,8 +950,8 @@
       "date": "1999-06-01",
       "values": {
         "mortgage_rate": 7.55,
-        "housing_starts": 1559.0,
-        "specialty_contractors": 4052.0
+        "housing_starts": 1559,
+        "specialty_contractors": 4052
       },
       "zscores": {
         "mortgage_rate": 0.451,
@@ -964,7 +964,7 @@
       "date": "1999-07-01",
       "values": {
         "mortgage_rate": 7.63,
-        "housing_starts": 1669.0,
+        "housing_starts": 1669,
         "specialty_contractors": 4068.7
       },
       "zscores": {
@@ -978,7 +978,7 @@
       "date": "1999-08-01",
       "values": {
         "mortgage_rate": 7.94,
-        "housing_starts": 1648.0,
+        "housing_starts": 1648,
         "specialty_contractors": 4078.5
       },
       "zscores": {
@@ -992,7 +992,7 @@
       "date": "1999-09-01",
       "values": {
         "mortgage_rate": 7.82,
-        "housing_starts": 1635.0,
+        "housing_starts": 1635,
         "specialty_contractors": 4095.1
       },
       "zscores": {
@@ -1006,7 +1006,7 @@
       "date": "1999-10-01",
       "values": {
         "mortgage_rate": 7.85,
-        "housing_starts": 1608.0,
+        "housing_starts": 1608,
         "specialty_contractors": 4115.2
       },
       "zscores": {
@@ -1020,7 +1020,7 @@
       "date": "1999-11-01",
       "values": {
         "mortgage_rate": 7.74,
-        "housing_starts": 1648.0,
+        "housing_starts": 1648,
         "specialty_contractors": 4145.5
       },
       "zscores": {
@@ -1034,7 +1034,7 @@
       "date": "1999-12-01",
       "values": {
         "mortgage_rate": 7.91,
-        "housing_starts": 1708.0,
+        "housing_starts": 1708,
         "specialty_contractors": 4158.6
       },
       "zscores": {
@@ -1048,7 +1048,7 @@
       "date": "2000-01-01",
       "values": {
         "mortgage_rate": 8.21,
-        "housing_starts": 1636.0,
+        "housing_starts": 1636,
         "specialty_contractors": 4185.8
       },
       "zscores": {
@@ -1062,8 +1062,8 @@
       "date": "2000-02-01",
       "values": {
         "mortgage_rate": 8.33,
-        "housing_starts": 1737.0,
-        "specialty_contractors": 4170.0
+        "housing_starts": 1737,
+        "specialty_contractors": 4170
       },
       "zscores": {
         "mortgage_rate": 2.1,
@@ -1076,7 +1076,7 @@
       "date": "2000-03-01",
       "values": {
         "mortgage_rate": 8.24,
-        "housing_starts": 1604.0,
+        "housing_starts": 1604,
         "specialty_contractors": 4222.8
       },
       "zscores": {
@@ -1090,7 +1090,7 @@
       "date": "2000-04-01",
       "values": {
         "mortgage_rate": 8.15,
-        "housing_starts": 1626.0,
+        "housing_starts": 1626,
         "specialty_contractors": 4215.8
       },
       "zscores": {
@@ -1104,7 +1104,7 @@
       "date": "2000-05-01",
       "values": {
         "mortgage_rate": 8.52,
-        "housing_starts": 1575.0,
+        "housing_starts": 1575,
         "specialty_contractors": 4198.8
       },
       "zscores": {
@@ -1118,7 +1118,7 @@
       "date": "2000-06-01",
       "values": {
         "mortgage_rate": 8.29,
-        "housing_starts": 1559.0,
+        "housing_starts": 1559,
         "specialty_contractors": 4204.5
       },
       "zscores": {
@@ -1132,7 +1132,7 @@
       "date": "2000-07-01",
       "values": {
         "mortgage_rate": 8.15,
-        "housing_starts": 1463.0,
+        "housing_starts": 1463,
         "specialty_contractors": 4214.3
       },
       "zscores": {
@@ -1146,7 +1146,7 @@
       "date": "2000-08-01",
       "values": {
         "mortgage_rate": 8.03,
-        "housing_starts": 1541.0,
+        "housing_starts": 1541,
         "specialty_contractors": 4221.2
       },
       "zscores": {
@@ -1160,7 +1160,7 @@
       "date": "2000-09-01",
       "values": {
         "mortgage_rate": 7.91,
-        "housing_starts": 1507.0,
+        "housing_starts": 1507,
         "specialty_contractors": 4234.8
       },
       "zscores": {
@@ -1174,7 +1174,7 @@
       "date": "2000-10-01",
       "values": {
         "mortgage_rate": 7.8,
-        "housing_starts": 1549.0,
+        "housing_starts": 1549,
         "specialty_contractors": 4242.7
       },
       "zscores": {
@@ -1188,7 +1188,7 @@
       "date": "2000-11-01",
       "values": {
         "mortgage_rate": 7.75,
-        "housing_starts": 1551.0,
+        "housing_starts": 1551,
         "specialty_contractors": 4254.4
       },
       "zscores": {
@@ -1202,7 +1202,7 @@
       "date": "2000-12-01",
       "values": {
         "mortgage_rate": 7.38,
-        "housing_starts": 1532.0,
+        "housing_starts": 1532,
         "specialty_contractors": 4243.7
       },
       "zscores": {
@@ -1216,7 +1216,7 @@
       "date": "2001-01-01",
       "values": {
         "mortgage_rate": 7.03,
-        "housing_starts": 1600.0,
+        "housing_starts": 1600,
         "specialty_contractors": 4283.3
       },
       "zscores": {
@@ -1230,7 +1230,7 @@
       "date": "2001-02-01",
       "values": {
         "mortgage_rate": 7.05,
-        "housing_starts": 1625.0,
+        "housing_starts": 1625,
         "specialty_contractors": 4294.3
       },
       "zscores": {
@@ -1244,7 +1244,7 @@
       "date": "2001-03-01",
       "values": {
         "mortgage_rate": 6.95,
-        "housing_starts": 1590.0,
+        "housing_starts": 1590,
         "specialty_contractors": 4314.8
       },
       "zscores": {
@@ -1258,8 +1258,8 @@
       "date": "2001-04-01",
       "values": {
         "mortgage_rate": 7.08,
-        "housing_starts": 1649.0,
-        "specialty_contractors": 4304.0
+        "housing_starts": 1649,
+        "specialty_contractors": 4304
       },
       "zscores": {
         "mortgage_rate": -0.704,
@@ -1272,7 +1272,7 @@
       "date": "2001-05-01",
       "values": {
         "mortgage_rate": 7.15,
-        "housing_starts": 1605.0,
+        "housing_starts": 1605,
         "specialty_contractors": 4306.1
       },
       "zscores": {
@@ -1286,7 +1286,7 @@
       "date": "2001-06-01",
       "values": {
         "mortgage_rate": 7.16,
-        "housing_starts": 1636.0,
+        "housing_starts": 1636,
         "specialty_contractors": 4299.4
       },
       "zscores": {
@@ -1300,7 +1300,7 @@
       "date": "2001-07-01",
       "values": {
         "mortgage_rate": 7.13,
-        "housing_starts": 1670.0,
+        "housing_starts": 1670,
         "specialty_contractors": 4292.5
       },
       "zscores": {
@@ -1314,8 +1314,8 @@
       "date": "2001-08-01",
       "values": {
         "mortgage_rate": 6.95,
-        "housing_starts": 1567.0,
-        "specialty_contractors": 4284.0
+        "housing_starts": 1567,
+        "specialty_contractors": 4284
       },
       "zscores": {
         "mortgage_rate": -0.969,
@@ -1328,7 +1328,7 @@
       "date": "2001-09-01",
       "values": {
         "mortgage_rate": 6.82,
-        "housing_starts": 1562.0,
+        "housing_starts": 1562,
         "specialty_contractors": 4273.5
       },
       "zscores": {
@@ -1342,7 +1342,7 @@
       "date": "2001-10-01",
       "values": {
         "mortgage_rate": 6.62,
-        "housing_starts": 1540.0,
+        "housing_starts": 1540,
         "specialty_contractors": 4264.9
       },
       "zscores": {
@@ -1356,7 +1356,7 @@
       "date": "2001-11-01",
       "values": {
         "mortgage_rate": 6.66,
-        "housing_starts": 1602.0,
+        "housing_starts": 1602,
         "specialty_contractors": 4247.1
       },
       "zscores": {
@@ -1370,7 +1370,7 @@
       "date": "2001-12-01",
       "values": {
         "mortgage_rate": 7.07,
-        "housing_starts": 1568.0,
+        "housing_starts": 1568,
         "specialty_contractors": 4245.9
       },
       "zscores": {
@@ -1383,8 +1383,8 @@
     {
       "date": "2002-01-01",
       "values": {
-        "mortgage_rate": 7.0,
-        "housing_starts": 1698.0,
+        "mortgage_rate": 7,
+        "housing_starts": 1698,
         "specialty_contractors": 4240.2
       },
       "zscores": {
@@ -1398,7 +1398,7 @@
       "date": "2002-02-01",
       "values": {
         "mortgage_rate": 6.89,
-        "housing_starts": 1829.0,
+        "housing_starts": 1829,
         "specialty_contractors": 4232.5
       },
       "zscores": {
@@ -1412,8 +1412,8 @@
       "date": "2002-03-01",
       "values": {
         "mortgage_rate": 7.01,
-        "housing_starts": 1642.0,
-        "specialty_contractors": 4231.0
+        "housing_starts": 1642,
+        "specialty_contractors": 4231
       },
       "zscores": {
         "mortgage_rate": -0.897,
@@ -1426,7 +1426,7 @@
       "date": "2002-04-01",
       "values": {
         "mortgage_rate": 6.99,
-        "housing_starts": 1592.0,
+        "housing_starts": 1592,
         "specialty_contractors": 4205.1
       },
       "zscores": {
@@ -1440,7 +1440,7 @@
       "date": "2002-05-01",
       "values": {
         "mortgage_rate": 6.81,
-        "housing_starts": 1764.0,
+        "housing_starts": 1764,
         "specialty_contractors": 4189.2
       },
       "zscores": {
@@ -1454,7 +1454,7 @@
       "date": "2002-06-01",
       "values": {
         "mortgage_rate": 6.65,
-        "housing_starts": 1717.0,
+        "housing_starts": 1717,
         "specialty_contractors": 4199.3
       },
       "zscores": {
@@ -1468,7 +1468,7 @@
       "date": "2002-07-01",
       "values": {
         "mortgage_rate": 6.49,
-        "housing_starts": 1655.0,
+        "housing_starts": 1655,
         "specialty_contractors": 4193.2
       },
       "zscores": {
@@ -1482,8 +1482,8 @@
       "date": "2002-08-01",
       "values": {
         "mortgage_rate": 6.29,
-        "housing_starts": 1633.0,
-        "specialty_contractors": 4202.0
+        "housing_starts": 1633,
+        "specialty_contractors": 4202
       },
       "zscores": {
         "mortgage_rate": -1.799,
@@ -1496,7 +1496,7 @@
       "date": "2002-09-01",
       "values": {
         "mortgage_rate": 6.09,
-        "housing_starts": 1804.0,
+        "housing_starts": 1804,
         "specialty_contractors": 4206.3
       },
       "zscores": {
@@ -1510,7 +1510,7 @@
       "date": "2002-10-01",
       "values": {
         "mortgage_rate": 6.11,
-        "housing_starts": 1648.0,
+        "housing_starts": 1648,
         "specialty_contractors": 4197.6
       },
       "zscores": {
@@ -1524,7 +1524,7 @@
       "date": "2002-11-01",
       "values": {
         "mortgage_rate": 6.07,
-        "housing_starts": 1753.0,
+        "housing_starts": 1753,
         "specialty_contractors": 4212.1
       },
       "zscores": {
@@ -1538,7 +1538,7 @@
       "date": "2002-12-01",
       "values": {
         "mortgage_rate": 6.05,
-        "housing_starts": 1788.0,
+        "housing_starts": 1788,
         "specialty_contractors": 4214.2
       },
       "zscores": {
@@ -1552,7 +1552,7 @@
       "date": "2003-01-01",
       "values": {
         "mortgage_rate": 5.92,
-        "housing_starts": 1853.0,
+        "housing_starts": 1853,
         "specialty_contractors": 4216.4
       },
       "zscores": {
@@ -1566,7 +1566,7 @@
       "date": "2003-02-01",
       "values": {
         "mortgage_rate": 5.84,
-        "housing_starts": 1629.0,
+        "housing_starts": 1629,
         "specialty_contractors": 4192.5
       },
       "zscores": {
@@ -1580,7 +1580,7 @@
       "date": "2003-03-01",
       "values": {
         "mortgage_rate": 5.75,
-        "housing_starts": 1726.0,
+        "housing_starts": 1726,
         "specialty_contractors": 4188.9
       },
       "zscores": {
@@ -1594,7 +1594,7 @@
       "date": "2003-04-01",
       "values": {
         "mortgage_rate": 5.81,
-        "housing_starts": 1643.0,
+        "housing_starts": 1643,
         "specialty_contractors": 4214.9
       },
       "zscores": {
@@ -1608,7 +1608,7 @@
       "date": "2003-05-01",
       "values": {
         "mortgage_rate": 5.48,
-        "housing_starts": 1751.0,
+        "housing_starts": 1751,
         "specialty_contractors": 4232.3
       },
       "zscores": {
@@ -1622,7 +1622,7 @@
       "date": "2003-06-01",
       "values": {
         "mortgage_rate": 5.23,
-        "housing_starts": 1867.0,
+        "housing_starts": 1867,
         "specialty_contractors": 4247.7
       },
       "zscores": {
@@ -1636,7 +1636,7 @@
       "date": "2003-07-01",
       "values": {
         "mortgage_rate": 5.63,
-        "housing_starts": 1897.0,
+        "housing_starts": 1897,
         "specialty_contractors": 4261.5
       },
       "zscores": {
@@ -1650,7 +1650,7 @@
       "date": "2003-08-01",
       "values": {
         "mortgage_rate": 6.26,
-        "housing_starts": 1833.0,
+        "housing_starts": 1833,
         "specialty_contractors": 4281.3
       },
       "zscores": {
@@ -1664,7 +1664,7 @@
       "date": "2003-09-01",
       "values": {
         "mortgage_rate": 6.15,
-        "housing_starts": 1939.0,
+        "housing_starts": 1939,
         "specialty_contractors": 4293.2
       },
       "zscores": {
@@ -1678,7 +1678,7 @@
       "date": "2003-10-01",
       "values": {
         "mortgage_rate": 5.95,
-        "housing_starts": 1967.0,
+        "housing_starts": 1967,
         "specialty_contractors": 4301.2
       },
       "zscores": {
@@ -1692,7 +1692,7 @@
       "date": "2003-11-01",
       "values": {
         "mortgage_rate": 5.93,
-        "housing_starts": 2083.0,
+        "housing_starts": 2083,
         "specialty_contractors": 4311.8
       },
       "zscores": {
@@ -1706,7 +1706,7 @@
       "date": "2003-12-01",
       "values": {
         "mortgage_rate": 5.88,
-        "housing_starts": 2057.0,
+        "housing_starts": 2057,
         "specialty_contractors": 4332.8
       },
       "zscores": {
@@ -1720,7 +1720,7 @@
       "date": "2004-01-01",
       "values": {
         "mortgage_rate": 5.71,
-        "housing_starts": 1911.0,
+        "housing_starts": 1911,
         "specialty_contractors": 4351.4
       },
       "zscores": {
@@ -1734,7 +1734,7 @@
       "date": "2004-02-01",
       "values": {
         "mortgage_rate": 5.64,
-        "housing_starts": 1846.0,
+        "housing_starts": 1846,
         "specialty_contractors": 4354.8
       },
       "zscores": {
@@ -1748,7 +1748,7 @@
       "date": "2004-03-01",
       "values": {
         "mortgage_rate": 5.45,
-        "housing_starts": 1998.0,
+        "housing_starts": 1998,
         "specialty_contractors": 4380.1
       },
       "zscores": {
@@ -1762,7 +1762,7 @@
       "date": "2004-04-01",
       "values": {
         "mortgage_rate": 5.83,
-        "housing_starts": 2003.0,
+        "housing_starts": 2003,
         "specialty_contractors": 4394.2
       },
       "zscores": {
@@ -1776,7 +1776,7 @@
       "date": "2004-05-01",
       "values": {
         "mortgage_rate": 6.27,
-        "housing_starts": 1981.0,
+        "housing_starts": 1981,
         "specialty_contractors": 4419.9
       },
       "zscores": {
@@ -1790,7 +1790,7 @@
       "date": "2004-06-01",
       "values": {
         "mortgage_rate": 6.29,
-        "housing_starts": 1828.0,
+        "housing_starts": 1828,
         "specialty_contractors": 4434.2
       },
       "zscores": {
@@ -1804,7 +1804,7 @@
       "date": "2004-07-01",
       "values": {
         "mortgage_rate": 6.06,
-        "housing_starts": 2002.0,
+        "housing_starts": 2002,
         "specialty_contractors": 4439.9
       },
       "zscores": {
@@ -1818,7 +1818,7 @@
       "date": "2004-08-01",
       "values": {
         "mortgage_rate": 5.87,
-        "housing_starts": 2024.0,
+        "housing_starts": 2024,
         "specialty_contractors": 4459.3
       },
       "zscores": {
@@ -1832,7 +1832,7 @@
       "date": "2004-09-01",
       "values": {
         "mortgage_rate": 5.75,
-        "housing_starts": 1905.0,
+        "housing_starts": 1905,
         "specialty_contractors": 4468.4
       },
       "zscores": {
@@ -1846,7 +1846,7 @@
       "date": "2004-10-01",
       "values": {
         "mortgage_rate": 5.72,
-        "housing_starts": 2072.0,
+        "housing_starts": 2072,
         "specialty_contractors": 4499.6
       },
       "zscores": {
@@ -1860,7 +1860,7 @@
       "date": "2004-11-01",
       "values": {
         "mortgage_rate": 5.73,
-        "housing_starts": 1782.0,
+        "housing_starts": 1782,
         "specialty_contractors": 4509.3
       },
       "zscores": {
@@ -1874,7 +1874,7 @@
       "date": "2004-12-01",
       "values": {
         "mortgage_rate": 5.75,
-        "housing_starts": 2042.0,
+        "housing_starts": 2042,
         "specialty_contractors": 4528.4
       },
       "zscores": {
@@ -1888,7 +1888,7 @@
       "date": "2005-01-01",
       "values": {
         "mortgage_rate": 5.71,
-        "housing_starts": 2144.0,
+        "housing_starts": 2144,
         "specialty_contractors": 4505.5
       },
       "zscores": {
@@ -1902,7 +1902,7 @@
       "date": "2005-02-01",
       "values": {
         "mortgage_rate": 5.63,
-        "housing_starts": 2207.0,
+        "housing_starts": 2207,
         "specialty_contractors": 4551.9
       },
       "zscores": {
@@ -1916,7 +1916,7 @@
       "date": "2005-03-01",
       "values": {
         "mortgage_rate": 5.93,
-        "housing_starts": 1864.0,
+        "housing_starts": 1864,
         "specialty_contractors": 4571.3
       },
       "zscores": {
@@ -1930,7 +1930,7 @@
       "date": "2005-04-01",
       "values": {
         "mortgage_rate": 5.86,
-        "housing_starts": 2061.0,
+        "housing_starts": 2061,
         "specialty_contractors": 4635.2
       },
       "zscores": {
@@ -1944,7 +1944,7 @@
       "date": "2005-05-01",
       "values": {
         "mortgage_rate": 5.72,
-        "housing_starts": 2025.0,
+        "housing_starts": 2025,
         "specialty_contractors": 4651.6
       },
       "zscores": {
@@ -1958,7 +1958,7 @@
       "date": "2005-06-01",
       "values": {
         "mortgage_rate": 5.58,
-        "housing_starts": 2068.0,
+        "housing_starts": 2068,
         "specialty_contractors": 4664.3
       },
       "zscores": {
@@ -1972,7 +1972,7 @@
       "date": "2005-07-01",
       "values": {
         "mortgage_rate": 5.7,
-        "housing_starts": 2054.0,
+        "housing_starts": 2054,
         "specialty_contractors": 4678.3
       },
       "zscores": {
@@ -1986,7 +1986,7 @@
       "date": "2005-08-01",
       "values": {
         "mortgage_rate": 5.82,
-        "housing_starts": 2095.0,
+        "housing_starts": 2095,
         "specialty_contractors": 4708.7
       },
       "zscores": {
@@ -2000,7 +2000,7 @@
       "date": "2005-09-01",
       "values": {
         "mortgage_rate": 5.77,
-        "housing_starts": 2151.0,
+        "housing_starts": 2151,
         "specialty_contractors": 4728.2
       },
       "zscores": {
@@ -2014,7 +2014,7 @@
       "date": "2005-10-01",
       "values": {
         "mortgage_rate": 6.07,
-        "housing_starts": 2065.0,
+        "housing_starts": 2065,
         "specialty_contractors": 4760.6
       },
       "zscores": {
@@ -2028,7 +2028,7 @@
       "date": "2005-11-01",
       "values": {
         "mortgage_rate": 6.33,
-        "housing_starts": 2147.0,
+        "housing_starts": 2147,
         "specialty_contractors": 4792.3
       },
       "zscores": {
@@ -2042,7 +2042,7 @@
       "date": "2005-12-01",
       "values": {
         "mortgage_rate": 6.27,
-        "housing_starts": 1994.0,
+        "housing_starts": 1994,
         "specialty_contractors": 4799.5
       },
       "zscores": {
@@ -2056,7 +2056,7 @@
       "date": "2006-01-01",
       "values": {
         "mortgage_rate": 6.15,
-        "housing_starts": 2273.0,
+        "housing_starts": 2273,
         "specialty_contractors": 4833.6
       },
       "zscores": {
@@ -2075,7 +2075,7 @@
       "date": "2006-02-01",
       "values": {
         "mortgage_rate": 6.25,
-        "housing_starts": 2119.0,
+        "housing_starts": 2119,
         "specialty_contractors": 4887.4
       },
       "zscores": {
@@ -2089,7 +2089,7 @@
       "date": "2006-03-01",
       "values": {
         "mortgage_rate": 6.32,
-        "housing_starts": 1969.0,
+        "housing_starts": 1969,
         "specialty_contractors": 4899.9
       },
       "zscores": {
@@ -2103,7 +2103,7 @@
       "date": "2006-04-01",
       "values": {
         "mortgage_rate": 6.51,
-        "housing_starts": 1821.0,
+        "housing_starts": 1821,
         "specialty_contractors": 4919.3
       },
       "zscores": {
@@ -2117,7 +2117,7 @@
       "date": "2006-05-01",
       "values": {
         "mortgage_rate": 6.6,
-        "housing_starts": 1942.0,
+        "housing_starts": 1942,
         "specialty_contractors": 4914.7
       },
       "zscores": {
@@ -2131,7 +2131,7 @@
       "date": "2006-06-01",
       "values": {
         "mortgage_rate": 6.68,
-        "housing_starts": 1802.0,
+        "housing_starts": 1802,
         "specialty_contractors": 4918.3
       },
       "zscores": {
@@ -2145,7 +2145,7 @@
       "date": "2006-07-01",
       "values": {
         "mortgage_rate": 6.76,
-        "housing_starts": 1737.0,
+        "housing_starts": 1737,
         "specialty_contractors": 4917.5
       },
       "zscores": {
@@ -2159,7 +2159,7 @@
       "date": "2006-08-01",
       "values": {
         "mortgage_rate": 6.52,
-        "housing_starts": 1650.0,
+        "housing_starts": 1650,
         "specialty_contractors": 4931.3
       },
       "zscores": {
@@ -2173,7 +2173,7 @@
       "date": "2006-09-01",
       "values": {
         "mortgage_rate": 6.4,
-        "housing_starts": 1720.0,
+        "housing_starts": 1720,
         "specialty_contractors": 4917.7
       },
       "zscores": {
@@ -2187,7 +2187,7 @@
       "date": "2006-10-01",
       "values": {
         "mortgage_rate": 6.36,
-        "housing_starts": 1491.0,
+        "housing_starts": 1491,
         "specialty_contractors": 4884.4
       },
       "zscores": {
@@ -2201,7 +2201,7 @@
       "date": "2006-11-01",
       "values": {
         "mortgage_rate": 6.24,
-        "housing_starts": 1570.0,
+        "housing_starts": 1570,
         "specialty_contractors": 4875.2
       },
       "zscores": {
@@ -2215,7 +2215,7 @@
       "date": "2006-12-01",
       "values": {
         "mortgage_rate": 6.14,
-        "housing_starts": 1649.0,
+        "housing_starts": 1649,
         "specialty_contractors": 4895.4
       },
       "zscores": {
@@ -2229,7 +2229,7 @@
       "date": "2007-01-01",
       "values": {
         "mortgage_rate": 6.22,
-        "housing_starts": 1409.0,
+        "housing_starts": 1409,
         "specialty_contractors": 4917.2
       },
       "zscores": {
@@ -2243,7 +2243,7 @@
       "date": "2007-02-01",
       "values": {
         "mortgage_rate": 6.29,
-        "housing_starts": 1480.0,
+        "housing_starts": 1480,
         "specialty_contractors": 4845.1
       },
       "zscores": {
@@ -2257,7 +2257,7 @@
       "date": "2007-03-01",
       "values": {
         "mortgage_rate": 6.16,
-        "housing_starts": 1495.0,
+        "housing_starts": 1495,
         "specialty_contractors": 4903.6
       },
       "zscores": {
@@ -2271,8 +2271,8 @@
       "date": "2007-04-01",
       "values": {
         "mortgage_rate": 6.18,
-        "housing_starts": 1490.0,
-        "specialty_contractors": 4890.0
+        "housing_starts": 1490,
+        "specialty_contractors": 4890
       },
       "zscores": {
         "mortgage_rate": 0.251,
@@ -2285,7 +2285,7 @@
       "date": "2007-05-01",
       "values": {
         "mortgage_rate": 6.26,
-        "housing_starts": 1415.0,
+        "housing_starts": 1415,
         "specialty_contractors": 4879.9
       },
       "zscores": {
@@ -2299,7 +2299,7 @@
       "date": "2007-06-01",
       "values": {
         "mortgage_rate": 6.66,
-        "housing_starts": 1448.0,
+        "housing_starts": 1448,
         "specialty_contractors": 4882.1
       },
       "zscores": {
@@ -2313,7 +2313,7 @@
       "date": "2007-07-01",
       "values": {
         "mortgage_rate": 6.7,
-        "housing_starts": 1354.0,
+        "housing_starts": 1354,
         "specialty_contractors": 4868.4
       },
       "zscores": {
@@ -2327,7 +2327,7 @@
       "date": "2007-08-01",
       "values": {
         "mortgage_rate": 6.57,
-        "housing_starts": 1330.0,
+        "housing_starts": 1330,
         "specialty_contractors": 4843.2
       },
       "zscores": {
@@ -2346,7 +2346,7 @@
       "date": "2007-09-01",
       "values": {
         "mortgage_rate": 6.38,
-        "housing_starts": 1183.0,
+        "housing_starts": 1183,
         "specialty_contractors": 4808.9
       },
       "zscores": {
@@ -2360,7 +2360,7 @@
       "date": "2007-10-01",
       "values": {
         "mortgage_rate": 6.38,
-        "housing_starts": 1264.0,
+        "housing_starts": 1264,
         "specialty_contractors": 4808.1
       },
       "zscores": {
@@ -2374,8 +2374,8 @@
       "date": "2007-11-01",
       "values": {
         "mortgage_rate": 6.21,
-        "housing_starts": 1197.0,
-        "specialty_contractors": 4786.0
+        "housing_starts": 1197,
+        "specialty_contractors": 4786
       },
       "zscores": {
         "mortgage_rate": 0.041,
@@ -2388,7 +2388,7 @@
       "date": "2007-12-01",
       "values": {
         "mortgage_rate": 6.1,
-        "housing_starts": 1037.0,
+        "housing_starts": 1037,
         "specialty_contractors": 4753.5
       },
       "zscores": {
@@ -2402,8 +2402,8 @@
       "date": "2008-01-01",
       "values": {
         "mortgage_rate": 5.76,
-        "housing_starts": 1084.0,
-        "specialty_contractors": 4750.0
+        "housing_starts": 1084,
+        "specialty_contractors": 4750
       },
       "zscores": {
         "mortgage_rate": -1.413,
@@ -2416,7 +2416,7 @@
       "date": "2008-02-01",
       "values": {
         "mortgage_rate": 5.92,
-        "housing_starts": 1103.0,
+        "housing_starts": 1103,
         "specialty_contractors": 4734.6
       },
       "zscores": {
@@ -2430,7 +2430,7 @@
       "date": "2008-03-01",
       "values": {
         "mortgage_rate": 5.97,
-        "housing_starts": 1005.0,
+        "housing_starts": 1005,
         "specialty_contractors": 4701.7
       },
       "zscores": {
@@ -2444,7 +2444,7 @@
       "date": "2008-04-01",
       "values": {
         "mortgage_rate": 5.92,
-        "housing_starts": 1013.0,
+        "housing_starts": 1013,
         "specialty_contractors": 4657.8
       },
       "zscores": {
@@ -2458,7 +2458,7 @@
       "date": "2008-05-01",
       "values": {
         "mortgage_rate": 6.04,
-        "housing_starts": 973.0,
+        "housing_starts": 973,
         "specialty_contractors": 4625.9
       },
       "zscores": {
@@ -2472,7 +2472,7 @@
       "date": "2008-06-01",
       "values": {
         "mortgage_rate": 6.32,
-        "housing_starts": 1046.0,
+        "housing_starts": 1046,
         "specialty_contractors": 4587.6
       },
       "zscores": {
@@ -2486,7 +2486,7 @@
       "date": "2008-07-01",
       "values": {
         "mortgage_rate": 6.43,
-        "housing_starts": 923.0,
+        "housing_starts": 923,
         "specialty_contractors": 4552.2
       },
       "zscores": {
@@ -2500,8 +2500,8 @@
       "date": "2008-08-01",
       "values": {
         "mortgage_rate": 6.48,
-        "housing_starts": 844.0,
-        "specialty_contractors": 4528.0
+        "housing_starts": 844,
+        "specialty_contractors": 4528
       },
       "zscores": {
         "mortgage_rate": 0.781,
@@ -2514,7 +2514,7 @@
       "date": "2008-09-01",
       "values": {
         "mortgage_rate": 6.04,
-        "housing_starts": 820.0,
+        "housing_starts": 820,
         "specialty_contractors": 4493.7
       },
       "zscores": {
@@ -2528,7 +2528,7 @@
       "date": "2008-10-01",
       "values": {
         "mortgage_rate": 6.2,
-        "housing_starts": 777.0,
+        "housing_starts": 777,
         "specialty_contractors": 4445.4
       },
       "zscores": {
@@ -2542,7 +2542,7 @@
       "date": "2008-11-01",
       "values": {
         "mortgage_rate": 6.09,
-        "housing_starts": 652.0,
+        "housing_starts": 652,
         "specialty_contractors": 4340.1
       },
       "zscores": {
@@ -2556,8 +2556,8 @@
       "date": "2008-12-01",
       "values": {
         "mortgage_rate": 5.29,
-        "housing_starts": 560.0,
-        "specialty_contractors": 4253.0
+        "housing_starts": 560,
+        "specialty_contractors": 4253
       },
       "zscores": {
         "mortgage_rate": -3.389,
@@ -2570,12 +2570,12 @@
       "date": "2009-01-01",
       "values": {
         "mortgage_rate": 5.05,
-        "housing_starts": 490.0,
+        "housing_starts": 490,
         "specialty_contractors": 4165.4
       },
       "zscores": {
         "mortgage_rate": -3.385,
-        "housing_starts": -2.0,
+        "housing_starts": -2,
         "specialty_contractors": -2.889
       },
       "events": []
@@ -2584,7 +2584,7 @@
       "date": "2009-02-01",
       "values": {
         "mortgage_rate": 5.13,
-        "housing_starts": 582.0,
+        "housing_starts": 582,
         "specialty_contractors": 4079.2
       },
       "zscores": {
@@ -2597,8 +2597,8 @@
     {
       "date": "2009-03-01",
       "values": {
-        "mortgage_rate": 5.0,
-        "housing_starts": 505.0,
+        "mortgage_rate": 5,
+        "housing_starts": 505,
         "specialty_contractors": 3983.5
       },
       "zscores": {
@@ -2612,7 +2612,7 @@
       "date": "2009-04-01",
       "values": {
         "mortgage_rate": 4.81,
-        "housing_starts": 478.0,
+        "housing_starts": 478,
         "specialty_contractors": 3896.2
       },
       "zscores": {
@@ -2631,7 +2631,7 @@
       "date": "2009-05-01",
       "values": {
         "mortgage_rate": 4.86,
-        "housing_starts": 540.0,
+        "housing_starts": 540,
         "specialty_contractors": 3862.7
       },
       "zscores": {
@@ -2645,7 +2645,7 @@
       "date": "2009-06-01",
       "values": {
         "mortgage_rate": 5.42,
-        "housing_starts": 585.0,
+        "housing_starts": 585,
         "specialty_contractors": 3808.6
       },
       "zscores": {
@@ -2659,8 +2659,8 @@
       "date": "2009-07-01",
       "values": {
         "mortgage_rate": 5.22,
-        "housing_starts": 594.0,
-        "specialty_contractors": 3754.0
+        "housing_starts": 594,
+        "specialty_contractors": 3754
       },
       "zscores": {
         "mortgage_rate": -1.469,
@@ -2673,7 +2673,7 @@
       "date": "2009-08-01",
       "values": {
         "mortgage_rate": 5.19,
-        "housing_starts": 586.0,
+        "housing_starts": 586,
         "specialty_contractors": 3698.6
       },
       "zscores": {
@@ -2687,7 +2687,7 @@
       "date": "2009-09-01",
       "values": {
         "mortgage_rate": 5.06,
-        "housing_starts": 585.0,
+        "housing_starts": 585,
         "specialty_contractors": 3657.7
       },
       "zscores": {
@@ -2701,7 +2701,7 @@
       "date": "2009-10-01",
       "values": {
         "mortgage_rate": 4.95,
-        "housing_starts": 534.0,
+        "housing_starts": 534,
         "specialty_contractors": 3613.4
       },
       "zscores": {
@@ -2715,7 +2715,7 @@
       "date": "2009-11-01",
       "values": {
         "mortgage_rate": 4.88,
-        "housing_starts": 588.0,
+        "housing_starts": 588,
         "specialty_contractors": 3600.3
       },
       "zscores": {
@@ -2729,7 +2729,7 @@
       "date": "2009-12-01",
       "values": {
         "mortgage_rate": 4.93,
-        "housing_starts": 581.0,
+        "housing_starts": 581,
         "specialty_contractors": 3581.4
       },
       "zscores": {
@@ -2743,7 +2743,7 @@
       "date": "2010-01-01",
       "values": {
         "mortgage_rate": 5.03,
-        "housing_starts": 614.0,
+        "housing_starts": 614,
         "specialty_contractors": 3524.6
       },
       "zscores": {
@@ -2757,7 +2757,7 @@
       "date": "2010-02-01",
       "values": {
         "mortgage_rate": 4.99,
-        "housing_starts": 604.0,
+        "housing_starts": 604,
         "specialty_contractors": 3472.1
       },
       "zscores": {
@@ -2771,7 +2771,7 @@
       "date": "2010-03-01",
       "values": {
         "mortgage_rate": 4.97,
-        "housing_starts": 636.0,
+        "housing_starts": 636,
         "specialty_contractors": 3485.4
       },
       "zscores": {
@@ -2785,7 +2785,7 @@
       "date": "2010-04-01",
       "values": {
         "mortgage_rate": 5.1,
-        "housing_starts": 687.0,
+        "housing_starts": 687,
         "specialty_contractors": 3483.5
       },
       "zscores": {
@@ -2799,7 +2799,7 @@
       "date": "2010-05-01",
       "values": {
         "mortgage_rate": 4.89,
-        "housing_starts": 583.0,
+        "housing_starts": 583,
         "specialty_contractors": 3461.6
       },
       "zscores": {
@@ -2813,8 +2813,8 @@
       "date": "2010-06-01",
       "values": {
         "mortgage_rate": 4.74,
-        "housing_starts": 536.0,
-        "specialty_contractors": 3454.0
+        "housing_starts": 536,
+        "specialty_contractors": 3454
       },
       "zscores": {
         "mortgage_rate": -1.349,
@@ -2827,7 +2827,7 @@
       "date": "2010-07-01",
       "values": {
         "mortgage_rate": 4.56,
-        "housing_starts": 546.0,
+        "housing_starts": 546,
         "specialty_contractors": 3451.5
       },
       "zscores": {
@@ -2841,7 +2841,7 @@
       "date": "2010-08-01",
       "values": {
         "mortgage_rate": 4.43,
-        "housing_starts": 599.0,
+        "housing_starts": 599,
         "specialty_contractors": 3463.9
       },
       "zscores": {
@@ -2855,8 +2855,8 @@
       "date": "2010-09-01",
       "values": {
         "mortgage_rate": 4.35,
-        "housing_starts": 594.0,
-        "specialty_contractors": 3443.0
+        "housing_starts": 594,
+        "specialty_contractors": 3443
       },
       "zscores": {
         "mortgage_rate": -1.696,
@@ -2869,8 +2869,8 @@
       "date": "2010-10-01",
       "values": {
         "mortgage_rate": 4.23,
-        "housing_starts": 543.0,
-        "specialty_contractors": 3455.0
+        "housing_starts": 543,
+        "specialty_contractors": 3455
       },
       "zscores": {
         "mortgage_rate": -1.773,
@@ -2883,7 +2883,7 @@
       "date": "2010-11-01",
       "values": {
         "mortgage_rate": 4.3,
-        "housing_starts": 545.0,
+        "housing_starts": 545,
         "specialty_contractors": 3444.7
       },
       "zscores": {
@@ -2897,8 +2897,8 @@
       "date": "2010-12-01",
       "values": {
         "mortgage_rate": 4.71,
-        "housing_starts": 539.0,
-        "specialty_contractors": 3430.0
+        "housing_starts": 539,
+        "specialty_contractors": 3430
       },
       "zscores": {
         "mortgage_rate": -0.87,
@@ -2911,7 +2911,7 @@
       "date": "2011-01-01",
       "values": {
         "mortgage_rate": 4.76,
-        "housing_starts": 630.0,
+        "housing_starts": 630,
         "specialty_contractors": 3404.8
       },
       "zscores": {
@@ -2925,7 +2925,7 @@
       "date": "2011-02-01",
       "values": {
         "mortgage_rate": 4.95,
-        "housing_starts": 517.0,
+        "housing_starts": 517,
         "specialty_contractors": 3430.2
       },
       "zscores": {
@@ -2939,7 +2939,7 @@
       "date": "2011-03-01",
       "values": {
         "mortgage_rate": 4.84,
-        "housing_starts": 600.0,
+        "housing_starts": 600,
         "specialty_contractors": 3440.2
       },
       "zscores": {
@@ -2953,7 +2953,7 @@
       "date": "2011-04-01",
       "values": {
         "mortgage_rate": 4.84,
-        "housing_starts": 554.0,
+        "housing_starts": 554,
         "specialty_contractors": 3442.4
       },
       "zscores": {
@@ -2967,7 +2967,7 @@
       "date": "2011-05-01",
       "values": {
         "mortgage_rate": 4.64,
-        "housing_starts": 561.0,
+        "housing_starts": 561,
         "specialty_contractors": 3467.6
       },
       "zscores": {
@@ -2981,7 +2981,7 @@
       "date": "2011-06-01",
       "values": {
         "mortgage_rate": 4.51,
-        "housing_starts": 608.0,
+        "housing_starts": 608,
         "specialty_contractors": 3468.3
       },
       "zscores": {
@@ -2995,7 +2995,7 @@
       "date": "2011-07-01",
       "values": {
         "mortgage_rate": 4.55,
-        "housing_starts": 623.0,
+        "housing_starts": 623,
         "specialty_contractors": 3488.9
       },
       "zscores": {
@@ -3009,7 +3009,7 @@
       "date": "2011-08-01",
       "values": {
         "mortgage_rate": 4.27,
-        "housing_starts": 585.0,
+        "housing_starts": 585,
         "specialty_contractors": 3491.6
       },
       "zscores": {
@@ -3023,8 +3023,8 @@
       "date": "2011-09-01",
       "values": {
         "mortgage_rate": 4.11,
-        "housing_starts": 650.0,
-        "specialty_contractors": 3508.0
+        "housing_starts": 650,
+        "specialty_contractors": 3508
       },
       "zscores": {
         "mortgage_rate": -1.782,
@@ -3037,7 +3037,7 @@
       "date": "2011-10-01",
       "values": {
         "mortgage_rate": 4.07,
-        "housing_starts": 610.0,
+        "housing_starts": 610,
         "specialty_contractors": 3503.3
       },
       "zscores": {
@@ -3051,7 +3051,7 @@
       "date": "2011-11-01",
       "values": {
         "mortgage_rate": 3.99,
-        "housing_starts": 711.0,
+        "housing_starts": 711,
         "specialty_contractors": 3506.8
       },
       "zscores": {
@@ -3065,7 +3065,7 @@
       "date": "2011-12-01",
       "values": {
         "mortgage_rate": 3.96,
-        "housing_starts": 694.0,
+        "housing_starts": 694,
         "specialty_contractors": 3520.8
       },
       "zscores": {
@@ -3079,8 +3079,8 @@
       "date": "2012-01-01",
       "values": {
         "mortgage_rate": 3.92,
-        "housing_starts": 723.0,
-        "specialty_contractors": 3530.0
+        "housing_starts": 723,
+        "specialty_contractors": 3530
       },
       "zscores": {
         "mortgage_rate": -2.004,
@@ -3093,7 +3093,7 @@
       "date": "2012-02-01",
       "values": {
         "mortgage_rate": 3.89,
-        "housing_starts": 704.0,
+        "housing_starts": 704,
         "specialty_contractors": 3532.1
       },
       "zscores": {
@@ -3107,7 +3107,7 @@
       "date": "2012-03-01",
       "values": {
         "mortgage_rate": 3.95,
-        "housing_starts": 695.0,
+        "housing_starts": 695,
         "specialty_contractors": 3527.6
       },
       "zscores": {
@@ -3121,7 +3121,7 @@
       "date": "2012-04-01",
       "values": {
         "mortgage_rate": 3.91,
-        "housing_starts": 753.0,
+        "housing_starts": 753,
         "specialty_contractors": 3523.9
       },
       "zscores": {
@@ -3135,7 +3135,7 @@
       "date": "2012-05-01",
       "values": {
         "mortgage_rate": 3.8,
-        "housing_starts": 708.0,
+        "housing_starts": 708,
         "specialty_contractors": 3512.5
       },
       "zscores": {
@@ -3149,8 +3149,8 @@
       "date": "2012-06-01",
       "values": {
         "mortgage_rate": 3.68,
-        "housing_starts": 757.0,
-        "specialty_contractors": 3527.0
+        "housing_starts": 757,
+        "specialty_contractors": 3527
       },
       "zscores": {
         "mortgage_rate": -1.895,
@@ -3163,7 +3163,7 @@
       "date": "2012-07-01",
       "values": {
         "mortgage_rate": 3.55,
-        "housing_starts": 740.0,
+        "housing_starts": 740,
         "specialty_contractors": 3523.1
       },
       "zscores": {
@@ -3177,7 +3177,7 @@
       "date": "2012-08-01",
       "values": {
         "mortgage_rate": 3.6,
-        "housing_starts": 754.0,
+        "housing_starts": 754,
         "specialty_contractors": 3530.8
       },
       "zscores": {
@@ -3191,7 +3191,7 @@
       "date": "2012-09-01",
       "values": {
         "mortgage_rate": 3.5,
-        "housing_starts": 847.0,
+        "housing_starts": 847,
         "specialty_contractors": 3540.8
       },
       "zscores": {
@@ -3205,7 +3205,7 @@
       "date": "2012-10-01",
       "values": {
         "mortgage_rate": 3.38,
-        "housing_starts": 915.0,
+        "housing_starts": 915,
         "specialty_contractors": 3553.5
       },
       "zscores": {
@@ -3219,8 +3219,8 @@
       "date": "2012-11-01",
       "values": {
         "mortgage_rate": 3.35,
-        "housing_starts": 833.0,
-        "specialty_contractors": 3557.0
+        "housing_starts": 833,
+        "specialty_contractors": 3557
       },
       "zscores": {
         "mortgage_rate": -1.855,
@@ -3233,8 +3233,8 @@
       "date": "2012-12-01",
       "values": {
         "mortgage_rate": 3.35,
-        "housing_starts": 976.0,
-        "specialty_contractors": 3584.0
+        "housing_starts": 976,
+        "specialty_contractors": 3584
       },
       "zscores": {
         "mortgage_rate": -1.728,
@@ -3247,7 +3247,7 @@
       "date": "2013-01-01",
       "values": {
         "mortgage_rate": 3.41,
-        "housing_starts": 888.0,
+        "housing_starts": 888,
         "specialty_contractors": 3597.3
       },
       "zscores": {
@@ -3261,7 +3261,7 @@
       "date": "2013-02-01",
       "values": {
         "mortgage_rate": 3.53,
-        "housing_starts": 962.0,
+        "housing_starts": 962,
         "specialty_contractors": 3624.8
       },
       "zscores": {
@@ -3275,7 +3275,7 @@
       "date": "2013-03-01",
       "values": {
         "mortgage_rate": 3.57,
-        "housing_starts": 1010.0,
+        "housing_starts": 1010,
         "specialty_contractors": 3646.4
       },
       "zscores": {
@@ -3289,7 +3289,7 @@
       "date": "2013-04-01",
       "values": {
         "mortgage_rate": 3.45,
-        "housing_starts": 835.0,
+        "housing_starts": 835,
         "specialty_contractors": 3651.3
       },
       "zscores": {
@@ -3303,7 +3303,7 @@
       "date": "2013-05-01",
       "values": {
         "mortgage_rate": 3.54,
-        "housing_starts": 930.0,
+        "housing_starts": 930,
         "specialty_contractors": 3665.8
       },
       "zscores": {
@@ -3317,7 +3317,7 @@
       "date": "2013-06-01",
       "values": {
         "mortgage_rate": 4.07,
-        "housing_starts": 839.0,
+        "housing_starts": 839,
         "specialty_contractors": 3686.4
       },
       "zscores": {
@@ -3331,7 +3331,7 @@
       "date": "2013-07-01",
       "values": {
         "mortgage_rate": 4.37,
-        "housing_starts": 880.0,
+        "housing_starts": 880,
         "specialty_contractors": 3689.4
       },
       "zscores": {
@@ -3345,7 +3345,7 @@
       "date": "2013-08-01",
       "values": {
         "mortgage_rate": 4.46,
-        "housing_starts": 917.0,
+        "housing_starts": 917,
         "specialty_contractors": 3704.6
       },
       "zscores": {
@@ -3359,7 +3359,7 @@
       "date": "2013-09-01",
       "values": {
         "mortgage_rate": 4.49,
-        "housing_starts": 850.0,
+        "housing_starts": 850,
         "specialty_contractors": 3721.7
       },
       "zscores": {
@@ -3373,7 +3373,7 @@
       "date": "2013-10-01",
       "values": {
         "mortgage_rate": 4.19,
-        "housing_starts": 925.0,
+        "housing_starts": 925,
         "specialty_contractors": 3737.2
       },
       "zscores": {
@@ -3387,7 +3387,7 @@
       "date": "2013-11-01",
       "values": {
         "mortgage_rate": 4.26,
-        "housing_starts": 1100.0,
+        "housing_starts": 1100,
         "specialty_contractors": 3757.5
       },
       "zscores": {
@@ -3401,7 +3401,7 @@
       "date": "2013-12-01",
       "values": {
         "mortgage_rate": 4.46,
-        "housing_starts": 1002.0,
+        "housing_starts": 1002,
         "specialty_contractors": 3742.1
       },
       "zscores": {
@@ -3415,7 +3415,7 @@
       "date": "2014-01-01",
       "values": {
         "mortgage_rate": 4.43,
-        "housing_starts": 888.0,
+        "housing_starts": 888,
         "specialty_contractors": 3768.9
       },
       "zscores": {
@@ -3429,7 +3429,7 @@
       "date": "2014-02-01",
       "values": {
         "mortgage_rate": 4.3,
-        "housing_starts": 944.0,
+        "housing_starts": 944,
         "specialty_contractors": 3780.9
       },
       "zscores": {
@@ -3443,7 +3443,7 @@
       "date": "2014-03-01",
       "values": {
         "mortgage_rate": 4.34,
-        "housing_starts": 970.0,
+        "housing_starts": 970,
         "specialty_contractors": 3804.9
       },
       "zscores": {
@@ -3457,7 +3457,7 @@
       "date": "2014-04-01",
       "values": {
         "mortgage_rate": 4.34,
-        "housing_starts": 1043.0,
+        "housing_starts": 1043,
         "specialty_contractors": 3836.2
       },
       "zscores": {
@@ -3471,7 +3471,7 @@
       "date": "2014-05-01",
       "values": {
         "mortgage_rate": 4.19,
-        "housing_starts": 1007.0,
+        "housing_starts": 1007,
         "specialty_contractors": 3854.7
       },
       "zscores": {
@@ -3485,8 +3485,8 @@
       "date": "2014-06-01",
       "values": {
         "mortgage_rate": 4.16,
-        "housing_starts": 911.0,
-        "specialty_contractors": 3870.0
+        "housing_starts": 911,
+        "specialty_contractors": 3870
       },
       "zscores": {
         "mortgage_rate": 0.545,
@@ -3499,7 +3499,7 @@
       "date": "2014-07-01",
       "values": {
         "mortgage_rate": 4.13,
-        "housing_starts": 1085.0,
+        "housing_starts": 1085,
         "specialty_contractors": 3899.3
       },
       "zscores": {
@@ -3513,7 +3513,7 @@
       "date": "2014-08-01",
       "values": {
         "mortgage_rate": 4.12,
-        "housing_starts": 984.0,
+        "housing_starts": 984,
         "specialty_contractors": 3920.3
       },
       "zscores": {
@@ -3527,8 +3527,8 @@
       "date": "2014-09-01",
       "values": {
         "mortgage_rate": 4.16,
-        "housing_starts": 1023.0,
-        "specialty_contractors": 3938.0
+        "housing_starts": 1023,
+        "specialty_contractors": 3938
       },
       "zscores": {
         "mortgage_rate": 0.607,
@@ -3541,7 +3541,7 @@
       "date": "2014-10-01",
       "values": {
         "mortgage_rate": 4.04,
-        "housing_starts": 1074.0,
+        "housing_starts": 1074,
         "specialty_contractors": 3955.7
       },
       "zscores": {
@@ -3554,8 +3554,8 @@
     {
       "date": "2014-11-01",
       "values": {
-        "mortgage_rate": 4.0,
-        "housing_starts": 1001.0,
+        "mortgage_rate": 4,
+        "housing_starts": 1001,
         "specialty_contractors": 3962.4
       },
       "zscores": {
@@ -3569,7 +3569,7 @@
       "date": "2014-12-01",
       "values": {
         "mortgage_rate": 3.86,
-        "housing_starts": 1073.0,
+        "housing_starts": 1073,
         "specialty_contractors": 3973.6
       },
       "zscores": {
@@ -3583,7 +3583,7 @@
       "date": "2015-01-01",
       "values": {
         "mortgage_rate": 3.67,
-        "housing_starts": 1085.0,
+        "housing_starts": 1085,
         "specialty_contractors": 3990.8
       },
       "zscores": {
@@ -3597,7 +3597,7 @@
       "date": "2015-02-01",
       "values": {
         "mortgage_rate": 3.71,
-        "housing_starts": 886.0,
+        "housing_starts": 886,
         "specialty_contractors": 4019.6
       },
       "zscores": {
@@ -3611,7 +3611,7 @@
       "date": "2015-03-01",
       "values": {
         "mortgage_rate": 3.77,
-        "housing_starts": 960.0,
+        "housing_starts": 960,
         "specialty_contractors": 4006.4
       },
       "zscores": {
@@ -3625,7 +3625,7 @@
       "date": "2015-04-01",
       "values": {
         "mortgage_rate": 3.67,
-        "housing_starts": 1190.0,
+        "housing_starts": 1190,
         "specialty_contractors": 4054.3
       },
       "zscores": {
@@ -3639,7 +3639,7 @@
       "date": "2015-05-01",
       "values": {
         "mortgage_rate": 3.84,
-        "housing_starts": 1079.0,
+        "housing_starts": 1079,
         "specialty_contractors": 4079.9
       },
       "zscores": {
@@ -3653,7 +3653,7 @@
       "date": "2015-06-01",
       "values": {
         "mortgage_rate": 3.98,
-        "housing_starts": 1205.0,
+        "housing_starts": 1205,
         "specialty_contractors": 4088.8
       },
       "zscores": {
@@ -3667,7 +3667,7 @@
       "date": "2015-07-01",
       "values": {
         "mortgage_rate": 4.05,
-        "housing_starts": 1146.0,
+        "housing_starts": 1146,
         "specialty_contractors": 4108.7
       },
       "zscores": {
@@ -3681,7 +3681,7 @@
       "date": "2015-08-01",
       "values": {
         "mortgage_rate": 3.91,
-        "housing_starts": 1130.0,
+        "housing_starts": 1130,
         "specialty_contractors": 4122.2
       },
       "zscores": {
@@ -3695,7 +3695,7 @@
       "date": "2015-09-01",
       "values": {
         "mortgage_rate": 3.89,
-        "housing_starts": 1224.0,
+        "housing_starts": 1224,
         "specialty_contractors": 4137.2
       },
       "zscores": {
@@ -3709,7 +3709,7 @@
       "date": "2015-10-01",
       "values": {
         "mortgage_rate": 3.8,
-        "housing_starts": 1058.0,
+        "housing_starts": 1058,
         "specialty_contractors": 4165.6
       },
       "zscores": {
@@ -3723,7 +3723,7 @@
       "date": "2015-11-01",
       "values": {
         "mortgage_rate": 3.94,
-        "housing_starts": 1172.0,
+        "housing_starts": 1172,
         "specialty_contractors": 4198.1
       },
       "zscores": {
@@ -3737,7 +3737,7 @@
       "date": "2015-12-01",
       "values": {
         "mortgage_rate": 3.96,
-        "housing_starts": 1146.0,
+        "housing_starts": 1146,
         "specialty_contractors": 4216.8
       },
       "zscores": {
@@ -3751,7 +3751,7 @@
       "date": "2016-01-01",
       "values": {
         "mortgage_rate": 3.87,
-        "housing_starts": 1092.0,
+        "housing_starts": 1092,
         "specialty_contractors": 4217.2
       },
       "zscores": {
@@ -3765,7 +3765,7 @@
       "date": "2016-02-01",
       "values": {
         "mortgage_rate": 3.66,
-        "housing_starts": 1225.0,
+        "housing_starts": 1225,
         "specialty_contractors": 4218.3
       },
       "zscores": {
@@ -3779,7 +3779,7 @@
       "date": "2016-03-01",
       "values": {
         "mortgage_rate": 3.69,
-        "housing_starts": 1111.0,
+        "housing_starts": 1111,
         "specialty_contractors": 4241.5
       },
       "zscores": {
@@ -3793,7 +3793,7 @@
       "date": "2016-04-01",
       "values": {
         "mortgage_rate": 3.61,
-        "housing_starts": 1163.0,
+        "housing_starts": 1163,
         "specialty_contractors": 4255.5
       },
       "zscores": {
@@ -3807,7 +3807,7 @@
       "date": "2016-05-01",
       "values": {
         "mortgage_rate": 3.6,
-        "housing_starts": 1148.0,
+        "housing_starts": 1148,
         "specialty_contractors": 4254.5
       },
       "zscores": {
@@ -3821,8 +3821,8 @@
       "date": "2016-06-01",
       "values": {
         "mortgage_rate": 3.57,
-        "housing_starts": 1203.0,
-        "specialty_contractors": 4266.0
+        "housing_starts": 1203,
+        "specialty_contractors": 4266
       },
       "zscores": {
         "mortgage_rate": -1.615,
@@ -3835,7 +3835,7 @@
       "date": "2016-07-01",
       "values": {
         "mortgage_rate": 3.44,
-        "housing_starts": 1239.0,
+        "housing_starts": 1239,
         "specialty_contractors": 4287.4
       },
       "zscores": {
@@ -3849,7 +3849,7 @@
       "date": "2016-08-01",
       "values": {
         "mortgage_rate": 3.44,
-        "housing_starts": 1171.0,
+        "housing_starts": 1171,
         "specialty_contractors": 4299.3
       },
       "zscores": {
@@ -3863,7 +3863,7 @@
       "date": "2016-09-01",
       "values": {
         "mortgage_rate": 3.46,
-        "housing_starts": 1068.0,
+        "housing_starts": 1068,
         "specialty_contractors": 4315.3
       },
       "zscores": {
@@ -3877,7 +3877,7 @@
       "date": "2016-10-01",
       "values": {
         "mortgage_rate": 3.47,
-        "housing_starts": 1313.0,
+        "housing_starts": 1313,
         "specialty_contractors": 4325.5
       },
       "zscores": {
@@ -3891,7 +3891,7 @@
       "date": "2016-11-01",
       "values": {
         "mortgage_rate": 3.77,
-        "housing_starts": 1140.0,
+        "housing_starts": 1140,
         "specialty_contractors": 4346.5
       },
       "zscores": {
@@ -3905,7 +3905,7 @@
       "date": "2016-12-01",
       "values": {
         "mortgage_rate": 4.2,
-        "housing_starts": 1252.0,
+        "housing_starts": 1252,
         "specialty_contractors": 4351.2
       },
       "zscores": {
@@ -3919,8 +3919,8 @@
       "date": "2017-01-01",
       "values": {
         "mortgage_rate": 4.15,
-        "housing_starts": 1190.0,
-        "specialty_contractors": 4361.0
+        "housing_starts": 1190,
+        "specialty_contractors": 4361
       },
       "zscores": {
         "mortgage_rate": 1.026,
@@ -3933,7 +3933,7 @@
       "date": "2017-02-01",
       "values": {
         "mortgage_rate": 4.17,
-        "housing_starts": 1271.0,
+        "housing_starts": 1271,
         "specialty_contractors": 4380.8
       },
       "zscores": {
@@ -3947,7 +3947,7 @@
       "date": "2017-03-01",
       "values": {
         "mortgage_rate": 4.2,
-        "housing_starts": 1190.0,
+        "housing_starts": 1190,
         "specialty_contractors": 4389.7
       },
       "zscores": {
@@ -3961,7 +3961,7 @@
       "date": "2017-04-01",
       "values": {
         "mortgage_rate": 4.05,
-        "housing_starts": 1146.0,
+        "housing_starts": 1146,
         "specialty_contractors": 4394.4
       },
       "zscores": {
@@ -3975,7 +3975,7 @@
       "date": "2017-05-01",
       "values": {
         "mortgage_rate": 4.01,
-        "housing_starts": 1157.0,
+        "housing_starts": 1157,
         "specialty_contractors": 4392.4
       },
       "zscores": {
@@ -3989,7 +3989,7 @@
       "date": "2017-06-01",
       "values": {
         "mortgage_rate": 3.9,
-        "housing_starts": 1249.0,
+        "housing_starts": 1249,
         "specialty_contractors": 4416.9
       },
       "zscores": {
@@ -4003,7 +4003,7 @@
       "date": "2017-07-01",
       "values": {
         "mortgage_rate": 3.97,
-        "housing_starts": 1206.0,
+        "housing_starts": 1206,
         "specialty_contractors": 4418.7
       },
       "zscores": {
@@ -4017,7 +4017,7 @@
       "date": "2017-08-01",
       "values": {
         "mortgage_rate": 3.88,
-        "housing_starts": 1159.0,
+        "housing_starts": 1159,
         "specialty_contractors": 4440.3
       },
       "zscores": {
@@ -4031,7 +4031,7 @@
       "date": "2017-09-01",
       "values": {
         "mortgage_rate": 3.81,
-        "housing_starts": 1181.0,
+        "housing_starts": 1181,
         "specialty_contractors": 4450.7
       },
       "zscores": {
@@ -4045,8 +4045,8 @@
       "date": "2017-10-01",
       "values": {
         "mortgage_rate": 3.9,
-        "housing_starts": 1257.0,
-        "specialty_contractors": 4465.0
+        "housing_starts": 1257,
+        "specialty_contractors": 4465
       },
       "zscores": {
         "mortgage_rate": 0.333,
@@ -4059,7 +4059,7 @@
       "date": "2017-11-01",
       "values": {
         "mortgage_rate": 3.92,
-        "housing_starts": 1273.0,
+        "housing_starts": 1273,
         "specialty_contractors": 4495.6
       },
       "zscores": {
@@ -4073,7 +4073,7 @@
       "date": "2017-12-01",
       "values": {
         "mortgage_rate": 3.95,
-        "housing_starts": 1177.0,
+        "housing_starts": 1177,
         "specialty_contractors": 4509.4
       },
       "zscores": {
@@ -4087,8 +4087,8 @@
       "date": "2018-01-01",
       "values": {
         "mortgage_rate": 4.03,
-        "housing_starts": 1299.0,
-        "specialty_contractors": 4512.0
+        "housing_starts": 1299,
+        "specialty_contractors": 4512
       },
       "zscores": {
         "mortgage_rate": 0.898,
@@ -4101,7 +4101,7 @@
       "date": "2018-02-01",
       "values": {
         "mortgage_rate": 4.33,
-        "housing_starts": 1277.0,
+        "housing_starts": 1277,
         "specialty_contractors": 4561.5
       },
       "zscores": {
@@ -4115,7 +4115,7 @@
       "date": "2018-03-01",
       "values": {
         "mortgage_rate": 4.44,
-        "housing_starts": 1318.0,
+        "housing_starts": 1318,
         "specialty_contractors": 4556.8
       },
       "zscores": {
@@ -4129,8 +4129,8 @@
       "date": "2018-04-01",
       "values": {
         "mortgage_rate": 4.47,
-        "housing_starts": 1276.0,
-        "specialty_contractors": 4573.0
+        "housing_starts": 1276,
+        "specialty_contractors": 4573
       },
       "zscores": {
         "mortgage_rate": 2.198,
@@ -4143,7 +4143,7 @@
       "date": "2018-05-01",
       "values": {
         "mortgage_rate": 4.59,
-        "housing_starts": 1357.0,
+        "housing_starts": 1357,
         "specialty_contractors": 4602.8
       },
       "zscores": {
@@ -4157,7 +4157,7 @@
       "date": "2018-06-01",
       "values": {
         "mortgage_rate": 4.57,
-        "housing_starts": 1192.0,
+        "housing_starts": 1192,
         "specialty_contractors": 4604.5
       },
       "zscores": {
@@ -4171,7 +4171,7 @@
       "date": "2018-07-01",
       "values": {
         "mortgage_rate": 4.53,
-        "housing_starts": 1208.0,
+        "housing_starts": 1208,
         "specialty_contractors": 4617.3
       },
       "zscores": {
@@ -4185,7 +4185,7 @@
       "date": "2018-08-01",
       "values": {
         "mortgage_rate": 4.55,
-        "housing_starts": 1288.0,
+        "housing_starts": 1288,
         "specialty_contractors": 4637.9
       },
       "zscores": {
@@ -4199,7 +4199,7 @@
       "date": "2018-09-01",
       "values": {
         "mortgage_rate": 4.63,
-        "housing_starts": 1250.0,
+        "housing_starts": 1250,
         "specialty_contractors": 4657.6
       },
       "zscores": {
@@ -4213,7 +4213,7 @@
       "date": "2018-10-01",
       "values": {
         "mortgage_rate": 4.83,
-        "housing_starts": 1221.0,
+        "housing_starts": 1221,
         "specialty_contractors": 4672.6
       },
       "zscores": {
@@ -4227,7 +4227,7 @@
       "date": "2018-11-01",
       "values": {
         "mortgage_rate": 4.87,
-        "housing_starts": 1181.0,
+        "housing_starts": 1181,
         "specialty_contractors": 4667.7
       },
       "zscores": {
@@ -4241,8 +4241,8 @@
       "date": "2018-12-01",
       "values": {
         "mortgage_rate": 4.64,
-        "housing_starts": 1095.0,
-        "specialty_contractors": 4677.0
+        "housing_starts": 1095,
+        "specialty_contractors": 4677
       },
       "zscores": {
         "mortgage_rate": 1.409,
@@ -4255,7 +4255,7 @@
       "date": "2019-01-01",
       "values": {
         "mortgage_rate": 4.46,
-        "housing_starts": 1226.0,
+        "housing_starts": 1226,
         "specialty_contractors": 4703.1
       },
       "zscores": {
@@ -4269,7 +4269,7 @@
       "date": "2019-02-01",
       "values": {
         "mortgage_rate": 4.37,
-        "housing_starts": 1121.0,
+        "housing_starts": 1121,
         "specialty_contractors": 4683.9
       },
       "zscores": {
@@ -4283,7 +4283,7 @@
       "date": "2019-03-01",
       "values": {
         "mortgage_rate": 4.27,
-        "housing_starts": 1191.0,
+        "housing_starts": 1191,
         "specialty_contractors": 4704.2
       },
       "zscores": {
@@ -4297,7 +4297,7 @@
       "date": "2019-04-01",
       "values": {
         "mortgage_rate": 4.14,
-        "housing_starts": 1272.0,
+        "housing_starts": 1272,
         "specialty_contractors": 4739.7
       },
       "zscores": {
@@ -4311,7 +4311,7 @@
       "date": "2019-05-01",
       "values": {
         "mortgage_rate": 4.07,
-        "housing_starts": 1293.0,
+        "housing_starts": 1293,
         "specialty_contractors": 4748.8
       },
       "zscores": {
@@ -4325,7 +4325,7 @@
       "date": "2019-06-01",
       "values": {
         "mortgage_rate": 3.8,
-        "housing_starts": 1243.0,
+        "housing_starts": 1243,
         "specialty_contractors": 4762.6
       },
       "zscores": {
@@ -4339,7 +4339,7 @@
       "date": "2019-07-01",
       "values": {
         "mortgage_rate": 3.77,
-        "housing_starts": 1240.0,
+        "housing_starts": 1240,
         "specialty_contractors": 4781.5
       },
       "zscores": {
@@ -4353,7 +4353,7 @@
       "date": "2019-08-01",
       "values": {
         "mortgage_rate": 3.62,
-        "housing_starts": 1375.0,
+        "housing_starts": 1375,
         "specialty_contractors": 4771.7
       },
       "zscores": {
@@ -4367,7 +4367,7 @@
       "date": "2019-09-01",
       "values": {
         "mortgage_rate": 3.61,
-        "housing_starts": 1311.0,
+        "housing_starts": 1311,
         "specialty_contractors": 4780.4
       },
       "zscores": {
@@ -4381,7 +4381,7 @@
       "date": "2019-10-01",
       "values": {
         "mortgage_rate": 3.69,
-        "housing_starts": 1325.0,
+        "housing_starts": 1325,
         "specialty_contractors": 4783.4
       },
       "zscores": {
@@ -4395,7 +4395,7 @@
       "date": "2019-11-01",
       "values": {
         "mortgage_rate": 3.7,
-        "housing_starts": 1353.0,
+        "housing_starts": 1353,
         "specialty_contractors": 4773.5
       },
       "zscores": {
@@ -4409,7 +4409,7 @@
       "date": "2019-12-01",
       "values": {
         "mortgage_rate": 3.72,
-        "housing_starts": 1548.0,
+        "housing_starts": 1548,
         "specialty_contractors": 4761.8
       },
       "zscores": {
@@ -4423,7 +4423,7 @@
       "date": "2020-01-01",
       "values": {
         "mortgage_rate": 3.62,
-        "housing_starts": 1581.0,
+        "housing_starts": 1581,
         "specialty_contractors": 4794.6
       },
       "zscores": {
@@ -4437,7 +4437,7 @@
       "date": "2020-02-01",
       "values": {
         "mortgage_rate": 3.47,
-        "housing_starts": 1549.0,
+        "housing_starts": 1549,
         "specialty_contractors": 4819.4
       },
       "zscores": {
@@ -4451,7 +4451,7 @@
       "date": "2020-03-01",
       "values": {
         "mortgage_rate": 3.45,
-        "housing_starts": 1266.0,
+        "housing_starts": 1266,
         "specialty_contractors": 4774.9
       },
       "zscores": {
@@ -4465,7 +4465,7 @@
       "date": "2020-04-01",
       "values": {
         "mortgage_rate": 3.31,
-        "housing_starts": 936.0,
+        "housing_starts": 936,
         "specialty_contractors": 4075.4
       },
       "zscores": {
@@ -4479,7 +4479,7 @@
       "date": "2020-05-01",
       "values": {
         "mortgage_rate": 3.23,
-        "housing_starts": 1039.0,
+        "housing_starts": 1039,
         "specialty_contractors": 4421.1
       },
       "zscores": {
@@ -4493,7 +4493,7 @@
       "date": "2020-06-01",
       "values": {
         "mortgage_rate": 3.16,
-        "housing_starts": 1266.0,
+        "housing_starts": 1266,
         "specialty_contractors": 4552.7
       },
       "zscores": {
@@ -4507,7 +4507,7 @@
       "date": "2020-07-01",
       "values": {
         "mortgage_rate": 3.02,
-        "housing_starts": 1526.0,
+        "housing_starts": 1526,
         "specialty_contractors": 4579.4
       },
       "zscores": {
@@ -4521,8 +4521,8 @@
       "date": "2020-08-01",
       "values": {
         "mortgage_rate": 2.94,
-        "housing_starts": 1396.0,
-        "specialty_contractors": 4601.0
+        "housing_starts": 1396,
+        "specialty_contractors": 4601
       },
       "zscores": {
         "mortgage_rate": -2.007,
@@ -4535,7 +4535,7 @@
       "date": "2020-09-01",
       "values": {
         "mortgage_rate": 2.89,
-        "housing_starts": 1473.0,
+        "housing_starts": 1473,
         "specialty_contractors": 4621.5
       },
       "zscores": {
@@ -4549,7 +4549,7 @@
       "date": "2020-10-01",
       "values": {
         "mortgage_rate": 2.83,
-        "housing_starts": 1543.0,
+        "housing_starts": 1543,
         "specialty_contractors": 4653.8
       },
       "zscores": {
@@ -4563,8 +4563,8 @@
       "date": "2020-11-01",
       "values": {
         "mortgage_rate": 2.77,
-        "housing_starts": 1543.0,
-        "specialty_contractors": 4668.0
+        "housing_starts": 1543,
+        "specialty_contractors": 4668
       },
       "zscores": {
         "mortgage_rate": -1.845,
@@ -4577,7 +4577,7 @@
       "date": "2020-12-01",
       "values": {
         "mortgage_rate": 2.68,
-        "housing_starts": 1614.0,
+        "housing_starts": 1614,
         "specialty_contractors": 4693.4
       },
       "zscores": {
@@ -4596,7 +4596,7 @@
       "date": "2021-01-01",
       "values": {
         "mortgage_rate": 2.74,
-        "housing_starts": 1624.0,
+        "housing_starts": 1624,
         "specialty_contractors": 4696.6
       },
       "zscores": {
@@ -4610,7 +4610,7 @@
       "date": "2021-02-01",
       "values": {
         "mortgage_rate": 2.81,
-        "housing_starts": 1398.0,
+        "housing_starts": 1398,
         "specialty_contractors": 4639.8
       },
       "zscores": {
@@ -4624,7 +4624,7 @@
       "date": "2021-03-01",
       "values": {
         "mortgage_rate": 3.08,
-        "housing_starts": 1688.0,
+        "housing_starts": 1688,
         "specialty_contractors": 4716.1
       },
       "zscores": {
@@ -4638,7 +4638,7 @@
       "date": "2021-04-01",
       "values": {
         "mortgage_rate": 3.06,
-        "housing_starts": 1489.0,
+        "housing_starts": 1489,
         "specialty_contractors": 4717.1
       },
       "zscores": {
@@ -4652,7 +4652,7 @@
       "date": "2021-05-01",
       "values": {
         "mortgage_rate": 2.96,
-        "housing_starts": 1600.0,
+        "housing_starts": 1600,
         "specialty_contractors": 4705.5
       },
       "zscores": {
@@ -4666,7 +4666,7 @@
       "date": "2021-06-01",
       "values": {
         "mortgage_rate": 2.98,
-        "housing_starts": 1664.0,
+        "housing_starts": 1664,
         "specialty_contractors": 4706.9
       },
       "zscores": {
@@ -4680,8 +4680,8 @@
       "date": "2021-07-01",
       "values": {
         "mortgage_rate": 2.87,
-        "housing_starts": 1600.0,
-        "specialty_contractors": 4728.0
+        "housing_starts": 1600,
+        "specialty_contractors": 4728
       },
       "zscores": {
         "mortgage_rate": -1.065,
@@ -4694,7 +4694,7 @@
       "date": "2021-08-01",
       "values": {
         "mortgage_rate": 2.84,
-        "housing_starts": 1596.0,
+        "housing_starts": 1596,
         "specialty_contractors": 4735.9
       },
       "zscores": {
@@ -4708,7 +4708,7 @@
       "date": "2021-09-01",
       "values": {
         "mortgage_rate": 2.9,
-        "housing_starts": 1576.0,
+        "housing_starts": 1576,
         "specialty_contractors": 4760.6
       },
       "zscores": {
@@ -4722,7 +4722,7 @@
       "date": "2021-10-01",
       "values": {
         "mortgage_rate": 3.07,
-        "housing_starts": 1587.0,
+        "housing_starts": 1587,
         "specialty_contractors": 4786.3
       },
       "zscores": {
@@ -4736,7 +4736,7 @@
       "date": "2021-11-01",
       "values": {
         "mortgage_rate": 3.07,
-        "housing_starts": 1707.0,
+        "housing_starts": 1707,
         "specialty_contractors": 4811.6
       },
       "zscores": {
@@ -4750,7 +4750,7 @@
       "date": "2021-12-01",
       "values": {
         "mortgage_rate": 3.1,
-        "housing_starts": 1711.0,
+        "housing_starts": 1711,
         "specialty_contractors": 4829.6
       },
       "zscores": {
@@ -4764,8 +4764,8 @@
       "date": "2022-01-01",
       "values": {
         "mortgage_rate": 3.45,
-        "housing_starts": 1693.0,
-        "specialty_contractors": 4828.0
+        "housing_starts": 1693,
+        "specialty_contractors": 4828
       },
       "zscores": {
         "mortgage_rate": 0.311,
@@ -4778,7 +4778,7 @@
       "date": "2022-02-01",
       "values": {
         "mortgage_rate": 3.76,
-        "housing_starts": 1730.0,
+        "housing_starts": 1730,
         "specialty_contractors": 4868.1
       },
       "zscores": {
@@ -4792,7 +4792,7 @@
       "date": "2022-03-01",
       "values": {
         "mortgage_rate": 4.17,
-        "housing_starts": 1700.0,
+        "housing_starts": 1700,
         "specialty_contractors": 4892.5
       },
       "zscores": {
@@ -4806,8 +4806,8 @@
       "date": "2022-04-01",
       "values": {
         "mortgage_rate": 4.98,
-        "housing_starts": 1807.0,
-        "specialty_contractors": 4887.0
+        "housing_starts": 1807,
+        "specialty_contractors": 4887
       },
       "zscores": {
         "mortgage_rate": 3.419,
@@ -4820,7 +4820,7 @@
       "date": "2022-05-01",
       "values": {
         "mortgage_rate": 5.23,
-        "housing_starts": 1546.0,
+        "housing_starts": 1546,
         "specialty_contractors": 4913.7
       },
       "zscores": {
@@ -4834,7 +4834,7 @@
       "date": "2022-06-01",
       "values": {
         "mortgage_rate": 5.52,
-        "housing_starts": 1556.0,
+        "housing_starts": 1556,
         "specialty_contractors": 4933.8
       },
       "zscores": {
@@ -4848,7 +4848,7 @@
       "date": "2022-07-01",
       "values": {
         "mortgage_rate": 5.41,
-        "housing_starts": 1382.0,
+        "housing_starts": 1382,
         "specialty_contractors": 4956.4
       },
       "zscores": {
@@ -4862,7 +4862,7 @@
       "date": "2022-08-01",
       "values": {
         "mortgage_rate": 5.22,
-        "housing_starts": 1532.0,
+        "housing_starts": 1532,
         "specialty_contractors": 4965.9
       },
       "zscores": {
@@ -4876,8 +4876,8 @@
       "date": "2022-09-01",
       "values": {
         "mortgage_rate": 6.11,
-        "housing_starts": 1481.0,
-        "specialty_contractors": 4989.0
+        "housing_starts": 1481,
+        "specialty_contractors": 4989
       },
       "zscores": {
         "mortgage_rate": 2.816,
@@ -4890,7 +4890,7 @@
       "date": "2022-10-01",
       "values": {
         "mortgage_rate": 6.9,
-        "housing_starts": 1446.0,
+        "housing_starts": 1446,
         "specialty_contractors": 4998.6
       },
       "zscores": {
@@ -4909,7 +4909,7 @@
       "date": "2022-11-01",
       "values": {
         "mortgage_rate": 6.81,
-        "housing_starts": 1434.0,
+        "housing_starts": 1434,
         "specialty_contractors": 5001.9
       },
       "zscores": {
@@ -4923,7 +4923,7 @@
       "date": "2022-12-01",
       "values": {
         "mortgage_rate": 6.36,
-        "housing_starts": 1296.0,
+        "housing_starts": 1296,
         "specialty_contractors": 5012.1
       },
       "zscores": {
@@ -4937,7 +4937,7 @@
       "date": "2023-01-01",
       "values": {
         "mortgage_rate": 6.27,
-        "housing_starts": 1358.0,
+        "housing_starts": 1358,
         "specialty_contractors": 5036.4
       },
       "zscores": {
@@ -4951,7 +4951,7 @@
       "date": "2023-02-01",
       "values": {
         "mortgage_rate": 6.26,
-        "housing_starts": 1395.0,
+        "housing_starts": 1395,
         "specialty_contractors": 5041.5
       },
       "zscores": {
@@ -4965,7 +4965,7 @@
       "date": "2023-03-01",
       "values": {
         "mortgage_rate": 6.54,
-        "housing_starts": 1366.0,
+        "housing_starts": 1366,
         "specialty_contractors": 5027.7
       },
       "zscores": {
@@ -4979,7 +4979,7 @@
       "date": "2023-04-01",
       "values": {
         "mortgage_rate": 6.34,
-        "housing_starts": 1343.0,
+        "housing_starts": 1343,
         "specialty_contractors": 5058.4
       },
       "zscores": {
@@ -4993,7 +4993,7 @@
       "date": "2023-05-01",
       "values": {
         "mortgage_rate": 6.43,
-        "housing_starts": 1609.0,
+        "housing_starts": 1609,
         "specialty_contractors": 5069.1
       },
       "zscores": {
@@ -5007,7 +5007,7 @@
       "date": "2023-06-01",
       "values": {
         "mortgage_rate": 6.71,
-        "housing_starts": 1420.0,
+        "housing_starts": 1420,
         "specialty_contractors": 5086.3
       },
       "zscores": {
@@ -5021,7 +5021,7 @@
       "date": "2023-07-01",
       "values": {
         "mortgage_rate": 6.84,
-        "housing_starts": 1464.0,
+        "housing_starts": 1464,
         "specialty_contractors": 5094.4
       },
       "zscores": {
@@ -5035,7 +5035,7 @@
       "date": "2023-08-01",
       "values": {
         "mortgage_rate": 7.07,
-        "housing_starts": 1321.0,
+        "housing_starts": 1321,
         "specialty_contractors": 5107.1
       },
       "zscores": {
@@ -5049,7 +5049,7 @@
       "date": "2023-09-01",
       "values": {
         "mortgage_rate": 7.2,
-        "housing_starts": 1369.0,
+        "housing_starts": 1369,
         "specialty_contractors": 5107.7
       },
       "zscores": {
@@ -5063,8 +5063,8 @@
       "date": "2023-10-01",
       "values": {
         "mortgage_rate": 7.62,
-        "housing_starts": 1380.0,
-        "specialty_contractors": 5124.0
+        "housing_starts": 1380,
+        "specialty_contractors": 5124
       },
       "zscores": {
         "mortgage_rate": 1.656,
@@ -5077,7 +5077,7 @@
       "date": "2023-11-01",
       "values": {
         "mortgage_rate": 7.44,
-        "housing_starts": 1522.0,
+        "housing_starts": 1522,
         "specialty_contractors": 5129.3
       },
       "zscores": {
@@ -5091,7 +5091,7 @@
       "date": "2023-12-01",
       "values": {
         "mortgage_rate": 6.82,
-        "housing_starts": 1504.0,
+        "housing_starts": 1504,
         "specialty_contractors": 5135.9
       },
       "zscores": {
@@ -5105,7 +5105,7 @@
       "date": "2024-01-01",
       "values": {
         "mortgage_rate": 6.64,
-        "housing_starts": 1378.0,
+        "housing_starts": 1378,
         "specialty_contractors": 5151.8
       },
       "zscores": {
@@ -5119,7 +5119,7 @@
       "date": "2024-02-01",
       "values": {
         "mortgage_rate": 6.78,
-        "housing_starts": 1555.0,
+        "housing_starts": 1555,
         "specialty_contractors": 5153.8
       },
       "zscores": {
@@ -5133,7 +5133,7 @@
       "date": "2024-03-01",
       "values": {
         "mortgage_rate": 6.82,
-        "housing_starts": 1297.0,
+        "housing_starts": 1297,
         "specialty_contractors": 5173.4
       },
       "zscores": {
@@ -5147,7 +5147,7 @@
       "date": "2024-04-01",
       "values": {
         "mortgage_rate": 6.99,
-        "housing_starts": 1379.0,
+        "housing_starts": 1379,
         "specialty_contractors": 5175.5
       },
       "zscores": {
@@ -5161,7 +5161,7 @@
       "date": "2024-05-01",
       "values": {
         "mortgage_rate": 7.06,
-        "housing_starts": 1329.0,
+        "housing_starts": 1329,
         "specialty_contractors": 5184.1
       },
       "zscores": {
@@ -5175,7 +5175,7 @@
       "date": "2024-06-01",
       "values": {
         "mortgage_rate": 6.92,
-        "housing_starts": 1318.0,
+        "housing_starts": 1318,
         "specialty_contractors": 5191.4
       },
       "zscores": {
@@ -5189,7 +5189,7 @@
       "date": "2024-07-01",
       "values": {
         "mortgage_rate": 6.85,
-        "housing_starts": 1269.0,
+        "housing_starts": 1269,
         "specialty_contractors": 5209.3
       },
       "zscores": {
@@ -5203,7 +5203,7 @@
       "date": "2024-08-01",
       "values": {
         "mortgage_rate": 6.5,
-        "housing_starts": 1394.0,
+        "housing_starts": 1394,
         "specialty_contractors": 5221.4
       },
       "zscores": {
@@ -5217,7 +5217,7 @@
       "date": "2024-09-01",
       "values": {
         "mortgage_rate": 6.18,
-        "housing_starts": 1357.0,
+        "housing_starts": 1357,
         "specialty_contractors": 5233.5
       },
       "zscores": {
@@ -5231,7 +5231,7 @@
       "date": "2024-10-01",
       "values": {
         "mortgage_rate": 6.43,
-        "housing_starts": 1370.0,
+        "housing_starts": 1370,
         "specialty_contractors": 5235.4
       },
       "zscores": {
@@ -5245,7 +5245,7 @@
       "date": "2024-11-01",
       "values": {
         "mortgage_rate": 6.81,
-        "housing_starts": 1300.0,
+        "housing_starts": 1300,
         "specialty_contractors": 5238.5
       },
       "zscores": {
@@ -5259,7 +5259,7 @@
       "date": "2024-12-01",
       "values": {
         "mortgage_rate": 6.72,
-        "housing_starts": 1494.0,
+        "housing_starts": 1494,
         "specialty_contractors": 5239.2
       },
       "zscores": {
@@ -5273,7 +5273,7 @@
       "date": "2025-01-01",
       "values": {
         "mortgage_rate": 6.96,
-        "housing_starts": 1353.0,
+        "housing_starts": 1353,
         "specialty_contractors": 5230.4
       },
       "zscores": {
@@ -5287,7 +5287,7 @@
       "date": "2025-02-01",
       "values": {
         "mortgage_rate": 6.84,
-        "housing_starts": 1491.0,
+        "housing_starts": 1491,
         "specialty_contractors": 5234.5
       },
       "zscores": {
@@ -5301,7 +5301,7 @@
       "date": "2025-03-01",
       "values": {
         "mortgage_rate": 6.65,
-        "housing_starts": 1346.0,
+        "housing_starts": 1346,
         "specialty_contractors": 5232.5
       },
       "zscores": {
@@ -5315,7 +5315,7 @@
       "date": "2025-04-01",
       "values": {
         "mortgage_rate": 6.73,
-        "housing_starts": 1400.0,
+        "housing_starts": 1400,
         "specialty_contractors": 5233.4
       },
       "zscores": {
@@ -5329,7 +5329,7 @@
       "date": "2025-05-01",
       "values": {
         "mortgage_rate": 6.82,
-        "housing_starts": 1289.0,
+        "housing_starts": 1289,
         "specialty_contractors": 5229.1
       },
       "zscores": {
@@ -5343,7 +5343,7 @@
       "date": "2025-06-01",
       "values": {
         "mortgage_rate": 6.82,
-        "housing_starts": 1379.0,
+        "housing_starts": 1379,
         "specialty_contractors": 5232.3
       },
       "zscores": {
@@ -5357,7 +5357,7 @@
       "date": "2025-07-01",
       "values": {
         "mortgage_rate": 6.72,
-        "housing_starts": 1432.0,
+        "housing_starts": 1432,
         "specialty_contractors": 5224.4
       },
       "zscores": {
@@ -5371,7 +5371,7 @@
       "date": "2025-08-01",
       "values": {
         "mortgage_rate": 6.59,
-        "housing_starts": 1291.0,
+        "housing_starts": 1291,
         "specialty_contractors": 5211.4
       },
       "zscores": {
@@ -5385,8 +5385,8 @@
       "date": "2025-09-01",
       "values": {
         "mortgage_rate": 6.35,
-        "housing_starts": 1319.0,
-        "specialty_contractors": 5224.0
+        "housing_starts": 1319,
+        "specialty_contractors": 5224
       },
       "zscores": {
         "mortgage_rate": -1.268,
@@ -5399,7 +5399,7 @@
       "date": "2025-10-01",
       "values": {
         "mortgage_rate": 6.25,
-        "housing_starts": 1273.0,
+        "housing_starts": 1273,
         "specialty_contractors": 5215.7
       },
       "zscores": {
@@ -5413,7 +5413,7 @@
       "date": "2025-11-01",
       "values": {
         "mortgage_rate": 6.24,
-        "housing_starts": 1319.0,
+        "housing_starts": 1319,
         "specialty_contractors": 5234.5
       },
       "zscores": {
@@ -5427,7 +5427,7 @@
       "date": "2025-12-01",
       "values": {
         "mortgage_rate": 6.19,
-        "housing_starts": 1378.0,
+        "housing_starts": 1378,
         "specialty_contractors": 5222.4
       },
       "zscores": {
@@ -5441,8 +5441,8 @@
       "date": "2026-01-01",
       "values": {
         "mortgage_rate": 6.1,
-        "housing_starts": 1385.0,
-        "specialty_contractors": 5251.0
+        "housing_starts": 1385,
+        "specialty_contractors": 5251
       },
       "zscores": {
         "mortgage_rate": -1.753,
@@ -5455,7 +5455,7 @@
       "date": "2026-02-01",
       "values": {
         "mortgage_rate": 6.05,
-        "housing_starts": 1346.0,
+        "housing_starts": 1346,
         "specialty_contractors": 5235.2
       },
       "zscores": {
@@ -5469,7 +5469,7 @@
       "date": "2026-03-01",
       "values": {
         "mortgage_rate": 6.18,
-        "housing_starts": 1522.0,
+        "housing_starts": 1522,
         "specialty_contractors": 5244.3
       },
       "zscores": {
@@ -5483,8 +5483,8 @@
       "date": "2026-04-01",
       "values": {
         "mortgage_rate": 6.33,
-        "housing_starts": 1414.0,
-        "specialty_contractors": 5245.0
+        "housing_starts": 1414,
+        "specialty_contractors": 5245
       },
       "zscores": {
         "mortgage_rate": -0.981,
@@ -5497,7 +5497,7 @@
       "date": "2026-05-01",
       "values": {
         "mortgage_rate": 6.44,
-        "housing_starts": 1182.0,
+        "housing_starts": 1182,
         "specialty_contractors": 5249.9
       },
       "zscores": {
@@ -5511,7 +5511,7 @@
       "date": "2026-06-01",
       "values": {
         "mortgage_rate": 6.49,
-        "housing_starts": 1439.0,
+        "housing_starts": 1439,
         "specialty_contractors": 5253.1
       },
       "zscores": {
@@ -5525,7 +5525,7 @@
       "date": "2026-07-01",
       "values": {
         "mortgage_rate": 6.54,
-        "housing_starts": 1309.0,
+        "housing_starts": 1309,
         "specialty_contractors": 5266.8
       },
       "zscores": {
@@ -5539,7 +5539,7 @@
       "date": "2026-08-01",
       "values": {
         "mortgage_rate": 6.67,
-        "housing_starts": 1275.0,
+        "housing_starts": 1275,
         "specialty_contractors": 5275.5
       },
       "zscores": {

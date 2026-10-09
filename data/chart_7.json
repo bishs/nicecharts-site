@@ -5,7 +5,7 @@
     "title": "Drought and Grocery Prices",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "NOAA"
@@ -202,8 +202,8 @@
         "food_at_home_cpi": 1.217
       },
       "zscores": {
-        "pdsi_drought": 0.0,
-        "food_at_home_cpi": 0.0
+        "pdsi_drought": 0,
+        "food_at_home_cpi": 0
       },
       "events": []
     },
@@ -214,8 +214,8 @@
         "food_at_home_cpi": 1.526
       },
       "zscores": {
-        "pdsi_drought": -1.0,
-        "food_at_home_cpi": 1.0
+        "pdsi_drought": -1,
+        "food_at_home_cpi": 1
       },
       "events": []
     },
@@ -918,7 +918,7 @@
     {
       "date": "2005-01-01",
       "values": {
-        "pdsi_drought": 5.0,
+        "pdsi_drought": 5,
         "food_at_home_cpi": 2.663
       },
       "zscores": {
@@ -2231,7 +2231,7 @@
     {
       "date": "2014-02-01",
       "values": {
-        "pdsi_drought": 1.0,
+        "pdsi_drought": 1,
         "food_at_home_cpi": 0.889
       },
       "zscores": {
@@ -2447,7 +2447,7 @@
     {
       "date": "2015-08-01",
       "values": {
-        "pdsi_drought": 2.0,
+        "pdsi_drought": 2,
         "food_at_home_cpi": 0.84
       },
       "zscores": {
@@ -3256,7 +3256,7 @@
     {
       "date": "2021-03-01",
       "values": {
-        "pdsi_drought": -3.0,
+        "pdsi_drought": -3,
         "food_at_home_cpi": 3.291
       },
       "zscores": {

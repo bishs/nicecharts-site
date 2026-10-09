@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_14",
     "number": 14,
-    "title": "Real Federal Funds Rate vs. Real GDP Trajectory",
+    "title": "The Fed's Gas Pedal and Brakes",
     "section": "Section B: Macroeconomics, Money & Financial Conditions",
     "section_id": "section_b",
-    "visual_form": "Dual-Hemisphere Bubble Velocity Chart",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BEA",
       "FRED"
@@ -201,8 +201,8 @@
         "real_gdp_growth": -2.167
       },
       "zscores": {
-        "real_fed_funds": 0.0,
-        "real_gdp_growth": 0.0
+        "real_fed_funds": 0,
+        "real_gdp_growth": 0
       },
       "events": []
     },
@@ -213,8 +213,8 @@
         "real_gdp_growth": -2.3
       },
       "zscores": {
-        "real_fed_funds": -1.0,
-        "real_gdp_growth": -1.0
+        "real_fed_funds": -1,
+        "real_gdp_growth": -1
       },
       "events": []
     },
@@ -306,7 +306,7 @@
       "date": "1975-10-01",
       "values": {
         "real_fed_funds": -1.616,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": 1.664,
@@ -342,7 +342,7 @@
       "date": "1976-01-01",
       "values": {
         "real_fed_funds": -1.848,
-        "real_gdp_growth": 5.0
+        "real_gdp_growth": 5
       },
       "zscores": {
         "real_fed_funds": 1.078,
@@ -426,7 +426,7 @@
       "date": "1976-08-01",
       "values": {
         "real_fed_funds": -0.419,
-        "real_gdp_growth": 5.0
+        "real_gdp_growth": 5
       },
       "zscores": {
         "real_fed_funds": 1.252,
@@ -606,7 +606,7 @@
       "date": "1977-11-01",
       "values": {
         "real_fed_funds": -0.214,
-        "real_gdp_growth": 5.0
+        "real_gdp_growth": 5
       },
       "zscores": {
         "real_fed_funds": 1.004,
@@ -897,7 +897,7 @@
         "real_gdp_growth": 1.3
       },
       "zscores": {
-        "real_fed_funds": 1.0,
+        "real_fed_funds": 1,
         "real_gdp_growth": -2.208
       },
       "events": []
@@ -1038,7 +1038,7 @@
       "date": "1980-11-01",
       "values": {
         "real_fed_funds": 3.202,
-        "real_gdp_growth": 0.0
+        "real_gdp_growth": 0
       },
       "zscores": {
         "real_fed_funds": 2.023,
@@ -1110,7 +1110,7 @@
       "date": "1981-05-01",
       "values": {
         "real_fed_funds": 8.74,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": 2.671,
@@ -1259,7 +1259,7 @@
       "date": "1982-05-01",
       "values": {
         "real_fed_funds": 7.768,
-        "real_gdp_growth": -1.0
+        "real_gdp_growth": -1
       },
       "zscores": {
         "real_fed_funds": 1.206,
@@ -1547,7 +1547,7 @@
       "date": "1984-05-01",
       "values": {
         "real_fed_funds": 6.086,
-        "real_gdp_growth": 8.0
+        "real_gdp_growth": 8
       },
       "zscores": {
         "real_fed_funds": 0.129,
@@ -1587,7 +1587,7 @@
       },
       "zscores": {
         "real_fed_funds": 1.294,
-        "real_gdp_growth": 1.0
+        "real_gdp_growth": 1
       },
       "events": []
     },
@@ -1679,7 +1679,7 @@
       "date": "1985-04-01",
       "values": {
         "real_fed_funds": 4.584,
-        "real_gdp_growth": 4.0
+        "real_gdp_growth": 4
       },
       "zscores": {
         "real_fed_funds": -1.182,
@@ -2519,7 +2519,7 @@
       "date": "1991-02-01",
       "values": {
         "real_fed_funds": 0.937,
-        "real_gdp_growth": -1.0
+        "real_gdp_growth": -1
       },
       "zscores": {
         "real_fed_funds": -2.348,
@@ -2675,7 +2675,7 @@
       "date": "1992-03-01",
       "values": {
         "real_fed_funds": 0.795,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": -1.357,
@@ -3275,7 +3275,7 @@
       "date": "1996-05-01",
       "values": {
         "real_fed_funds": 2.349,
-        "real_gdp_growth": 4.0
+        "real_gdp_growth": 4
       },
       "zscores": {
         "real_fed_funds": 0.374,
@@ -3887,7 +3887,7 @@
       "date": "2000-08-01",
       "values": {
         "real_fed_funds": 3.089,
-        "real_gdp_growth": 4.0
+        "real_gdp_growth": 4
       },
       "zscores": {
         "real_fed_funds": -0.212,
@@ -3995,7 +3995,7 @@
       "date": "2001-05-01",
       "values": {
         "real_fed_funds": 0.595,
-        "real_gdp_growth": 1.0
+        "real_gdp_growth": 1
       },
       "zscores": {
         "real_fed_funds": -3.459,
@@ -4059,7 +4059,7 @@
       },
       "zscores": {
         "real_fed_funds": -2.388,
-        "real_gdp_growth": -2.0
+        "real_gdp_growth": -2
       },
       "events": []
     },
@@ -4211,7 +4211,7 @@
       "date": "2002-11-01",
       "values": {
         "real_fed_funds": -0.858,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": -1.867,
@@ -4283,7 +4283,7 @@
       "date": "2003-05-01",
       "values": {
         "real_fed_funds": -0.798,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": -1.094,
@@ -4643,7 +4643,7 @@
       "date": "2005-11-01",
       "values": {
         "real_fed_funds": 0.545,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": 2.352,
@@ -4715,7 +4715,7 @@
       "date": "2006-05-01",
       "values": {
         "real_fed_funds": 0.773,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": 1.527,
@@ -5152,7 +5152,7 @@
       "date": "2009-05-01",
       "values": {
         "real_fed_funds": 1.461,
-        "real_gdp_growth": -4.0
+        "real_gdp_growth": -4
       },
       "zscores": {
         "real_fed_funds": 0.391,
@@ -5404,7 +5404,7 @@
       "date": "2011-02-01",
       "values": {
         "real_fed_funds": -1.948,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": -0.607,
@@ -5800,7 +5800,7 @@
       "date": "2013-11-01",
       "values": {
         "real_fed_funds": -1.157,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": 1.082,
@@ -5980,7 +5980,7 @@
       "date": "2015-02-01",
       "values": {
         "real_fed_funds": 0.135,
-        "real_gdp_growth": 4.0
+        "real_gdp_growth": 4
       },
       "zscores": {
         "real_fed_funds": 2.905,
@@ -6028,7 +6028,7 @@
       "date": "2015-06-01",
       "values": {
         "real_fed_funds": 0.006,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": 1.749,
@@ -6100,7 +6100,7 @@
       "date": "2015-12-01",
       "values": {
         "real_fed_funds": -0.49,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": 0.617,
@@ -6376,7 +6376,7 @@
       "date": "2017-11-01",
       "values": {
         "real_fed_funds": -1.043,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": -0.639,
@@ -6568,7 +6568,7 @@
       "date": "2019-03-01",
       "values": {
         "real_fed_funds": 0.547,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": 1.999,
@@ -6640,7 +6640,7 @@
       "date": "2019-09-01",
       "values": {
         "real_fed_funds": 0.329,
-        "real_gdp_growth": 3.0
+        "real_gdp_growth": 3
       },
       "zscores": {
         "real_fed_funds": 1.094,
@@ -6993,7 +6993,7 @@
       "date": "2022-02-01",
       "values": {
         "real_fed_funds": -7.791,
-        "real_gdp_growth": 4.0
+        "real_gdp_growth": 4
       },
       "zscores": {
         "real_fed_funds": -2.122,
@@ -7146,7 +7146,7 @@
       },
       "zscores": {
         "real_fed_funds": 0.935,
-        "real_gdp_growth": 0.0
+        "real_gdp_growth": 0
       },
       "events": []
     },
@@ -7543,7 +7543,7 @@
       "date": "2025-11-01",
       "values": {
         "real_fed_funds": 1.145,
-        "real_gdp_growth": 2.0
+        "real_gdp_growth": 2
       },
       "zscores": {
         "real_fed_funds": -0.239,

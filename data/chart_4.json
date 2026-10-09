@@ -5,7 +5,7 @@
     "title": "Interest Rates, Company Loans and Jobs Move Together",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Federal Reserve",
@@ -209,12 +209,12 @@
       "values": {
         "treasury_rate": 6.62,
         "commercial_paper": 1524.982,
-        "private_payroll": 111868.0
+        "private_payroll": 111868
       },
       "zscores": {
-        "treasury_rate": 0.0,
-        "commercial_paper": 0.0,
-        "private_payroll": 0.0
+        "treasury_rate": 0,
+        "commercial_paper": 0,
+        "private_payroll": 0
       },
       "events": []
     },
@@ -223,12 +223,12 @@
       "values": {
         "treasury_rate": 6.528,
         "commercial_paper": 1515.118,
-        "private_payroll": 111882.0
+        "private_payroll": 111882
       },
       "zscores": {
-        "treasury_rate": -1.0,
-        "commercial_paper": -1.0,
-        "private_payroll": 1.0
+        "treasury_rate": -1,
+        "commercial_paper": -1,
+        "private_payroll": 1
       },
       "events": []
     },
@@ -237,7 +237,7 @@
       "values": {
         "treasury_rate": 6.435,
         "commercial_paper": 1519.726,
-        "private_payroll": 111806.0
+        "private_payroll": 111806
       },
       "zscores": {
         "treasury_rate": -1.227,
@@ -251,7 +251,7 @@
       "values": {
         "treasury_rate": 6.389,
         "commercial_paper": 1547.775,
-        "private_payroll": 111466.0
+        "private_payroll": 111466
       },
       "zscores": {
         "treasury_rate": -1.171,
@@ -265,7 +265,7 @@
       "values": {
         "treasury_rate": 6.243,
         "commercial_paper": 1540.17,
-        "private_payroll": 111379.0
+        "private_payroll": 111379
       },
       "zscores": {
         "treasury_rate": -1.566,
@@ -279,7 +279,7 @@
       "values": {
         "treasury_rate": 6.162,
         "commercial_paper": 1520.294,
-        "private_payroll": 111163.0
+        "private_payroll": 111163
       },
       "zscores": {
         "treasury_rate": -1.494,
@@ -293,7 +293,7 @@
       "values": {
         "treasury_rate": 6.059,
         "commercial_paper": 1514.256,
-        "private_payroll": 110987.0
+        "private_payroll": 110987
       },
       "zscores": {
         "treasury_rate": -1.545,
@@ -307,7 +307,7 @@
       "values": {
         "treasury_rate": 5.883,
         "commercial_paper": 1456.073,
-        "private_payroll": 110803.0
+        "private_payroll": 110803
       },
       "zscores": {
         "treasury_rate": -1.747,
@@ -321,7 +321,7 @@
       "values": {
         "treasury_rate": 5.82,
         "commercial_paper": 1410.199,
-        "private_payroll": 110521.0
+        "private_payroll": 110521
       },
       "zscores": {
         "treasury_rate": -1.578,
@@ -335,7 +335,7 @@
       "values": {
         "treasury_rate": 5.679,
         "commercial_paper": 1450.838,
-        "private_payroll": 110177.0
+        "private_payroll": 110177
       },
       "zscores": {
         "treasury_rate": -1.666,
@@ -349,7 +349,7 @@
       "values": {
         "treasury_rate": 5.395,
         "commercial_paper": 1443.988,
-        "private_payroll": 109818.0
+        "private_payroll": 109818
       },
       "zscores": {
         "treasury_rate": -1.954,
@@ -363,7 +363,7 @@
       "values": {
         "treasury_rate": 5.283,
         "commercial_paper": 1441.569,
-        "private_payroll": 109628.0
+        "private_payroll": 109628
       },
       "zscores": {
         "treasury_rate": -1.812,
@@ -377,7 +377,7 @@
       "values": {
         "treasury_rate": 5.193,
         "commercial_paper": 1428.161,
-        "private_payroll": 109482.0
+        "private_payroll": 109482
       },
       "zscores": {
         "treasury_rate": -1.698,
@@ -391,7 +391,7 @@
       "values": {
         "treasury_rate": 5.035,
         "commercial_paper": 1418.214,
-        "private_payroll": 109347.0
+        "private_payroll": 109347
       },
       "zscores": {
         "treasury_rate": -1.726,
@@ -405,7 +405,7 @@
       "values": {
         "treasury_rate": 4.999,
         "commercial_paper": 1418.164,
-        "private_payroll": 109291.0
+        "private_payroll": 109291
       },
       "zscores": {
         "treasury_rate": -1.575,
@@ -419,7 +419,7 @@
       "values": {
         "treasury_rate": 4.984,
         "commercial_paper": 1408.077,
-        "private_payroll": 109173.0
+        "private_payroll": 109173
       },
       "zscores": {
         "treasury_rate": -1.441,
@@ -433,7 +433,7 @@
       "values": {
         "treasury_rate": 4.907,
         "commercial_paper": 1398.72,
-        "private_payroll": 109118.0
+        "private_payroll": 109118
       },
       "zscores": {
         "treasury_rate": -1.429,
@@ -447,7 +447,7 @@
       "values": {
         "treasury_rate": 4.883,
         "commercial_paper": 1393.439,
-        "private_payroll": 109125.0
+        "private_payroll": 109125
       },
       "zscores": {
         "treasury_rate": -1.35,
@@ -461,7 +461,7 @@
       "values": {
         "treasury_rate": 4.776,
         "commercial_paper": 1380.067,
-        "private_payroll": 109040.0
+        "private_payroll": 109040
       },
       "zscores": {
         "treasury_rate": -1.404,
@@ -475,7 +475,7 @@
       "values": {
         "treasury_rate": 4.691,
         "commercial_paper": 1373.358,
-        "private_payroll": 108992.0
+        "private_payroll": 108992
       },
       "zscores": {
         "treasury_rate": -1.42,
@@ -489,7 +489,7 @@
       "values": {
         "treasury_rate": 4.629,
         "commercial_paper": 1368.742,
-        "private_payroll": 108956.0
+        "private_payroll": 108956
       },
       "zscores": {
         "treasury_rate": -1.405,
@@ -503,7 +503,7 @@
       "values": {
         "treasury_rate": 4.541,
         "commercial_paper": 1357.701,
-        "private_payroll": 109058.0
+        "private_payroll": 109058
       },
       "zscores": {
         "treasury_rate": -1.429,
@@ -517,7 +517,7 @@
       "values": {
         "treasury_rate": 4.541,
         "commercial_paper": 1359.686,
-        "private_payroll": 109035.0
+        "private_payroll": 109035
       },
       "zscores": {
         "treasury_rate": -1.339,
@@ -531,7 +531,7 @@
       "values": {
         "treasury_rate": 4.373,
         "commercial_paper": 1357.566,
-        "private_payroll": 108877.0
+        "private_payroll": 108877
       },
       "zscores": {
         "treasury_rate": -1.475,
@@ -545,7 +545,7 @@
       "values": {
         "treasury_rate": 4.321,
         "commercial_paper": 1365.133,
-        "private_payroll": 108947.0
+        "private_payroll": 108947
       },
       "zscores": {
         "treasury_rate": -1.449,
@@ -559,7 +559,7 @@
       "values": {
         "treasury_rate": 4.187,
         "commercial_paper": 1359.403,
-        "private_payroll": 108817.0
+        "private_payroll": 108817
       },
       "zscores": {
         "treasury_rate": -1.525,
@@ -573,7 +573,7 @@
       "values": {
         "treasury_rate": 4.11,
         "commercial_paper": 1348.017,
-        "private_payroll": 108625.0
+        "private_payroll": 108625
       },
       "zscores": {
         "treasury_rate": -1.524,
@@ -587,7 +587,7 @@
       "values": {
         "treasury_rate": 4.087,
         "commercial_paper": 1362.245,
-        "private_payroll": 108578.0
+        "private_payroll": 108578
       },
       "zscores": {
         "treasury_rate": -1.464,
@@ -601,7 +601,7 @@
       "values": {
         "treasury_rate": 4.087,
         "commercial_paper": 1353.92,
-        "private_payroll": 108630.0
+        "private_payroll": 108630
       },
       "zscores": {
         "treasury_rate": -1.389,
@@ -615,7 +615,7 @@
       "values": {
         "treasury_rate": 3.95,
         "commercial_paper": 1362.031,
-        "private_payroll": 108580.0
+        "private_payroll": 108580
       },
       "zscores": {
         "treasury_rate": -1.474,
@@ -629,7 +629,7 @@
       "values": {
         "treasury_rate": 3.895,
         "commercial_paper": 1363.404,
-        "private_payroll": 108551.0
+        "private_payroll": 108551
       },
       "zscores": {
         "treasury_rate": -1.461,
@@ -643,12 +643,12 @@
       "values": {
         "treasury_rate": 3.819,
         "commercial_paper": 1331.646,
-        "private_payroll": 108597.0
+        "private_payroll": 108597
       },
       "zscores": {
         "treasury_rate": -1.473,
         "commercial_paper": -1.332,
-        "private_payroll": -1.0
+        "private_payroll": -1
       },
       "events": []
     },
@@ -657,7 +657,7 @@
       "values": {
         "treasury_rate": 3.822,
         "commercial_paper": 1324.752,
-        "private_payroll": 108748.0
+        "private_payroll": 108748
       },
       "zscores": {
         "treasury_rate": -1.402,
@@ -671,7 +671,7 @@
       "values": {
         "treasury_rate": 3.78,
         "commercial_paper": 1329.517,
-        "private_payroll": 108881.0
+        "private_payroll": 108881
       },
       "zscores": {
         "treasury_rate": -1.387,
@@ -685,7 +685,7 @@
       "values": {
         "treasury_rate": 3.739,
         "commercial_paper": 1312.225,
-        "private_payroll": 108945.0
+        "private_payroll": 108945
       },
       "zscores": {
         "treasury_rate": -1.373,
@@ -699,7 +699,7 @@
       "values": {
         "treasury_rate": 3.729,
         "commercial_paper": 1280.591,
-        "private_payroll": 109043.0
+        "private_payroll": 109043
       },
       "zscores": {
         "treasury_rate": -1.33,
@@ -713,7 +713,7 @@
       "values": {
         "treasury_rate": 3.749,
         "commercial_paper": 1304.677,
-        "private_payroll": 109218.0
+        "private_payroll": 109218
       },
       "zscores": {
         "treasury_rate": -1.256,
@@ -727,7 +727,7 @@
       "values": {
         "treasury_rate": 3.671,
         "commercial_paper": 1316.549,
-        "private_payroll": 109271.0
+        "private_payroll": 109271
       },
       "zscores": {
         "treasury_rate": -1.293,
@@ -741,7 +741,7 @@
       "values": {
         "treasury_rate": 3.607,
         "commercial_paper": 1316.857,
-        "private_payroll": 109552.0
+        "private_payroll": 109552
       },
       "zscores": {
         "treasury_rate": -1.317,
@@ -755,7 +755,7 @@
       "values": {
         "treasury_rate": 3.635,
         "commercial_paper": 1311.094,
-        "private_payroll": 109798.0
+        "private_payroll": 109798
       },
       "zscores": {
         "treasury_rate": -1.241,
@@ -769,7 +769,7 @@
       "values": {
         "treasury_rate": 3.592,
         "commercial_paper": 1316.659,
-        "private_payroll": 110083.0
+        "private_payroll": 110083
       },
       "zscores": {
         "treasury_rate": -1.253,
@@ -783,7 +783,7 @@
       "values": {
         "treasury_rate": 3.621,
         "commercial_paper": 1320.932,
-        "private_payroll": 110193.0
+        "private_payroll": 110193
       },
       "zscores": {
         "treasury_rate": -1.178,
@@ -797,7 +797,7 @@
       "values": {
         "treasury_rate": 3.664,
         "commercial_paper": 1333.727,
-        "private_payroll": 110248.0
+        "private_payroll": 110248
       },
       "zscores": {
         "treasury_rate": -1.087,
@@ -811,7 +811,7 @@
       "values": {
         "treasury_rate": 3.647,
         "commercial_paper": 1331.775,
-        "private_payroll": 110313.0
+        "private_payroll": 110313
       },
       "zscores": {
         "treasury_rate": -1.078,
@@ -825,7 +825,7 @@
       "values": {
         "treasury_rate": 3.71,
         "commercial_paper": 1342.229,
-        "private_payroll": 110454.0
+        "private_payroll": 110454
       },
       "zscores": {
         "treasury_rate": -0.952,
@@ -839,7 +839,7 @@
       "values": {
         "treasury_rate": 3.746,
         "commercial_paper": 1356.795,
-        "private_payroll": 110773.0
+        "private_payroll": 110773
       },
       "zscores": {
         "treasury_rate": -0.863,
@@ -853,7 +853,7 @@
       "values": {
         "treasury_rate": 3.703,
         "commercial_paper": 1366.183,
-        "private_payroll": 110811.0
+        "private_payroll": 110811
       },
       "zscores": {
         "treasury_rate": -0.902,
@@ -867,7 +867,7 @@
       "values": {
         "treasury_rate": 3.77,
         "commercial_paper": 1385.395,
-        "private_payroll": 110937.0
+        "private_payroll": 110937
       },
       "zscores": {
         "treasury_rate": -0.739,
@@ -881,7 +881,7 @@
       "values": {
         "treasury_rate": 3.837,
         "commercial_paper": 1433.89,
-        "private_payroll": 111046.0
+        "private_payroll": 111046
       },
       "zscores": {
         "treasury_rate": -0.565,
@@ -895,7 +895,7 @@
       "values": {
         "treasury_rate": 3.862,
         "commercial_paper": 1443.055,
-        "private_payroll": 111290.0
+        "private_payroll": 111290
       },
       "zscores": {
         "treasury_rate": -0.469,
@@ -909,7 +909,7 @@
       "values": {
         "treasury_rate": 3.937,
         "commercial_paper": 1443.012,
-        "private_payroll": 111414.0
+        "private_payroll": 111414
       },
       "zscores": {
         "treasury_rate": -0.253,
@@ -923,7 +923,7 @@
       "values": {
         "treasury_rate": 4.019,
         "commercial_paper": 1453.708,
-        "private_payroll": 111766.0
+        "private_payroll": 111766
       },
       "zscores": {
         "treasury_rate": 0.003,
@@ -937,7 +937,7 @@
       "values": {
         "treasury_rate": 4.031,
         "commercial_paper": 1472.183,
-        "private_payroll": 111908.0
+        "private_payroll": 111908
       },
       "zscores": {
         "treasury_rate": 0.104,
@@ -951,7 +951,7 @@
       "values": {
         "treasury_rate": 4.095,
         "commercial_paper": 1505.5,
-        "private_payroll": 112185.0
+        "private_payroll": 112185
       },
       "zscores": {
         "treasury_rate": 0.372,
@@ -965,7 +965,7 @@
       "values": {
         "treasury_rate": 4.136,
         "commercial_paper": 1512.256,
-        "private_payroll": 112443.0
+        "private_payroll": 112443
       },
       "zscores": {
         "treasury_rate": 0.598,
@@ -979,7 +979,7 @@
       "values": {
         "treasury_rate": 4.176,
         "commercial_paper": 1559.83,
-        "private_payroll": 112639.0
+        "private_payroll": 112639
       },
       "zscores": {
         "treasury_rate": 0.844,
@@ -993,7 +993,7 @@
       "values": {
         "treasury_rate": 4.239,
         "commercial_paper": 1604.897,
-        "private_payroll": 112707.0
+        "private_payroll": 112707
       },
       "zscores": {
         "treasury_rate": 1.193,
@@ -1007,7 +1007,7 @@
       "values": {
         "treasury_rate": 4.297,
         "commercial_paper": 1625.699,
-        "private_payroll": 112812.0
+        "private_payroll": 112812
       },
       "zscores": {
         "treasury_rate": 1.519,
@@ -1021,7 +1021,7 @@
       "values": {
         "treasury_rate": 4.332,
         "commercial_paper": 1644.063,
-        "private_payroll": 113138.0
+        "private_payroll": 113138
       },
       "zscores": {
         "treasury_rate": 1.774,
@@ -1035,7 +1035,7 @@
       "values": {
         "treasury_rate": 4.397,
         "commercial_paper": 1636.358,
-        "private_payroll": 113280.0
+        "private_payroll": 113280
       },
       "zscores": {
         "treasury_rate": 2.037,
@@ -1049,7 +1049,7 @@
       "values": {
         "treasury_rate": 4.461,
         "commercial_paper": 1679.724,
-        "private_payroll": 113580.0
+        "private_payroll": 113580
       },
       "zscores": {
         "treasury_rate": 2.22,
@@ -1063,7 +1063,7 @@
       "values": {
         "treasury_rate": 4.515,
         "commercial_paper": 1692.831,
-        "private_payroll": 113855.0
+        "private_payroll": 113855
       },
       "zscores": {
         "treasury_rate": 2.261,
@@ -1077,7 +1077,7 @@
       "values": {
         "treasury_rate": 4.595,
         "commercial_paper": 1706.478,
-        "private_payroll": 114135.0
+        "private_payroll": 114135
       },
       "zscores": {
         "treasury_rate": 2.33,
@@ -1091,7 +1091,7 @@
       "values": {
         "treasury_rate": 4.642,
         "commercial_paper": 1697.345,
-        "private_payroll": 114291.0
+        "private_payroll": 114291
       },
       "zscores": {
         "treasury_rate": 2.266,
@@ -1105,7 +1105,7 @@
       "values": {
         "treasury_rate": 4.693,
         "commercial_paper": 1768.635,
-        "private_payroll": 114323.0
+        "private_payroll": 114323
       },
       "zscores": {
         "treasury_rate": 2.212,
@@ -1119,7 +1119,7 @@
       "values": {
         "treasury_rate": 4.747,
         "commercial_paper": 1781.344,
-        "private_payroll": 114415.0
+        "private_payroll": 114415
       },
       "zscores": {
         "treasury_rate": 2.152,
@@ -1133,7 +1133,7 @@
       "values": {
         "treasury_rate": 4.784,
         "commercial_paper": 1785.629,
-        "private_payroll": 114556.0
+        "private_payroll": 114556
       },
       "zscores": {
         "treasury_rate": 2.054,
@@ -1147,7 +1147,7 @@
       "values": {
         "treasury_rate": 4.853,
         "commercial_paper": 1814.308,
-        "private_payroll": 114681.0
+        "private_payroll": 114681
       },
       "zscores": {
         "treasury_rate": 2.039,
@@ -1161,7 +1161,7 @@
       "values": {
         "treasury_rate": 4.868,
         "commercial_paper": 1872.952,
-        "private_payroll": 114744.0
+        "private_payroll": 114744
       },
       "zscores": {
         "treasury_rate": 1.906,
@@ -1175,7 +1175,7 @@
       "values": {
         "treasury_rate": 4.879,
         "commercial_paper": 1901.634,
-        "private_payroll": 114775.0
+        "private_payroll": 114775
       },
       "zscores": {
         "treasury_rate": 1.785,
@@ -1189,7 +1189,7 @@
       "values": {
         "treasury_rate": 4.915,
         "commercial_paper": 1915.585,
-        "private_payroll": 114977.0
+        "private_payroll": 114977
       },
       "zscores": {
         "treasury_rate": 1.733,
@@ -1203,7 +1203,7 @@
       "values": {
         "treasury_rate": 4.917,
         "commercial_paper": 1954.824,
-        "private_payroll": 115161.0
+        "private_payroll": 115161
       },
       "zscores": {
         "treasury_rate": 1.62,
@@ -1217,7 +1217,7 @@
       "values": {
         "treasury_rate": 4.928,
         "commercial_paper": 1991.618,
-        "private_payroll": 115377.0
+        "private_payroll": 115377
       },
       "zscores": {
         "treasury_rate": 1.538,
@@ -1231,7 +1231,7 @@
       "values": {
         "treasury_rate": 4.955,
         "commercial_paper": 2019.091,
-        "private_payroll": 115429.0
+        "private_payroll": 115429
       },
       "zscores": {
         "treasury_rate": 1.498,
@@ -1245,7 +1245,7 @@
       "values": {
         "treasury_rate": 4.971,
         "commercial_paper": 2008.65,
-        "private_payroll": 115635.0
+        "private_payroll": 115635
       },
       "zscores": {
         "treasury_rate": 1.446,
@@ -1259,7 +1259,7 @@
       "values": {
         "treasury_rate": 4.963,
         "commercial_paper": 2042.923,
-        "private_payroll": 115672.0
+        "private_payroll": 115672
       },
       "zscores": {
         "treasury_rate": 1.352,
@@ -1273,7 +1273,7 @@
       "values": {
         "treasury_rate": 4.963,
         "commercial_paper": 2082.41,
-        "private_payroll": 115799.0
+        "private_payroll": 115799
       },
       "zscores": {
         "treasury_rate": 1.285,
@@ -1287,7 +1287,7 @@
       "values": {
         "treasury_rate": 4.958,
         "commercial_paper": 2127.784,
-        "private_payroll": 115863.0
+        "private_payroll": 115863
       },
       "zscores": {
         "treasury_rate": 1.213,
@@ -1301,7 +1301,7 @@
       "values": {
         "treasury_rate": 4.963,
         "commercial_paper": 2192.284,
-        "private_payroll": 115873.0
+        "private_payroll": 115873
       },
       "zscores": {
         "treasury_rate": 1.166,
@@ -1315,7 +1315,7 @@
       "values": {
         "treasury_rate": 4.946,
         "commercial_paper": 2118.049,
-        "private_payroll": 115787.0
+        "private_payroll": 115787
       },
       "zscores": {
         "treasury_rate": 1.078,
@@ -1329,7 +1329,7 @@
       "values": {
         "treasury_rate": 4.904,
         "commercial_paper": 1889.757,
-        "private_payroll": 115820.0
+        "private_payroll": 115820
       },
       "zscores": {
         "treasury_rate": 0.938,
@@ -1343,7 +1343,7 @@
       "values": {
         "treasury_rate": 4.857,
         "commercial_paper": 1867.887,
-        "private_payroll": 115878.0
+        "private_payroll": 115878
       },
       "zscores": {
         "treasury_rate": 0.785,
@@ -1357,7 +1357,7 @@
       "values": {
         "treasury_rate": 4.765,
         "commercial_paper": 1856.773,
-        "private_payroll": 115956.0
+        "private_payroll": 115956
       },
       "zscores": {
         "treasury_rate": 0.521,
@@ -1371,7 +1371,7 @@
       "values": {
         "treasury_rate": 4.685,
         "commercial_paper": 1813.22,
-        "private_payroll": 116019.0
+        "private_payroll": 116019
       },
       "zscores": {
         "treasury_rate": 0.269,
@@ -1385,7 +1385,7 @@
       "values": {
         "treasury_rate": 4.573,
         "commercial_paper": 1831.86,
-        "private_payroll": 116003.0
+        "private_payroll": 116003
       },
       "zscores": {
         "treasury_rate": -0.095,
@@ -1399,7 +1399,7 @@
       "values": {
         "treasury_rate": 4.39,
         "commercial_paper": 1832.565,
-        "private_payroll": 115912.0
+        "private_payroll": 115912
       },
       "zscores": {
         "treasury_rate": -0.708,
@@ -1413,7 +1413,7 @@
       "values": {
         "treasury_rate": 4.215,
         "commercial_paper": 1842.712,
-        "private_payroll": 115816.0
+        "private_payroll": 115816
       },
       "zscores": {
         "treasury_rate": -1.322,
@@ -1427,7 +1427,7 @@
       "values": {
         "treasury_rate": 4.17,
         "commercial_paper": 1801.339,
-        "private_payroll": 115590.0
+        "private_payroll": 115590
       },
       "zscores": {
         "treasury_rate": -1.514,
@@ -1441,7 +1441,7 @@
       "values": {
         "treasury_rate": 4.057,
         "commercial_paper": 1749.421,
-        "private_payroll": 115368.0
+        "private_payroll": 115368
       },
       "zscores": {
         "treasury_rate": -1.895,
@@ -1455,7 +1455,7 @@
       "values": {
         "treasury_rate": 4.039,
         "commercial_paper": 1757.716,
-        "private_payroll": 115183.0
+        "private_payroll": 115183
       },
       "zscores": {
         "treasury_rate": -1.931,
@@ -1469,7 +1469,7 @@
       "values": {
         "treasury_rate": 3.966,
         "commercial_paper": 1752.081,
-        "private_payroll": 114929.0
+        "private_payroll": 114929
       },
       "zscores": {
         "treasury_rate": -2.093,
@@ -1483,7 +1483,7 @@
       "values": {
         "treasury_rate": 3.902,
         "commercial_paper": 1763.357,
-        "private_payroll": 114644.0
+        "private_payroll": 114644
       },
       "zscores": {
         "treasury_rate": -2.177,
@@ -1497,7 +1497,7 @@
       "values": {
         "treasury_rate": 3.665,
         "commercial_paper": 1771.586,
-        "private_payroll": 114223.0
+        "private_payroll": 114223
       },
       "zscores": {
         "treasury_rate": -2.606,
@@ -1516,7 +1516,7 @@
       "values": {
         "treasury_rate": 3.412,
         "commercial_paper": 1533.559,
-        "private_payroll": 113742.0
+        "private_payroll": 113742
       },
       "zscores": {
         "treasury_rate": -2.865,
@@ -1530,7 +1530,7 @@
       "values": {
         "treasury_rate": 3.276,
         "commercial_paper": 1614.399,
-        "private_payroll": 112981.0
+        "private_payroll": 112981
       },
       "zscores": {
         "treasury_rate": -2.776,
@@ -1544,7 +1544,7 @@
       "values": {
         "treasury_rate": 3.207,
         "commercial_paper": 1688.943,
-        "private_payroll": 112291.0
+        "private_payroll": 112291
       },
       "zscores": {
         "treasury_rate": -2.574,
@@ -1558,7 +1558,7 @@
       "values": {
         "treasury_rate": 3.116,
         "commercial_paper": 1690.319,
-        "private_payroll": 111500.0
+        "private_payroll": 111500
       },
       "zscores": {
         "treasury_rate": -2.441,
@@ -1572,7 +1572,7 @@
       "values": {
         "treasury_rate": 2.955,
         "commercial_paper": 1546.174,
-        "private_payroll": 110742.0
+        "private_payroll": 110742
       },
       "zscores": {
         "treasury_rate": -2.42,
@@ -1586,7 +1586,7 @@
       "values": {
         "treasury_rate": 2.854,
         "commercial_paper": 1482.961,
-        "private_payroll": 109934.0
+        "private_payroll": 109934
       },
       "zscores": {
         "treasury_rate": -2.309,
@@ -1600,7 +1600,7 @@
       "values": {
         "treasury_rate": 2.808,
         "commercial_paper": 1475.617,
-        "private_payroll": 109145.0
+        "private_payroll": 109145
       },
       "zscores": {
         "treasury_rate": -2.149,
@@ -1614,7 +1614,7 @@
       "values": {
         "treasury_rate": 2.721,
         "commercial_paper": 1302.343,
-        "private_payroll": 108849.0
+        "private_payroll": 108849
       },
       "zscores": {
         "treasury_rate": -2.064,
@@ -1628,7 +1628,7 @@
       "values": {
         "treasury_rate": 2.694,
         "commercial_paper": 1207.627,
-        "private_payroll": 108432.0
+        "private_payroll": 108432
       },
       "zscores": {
         "treasury_rate": -1.925,
@@ -1642,7 +1642,7 @@
       "values": {
         "treasury_rate": 2.651,
         "commercial_paper": 1105.607,
-        "private_payroll": 108141.0
+        "private_payroll": 108141
       },
       "zscores": {
         "treasury_rate": -1.824,
@@ -1656,7 +1656,7 @@
       "values": {
         "treasury_rate": 2.582,
         "commercial_paper": 1103.937,
-        "private_payroll": 107935.0
+        "private_payroll": 107935
       },
       "zscores": {
         "treasury_rate": -1.765,
@@ -1670,7 +1670,7 @@
       "values": {
         "treasury_rate": 2.584,
         "commercial_paper": 1194.047,
-        "private_payroll": 107795.0
+        "private_payroll": 107795
       },
       "zscores": {
         "treasury_rate": -1.642,
@@ -1684,7 +1684,7 @@
       "values": {
         "treasury_rate": 2.609,
         "commercial_paper": 1342.566,
-        "private_payroll": 107537.0
+        "private_payroll": 107537
       },
       "zscores": {
         "treasury_rate": -1.511,
@@ -1698,7 +1698,7 @@
       "values": {
         "treasury_rate": 2.559,
         "commercial_paper": 1270.107,
-        "private_payroll": 107524.0
+        "private_payroll": 107524
       },
       "zscores": {
         "treasury_rate": -1.47,
@@ -1712,7 +1712,7 @@
       "values": {
         "treasury_rate": 2.559,
         "commercial_paper": 1185.145,
-        "private_payroll": 107326.0
+        "private_payroll": 107326
       },
       "zscores": {
         "treasury_rate": -1.384,
@@ -1726,7 +1726,7 @@
       "values": {
         "treasury_rate": 2.595,
         "commercial_paper": 1104.982,
-        "private_payroll": 107311.0
+        "private_payroll": 107311
       },
       "zscores": {
         "treasury_rate": -1.27,
@@ -1740,7 +1740,7 @@
       "values": {
         "treasury_rate": 2.548,
         "commercial_paper": 1136.865,
-        "private_payroll": 107230.0
+        "private_payroll": 107230
       },
       "zscores": {
         "treasury_rate": -1.249,
@@ -1754,7 +1754,7 @@
       "values": {
         "treasury_rate": 2.501,
         "commercial_paper": 1125.234,
-        "private_payroll": 107348.0
+        "private_payroll": 107348
       },
       "zscores": {
         "treasury_rate": -1.232,
@@ -1768,7 +1768,7 @@
       "values": {
         "treasury_rate": 2.498,
         "commercial_paper": 1087.079,
-        "private_payroll": 107551.0
+        "private_payroll": 107551
       },
       "zscores": {
         "treasury_rate": -1.172,
@@ -1782,7 +1782,7 @@
       "values": {
         "treasury_rate": 2.49,
         "commercial_paper": 1088.492,
-        "private_payroll": 107646.0
+        "private_payroll": 107646
       },
       "zscores": {
         "treasury_rate": -1.123,
@@ -1796,7 +1796,7 @@
       "values": {
         "treasury_rate": 2.479,
         "commercial_paper": 1081.461,
-        "private_payroll": 107770.0
+        "private_payroll": 107770
       },
       "zscores": {
         "treasury_rate": -1.082,
@@ -1810,7 +1810,7 @@
       "values": {
         "treasury_rate": 2.471,
         "commercial_paper": 1097.228,
-        "private_payroll": 107846.0
+        "private_payroll": 107846
       },
       "zscores": {
         "treasury_rate": -1.042,
@@ -1824,7 +1824,7 @@
       "values": {
         "treasury_rate": 2.414,
         "commercial_paper": 1099.752,
-        "private_payroll": 107995.0
+        "private_payroll": 107995
       },
       "zscores": {
         "treasury_rate": -1.062,
@@ -1838,7 +1838,7 @@
       "values": {
         "treasury_rate": 2.401,
         "commercial_paper": 1062.732,
-        "private_payroll": 108094.0
+        "private_payroll": 108094
       },
       "zscores": {
         "treasury_rate": -1.035,
@@ -1852,7 +1852,7 @@
       "values": {
         "treasury_rate": 2.401,
         "commercial_paper": 1140.616,
-        "private_payroll": 108323.0
+        "private_payroll": 108323
       },
       "zscores": {
         "treasury_rate": -0.997,
@@ -1866,7 +1866,7 @@
       "values": {
         "treasury_rate": 2.368,
         "commercial_paper": 1108.238,
-        "private_payroll": 108462.0
+        "private_payroll": 108462
       },
       "zscores": {
         "treasury_rate": -1.005,
@@ -1880,7 +1880,7 @@
       "values": {
         "treasury_rate": 2.365,
         "commercial_paper": 993.04,
-        "private_payroll": 108564.0
+        "private_payroll": 108564
       },
       "zscores": {
         "treasury_rate": -0.977,
@@ -1894,7 +1894,7 @@
       "values": {
         "treasury_rate": 2.366,
         "commercial_paper": 952.916,
-        "private_payroll": 108579.0
+        "private_payroll": 108579
       },
       "zscores": {
         "treasury_rate": -0.946,
@@ -1908,7 +1908,7 @@
       "values": {
         "treasury_rate": 2.364,
         "commercial_paper": 1025.003,
-        "private_payroll": 108842.0
+        "private_payroll": 108842
       },
       "zscores": {
         "treasury_rate": -0.919,
@@ -1922,7 +1922,7 @@
       "values": {
         "treasury_rate": 2.37,
         "commercial_paper": 1073.136,
-        "private_payroll": 109091.0
+        "private_payroll": 109091
       },
       "zscores": {
         "treasury_rate": -0.875,
@@ -1936,7 +1936,7 @@
       "values": {
         "treasury_rate": 2.387,
         "commercial_paper": 1100.239,
-        "private_payroll": 109413.0
+        "private_payroll": 109413
       },
       "zscores": {
         "treasury_rate": -0.815,
@@ -1950,7 +1950,7 @@
       "values": {
         "treasury_rate": 2.384,
         "commercial_paper": 1170.944,
-        "private_payroll": 109574.0
+        "private_payroll": 109574
       },
       "zscores": {
         "treasury_rate": -0.793,
@@ -1964,7 +1964,7 @@
       "values": {
         "treasury_rate": 2.38,
         "commercial_paper": 1221.38,
-        "private_payroll": 109767.0
+        "private_payroll": 109767
       },
       "zscores": {
         "treasury_rate": -0.782,
@@ -1978,7 +1978,7 @@
       "values": {
         "treasury_rate": 2.387,
         "commercial_paper": 1216.731,
-        "private_payroll": 109943.0
+        "private_payroll": 109943
       },
       "zscores": {
         "treasury_rate": -0.754,
@@ -1992,7 +1992,7 @@
       "values": {
         "treasury_rate": 2.346,
         "commercial_paper": 1141.36,
-        "private_payroll": 110108.0
+        "private_payroll": 110108
       },
       "zscores": {
         "treasury_rate": -0.88,
@@ -2006,7 +2006,7 @@
       "values": {
         "treasury_rate": 2.326,
         "commercial_paper": 1036.588,
-        "private_payroll": 110361.0
+        "private_payroll": 110361
       },
       "zscores": {
         "treasury_rate": -0.967,
@@ -2020,7 +2020,7 @@
       "values": {
         "treasury_rate": 2.306,
         "commercial_paper": 965.476,
-        "private_payroll": 110555.0
+        "private_payroll": 110555
       },
       "zscores": {
         "treasury_rate": -1.052,
@@ -2034,7 +2034,7 @@
       "values": {
         "treasury_rate": 2.279,
         "commercial_paper": 989.734,
-        "private_payroll": 110719.0
+        "private_payroll": 110719
       },
       "zscores": {
         "treasury_rate": -1.179,
@@ -2048,7 +2048,7 @@
       "values": {
         "treasury_rate": 2.274,
         "commercial_paper": 983.683,
-        "private_payroll": 110934.0
+        "private_payroll": 110934
       },
       "zscores": {
         "treasury_rate": -1.238,
@@ -2062,7 +2062,7 @@
       "values": {
         "treasury_rate": 2.24,
         "commercial_paper": 957.91,
-        "private_payroll": 111300.0
+        "private_payroll": 111300
       },
       "zscores": {
         "treasury_rate": -1.476,
@@ -2076,7 +2076,7 @@
       "values": {
         "treasury_rate": 2.199,
         "commercial_paper": 954.425,
-        "private_payroll": 111562.0
+        "private_payroll": 111562
       },
       "zscores": {
         "treasury_rate": -1.733,
@@ -2090,7 +2090,7 @@
       "values": {
         "treasury_rate": 2.187,
         "commercial_paper": 932.8,
-        "private_payroll": 111805.0
+        "private_payroll": 111805
       },
       "zscores": {
         "treasury_rate": -1.783,
@@ -2104,7 +2104,7 @@
       "values": {
         "treasury_rate": 2.173,
         "commercial_paper": 929.62,
-        "private_payroll": 111894.0
+        "private_payroll": 111894
       },
       "zscores": {
         "treasury_rate": -1.84,
@@ -2118,7 +2118,7 @@
       "values": {
         "treasury_rate": 2.16,
         "commercial_paper": 987.394,
-        "private_payroll": 112021.0
+        "private_payroll": 112021
       },
       "zscores": {
         "treasury_rate": -1.849,
@@ -2132,7 +2132,7 @@
       "values": {
         "treasury_rate": 2.159,
         "commercial_paper": 1006.882,
-        "private_payroll": 112083.0
+        "private_payroll": 112083
       },
       "zscores": {
         "treasury_rate": -1.777,
@@ -2146,7 +2146,7 @@
       "values": {
         "treasury_rate": 2.13,
         "commercial_paper": 984.927,
-        "private_payroll": 112244.0
+        "private_payroll": 112244
       },
       "zscores": {
         "treasury_rate": -1.883,
@@ -2160,7 +2160,7 @@
       "values": {
         "treasury_rate": 2.094,
         "commercial_paper": 1025.017,
-        "private_payroll": 112423.0
+        "private_payroll": 112423
       },
       "zscores": {
         "treasury_rate": -1.991,
@@ -2174,7 +2174,7 @@
       "values": {
         "treasury_rate": 2.103,
         "commercial_paper": 1008.986,
-        "private_payroll": 112592.0
+        "private_payroll": 112592
       },
       "zscores": {
         "treasury_rate": -1.805,
@@ -2188,7 +2188,7 @@
       "values": {
         "treasury_rate": 2.075,
         "commercial_paper": 950.739,
-        "private_payroll": 112766.0
+        "private_payroll": 112766
       },
       "zscores": {
         "treasury_rate": -1.886,
@@ -2202,7 +2202,7 @@
       "values": {
         "treasury_rate": 2.046,
         "commercial_paper": 988.922,
-        "private_payroll": 112942.0
+        "private_payroll": 112942
       },
       "zscores": {
         "treasury_rate": -1.945,
@@ -2216,7 +2216,7 @@
       "values": {
         "treasury_rate": 2.043,
         "commercial_paper": 1052.175,
-        "private_payroll": 113187.0
+        "private_payroll": 113187
       },
       "zscores": {
         "treasury_rate": -1.842,
@@ -2230,7 +2230,7 @@
       "values": {
         "treasury_rate": 2.037,
         "commercial_paper": 1114.05,
-        "private_payroll": 113388.0
+        "private_payroll": 113388
       },
       "zscores": {
         "treasury_rate": -1.79,
@@ -2244,7 +2244,7 @@
       "values": {
         "treasury_rate": 1.999,
         "commercial_paper": 1080.775,
-        "private_payroll": 113665.0
+        "private_payroll": 113665
       },
       "zscores": {
         "treasury_rate": -1.922,
@@ -2258,7 +2258,7 @@
       "values": {
         "treasury_rate": 1.992,
         "commercial_paper": 1019.167,
-        "private_payroll": 113819.0
+        "private_payroll": 113819
       },
       "zscores": {
         "treasury_rate": -1.838,
@@ -2272,7 +2272,7 @@
       "values": {
         "treasury_rate": 1.982,
         "commercial_paper": 1012.321,
-        "private_payroll": 114004.0
+        "private_payroll": 114004
       },
       "zscores": {
         "treasury_rate": -1.785,
@@ -2286,7 +2286,7 @@
       "values": {
         "treasury_rate": 1.983,
         "commercial_paper": 1016.846,
-        "private_payroll": 114232.0
+        "private_payroll": 114232
       },
       "zscores": {
         "treasury_rate": -1.675,
@@ -2300,7 +2300,7 @@
       "values": {
         "treasury_rate": 1.992,
         "commercial_paper": 1035.49,
-        "private_payroll": 114439.0
+        "private_payroll": 114439
       },
       "zscores": {
         "treasury_rate": -1.53,
@@ -2314,7 +2314,7 @@
       "values": {
         "treasury_rate": 1.983,
         "commercial_paper": 1000.846,
-        "private_payroll": 114576.0
+        "private_payroll": 114576
       },
       "zscores": {
         "treasury_rate": -1.506,
@@ -2328,7 +2328,7 @@
       "values": {
         "treasury_rate": 1.968,
         "commercial_paper": 1007.976,
-        "private_payroll": 114815.0
+        "private_payroll": 114815
       },
       "zscores": {
         "treasury_rate": -1.51,
@@ -2342,7 +2342,7 @@
       "values": {
         "treasury_rate": 1.981,
         "commercial_paper": 1040.136,
-        "private_payroll": 114986.0
+        "private_payroll": 114986
       },
       "zscores": {
         "treasury_rate": -1.347,
@@ -2356,7 +2356,7 @@
       "values": {
         "treasury_rate": 1.981,
         "commercial_paper": 1059.686,
-        "private_payroll": 115211.0
+        "private_payroll": 115211
       },
       "zscores": {
         "treasury_rate": -1.276,
@@ -2370,7 +2370,7 @@
       "values": {
         "treasury_rate": 1.971,
         "commercial_paper": 1062.88,
-        "private_payroll": 115474.0
+        "private_payroll": 115474
       },
       "zscores": {
         "treasury_rate": -1.268,
@@ -2384,7 +2384,7 @@
       "values": {
         "treasury_rate": 1.975,
         "commercial_paper": 1079.921,
-        "private_payroll": 115552.0
+        "private_payroll": 115552
       },
       "zscores": {
         "treasury_rate": -1.176,
@@ -2398,7 +2398,7 @@
       "values": {
         "treasury_rate": 1.998,
         "commercial_paper": 1034.847,
-        "private_payroll": 115747.0
+        "private_payroll": 115747
       },
       "zscores": {
         "treasury_rate": -0.974,
@@ -2412,7 +2412,7 @@
       "values": {
         "treasury_rate": 1.973,
         "commercial_paper": 1005.192,
-        "private_payroll": 115887.0
+        "private_payroll": 115887
       },
       "zscores": {
         "treasury_rate": -1.081,
@@ -2426,7 +2426,7 @@
       "values": {
         "treasury_rate": 1.97,
         "commercial_paper": 1023.424,
-        "private_payroll": 116152.0
+        "private_payroll": 116152
       },
       "zscores": {
         "treasury_rate": -1.048,
@@ -2440,7 +2440,7 @@
       "values": {
         "treasury_rate": 2.007,
         "commercial_paper": 1038.274,
-        "private_payroll": 116445.0
+        "private_payroll": 116445
       },
       "zscores": {
         "treasury_rate": -0.754,
@@ -2454,7 +2454,7 @@
       "values": {
         "treasury_rate": 2.008,
         "commercial_paper": 1036.325,
-        "private_payroll": 116681.0
+        "private_payroll": 116681
       },
       "zscores": {
         "treasury_rate": -0.706,
@@ -2468,7 +2468,7 @@
       "values": {
         "treasury_rate": 2.029,
         "commercial_paper": 1045.65,
-        "private_payroll": 116954.0
+        "private_payroll": 116954
       },
       "zscores": {
         "treasury_rate": -0.507,
@@ -2482,7 +2482,7 @@
       "values": {
         "treasury_rate": 2.03,
         "commercial_paper": 1039.566,
-        "private_payroll": 117171.0
+        "private_payroll": 117171
       },
       "zscores": {
         "treasury_rate": -0.457,
@@ -2496,7 +2496,7 @@
       "values": {
         "treasury_rate": 2.028,
         "commercial_paper": 1034.797,
-        "private_payroll": 117414.0
+        "private_payroll": 117414
       },
       "zscores": {
         "treasury_rate": -0.429,
@@ -2510,7 +2510,7 @@
       "values": {
         "treasury_rate": 2.037,
         "commercial_paper": 1052.236,
-        "private_payroll": 117666.0
+        "private_payroll": 117666
       },
       "zscores": {
         "treasury_rate": -0.295,
@@ -2524,7 +2524,7 @@
       "values": {
         "treasury_rate": 2.016,
         "commercial_paper": 1065.172,
-        "private_payroll": 117881.0
+        "private_payroll": 117881
       },
       "zscores": {
         "treasury_rate": -0.464,
@@ -2538,7 +2538,7 @@
       "values": {
         "treasury_rate": 2.017,
         "commercial_paper": 1083.818,
-        "private_payroll": 118157.0
+        "private_payroll": 118157
       },
       "zscores": {
         "treasury_rate": -0.408,
@@ -2552,7 +2552,7 @@
       "values": {
         "treasury_rate": 2.013,
         "commercial_paper": 1063.152,
-        "private_payroll": 118417.0
+        "private_payroll": 118417
       },
       "zscores": {
         "treasury_rate": -0.412,
@@ -2566,7 +2566,7 @@
       "values": {
         "treasury_rate": 2.029,
         "commercial_paper": 1033.243,
-        "private_payroll": 118608.0
+        "private_payroll": 118608
       },
       "zscores": {
         "treasury_rate": -0.134,
@@ -2580,7 +2580,7 @@
       "values": {
         "treasury_rate": 2.005,
         "commercial_paper": 1000.492,
-        "private_payroll": 118849.0
+        "private_payroll": 118849
       },
       "zscores": {
         "treasury_rate": -0.449,
@@ -2594,7 +2594,7 @@
       "values": {
         "treasury_rate": 2.001,
         "commercial_paper": 1019.663,
-        "private_payroll": 118953.0
+        "private_payroll": 118953
       },
       "zscores": {
         "treasury_rate": -0.473,
@@ -2608,7 +2608,7 @@
       "values": {
         "treasury_rate": 2.011,
         "commercial_paper": 1021.938,
-        "private_payroll": 119191.0
+        "private_payroll": 119191
       },
       "zscores": {
         "treasury_rate": -0.238,
@@ -2622,7 +2622,7 @@
       "values": {
         "treasury_rate": 2.013,
         "commercial_paper": 979.441,
-        "private_payroll": 119526.0
+        "private_payroll": 119526
       },
       "zscores": {
         "treasury_rate": -0.131,
@@ -2636,7 +2636,7 @@
       "values": {
         "treasury_rate": 2.023,
         "commercial_paper": 965.9,
-        "private_payroll": 119694.0
+        "private_payroll": 119694
       },
       "zscores": {
         "treasury_rate": 0.21,
@@ -2650,7 +2650,7 @@
       "values": {
         "treasury_rate": 2.022,
         "commercial_paper": 1021.334,
-        "private_payroll": 119941.0
+        "private_payroll": 119941
       },
       "zscores": {
         "treasury_rate": 0.306,
@@ -2664,7 +2664,7 @@
       "values": {
         "treasury_rate": 2.024,
         "commercial_paper": 1058.502,
-        "private_payroll": 120065.0
+        "private_payroll": 120065
       },
       "zscores": {
         "treasury_rate": 0.471,
@@ -2678,7 +2678,7 @@
       "values": {
         "treasury_rate": 2.043,
         "commercial_paper": 1020.693,
-        "private_payroll": 120235.0
+        "private_payroll": 120235
       },
       "zscores": {
         "treasury_rate": 1.349,
@@ -2692,7 +2692,7 @@
       "values": {
         "treasury_rate": 2.069,
         "commercial_paper": 1053.977,
-        "private_payroll": 120523.0
+        "private_payroll": 120523
       },
       "zscores": {
         "treasury_rate": 2.412,
@@ -2706,7 +2706,7 @@
       "values": {
         "treasury_rate": 2.027,
         "commercial_paper": 1057.946,
-        "private_payroll": 120727.0
+        "private_payroll": 120727
       },
       "zscores": {
         "treasury_rate": 0.783,
@@ -2720,7 +2720,7 @@
       "values": {
         "treasury_rate": 2.041,
         "commercial_paper": 1034.786,
-        "private_payroll": 120980.0
+        "private_payroll": 120980
       },
       "zscores": {
         "treasury_rate": 1.359,
@@ -2734,7 +2734,7 @@
       "values": {
         "treasury_rate": 2.063,
         "commercial_paper": 1060.091,
-        "private_payroll": 121096.0
+        "private_payroll": 121096
       },
       "zscores": {
         "treasury_rate": 2.123,
@@ -2748,7 +2748,7 @@
       "values": {
         "treasury_rate": 2.04,
         "commercial_paper": 1075.629,
-        "private_payroll": 121268.0
+        "private_payroll": 121268
       },
       "zscores": {
         "treasury_rate": 1.163,
@@ -2762,7 +2762,7 @@
       "values": {
         "treasury_rate": 2.034,
         "commercial_paper": 1091.089,
-        "private_payroll": 121484.0
+        "private_payroll": 121484
       },
       "zscores": {
         "treasury_rate": 0.885,
@@ -2776,7 +2776,7 @@
       "values": {
         "treasury_rate": 2.054,
         "commercial_paper": 1103.835,
-        "private_payroll": 121670.0
+        "private_payroll": 121670
       },
       "zscores": {
         "treasury_rate": 1.542,
@@ -2790,7 +2790,7 @@
       "values": {
         "treasury_rate": 2.032,
         "commercial_paper": 1103.614,
-        "private_payroll": 121701.0
+        "private_payroll": 121701
       },
       "zscores": {
         "treasury_rate": 0.676,
@@ -2804,7 +2804,7 @@
       "values": {
         "treasury_rate": 2.029,
         "commercial_paper": 1050.328,
-        "private_payroll": 121967.0
+        "private_payroll": 121967
       },
       "zscores": {
         "treasury_rate": 0.527,
@@ -2818,7 +2818,7 @@
       "values": {
         "treasury_rate": 2.026,
         "commercial_paper": 1041.837,
-        "private_payroll": 122231.0
+        "private_payroll": 122231
       },
       "zscores": {
         "treasury_rate": 0.375,
@@ -2832,7 +2832,7 @@
       "values": {
         "treasury_rate": 1.999,
         "commercial_paper": 1008.72,
-        "private_payroll": 122377.0
+        "private_payroll": 122377
       },
       "zscores": {
         "treasury_rate": -0.739,
@@ -2846,7 +2846,7 @@
       "values": {
         "treasury_rate": 1.996,
         "commercial_paper": 958.869,
-        "private_payroll": 122644.0
+        "private_payroll": 122644
       },
       "zscores": {
         "treasury_rate": -0.895,
@@ -2860,7 +2860,7 @@
       "values": {
         "treasury_rate": 1.984,
         "commercial_paper": 906.702,
-        "private_payroll": 122770.0
+        "private_payroll": 122770
       },
       "zscores": {
         "treasury_rate": -1.403,
@@ -2874,7 +2874,7 @@
       "values": {
         "treasury_rate": 1.964,
         "commercial_paper": 914.267,
-        "private_payroll": 122906.0
+        "private_payroll": 122906
       },
       "zscores": {
         "treasury_rate": -2.191,
@@ -2888,7 +2888,7 @@
       "values": {
         "treasury_rate": 1.986,
         "commercial_paper": 959.421,
-        "private_payroll": 123104.0
+        "private_payroll": 123104
       },
       "zscores": {
         "treasury_rate": -1.328,
@@ -2902,7 +2902,7 @@
       "values": {
         "treasury_rate": 2.004,
         "commercial_paper": 959.454,
-        "private_payroll": 123312.0
+        "private_payroll": 123312
       },
       "zscores": {
         "treasury_rate": -0.586,
@@ -2916,7 +2916,7 @@
       "values": {
         "treasury_rate": 2.009,
         "commercial_paper": 965.201,
-        "private_payroll": 123520.0
+        "private_payroll": 123520
       },
       "zscores": {
         "treasury_rate": -0.44,
@@ -2930,7 +2930,7 @@
       "values": {
         "treasury_rate": 2.027,
         "commercial_paper": 969.116,
-        "private_payroll": 123641.0
+        "private_payroll": 123641
       },
       "zscores": {
         "treasury_rate": 0.305,
@@ -2944,7 +2944,7 @@
       "values": {
         "treasury_rate": 2.045,
         "commercial_paper": 983.146,
-        "private_payroll": 123840.0
+        "private_payroll": 123840
       },
       "zscores": {
         "treasury_rate": 1.095,
@@ -2958,7 +2958,7 @@
       "values": {
         "treasury_rate": 2.044,
         "commercial_paper": 988.227,
-        "private_payroll": 124033.0
+        "private_payroll": 124033
       },
       "zscores": {
         "treasury_rate": 0.993,
@@ -2972,7 +2972,7 @@
       "values": {
         "treasury_rate": 2.066,
         "commercial_paper": 979.284,
-        "private_payroll": 124223.0
+        "private_payroll": 124223
       },
       "zscores": {
         "treasury_rate": 1.868,
@@ -2986,7 +2986,7 @@
       "values": {
         "treasury_rate": 2.08,
         "commercial_paper": 963.419,
-        "private_payroll": 124398.0
+        "private_payroll": 124398
       },
       "zscores": {
         "treasury_rate": 2.246,
@@ -3000,7 +3000,7 @@
       "values": {
         "treasury_rate": 2.084,
         "commercial_paper": 991.097,
-        "private_payroll": 124609.0
+        "private_payroll": 124609
       },
       "zscores": {
         "treasury_rate": 2.181,
@@ -3014,7 +3014,7 @@
       "values": {
         "treasury_rate": 2.094,
         "commercial_paper": 1033.389,
-        "private_payroll": 124675.0
+        "private_payroll": 124675
       },
       "zscores": {
         "treasury_rate": 2.308,
@@ -3028,7 +3028,7 @@
       "values": {
         "treasury_rate": 2.1,
         "commercial_paper": 1065.476,
-        "private_payroll": 124788.0
+        "private_payroll": 124788
       },
       "zscores": {
         "treasury_rate": 2.258,
@@ -3042,7 +3042,7 @@
       "values": {
         "treasury_rate": 2.105,
         "commercial_paper": 1040.54,
-        "private_payroll": 124993.0
+        "private_payroll": 124993
       },
       "zscores": {
         "treasury_rate": 2.182,
@@ -3056,7 +3056,7 @@
       "values": {
         "treasury_rate": 2.126,
         "commercial_paper": 1065.354,
-        "private_payroll": 125139.0
+        "private_payroll": 125139
       },
       "zscores": {
         "treasury_rate": 2.484,
@@ -3070,7 +3070,7 @@
       "values": {
         "treasury_rate": 2.149,
         "commercial_paper": 1116.834,
-        "private_payroll": 125286.0
+        "private_payroll": 125286
       },
       "zscores": {
         "treasury_rate": 2.696,
@@ -3084,7 +3084,7 @@
       "values": {
         "treasury_rate": 2.17,
         "commercial_paper": 1108.535,
-        "private_payroll": 125635.0
+        "private_payroll": 125635
       },
       "zscores": {
         "treasury_rate": 2.768,
@@ -3098,7 +3098,7 @@
       "values": {
         "treasury_rate": 2.195,
         "commercial_paper": 1076.195,
-        "private_payroll": 125853.0
+        "private_payroll": 125853
       },
       "zscores": {
         "treasury_rate": 2.842,
@@ -3112,7 +3112,7 @@
       "values": {
         "treasury_rate": 2.235,
         "commercial_paper": 1057.985,
-        "private_payroll": 125976.0
+        "private_payroll": 125976
       },
       "zscores": {
         "treasury_rate": 3.031,
@@ -3126,7 +3126,7 @@
       "values": {
         "treasury_rate": 2.262,
         "commercial_paper": 1075.384,
-        "private_payroll": 126293.0
+        "private_payroll": 126293
       },
       "zscores": {
         "treasury_rate": 2.945,
@@ -3140,7 +3140,7 @@
       "values": {
         "treasury_rate": 2.287,
         "commercial_paper": 1099.034,
-        "private_payroll": 126478.0
+        "private_payroll": 126478
       },
       "zscores": {
         "treasury_rate": 2.829,
@@ -3154,7 +3154,7 @@
       "values": {
         "treasury_rate": 2.316,
         "commercial_paper": 1069.19,
-        "private_payroll": 126584.0
+        "private_payroll": 126584
       },
       "zscores": {
         "treasury_rate": 2.759,
@@ -3168,7 +3168,7 @@
       "values": {
         "treasury_rate": 2.337,
         "commercial_paper": 1065.906,
-        "private_payroll": 126809.0
+        "private_payroll": 126809
       },
       "zscores": {
         "treasury_rate": 2.617,
@@ -3182,7 +3182,7 @@
       "values": {
         "treasury_rate": 2.365,
         "commercial_paper": 1073.4,
-        "private_payroll": 126884.0
+        "private_payroll": 126884
       },
       "zscores": {
         "treasury_rate": 2.549,
@@ -3196,7 +3196,7 @@
       "values": {
         "treasury_rate": 2.402,
         "commercial_paper": 1091.002,
-        "private_payroll": 127048.0
+        "private_payroll": 127048
       },
       "zscores": {
         "treasury_rate": 2.541,
@@ -3210,7 +3210,7 @@
       "values": {
         "treasury_rate": 2.429,
         "commercial_paper": 1085.069,
-        "private_payroll": 127144.0
+        "private_payroll": 127144
       },
       "zscores": {
         "treasury_rate": 2.452,
@@ -3224,7 +3224,7 @@
       "values": {
         "treasury_rate": 2.455,
         "commercial_paper": 1072.722,
-        "private_payroll": 127298.0
+        "private_payroll": 127298
       },
       "zscores": {
         "treasury_rate": 2.363,
@@ -3238,7 +3238,7 @@
       "values": {
         "treasury_rate": 2.479,
         "commercial_paper": 1066.585,
-        "private_payroll": 127552.0
+        "private_payroll": 127552
       },
       "zscores": {
         "treasury_rate": 2.272,
@@ -3252,7 +3252,7 @@
       "values": {
         "treasury_rate": 2.488,
         "commercial_paper": 1062.992,
-        "private_payroll": 127542.0
+        "private_payroll": 127542
       },
       "zscores": {
         "treasury_rate": 2.114,
@@ -3266,7 +3266,7 @@
       "values": {
         "treasury_rate": 2.501,
         "commercial_paper": 1073.894,
-        "private_payroll": 127726.0
+        "private_payroll": 127726
       },
       "zscores": {
         "treasury_rate": 2.005,
@@ -3280,7 +3280,7 @@
       "values": {
         "treasury_rate": 2.507,
         "commercial_paper": 1076.742,
-        "private_payroll": 127972.0
+        "private_payroll": 127972
       },
       "zscores": {
         "treasury_rate": 1.876,
@@ -3294,7 +3294,7 @@
       "values": {
         "treasury_rate": 2.508,
         "commercial_paper": 1080.637,
-        "private_payroll": 128056.0
+        "private_payroll": 128056
       },
       "zscores": {
         "treasury_rate": 1.743,
@@ -3308,7 +3308,7 @@
       "values": {
         "treasury_rate": 2.507,
         "commercial_paper": 1110.315,
-        "private_payroll": 128234.0
+        "private_payroll": 128234
       },
       "zscores": {
         "treasury_rate": 1.619,
@@ -3322,7 +3322,7 @@
       "values": {
         "treasury_rate": 2.492,
         "commercial_paper": 1150.463,
-        "private_payroll": 128365.0
+        "private_payroll": 128365
       },
       "zscores": {
         "treasury_rate": 1.444,
@@ -3336,7 +3336,7 @@
       "values": {
         "treasury_rate": 2.463,
         "commercial_paper": 1131.343,
-        "private_payroll": 128544.0
+        "private_payroll": 128544
       },
       "zscores": {
         "treasury_rate": 1.221,
@@ -3350,7 +3350,7 @@
       "values": {
         "treasury_rate": 2.436,
         "commercial_paper": 1107.606,
-        "private_payroll": 128712.0
+        "private_payroll": 128712
       },
       "zscores": {
         "treasury_rate": 1.023,
@@ -3364,7 +3364,7 @@
       "values": {
         "treasury_rate": 2.404,
         "commercial_paper": 1092.973,
-        "private_payroll": 128790.0
+        "private_payroll": 128790
       },
       "zscores": {
         "treasury_rate": 0.807,
@@ -3378,7 +3378,7 @@
       "values": {
         "treasury_rate": 2.378,
         "commercial_paper": 1127.539,
-        "private_payroll": 128958.0
+        "private_payroll": 128958
       },
       "zscores": {
         "treasury_rate": 0.625,
@@ -3392,7 +3392,7 @@
       "values": {
         "treasury_rate": 2.36,
         "commercial_paper": 1133.708,
-        "private_payroll": 129068.0
+        "private_payroll": 129068
       },
       "zscores": {
         "treasury_rate": 0.483,
@@ -3406,7 +3406,7 @@
       "values": {
         "treasury_rate": 2.344,
         "commercial_paper": 1121.614,
-        "private_payroll": 129250.0
+        "private_payroll": 129250
       },
       "zscores": {
         "treasury_rate": 0.35,
@@ -3420,7 +3420,7 @@
       "values": {
         "treasury_rate": 2.32,
         "commercial_paper": 1121.058,
-        "private_payroll": 129436.0
+        "private_payroll": 129436
       },
       "zscores": {
         "treasury_rate": 0.163,
@@ -3434,7 +3434,7 @@
       "values": {
         "treasury_rate": 2.213,
         "commercial_paper": 1127.741,
-        "private_payroll": 128068.0
+        "private_payroll": 128068
       },
       "zscores": {
         "treasury_rate": -0.543,
@@ -3448,7 +3448,7 @@
       "values": {
         "treasury_rate": 1.964,
         "commercial_paper": 1084.958,
-        "private_payroll": 108517.0
+        "private_payroll": 108517
       },
       "zscores": {
         "treasury_rate": -2.055,
@@ -3467,7 +3467,7 @@
       "values": {
         "treasury_rate": 1.843,
         "commercial_paper": 1059.746,
-        "private_payroll": 111647.0
+        "private_payroll": 111647
       },
       "zscores": {
         "treasury_rate": -2.583,
@@ -3481,7 +3481,7 @@
       "values": {
         "treasury_rate": 1.753,
         "commercial_paper": 1026.062,
-        "private_payroll": 116259.0
+        "private_payroll": 116259
       },
       "zscores": {
         "treasury_rate": -2.765,
@@ -3495,7 +3495,7 @@
       "values": {
         "treasury_rate": 1.714,
         "commercial_paper": 1018.05,
-        "private_payroll": 117741.0
+        "private_payroll": 117741
       },
       "zscores": {
         "treasury_rate": -2.649,
@@ -3509,7 +3509,7 @@
       "values": {
         "treasury_rate": 1.661,
         "commercial_paper": 1011.562,
-        "private_payroll": 118821.0
+        "private_payroll": 118821
       },
       "zscores": {
         "treasury_rate": -2.588,
@@ -3523,7 +3523,7 @@
       "values": {
         "treasury_rate": 1.635,
         "commercial_paper": 984.084,
-        "private_payroll": 119841.0
+        "private_payroll": 119841
       },
       "zscores": {
         "treasury_rate": -2.43,
@@ -3537,7 +3537,7 @@
       "values": {
         "treasury_rate": 1.625,
         "commercial_paper": 968.48,
-        "private_payroll": 120655.0
+        "private_payroll": 120655
       },
       "zscores": {
         "treasury_rate": -2.247,
@@ -3551,7 +3551,7 @@
       "values": {
         "treasury_rate": 1.583,
         "commercial_paper": 969.784,
-        "private_payroll": 121050.0
+        "private_payroll": 121050
       },
       "zscores": {
         "treasury_rate": -2.189,
@@ -3565,7 +3565,7 @@
       "values": {
         "treasury_rate": 1.552,
         "commercial_paper": 1001.257,
-        "private_payroll": 120870.0
+        "private_payroll": 120870
       },
       "zscores": {
         "treasury_rate": -2.098,
@@ -3579,7 +3579,7 @@
       "values": {
         "treasury_rate": 1.541,
         "commercial_paper": 1072.877,
-        "private_payroll": 121122.0
+        "private_payroll": 121122
       },
       "zscores": {
         "treasury_rate": -1.962,
@@ -3593,7 +3593,7 @@
       "values": {
         "treasury_rate": 1.512,
         "commercial_paper": 1074.374,
-        "private_payroll": 121626.0
+        "private_payroll": 121626
       },
       "zscores": {
         "treasury_rate": -1.89,
@@ -3607,7 +3607,7 @@
       "values": {
         "treasury_rate": 1.499,
         "commercial_paper": 1111.903,
-        "private_payroll": 122388.0
+        "private_payroll": 122388
       },
       "zscores": {
         "treasury_rate": -1.785,
@@ -3621,7 +3621,7 @@
       "values": {
         "treasury_rate": 1.491,
         "commercial_paper": 1203.216,
-        "private_payroll": 122694.0
+        "private_payroll": 122694
       },
       "zscores": {
         "treasury_rate": -1.68,
@@ -3635,7 +3635,7 @@
       "values": {
         "treasury_rate": 1.485,
         "commercial_paper": 1196.71,
-        "private_payroll": 123136.0
+        "private_payroll": 123136
       },
       "zscores": {
         "treasury_rate": -1.582,
@@ -3649,7 +3649,7 @@
       "values": {
         "treasury_rate": 1.472,
         "commercial_paper": 1162.668,
-        "private_payroll": 123789.0
+        "private_payroll": 123789
       },
       "zscores": {
         "treasury_rate": -1.51,
@@ -3663,7 +3663,7 @@
       "values": {
         "treasury_rate": 1.476,
         "commercial_paper": 1133.593,
-        "private_payroll": 124723.0
+        "private_payroll": 124723
       },
       "zscores": {
         "treasury_rate": -1.408,
@@ -3677,7 +3677,7 @@
       "values": {
         "treasury_rate": 1.458,
         "commercial_paper": 1141.704,
-        "private_payroll": 125178.0
+        "private_payroll": 125178
       },
       "zscores": {
         "treasury_rate": -1.364,
@@ -3691,7 +3691,7 @@
       "values": {
         "treasury_rate": 1.47,
         "commercial_paper": 1175.12,
-        "private_payroll": 125669.0
+        "private_payroll": 125669
       },
       "zscores": {
         "treasury_rate": -1.258,
@@ -3705,7 +3705,7 @@
       "values": {
         "treasury_rate": 1.455,
         "commercial_paper": 1179.301,
-        "private_payroll": 126545.0
+        "private_payroll": 126545
       },
       "zscores": {
         "treasury_rate": -1.22,
@@ -3719,7 +3719,7 @@
       "values": {
         "treasury_rate": 1.437,
         "commercial_paper": 1125.771,
-        "private_payroll": 127184.0
+        "private_payroll": 127184
       },
       "zscores": {
         "treasury_rate": -1.191,
@@ -3733,7 +3733,7 @@
       "values": {
         "treasury_rate": 1.432,
         "commercial_paper": 1088.025,
-        "private_payroll": 127754.0
+        "private_payroll": 127754
       },
       "zscores": {
         "treasury_rate": -1.138,
@@ -3747,7 +3747,7 @@
       "values": {
         "treasury_rate": 1.424,
         "commercial_paper": 1047.366,
-        "private_payroll": 127957.0
+        "private_payroll": 127957
       },
       "zscores": {
         "treasury_rate": -1.095,
@@ -3766,7 +3766,7 @@
       "values": {
         "treasury_rate": 1.436,
         "commercial_paper": 1021.164,
-        "private_payroll": 128793.0
+        "private_payroll": 128793
       },
       "zscores": {
         "treasury_rate": -1.012,
@@ -3780,7 +3780,7 @@
       "values": {
         "treasury_rate": 1.482,
         "commercial_paper": 1039.339,
-        "private_payroll": 129282.0
+        "private_payroll": 129282
       },
       "zscores": {
         "treasury_rate": -0.857,
@@ -3794,7 +3794,7 @@
       "values": {
         "treasury_rate": 1.528,
         "commercial_paper": 1082.059,
-        "private_payroll": 129554.0
+        "private_payroll": 129554
       },
       "zscores": {
         "treasury_rate": -0.704,
@@ -3808,7 +3808,7 @@
       "values": {
         "treasury_rate": 1.607,
         "commercial_paper": 1117.385,
-        "private_payroll": 129799.0
+        "private_payroll": 129799
       },
       "zscores": {
         "treasury_rate": -0.467,
@@ -3822,7 +3822,7 @@
       "values": {
         "treasury_rate": 1.693,
         "commercial_paper": 1147.018,
-        "private_payroll": 130216.0
+        "private_payroll": 130216
       },
       "zscores": {
         "treasury_rate": -0.2,
@@ -3836,7 +3836,7 @@
       "values": {
         "treasury_rate": 1.777,
         "commercial_paper": 1163.781,
-        "private_payroll": 130766.0
+        "private_payroll": 130766
       },
       "zscores": {
         "treasury_rate": 0.083,
@@ -3850,7 +3850,7 @@
       "values": {
         "treasury_rate": 1.886,
         "commercial_paper": 1186.067,
-        "private_payroll": 131056.0
+        "private_payroll": 131056
       },
       "zscores": {
         "treasury_rate": 0.464,
@@ -3864,7 +3864,7 @@
       "values": {
         "treasury_rate": 1.994,
         "commercial_paper": 1216.097,
-        "private_payroll": 131285.0
+        "private_payroll": 131285
       },
       "zscores": {
         "treasury_rate": 0.875,
@@ -3878,7 +3878,7 @@
       "values": {
         "treasury_rate": 2.104,
         "commercial_paper": 1271.566,
-        "private_payroll": 131646.0
+        "private_payroll": 131646
       },
       "zscores": {
         "treasury_rate": 1.313,
@@ -3892,7 +3892,7 @@
       "values": {
         "treasury_rate": 2.237,
         "commercial_paper": 1300.397,
-        "private_payroll": 131863.0
+        "private_payroll": 131863
       },
       "zscores": {
         "treasury_rate": 1.819,
@@ -3906,7 +3906,7 @@
       "values": {
         "treasury_rate": 2.32,
         "commercial_paper": 1289.97,
-        "private_payroll": 131977.0
+        "private_payroll": 131977
       },
       "zscores": {
         "treasury_rate": 2.126,
@@ -3920,7 +3920,7 @@
       "values": {
         "treasury_rate": 2.434,
         "commercial_paper": 1299.392,
-        "private_payroll": 132292.0
+        "private_payroll": 132292
       },
       "zscores": {
         "treasury_rate": 2.462,
@@ -3934,7 +3934,7 @@
       "values": {
         "treasury_rate": 2.519,
         "commercial_paper": 1261.158,
-        "private_payroll": 132528.0
+        "private_payroll": 132528
       },
       "zscores": {
         "treasury_rate": 2.617,
@@ -3948,7 +3948,7 @@
       "values": {
         "treasury_rate": 2.576,
         "commercial_paper": 1162.401,
-        "private_payroll": 132554.0
+        "private_payroll": 132554
       },
       "zscores": {
         "treasury_rate": 2.589,
@@ -3962,7 +3962,7 @@
       "values": {
         "treasury_rate": 2.6,
         "commercial_paper": 1147.527,
-        "private_payroll": 132733.0
+        "private_payroll": 132733
       },
       "zscores": {
         "treasury_rate": 2.402,
@@ -3976,7 +3976,7 @@
       "values": {
         "treasury_rate": 2.691,
         "commercial_paper": 1133.752,
-        "private_payroll": 132933.0
+        "private_payroll": 132933
       },
       "zscores": {
         "treasury_rate": 2.375,
@@ -3990,7 +3990,7 @@
       "values": {
         "treasury_rate": 2.792,
         "commercial_paper": 1136.984,
-        "private_payroll": 133088.0
+        "private_payroll": 133088
       },
       "zscores": {
         "treasury_rate": 2.35,
@@ -4004,7 +4004,7 @@
       "values": {
         "treasury_rate": 2.873,
         "commercial_paper": 1168.169,
-        "private_payroll": 133206.0
+        "private_payroll": 133206
       },
       "zscores": {
         "treasury_rate": 2.276,
@@ -4018,7 +4018,7 @@
       "values": {
         "treasury_rate": 2.962,
         "commercial_paper": 1170.209,
-        "private_payroll": 133354.0
+        "private_payroll": 133354
       },
       "zscores": {
         "treasury_rate": 2.221,
@@ -4032,7 +4032,7 @@
       "values": {
         "treasury_rate": 3.016,
         "commercial_paper": 1174.802,
-        "private_payroll": 133469.0
+        "private_payroll": 133469
       },
       "zscores": {
         "treasury_rate": 2.11,
@@ -4046,7 +4046,7 @@
       "values": {
         "treasury_rate": 3.096,
         "commercial_paper": 1209.485,
-        "private_payroll": 133583.0
+        "private_payroll": 133583
       },
       "zscores": {
         "treasury_rate": 2.056,
@@ -4060,7 +4060,7 @@
       "values": {
         "treasury_rate": 3.155,
         "commercial_paper": 1246.146,
-        "private_payroll": 133667.0
+        "private_payroll": 133667
       },
       "zscores": {
         "treasury_rate": 1.976,
@@ -4074,7 +4074,7 @@
       "values": {
         "treasury_rate": 3.174,
         "commercial_paper": 1256.7,
-        "private_payroll": 133766.0
+        "private_payroll": 133766
       },
       "zscores": {
         "treasury_rate": 1.849,
@@ -4088,7 +4088,7 @@
       "values": {
         "treasury_rate": 3.211,
         "commercial_paper": 1243.489,
-        "private_payroll": 133892.0
+        "private_payroll": 133892
       },
       "zscores": {
         "treasury_rate": 1.766,
@@ -4102,7 +4102,7 @@
       "values": {
         "treasury_rate": 3.259,
         "commercial_paper": 1263.855,
-        "private_payroll": 134027.0
+        "private_payroll": 134027
       },
       "zscores": {
         "treasury_rate": 1.709,
@@ -4116,7 +4116,7 @@
       "values": {
         "treasury_rate": 3.277,
         "commercial_paper": 1309.719,
-        "private_payroll": 134170.0
+        "private_payroll": 134170
       },
       "zscores": {
         "treasury_rate": 1.619,
@@ -4130,7 +4130,7 @@
       "values": {
         "treasury_rate": 3.297,
         "commercial_paper": 1322.121,
-        "private_payroll": 134233.0
+        "private_payroll": 134233
       },
       "zscores": {
         "treasury_rate": 1.543,
@@ -4144,7 +4144,7 @@
       "values": {
         "treasury_rate": 3.334,
         "commercial_paper": 1300.694,
-        "private_payroll": 134278.0
+        "private_payroll": 134278
       },
       "zscores": {
         "treasury_rate": 1.497,
@@ -4158,7 +4158,7 @@
       "values": {
         "treasury_rate": 3.344,
         "commercial_paper": 1279.04,
-        "private_payroll": 134356.0
+        "private_payroll": 134356
       },
       "zscores": {
         "treasury_rate": 1.422,
@@ -4177,7 +4177,7 @@
       "values": {
         "treasury_rate": 3.391,
         "commercial_paper": 1283.794,
-        "private_payroll": 134348.0
+        "private_payroll": 134348
       },
       "zscores": {
         "treasury_rate": 1.402,
@@ -4191,7 +4191,7 @@
       "values": {
         "treasury_rate": 3.415,
         "commercial_paper": 1241.636,
-        "private_payroll": 134321.0
+        "private_payroll": 134321
       },
       "zscores": {
         "treasury_rate": 1.356,
@@ -4205,7 +4205,7 @@
       "values": {
         "treasury_rate": 3.392,
         "commercial_paper": 1226.618,
-        "private_payroll": 134463.0
+        "private_payroll": 134463
       },
       "zscores": {
         "treasury_rate": 1.254,
@@ -4219,7 +4219,7 @@
       "values": {
         "treasury_rate": 3.363,
         "commercial_paper": 1174.462,
-        "private_payroll": 134459.0
+        "private_payroll": 134459
       },
       "zscores": {
         "treasury_rate": 1.153,
@@ -4233,7 +4233,7 @@
       "values": {
         "treasury_rate": 3.355,
         "commercial_paper": 1172.362,
-        "private_payroll": 134575.0
+        "private_payroll": 134575
       },
       "zscores": {
         "treasury_rate": 1.087,
@@ -4247,7 +4247,7 @@
       "values": {
         "treasury_rate": 3.336,
         "commercial_paper": 1155.129,
-        "private_payroll": 134787.0
+        "private_payroll": 134787
       },
       "zscores": {
         "treasury_rate": 1.01,
@@ -4261,7 +4261,7 @@
       "values": {
         "treasury_rate": 3.337,
         "commercial_paper": 1149.545,
-        "private_payroll": 134711.0
+        "private_payroll": 134711
       },
       "zscores": {
         "treasury_rate": 0.967,
@@ -4275,7 +4275,7 @@
       "values": {
         "treasury_rate": 3.346,
         "commercial_paper": 1266.63,
-        "private_payroll": 134751.0
+        "private_payroll": 134751
       },
       "zscores": {
         "treasury_rate": 0.94,
@@ -4289,7 +4289,7 @@
       "values": {
         "treasury_rate": 3.347,
         "commercial_paper": 1364.414,
-        "private_payroll": 134818.0
+        "private_payroll": 134818
       },
       "zscores": {
         "treasury_rate": 0.903,
@@ -4303,7 +4303,7 @@
       "values": {
         "treasury_rate": 3.354,
         "commercial_paper": 1394.888,
-        "private_payroll": 134917.0
+        "private_payroll": 134917
       },
       "zscores": {
         "treasury_rate": 0.88,
@@ -4317,7 +4317,7 @@
       "values": {
         "treasury_rate": 3.362,
         "commercial_paper": 1428.521,
-        "private_payroll": 134937.0
+        "private_payroll": 134937
       },
       "zscores": {
         "treasury_rate": 0.862,
@@ -4331,7 +4331,7 @@
       "values": {
         "treasury_rate": 3.375,
         "commercial_paper": 1470.452,
-        "private_payroll": 134892.0
+        "private_payroll": 134892
       },
       "zscores": {
         "treasury_rate": 0.857,
@@ -4345,7 +4345,7 @@
       "values": {
         "treasury_rate": 3.399,
         "commercial_paper": 1417.934,
-        "private_payroll": 134957.0
+        "private_payroll": 134957
       },
       "zscores": {
         "treasury_rate": 0.88,
@@ -4359,7 +4359,7 @@
       "values": {
         "treasury_rate": 3.415,
         "commercial_paper": 1399.872,
-        "private_payroll": 134937.0
+        "private_payroll": 134937
       },
       "zscores": {
         "treasury_rate": 0.892,
@@ -4373,7 +4373,7 @@
       "values": {
         "treasury_rate": 3.406,
         "commercial_paper": 1391.141,
-        "private_payroll": 135005.0
+        "private_payroll": 135005
       },
       "zscores": {
         "treasury_rate": 0.848,
@@ -4387,7 +4387,7 @@
       "values": {
         "treasury_rate": 3.393,
         "commercial_paper": 1330.883,
-        "private_payroll": 135018.0
+        "private_payroll": 135018
       },
       "zscores": {
         "treasury_rate": 0.791,
@@ -4401,7 +4401,7 @@
       "values": {
         "treasury_rate": 3.382,
         "commercial_paper": 1309.881,
-        "private_payroll": 135090.0
+        "private_payroll": 135090
       },
       "zscores": {
         "treasury_rate": 0.733,
@@ -4415,7 +4415,7 @@
       "values": {
         "treasury_rate": 3.362,
         "commercial_paper": 1312.546,
-        "private_payroll": 135083.0
+        "private_payroll": 135083
       },
       "zscores": {
         "treasury_rate": 0.641,
@@ -4429,7 +4429,7 @@
       "values": {
         "treasury_rate": 3.348,
         "commercial_paper": 1407.089,
-        "private_payroll": 135263.0
+        "private_payroll": 135263
       },
       "zscores": {
         "treasury_rate": 0.558,
@@ -4443,7 +4443,7 @@
       "values": {
         "treasury_rate": 3.355,
         "commercial_paper": 1412.647,
-        "private_payroll": 135115.0
+        "private_payroll": 135115
       },
       "zscores": {
         "treasury_rate": 0.55,
@@ -4457,7 +4457,7 @@
       "values": {
         "treasury_rate": 3.365,
         "commercial_paper": 1390.253,
-        "private_payroll": 135317.0
+        "private_payroll": 135317
       },
       "zscores": {
         "treasury_rate": 0.561,
@@ -4471,7 +4471,7 @@
       "values": {
         "treasury_rate": 3.373,
         "commercial_paper": 1389.193,
-        "private_payroll": 135467.0
+        "private_payroll": 135467
       },
       "zscores": {
         "treasury_rate": 0.578,
@@ -4485,7 +4485,7 @@
       "values": {
         "treasury_rate": 3.386,
         "commercial_paper": 1420.52,
-        "private_payroll": 135528.0
+        "private_payroll": 135528
       },
       "zscores": {
         "treasury_rate": 0.64,
@@ -4499,7 +4499,7 @@
       "values": {
         "treasury_rate": 3.411,
         "commercial_paper": 1402.755,
-        "private_payroll": 135554.0
+        "private_payroll": 135554
       },
       "zscores": {
         "treasury_rate": 0.816,
@@ -4513,7 +4513,7 @@
       "values": {
         "treasury_rate": 3.443,
         "commercial_paper": 1385.91,
-        "private_payroll": 135582.0
+        "private_payroll": 135582
       },
       "zscores": {
         "treasury_rate": 1.113,
@@ -4527,7 +4527,7 @@
       "values": {
         "treasury_rate": 3.475,
         "commercial_paper": 1436.086,
-        "private_payroll": 135671.0
+        "private_payroll": 135671
       },
       "zscores": {
         "treasury_rate": 1.478,
@@ -4541,7 +4541,7 @@
       "values": {
         "treasury_rate": 3.518,
         "commercial_paper": 1437.796,
-        "private_payroll": 135717.0
+        "private_payroll": 135717
       },
       "zscores": {
         "treasury_rate": 2.034,

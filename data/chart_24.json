@@ -5,7 +5,7 @@
     "title": "Where Americans Move: Four Big Routes",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Animated Map with Moving Flows",
+    "visual_form": "Map with moving routes",
     "agencies": [
       "Census"
     ],
@@ -178,7 +178,7 @@
       "key": "flow_ca_to_tx",
       "agency": "Census",
       "series_id": "ACS state-to-state migration table",
-      "label": "California \u2192 Texas (Net People Moved per Year)",
+      "label": "California → Texas (Net People Moved per Year)",
       "unit": "People/Yr",
       "transform": "raw",
       "color": "#f59e0b"
@@ -187,7 +187,7 @@
       "key": "flow_ny_to_fl",
       "agency": "Census",
       "series_id": "ACS state-to-state migration table",
-      "label": "New York \u2192 Florida (Net People Moved per Year)",
+      "label": "New York → Florida (Net People Moved per Year)",
       "unit": "People/Yr",
       "transform": "raw",
       "color": "#06b6d4"
@@ -196,7 +196,7 @@
       "key": "flow_il_to_fl",
       "agency": "Census",
       "series_id": "ACS state-to-state migration table",
-      "label": "Illinois \u2192 Florida (Net People Moved per Year)",
+      "label": "Illinois → Florida (Net People Moved per Year)",
       "unit": "People/Yr",
       "transform": "raw",
       "color": "#10b981"
@@ -205,7 +205,7 @@
       "key": "flow_ca_to_az",
       "agency": "Census",
       "series_id": "ACS state-to-state migration table",
-      "label": "California \u2192 Arizona (Net People Moved per Year)",
+      "label": "California → Arizona (Net People Moved per Year)",
       "unit": "People/Yr",
       "transform": "raw",
       "color": "#ec4899"
@@ -215,16 +215,16 @@
     {
       "date": "2005-07-01",
       "values": {
-        "flow_ca_to_tx": 38747.0,
-        "flow_ny_to_fl": 73022.0,
-        "flow_il_to_fl": 3307.0,
-        "flow_ca_to_az": 66140.0
+        "flow_ca_to_tx": 38747,
+        "flow_ny_to_fl": 73022,
+        "flow_il_to_fl": 3307,
+        "flow_ca_to_az": 66140
       },
       "zscores": {
-        "flow_ca_to_tx": 0.0,
-        "flow_ny_to_fl": 0.0,
-        "flow_il_to_fl": 0.0,
-        "flow_ca_to_az": 0.0
+        "flow_ca_to_tx": 0,
+        "flow_ny_to_fl": 0,
+        "flow_il_to_fl": 0,
+        "flow_ca_to_az": 0
       },
       "events": [
         {
@@ -242,10 +242,10 @@
         "flow_ca_to_az": 65093.5
       },
       "zscores": {
-        "flow_ca_to_tx": -1.0,
-        "flow_ny_to_fl": -1.0,
-        "flow_il_to_fl": 1.0,
-        "flow_ca_to_az": -1.0
+        "flow_ca_to_tx": -1,
+        "flow_ny_to_fl": -1,
+        "flow_il_to_fl": 1,
+        "flow_ca_to_az": -1
       },
       "events": []
     },
@@ -254,8 +254,8 @@
       "values": {
         "flow_ca_to_tx": 37713.333,
         "flow_ny_to_fl": 70312.833,
-        "flow_il_to_fl": 4242.0,
-        "flow_ca_to_az": 64047.0
+        "flow_il_to_fl": 4242,
+        "flow_ca_to_az": 64047
       },
       "zscores": {
         "flow_ca_to_tx": -1.225,
@@ -286,8 +286,8 @@
       "values": {
         "flow_ca_to_tx": 36679.667,
         "flow_ny_to_fl": 67603.667,
-        "flow_il_to_fl": 5177.0,
-        "flow_ca_to_az": 61954.0
+        "flow_il_to_fl": 5177,
+        "flow_ca_to_az": 61954
       },
       "zscores": {
         "flow_ca_to_tx": -1.414,
@@ -316,10 +316,10 @@
     {
       "date": "2006-01-01",
       "values": {
-        "flow_ca_to_tx": 35646.0,
+        "flow_ca_to_tx": 35646,
         "flow_ny_to_fl": 64894.5,
-        "flow_il_to_fl": 6112.0,
-        "flow_ca_to_az": 59861.0
+        "flow_il_to_fl": 6112,
+        "flow_ca_to_az": 59861
       },
       "zscores": {
         "flow_ca_to_tx": -1.5,
@@ -350,8 +350,8 @@
       "values": {
         "flow_ca_to_tx": 34612.333,
         "flow_ny_to_fl": 62185.333,
-        "flow_il_to_fl": 7047.0,
-        "flow_ca_to_az": 57768.0
+        "flow_il_to_fl": 7047,
+        "flow_ca_to_az": 57768
       },
       "zscores": {
         "flow_ca_to_tx": -1.549,
@@ -382,8 +382,8 @@
       "values": {
         "flow_ca_to_tx": 33578.667,
         "flow_ny_to_fl": 59476.167,
-        "flow_il_to_fl": 7982.0,
-        "flow_ca_to_az": 55675.0
+        "flow_il_to_fl": 7982,
+        "flow_ca_to_az": 55675
       },
       "zscores": {
         "flow_ca_to_tx": -1.581,
@@ -412,10 +412,10 @@
     {
       "date": "2006-07-01",
       "values": {
-        "flow_ca_to_tx": 32545.0,
-        "flow_ny_to_fl": 56767.0,
-        "flow_il_to_fl": 8917.0,
-        "flow_ca_to_az": 53582.0
+        "flow_ca_to_tx": 32545,
+        "flow_ny_to_fl": 56767,
+        "flow_il_to_fl": 8917,
+        "flow_ca_to_az": 53582
       },
       "zscores": {
         "flow_ca_to_tx": -1.604,
@@ -429,7 +429,7 @@
       "date": "2006-08-01",
       "values": {
         "flow_ca_to_tx": 32966.583,
-        "flow_ny_to_fl": 56439.0,
+        "flow_ny_to_fl": 56439,
         "flow_il_to_fl": 8621.667,
         "flow_ca_to_az": 53262.083
       },
@@ -445,7 +445,7 @@
       "date": "2006-09-01",
       "values": {
         "flow_ca_to_tx": 33388.167,
-        "flow_ny_to_fl": 56111.0,
+        "flow_ny_to_fl": 56111,
         "flow_il_to_fl": 8326.333,
         "flow_ca_to_az": 52942.167
       },
@@ -461,8 +461,8 @@
       "date": "2006-10-01",
       "values": {
         "flow_ca_to_tx": 33809.75,
-        "flow_ny_to_fl": 55783.0,
-        "flow_il_to_fl": 8031.0,
+        "flow_ny_to_fl": 55783,
+        "flow_il_to_fl": 8031,
         "flow_ca_to_az": 52622.25
       },
       "zscores": {
@@ -477,7 +477,7 @@
       "date": "2006-11-01",
       "values": {
         "flow_ca_to_tx": 34231.333,
-        "flow_ny_to_fl": 55455.0,
+        "flow_ny_to_fl": 55455,
         "flow_il_to_fl": 7735.667,
         "flow_ca_to_az": 52302.333
       },
@@ -493,7 +493,7 @@
       "date": "2006-12-01",
       "values": {
         "flow_ca_to_tx": 34652.917,
-        "flow_ny_to_fl": 55127.0,
+        "flow_ny_to_fl": 55127,
         "flow_il_to_fl": 7440.333,
         "flow_ca_to_az": 51982.417
       },
@@ -509,8 +509,8 @@
       "date": "2007-01-01",
       "values": {
         "flow_ca_to_tx": 35074.5,
-        "flow_ny_to_fl": 54799.0,
-        "flow_il_to_fl": 7145.0,
+        "flow_ny_to_fl": 54799,
+        "flow_il_to_fl": 7145,
         "flow_ca_to_az": 51662.5
       },
       "zscores": {
@@ -525,7 +525,7 @@
       "date": "2007-02-01",
       "values": {
         "flow_ca_to_tx": 35496.083,
-        "flow_ny_to_fl": 54471.0,
+        "flow_ny_to_fl": 54471,
         "flow_il_to_fl": 6849.667,
         "flow_ca_to_az": 51342.583
       },
@@ -541,7 +541,7 @@
       "date": "2007-03-01",
       "values": {
         "flow_ca_to_tx": 35917.667,
-        "flow_ny_to_fl": 54143.0,
+        "flow_ny_to_fl": 54143,
         "flow_il_to_fl": 6554.333,
         "flow_ca_to_az": 51022.667
       },
@@ -557,8 +557,8 @@
       "date": "2007-04-01",
       "values": {
         "flow_ca_to_tx": 36339.25,
-        "flow_ny_to_fl": 53815.0,
-        "flow_il_to_fl": 6259.0,
+        "flow_ny_to_fl": 53815,
+        "flow_il_to_fl": 6259,
         "flow_ca_to_az": 50702.75
       },
       "zscores": {
@@ -573,7 +573,7 @@
       "date": "2007-05-01",
       "values": {
         "flow_ca_to_tx": 36760.833,
-        "flow_ny_to_fl": 53487.0,
+        "flow_ny_to_fl": 53487,
         "flow_il_to_fl": 5963.667,
         "flow_ca_to_az": 50382.833
       },
@@ -589,7 +589,7 @@
       "date": "2007-06-01",
       "values": {
         "flow_ca_to_tx": 37182.417,
-        "flow_ny_to_fl": 53159.0,
+        "flow_ny_to_fl": 53159,
         "flow_il_to_fl": 5668.333,
         "flow_ca_to_az": 50062.917
       },
@@ -604,10 +604,10 @@
     {
       "date": "2007-07-01",
       "values": {
-        "flow_ca_to_tx": 37604.0,
-        "flow_ny_to_fl": 52831.0,
-        "flow_il_to_fl": 5373.0,
-        "flow_ca_to_az": 49743.0
+        "flow_ca_to_tx": 37604,
+        "flow_ny_to_fl": 52831,
+        "flow_il_to_fl": 5373,
+        "flow_ca_to_az": 49743
       },
       "zscores": {
         "flow_ca_to_tx": 1.232,
@@ -668,10 +668,10 @@
     {
       "date": "2007-11-01",
       "values": {
-        "flow_ca_to_tx": 37029.0,
+        "flow_ca_to_tx": 37029,
         "flow_ny_to_fl": 47236.667,
         "flow_il_to_fl": 5117.667,
-        "flow_ca_to_az": 44202.0
+        "flow_ca_to_az": 44202
       },
       "zscores": {
         "flow_ca_to_tx": 0.763,
@@ -702,7 +702,7 @@
       "values": {
         "flow_ca_to_tx": 36741.5,
         "flow_ny_to_fl": 44439.5,
-        "flow_il_to_fl": 4990.0,
+        "flow_il_to_fl": 4990,
         "flow_ca_to_az": 41431.5
       },
       "zscores": {
@@ -732,10 +732,10 @@
     {
       "date": "2008-03-01",
       "values": {
-        "flow_ca_to_tx": 36454.0,
+        "flow_ca_to_tx": 36454,
         "flow_ny_to_fl": 41642.333,
         "flow_il_to_fl": 4862.333,
-        "flow_ca_to_az": 38661.0
+        "flow_ca_to_az": 38661
       },
       "zscores": {
         "flow_ca_to_tx": 0.378,
@@ -796,10 +796,10 @@
     {
       "date": "2008-07-01",
       "values": {
-        "flow_ca_to_tx": 35879.0,
-        "flow_ny_to_fl": 36048.0,
-        "flow_il_to_fl": 4607.0,
-        "flow_ca_to_az": 33120.0
+        "flow_ca_to_tx": 35879,
+        "flow_ny_to_fl": 36048,
+        "flow_il_to_fl": 4607,
+        "flow_ca_to_az": 33120
       },
       "zscores": {
         "flow_ca_to_tx": 0.066,
@@ -812,10 +812,10 @@
     {
       "date": "2008-08-01",
       "values": {
-        "flow_ca_to_tx": 35716.0,
+        "flow_ca_to_tx": 35716,
         "flow_ny_to_fl": 36498.583,
         "flow_il_to_fl": 4577.75,
-        "flow_ca_to_az": 33349.0
+        "flow_ca_to_az": 33349
       },
       "zscores": {
         "flow_ca_to_tx": 0.003,
@@ -828,10 +828,10 @@
     {
       "date": "2008-09-01",
       "values": {
-        "flow_ca_to_tx": 35553.0,
+        "flow_ca_to_tx": 35553,
         "flow_ny_to_fl": 36949.167,
         "flow_il_to_fl": 4548.5,
-        "flow_ca_to_az": 33578.0
+        "flow_ca_to_az": 33578
       },
       "zscores": {
         "flow_ca_to_tx": -0.07,
@@ -844,10 +844,10 @@
     {
       "date": "2008-10-01",
       "values": {
-        "flow_ca_to_tx": 35390.0,
+        "flow_ca_to_tx": 35390,
         "flow_ny_to_fl": 37399.75,
         "flow_il_to_fl": 4519.25,
-        "flow_ca_to_az": 33807.0
+        "flow_ca_to_az": 33807
       },
       "zscores": {
         "flow_ca_to_tx": -0.153,
@@ -860,10 +860,10 @@
     {
       "date": "2008-11-01",
       "values": {
-        "flow_ca_to_tx": 35227.0,
+        "flow_ca_to_tx": 35227,
         "flow_ny_to_fl": 37850.333,
-        "flow_il_to_fl": 4490.0,
-        "flow_ca_to_az": 34036.0
+        "flow_il_to_fl": 4490,
+        "flow_ca_to_az": 34036
       },
       "zscores": {
         "flow_ca_to_tx": -0.244,
@@ -876,10 +876,10 @@
     {
       "date": "2008-12-01",
       "values": {
-        "flow_ca_to_tx": 35064.0,
+        "flow_ca_to_tx": 35064,
         "flow_ny_to_fl": 38300.917,
         "flow_il_to_fl": 4460.75,
-        "flow_ca_to_az": 34265.0
+        "flow_ca_to_az": 34265
       },
       "zscores": {
         "flow_ca_to_tx": -0.342,
@@ -892,10 +892,10 @@
     {
       "date": "2009-01-01",
       "values": {
-        "flow_ca_to_tx": 34901.0,
+        "flow_ca_to_tx": 34901,
         "flow_ny_to_fl": 38751.5,
         "flow_il_to_fl": 4431.5,
-        "flow_ca_to_az": 34494.0
+        "flow_ca_to_az": 34494
       },
       "zscores": {
         "flow_ca_to_tx": -0.445,
@@ -908,10 +908,10 @@
     {
       "date": "2009-02-01",
       "values": {
-        "flow_ca_to_tx": 34738.0,
+        "flow_ca_to_tx": 34738,
         "flow_ny_to_fl": 39202.083,
         "flow_il_to_fl": 4402.25,
-        "flow_ca_to_az": 34723.0
+        "flow_ca_to_az": 34723
       },
       "zscores": {
         "flow_ca_to_tx": -0.554,
@@ -924,10 +924,10 @@
     {
       "date": "2009-03-01",
       "values": {
-        "flow_ca_to_tx": 34575.0,
+        "flow_ca_to_tx": 34575,
         "flow_ny_to_fl": 39652.667,
-        "flow_il_to_fl": 4373.0,
-        "flow_ca_to_az": 34952.0
+        "flow_il_to_fl": 4373,
+        "flow_ca_to_az": 34952
       },
       "zscores": {
         "flow_ca_to_tx": -0.672,
@@ -940,10 +940,10 @@
     {
       "date": "2009-04-01",
       "values": {
-        "flow_ca_to_tx": 34412.0,
+        "flow_ca_to_tx": 34412,
         "flow_ny_to_fl": 40103.25,
         "flow_il_to_fl": 4343.75,
-        "flow_ca_to_az": 35181.0
+        "flow_ca_to_az": 35181
       },
       "zscores": {
         "flow_ca_to_tx": -0.802,
@@ -956,10 +956,10 @@
     {
       "date": "2009-05-01",
       "values": {
-        "flow_ca_to_tx": 34249.0,
+        "flow_ca_to_tx": 34249,
         "flow_ny_to_fl": 40553.833,
         "flow_il_to_fl": 4314.5,
-        "flow_ca_to_az": 35410.0
+        "flow_ca_to_az": 35410
       },
       "zscores": {
         "flow_ca_to_tx": -0.95,
@@ -972,10 +972,10 @@
     {
       "date": "2009-06-01",
       "values": {
-        "flow_ca_to_tx": 34086.0,
+        "flow_ca_to_tx": 34086,
         "flow_ny_to_fl": 41004.417,
         "flow_il_to_fl": 4285.25,
-        "flow_ca_to_az": 35639.0
+        "flow_ca_to_az": 35639
       },
       "zscores": {
         "flow_ca_to_tx": -1.129,
@@ -988,10 +988,10 @@
     {
       "date": "2009-07-01",
       "values": {
-        "flow_ca_to_tx": 33923.0,
-        "flow_ny_to_fl": 41455.0,
-        "flow_il_to_fl": 4256.0,
-        "flow_ca_to_az": 35868.0
+        "flow_ca_to_tx": 33923,
+        "flow_ny_to_fl": 41455,
+        "flow_il_to_fl": 4256,
+        "flow_ca_to_az": 35868
       },
       "zscores": {
         "flow_ca_to_tx": -1.357,
@@ -1084,10 +1084,10 @@
     {
       "date": "2010-01-01",
       "values": {
-        "flow_ca_to_tx": 33150.0,
+        "flow_ca_to_tx": 33150,
         "flow_ny_to_fl": 32956.5,
         "flow_il_to_fl": 6818.5,
-        "flow_ca_to_az": 24589.0
+        "flow_ca_to_az": 24589
       },
       "zscores": {
         "flow_ca_to_tx": -1.771,
@@ -1180,10 +1180,10 @@
     {
       "date": "2010-07-01",
       "values": {
-        "flow_ca_to_tx": 32377.0,
-        "flow_ny_to_fl": 24458.0,
-        "flow_il_to_fl": 9381.0,
-        "flow_ca_to_az": 13310.0
+        "flow_ca_to_tx": 32377,
+        "flow_ny_to_fl": 24458,
+        "flow_il_to_fl": 9381,
+        "flow_ca_to_az": 13310
       },
       "zscores": {
         "flow_ca_to_tx": -1.603,
@@ -1228,7 +1228,7 @@
     {
       "date": "2010-10-01",
       "values": {
-        "flow_ca_to_tx": 29759.0,
+        "flow_ca_to_tx": 29759,
         "flow_ny_to_fl": 25829.5,
         "flow_il_to_fl": 7436.75,
         "flow_ca_to_az": 13478.75
@@ -1247,7 +1247,7 @@
         "flow_ca_to_tx": 28886.333,
         "flow_ny_to_fl": 26286.667,
         "flow_il_to_fl": 6788.667,
-        "flow_ca_to_az": 13535.0
+        "flow_ca_to_az": 13535
       },
       "zscores": {
         "flow_ca_to_tx": -2.709,
@@ -1276,8 +1276,8 @@
     {
       "date": "2011-01-01",
       "values": {
-        "flow_ca_to_tx": 27141.0,
-        "flow_ny_to_fl": 27201.0,
+        "flow_ca_to_tx": 27141,
+        "flow_ny_to_fl": 27201,
         "flow_il_to_fl": 5492.5,
         "flow_ca_to_az": 13647.5
       },
@@ -1311,7 +1311,7 @@
         "flow_ca_to_tx": 25395.667,
         "flow_ny_to_fl": 28115.333,
         "flow_il_to_fl": 4196.333,
-        "flow_ca_to_az": 13760.0
+        "flow_ca_to_az": 13760
       },
       "zscores": {
         "flow_ca_to_tx": -2.706,
@@ -1324,7 +1324,7 @@
     {
       "date": "2011-04-01",
       "values": {
-        "flow_ca_to_tx": 24523.0,
+        "flow_ca_to_tx": 24523,
         "flow_ny_to_fl": 28572.5,
         "flow_il_to_fl": 3548.25,
         "flow_ca_to_az": 13816.25
@@ -1372,10 +1372,10 @@
     {
       "date": "2011-07-01",
       "values": {
-        "flow_ca_to_tx": 21905.0,
-        "flow_ny_to_fl": 29944.0,
-        "flow_il_to_fl": 1604.0,
-        "flow_ca_to_az": 13985.0
+        "flow_ca_to_tx": 21905,
+        "flow_ny_to_fl": 29944,
+        "flow_il_to_fl": 1604,
+        "flow_ca_to_az": 13985
       },
       "zscores": {
         "flow_ca_to_tx": -2.457,
@@ -1388,7 +1388,7 @@
     {
       "date": "2011-08-01",
       "values": {
-        "flow_ca_to_tx": 21721.0,
+        "flow_ca_to_tx": 21721,
         "flow_ny_to_fl": 29583.417,
         "flow_il_to_fl": 2293.5,
         "flow_ca_to_az": 13317.333
@@ -1404,9 +1404,9 @@
     {
       "date": "2011-09-01",
       "values": {
-        "flow_ca_to_tx": 21537.0,
+        "flow_ca_to_tx": 21537,
         "flow_ny_to_fl": 29222.833,
-        "flow_il_to_fl": 2983.0,
+        "flow_il_to_fl": 2983,
         "flow_ca_to_az": 12649.667
       },
       "zscores": {
@@ -1420,10 +1420,10 @@
     {
       "date": "2011-10-01",
       "values": {
-        "flow_ca_to_tx": 21353.0,
+        "flow_ca_to_tx": 21353,
         "flow_ny_to_fl": 28862.25,
         "flow_il_to_fl": 3672.5,
-        "flow_ca_to_az": 11982.0
+        "flow_ca_to_az": 11982
       },
       "zscores": {
         "flow_ca_to_tx": -1.968,
@@ -1436,9 +1436,9 @@
     {
       "date": "2011-11-01",
       "values": {
-        "flow_ca_to_tx": 21169.0,
+        "flow_ca_to_tx": 21169,
         "flow_ny_to_fl": 28501.667,
-        "flow_il_to_fl": 4362.0,
+        "flow_il_to_fl": 4362,
         "flow_ca_to_az": 11314.333
       },
       "zscores": {
@@ -1452,7 +1452,7 @@
     {
       "date": "2011-12-01",
       "values": {
-        "flow_ca_to_tx": 20985.0,
+        "flow_ca_to_tx": 20985,
         "flow_ny_to_fl": 28141.083,
         "flow_il_to_fl": 5051.5,
         "flow_ca_to_az": 10646.667
@@ -1468,10 +1468,10 @@
     {
       "date": "2012-01-01",
       "values": {
-        "flow_ca_to_tx": 20801.0,
+        "flow_ca_to_tx": 20801,
         "flow_ny_to_fl": 27780.5,
-        "flow_il_to_fl": 5741.0,
-        "flow_ca_to_az": 9979.0
+        "flow_il_to_fl": 5741,
+        "flow_ca_to_az": 9979
       },
       "zscores": {
         "flow_ca_to_tx": -1.675,
@@ -1484,7 +1484,7 @@
     {
       "date": "2012-02-01",
       "values": {
-        "flow_ca_to_tx": 20617.0,
+        "flow_ca_to_tx": 20617,
         "flow_ny_to_fl": 27419.917,
         "flow_il_to_fl": 6430.5,
         "flow_ca_to_az": 9311.333
@@ -1500,9 +1500,9 @@
     {
       "date": "2012-03-01",
       "values": {
-        "flow_ca_to_tx": 20433.0,
+        "flow_ca_to_tx": 20433,
         "flow_ny_to_fl": 27059.333,
-        "flow_il_to_fl": 7120.0,
+        "flow_il_to_fl": 7120,
         "flow_ca_to_az": 8643.667
       },
       "zscores": {
@@ -1516,10 +1516,10 @@
     {
       "date": "2012-04-01",
       "values": {
-        "flow_ca_to_tx": 20249.0,
+        "flow_ca_to_tx": 20249,
         "flow_ny_to_fl": 26698.75,
         "flow_il_to_fl": 7809.5,
-        "flow_ca_to_az": 7976.0
+        "flow_ca_to_az": 7976
       },
       "zscores": {
         "flow_ca_to_tx": -1.475,
@@ -1532,9 +1532,9 @@
     {
       "date": "2012-05-01",
       "values": {
-        "flow_ca_to_tx": 20065.0,
+        "flow_ca_to_tx": 20065,
         "flow_ny_to_fl": 26338.167,
-        "flow_il_to_fl": 8499.0,
+        "flow_il_to_fl": 8499,
         "flow_ca_to_az": 7308.333
       },
       "zscores": {
@@ -1548,7 +1548,7 @@
     {
       "date": "2012-06-01",
       "values": {
-        "flow_ca_to_tx": 19881.0,
+        "flow_ca_to_tx": 19881,
         "flow_ny_to_fl": 25977.583,
         "flow_il_to_fl": 9188.5,
         "flow_ca_to_az": 6640.667
@@ -1564,10 +1564,10 @@
     {
       "date": "2012-07-01",
       "values": {
-        "flow_ca_to_tx": 19697.0,
-        "flow_ny_to_fl": 25617.0,
-        "flow_il_to_fl": 9878.0,
-        "flow_ca_to_az": 5973.0
+        "flow_ca_to_tx": 19697,
+        "flow_ny_to_fl": 25617,
+        "flow_il_to_fl": 9878,
+        "flow_ca_to_az": 5973
       },
       "zscores": {
         "flow_ca_to_tx": -1.331,
@@ -1619,7 +1619,7 @@
       "values": {
         "flow_ca_to_tx": 23279.75,
         "flow_ny_to_fl": 25149.5,
-        "flow_il_to_fl": 8808.0,
+        "flow_il_to_fl": 8808,
         "flow_ca_to_az": 7327.75
       },
       "zscores": {
@@ -1633,7 +1633,7 @@
     {
       "date": "2012-11-01",
       "values": {
-        "flow_ca_to_tx": 24474.0,
+        "flow_ca_to_tx": 24474,
         "flow_ny_to_fl": 24993.667,
         "flow_il_to_fl": 8451.333,
         "flow_ca_to_az": 7779.333
@@ -1666,8 +1666,8 @@
       "date": "2013-01-01",
       "values": {
         "flow_ca_to_tx": 26862.5,
-        "flow_ny_to_fl": 24682.0,
-        "flow_il_to_fl": 7738.0,
+        "flow_ny_to_fl": 24682,
+        "flow_il_to_fl": 7738,
         "flow_ca_to_az": 8682.5
       },
       "zscores": {
@@ -1697,7 +1697,7 @@
     {
       "date": "2013-03-01",
       "values": {
-        "flow_ca_to_tx": 29251.0,
+        "flow_ca_to_tx": 29251,
         "flow_ny_to_fl": 24370.333,
         "flow_il_to_fl": 7024.667,
         "flow_ca_to_az": 9585.667
@@ -1715,7 +1715,7 @@
       "values": {
         "flow_ca_to_tx": 30445.25,
         "flow_ny_to_fl": 24214.5,
-        "flow_il_to_fl": 6668.0,
+        "flow_il_to_fl": 6668,
         "flow_ca_to_az": 10037.25
       },
       "zscores": {
@@ -1761,10 +1761,10 @@
     {
       "date": "2013-07-01",
       "values": {
-        "flow_ca_to_tx": 34028.0,
-        "flow_ny_to_fl": 23747.0,
-        "flow_il_to_fl": 5598.0,
-        "flow_ca_to_az": 11392.0
+        "flow_ca_to_tx": 34028,
+        "flow_ny_to_fl": 23747,
+        "flow_il_to_fl": 5598,
+        "flow_ca_to_az": 11392
       },
       "zscores": {
         "flow_ca_to_tx": 2.141,
@@ -1796,7 +1796,7 @@
         "flow_ca_to_tx": 32456.833,
         "flow_ny_to_fl": 25855.333,
         "flow_il_to_fl": 6455.833,
-        "flow_ca_to_az": 13201.0
+        "flow_ca_to_az": 13201
       },
       "zscores": {
         "flow_ca_to_tx": 1.684,
@@ -1828,7 +1828,7 @@
         "flow_ca_to_tx": 30885.667,
         "flow_ny_to_fl": 27963.667,
         "flow_il_to_fl": 7313.667,
-        "flow_ca_to_az": 15010.0
+        "flow_ca_to_az": 15010
       },
       "zscores": {
         "flow_ca_to_tx": 1.265,
@@ -1858,9 +1858,9 @@
       "date": "2014-01-01",
       "values": {
         "flow_ca_to_tx": 29314.5,
-        "flow_ny_to_fl": 30072.0,
+        "flow_ny_to_fl": 30072,
         "flow_il_to_fl": 8171.5,
-        "flow_ca_to_az": 16819.0
+        "flow_ca_to_az": 16819
       },
       "zscores": {
         "flow_ca_to_tx": 0.874,
@@ -1892,7 +1892,7 @@
         "flow_ca_to_tx": 27743.333,
         "flow_ny_to_fl": 32180.333,
         "flow_il_to_fl": 9029.333,
-        "flow_ca_to_az": 18628.0
+        "flow_ca_to_az": 18628
       },
       "zscores": {
         "flow_ca_to_tx": 0.501,
@@ -1924,7 +1924,7 @@
         "flow_ca_to_tx": 26172.167,
         "flow_ny_to_fl": 34288.667,
         "flow_il_to_fl": 9887.167,
-        "flow_ca_to_az": 20437.0
+        "flow_ca_to_az": 20437
       },
       "zscores": {
         "flow_ca_to_tx": 0.134,
@@ -1953,10 +1953,10 @@
     {
       "date": "2014-07-01",
       "values": {
-        "flow_ca_to_tx": 24601.0,
-        "flow_ny_to_fl": 36397.0,
-        "flow_il_to_fl": 10745.0,
-        "flow_ca_to_az": 22246.0
+        "flow_ca_to_tx": 24601,
+        "flow_ny_to_fl": 36397,
+        "flow_il_to_fl": 10745,
+        "flow_ca_to_az": 22246
       },
       "zscores": {
         "flow_ca_to_tx": -0.239,
@@ -1969,7 +1969,7 @@
     {
       "date": "2014-08-01",
       "values": {
-        "flow_ca_to_tx": 24537.0,
+        "flow_ca_to_tx": 24537,
         "flow_ny_to_fl": 36955.333,
         "flow_il_to_fl": 11097.75,
         "flow_ca_to_az": 22095.667
@@ -1985,7 +1985,7 @@
     {
       "date": "2014-09-01",
       "values": {
-        "flow_ca_to_tx": 24473.0,
+        "flow_ca_to_tx": 24473,
         "flow_ny_to_fl": 37513.667,
         "flow_il_to_fl": 11450.5,
         "flow_ca_to_az": 21945.333
@@ -2001,10 +2001,10 @@
     {
       "date": "2014-10-01",
       "values": {
-        "flow_ca_to_tx": 24409.0,
-        "flow_ny_to_fl": 38072.0,
+        "flow_ca_to_tx": 24409,
+        "flow_ny_to_fl": 38072,
         "flow_il_to_fl": 11803.25,
-        "flow_ca_to_az": 21795.0
+        "flow_ca_to_az": 21795
       },
       "zscores": {
         "flow_ca_to_tx": -0.346,
@@ -2017,9 +2017,9 @@
     {
       "date": "2014-11-01",
       "values": {
-        "flow_ca_to_tx": 24345.0,
+        "flow_ca_to_tx": 24345,
         "flow_ny_to_fl": 38630.333,
-        "flow_il_to_fl": 12156.0,
+        "flow_il_to_fl": 12156,
         "flow_ca_to_az": 21644.667
       },
       "zscores": {
@@ -2033,7 +2033,7 @@
     {
       "date": "2014-12-01",
       "values": {
-        "flow_ca_to_tx": 24281.0,
+        "flow_ca_to_tx": 24281,
         "flow_ny_to_fl": 39188.667,
         "flow_il_to_fl": 12508.75,
         "flow_ca_to_az": 21494.333
@@ -2049,10 +2049,10 @@
     {
       "date": "2015-01-01",
       "values": {
-        "flow_ca_to_tx": 24217.0,
-        "flow_ny_to_fl": 39747.0,
+        "flow_ca_to_tx": 24217,
+        "flow_ny_to_fl": 39747,
         "flow_il_to_fl": 12861.5,
-        "flow_ca_to_az": 21344.0
+        "flow_ca_to_az": 21344
       },
       "zscores": {
         "flow_ca_to_tx": -0.474,
@@ -2065,7 +2065,7 @@
     {
       "date": "2015-02-01",
       "values": {
-        "flow_ca_to_tx": 24153.0,
+        "flow_ca_to_tx": 24153,
         "flow_ny_to_fl": 40305.333,
         "flow_il_to_fl": 13214.25,
         "flow_ca_to_az": 21193.667
@@ -2081,9 +2081,9 @@
     {
       "date": "2015-03-01",
       "values": {
-        "flow_ca_to_tx": 24089.0,
+        "flow_ca_to_tx": 24089,
         "flow_ny_to_fl": 40863.667,
-        "flow_il_to_fl": 13567.0,
+        "flow_il_to_fl": 13567,
         "flow_ca_to_az": 21043.333
       },
       "zscores": {
@@ -2097,10 +2097,10 @@
     {
       "date": "2015-04-01",
       "values": {
-        "flow_ca_to_tx": 24025.0,
-        "flow_ny_to_fl": 41422.0,
+        "flow_ca_to_tx": 24025,
+        "flow_ny_to_fl": 41422,
         "flow_il_to_fl": 13919.75,
-        "flow_ca_to_az": 20893.0
+        "flow_ca_to_az": 20893
       },
       "zscores": {
         "flow_ca_to_tx": -0.639,
@@ -2113,7 +2113,7 @@
     {
       "date": "2015-05-01",
       "values": {
-        "flow_ca_to_tx": 23961.0,
+        "flow_ca_to_tx": 23961,
         "flow_ny_to_fl": 41980.333,
         "flow_il_to_fl": 14272.5,
         "flow_ca_to_az": 20742.667
@@ -2129,7 +2129,7 @@
     {
       "date": "2015-06-01",
       "values": {
-        "flow_ca_to_tx": 23897.0,
+        "flow_ca_to_tx": 23897,
         "flow_ny_to_fl": 42538.667,
         "flow_il_to_fl": 14625.25,
         "flow_ca_to_az": 20592.333
@@ -2145,10 +2145,10 @@
     {
       "date": "2015-07-01",
       "values": {
-        "flow_ca_to_tx": 23833.0,
-        "flow_ny_to_fl": 43097.0,
-        "flow_il_to_fl": 14978.0,
-        "flow_ca_to_az": 20442.0
+        "flow_ca_to_tx": 23833,
+        "flow_ny_to_fl": 43097,
+        "flow_il_to_fl": 14978,
+        "flow_ca_to_az": 20442
       },
       "zscores": {
         "flow_ca_to_tx": -0.871,
@@ -2163,7 +2163,7 @@
       "values": {
         "flow_ca_to_tx": 24416.583,
         "flow_ny_to_fl": 42585.333,
-        "flow_il_to_fl": 14588.0,
+        "flow_il_to_fl": 14588,
         "flow_ca_to_az": 21321.75
       },
       "zscores": {
@@ -2179,7 +2179,7 @@
       "values": {
         "flow_ca_to_tx": 25000.167,
         "flow_ny_to_fl": 42073.667,
-        "flow_il_to_fl": 14198.0,
+        "flow_il_to_fl": 14198,
         "flow_ca_to_az": 22201.5
       },
       "zscores": {
@@ -2194,8 +2194,8 @@
       "date": "2015-10-01",
       "values": {
         "flow_ca_to_tx": 25583.75,
-        "flow_ny_to_fl": 41562.0,
-        "flow_il_to_fl": 13808.0,
+        "flow_ny_to_fl": 41562,
+        "flow_il_to_fl": 13808,
         "flow_ca_to_az": 23081.25
       },
       "zscores": {
@@ -2211,8 +2211,8 @@
       "values": {
         "flow_ca_to_tx": 26167.333,
         "flow_ny_to_fl": 41050.333,
-        "flow_il_to_fl": 13418.0,
-        "flow_ca_to_az": 23961.0
+        "flow_il_to_fl": 13418,
+        "flow_ca_to_az": 23961
       },
       "zscores": {
         "flow_ca_to_tx": -0.307,
@@ -2227,7 +2227,7 @@
       "values": {
         "flow_ca_to_tx": 26750.917,
         "flow_ny_to_fl": 40538.667,
-        "flow_il_to_fl": 13028.0,
+        "flow_il_to_fl": 13028,
         "flow_ca_to_az": 24840.75
       },
       "zscores": {
@@ -2242,8 +2242,8 @@
       "date": "2016-01-01",
       "values": {
         "flow_ca_to_tx": 27334.5,
-        "flow_ny_to_fl": 40027.0,
-        "flow_il_to_fl": 12638.0,
+        "flow_ny_to_fl": 40027,
+        "flow_il_to_fl": 12638,
         "flow_ca_to_az": 25720.5
       },
       "zscores": {
@@ -2259,7 +2259,7 @@
       "values": {
         "flow_ca_to_tx": 27918.083,
         "flow_ny_to_fl": 39515.333,
-        "flow_il_to_fl": 12248.0,
+        "flow_il_to_fl": 12248,
         "flow_ca_to_az": 26600.25
       },
       "zscores": {
@@ -2275,8 +2275,8 @@
       "values": {
         "flow_ca_to_tx": 28501.667,
         "flow_ny_to_fl": 39003.667,
-        "flow_il_to_fl": 11858.0,
-        "flow_ca_to_az": 27480.0
+        "flow_il_to_fl": 11858,
+        "flow_ca_to_az": 27480
       },
       "zscores": {
         "flow_ca_to_tx": 0.423,
@@ -2290,8 +2290,8 @@
       "date": "2016-04-01",
       "values": {
         "flow_ca_to_tx": 29085.25,
-        "flow_ny_to_fl": 38492.0,
-        "flow_il_to_fl": 11468.0,
+        "flow_ny_to_fl": 38492,
+        "flow_il_to_fl": 11468,
         "flow_ca_to_az": 28359.75
       },
       "zscores": {
@@ -2307,7 +2307,7 @@
       "values": {
         "flow_ca_to_tx": 29668.833,
         "flow_ny_to_fl": 37980.333,
-        "flow_il_to_fl": 11078.0,
+        "flow_il_to_fl": 11078,
         "flow_ca_to_az": 29239.5
       },
       "zscores": {
@@ -2323,7 +2323,7 @@
       "values": {
         "flow_ca_to_tx": 30252.417,
         "flow_ny_to_fl": 37468.667,
-        "flow_il_to_fl": 10688.0,
+        "flow_il_to_fl": 10688,
         "flow_ca_to_az": 30119.25
       },
       "zscores": {
@@ -2337,10 +2337,10 @@
     {
       "date": "2016-07-01",
       "values": {
-        "flow_ca_to_tx": 30836.0,
-        "flow_ny_to_fl": 36957.0,
-        "flow_il_to_fl": 10298.0,
-        "flow_ca_to_az": 30999.0
+        "flow_ca_to_tx": 30836,
+        "flow_ny_to_fl": 36957,
+        "flow_il_to_fl": 10298,
+        "flow_ca_to_az": 30999
       },
       "zscores": {
         "flow_ca_to_tx": 1.404,
@@ -2354,7 +2354,7 @@
       "date": "2016-08-01",
       "values": {
         "flow_ca_to_tx": 30114.25,
-        "flow_ny_to_fl": 36842.0,
+        "flow_ny_to_fl": 36842,
         "flow_il_to_fl": 10949.667,
         "flow_ca_to_az": 31109.583
       },
@@ -2370,7 +2370,7 @@
       "date": "2016-09-01",
       "values": {
         "flow_ca_to_tx": 29392.5,
-        "flow_ny_to_fl": 36727.0,
+        "flow_ny_to_fl": 36727,
         "flow_il_to_fl": 11601.333,
         "flow_ca_to_az": 31220.167
       },
@@ -2386,8 +2386,8 @@
       "date": "2016-10-01",
       "values": {
         "flow_ca_to_tx": 28670.75,
-        "flow_ny_to_fl": 36612.0,
-        "flow_il_to_fl": 12253.0,
+        "flow_ny_to_fl": 36612,
+        "flow_il_to_fl": 12253,
         "flow_ca_to_az": 31330.75
       },
       "zscores": {
@@ -2401,8 +2401,8 @@
     {
       "date": "2016-11-01",
       "values": {
-        "flow_ca_to_tx": 27949.0,
-        "flow_ny_to_fl": 36497.0,
+        "flow_ca_to_tx": 27949,
+        "flow_ny_to_fl": 36497,
         "flow_il_to_fl": 12904.667,
         "flow_ca_to_az": 31441.333
       },
@@ -2418,7 +2418,7 @@
       "date": "2016-12-01",
       "values": {
         "flow_ca_to_tx": 27227.25,
-        "flow_ny_to_fl": 36382.0,
+        "flow_ny_to_fl": 36382,
         "flow_il_to_fl": 13556.333,
         "flow_ca_to_az": 31551.917
       },
@@ -2434,8 +2434,8 @@
       "date": "2017-01-01",
       "values": {
         "flow_ca_to_tx": 26505.5,
-        "flow_ny_to_fl": 36267.0,
-        "flow_il_to_fl": 14208.0,
+        "flow_ny_to_fl": 36267,
+        "flow_il_to_fl": 14208,
         "flow_ca_to_az": 31662.5
       },
       "zscores": {
@@ -2450,7 +2450,7 @@
       "date": "2017-02-01",
       "values": {
         "flow_ca_to_tx": 25783.75,
-        "flow_ny_to_fl": 36152.0,
+        "flow_ny_to_fl": 36152,
         "flow_il_to_fl": 14859.667,
         "flow_ca_to_az": 31773.083
       },
@@ -2465,8 +2465,8 @@
     {
       "date": "2017-03-01",
       "values": {
-        "flow_ca_to_tx": 25062.0,
-        "flow_ny_to_fl": 36037.0,
+        "flow_ca_to_tx": 25062,
+        "flow_ny_to_fl": 36037,
         "flow_il_to_fl": 15511.333,
         "flow_ca_to_az": 31883.667
       },
@@ -2482,8 +2482,8 @@
       "date": "2017-04-01",
       "values": {
         "flow_ca_to_tx": 24340.25,
-        "flow_ny_to_fl": 35922.0,
-        "flow_il_to_fl": 16163.0,
+        "flow_ny_to_fl": 35922,
+        "flow_il_to_fl": 16163,
         "flow_ca_to_az": 31994.25
       },
       "zscores": {
@@ -2498,7 +2498,7 @@
       "date": "2017-05-01",
       "values": {
         "flow_ca_to_tx": 23618.5,
-        "flow_ny_to_fl": 35807.0,
+        "flow_ny_to_fl": 35807,
         "flow_il_to_fl": 16814.667,
         "flow_ca_to_az": 32104.833
       },
@@ -2514,7 +2514,7 @@
       "date": "2017-06-01",
       "values": {
         "flow_ca_to_tx": 22896.75,
-        "flow_ny_to_fl": 35692.0,
+        "flow_ny_to_fl": 35692,
         "flow_il_to_fl": 17466.333,
         "flow_ca_to_az": 32215.417
       },
@@ -2529,10 +2529,10 @@
     {
       "date": "2017-07-01",
       "values": {
-        "flow_ca_to_tx": 22175.0,
-        "flow_ny_to_fl": 35577.0,
-        "flow_il_to_fl": 18118.0,
-        "flow_ca_to_az": 32326.0
+        "flow_ca_to_tx": 22175,
+        "flow_ny_to_fl": 35577,
+        "flow_il_to_fl": 18118,
+        "flow_ca_to_az": 32326
       },
       "zscores": {
         "flow_ca_to_tx": -1.636,
@@ -2546,9 +2546,9 @@
       "date": "2017-08-01",
       "values": {
         "flow_ca_to_tx": 24356.583,
-        "flow_ny_to_fl": 35858.0,
+        "flow_ny_to_fl": 35858,
         "flow_il_to_fl": 17779.917,
-        "flow_ca_to_az": 32536.0
+        "flow_ca_to_az": 32536
       },
       "zscores": {
         "flow_ca_to_tx": -0.696,
@@ -2562,9 +2562,9 @@
       "date": "2017-09-01",
       "values": {
         "flow_ca_to_tx": 26538.167,
-        "flow_ny_to_fl": 36139.0,
+        "flow_ny_to_fl": 36139,
         "flow_il_to_fl": 17441.833,
-        "flow_ca_to_az": 32746.0
+        "flow_ca_to_az": 32746
       },
       "zscores": {
         "flow_ca_to_tx": 0.216,
@@ -2578,9 +2578,9 @@
       "date": "2017-10-01",
       "values": {
         "flow_ca_to_tx": 28719.75,
-        "flow_ny_to_fl": 36420.0,
+        "flow_ny_to_fl": 36420,
         "flow_il_to_fl": 17103.75,
-        "flow_ca_to_az": 32956.0
+        "flow_ca_to_az": 32956
       },
       "zscores": {
         "flow_ca_to_tx": 1.093,
@@ -2594,9 +2594,9 @@
       "date": "2017-11-01",
       "values": {
         "flow_ca_to_tx": 30901.333,
-        "flow_ny_to_fl": 36701.0,
+        "flow_ny_to_fl": 36701,
         "flow_il_to_fl": 16765.667,
-        "flow_ca_to_az": 33166.0
+        "flow_ca_to_az": 33166
       },
       "zscores": {
         "flow_ca_to_tx": 1.863,
@@ -2610,9 +2610,9 @@
       "date": "2017-12-01",
       "values": {
         "flow_ca_to_tx": 33082.917,
-        "flow_ny_to_fl": 36982.0,
+        "flow_ny_to_fl": 36982,
         "flow_il_to_fl": 16427.583,
-        "flow_ca_to_az": 33376.0
+        "flow_ca_to_az": 33376
       },
       "zscores": {
         "flow_ca_to_tx": 2.442,
@@ -2626,9 +2626,9 @@
       "date": "2018-01-01",
       "values": {
         "flow_ca_to_tx": 35264.5,
-        "flow_ny_to_fl": 37263.0,
+        "flow_ny_to_fl": 37263,
         "flow_il_to_fl": 16089.5,
-        "flow_ca_to_az": 33586.0
+        "flow_ca_to_az": 33586
       },
       "zscores": {
         "flow_ca_to_tx": 2.803,
@@ -2642,9 +2642,9 @@
       "date": "2018-02-01",
       "values": {
         "flow_ca_to_tx": 37446.083,
-        "flow_ny_to_fl": 37544.0,
+        "flow_ny_to_fl": 37544,
         "flow_il_to_fl": 15751.417,
-        "flow_ca_to_az": 33796.0
+        "flow_ca_to_az": 33796
       },
       "zscores": {
         "flow_ca_to_tx": 2.981,
@@ -2658,9 +2658,9 @@
       "date": "2018-03-01",
       "values": {
         "flow_ca_to_tx": 39627.667,
-        "flow_ny_to_fl": 37825.0,
+        "flow_ny_to_fl": 37825,
         "flow_il_to_fl": 15413.333,
-        "flow_ca_to_az": 34006.0
+        "flow_ca_to_az": 34006
       },
       "zscores": {
         "flow_ca_to_tx": 3.036,
@@ -2674,9 +2674,9 @@
       "date": "2018-04-01",
       "values": {
         "flow_ca_to_tx": 41809.25,
-        "flow_ny_to_fl": 38106.0,
+        "flow_ny_to_fl": 38106,
         "flow_il_to_fl": 15075.25,
-        "flow_ca_to_az": 34216.0
+        "flow_ca_to_az": 34216
       },
       "zscores": {
         "flow_ca_to_tx": 3.018,
@@ -2690,9 +2690,9 @@
       "date": "2018-05-01",
       "values": {
         "flow_ca_to_tx": 43990.833,
-        "flow_ny_to_fl": 38387.0,
+        "flow_ny_to_fl": 38387,
         "flow_il_to_fl": 14737.167,
-        "flow_ca_to_az": 34426.0
+        "flow_ca_to_az": 34426
       },
       "zscores": {
         "flow_ca_to_tx": 2.962,
@@ -2706,9 +2706,9 @@
       "date": "2018-06-01",
       "values": {
         "flow_ca_to_tx": 46172.417,
-        "flow_ny_to_fl": 38668.0,
+        "flow_ny_to_fl": 38668,
         "flow_il_to_fl": 14399.083,
-        "flow_ca_to_az": 34636.0
+        "flow_ca_to_az": 34636
       },
       "zscores": {
         "flow_ca_to_tx": 2.887,
@@ -2721,10 +2721,10 @@
     {
       "date": "2018-07-01",
       "values": {
-        "flow_ca_to_tx": 48354.0,
-        "flow_ny_to_fl": 38949.0,
-        "flow_il_to_fl": 14061.0,
-        "flow_ca_to_az": 34846.0
+        "flow_ca_to_tx": 48354,
+        "flow_ny_to_fl": 38949,
+        "flow_il_to_fl": 14061,
+        "flow_ca_to_az": 34846
       },
       "zscores": {
         "flow_ca_to_tx": 2.805,
@@ -2755,7 +2755,7 @@
       "values": {
         "flow_ca_to_tx": 47823.667,
         "flow_ny_to_fl": 38876.167,
-        "flow_il_to_fl": 13366.0,
+        "flow_il_to_fl": 13366,
         "flow_ca_to_az": 34286.167
       },
       "zscores": {
@@ -2787,7 +2787,7 @@
       "values": {
         "flow_ca_to_tx": 47293.333,
         "flow_ny_to_fl": 38803.333,
-        "flow_il_to_fl": 12671.0,
+        "flow_il_to_fl": 12671,
         "flow_ca_to_az": 33726.333
       },
       "zscores": {
@@ -2817,9 +2817,9 @@
     {
       "date": "2019-01-01",
       "values": {
-        "flow_ca_to_tx": 46763.0,
+        "flow_ca_to_tx": 46763,
         "flow_ny_to_fl": 38730.5,
-        "flow_il_to_fl": 11976.0,
+        "flow_il_to_fl": 11976,
         "flow_ca_to_az": 33166.5
       },
       "zscores": {
@@ -2851,7 +2851,7 @@
       "values": {
         "flow_ca_to_tx": 46232.667,
         "flow_ny_to_fl": 38657.667,
-        "flow_il_to_fl": 11281.0,
+        "flow_il_to_fl": 11281,
         "flow_ca_to_az": 32606.667
       },
       "zscores": {
@@ -2883,7 +2883,7 @@
       "values": {
         "flow_ca_to_tx": 45702.333,
         "flow_ny_to_fl": 38584.833,
-        "flow_il_to_fl": 10586.0,
+        "flow_il_to_fl": 10586,
         "flow_ca_to_az": 32046.833
       },
       "zscores": {
@@ -2913,10 +2913,10 @@
     {
       "date": "2019-07-01",
       "values": {
-        "flow_ca_to_tx": 45172.0,
-        "flow_ny_to_fl": 38512.0,
-        "flow_il_to_fl": 9891.0,
-        "flow_ca_to_az": 31487.0
+        "flow_ca_to_tx": 45172,
+        "flow_ny_to_fl": 38512,
+        "flow_il_to_fl": 9891,
+        "flow_ca_to_az": 31487
       },
       "zscores": {
         "flow_ca_to_tx": 0.921,
@@ -2964,7 +2964,7 @@
         "flow_ca_to_tx": 48771.625,
         "flow_ny_to_fl": 42112.25,
         "flow_il_to_fl": 11581.375,
-        "flow_ca_to_az": 32799.0
+        "flow_ca_to_az": 32799
       },
       "zscores": {
         "flow_ca_to_tx": 1.114,
@@ -3012,7 +3012,7 @@
         "flow_ca_to_tx": 52371.25,
         "flow_ny_to_fl": 45712.5,
         "flow_il_to_fl": 13271.75,
-        "flow_ca_to_az": 34111.0
+        "flow_ca_to_az": 34111
       },
       "zscores": {
         "flow_ca_to_tx": 1.27,
@@ -3041,7 +3041,7 @@
     {
       "date": "2020-03-01",
       "values": {
-        "flow_ca_to_tx": 54771.0,
+        "flow_ca_to_tx": 54771,
         "flow_ny_to_fl": 48112.667,
         "flow_il_to_fl": 14398.667,
         "flow_ca_to_az": 34985.667
@@ -3060,7 +3060,7 @@
         "flow_ca_to_tx": 55970.875,
         "flow_ny_to_fl": 49312.75,
         "flow_il_to_fl": 14962.125,
-        "flow_ca_to_az": 35423.0
+        "flow_ca_to_az": 35423
       },
       "zscores": {
         "flow_ca_to_tx": 1.429,
@@ -3106,9 +3106,9 @@
       "date": "2020-07-01",
       "values": {
         "flow_ca_to_tx": 59570.5,
-        "flow_ny_to_fl": 52913.0,
+        "flow_ny_to_fl": 52913,
         "flow_il_to_fl": 16652.5,
-        "flow_ca_to_az": 36735.0
+        "flow_ca_to_az": 36735
       },
       "zscores": {
         "flow_ca_to_tx": 1.682,
@@ -3156,7 +3156,7 @@
         "flow_ca_to_tx": 63170.125,
         "flow_ny_to_fl": 56513.25,
         "flow_il_to_fl": 18342.875,
-        "flow_ca_to_az": 38047.0
+        "flow_ca_to_az": 38047
       },
       "zscores": {
         "flow_ca_to_tx": 1.981,
@@ -3169,7 +3169,7 @@
     {
       "date": "2020-11-01",
       "values": {
-        "flow_ca_to_tx": 64370.0,
+        "flow_ca_to_tx": 64370,
         "flow_ny_to_fl": 57713.333,
         "flow_il_to_fl": 18906.333,
         "flow_ca_to_az": 38484.333
@@ -3204,7 +3204,7 @@
         "flow_ca_to_tx": 66769.75,
         "flow_ny_to_fl": 60113.5,
         "flow_il_to_fl": 20033.25,
-        "flow_ca_to_az": 39359.0
+        "flow_ca_to_az": 39359
       },
       "zscores": {
         "flow_ca_to_tx": 2.133,
@@ -3252,7 +3252,7 @@
         "flow_ca_to_tx": 70369.375,
         "flow_ny_to_fl": 63713.75,
         "flow_il_to_fl": 21723.625,
-        "flow_ca_to_az": 40671.0
+        "flow_ca_to_az": 40671
       },
       "zscores": {
         "flow_ca_to_tx": 2.094,
@@ -3297,10 +3297,10 @@
     {
       "date": "2021-07-01",
       "values": {
-        "flow_ca_to_tx": 73969.0,
-        "flow_ny_to_fl": 67314.0,
-        "flow_il_to_fl": 23414.0,
-        "flow_ca_to_az": 41983.0
+        "flow_ca_to_tx": 73969,
+        "flow_ny_to_fl": 67314,
+        "flow_il_to_fl": 23414,
+        "flow_ca_to_az": 41983
       },
       "zscores": {
         "flow_ca_to_tx": 1.963,
@@ -3334,7 +3334,7 @@
     {
       "date": "2021-09-01",
       "values": {
-        "flow_ca_to_tx": 71668.0,
+        "flow_ca_to_tx": 71668,
         "flow_ny_to_fl": 67745.167,
         "flow_il_to_fl": 23042.333,
         "flow_ca_to_az": 42776.667
@@ -3366,7 +3366,7 @@
     {
       "date": "2021-11-01",
       "values": {
-        "flow_ca_to_tx": 69367.0,
+        "flow_ca_to_tx": 69367,
         "flow_ny_to_fl": 68176.333,
         "flow_il_to_fl": 22670.667,
         "flow_ca_to_az": 43570.333
@@ -3398,10 +3398,10 @@
     {
       "date": "2022-01-01",
       "values": {
-        "flow_ca_to_tx": 67066.0,
+        "flow_ca_to_tx": 67066,
         "flow_ny_to_fl": 68607.5,
-        "flow_il_to_fl": 22299.0,
-        "flow_ca_to_az": 44364.0
+        "flow_il_to_fl": 22299,
+        "flow_ca_to_az": 44364
       },
       "zscores": {
         "flow_ca_to_tx": 0.78,
@@ -3430,7 +3430,7 @@
     {
       "date": "2022-03-01",
       "values": {
-        "flow_ca_to_tx": 64765.0,
+        "flow_ca_to_tx": 64765,
         "flow_ny_to_fl": 69038.667,
         "flow_il_to_fl": 21927.333,
         "flow_ca_to_az": 45157.667
@@ -3462,7 +3462,7 @@
     {
       "date": "2022-05-01",
       "values": {
-        "flow_ca_to_tx": 62464.0,
+        "flow_ca_to_tx": 62464,
         "flow_ny_to_fl": 69469.833,
         "flow_il_to_fl": 21555.667,
         "flow_ca_to_az": 45951.333
@@ -3494,10 +3494,10 @@
     {
       "date": "2022-07-01",
       "values": {
-        "flow_ca_to_tx": 60163.0,
-        "flow_ny_to_fl": 69901.0,
-        "flow_il_to_fl": 21184.0,
-        "flow_ca_to_az": 46745.0
+        "flow_ca_to_tx": 60163,
+        "flow_ny_to_fl": 69901,
+        "flow_il_to_fl": 21184,
+        "flow_ca_to_az": 46745
       },
       "zscores": {
         "flow_ca_to_tx": -0.273,
@@ -3543,7 +3543,7 @@
       "date": "2022-10-01",
       "values": {
         "flow_ca_to_tx": 58931.75,
-        "flow_ny_to_fl": 64023.0,
+        "flow_ny_to_fl": 64023,
         "flow_il_to_fl": 17890.25,
         "flow_ca_to_az": 43326.25
       },
@@ -3591,7 +3591,7 @@
       "date": "2023-01-01",
       "values": {
         "flow_ca_to_tx": 57700.5,
-        "flow_ny_to_fl": 58145.0,
+        "flow_ny_to_fl": 58145,
         "flow_il_to_fl": 14596.5,
         "flow_ca_to_az": 39907.5
       },
@@ -3639,7 +3639,7 @@
       "date": "2023-04-01",
       "values": {
         "flow_ca_to_tx": 56469.25,
-        "flow_ny_to_fl": 52267.0,
+        "flow_ny_to_fl": 52267,
         "flow_il_to_fl": 11302.75,
         "flow_ca_to_az": 36488.75
       },
@@ -3686,10 +3686,10 @@
     {
       "date": "2023-07-01",
       "values": {
-        "flow_ca_to_tx": 55238.0,
-        "flow_ny_to_fl": 46389.0,
-        "flow_il_to_fl": 8009.0,
-        "flow_ca_to_az": 33070.0
+        "flow_ca_to_tx": 55238,
+        "flow_ny_to_fl": 46389,
+        "flow_il_to_fl": 8009,
+        "flow_ca_to_az": 33070
       },
       "zscores": {
         "flow_ca_to_tx": -1.522,
@@ -3703,7 +3703,7 @@
       "date": "2023-08-01",
       "values": {
         "flow_ca_to_tx": 53277.667,
-        "flow_ny_to_fl": 44405.0,
+        "flow_ny_to_fl": 44405,
         "flow_il_to_fl": 8313.167,
         "flow_ca_to_az": 32331.583
       },
@@ -3719,7 +3719,7 @@
       "date": "2023-09-01",
       "values": {
         "flow_ca_to_tx": 51317.333,
-        "flow_ny_to_fl": 42421.0,
+        "flow_ny_to_fl": 42421,
         "flow_il_to_fl": 8617.333,
         "flow_ca_to_az": 31593.167
       },
@@ -3734,8 +3734,8 @@
     {
       "date": "2023-10-01",
       "values": {
-        "flow_ca_to_tx": 49357.0,
-        "flow_ny_to_fl": 40437.0,
+        "flow_ca_to_tx": 49357,
+        "flow_ny_to_fl": 40437,
         "flow_il_to_fl": 8921.5,
         "flow_ca_to_az": 30854.75
       },
@@ -3751,7 +3751,7 @@
       "date": "2023-11-01",
       "values": {
         "flow_ca_to_tx": 47396.667,
-        "flow_ny_to_fl": 38453.0,
+        "flow_ny_to_fl": 38453,
         "flow_il_to_fl": 9225.667,
         "flow_ca_to_az": 30116.333
       },
@@ -3767,7 +3767,7 @@
       "date": "2023-12-01",
       "values": {
         "flow_ca_to_tx": 45436.333,
-        "flow_ny_to_fl": 36469.0,
+        "flow_ny_to_fl": 36469,
         "flow_il_to_fl": 9529.833,
         "flow_ca_to_az": 29377.917
       },
@@ -3782,9 +3782,9 @@
     {
       "date": "2024-01-01",
       "values": {
-        "flow_ca_to_tx": 43476.0,
-        "flow_ny_to_fl": 34485.0,
-        "flow_il_to_fl": 9834.0,
+        "flow_ca_to_tx": 43476,
+        "flow_ny_to_fl": 34485,
+        "flow_il_to_fl": 9834,
         "flow_ca_to_az": 28639.5
       },
       "zscores": {
@@ -3799,7 +3799,7 @@
       "date": "2024-02-01",
       "values": {
         "flow_ca_to_tx": 41515.667,
-        "flow_ny_to_fl": 32501.0,
+        "flow_ny_to_fl": 32501,
         "flow_il_to_fl": 10138.167,
         "flow_ca_to_az": 27901.083
       },
@@ -3815,7 +3815,7 @@
       "date": "2024-03-01",
       "values": {
         "flow_ca_to_tx": 39555.333,
-        "flow_ny_to_fl": 30517.0,
+        "flow_ny_to_fl": 30517,
         "flow_il_to_fl": 10442.333,
         "flow_ca_to_az": 27162.667
       },
@@ -3830,8 +3830,8 @@
     {
       "date": "2024-04-01",
       "values": {
-        "flow_ca_to_tx": 37595.0,
-        "flow_ny_to_fl": 28533.0,
+        "flow_ca_to_tx": 37595,
+        "flow_ny_to_fl": 28533,
         "flow_il_to_fl": 10746.5,
         "flow_ca_to_az": 26424.25
       },
@@ -3847,7 +3847,7 @@
       "date": "2024-05-01",
       "values": {
         "flow_ca_to_tx": 35634.667,
-        "flow_ny_to_fl": 26549.0,
+        "flow_ny_to_fl": 26549,
         "flow_il_to_fl": 11050.667,
         "flow_ca_to_az": 25685.833
       },
@@ -3863,7 +3863,7 @@
       "date": "2024-06-01",
       "values": {
         "flow_ca_to_tx": 33674.333,
-        "flow_ny_to_fl": 24565.0,
+        "flow_ny_to_fl": 24565,
         "flow_il_to_fl": 11354.833,
         "flow_ca_to_az": 24947.417
       },
@@ -3878,10 +3878,10 @@
     {
       "date": "2024-07-01",
       "values": {
-        "flow_ca_to_tx": 31714.0,
-        "flow_ny_to_fl": 22581.0,
-        "flow_il_to_fl": 11659.0,
-        "flow_ca_to_az": 24209.0
+        "flow_ca_to_tx": 31714,
+        "flow_ny_to_fl": 22581,
+        "flow_il_to_fl": 11659,
+        "flow_ca_to_az": 24209
       },
       "zscores": {
         "flow_ca_to_tx": -2.178,
@@ -3920,7 +3920,7 @@
         "title": "2024: The Wave Cools",
         "description": "Net moves fell sharply: California to Texas about 32,000 (77,000 moved there, 45,000 moved back) and New York to Florida about 23,000.",
         "significance": "Higher home prices and insurance costs in Texas and Florida slowed the flow.",
-        "normalized_time": 1.0
+        "normalized_time": 1
       }
     ]
   }

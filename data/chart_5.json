@@ -5,7 +5,7 @@
     "title": "What America Buys Abroad, and What It Pays",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "Census/BEA"
@@ -202,8 +202,8 @@
         "import_price_idx": 104.6
       },
       "zscores": {
-        "import_volume": 0.0,
-        "import_price_idx": 0.0
+        "import_volume": 0,
+        "import_price_idx": 0
       },
       "events": []
     },
@@ -214,8 +214,8 @@
         "import_price_idx": 105.5
       },
       "zscores": {
-        "import_volume": 1.0,
-        "import_price_idx": 1.0
+        "import_volume": 1,
+        "import_price_idx": 1
       },
       "events": []
     },
@@ -547,7 +547,7 @@
       "date": "2007-06-01",
       "values": {
         "import_volume": 165.28,
-        "import_price_idx": 120.0
+        "import_price_idx": 120
       },
       "zscores": {
         "import_volume": 1.423,
@@ -715,7 +715,7 @@
       "date": "2008-08-01",
       "values": {
         "import_volume": 189.366,
-        "import_price_idx": 143.0
+        "import_price_idx": 143
       },
       "zscores": {
         "import_volume": 1.825,
@@ -751,7 +751,7 @@
       "date": "2008-11-01",
       "values": {
         "import_volume": 152.703,
-        "import_price_idx": 120.0
+        "import_price_idx": 120
       },
       "zscores": {
         "import_volume": -1.14,
@@ -780,7 +780,7 @@
       "date": "2009-01-01",
       "values": {
         "import_volume": 130.87,
-        "import_price_idx": 113.0
+        "import_price_idx": 113
       },
       "zscores": {
         "import_volume": -2.477,
@@ -792,7 +792,7 @@
       "date": "2009-02-01",
       "values": {
         "import_volume": 123.402,
-        "import_price_idx": 113.0
+        "import_price_idx": 113
       },
       "zscores": {
         "import_volume": -2.677,
@@ -840,7 +840,7 @@
       "date": "2009-06-01",
       "values": {
         "import_volume": 123.788,
-        "import_price_idx": 120.0
+        "import_price_idx": 120
       },
       "zscores": {
         "import_volume": -1.838,
@@ -1056,7 +1056,7 @@
       "date": "2010-12-01",
       "values": {
         "import_volume": 173.155,
-        "import_price_idx": 131.0
+        "import_price_idx": 131
       },
       "zscores": {
         "import_volume": 0.713,
@@ -1068,7 +1068,7 @@
       "date": "2011-01-01",
       "values": {
         "import_volume": 181.172,
-        "import_price_idx": 133.0
+        "import_price_idx": 133
       },
       "zscores": {
         "import_volume": 1.065,
@@ -1260,7 +1260,7 @@
       "date": "2012-05-01",
       "values": {
         "import_volume": 193.313,
-        "import_price_idx": 142.0
+        "import_price_idx": 142
       },
       "zscores": {
         "import_volume": 1.122,
@@ -1584,7 +1584,7 @@
       "date": "2014-08-01",
       "values": {
         "import_volume": 198.438,
-        "import_price_idx": 139.0
+        "import_price_idx": 139
       },
       "zscores": {
         "import_volume": 1.361,
@@ -1608,7 +1608,7 @@
       "date": "2014-10-01",
       "values": {
         "import_volume": 200.191,
-        "import_price_idx": 136.0
+        "import_price_idx": 136
       },
       "zscores": {
         "import_volume": 1.57,
@@ -1644,7 +1644,7 @@
       "date": "2015-01-01",
       "values": {
         "import_volume": 192.301,
-        "import_price_idx": 126.0
+        "import_price_idx": 126
       },
       "zscores": {
         "import_volume": -0.38,
@@ -1756,7 +1756,7 @@
       },
       "zscores": {
         "import_volume": -1.658,
-        "import_price_idx": -2.0
+        "import_price_idx": -2
       },
       "events": []
     },
@@ -2268,7 +2268,7 @@
       "date": "2019-05-01",
       "values": {
         "import_volume": 215.971,
-        "import_price_idx": 127.0
+        "import_price_idx": 127
       },
       "zscores": {
         "import_volume": 1.238,
@@ -2308,7 +2308,7 @@
       },
       "zscores": {
         "import_volume": 0.688,
-        "import_price_idx": 0.0
+        "import_price_idx": 0
       },
       "events": []
     },
@@ -2316,7 +2316,7 @@
       "date": "2019-09-01",
       "values": {
         "import_volume": 206.127,
-        "import_price_idx": 125.0
+        "import_price_idx": 125
       },
       "zscores": {
         "import_volume": 0.127,
@@ -2352,7 +2352,7 @@
       "date": "2019-12-01",
       "values": {
         "import_volume": 206.516,
-        "import_price_idx": 125.0
+        "import_price_idx": 125
       },
       "zscores": {
         "import_volume": 0.035,
@@ -2417,7 +2417,7 @@
       "date": "2020-05-01",
       "values": {
         "import_volume": 166.819,
-        "import_price_idx": 119.0
+        "import_price_idx": 119
       },
       "zscores": {
         "import_volume": -3.349,
@@ -2525,7 +2525,7 @@
       "date": "2021-02-01",
       "values": {
         "import_volume": 218.896,
-        "import_price_idx": 128.0
+        "import_price_idx": 128
       },
       "zscores": {
         "import_volume": 0.988,
@@ -2793,7 +2793,7 @@
     {
       "date": "2022-12-01",
       "values": {
-        "import_volume": 262.0,
+        "import_volume": 262,
         "import_price_idx": 141.8
       },
       "zscores": {
@@ -2818,7 +2818,7 @@
       "date": "2023-02-01",
       "values": {
         "import_volume": 259.377,
-        "import_price_idx": 141.0
+        "import_price_idx": 141
       },
       "zscores": {
         "import_volume": 0.622,
@@ -2902,7 +2902,7 @@
       "date": "2023-09-01",
       "values": {
         "import_volume": 260.406,
-        "import_price_idx": 141.0
+        "import_price_idx": 141
       },
       "zscores": {
         "import_volume": 0.393,
@@ -3147,7 +3147,7 @@
       "date": "2025-05-01",
       "values": {
         "import_volume": 274.558,
-        "import_price_idx": 141.0
+        "import_price_idx": 141
       },
       "zscores": {
         "import_volume": 0.073,
@@ -3183,7 +3183,7 @@
       "date": "2025-08-01",
       "values": {
         "import_volume": 266.587,
-        "import_price_idx": 141.0
+        "import_price_idx": 141
       },
       "zscores": {
         "import_volume": -0.307,
@@ -3207,7 +3207,7 @@
       "date": "2025-10-01",
       "values": {
         "import_volume": 261.178,
-        "import_price_idx": 141.0
+        "import_price_idx": 141
       },
       "zscores": {
         "import_volume": -0.562,

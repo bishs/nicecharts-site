@@ -5,7 +5,7 @@
     "title": "Who Gets the Biggest Raises?",
     "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
     "section_id": "section_c",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BLS"
     ],
@@ -221,10 +221,10 @@
         "wage_q4_highest": 4.225
       },
       "zscores": {
-        "wage_q1_lowest": 0.0,
-        "wage_q2_midlow": 0.0,
-        "wage_q3_midhigh": 0.0,
-        "wage_q4_highest": 0.0
+        "wage_q1_lowest": 0,
+        "wage_q2_midlow": 0,
+        "wage_q3_midhigh": 0,
+        "wage_q4_highest": 0
       },
       "events": []
     },
@@ -237,10 +237,10 @@
         "wage_q4_highest": 4.346
       },
       "zscores": {
-        "wage_q1_lowest": 1.0,
-        "wage_q2_midlow": 1.0,
-        "wage_q3_midhigh": 1.0,
-        "wage_q4_highest": 1.0
+        "wage_q1_lowest": 1,
+        "wage_q2_midlow": 1,
+        "wage_q3_midhigh": 1,
+        "wage_q4_highest": 1
       },
       "events": []
     },
@@ -887,7 +887,7 @@
     {
       "date": "2004-08-01",
       "values": {
-        "wage_q1_lowest": 1.0,
+        "wage_q1_lowest": 1,
         "wage_q2_midlow": 2.265,
         "wage_q3_midhigh": 1.946,
         "wage_q4_highest": 2.105
@@ -1704,7 +1704,7 @@
       "date": "2008-11-01",
       "values": {
         "wage_q1_lowest": 3.869,
-        "wage_q2_midlow": 4.0,
+        "wage_q2_midlow": 4,
         "wage_q3_midhigh": 4.255,
         "wage_q4_highest": 4.926
       },
@@ -2046,7 +2046,7 @@
       "values": {
         "wage_q1_lowest": 1.445,
         "wage_q2_midlow": 0.271,
-        "wage_q3_midhigh": 0.0,
+        "wage_q3_midhigh": 0,
         "wage_q4_highest": 0.697
       },
       "zscores": {
@@ -2258,7 +2258,7 @@
         "wage_q4_highest": 2.102
       },
       "zscores": {
-        "wage_q1_lowest": -0.0,
+        "wage_q1_lowest": 0,
         "wage_q2_midlow": -0.072,
         "wage_q3_midhigh": 0.398,
         "wage_q4_highest": 0.354
@@ -3331,7 +3331,7 @@
       },
       "zscores": {
         "wage_q1_lowest": 1.347,
-        "wage_q2_midlow": 2.0,
+        "wage_q2_midlow": 2,
         "wage_q3_midhigh": 1.601,
         "wage_q4_highest": 0.467
       },
@@ -3821,7 +3821,7 @@
       "date": "2019-11-01",
       "values": {
         "wage_q1_lowest": 5.18,
-        "wage_q2_midlow": 4.0,
+        "wage_q2_midlow": 4,
         "wage_q3_midhigh": 3.661,
         "wage_q4_highest": 3.549
       },

@@ -5,7 +5,7 @@
     "title": "Which Prices Are Rising the Fastest?",
     "section": "Section C: Labor Dynamics, Wages & Consumer Prices",
     "section_id": "section_c",
-    "visual_form": "Animated Bar Race with Year Counter",
+    "visual_form": "Bar race",
     "agencies": [
       "BLS"
     ],
@@ -240,12 +240,12 @@
         "cpi_medical": 1.984
       },
       "zscores": {
-        "cpi_energy": 0.0,
-        "cpi_used_cars": 0.0,
-        "cpi_food": 0.0,
-        "cpi_shelter": 0.0,
-        "cpi_transportation": 0.0,
-        "cpi_medical": 0.0
+        "cpi_energy": 0,
+        "cpi_used_cars": 0,
+        "cpi_food": 0,
+        "cpi_shelter": 0,
+        "cpi_transportation": 0,
+        "cpi_medical": 0
       },
       "events": []
     },
@@ -260,12 +260,12 @@
         "cpi_medical": 1.76
       },
       "zscores": {
-        "cpi_energy": 1.0,
-        "cpi_used_cars": 1.0,
-        "cpi_food": -1.0,
-        "cpi_shelter": -1.0,
-        "cpi_transportation": 1.0,
-        "cpi_medical": -1.0
+        "cpi_energy": 1,
+        "cpi_used_cars": 1,
+        "cpi_food": -1,
+        "cpi_shelter": -1,
+        "cpi_transportation": 1,
+        "cpi_medical": -1
       },
       "events": []
     },
@@ -674,7 +674,7 @@
       "values": {
         "cpi_energy": -0.59,
         "cpi_used_cars": -0.437,
-        "cpi_food": 2.0,
+        "cpi_food": 2,
         "cpi_shelter": 3.318,
         "cpi_transportation": -0.077,
         "cpi_medical": 4.242

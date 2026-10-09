@@ -5,7 +5,7 @@
     "title": "How the Center of America Moved West",
     "section": "Section D: Demographics, Real Estate & Urban Drift",
     "section_id": "section_d",
-    "visual_form": "Animated Map with Moving Center Point",
+    "visual_form": "Map with a moving center point",
     "agencies": [
       "Census"
     ],
@@ -178,8 +178,8 @@
       "key": "center_latitude",
       "agency": "Census",
       "series_id": "COP2020 Table 1",
-      "label": "Center Latitude (\u00b0North)",
-      "unit": "\u00b0N",
+      "label": "Center Latitude (°North)",
+      "unit": "°N",
       "transform": "raw",
       "color": "#38bdf8"
     },
@@ -187,8 +187,8 @@
       "key": "center_longitude",
       "agency": "Census",
       "series_id": "COP2020 Table 1",
-      "label": "Center Longitude (\u00b0West)",
-      "unit": "\u00b0W",
+      "label": "Center Longitude (°West)",
+      "unit": "°W",
       "transform": "raw",
       "color": "#f59e0b"
     },
@@ -217,14 +217,14 @@
       "values": {
         "center_latitude": 39.275,
         "center_longitude": 76.187,
-        "miles_west": 0.0,
-        "miles_south": 0.0
+        "miles_west": 0,
+        "miles_south": 0
       },
       "zscores": {
-        "center_latitude": 0.0,
-        "center_longitude": 0.0,
-        "miles_west": 0.0,
-        "miles_south": 0.0
+        "center_latitude": 0,
+        "center_longitude": 0,
+        "miles_west": 0,
+        "miles_south": 0
       },
       "events": [
         {
@@ -242,10 +242,10 @@
         "miles_south": 0.046
       },
       "zscores": {
-        "center_latitude": -1.0,
-        "center_longitude": 1.0,
-        "miles_west": 1.0,
-        "miles_south": 1.0
+        "center_latitude": -1,
+        "center_longitude": 1,
+        "miles_west": 1,
+        "miles_south": 1
       },
       "events": []
     },
@@ -1292,7 +1292,7 @@
     {
       "date": "1857-07-01",
       "values": {
-        "center_latitude": 39.0,
+        "center_latitude": 39,
         "center_longitude": 82.364,
         "miles_west": 331.433,
         "miles_south": 19.012
@@ -3952,7 +3952,7 @@
         "title": "2020: Wright County, Missouri",
         "description": "The 2020 center is near Hartville, Missouri, 877 miles west and 128 miles south of the 1790 point. Since 1950 the center has moved about 96 miles south, three times as far as in the 160 years before.",
         "significance": "America's growth has shifted from the West to the South and Southwest.",
-        "normalized_time": 1.0
+        "normalized_time": 1
       }
     ]
   }

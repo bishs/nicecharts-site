@@ -5,7 +5,7 @@
     "title": "Driving, Gasoline and Car Insurance",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Animated Cause-and-Effect Chain with Heat Stripes",
+    "visual_form": "Cause-and-effect chain",
     "agencies": [
       "BLS",
       "EIA",
@@ -208,13 +208,13 @@
       "date": "2000-01-01",
       "values": {
         "vehicle_miles": 203.442,
-        "gas_supplied": 7653.0,
+        "gas_supplied": 7653,
         "auto_insurance_cpi": 255.6
       },
       "zscores": {
-        "vehicle_miles": 0.0,
-        "gas_supplied": 0.0,
-        "auto_insurance_cpi": 0.0
+        "vehicle_miles": 0,
+        "gas_supplied": 0,
+        "auto_insurance_cpi": 0
       },
       "events": []
     },
@@ -222,13 +222,13 @@
       "date": "2000-02-01",
       "values": {
         "vehicle_miles": 199.261,
-        "gas_supplied": 8291.0,
+        "gas_supplied": 8291,
         "auto_insurance_cpi": 255.9
       },
       "zscores": {
-        "vehicle_miles": -1.0,
-        "gas_supplied": 1.0,
-        "auto_insurance_cpi": 1.0
+        "vehicle_miles": -1,
+        "gas_supplied": 1,
+        "auto_insurance_cpi": 1
       },
       "events": []
     },
@@ -236,8 +236,8 @@
       "date": "2000-03-01",
       "values": {
         "vehicle_miles": 232.49,
-        "gas_supplied": 8305.0,
-        "auto_insurance_cpi": 256.0
+        "gas_supplied": 8305,
+        "auto_insurance_cpi": 256
       },
       "zscores": {
         "vehicle_miles": 1.405,
@@ -250,7 +250,7 @@
       "date": "2000-04-01",
       "values": {
         "vehicle_miles": 227.698,
-        "gas_supplied": 8375.0,
+        "gas_supplied": 8375,
         "auto_insurance_cpi": 256.1
       },
       "zscores": {
@@ -264,7 +264,7 @@
       "date": "2000-05-01",
       "values": {
         "vehicle_miles": 242.501,
-        "gas_supplied": 8661.0,
+        "gas_supplied": 8661,
         "auto_insurance_cpi": 256.5
       },
       "zscores": {
@@ -278,7 +278,7 @@
       "date": "2000-06-01",
       "values": {
         "vehicle_miles": 242.963,
-        "gas_supplied": 8824.0,
+        "gas_supplied": 8824,
         "auto_insurance_cpi": 255.8
       },
       "zscores": {
@@ -292,7 +292,7 @@
       "date": "2000-07-01",
       "values": {
         "vehicle_miles": 245.14,
-        "gas_supplied": 8642.0,
+        "gas_supplied": 8642,
         "auto_insurance_cpi": 255.4
       },
       "zscores": {
@@ -306,7 +306,7 @@
       "date": "2000-08-01",
       "values": {
         "vehicle_miles": 247.832,
-        "gas_supplied": 8921.0,
+        "gas_supplied": 8921,
         "auto_insurance_cpi": 255.6
       },
       "zscores": {
@@ -320,7 +320,7 @@
       "date": "2000-09-01",
       "values": {
         "vehicle_miles": 227.899,
-        "gas_supplied": 8518.0,
+        "gas_supplied": 8518,
         "auto_insurance_cpi": 255.6
       },
       "zscores": {
@@ -334,7 +334,7 @@
       "date": "2000-10-01",
       "values": {
         "vehicle_miles": 236.491,
-        "gas_supplied": 8417.0,
+        "gas_supplied": 8417,
         "auto_insurance_cpi": 257.7
       },
       "zscores": {
@@ -348,8 +348,8 @@
       "date": "2000-11-01",
       "values": {
         "vehicle_miles": 222.819,
-        "gas_supplied": 8384.0,
-        "auto_insurance_cpi": 260.0
+        "gas_supplied": 8384,
+        "auto_insurance_cpi": 260
       },
       "zscores": {
         "vehicle_miles": -0.456,
@@ -362,7 +362,7 @@
       "date": "2000-12-01",
       "values": {
         "vehicle_miles": 218.39,
-        "gas_supplied": 8670.0,
+        "gas_supplied": 8670,
         "auto_insurance_cpi": 260.5
       },
       "zscores": {
@@ -376,7 +376,7 @@
       "date": "2001-01-01",
       "values": {
         "vehicle_miles": 209.685,
-        "gas_supplied": 8099.0,
+        "gas_supplied": 8099,
         "auto_insurance_cpi": 261.3
       },
       "zscores": {
@@ -390,7 +390,7 @@
       "date": "2001-02-01",
       "values": {
         "vehicle_miles": 200.876,
-        "gas_supplied": 8234.0,
+        "gas_supplied": 8234,
         "auto_insurance_cpi": 263.3
       },
       "zscores": {
@@ -404,7 +404,7 @@
       "date": "2001-03-01",
       "values": {
         "vehicle_miles": 232.587,
-        "gas_supplied": 8532.0,
+        "gas_supplied": 8532,
         "auto_insurance_cpi": 263.7
       },
       "zscores": {
@@ -418,7 +418,7 @@
       "date": "2001-04-01",
       "values": {
         "vehicle_miles": 232.513,
-        "gas_supplied": 8575.0,
+        "gas_supplied": 8575,
         "auto_insurance_cpi": 264.4
       },
       "zscores": {
@@ -432,7 +432,7 @@
       "date": "2001-05-01",
       "values": {
         "vehicle_miles": 245.357,
-        "gas_supplied": 8706.0,
+        "gas_supplied": 8706,
         "auto_insurance_cpi": 265.1
       },
       "zscores": {
@@ -446,7 +446,7 @@
       "date": "2001-06-01",
       "values": {
         "vehicle_miles": 243.498,
-        "gas_supplied": 8690.0,
+        "gas_supplied": 8690,
         "auto_insurance_cpi": 266.2
       },
       "zscores": {
@@ -460,7 +460,7 @@
       "date": "2001-07-01",
       "values": {
         "vehicle_miles": 250.363,
-        "gas_supplied": 9023.0,
+        "gas_supplied": 9023,
         "auto_insurance_cpi": 267.3
       },
       "zscores": {
@@ -474,8 +474,8 @@
       "date": "2001-08-01",
       "values": {
         "vehicle_miles": 253.274,
-        "gas_supplied": 8953.0,
-        "auto_insurance_cpi": 268.0
+        "gas_supplied": 8953,
+        "auto_insurance_cpi": 268
       },
       "zscores": {
         "vehicle_miles": 1.37,
@@ -488,7 +488,7 @@
       "date": "2001-09-01",
       "values": {
         "vehicle_miles": 226.312,
-        "gas_supplied": 8557.0,
+        "gas_supplied": 8557,
         "auto_insurance_cpi": 268.5
       },
       "zscores": {
@@ -502,7 +502,7 @@
       "date": "2001-10-01",
       "values": {
         "vehicle_miles": 241.05,
-        "gas_supplied": 8655.0,
+        "gas_supplied": 8655,
         "auto_insurance_cpi": 272.3
       },
       "zscores": {
@@ -516,7 +516,7 @@
       "date": "2001-11-01",
       "values": {
         "vehicle_miles": 230.511,
-        "gas_supplied": 8677.0,
+        "gas_supplied": 8677,
         "auto_insurance_cpi": 278.2
       },
       "zscores": {
@@ -530,7 +530,7 @@
       "date": "2001-12-01",
       "values": {
         "vehicle_miles": 229.584,
-        "gas_supplied": 8585.0,
+        "gas_supplied": 8585,
         "auto_insurance_cpi": 279.4
       },
       "zscores": {
@@ -544,7 +544,7 @@
       "date": "2002-01-01",
       "values": {
         "vehicle_miles": 215.215,
-        "gas_supplied": 8227.0,
+        "gas_supplied": 8227,
         "auto_insurance_cpi": 280.5
       },
       "zscores": {
@@ -558,7 +558,7 @@
       "date": "2002-02-01",
       "values": {
         "vehicle_miles": 208.237,
-        "gas_supplied": 8607.0,
+        "gas_supplied": 8607,
         "auto_insurance_cpi": 283.6
       },
       "zscores": {
@@ -572,7 +572,7 @@
       "date": "2002-03-01",
       "values": {
         "vehicle_miles": 236.07,
-        "gas_supplied": 8655.0,
+        "gas_supplied": 8655,
         "auto_insurance_cpi": 285.5
       },
       "zscores": {
@@ -586,7 +586,7 @@
       "date": "2002-04-01",
       "values": {
         "vehicle_miles": 237.226,
-        "gas_supplied": 8766.0,
+        "gas_supplied": 8766,
         "auto_insurance_cpi": 286.9
       },
       "zscores": {
@@ -600,7 +600,7 @@
       "date": "2002-05-01",
       "values": {
         "vehicle_miles": 251.746,
-        "gas_supplied": 9078.0,
+        "gas_supplied": 9078,
         "auto_insurance_cpi": 288.2
       },
       "zscores": {
@@ -614,7 +614,7 @@
       "date": "2002-06-01",
       "values": {
         "vehicle_miles": 247.868,
-        "gas_supplied": 9140.0,
+        "gas_supplied": 9140,
         "auto_insurance_cpi": 289.4
       },
       "zscores": {
@@ -628,8 +628,8 @@
       "date": "2002-07-01",
       "values": {
         "vehicle_miles": 256.392,
-        "gas_supplied": 9143.0,
-        "auto_insurance_cpi": 292.0
+        "gas_supplied": 9143,
+        "auto_insurance_cpi": 292
       },
       "zscores": {
         "vehicle_miles": 1.543,
@@ -642,7 +642,7 @@
       "date": "2002-08-01",
       "values": {
         "vehicle_miles": 258.666,
-        "gas_supplied": 9313.0,
+        "gas_supplied": 9313,
         "auto_insurance_cpi": 292.6
       },
       "zscores": {
@@ -656,7 +656,7 @@
       "date": "2002-09-01",
       "values": {
         "vehicle_miles": 233.625,
-        "gas_supplied": 8687.0,
+        "gas_supplied": 8687,
         "auto_insurance_cpi": 294.1
       },
       "zscores": {
@@ -670,7 +670,7 @@
       "date": "2002-10-01",
       "values": {
         "vehicle_miles": 245.556,
-        "gas_supplied": 8814.0,
+        "gas_supplied": 8814,
         "auto_insurance_cpi": 298.2
       },
       "zscores": {
@@ -684,7 +684,7 @@
       "date": "2002-11-01",
       "values": {
         "vehicle_miles": 230.648,
-        "gas_supplied": 8829.0,
+        "gas_supplied": 8829,
         "auto_insurance_cpi": 303.4
       },
       "zscores": {
@@ -698,7 +698,7 @@
       "date": "2002-12-01",
       "values": {
         "vehicle_miles": 234.26,
-        "gas_supplied": 8893.0,
+        "gas_supplied": 8893,
         "auto_insurance_cpi": 304.6
       },
       "zscores": {
@@ -712,7 +712,7 @@
       "date": "2003-01-01",
       "values": {
         "vehicle_miles": 218.534,
-        "gas_supplied": 8414.0,
+        "gas_supplied": 8414,
         "auto_insurance_cpi": 306.5
       },
       "zscores": {
@@ -726,7 +726,7 @@
       "date": "2003-02-01",
       "values": {
         "vehicle_miles": 203.677,
-        "gas_supplied": 8525.0,
+        "gas_supplied": 8525,
         "auto_insurance_cpi": 309.1
       },
       "zscores": {
@@ -740,7 +740,7 @@
       "date": "2003-03-01",
       "values": {
         "vehicle_miles": 236.679,
-        "gas_supplied": 8602.0,
+        "gas_supplied": 8602,
         "auto_insurance_cpi": 310.9
       },
       "zscores": {
@@ -754,7 +754,7 @@
       "date": "2003-04-01",
       "values": {
         "vehicle_miles": 239.415,
-        "gas_supplied": 8838.0,
+        "gas_supplied": 8838,
         "auto_insurance_cpi": 313.9
       },
       "zscores": {
@@ -768,7 +768,7 @@
       "date": "2003-05-01",
       "values": {
         "vehicle_miles": 253.244,
-        "gas_supplied": 9042.0,
+        "gas_supplied": 9042,
         "auto_insurance_cpi": 314.9
       },
       "zscores": {
@@ -782,7 +782,7 @@
       "date": "2003-06-01",
       "values": {
         "vehicle_miles": 252.145,
-        "gas_supplied": 9170.0,
+        "gas_supplied": 9170,
         "auto_insurance_cpi": 315.2
       },
       "zscores": {
@@ -796,7 +796,7 @@
       "date": "2003-07-01",
       "values": {
         "vehicle_miles": 262.105,
-        "gas_supplied": 9192.0,
+        "gas_supplied": 9192,
         "auto_insurance_cpi": 315.2
       },
       "zscores": {
@@ -810,7 +810,7 @@
       "date": "2003-08-01",
       "values": {
         "vehicle_miles": 260.687,
-        "gas_supplied": 9411.0,
+        "gas_supplied": 9411,
         "auto_insurance_cpi": 314.8
       },
       "zscores": {
@@ -824,7 +824,7 @@
       "date": "2003-09-01",
       "values": {
         "vehicle_miles": 237.451,
-        "gas_supplied": 8926.0,
+        "gas_supplied": 8926,
         "auto_insurance_cpi": 315.7
       },
       "zscores": {
@@ -838,7 +838,7 @@
       "date": "2003-10-01",
       "values": {
         "vehicle_miles": 254.048,
-        "gas_supplied": 9108.0,
+        "gas_supplied": 9108,
         "auto_insurance_cpi": 319.8
       },
       "zscores": {
@@ -852,7 +852,7 @@
       "date": "2003-11-01",
       "values": {
         "vehicle_miles": 233.698,
-        "gas_supplied": 8946.0,
+        "gas_supplied": 8946,
         "auto_insurance_cpi": 318.9
       },
       "zscores": {
@@ -866,7 +866,7 @@
       "date": "2003-12-01",
       "values": {
         "vehicle_miles": 238.538,
-        "gas_supplied": 9011.0,
+        "gas_supplied": 9011,
         "auto_insurance_cpi": 318.4
       },
       "zscores": {
@@ -880,7 +880,7 @@
       "date": "2004-01-01",
       "values": {
         "vehicle_miles": 222.45,
-        "gas_supplied": 8705.0,
+        "gas_supplied": 8705,
         "auto_insurance_cpi": 318.7
       },
       "zscores": {
@@ -894,7 +894,7 @@
       "date": "2004-02-01",
       "values": {
         "vehicle_miles": 213.709,
-        "gas_supplied": 8838.0,
+        "gas_supplied": 8838,
         "auto_insurance_cpi": 320.2
       },
       "zscores": {
@@ -908,7 +908,7 @@
       "date": "2004-03-01",
       "values": {
         "vehicle_miles": 251.403,
-        "gas_supplied": 9024.0,
+        "gas_supplied": 9024,
         "auto_insurance_cpi": 320.8
       },
       "zscores": {
@@ -922,7 +922,7 @@
       "date": "2004-04-01",
       "values": {
         "vehicle_miles": 250.968,
-        "gas_supplied": 9126.0,
+        "gas_supplied": 9126,
         "auto_insurance_cpi": 320.9
       },
       "zscores": {
@@ -936,7 +936,7 @@
       "date": "2004-05-01",
       "values": {
         "vehicle_miles": 257.235,
-        "gas_supplied": 9179.0,
+        "gas_supplied": 9179,
         "auto_insurance_cpi": 322.1
       },
       "zscores": {
@@ -950,7 +950,7 @@
       "date": "2004-06-01",
       "values": {
         "vehicle_miles": 257.383,
-        "gas_supplied": 9322.0,
+        "gas_supplied": 9322,
         "auto_insurance_cpi": 322.9
       },
       "zscores": {
@@ -964,7 +964,7 @@
       "date": "2004-07-01",
       "values": {
         "vehicle_miles": 265.969,
-        "gas_supplied": 9357.0,
+        "gas_supplied": 9357,
         "auto_insurance_cpi": 323.2
       },
       "zscores": {
@@ -978,7 +978,7 @@
       "date": "2004-08-01",
       "values": {
         "vehicle_miles": 262.836,
-        "gas_supplied": 9327.0,
+        "gas_supplied": 9327,
         "auto_insurance_cpi": 322.6
       },
       "zscores": {
@@ -992,7 +992,7 @@
       "date": "2004-09-01",
       "values": {
         "vehicle_miles": 243.515,
-        "gas_supplied": 9015.0,
+        "gas_supplied": 9015,
         "auto_insurance_cpi": 322.8
       },
       "zscores": {
@@ -1006,7 +1006,7 @@
       "date": "2004-10-01",
       "values": {
         "vehicle_miles": 254.496,
-        "gas_supplied": 9097.0,
+        "gas_supplied": 9097,
         "auto_insurance_cpi": 326.1
       },
       "zscores": {
@@ -1020,7 +1020,7 @@
       "date": "2004-11-01",
       "values": {
         "vehicle_miles": 239.796,
-        "gas_supplied": 9055.0,
+        "gas_supplied": 9055,
         "auto_insurance_cpi": 328.7
       },
       "zscores": {
@@ -1034,7 +1034,7 @@
       "date": "2004-12-01",
       "values": {
         "vehicle_miles": 245.029,
-        "gas_supplied": 9206.0,
+        "gas_supplied": 9206,
         "auto_insurance_cpi": 329.3
       },
       "zscores": {
@@ -1048,7 +1048,7 @@
       "date": "2005-01-01",
       "values": {
         "vehicle_miles": 224.072,
-        "gas_supplied": 8813.0,
+        "gas_supplied": 8813,
         "auto_insurance_cpi": 329.9
       },
       "zscores": {
@@ -1062,7 +1062,7 @@
       "date": "2005-02-01",
       "values": {
         "vehicle_miles": 219.97,
-        "gas_supplied": 8861.0,
+        "gas_supplied": 8861,
         "auto_insurance_cpi": 330.8
       },
       "zscores": {
@@ -1076,7 +1076,7 @@
       "date": "2005-03-01",
       "values": {
         "vehicle_miles": 253.182,
-        "gas_supplied": 8994.0,
+        "gas_supplied": 8994,
         "auto_insurance_cpi": 330.1
       },
       "zscores": {
@@ -1090,7 +1090,7 @@
       "date": "2005-04-01",
       "values": {
         "vehicle_miles": 250.86,
-        "gas_supplied": 9128.0,
+        "gas_supplied": 9128,
         "auto_insurance_cpi": 329.8
       },
       "zscores": {
@@ -1104,7 +1104,7 @@
       "date": "2005-05-01",
       "values": {
         "vehicle_miles": 262.678,
-        "gas_supplied": 9278.0,
+        "gas_supplied": 9278,
         "auto_insurance_cpi": 329.5
       },
       "zscores": {
@@ -1118,7 +1118,7 @@
       "date": "2005-06-01",
       "values": {
         "vehicle_miles": 263.816,
-        "gas_supplied": 9373.0,
+        "gas_supplied": 9373,
         "auto_insurance_cpi": 329.7
       },
       "zscores": {
@@ -1132,7 +1132,7 @@
       "date": "2005-07-01",
       "values": {
         "vehicle_miles": 267.025,
-        "gas_supplied": 9534.0,
+        "gas_supplied": 9534,
         "auto_insurance_cpi": 329.5
       },
       "zscores": {
@@ -1146,7 +1146,7 @@
       "date": "2005-08-01",
       "values": {
         "vehicle_miles": 265.323,
-        "gas_supplied": 9537.0,
+        "gas_supplied": 9537,
         "auto_insurance_cpi": 329.1
       },
       "zscores": {
@@ -1160,7 +1160,7 @@
       "date": "2005-09-01",
       "values": {
         "vehicle_miles": 242.24,
-        "gas_supplied": 8915.0,
+        "gas_supplied": 8915,
         "auto_insurance_cpi": 327.1
       },
       "zscores": {
@@ -1174,7 +1174,7 @@
       "date": "2005-10-01",
       "values": {
         "vehicle_miles": 251.419,
-        "gas_supplied": 9036.0,
+        "gas_supplied": 9036,
         "auto_insurance_cpi": 328.4
       },
       "zscores": {
@@ -1188,7 +1188,7 @@
       "date": "2005-11-01",
       "values": {
         "vehicle_miles": 243.056,
-        "gas_supplied": 9115.0,
+        "gas_supplied": 9115,
         "auto_insurance_cpi": 331.8
       },
       "zscores": {
@@ -1202,7 +1202,7 @@
       "date": "2005-12-01",
       "values": {
         "vehicle_miles": 245.787,
-        "gas_supplied": 9296.0,
+        "gas_supplied": 9296,
         "auto_insurance_cpi": 332.5
       },
       "zscores": {
@@ -1216,7 +1216,7 @@
       "date": "2006-01-01",
       "values": {
         "vehicle_miles": 233.282,
-        "gas_supplied": 8839.0,
+        "gas_supplied": 8839,
         "auto_insurance_cpi": 331.9
       },
       "zscores": {
@@ -1230,7 +1230,7 @@
       "date": "2006-02-01",
       "values": {
         "vehicle_miles": 220.711,
-        "gas_supplied": 8911.0,
+        "gas_supplied": 8911,
         "auto_insurance_cpi": 331.7
       },
       "zscores": {
@@ -1244,7 +1244,7 @@
       "date": "2006-03-01",
       "values": {
         "vehicle_miles": 256.623,
-        "gas_supplied": 9054.0,
+        "gas_supplied": 9054,
         "auto_insurance_cpi": 331.3
       },
       "zscores": {
@@ -1258,7 +1258,7 @@
       "date": "2006-04-01",
       "values": {
         "vehicle_miles": 250.644,
-        "gas_supplied": 9154.0,
+        "gas_supplied": 9154,
         "auto_insurance_cpi": 330.8
       },
       "zscores": {
@@ -1272,8 +1272,8 @@
       "date": "2006-05-01",
       "values": {
         "vehicle_miles": 263.37,
-        "gas_supplied": 9308.0,
-        "auto_insurance_cpi": 331.0
+        "gas_supplied": 9308,
+        "auto_insurance_cpi": 331
       },
       "zscores": {
         "vehicle_miles": 1.093,
@@ -1286,7 +1286,7 @@
       "date": "2006-06-01",
       "values": {
         "vehicle_miles": 263.782,
-        "gas_supplied": 9478.0,
+        "gas_supplied": 9478,
         "auto_insurance_cpi": 330.2
       },
       "zscores": {
@@ -1300,7 +1300,7 @@
       "date": "2006-07-01",
       "values": {
         "vehicle_miles": 263.421,
-        "gas_supplied": 9607.0,
+        "gas_supplied": 9607,
         "auto_insurance_cpi": 329.8
       },
       "zscores": {
@@ -1314,7 +1314,7 @@
       "date": "2006-08-01",
       "values": {
         "vehicle_miles": 265.206,
-        "gas_supplied": 9564.0,
+        "gas_supplied": 9564,
         "auto_insurance_cpi": 329.7
       },
       "zscores": {
@@ -1328,7 +1328,7 @@
       "date": "2006-09-01",
       "values": {
         "vehicle_miles": 245.605,
-        "gas_supplied": 9236.0,
+        "gas_supplied": 9236,
         "auto_insurance_cpi": 330.6
       },
       "zscores": {
@@ -1342,7 +1342,7 @@
       "date": "2006-10-01",
       "values": {
         "vehicle_miles": 257.939,
-        "gas_supplied": 9267.0,
+        "gas_supplied": 9267,
         "auto_insurance_cpi": 333.6
       },
       "zscores": {
@@ -1356,7 +1356,7 @@
       "date": "2006-11-01",
       "values": {
         "vehicle_miles": 245.346,
-        "gas_supplied": 9244.0,
+        "gas_supplied": 9244,
         "auto_insurance_cpi": 335.5
       },
       "zscores": {
@@ -1370,7 +1370,7 @@
       "date": "2006-12-01",
       "values": {
         "vehicle_miles": 248.187,
-        "gas_supplied": 9338.0,
+        "gas_supplied": 9338,
         "auto_insurance_cpi": 335.2
       },
       "zscores": {
@@ -1384,7 +1384,7 @@
       "date": "2007-01-01",
       "values": {
         "vehicle_miles": 233.621,
-        "gas_supplied": 8886.0,
+        "gas_supplied": 8886,
         "auto_insurance_cpi": 334.478
       },
       "zscores": {
@@ -1398,7 +1398,7 @@
       "date": "2007-02-01",
       "values": {
         "vehicle_miles": 219.232,
-        "gas_supplied": 9006.0,
+        "gas_supplied": 9006,
         "auto_insurance_cpi": 334.232
       },
       "zscores": {
@@ -1412,7 +1412,7 @@
       "date": "2007-03-01",
       "values": {
         "vehicle_miles": 259.638,
-        "gas_supplied": 9178.0,
+        "gas_supplied": 9178,
         "auto_insurance_cpi": 332.864
       },
       "zscores": {
@@ -1426,7 +1426,7 @@
       "date": "2007-04-01",
       "values": {
         "vehicle_miles": 252.595,
-        "gas_supplied": 9215.0,
+        "gas_supplied": 9215,
         "auto_insurance_cpi": 332.073
       },
       "zscores": {
@@ -1440,7 +1440,7 @@
       "date": "2007-05-01",
       "values": {
         "vehicle_miles": 267.574,
-        "gas_supplied": 9434.0,
+        "gas_supplied": 9434,
         "auto_insurance_cpi": 330.113
       },
       "zscores": {
@@ -1454,7 +1454,7 @@
       "date": "2007-06-01",
       "values": {
         "vehicle_miles": 265.374,
-        "gas_supplied": 9491.0,
+        "gas_supplied": 9491,
         "auto_insurance_cpi": 331.086
       },
       "zscores": {
@@ -1468,7 +1468,7 @@
       "date": "2007-07-01",
       "values": {
         "vehicle_miles": 267.106,
-        "gas_supplied": 9640.0,
+        "gas_supplied": 9640,
         "auto_insurance_cpi": 331.607
       },
       "zscores": {
@@ -1482,7 +1482,7 @@
       "date": "2007-08-01",
       "values": {
         "vehicle_miles": 271.225,
-        "gas_supplied": 9582.0,
+        "gas_supplied": 9582,
         "auto_insurance_cpi": 331.837
       },
       "zscores": {
@@ -1496,7 +1496,7 @@
       "date": "2007-09-01",
       "values": {
         "vehicle_miles": 245.965,
-        "gas_supplied": 9254.0,
+        "gas_supplied": 9254,
         "auto_insurance_cpi": 332.303
       },
       "zscores": {
@@ -1510,7 +1510,7 @@
       "date": "2007-10-01",
       "values": {
         "vehicle_miles": 261.423,
-        "gas_supplied": 9236.0,
+        "gas_supplied": 9236,
         "auto_insurance_cpi": 333.914
       },
       "zscores": {
@@ -1524,7 +1524,7 @@
       "date": "2007-11-01",
       "values": {
         "vehicle_miles": 245.787,
-        "gas_supplied": 9229.0,
+        "gas_supplied": 9229,
         "auto_insurance_cpi": 336.295
       },
       "zscores": {
@@ -1538,7 +1538,7 @@
       "date": "2007-12-01",
       "values": {
         "vehicle_miles": 240.281,
-        "gas_supplied": 9251.0,
+        "gas_supplied": 9251,
         "auto_insurance_cpi": 336.915
       },
       "zscores": {
@@ -1552,7 +1552,7 @@
       "date": "2008-01-01",
       "values": {
         "vehicle_miles": 232.92,
-        "gas_supplied": 8810.0,
+        "gas_supplied": 8810,
         "auto_insurance_cpi": 337.639
       },
       "zscores": {
@@ -1566,7 +1566,7 @@
       "date": "2008-02-01",
       "values": {
         "vehicle_miles": 221.336,
-        "gas_supplied": 8866.0,
+        "gas_supplied": 8866,
         "auto_insurance_cpi": 337.978
       },
       "zscores": {
@@ -1580,7 +1580,7 @@
       "date": "2008-03-01",
       "values": {
         "vehicle_miles": 252.343,
-        "gas_supplied": 9066.0,
+        "gas_supplied": 9066,
         "auto_insurance_cpi": 337.29
       },
       "zscores": {
@@ -1594,7 +1594,7 @@
       "date": "2008-04-01",
       "values": {
         "vehicle_miles": 252.088,
-        "gas_supplied": 9112.0,
+        "gas_supplied": 9112,
         "auto_insurance_cpi": 337.817
       },
       "zscores": {
@@ -1608,7 +1608,7 @@
       "date": "2008-05-01",
       "values": {
         "vehicle_miles": 261.466,
-        "gas_supplied": 9251.0,
+        "gas_supplied": 9251,
         "auto_insurance_cpi": 338.561
       },
       "zscores": {
@@ -1622,7 +1622,7 @@
       "date": "2008-06-01",
       "values": {
         "vehicle_miles": 257.484,
-        "gas_supplied": 9110.0,
+        "gas_supplied": 9110,
         "auto_insurance_cpi": 339.664
       },
       "zscores": {
@@ -1636,7 +1636,7 @@
       "date": "2008-07-01",
       "values": {
         "vehicle_miles": 261.6,
-        "gas_supplied": 9150.0,
+        "gas_supplied": 9150,
         "auto_insurance_cpi": 340.396
       },
       "zscores": {
@@ -1655,7 +1655,7 @@
       "date": "2008-08-01",
       "values": {
         "vehicle_miles": 260.609,
-        "gas_supplied": 9134.0,
+        "gas_supplied": 9134,
         "auto_insurance_cpi": 341.864
       },
       "zscores": {
@@ -1669,7 +1669,7 @@
       "date": "2008-09-01",
       "values": {
         "vehicle_miles": 239.607,
-        "gas_supplied": 8497.0,
+        "gas_supplied": 8497,
         "auto_insurance_cpi": 342.528
       },
       "zscores": {
@@ -1683,7 +1683,7 @@
       "date": "2008-10-01",
       "values": {
         "vehicle_miles": 255.848,
-        "gas_supplied": 9024.0,
+        "gas_supplied": 9024,
         "auto_insurance_cpi": 345.138
       },
       "zscores": {
@@ -1697,7 +1697,7 @@
       "date": "2008-11-01",
       "values": {
         "vehicle_miles": 236.465,
-        "gas_supplied": 8904.0,
+        "gas_supplied": 8904,
         "auto_insurance_cpi": 349.05
       },
       "zscores": {
@@ -1711,7 +1711,7 @@
       "date": "2008-12-01",
       "values": {
         "vehicle_miles": 241.742,
-        "gas_supplied": 8927.0,
+        "gas_supplied": 8927,
         "auto_insurance_cpi": 350.308
       },
       "zscores": {
@@ -1725,7 +1725,7 @@
       "date": "2009-01-01",
       "values": {
         "vehicle_miles": 225.529,
-        "gas_supplied": 8623.0,
+        "gas_supplied": 8623,
         "auto_insurance_cpi": 351.215
       },
       "zscores": {
@@ -1739,7 +1739,7 @@
       "date": "2009-02-01",
       "values": {
         "vehicle_miles": 217.643,
-        "gas_supplied": 8836.0,
+        "gas_supplied": 8836,
         "auto_insurance_cpi": 352.538
       },
       "zscores": {
@@ -1753,7 +1753,7 @@
       "date": "2009-03-01",
       "values": {
         "vehicle_miles": 249.741,
-        "gas_supplied": 8903.0,
+        "gas_supplied": 8903,
         "auto_insurance_cpi": 351.982
       },
       "zscores": {
@@ -1767,7 +1767,7 @@
       "date": "2009-04-01",
       "values": {
         "vehicle_miles": 251.374,
-        "gas_supplied": 9029.0,
+        "gas_supplied": 9029,
         "auto_insurance_cpi": 353.563
       },
       "zscores": {
@@ -1781,7 +1781,7 @@
       "date": "2009-05-01",
       "values": {
         "vehicle_miles": 258.276,
-        "gas_supplied": 9084.0,
+        "gas_supplied": 9084,
         "auto_insurance_cpi": 354.171
       },
       "zscores": {
@@ -1795,7 +1795,7 @@
       "date": "2009-06-01",
       "values": {
         "vehicle_miles": 258.395,
-        "gas_supplied": 9180.0,
+        "gas_supplied": 9180,
         "auto_insurance_cpi": 355.721
       },
       "zscores": {
@@ -1809,7 +1809,7 @@
       "date": "2009-07-01",
       "values": {
         "vehicle_miles": 264.472,
-        "gas_supplied": 9260.0,
+        "gas_supplied": 9260,
         "auto_insurance_cpi": 356.166
       },
       "zscores": {
@@ -1823,7 +1823,7 @@
       "date": "2009-08-01",
       "values": {
         "vehicle_miles": 260.297,
-        "gas_supplied": 9295.0,
+        "gas_supplied": 9295,
         "auto_insurance_cpi": 357.78
       },
       "zscores": {
@@ -1837,7 +1837,7 @@
       "date": "2009-09-01",
       "values": {
         "vehicle_miles": 241.97,
-        "gas_supplied": 8911.0,
+        "gas_supplied": 8911,
         "auto_insurance_cpi": 358.039
       },
       "zscores": {
@@ -1851,7 +1851,7 @@
       "date": "2009-10-01",
       "values": {
         "vehicle_miles": 252.209,
-        "gas_supplied": 8986.0,
+        "gas_supplied": 8986,
         "auto_insurance_cpi": 361.102
       },
       "zscores": {
@@ -1865,7 +1865,7 @@
       "date": "2009-11-01",
       "values": {
         "vehicle_miles": 237.264,
-        "gas_supplied": 8906.0,
+        "gas_supplied": 8906,
         "auto_insurance_cpi": 364.894
       },
       "zscores": {
@@ -1879,7 +1879,7 @@
       "date": "2009-12-01",
       "values": {
         "vehicle_miles": 239.593,
-        "gas_supplied": 8931.0,
+        "gas_supplied": 8931,
         "auto_insurance_cpi": 366.799
       },
       "zscores": {
@@ -1893,7 +1893,7 @@
       "date": "2010-01-01",
       "values": {
         "vehicle_miles": 220.839,
-        "gas_supplied": 8520.0,
+        "gas_supplied": 8520,
         "auto_insurance_cpi": 367.575
       },
       "zscores": {
@@ -1907,7 +1907,7 @@
       "date": "2010-02-01",
       "values": {
         "vehicle_miles": 210.635,
-        "gas_supplied": 8579.0,
+        "gas_supplied": 8579,
         "auto_insurance_cpi": 369.752
       },
       "zscores": {
@@ -1921,7 +1921,7 @@
       "date": "2010-03-01",
       "values": {
         "vehicle_miles": 254.238,
-        "gas_supplied": 8793.0,
+        "gas_supplied": 8793,
         "auto_insurance_cpi": 370.743
       },
       "zscores": {
@@ -1935,7 +1935,7 @@
       "date": "2010-04-01",
       "values": {
         "vehicle_miles": 253.936,
-        "gas_supplied": 9108.0,
+        "gas_supplied": 9108,
         "auto_insurance_cpi": 372.311
       },
       "zscores": {
@@ -1949,7 +1949,7 @@
       "date": "2010-05-01",
       "values": {
         "vehicle_miles": 256.927,
-        "gas_supplied": 9162.0,
+        "gas_supplied": 9162,
         "auto_insurance_cpi": 372.814
       },
       "zscores": {
@@ -1963,7 +1963,7 @@
       "date": "2010-06-01",
       "values": {
         "vehicle_miles": 260.083,
-        "gas_supplied": 9311.0,
+        "gas_supplied": 9311,
         "auto_insurance_cpi": 373.707
       },
       "zscores": {
@@ -1977,7 +1977,7 @@
       "date": "2010-07-01",
       "values": {
         "vehicle_miles": 265.315,
-        "gas_supplied": 9301.0,
+        "gas_supplied": 9301,
         "auto_insurance_cpi": 375.1
       },
       "zscores": {
@@ -1991,7 +1991,7 @@
       "date": "2010-08-01",
       "values": {
         "vehicle_miles": 263.837,
-        "gas_supplied": 9255.0,
+        "gas_supplied": 9255,
         "auto_insurance_cpi": 375.901
       },
       "zscores": {
@@ -2005,7 +2005,7 @@
       "date": "2010-09-01",
       "values": {
         "vehicle_miles": 244.682,
-        "gas_supplied": 9112.0,
+        "gas_supplied": 9112,
         "auto_insurance_cpi": 376.415
       },
       "zscores": {
@@ -2019,7 +2019,7 @@
       "date": "2010-10-01",
       "values": {
         "vehicle_miles": 256.395,
-        "gas_supplied": 9016.0,
+        "gas_supplied": 9016,
         "auto_insurance_cpi": 380.728
       },
       "zscores": {
@@ -2033,7 +2033,7 @@
       "date": "2010-11-01",
       "values": {
         "vehicle_miles": 239.579,
-        "gas_supplied": 8816.0,
+        "gas_supplied": 8816,
         "auto_insurance_cpi": 384.085
       },
       "zscores": {
@@ -2047,7 +2047,7 @@
       "date": "2010-12-01",
       "values": {
         "vehicle_miles": 240.8,
-        "gas_supplied": 8911.0,
+        "gas_supplied": 8911,
         "auto_insurance_cpi": 383.024
       },
       "zscores": {
@@ -2061,7 +2061,7 @@
       "date": "2011-01-01",
       "values": {
         "vehicle_miles": 223.79,
-        "gas_supplied": 8370.0,
+        "gas_supplied": 8370,
         "auto_insurance_cpi": 383.966
       },
       "zscores": {
@@ -2075,7 +2075,7 @@
       "date": "2011-02-01",
       "values": {
         "vehicle_miles": 213.463,
-        "gas_supplied": 8604.0,
+        "gas_supplied": 8604,
         "auto_insurance_cpi": 385.232
       },
       "zscores": {
@@ -2089,7 +2089,7 @@
       "date": "2011-03-01",
       "values": {
         "vehicle_miles": 253.124,
-        "gas_supplied": 8799.0,
+        "gas_supplied": 8799,
         "auto_insurance_cpi": 385.479
       },
       "zscores": {
@@ -2103,7 +2103,7 @@
       "date": "2011-04-01",
       "values": {
         "vehicle_miles": 249.578,
-        "gas_supplied": 8796.0,
+        "gas_supplied": 8796,
         "auto_insurance_cpi": 386.317
       },
       "zscores": {
@@ -2117,7 +2117,7 @@
       "date": "2011-05-01",
       "values": {
         "vehicle_miles": 254.083,
-        "gas_supplied": 8817.0,
+        "gas_supplied": 8817,
         "auto_insurance_cpi": 386.954
       },
       "zscores": {
@@ -2131,7 +2131,7 @@
       "date": "2011-06-01",
       "values": {
         "vehicle_miles": 258.35,
-        "gas_supplied": 9067.0,
+        "gas_supplied": 9067,
         "auto_insurance_cpi": 387.486
       },
       "zscores": {
@@ -2145,7 +2145,7 @@
       "date": "2011-07-01",
       "values": {
         "vehicle_miles": 260.175,
-        "gas_supplied": 9031.0,
+        "gas_supplied": 9031,
         "auto_insurance_cpi": 387.358
       },
       "zscores": {
@@ -2159,7 +2159,7 @@
       "date": "2011-08-01",
       "values": {
         "vehicle_miles": 260.526,
-        "gas_supplied": 8925.0,
+        "gas_supplied": 8925,
         "auto_insurance_cpi": 388.619
       },
       "zscores": {
@@ -2173,7 +2173,7 @@
       "date": "2011-09-01",
       "values": {
         "vehicle_miles": 242.062,
-        "gas_supplied": 8744.0,
+        "gas_supplied": 8744,
         "auto_insurance_cpi": 388.87
       },
       "zscores": {
@@ -2187,7 +2187,7 @@
       "date": "2011-10-01",
       "values": {
         "vehicle_miles": 251.906,
-        "gas_supplied": 8649.0,
+        "gas_supplied": 8649,
         "auto_insurance_cpi": 391.893
       },
       "zscores": {
@@ -2201,7 +2201,7 @@
       "date": "2011-11-01",
       "values": {
         "vehicle_miles": 238.535,
-        "gas_supplied": 8537.0,
+        "gas_supplied": 8537,
         "auto_insurance_cpi": 395.491
       },
       "zscores": {
@@ -2215,7 +2215,7 @@
       "date": "2011-12-01",
       "values": {
         "vehicle_miles": 244.81,
-        "gas_supplied": 8683.0,
+        "gas_supplied": 8683,
         "auto_insurance_cpi": 396.193
       },
       "zscores": {
@@ -2229,7 +2229,7 @@
       "date": "2012-01-01",
       "values": {
         "vehicle_miles": 227.527,
-        "gas_supplied": 8190.0,
+        "gas_supplied": 8190,
         "auto_insurance_cpi": 395.974
       },
       "zscores": {
@@ -2243,7 +2243,7 @@
       "date": "2012-02-01",
       "values": {
         "vehicle_miles": 218.196,
-        "gas_supplied": 8598.0,
+        "gas_supplied": 8598,
         "auto_insurance_cpi": 395.516
       },
       "zscores": {
@@ -2257,7 +2257,7 @@
       "date": "2012-03-01",
       "values": {
         "vehicle_miles": 256.166,
-        "gas_supplied": 8582.0,
+        "gas_supplied": 8582,
         "auto_insurance_cpi": 396.393
       },
       "zscores": {
@@ -2271,7 +2271,7 @@
       "date": "2012-04-01",
       "values": {
         "vehicle_miles": 249.394,
-        "gas_supplied": 8741.0,
+        "gas_supplied": 8741,
         "auto_insurance_cpi": 397.507
       },
       "zscores": {
@@ -2285,7 +2285,7 @@
       "date": "2012-05-01",
       "values": {
         "vehicle_miles": 260.774,
-        "gas_supplied": 8979.0,
+        "gas_supplied": 8979,
         "auto_insurance_cpi": 398.478
       },
       "zscores": {
@@ -2299,7 +2299,7 @@
       "date": "2012-06-01",
       "values": {
         "vehicle_miles": 260.376,
-        "gas_supplied": 8996.0,
+        "gas_supplied": 8996,
         "auto_insurance_cpi": 399.729
       },
       "zscores": {
@@ -2313,7 +2313,7 @@
       "date": "2012-07-01",
       "values": {
         "vehicle_miles": 260.244,
-        "gas_supplied": 8810.0,
+        "gas_supplied": 8810,
         "auto_insurance_cpi": 400.709
       },
       "zscores": {
@@ -2327,7 +2327,7 @@
       "date": "2012-08-01",
       "values": {
         "vehicle_miles": 264.379,
-        "gas_supplied": 9154.0,
+        "gas_supplied": 9154,
         "auto_insurance_cpi": 403.246
       },
       "zscores": {
@@ -2341,7 +2341,7 @@
       "date": "2012-09-01",
       "values": {
         "vehicle_miles": 238.867,
-        "gas_supplied": 8561.0,
+        "gas_supplied": 8561,
         "auto_insurance_cpi": 404.464
       },
       "zscores": {
@@ -2355,7 +2355,7 @@
       "date": "2012-10-01",
       "values": {
         "vehicle_miles": 253.574,
-        "gas_supplied": 8701.0,
+        "gas_supplied": 8701,
         "auto_insurance_cpi": 410.031
       },
       "zscores": {
@@ -2369,7 +2369,7 @@
       "date": "2012-11-01",
       "values": {
         "vehicle_miles": 240.361,
-        "gas_supplied": 8483.0,
+        "gas_supplied": 8483,
         "auto_insurance_cpi": 412.89
       },
       "zscores": {
@@ -2383,7 +2383,7 @@
       "date": "2012-12-01",
       "values": {
         "vehicle_miles": 238.709,
-        "gas_supplied": 8389.0,
+        "gas_supplied": 8389,
         "auto_insurance_cpi": 414.773
       },
       "zscores": {
@@ -2397,7 +2397,7 @@
       "date": "2013-01-01",
       "values": {
         "vehicle_miles": 229.419,
-        "gas_supplied": 8331.0,
+        "gas_supplied": 8331,
         "auto_insurance_cpi": 415.51
       },
       "zscores": {
@@ -2411,7 +2411,7 @@
       "date": "2013-02-01",
       "values": {
         "vehicle_miles": 215.803,
-        "gas_supplied": 8395.0,
+        "gas_supplied": 8395,
         "auto_insurance_cpi": 416.147
       },
       "zscores": {
@@ -2425,7 +2425,7 @@
       "date": "2013-03-01",
       "values": {
         "vehicle_miles": 253.026,
-        "gas_supplied": 8641.0,
+        "gas_supplied": 8641,
         "auto_insurance_cpi": 415.381
       },
       "zscores": {
@@ -2439,7 +2439,7 @@
       "date": "2013-04-01",
       "values": {
         "vehicle_miles": 252.064,
-        "gas_supplied": 8855.0,
+        "gas_supplied": 8855,
         "auto_insurance_cpi": 414.955
       },
       "zscores": {
@@ -2453,7 +2453,7 @@
       "date": "2013-05-01",
       "values": {
         "vehicle_miles": 263.406,
-        "gas_supplied": 9033.0,
+        "gas_supplied": 9033,
         "auto_insurance_cpi": 414.952
       },
       "zscores": {
@@ -2467,7 +2467,7 @@
       "date": "2013-06-01",
       "values": {
         "vehicle_miles": 259.98,
-        "gas_supplied": 9078.0,
+        "gas_supplied": 9078,
         "auto_insurance_cpi": 415.353
       },
       "zscores": {
@@ -2481,7 +2481,7 @@
       "date": "2013-07-01",
       "values": {
         "vehicle_miles": 263.946,
-        "gas_supplied": 9146.0,
+        "gas_supplied": 9146,
         "auto_insurance_cpi": 420.073
       },
       "zscores": {
@@ -2495,7 +2495,7 @@
       "date": "2013-08-01",
       "values": {
         "vehicle_miles": 268.061,
-        "gas_supplied": 9124.0,
+        "gas_supplied": 9124,
         "auto_insurance_cpi": 420.226
       },
       "zscores": {
@@ -2509,7 +2509,7 @@
       "date": "2013-09-01",
       "values": {
         "vehicle_miles": 242.536,
-        "gas_supplied": 8946.0,
+        "gas_supplied": 8946,
         "auto_insurance_cpi": 420.321
       },
       "zscores": {
@@ -2523,7 +2523,7 @@
       "date": "2013-10-01",
       "values": {
         "vehicle_miles": 258.748,
-        "gas_supplied": 8944.0,
+        "gas_supplied": 8944,
         "auto_insurance_cpi": 424.601
       },
       "zscores": {
@@ -2537,7 +2537,7 @@
       "date": "2013-11-01",
       "values": {
         "vehicle_miles": 240.055,
-        "gas_supplied": 8923.0,
+        "gas_supplied": 8923,
         "auto_insurance_cpi": 426.64
       },
       "zscores": {
@@ -2551,7 +2551,7 @@
       "date": "2013-12-01",
       "values": {
         "vehicle_miles": 241.237,
-        "gas_supplied": 8670.0,
+        "gas_supplied": 8670,
         "auto_insurance_cpi": 428.64
       },
       "zscores": {
@@ -2565,7 +2565,7 @@
       "date": "2014-01-01",
       "values": {
         "vehicle_miles": 226.413,
-        "gas_supplied": 8273.0,
+        "gas_supplied": 8273,
         "auto_insurance_cpi": 429.585
       },
       "zscores": {
@@ -2579,7 +2579,7 @@
       "date": "2014-02-01",
       "values": {
         "vehicle_miles": 213.949,
-        "gas_supplied": 8647.0,
+        "gas_supplied": 8647,
         "auto_insurance_cpi": 430.31
       },
       "zscores": {
@@ -2593,7 +2593,7 @@
       "date": "2014-03-01",
       "values": {
         "vehicle_miles": 253.424,
-        "gas_supplied": 8697.0,
+        "gas_supplied": 8697,
         "auto_insurance_cpi": 430.163
       },
       "zscores": {
@@ -2607,7 +2607,7 @@
       "date": "2014-04-01",
       "values": {
         "vehicle_miles": 256.736,
-        "gas_supplied": 8955.0,
+        "gas_supplied": 8955,
         "auto_insurance_cpi": 433.113
       },
       "zscores": {
@@ -2621,7 +2621,7 @@
       "date": "2014-05-01",
       "values": {
         "vehicle_miles": 266.237,
-        "gas_supplied": 9023.0,
+        "gas_supplied": 9023,
         "auto_insurance_cpi": 434.934
       },
       "zscores": {
@@ -2635,7 +2635,7 @@
       "date": "2014-06-01",
       "values": {
         "vehicle_miles": 263.459,
-        "gas_supplied": 9039.0,
+        "gas_supplied": 9039,
         "auto_insurance_cpi": 435.654
       },
       "zscores": {
@@ -2649,7 +2649,7 @@
       "date": "2014-07-01",
       "values": {
         "vehicle_miles": 270.053,
-        "gas_supplied": 9249.0,
+        "gas_supplied": 9249,
         "auto_insurance_cpi": 436.342
       },
       "zscores": {
@@ -2663,7 +2663,7 @@
       "date": "2014-08-01",
       "values": {
         "vehicle_miles": 268.831,
-        "gas_supplied": 9311.0,
+        "gas_supplied": 9311,
         "auto_insurance_cpi": 437.384
       },
       "zscores": {
@@ -2677,7 +2677,7 @@
       "date": "2014-09-01",
       "values": {
         "vehicle_miles": 247.688,
-        "gas_supplied": 8822.0,
+        "gas_supplied": 8822,
         "auto_insurance_cpi": 438.496
       },
       "zscores": {
@@ -2691,7 +2691,7 @@
       "date": "2014-10-01",
       "values": {
         "vehicle_miles": 265.144,
-        "gas_supplied": 9148.0,
+        "gas_supplied": 9148,
         "auto_insurance_cpi": 444.443
       },
       "zscores": {
@@ -2705,7 +2705,7 @@
       "date": "2014-11-01",
       "values": {
         "vehicle_miles": 241.451,
-        "gas_supplied": 8921.0,
+        "gas_supplied": 8921,
         "auto_insurance_cpi": 447.271
       },
       "zscores": {
@@ -2719,7 +2719,7 @@
       "date": "2014-12-01",
       "values": {
         "vehicle_miles": 252.271,
-        "gas_supplied": 8941.0,
+        "gas_supplied": 8941,
         "auto_insurance_cpi": 448.933
       },
       "zscores": {
@@ -2733,7 +2733,7 @@
       "date": "2015-01-01",
       "values": {
         "vehicle_miles": 233.498,
-        "gas_supplied": 8639.0,
+        "gas_supplied": 8639,
         "auto_insurance_cpi": 451.007
       },
       "zscores": {
@@ -2747,7 +2747,7 @@
       "date": "2015-02-01",
       "values": {
         "vehicle_miles": 217.22,
-        "gas_supplied": 8829.0,
+        "gas_supplied": 8829,
         "auto_insurance_cpi": 454.335
       },
       "zscores": {
@@ -2761,7 +2761,7 @@
       "date": "2015-03-01",
       "values": {
         "vehicle_miles": 258.017,
-        "gas_supplied": 9057.0,
+        "gas_supplied": 9057,
         "auto_insurance_cpi": 455.373
       },
       "zscores": {
@@ -2775,7 +2775,7 @@
       "date": "2015-04-01",
       "values": {
         "vehicle_miles": 262.817,
-        "gas_supplied": 9189.0,
+        "gas_supplied": 9189,
         "auto_insurance_cpi": 456.564
       },
       "zscores": {
@@ -2789,7 +2789,7 @@
       "date": "2015-05-01",
       "values": {
         "vehicle_miles": 270.839,
-        "gas_supplied": 9262.0,
+        "gas_supplied": 9262,
         "auto_insurance_cpi": 456.995
       },
       "zscores": {
@@ -2803,7 +2803,7 @@
       "date": "2015-06-01",
       "values": {
         "vehicle_miles": 270.574,
-        "gas_supplied": 9417.0,
+        "gas_supplied": 9417,
         "auto_insurance_cpi": 457.774
       },
       "zscores": {
@@ -2817,7 +2817,7 @@
       "date": "2015-07-01",
       "values": {
         "vehicle_miles": 278.372,
-        "gas_supplied": 9470.0,
+        "gas_supplied": 9470,
         "auto_insurance_cpi": 460.041
       },
       "zscores": {
@@ -2831,7 +2831,7 @@
       "date": "2015-08-01",
       "values": {
         "vehicle_miles": 272.209,
-        "gas_supplied": 9460.0,
+        "gas_supplied": 9460,
         "auto_insurance_cpi": 461.046
       },
       "zscores": {
@@ -2845,7 +2845,7 @@
       "date": "2015-09-01",
       "values": {
         "vehicle_miles": 255.09,
-        "gas_supplied": 9289.0,
+        "gas_supplied": 9289,
         "auto_insurance_cpi": 462.467
       },
       "zscores": {
@@ -2859,7 +2859,7 @@
       "date": "2015-10-01",
       "values": {
         "vehicle_miles": 268.469,
-        "gas_supplied": 9245.0,
+        "gas_supplied": 9245,
         "auto_insurance_cpi": 465.401
       },
       "zscores": {
@@ -2873,7 +2873,7 @@
       "date": "2015-11-01",
       "values": {
         "vehicle_miles": 248.843,
-        "gas_supplied": 9112.0,
+        "gas_supplied": 9112,
         "auto_insurance_cpi": 471.933
       },
       "zscores": {
@@ -2887,7 +2887,7 @@
       "date": "2015-12-01",
       "values": {
         "vehicle_miles": 259.424,
-        "gas_supplied": 9148.0,
+        "gas_supplied": 9148,
         "auto_insurance_cpi": 474.392
       },
       "zscores": {
@@ -2901,7 +2901,7 @@
       "date": "2016-01-01",
       "values": {
         "vehicle_miles": 239.679,
-        "gas_supplied": 8653.0,
+        "gas_supplied": 8653,
         "auto_insurance_cpi": 475.456
       },
       "zscores": {
@@ -2915,7 +2915,7 @@
       "date": "2016-02-01",
       "values": {
         "vehicle_miles": 223.011,
-        "gas_supplied": 9221.0,
+        "gas_supplied": 9221,
         "auto_insurance_cpi": 477.297
       },
       "zscores": {
@@ -2929,7 +2929,7 @@
       "date": "2016-03-01",
       "values": {
         "vehicle_miles": 265.147,
-        "gas_supplied": 9373.0,
+        "gas_supplied": 9373,
         "auto_insurance_cpi": 478.644
       },
       "zscores": {
@@ -2943,7 +2943,7 @@
       "date": "2016-04-01",
       "values": {
         "vehicle_miles": 269.653,
-        "gas_supplied": 9176.0,
+        "gas_supplied": 9176,
         "auto_insurance_cpi": 483.823
       },
       "zscores": {
@@ -2957,7 +2957,7 @@
       "date": "2016-05-01",
       "values": {
         "vehicle_miles": 277.972,
-        "gas_supplied": 9417.0,
+        "gas_supplied": 9417,
         "auto_insurance_cpi": 487.021
       },
       "zscores": {
@@ -2971,7 +2971,7 @@
       "date": "2016-06-01",
       "values": {
         "vehicle_miles": 276.991,
-        "gas_supplied": 9608.0,
+        "gas_supplied": 9608,
         "auto_insurance_cpi": 487.631
       },
       "zscores": {
@@ -2985,7 +2985,7 @@
       "date": "2016-07-01",
       "values": {
         "vehicle_miles": 285.16,
-        "gas_supplied": 9578.0,
+        "gas_supplied": 9578,
         "auto_insurance_cpi": 489.064
       },
       "zscores": {
@@ -2999,7 +2999,7 @@
       "date": "2016-08-01",
       "values": {
         "vehicle_miles": 279.213,
-        "gas_supplied": 9687.0,
+        "gas_supplied": 9687,
         "auto_insurance_cpi": 491.047
       },
       "zscores": {
@@ -3013,7 +3013,7 @@
       "date": "2016-09-01",
       "values": {
         "vehicle_miles": 262.039,
-        "gas_supplied": 9484.0,
+        "gas_supplied": 9484,
         "auto_insurance_cpi": 492.119
       },
       "zscores": {
@@ -3027,7 +3027,7 @@
       "date": "2016-10-01",
       "values": {
         "vehicle_miles": 275.61,
-        "gas_supplied": 9093.0,
+        "gas_supplied": 9093,
         "auto_insurance_cpi": 496.658
       },
       "zscores": {
@@ -3041,7 +3041,7 @@
       "date": "2016-11-01",
       "values": {
         "vehicle_miles": 255.154,
-        "gas_supplied": 9233.0,
+        "gas_supplied": 9233,
         "auto_insurance_cpi": 503.44
       },
       "zscores": {
@@ -3055,7 +3055,7 @@
       "date": "2016-12-01",
       "values": {
         "vehicle_miles": 264.778,
-        "gas_supplied": 9283.0,
+        "gas_supplied": 9283,
         "auto_insurance_cpi": 507.589
       },
       "zscores": {
@@ -3069,7 +3069,7 @@
       "date": "2017-01-01",
       "values": {
         "vehicle_miles": 242.6,
-        "gas_supplied": 8507.0,
+        "gas_supplied": 8507,
         "auto_insurance_cpi": 510.919
       },
       "zscores": {
@@ -3083,7 +3083,7 @@
       "date": "2017-02-01",
       "values": {
         "vehicle_miles": 225.644,
-        "gas_supplied": 9008.0,
+        "gas_supplied": 9008,
         "auto_insurance_cpi": 513.469
       },
       "zscores": {
@@ -3097,7 +3097,7 @@
       "date": "2017-03-01",
       "values": {
         "vehicle_miles": 268.343,
-        "gas_supplied": 9325.0,
+        "gas_supplied": 9325,
         "auto_insurance_cpi": 517.619
       },
       "zscores": {
@@ -3111,7 +3111,7 @@
       "date": "2017-04-01",
       "values": {
         "vehicle_miles": 272.864,
-        "gas_supplied": 9295.0,
+        "gas_supplied": 9295,
         "auto_insurance_cpi": 516.203
       },
       "zscores": {
@@ -3125,7 +3125,7 @@
       "date": "2017-05-01",
       "values": {
         "vehicle_miles": 281.264,
-        "gas_supplied": 9550.0,
+        "gas_supplied": 9550,
         "auto_insurance_cpi": 521.149
       },
       "zscores": {
@@ -3139,7 +3139,7 @@
       "date": "2017-06-01",
       "values": {
         "vehicle_miles": 280.29,
-        "gas_supplied": 9772.0,
+        "gas_supplied": 9772,
         "auto_insurance_cpi": 525.397
       },
       "zscores": {
@@ -3153,7 +3153,7 @@
       "date": "2017-07-01",
       "values": {
         "vehicle_miles": 288.566,
-        "gas_supplied": 9595.0,
+        "gas_supplied": 9595,
         "auto_insurance_cpi": 526.394
       },
       "zscores": {
@@ -3167,7 +3167,7 @@
       "date": "2017-08-01",
       "values": {
         "vehicle_miles": 282.558,
-        "gas_supplied": 9752.0,
+        "gas_supplied": 9752,
         "auto_insurance_cpi": 530.908
       },
       "zscores": {
@@ -3181,7 +3181,7 @@
       "date": "2017-09-01",
       "values": {
         "vehicle_miles": 265.212,
-        "gas_supplied": 9378.0,
+        "gas_supplied": 9378,
         "auto_insurance_cpi": 532.455
       },
       "zscores": {
@@ -3195,7 +3195,7 @@
       "date": "2017-10-01",
       "values": {
         "vehicle_miles": 278.888,
-        "gas_supplied": 9357.0,
+        "gas_supplied": 9357,
         "auto_insurance_cpi": 537.222
       },
       "zscores": {
@@ -3209,7 +3209,7 @@
       "date": "2017-11-01",
       "values": {
         "vehicle_miles": 258.159,
-        "gas_supplied": 9110.0,
+        "gas_supplied": 9110,
         "auto_insurance_cpi": 543.613
       },
       "zscores": {
@@ -3223,7 +3223,7 @@
       "date": "2017-12-01",
       "values": {
         "vehicle_miles": 267.958,
-        "gas_supplied": 9247.0,
+        "gas_supplied": 9247,
         "auto_insurance_cpi": 547.586
       },
       "zscores": {
@@ -3237,7 +3237,7 @@
       "date": "2018-01-01",
       "values": {
         "vehicle_miles": 244.736,
-        "gas_supplied": 8788.0,
+        "gas_supplied": 8788,
         "auto_insurance_cpi": 554.166
       },
       "zscores": {
@@ -3251,7 +3251,7 @@
       "date": "2018-02-01",
       "values": {
         "vehicle_miles": 227.759,
-        "gas_supplied": 8796.0,
+        "gas_supplied": 8796,
         "auto_insurance_cpi": 563.365
       },
       "zscores": {
@@ -3265,7 +3265,7 @@
       "date": "2018-03-01",
       "values": {
         "vehicle_miles": 270.705,
-        "gas_supplied": 9465.0,
+        "gas_supplied": 9465,
         "auto_insurance_cpi": 563.762
       },
       "zscores": {
@@ -3279,7 +3279,7 @@
       "date": "2018-04-01",
       "values": {
         "vehicle_miles": 275.127,
-        "gas_supplied": 9206.0,
+        "gas_supplied": 9206,
         "auto_insurance_cpi": 562.749
       },
       "zscores": {
@@ -3293,7 +3293,7 @@
       "date": "2018-05-01",
       "values": {
         "vehicle_miles": 283.713,
-        "gas_supplied": 9515.0,
+        "gas_supplied": 9515,
         "auto_insurance_cpi": 564.445
       },
       "zscores": {
@@ -3307,7 +3307,7 @@
       "date": "2018-06-01",
       "values": {
         "vehicle_miles": 282.648,
-        "gas_supplied": 9797.0,
+        "gas_supplied": 9797,
         "auto_insurance_cpi": 565.284
       },
       "zscores": {
@@ -3321,7 +3321,7 @@
       "date": "2018-07-01",
       "values": {
         "vehicle_miles": 290.989,
-        "gas_supplied": 9640.0,
+        "gas_supplied": 9640,
         "auto_insurance_cpi": 565.547
       },
       "zscores": {
@@ -3335,7 +3335,7 @@
       "date": "2018-08-01",
       "values": {
         "vehicle_miles": 284.989,
-        "gas_supplied": 9778.0,
+        "gas_supplied": 9778,
         "auto_insurance_cpi": 565.113
       },
       "zscores": {
@@ -3349,7 +3349,7 @@
       "date": "2018-09-01",
       "values": {
         "vehicle_miles": 267.434,
-        "gas_supplied": 9153.0,
+        "gas_supplied": 9153,
         "auto_insurance_cpi": 567.838
       },
       "zscores": {
@@ -3363,7 +3363,7 @@
       "date": "2018-10-01",
       "values": {
         "vehicle_miles": 281.382,
-        "gas_supplied": 9294.0,
+        "gas_supplied": 9294,
         "auto_insurance_cpi": 573.05
       },
       "zscores": {
@@ -3377,7 +3377,7 @@
       "date": "2018-11-01",
       "values": {
         "vehicle_miles": 260.473,
-        "gas_supplied": 9290.0,
+        "gas_supplied": 9290,
         "auto_insurance_cpi": 573.338
       },
       "zscores": {
@@ -3391,7 +3391,7 @@
       "date": "2018-12-01",
       "values": {
         "vehicle_miles": 270.37,
-        "gas_supplied": 9179.0,
+        "gas_supplied": 9179,
         "auto_insurance_cpi": 572.824
       },
       "zscores": {
@@ -3405,7 +3405,7 @@
       "date": "2019-01-01",
       "values": {
         "vehicle_miles": 248.927,
-        "gas_supplied": 8778.0,
+        "gas_supplied": 8778,
         "auto_insurance_cpi": 572.95
       },
       "zscores": {
@@ -3419,7 +3419,7 @@
       "date": "2019-02-01",
       "values": {
         "vehicle_miles": 231.791,
-        "gas_supplied": 9072.0,
+        "gas_supplied": 9072,
         "auto_insurance_cpi": 574.447
       },
       "zscores": {
@@ -3433,7 +3433,7 @@
       "date": "2019-03-01",
       "values": {
         "vehicle_miles": 272.379,
-        "gas_supplied": 9184.0,
+        "gas_supplied": 9184,
         "auto_insurance_cpi": 573.087
       },
       "zscores": {
@@ -3447,7 +3447,7 @@
       "date": "2019-04-01",
       "values": {
         "vehicle_miles": 273.413,
-        "gas_supplied": 9411.0,
+        "gas_supplied": 9411,
         "auto_insurance_cpi": 570.492
       },
       "zscores": {
@@ -3461,7 +3461,7 @@
       "date": "2019-05-01",
       "values": {
         "vehicle_miles": 289.711,
-        "gas_supplied": 9497.0,
+        "gas_supplied": 9497,
         "auto_insurance_cpi": 568.301
       },
       "zscores": {
@@ -3475,7 +3475,7 @@
       "date": "2019-06-01",
       "values": {
         "vehicle_miles": 281.359,
-        "gas_supplied": 9703.0,
+        "gas_supplied": 9703,
         "auto_insurance_cpi": 569.079
       },
       "zscores": {
@@ -3489,7 +3489,7 @@
       "date": "2019-07-01",
       "values": {
         "vehicle_miles": 291.52,
-        "gas_supplied": 9533.0,
+        "gas_supplied": 9533,
         "auto_insurance_cpi": 569.011
       },
       "zscores": {
@@ -3503,7 +3503,7 @@
       "date": "2019-08-01",
       "values": {
         "vehicle_miles": 293.308,
-        "gas_supplied": 9834.0,
+        "gas_supplied": 9834,
         "auto_insurance_cpi": 568.972
       },
       "zscores": {
@@ -3517,7 +3517,7 @@
       "date": "2019-09-01",
       "values": {
         "vehicle_miles": 273.319,
-        "gas_supplied": 9198.0,
+        "gas_supplied": 9198,
         "auto_insurance_cpi": 569.106
       },
       "zscores": {
@@ -3531,7 +3531,7 @@
       "date": "2019-10-01",
       "values": {
         "vehicle_miles": 283.961,
-        "gas_supplied": 9308.0,
+        "gas_supplied": 9308,
         "auto_insurance_cpi": 571.975
       },
       "zscores": {
@@ -3545,7 +3545,7 @@
       "date": "2019-11-01",
       "values": {
         "vehicle_miles": 260.326,
-        "gas_supplied": 9209.0,
+        "gas_supplied": 9209,
         "auto_insurance_cpi": 571.987
       },
       "zscores": {
@@ -3559,7 +3559,7 @@
       "date": "2019-12-01",
       "values": {
         "vehicle_miles": 261.757,
-        "gas_supplied": 8971.0,
+        "gas_supplied": 8971,
         "auto_insurance_cpi": 572.979
       },
       "zscores": {
@@ -3573,7 +3573,7 @@
       "date": "2020-01-01",
       "values": {
         "vehicle_miles": 260.847,
-        "gas_supplied": 8724.0,
+        "gas_supplied": 8724,
         "auto_insurance_cpi": 572.693
       },
       "zscores": {
@@ -3587,7 +3587,7 @@
       "date": "2020-02-01",
       "values": {
         "vehicle_miles": 242.695,
-        "gas_supplied": 9050.0,
+        "gas_supplied": 9050,
         "auto_insurance_cpi": 576.45
       },
       "zscores": {
@@ -3601,7 +3601,7 @@
       "date": "2020-03-01",
       "values": {
         "vehicle_miles": 226.638,
-        "gas_supplied": 7779.0,
+        "gas_supplied": 7779,
         "auto_insurance_cpi": 579.462
       },
       "zscores": {
@@ -3615,7 +3615,7 @@
       "date": "2020-04-01",
       "values": {
         "vehicle_miles": 167.617,
-        "gas_supplied": 5866.0,
+        "gas_supplied": 5866,
         "auto_insurance_cpi": 534.842
       },
       "zscores": {
@@ -3634,7 +3634,7 @@
       "date": "2020-05-01",
       "values": {
         "vehicle_miles": 221.006,
-        "gas_supplied": 7198.0,
+        "gas_supplied": 7198,
         "auto_insurance_cpi": 486.761
       },
       "zscores": {
@@ -3648,7 +3648,7 @@
       "date": "2020-06-01",
       "values": {
         "vehicle_miles": 250.33,
-        "gas_supplied": 8292.0,
+        "gas_supplied": 8292,
         "auto_insurance_cpi": 511.639
       },
       "zscores": {
@@ -3662,7 +3662,7 @@
       "date": "2020-07-01",
       "values": {
         "vehicle_miles": 265.55,
-        "gas_supplied": 8460.0,
+        "gas_supplied": 8460,
         "auto_insurance_cpi": 558.276
       },
       "zscores": {
@@ -3676,7 +3676,7 @@
       "date": "2020-08-01",
       "values": {
         "vehicle_miles": 265.06,
-        "gas_supplied": 8524.0,
+        "gas_supplied": 8524,
         "auto_insurance_cpi": 560.623
       },
       "zscores": {
@@ -3690,7 +3690,7 @@
       "date": "2020-09-01",
       "values": {
         "vehicle_miles": 257.531,
-        "gas_supplied": 8541.0,
+        "gas_supplied": 8541,
         "auto_insurance_cpi": 540.491
       },
       "zscores": {
@@ -3704,7 +3704,7 @@
       "date": "2020-10-01",
       "values": {
         "vehicle_miles": 266.596,
-        "gas_supplied": 8316.0,
+        "gas_supplied": 8316,
         "auto_insurance_cpi": 531.217
       },
       "zscores": {
@@ -3718,7 +3718,7 @@
       "date": "2020-11-01",
       "values": {
         "vehicle_miles": 238.3,
-        "gas_supplied": 8001.0,
+        "gas_supplied": 8001,
         "auto_insurance_cpi": 537.765
       },
       "zscores": {
@@ -3732,7 +3732,7 @@
       "date": "2020-12-01",
       "values": {
         "vehicle_miles": 241.451,
-        "gas_supplied": 7855.0,
+        "gas_supplied": 7855,
         "auto_insurance_cpi": 545.376
       },
       "zscores": {
@@ -3746,7 +3746,7 @@
       "date": "2021-01-01",
       "values": {
         "vehicle_miles": 224.959,
-        "gas_supplied": 7723.0,
+        "gas_supplied": 7723,
         "auto_insurance_cpi": 551.552
       },
       "zscores": {
@@ -3760,13 +3760,13 @@
       "date": "2021-02-01",
       "values": {
         "vehicle_miles": 207.16,
-        "gas_supplied": 7824.0,
+        "gas_supplied": 7824,
         "auto_insurance_cpi": 560.386
       },
       "zscores": {
         "vehicle_miles": -1.988,
         "gas_supplied": -1.21,
-        "auto_insurance_cpi": 0.0
+        "auto_insurance_cpi": 0
       },
       "events": []
     },
@@ -3774,7 +3774,7 @@
       "date": "2021-03-01",
       "values": {
         "vehicle_miles": 262.065,
-        "gas_supplied": 8553.0,
+        "gas_supplied": 8553,
         "auto_insurance_cpi": 565.166
       },
       "zscores": {
@@ -3788,7 +3788,7 @@
       "date": "2021-04-01",
       "values": {
         "vehicle_miles": 252.218,
-        "gas_supplied": 8839.0,
+        "gas_supplied": 8839,
         "auto_insurance_cpi": 567.509
       },
       "zscores": {
@@ -3802,7 +3802,7 @@
       "date": "2021-05-01",
       "values": {
         "vehicle_miles": 276.639,
-        "gas_supplied": 9081.0,
+        "gas_supplied": 9081,
         "auto_insurance_cpi": 569.01
       },
       "zscores": {
@@ -3816,7 +3816,7 @@
       "date": "2021-06-01",
       "values": {
         "vehicle_miles": 279.209,
-        "gas_supplied": 9362.0,
+        "gas_supplied": 9362,
         "auto_insurance_cpi": 569.656
       },
       "zscores": {
@@ -3835,7 +3835,7 @@
       "date": "2021-07-01",
       "values": {
         "vehicle_miles": 288.443,
-        "gas_supplied": 9297.0,
+        "gas_supplied": 9297,
         "auto_insurance_cpi": 567.463
       },
       "zscores": {
@@ -3849,7 +3849,7 @@
       "date": "2021-08-01",
       "values": {
         "vehicle_miles": 279.596,
-        "gas_supplied": 9182.0,
+        "gas_supplied": 9182,
         "auto_insurance_cpi": 566.183
       },
       "zscores": {
@@ -3863,7 +3863,7 @@
       "date": "2021-09-01",
       "values": {
         "vehicle_miles": 270.461,
-        "gas_supplied": 8932.0,
+        "gas_supplied": 8932,
         "auto_insurance_cpi": 566.211
       },
       "zscores": {
@@ -3877,7 +3877,7 @@
       "date": "2021-10-01",
       "values": {
         "vehicle_miles": 277.877,
-        "gas_supplied": 9027.0,
+        "gas_supplied": 9027,
         "auto_insurance_cpi": 564.507
       },
       "zscores": {
@@ -3891,7 +3891,7 @@
       "date": "2021-11-01",
       "values": {
         "vehicle_miles": 260.433,
-        "gas_supplied": 9021.0,
+        "gas_supplied": 9021,
         "auto_insurance_cpi": 568.239
       },
       "zscores": {
@@ -3905,7 +3905,7 @@
       "date": "2021-12-01",
       "values": {
         "vehicle_miles": 261.028,
-        "gas_supplied": 8879.0,
+        "gas_supplied": 8879,
         "auto_insurance_cpi": 567.875
       },
       "zscores": {
@@ -3919,7 +3919,7 @@
       "date": "2022-01-01",
       "values": {
         "vehicle_miles": 236.055,
-        "gas_supplied": 8062.0,
+        "gas_supplied": 8062,
         "auto_insurance_cpi": 574.042
       },
       "zscores": {
@@ -3933,7 +3933,7 @@
       "date": "2022-02-01",
       "values": {
         "vehicle_miles": 231.137,
-        "gas_supplied": 8650.0,
+        "gas_supplied": 8650,
         "auto_insurance_cpi": 584.317
       },
       "zscores": {
@@ -3947,7 +3947,7 @@
       "date": "2022-03-01",
       "values": {
         "vehicle_miles": 271.869,
-        "gas_supplied": 9005.0,
+        "gas_supplied": 9005,
         "auto_insurance_cpi": 589.143
       },
       "zscores": {
@@ -3961,7 +3961,7 @@
       "date": "2022-04-01",
       "values": {
         "vehicle_miles": 258.001,
-        "gas_supplied": 8799.0,
+        "gas_supplied": 8799,
         "auto_insurance_cpi": 592.317
       },
       "zscores": {
@@ -3975,7 +3975,7 @@
       "date": "2022-05-01",
       "values": {
         "vehicle_miles": 282.678,
-        "gas_supplied": 9119.0,
+        "gas_supplied": 9119,
         "auto_insurance_cpi": 594.437
       },
       "zscores": {
@@ -3989,7 +3989,7 @@
       "date": "2022-06-01",
       "values": {
         "vehicle_miles": 277.059,
-        "gas_supplied": 9075.0,
+        "gas_supplied": 9075,
         "auto_insurance_cpi": 603.932
       },
       "zscores": {
@@ -4003,7 +4003,7 @@
       "date": "2022-07-01",
       "values": {
         "vehicle_miles": 281.976,
-        "gas_supplied": 8812.0,
+        "gas_supplied": 8812,
         "auto_insurance_cpi": 609.585
       },
       "zscores": {
@@ -4017,7 +4017,7 @@
       "date": "2022-08-01",
       "values": {
         "vehicle_miles": 284.347,
-        "gas_supplied": 9115.0,
+        "gas_supplied": 9115,
         "auto_insurance_cpi": 615.559
       },
       "zscores": {
@@ -4031,7 +4031,7 @@
       "date": "2022-09-01",
       "values": {
         "vehicle_miles": 275.638,
-        "gas_supplied": 8847.0,
+        "gas_supplied": 8847,
         "auto_insurance_cpi": 624.558
       },
       "zscores": {
@@ -4045,7 +4045,7 @@
       "date": "2022-10-01",
       "values": {
         "vehicle_miles": 280.673,
-        "gas_supplied": 8807.0,
+        "gas_supplied": 8807,
         "auto_insurance_cpi": 637.103
       },
       "zscores": {
@@ -4059,7 +4059,7 @@
       "date": "2022-11-01",
       "values": {
         "vehicle_miles": 258.728,
-        "gas_supplied": 8827.0,
+        "gas_supplied": 8827,
         "auto_insurance_cpi": 644.317
       },
       "zscores": {
@@ -4073,7 +4073,7 @@
       "date": "2022-12-01",
       "values": {
         "vehicle_miles": 258.03,
-        "gas_supplied": 8596.0,
+        "gas_supplied": 8596,
         "auto_insurance_cpi": 648.771
       },
       "zscores": {
@@ -4087,7 +4087,7 @@
       "date": "2023-01-01",
       "values": {
         "vehicle_miles": 248.718,
-        "gas_supplied": 8291.0,
+        "gas_supplied": 8291,
         "auto_insurance_cpi": 658.513
       },
       "zscores": {
@@ -4101,7 +4101,7 @@
       "date": "2023-02-01",
       "values": {
         "vehicle_miles": 236.17,
-        "gas_supplied": 8695.0,
+        "gas_supplied": 8695,
         "auto_insurance_cpi": 668.806
       },
       "zscores": {
@@ -4115,7 +4115,7 @@
       "date": "2023-03-01",
       "values": {
         "vehicle_miles": 272.758,
-        "gas_supplied": 9077.0,
+        "gas_supplied": 9077,
         "auto_insurance_cpi": 677.445
       },
       "zscores": {
@@ -4129,7 +4129,7 @@
       "date": "2023-04-01",
       "values": {
         "vehicle_miles": 267.308,
-        "gas_supplied": 8944.0,
+        "gas_supplied": 8944,
         "auto_insurance_cpi": 684.166
       },
       "zscores": {
@@ -4143,7 +4143,7 @@
       "date": "2023-05-01",
       "values": {
         "vehicle_miles": 288.661,
-        "gas_supplied": 9080.0,
+        "gas_supplied": 9080,
         "auto_insurance_cpi": 695.929
       },
       "zscores": {
@@ -4157,7 +4157,7 @@
       "date": "2023-06-01",
       "values": {
         "vehicle_miles": 284.123,
-        "gas_supplied": 9366.0,
+        "gas_supplied": 9366,
         "auto_insurance_cpi": 705.717
       },
       "zscores": {
@@ -4171,7 +4171,7 @@
       "date": "2023-07-01",
       "values": {
         "vehicle_miles": 287.583,
-        "gas_supplied": 8979.0,
+        "gas_supplied": 8979,
         "auto_insurance_cpi": 717.799
       },
       "zscores": {
@@ -4185,7 +4185,7 @@
       "date": "2023-08-01",
       "values": {
         "vehicle_miles": 288.849,
-        "gas_supplied": 9244.0,
+        "gas_supplied": 9244,
         "auto_insurance_cpi": 733.141
       },
       "zscores": {
@@ -4199,7 +4199,7 @@
       "date": "2023-09-01",
       "values": {
         "vehicle_miles": 273.125,
-        "gas_supplied": 8843.0,
+        "gas_supplied": 8843,
         "auto_insurance_cpi": 742.292
       },
       "zscores": {
@@ -4213,7 +4213,7 @@
       "date": "2023-10-01",
       "values": {
         "vehicle_miles": 280.549,
-        "gas_supplied": 9100.0,
+        "gas_supplied": 9100,
         "auto_insurance_cpi": 759.704
       },
       "zscores": {
@@ -4227,7 +4227,7 @@
       "date": "2023-11-01",
       "values": {
         "vehicle_miles": 260.292,
-        "gas_supplied": 8910.0,
+        "gas_supplied": 8910,
         "auto_insurance_cpi": 768.249
       },
       "zscores": {
@@ -4241,7 +4241,7 @@
       "date": "2023-12-01",
       "values": {
         "vehicle_miles": 258.68,
-        "gas_supplied": 8796.0,
+        "gas_supplied": 8796,
         "auto_insurance_cpi": 780.284
       },
       "zscores": {
@@ -4255,7 +4255,7 @@
       "date": "2024-01-01",
       "values": {
         "vehicle_miles": 247.678,
-        "gas_supplied": 8290.0,
+        "gas_supplied": 8290,
         "auto_insurance_cpi": 794.142
       },
       "zscores": {
@@ -4269,7 +4269,7 @@
       "date": "2024-02-01",
       "values": {
         "vehicle_miles": 242.287,
-        "gas_supplied": 8659.0,
+        "gas_supplied": 8659,
         "auto_insurance_cpi": 806.444
       },
       "zscores": {
@@ -4283,7 +4283,7 @@
       "date": "2024-03-01",
       "values": {
         "vehicle_miles": 275.803,
-        "gas_supplied": 8937.0,
+        "gas_supplied": 8937,
         "auto_insurance_cpi": 827.852
       },
       "zscores": {
@@ -4297,7 +4297,7 @@
       "date": "2024-04-01",
       "values": {
         "vehicle_miles": 274.47,
-        "gas_supplied": 8869.0,
+        "gas_supplied": 8869,
         "auto_insurance_cpi": 839.077
       },
       "zscores": {
@@ -4311,7 +4311,7 @@
       "date": "2024-05-01",
       "values": {
         "vehicle_miles": 293.754,
-        "gas_supplied": 9391.0,
+        "gas_supplied": 9391,
         "auto_insurance_cpi": 836.941
       },
       "zscores": {
@@ -4325,7 +4325,7 @@
       "date": "2024-06-01",
       "values": {
         "vehicle_miles": 284.25,
-        "gas_supplied": 9199.0,
+        "gas_supplied": 9199,
         "auto_insurance_cpi": 843.579
       },
       "zscores": {
@@ -4344,7 +4344,7 @@
       "date": "2024-07-01",
       "values": {
         "vehicle_miles": 292.266,
-        "gas_supplied": 9318.0,
+        "gas_supplied": 9318,
         "auto_insurance_cpi": 851.007
       },
       "zscores": {
@@ -4358,7 +4358,7 @@
       "date": "2024-08-01",
       "values": {
         "vehicle_miles": 293.332,
-        "gas_supplied": 9257.0,
+        "gas_supplied": 9257,
         "auto_insurance_cpi": 854.307
       },
       "zscores": {
@@ -4372,7 +4372,7 @@
       "date": "2024-09-01",
       "values": {
         "vehicle_miles": 274.144,
-        "gas_supplied": 8983.0,
+        "gas_supplied": 8983,
         "auto_insurance_cpi": 863.292
       },
       "zscores": {
@@ -4386,7 +4386,7 @@
       "date": "2024-10-01",
       "values": {
         "vehicle_miles": 289.477,
-        "gas_supplied": 9070.0,
+        "gas_supplied": 9070,
         "auto_insurance_cpi": 865.985
       },
       "zscores": {
@@ -4400,7 +4400,7 @@
       "date": "2024-11-01",
       "values": {
         "vehicle_miles": 262.354,
-        "gas_supplied": 8832.0,
+        "gas_supplied": 8832,
         "auto_insurance_cpi": 866.133
       },
       "zscores": {
@@ -4414,7 +4414,7 @@
       "date": "2024-12-01",
       "values": {
         "vehicle_miles": 264.216,
-        "gas_supplied": 8773.0,
+        "gas_supplied": 8773,
         "auto_insurance_cpi": 868.417
       },
       "zscores": {
@@ -4428,7 +4428,7 @@
       "date": "2025-01-01",
       "values": {
         "vehicle_miles": 252.454,
-        "gas_supplied": 8442.0,
+        "gas_supplied": 8442,
         "auto_insurance_cpi": 887.651
       },
       "zscores": {
@@ -4442,7 +4442,7 @@
       "date": "2025-02-01",
       "values": {
         "vehicle_miles": 238.728,
-        "gas_supplied": 8676.0,
+        "gas_supplied": 8676,
         "auto_insurance_cpi": 895.97
       },
       "zscores": {
@@ -4456,7 +4456,7 @@
       "date": "2025-03-01",
       "values": {
         "vehicle_miles": 278.787,
-        "gas_supplied": 8758.0,
+        "gas_supplied": 8758,
         "auto_insurance_cpi": 890.353
       },
       "zscores": {
@@ -4470,7 +4470,7 @@
       "date": "2025-04-01",
       "values": {
         "vehicle_miles": 278.631,
-        "gas_supplied": 8921.0,
+        "gas_supplied": 8921,
         "auto_insurance_cpi": 892.553
       },
       "zscores": {
@@ -4484,7 +4484,7 @@
       "date": "2025-05-01",
       "values": {
         "vehicle_miles": 295.214,
-        "gas_supplied": 9067.0,
+        "gas_supplied": 9067,
         "auto_insurance_cpi": 895.262
       },
       "zscores": {
@@ -4498,7 +4498,7 @@
       "date": "2025-06-01",
       "values": {
         "vehicle_miles": 286.872,
-        "gas_supplied": 9394.0,
+        "gas_supplied": 9394,
         "auto_insurance_cpi": 895.281
       },
       "zscores": {
@@ -4512,7 +4512,7 @@
       "date": "2025-07-01",
       "values": {
         "vehicle_miles": 297.161,
-        "gas_supplied": 9177.0,
+        "gas_supplied": 9177,
         "auto_insurance_cpi": 896.018
       },
       "zscores": {
@@ -4526,7 +4526,7 @@
       "date": "2025-08-01",
       "values": {
         "vehicle_miles": 295.94,
-        "gas_supplied": 9240.0,
+        "gas_supplied": 9240,
         "auto_insurance_cpi": 894.075
       },
       "zscores": {
@@ -4540,7 +4540,7 @@
       "date": "2025-09-01",
       "values": {
         "vehicle_miles": 279.611,
-        "gas_supplied": 9012.0,
+        "gas_supplied": 9012,
         "auto_insurance_cpi": 890.473
       },
       "zscores": {
@@ -4554,7 +4554,7 @@
       "date": "2025-10-01",
       "values": {
         "vehicle_miles": 291.54,
-        "gas_supplied": 8942.0,
+        "gas_supplied": 8942,
         "auto_insurance_cpi": 891.275
       },
       "zscores": {
@@ -4568,7 +4568,7 @@
       "date": "2025-11-01",
       "values": {
         "vehicle_miles": 263.138,
-        "gas_supplied": 8714.0,
+        "gas_supplied": 8714,
         "auto_insurance_cpi": 892.077
       },
       "zscores": {
@@ -4582,7 +4582,7 @@
       "date": "2025-12-01",
       "values": {
         "vehicle_miles": 265.855,
-        "gas_supplied": 8858.0,
+        "gas_supplied": 8858,
         "auto_insurance_cpi": 892.879
       },
       "zscores": {
@@ -4596,7 +4596,7 @@
       "date": "2026-01-01",
       "values": {
         "vehicle_miles": 252.805,
-        "gas_supplied": 8258.0,
+        "gas_supplied": 8258,
         "auto_insurance_cpi": 892.491
       },
       "zscores": {
@@ -4610,7 +4610,7 @@
       "date": "2026-02-01",
       "values": {
         "vehicle_miles": 244.934,
-        "gas_supplied": 8586.0,
+        "gas_supplied": 8586,
         "auto_insurance_cpi": 897.406
       },
       "zscores": {
@@ -4624,7 +4624,7 @@
       "date": "2026-03-01",
       "values": {
         "vehicle_miles": 283.246,
-        "gas_supplied": 8853.0,
+        "gas_supplied": 8853,
         "auto_insurance_cpi": 897.145
       },
       "zscores": {
@@ -4638,7 +4638,7 @@
       "date": "2026-04-01",
       "values": {
         "vehicle_miles": 280.116,
-        "gas_supplied": 9123.0,
+        "gas_supplied": 9123,
         "auto_insurance_cpi": 894.315
       },
       "zscores": {
@@ -4652,7 +4652,7 @@
       "date": "2026-05-01",
       "values": {
         "vehicle_miles": 293.169,
-        "gas_supplied": 8682.0,
+        "gas_supplied": 8682,
         "auto_insurance_cpi": 877.278
       },
       "zscores": {
@@ -4666,7 +4666,7 @@
       "date": "2026-06-01",
       "values": {
         "vehicle_miles": 289.387,
-        "gas_supplied": 8917.0,
+        "gas_supplied": 8917,
         "auto_insurance_cpi": 858.481
       },
       "zscores": {
@@ -4680,7 +4680,7 @@
       "date": "2026-07-01",
       "values": {
         "vehicle_miles": 297.77,
-        "gas_supplied": 8946.0,
+        "gas_supplied": 8946,
         "auto_insurance_cpi": 856.08
       },
       "zscores": {

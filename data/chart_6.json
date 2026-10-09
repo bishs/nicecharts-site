@@ -2,10 +2,10 @@
   "metadata": {
     "chart_id": "chart_6",
     "number": 6,
-    "title": "Clean Grid Penetration vs. Industrial Power Costs",
+    "title": "More Wind and Solar: Do Factories Pay More for Power?",
     "section": "Section A: Cross-Platform & Cross-Agency Correlations",
     "section_id": "section_a",
-    "visual_form": "Connected Animated Scatterplot with Localized Time Vector Trails",
+    "visual_form": "A moving dot across four zones",
     "agencies": [
       "BLS",
       "EIA"
@@ -201,8 +201,8 @@
         "industrial_power_ppi": 148.9
       },
       "zscores": {
-        "renewable_share": 0.0,
-        "industrial_power_ppi": 0.0
+        "renewable_share": 0,
+        "industrial_power_ppi": 0
       },
       "events": []
     },
@@ -210,11 +210,11 @@
       "date": "2005-02-01",
       "values": {
         "renewable_share": 0.328,
-        "industrial_power_ppi": 148.0
+        "industrial_power_ppi": 148
       },
       "zscores": {
-        "renewable_share": -1.0,
-        "industrial_power_ppi": -1.0
+        "renewable_share": -1,
+        "industrial_power_ppi": -1
       },
       "events": []
     },
@@ -342,7 +342,7 @@
       "date": "2006-01-01",
       "values": {
         "renewable_share": 0.729,
-        "industrial_power_ppi": 167.0
+        "industrial_power_ppi": 167
       },
       "zscores": {
         "renewable_share": 2.088,
@@ -438,7 +438,7 @@
       "date": "2006-09-01",
       "values": {
         "renewable_share": 0.582,
-        "industrial_power_ppi": 181.0
+        "industrial_power_ppi": 181
       },
       "zscores": {
         "renewable_share": 0.299,
@@ -558,7 +558,7 @@
       "date": "2007-07-01",
       "values": {
         "renewable_share": 0.571,
-        "industrial_power_ppi": 187.0
+        "industrial_power_ppi": 187
       },
       "zscores": {
         "renewable_share": -0.287,
@@ -618,7 +618,7 @@
       "date": "2007-12-01",
       "values": {
         "renewable_share": 1.009,
-        "industrial_power_ppi": 180.0
+        "industrial_power_ppi": 180
       },
       "zscores": {
         "renewable_share": 1.659,
@@ -642,7 +642,7 @@
       "date": "2008-02-01",
       "values": {
         "renewable_share": 1.196,
-        "industrial_power_ppi": 180.0
+        "industrial_power_ppi": 180
       },
       "zscores": {
         "renewable_share": 2.161,
@@ -738,7 +738,7 @@
       "date": "2008-10-01",
       "values": {
         "renewable_share": 1.512,
-        "industrial_power_ppi": 193.0
+        "industrial_power_ppi": 193
       },
       "zscores": {
         "renewable_share": 1.86,
@@ -894,7 +894,7 @@
       "date": "2009-11-01",
       "values": {
         "renewable_share": 2.331,
-        "industrial_power_ppi": 186.0
+        "industrial_power_ppi": 186
       },
       "zscores": {
         "renewable_share": 1.838,
@@ -906,7 +906,7 @@
       "date": "2009-12-01",
       "values": {
         "renewable_share": 1.976,
-        "industrial_power_ppi": 186.0
+        "industrial_power_ppi": 186
       },
       "zscores": {
         "renewable_share": 1.109,
@@ -942,7 +942,7 @@
       "date": "2010-03-01",
       "values": {
         "renewable_share": 2.776,
-        "industrial_power_ppi": 189.0
+        "industrial_power_ppi": 189
       },
       "zscores": {
         "renewable_share": 2.311,
@@ -966,7 +966,7 @@
       "date": "2010-05-01",
       "values": {
         "renewable_share": 2.699,
-        "industrial_power_ppi": 192.0
+        "industrial_power_ppi": 192
       },
       "zscores": {
         "renewable_share": 1.672,
@@ -1014,7 +1014,7 @@
       "date": "2010-09-01",
       "values": {
         "renewable_share": 2.093,
-        "industrial_power_ppi": 200.0
+        "industrial_power_ppi": 200
       },
       "zscores": {
         "renewable_share": 0.607,
@@ -1086,7 +1086,7 @@
       "date": "2011-03-01",
       "values": {
         "renewable_share": 3.347,
-        "industrial_power_ppi": 195.0
+        "industrial_power_ppi": 195
       },
       "zscores": {
         "renewable_share": 1.997,
@@ -1182,7 +1182,7 @@
       "date": "2011-11-01",
       "values": {
         "renewable_share": 4.126,
-        "industrial_power_ppi": 204.0
+        "industrial_power_ppi": 204
       },
       "zscores": {
         "renewable_share": 2.271,
@@ -1379,7 +1379,7 @@
       "date": "2013-03-01",
       "values": {
         "renewable_share": 5.032,
-        "industrial_power_ppi": 199.0
+        "industrial_power_ppi": 199
       },
       "zscores": {
         "renewable_share": 1.894,
@@ -1475,7 +1475,7 @@
       "date": "2013-11-01",
       "values": {
         "renewable_share": 5.286,
-        "industrial_power_ppi": 199.0
+        "industrial_power_ppi": 199
       },
       "zscores": {
         "renewable_share": 1.594,
@@ -1559,7 +1559,7 @@
       "date": "2014-06-01",
       "values": {
         "renewable_share": 4.953,
-        "industrial_power_ppi": 224.0
+        "industrial_power_ppi": 224
       },
       "zscores": {
         "renewable_share": 0.77,
@@ -1607,7 +1607,7 @@
       "date": "2014-10-01",
       "values": {
         "renewable_share": 5.159,
-        "industrial_power_ppi": 217.0
+        "industrial_power_ppi": 217
       },
       "zscores": {
         "renewable_share": 0.917,
@@ -1691,7 +1691,7 @@
       "date": "2015-05-01",
       "values": {
         "renewable_share": 6.101,
-        "industrial_power_ppi": 217.0
+        "industrial_power_ppi": 217
       },
       "zscores": {
         "renewable_share": 1.346,
@@ -1875,7 +1875,7 @@
       },
       "zscores": {
         "renewable_share": -0.859,
-        "industrial_power_ppi": 1.0
+        "industrial_power_ppi": 1
       },
       "events": []
     },
@@ -1991,7 +1991,7 @@
       "date": "2017-06-01",
       "values": {
         "renewable_share": 7.322,
-        "industrial_power_ppi": 251.0
+        "industrial_power_ppi": 251
       },
       "zscores": {
         "renewable_share": 0.676,
@@ -2027,7 +2027,7 @@
       "date": "2017-09-01",
       "values": {
         "renewable_share": 6.837,
-        "industrial_power_ppi": 249.0
+        "industrial_power_ppi": 249
       },
       "zscores": {
         "renewable_share": 0.321,
@@ -2099,7 +2099,7 @@
       "date": "2018-03-01",
       "values": {
         "renewable_share": 9.796,
-        "industrial_power_ppi": 241.0
+        "industrial_power_ppi": 241
       },
       "zscores": {
         "renewable_share": 1.751,
@@ -2207,7 +2207,7 @@
       "date": "2018-12-01",
       "values": {
         "renewable_share": 8.01,
-        "industrial_power_ppi": 241.0
+        "industrial_power_ppi": 241
       },
       "zscores": {
         "renewable_share": 0.333,
@@ -2231,7 +2231,7 @@
       "date": "2019-02-01",
       "values": {
         "renewable_share": 8.392,
-        "industrial_power_ppi": 244.0
+        "industrial_power_ppi": 244
       },
       "zscores": {
         "renewable_share": 0.531,
@@ -2399,7 +2399,7 @@
       "date": "2020-04-01",
       "values": {
         "renewable_share": 13.462,
-        "industrial_power_ppi": 233.0
+        "industrial_power_ppi": 233
       },
       "zscores": {
         "renewable_share": 2.697,
@@ -3261,7 +3261,7 @@
       "date": "2026-03-01",
       "values": {
         "renewable_share": 23.288,
-        "industrial_power_ppi": 307.0
+        "industrial_power_ppi": 307
       },
       "zscores": {
         "renewable_share": 2.27,
