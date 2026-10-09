@@ -1,0 +1,1235 @@
+{
+  "metadata": {
+    "chart_id": "chart_31",
+    "number": 31,
+    "title": "How Much Warmer Is the Earth?",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Year-by-year warming bars",
+    "agencies": [
+      "NASA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 1880,
+    "end_year": 2025,
+    "observation_count": 146,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2025",
+    "data_notes": "NASA GISS Surface Temperature Analysis, version 4."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "temp",
+      "agency": "NASA",
+      "series_id": "GISTEMP v4 GLB.Ts+dSST",
+      "label": "Global temperature vs 1951\u20131980 average",
+      "unit": "\u00b0C",
+      "transform": "raw",
+      "color": "#ef4444"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1880-01-01",
+      "values": {
+        "temp": -0.17
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1881-01-01",
+      "values": {
+        "temp": -0.09
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1882-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1883-01-01",
+      "values": {
+        "temp": -0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1884-01-01",
+      "values": {
+        "temp": -0.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1885-01-01",
+      "values": {
+        "temp": -0.33
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1886-01-01",
+      "values": {
+        "temp": -0.31
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1887-01-01",
+      "values": {
+        "temp": -0.36
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1888-01-01",
+      "values": {
+        "temp": -0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1889-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1890-01-01",
+      "values": {
+        "temp": -0.36
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1891-01-01",
+      "values": {
+        "temp": -0.22
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1892-01-01",
+      "values": {
+        "temp": -0.27
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1893-01-01",
+      "values": {
+        "temp": -0.31
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1894-01-01",
+      "values": {
+        "temp": -0.3
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1895-01-01",
+      "values": {
+        "temp": -0.23
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1896-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1897-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1898-01-01",
+      "values": {
+        "temp": -0.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1899-01-01",
+      "values": {
+        "temp": -0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1900-01-01",
+      "values": {
+        "temp": -0.08
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1901-01-01",
+      "values": {
+        "temp": -0.16
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1902-01-01",
+      "values": {
+        "temp": -0.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1903-01-01",
+      "values": {
+        "temp": -0.37
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1904-01-01",
+      "values": {
+        "temp": -0.47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1905-01-01",
+      "values": {
+        "temp": -0.26
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1906-01-01",
+      "values": {
+        "temp": -0.22
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1907-01-01",
+      "values": {
+        "temp": -0.38
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1908-01-01",
+      "values": {
+        "temp": -0.42
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1909-01-01",
+      "values": {
+        "temp": -0.48
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1910-01-01",
+      "values": {
+        "temp": -0.44
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1911-01-01",
+      "values": {
+        "temp": -0.44
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1912-01-01",
+      "values": {
+        "temp": -0.37
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1913-01-01",
+      "values": {
+        "temp": -0.34
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1914-01-01",
+      "values": {
+        "temp": -0.15
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1915-01-01",
+      "values": {
+        "temp": -0.14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1916-01-01",
+      "values": {
+        "temp": -0.36
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1917-01-01",
+      "values": {
+        "temp": -0.46
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1918-01-01",
+      "values": {
+        "temp": -0.3
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1919-01-01",
+      "values": {
+        "temp": -0.27
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1920-01-01",
+      "values": {
+        "temp": -0.27
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1921-01-01",
+      "values": {
+        "temp": -0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1922-01-01",
+      "values": {
+        "temp": -0.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1923-01-01",
+      "values": {
+        "temp": -0.26
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1924-01-01",
+      "values": {
+        "temp": -0.27
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1925-01-01",
+      "values": {
+        "temp": -0.22
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1926-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1927-01-01",
+      "values": {
+        "temp": -0.22
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1928-01-01",
+      "values": {
+        "temp": -0.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1929-01-01",
+      "values": {
+        "temp": -0.36
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1930-01-01",
+      "values": {
+        "temp": -0.15
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1931-01-01",
+      "values": {
+        "temp": -0.09
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1932-01-01",
+      "values": {
+        "temp": -0.16
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1933-01-01",
+      "values": {
+        "temp": -0.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1934-01-01",
+      "values": {
+        "temp": -0.13
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1935-01-01",
+      "values": {
+        "temp": -0.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1936-01-01",
+      "values": {
+        "temp": -0.15
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1937-01-01",
+      "values": {
+        "temp": -0.03
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1938-01-01",
+      "values": {
+        "temp": 0.0
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1939-01-01",
+      "values": {
+        "temp": -0.02
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1940-01-01",
+      "values": {
+        "temp": 0.12
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1941-01-01",
+      "values": {
+        "temp": 0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1942-01-01",
+      "values": {
+        "temp": 0.06
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1943-01-01",
+      "values": {
+        "temp": 0.09
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1944-01-01",
+      "values": {
+        "temp": 0.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1945-01-01",
+      "values": {
+        "temp": 0.09
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1946-01-01",
+      "values": {
+        "temp": -0.07
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1947-01-01",
+      "values": {
+        "temp": -0.03
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1948-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1949-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1950-01-01",
+      "values": {
+        "temp": -0.17
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1951-01-01",
+      "values": {
+        "temp": -0.07
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1952-01-01",
+      "values": {
+        "temp": 0.01
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1953-01-01",
+      "values": {
+        "temp": 0.08
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1954-01-01",
+      "values": {
+        "temp": -0.13
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1955-01-01",
+      "values": {
+        "temp": -0.14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1956-01-01",
+      "values": {
+        "temp": -0.19
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1957-01-01",
+      "values": {
+        "temp": 0.05
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1958-01-01",
+      "values": {
+        "temp": 0.06
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1959-01-01",
+      "values": {
+        "temp": 0.03
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1960-01-01",
+      "values": {
+        "temp": -0.02
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1961-01-01",
+      "values": {
+        "temp": 0.06
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1962-01-01",
+      "values": {
+        "temp": 0.03
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1963-01-01",
+      "values": {
+        "temp": 0.05
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1964-01-01",
+      "values": {
+        "temp": -0.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1965-01-01",
+      "values": {
+        "temp": -0.11
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1966-01-01",
+      "values": {
+        "temp": -0.06
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1967-01-01",
+      "values": {
+        "temp": -0.02
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1968-01-01",
+      "values": {
+        "temp": -0.08
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1969-01-01",
+      "values": {
+        "temp": 0.05
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1970-01-01",
+      "values": {
+        "temp": 0.03
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1971-01-01",
+      "values": {
+        "temp": -0.08
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1972-01-01",
+      "values": {
+        "temp": 0.01
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1973-01-01",
+      "values": {
+        "temp": 0.16
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1974-01-01",
+      "values": {
+        "temp": -0.07
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1975-01-01",
+      "values": {
+        "temp": -0.01
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1976-01-01",
+      "values": {
+        "temp": -0.1
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1977-01-01",
+      "values": {
+        "temp": 0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1978-01-01",
+      "values": {
+        "temp": 0.07
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1979-01-01",
+      "values": {
+        "temp": 0.16
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1980-01-01",
+      "values": {
+        "temp": 0.26
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1981-01-01",
+      "values": {
+        "temp": 0.32
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1982-01-01",
+      "values": {
+        "temp": 0.14
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1983-01-01",
+      "values": {
+        "temp": 0.31
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1984-01-01",
+      "values": {
+        "temp": 0.16
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1985-01-01",
+      "values": {
+        "temp": 0.12
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1986-01-01",
+      "values": {
+        "temp": 0.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1987-01-01",
+      "values": {
+        "temp": 0.32
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1988-01-01",
+      "values": {
+        "temp": 0.39
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1989-01-01",
+      "values": {
+        "temp": 0.27
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1990-01-01",
+      "values": {
+        "temp": 0.45
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1991-01-01",
+      "values": {
+        "temp": 0.41
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1992-01-01",
+      "values": {
+        "temp": 0.22
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1993-01-01",
+      "values": {
+        "temp": 0.23
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1994-01-01",
+      "values": {
+        "temp": 0.31
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1995-01-01",
+      "values": {
+        "temp": 0.45
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1996-01-01",
+      "values": {
+        "temp": 0.33
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1997-01-01",
+      "values": {
+        "temp": 0.47
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1998-01-01",
+      "values": {
+        "temp": 0.61
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "1999-01-01",
+      "values": {
+        "temp": 0.38
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2000-01-01",
+      "values": {
+        "temp": 0.39
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2001-01-01",
+      "values": {
+        "temp": 0.53
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2002-01-01",
+      "values": {
+        "temp": 0.63
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2003-01-01",
+      "values": {
+        "temp": 0.62
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2004-01-01",
+      "values": {
+        "temp": 0.53
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2005-01-01",
+      "values": {
+        "temp": 0.68
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2006-01-01",
+      "values": {
+        "temp": 0.64
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2007-01-01",
+      "values": {
+        "temp": 0.66
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2008-01-01",
+      "values": {
+        "temp": 0.54
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-01-01",
+      "values": {
+        "temp": 0.66
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-01-01",
+      "values": {
+        "temp": 0.72
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-01-01",
+      "values": {
+        "temp": 0.61
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-01-01",
+      "values": {
+        "temp": 0.65
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-01-01",
+      "values": {
+        "temp": 0.67
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-01-01",
+      "values": {
+        "temp": 0.75
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-01-01",
+      "values": {
+        "temp": 0.89
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-01-01",
+      "values": {
+        "temp": 1.01
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-01-01",
+      "values": {
+        "temp": 0.91
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-01-01",
+      "values": {
+        "temp": 0.85
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-01-01",
+      "values": {
+        "temp": 0.98
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-01-01",
+      "values": {
+        "temp": 1.01
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-01-01",
+      "values": {
+        "temp": 0.85
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-01-01",
+      "values": {
+        "temp": 0.89
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-01-01",
+      "values": {
+        "temp": 1.17
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-01-01",
+      "values": {
+        "temp": 1.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2025-01-01",
+      "values": {
+        "temp": 1.18
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Each bar is one year of the whole planet's average temperature, land and sea, compared with the 1951\u20131980 average.",
+    "methodology": "NASA GISTEMP v4 annual global mean (land and ocean). Values are differences from the 1951\u20131980 average, in \u00b0C. Only full years are shown.",
+    "key_findings": [
+      {
+        "date": "1909-01-01",
+        "title": "Coldest year: 1909",
+        "description": "1909 was 0.48\u00b0C colder than the 1951\u20131980 average.",
+        "significance": "low point",
+        "normalized_time": 0.2
+      },
+      {
+        "date": "1998-01-01",
+        "title": "1998: first year above +0.5\u00b0C",
+        "description": "In 1998 the planet was 0.61\u00b0C warmer than the 1951\u20131980 average.",
+        "significance": "milestone",
+        "normalized_time": 0.8138
+      },
+      {
+        "date": "2024-01-01",
+        "title": "Warmest year: 2024",
+        "description": "2024 was 1.28\u00b0C warmer than the 1951\u20131980 average.",
+        "significance": "record",
+        "normalized_time": 0.9931
+      }
+    ]
+  }
+}

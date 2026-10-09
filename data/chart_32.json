@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "chart_id": "chart_32",
+    "number": 32,
+    "title": "Hotter Summers, More Power Per Home",
+    "section": "NASA & Climate",
+    "section_id": "nasa",
+    "visual_form": "Two lines: summer heat vs electricity per home",
+    "agencies": [
+      "NOAA",
+      "EIA"
+    ],
+    "engine": "svg",
+    "frequency": "annual",
+    "base_year": 2008,
+    "end_year": 2025,
+    "observation_count": 18,
+    "data_status": "real",
+    "data_retrieved": "2026-10-09",
+    "latest_observation": "2025",
+    "data_notes": "Heat from NOAA (cooling degree days). Electricity per home from EIA (sales \u00f7 customers)."
+  },
+  "analytics": {
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "lag_profile": []
+  },
+  "series_manifest": [
+    {
+      "key": "heat",
+      "agency": "NOAA",
+      "series_id": "Climate at a Glance: US cooling degree days, Jun\u2013Aug",
+      "label": "Summer heat (cooling degree days)",
+      "unit": "degree days",
+      "transform": "raw",
+      "color": "#22d3ee"
+    },
+    {
+      "key": "kwh",
+      "agency": "EIA",
+      "series_id": "Retail sales, residential, US: sales \u00f7 customers, Jun\u2013Aug",
+      "label": "Electricity per home, Jun\u2013Aug",
+      "unit": "kWh",
+      "transform": "raw",
+      "color": "#fbbf24"
+    },
+    {
+      "key": "heat_pct",
+      "agency": "NOAA",
+      "series_id": "derived",
+      "label": "Summer heat vs average",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#22d3ee"
+    },
+    {
+      "key": "kwh_pct",
+      "agency": "EIA",
+      "series_id": "derived",
+      "label": "Electricity per home vs average",
+      "unit": "%",
+      "transform": "raw",
+      "color": "#fbbf24"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2008-07-01",
+      "values": {
+        "heat": 886.0,
+        "kwh": 3220.6,
+        "heat_pct": -6.78,
+        "kwh_pct": -0.25
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2009-07-01",
+      "values": {
+        "heat": 826.0,
+        "kwh": 3112.4,
+        "heat_pct": -13.09,
+        "kwh_pct": -3.6
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2010-07-01",
+      "values": {
+        "heat": 1019.0,
+        "kwh": 3464.4,
+        "heat_pct": 7.22,
+        "kwh_pct": 7.3
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2011-07-01",
+      "values": {
+        "heat": 1024.0,
+        "kwh": 3436.2,
+        "heat_pct": 7.75,
+        "kwh_pct": 6.43
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2012-07-01",
+      "values": {
+        "heat": 969.0,
+        "kwh": 3347.7,
+        "heat_pct": 1.96,
+        "kwh_pct": 3.69
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2013-07-01",
+      "values": {
+        "heat": 879.0,
+        "kwh": 3126.0,
+        "heat_pct": -7.51,
+        "kwh_pct": -3.18
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2014-07-01",
+      "values": {
+        "heat": 840.0,
+        "kwh": 3033.6,
+        "heat_pct": -11.62,
+        "kwh_pct": -6.04
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2015-07-01",
+      "values": {
+        "heat": 909.0,
+        "kwh": 3161.4,
+        "heat_pct": -4.35,
+        "kwh_pct": -2.08
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2016-07-01",
+      "values": {
+        "heat": 1018.0,
+        "kwh": 3322.7,
+        "heat_pct": 7.11,
+        "kwh_pct": 2.92
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2017-07-01",
+      "values": {
+        "heat": 896.0,
+        "kwh": 3122.6,
+        "heat_pct": -5.72,
+        "kwh_pct": -3.28
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2018-07-01",
+      "values": {
+        "heat": 996.0,
+        "kwh": 3258.8,
+        "heat_pct": 4.8,
+        "kwh_pct": 0.93
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2019-07-01",
+      "values": {
+        "heat": 934.0,
+        "kwh": 3130.7,
+        "heat_pct": -1.72,
+        "kwh_pct": -3.03
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2020-07-01",
+      "values": {
+        "heat": 998.0,
+        "kwh": 3339.4,
+        "heat_pct": 5.01,
+        "kwh_pct": 3.43
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2021-07-01",
+      "values": {
+        "heat": 975.0,
+        "kwh": 3203.0,
+        "heat_pct": 2.59,
+        "kwh_pct": -0.79
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2022-07-01",
+      "values": {
+        "heat": 1016.0,
+        "kwh": 3290.1,
+        "heat_pct": 6.9,
+        "kwh_pct": 1.91
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2023-07-01",
+      "values": {
+        "heat": 940.0,
+        "kwh": 3125.1,
+        "heat_pct": -1.09,
+        "kwh_pct": -3.2
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2024-07-01",
+      "values": {
+        "heat": 1015.0,
+        "kwh": 3228.8,
+        "heat_pct": 6.8,
+        "kwh_pct": 0.0
+      },
+      "zscores": {},
+      "events": []
+    },
+    {
+      "date": "2025-07-01",
+      "values": {
+        "heat": 967.0,
+        "kwh": 3191.4,
+        "heat_pct": 1.75,
+        "kwh_pct": -1.15
+      },
+      "zscores": {},
+      "events": []
+    }
+  ],
+  "explanation": {
+    "summary": "Each summer (June to August), how hot the US was and how much electricity an average home used. In 16 of 17 years, both went up or down together.",
+    "methodology": "Heat: NOAA cooling degree days for the contiguous US, summed over June to August. A cooling degree day counts how far a day's average temperature is above 65\u00b0F, so it measures how much cooling homes need. Power: EIA residential electricity sales divided by the number of residential customers, summed over June to August. Using use per home removes the effect of more homes being built. Correlation of the year-to-year changes: 0.96 (1.0 would be a perfect match). EIA customer counts start in 2008.",
+    "key_findings": [
+      {
+        "date": "2009-07-01",
+        "title": "Mildest summer: 2009",
+        "description": "The average home used 3,112 kWh from June to August.",
+        "significance": "low point",
+        "normalized_time": 0.0588
+      },
+      {
+        "date": "2011-07-01",
+        "title": "Hottest summer: 2011",
+        "description": "The average home used 3,436 kWh from June to August.",
+        "significance": "high point",
+        "normalized_time": 0.1765
+      }
+    ]
+  }
+}
