@@ -15,7 +15,7 @@
     "end_year": 2025,
     "observation_count": 46,
     "data_status": "real",
-    "data_retrieved": "2026-10-09",
+    "data_retrieved": "2026-10-13",
     "latest_observation": "2025",
     "data_notes": "NASA/JPL Small-Body Database (first observation date)."
   },
@@ -345,8 +345,8 @@
     {
       "date": "2013-01-01",
       "values": {
-        "n": 1177,
-        "big": 477
+        "n": 1178,
+        "big": 478
       },
       "zscores": {},
       "events": []
@@ -363,7 +363,7 @@
     {
       "date": "2015-01-01",
       "values": {
-        "n": 1683,
+        "n": 1684,
         "big": 570
       },
       "zscores": {},
@@ -399,8 +399,8 @@
     {
       "date": "2019-01-01",
       "values": {
-        "n": 2307,
-        "big": 371
+        "n": 2308,
+        "big": 372
       },
       "zscores": {},
       "events": []
@@ -435,8 +435,8 @@
     {
       "date": "2023-01-01",
       "values": {
-        "n": 2785,
-        "big": 315
+        "n": 2783,
+        "big": 314
       },
       "zscores": {},
       "events": []

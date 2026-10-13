@@ -16,7 +16,7 @@
     "end_year": 2025,
     "observation_count": 18,
     "data_status": "real",
-    "data_retrieved": "2026-10-09",
+    "data_retrieved": "2026-10-13",
     "latest_observation": "2025",
     "data_notes": "Heat from NOAA (cooling degree days). Electricity per home from EIA (sales \u00f7 customers)."
   },

@@ -509,8 +509,8 @@
     "key_findings_count": 3,
     "series_count": 4,
     "primary_series": [
-      "Center Latitude (°North)",
-      "Center Longitude (°West)",
+      "Center Latitude (\u00b0North)",
+      "Center Longitude (\u00b0West)",
       "Total Miles Shifted West Since 1790"
     ],
     "data_status": "real",
@@ -581,9 +581,9 @@
     "key_findings_count": 3,
     "series_count": 4,
     "primary_series": [
-      "California → Texas (Net People Moved per Year)",
-      "New York → Florida (Net People Moved per Year)",
-      "Illinois → Florida (Net People Moved per Year)"
+      "California \u2192 Texas (Net People Moved per Year)",
+      "New York \u2192 Florida (Net People Moved per Year)",
+      "Illinois \u2192 Florida (Net People Moved per Year)"
     ],
     "data_status": "real",
     "latest_observation": "2024-07"
@@ -745,11 +745,11 @@
     "engine": "svg",
     "time_range": "1880 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 3,
     "series_count": 1,
     "primary_series": [
-      "Global temperature vs 1951–1980 average"
+      "Global temperature vs 1951\u20131980 average"
     ],
     "data_status": "real",
     "latest_observation": "2025"
@@ -768,12 +768,12 @@
     "engine": "svg",
     "time_range": "2008 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 2,
     "series_count": 4,
     "primary_series": [
       "Summer heat (cooling degree days)",
-      "Electricity per home, Jun–Aug",
+      "Electricity per home, Jun\u2013Aug",
       "Summer heat vs average"
     ],
     "data_status": "real",
@@ -793,11 +793,11 @@
     "engine": "svg",
     "time_range": "1910 - 2020",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 1,
     "series_count": 4,
     "primary_series": [
-      "Planet temperature vs 1951–1980",
+      "Planet temperature vs 1951\u20131980",
       "Extreme heat (% of US)",
       "Extreme cold (% of US)"
     ],
@@ -818,7 +818,7 @@
     "engine": "svg",
     "time_range": "1979 - 2026",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 1,
     "series_count": 1,
     "primary_series": [
@@ -841,7 +841,7 @@
     "engine": "svg",
     "time_range": "1993 - 2024",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 0,
     "series_count": 1,
     "primary_series": [
@@ -863,7 +863,7 @@
     "engine": "svg",
     "time_range": "1980 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 1,
     "series_count": 2,
     "primary_series": [
@@ -886,7 +886,7 @@
     "engine": "svg",
     "time_range": "1995 - 2026",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 1,
     "series_count": 3,
     "primary_series": [
@@ -911,7 +911,7 @@
     "engine": "svg",
     "time_range": "1962 - 2025",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 1,
     "series_count": 1,
     "primary_series": [
@@ -923,10 +923,10 @@
   {
     "id": "chart_39",
     "number": 39,
-    "title": "CO₂ in the Air vs US Emissions",
+    "title": "CO\u2082 in the Air vs US Emissions",
     "section": "NASA & Climate",
     "section_id": "nasa",
-    "visual_form": "Two lines: CO₂ in the air vs US emissions",
+    "visual_form": "Two lines: CO\u2082 in the air vs US emissions",
     "agencies": [
       "NOAA",
       "EIA"
@@ -934,15 +934,39 @@
     "engine": "svg",
     "time_range": "1970 - 2022",
     "optimal_lag_months": 0,
-    "peak_correlation_coefficient": 0,
+    "peak_correlation_coefficient": 0.0,
     "key_findings_count": 1,
     "series_count": 4,
     "primary_series": [
-      "CO₂ in the air, change since 1970",
+      "CO\u2082 in the air, change since 1970",
       "US emissions, change since 1970",
-      "CO₂ in the air"
+      "CO\u2082 in the air"
     ],
     "data_status": "real",
     "latest_observation": "2022"
+  },
+  {
+    "id": "chart_40",
+    "number": 40,
+    "title": "Health Spending vs Life Expectancy",
+    "section": "Country Comparisons",
+    "section_id": "world",
+    "visual_form": "Bar race of health spending, with a life expectancy line in each bar",
+    "agencies": [
+      "World Bank"
+    ],
+    "engine": "svg",
+    "time_range": "2000 - 2023",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 32,
+    "primary_series": [
+      "United States: health spending per person",
+      "United States: life expectancy",
+      "Australia: health spending per person"
+    ],
+    "data_status": "real",
+    "latest_observation": "2023"
   }
 ]
