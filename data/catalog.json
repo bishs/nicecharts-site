@@ -968,5 +968,29 @@
     ],
     "data_status": "real",
     "latest_observation": "2023"
+  },
+  {
+    "id": "chart_41",
+    "number": 41,
+    "title": "How Hard Is It to Buy a Home?",
+    "section": "Country Comparisons",
+    "section_id": "world",
+    "visual_form": "Bar race of home prices compared with income",
+    "agencies": [
+      "OECD"
+    ],
+    "engine": "svg",
+    "time_range": "2000 - 2024",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 31,
+    "primary_series": [
+      "United States: home price vs income (100 = long-term average)",
+      "Australia: home price vs income (100 = long-term average)",
+      "Canada: home price vs income (100 = long-term average)"
+    ],
+    "data_status": "real",
+    "latest_observation": "2024"
   }
 ]
