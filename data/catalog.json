@@ -992,5 +992,30 @@
     ],
     "data_status": "real",
     "latest_observation": "2024"
+  },
+  {
+    "id": "chart_42",
+    "number": 42,
+    "title": "Where the Farm Aquifer Is Running Dry",
+    "section": "Section E: Energy, Climate & Natural Resources",
+    "section_id": "section_e",
+    "visual_form": "County map of water-level change, High Plains aquifer",
+    "agencies": [
+      "USGS",
+      "TWDB"
+    ],
+    "engine": "svg",
+    "time_range": "2005 - 2025",
+    "optimal_lag_months": 0,
+    "peak_correlation_coefficient": 0.0,
+    "key_findings_count": 1,
+    "series_count": 4,
+    "primary_series": [
+      "High Plains counties where water is lower than in 2000-04",
+      "High Plains counties with data",
+      "Median county drop in water level since 2000-04"
+    ],
+    "data_status": "real",
+    "latest_observation": "2025"
   }
 ]
