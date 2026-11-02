@@ -297,7 +297,7 @@
     }
   ],
   "explanation": {
-    "summary": "The High Plains (Ogallala) aquifer is the water under the farms from Nebraska to Texas. Each colored county shows how far its well water has fallen (red) or risen (blue) since 2000-04. Kansas is not shown yet: its state data service is offline.",
+    "summary": "The High Plains (Ogallala) aquifer is the water under the farms from Nebraska to Texas. Each colored county shows how far its well water has fallen (red) or risen (blue) since 2000-04.",
     "methodology": "Depth to water (USGS parameter 72019) in 5,931 wells: USGS wells in the High Plains aquifer with records from before 2004 to after 2022, and Texas Water Development Board Ogallala wells. Each well's change is its median depth in a year minus its median depth in 2000-2004. A county's value is the median of its wells. A county with no reading in a year keeps its last value.",
     "key_findings": [
       {
